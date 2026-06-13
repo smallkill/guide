@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>把 Codex 接上 Telegram:打造你自己的 AI 助理</title>
+<meta name="description" content="一篇中文實作教學:用 OpenAI Codex CLI 加上 Telegram,做出可從手機操作的個人 AI 助理。涵蓋 Codex 的 /plugins 外掛系統、第三方橋接工具(TeleCodex / OpenAB / Untether)、真實安裝步驟,以及計費與安全的避坑提醒。">
+<meta property="og:title" content="把 Codex 接上 Telegram:打造你自己的 AI 助理">
+<meta property="og:description" content="中文實作教學:Codex CLI + Telegram,從手機操作你的 AI 助理。含真實安裝步驟與避坑提醒。">
+<meta property="og:type" content="article">
+<style>
+  :root {
+    --bg: #0b0f14;
+    --bg-elev: #121822;
+    --bg-code: #0e141d;
+    --border: #1f2937;
+    --border-soft: #18212c;
+    --text: #e6edf3;
+    --text-muted: #93a1b0;
+    --text-dim: #8693a1;
+    --accent: #4cc2ff;
+    --accent-soft: rgba(76, 194, 255, 0.12);
+    --accent-border: rgba(76, 194, 255, 0.35);
+    --warn: #ffb454;
+    --warn-soft: rgba(255, 180, 84, 0.10);
+    --warn-border: rgba(255, 180, 84, 0.32);
+    --radius: 14px;
+    --radius-sm: 9px;
+    --maxw: 860px;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", Roboto, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    line-height: 1.75;
+    font-size: 17px;
+    letter-spacing: 0.01em;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; }
+
+  /* ---------- top progress + nav ---------- */
+  .topbar {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(11, 15, 20, 0.82);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .topbar-inner {
+    max-width: var(--maxw); margin: 0 auto; padding: 14px 22px;
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  }
+  .brandmark { display: flex; align-items: center; gap: 10px; font-weight: 650; font-size: 15px; letter-spacing: 0; }
+  .brandmark .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 12px var(--accent); flex: none; }
+  .topbar a.gh { font-size: 13.5px; color: var(--text-muted); font-family: var(--font-mono); }
+  /* pure CSS scroll-driven progress (no scroll listener); degrades to hidden if unsupported */
+  .progress { position: absolute; left: 0; bottom: -1px; height: 2px; width: 100%; background: var(--accent); transform: scaleX(0); transform-origin: left; }
+  @supports (animation-timeline: scroll()) {
+    .progress { animation: progressGrow linear both; animation-timeline: scroll(root block); }
+  }
+  @keyframes progressGrow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+  /* ---------- hero ---------- */
+  .hero { padding: 86px 0 46px; }
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 9px;
+    font-family: var(--font-mono); font-size: 12.5px; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--accent);
+    background: var(--accent-soft); border: 1px solid var(--accent-border);
+    padding: 6px 13px; border-radius: 999px; margin-bottom: 26px;
+  }
+  h1 {
+    font-size: clamp(2.1rem, 6vw, 3.3rem);
+    line-height: 1.12; letter-spacing: -0.02em; font-weight: 750;
+    margin-bottom: 20px;
+  }
+  h1 .hl { color: var(--accent); }
+  .lede { font-size: 1.16rem; color: var(--text-muted); max-width: 60ch; }
+  .meta-row {
+    margin-top: 30px; display: flex; flex-wrap: wrap; gap: 10px 18px;
+    font-family: var(--font-mono); font-size: 13px; color: var(--text-dim);
+  }
+  .meta-row span { display: inline-flex; align-items: center; gap: 7px; }
+
+  /* ---------- TL;DR card ---------- */
+  .tldr {
+    margin-top: 44px; background: var(--bg-elev);
+    border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 26px 28px;
+  }
+  .tldr h2 { font-size: 1.05rem; letter-spacing: 0; margin: 0 0 14px; color: var(--text); display: flex; align-items: center; gap: 10px; }
+  .tldr ul { list-style: none; display: grid; gap: 13px; }
+  .tldr li { position: relative; padding-left: 28px; color: var(--text-muted); font-size: 15.5px; line-height: 1.6; }
+  .tldr li::before {
+    content: ""; position: absolute; left: 4px; top: 9px;
+    width: 7px; height: 7px; border-radius: 2px; background: var(--accent);
+  }
+  .tldr li b { color: var(--text); font-weight: 650; }
+
+  /* ---------- sections ---------- */
+  section { padding: 52px 0; border-top: 1px solid var(--border-soft); }
+  .sec-num { font-family: var(--font-mono); font-size: 13px; color: var(--accent); letter-spacing: 0.08em; }
+  h2.sec { font-size: clamp(1.5rem, 3.6vw, 2.05rem); line-height: 1.2; letter-spacing: -0.015em; margin: 10px 0 8px; font-weight: 720; }
+  .sec-sub { color: var(--text-muted); font-size: 1.02rem; max-width: 64ch; margin-bottom: 26px; }
+  h3 { font-size: 1.2rem; margin: 34px 0 12px; letter-spacing: -0.01em; font-weight: 680; }
+  p { color: var(--text-muted); margin: 14px 0; }
+  p strong, li strong { color: var(--text); font-weight: 650; }
+  .body-list { margin: 14px 0 14px; padding-left: 4px; list-style: none; display: grid; gap: 11px; }
+  .body-list li { position: relative; padding-left: 24px; color: var(--text-muted); }
+  .body-list li::before { content: ""; position: absolute; left: 3px; top: 11px; width: 6px; height: 6px; border-radius: 50%; background: var(--text-dim); }
+
+  code.inl {
+    font-family: var(--font-mono); font-size: 0.875em;
+    background: var(--bg-code); border: 1px solid var(--border);
+    padding: 2px 7px; border-radius: 6px; color: #b9e6ff; white-space: nowrap;
+  }
+
+  /* ---------- code blocks ---------- */
+  .code {
+    position: relative; margin: 18px 0;
+    background: var(--bg-code); border: 1px solid var(--border);
+    border-radius: var(--radius-sm); overflow: hidden;
+  }
+  .code-head {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 9px 14px; border-bottom: 1px solid var(--border-soft);
+    font-family: var(--font-mono); font-size: 12px; color: var(--text-dim);
+    background: rgba(255,255,255,0.015);
+  }
+  .code-head .fname { color: var(--text-muted); }
+  .code pre { margin: 0; padding: 16px 16px; overflow-x: auto; }
+  .code code {
+    font-family: var(--font-mono); font-size: 13.5px; line-height: 1.7;
+    color: #d7e3ee; white-space: pre;
+  }
+  .code .cmt { color: #7c8b98; }
+  .code .tok { color: #8be9c0; }
+  .code .var { color: #ffd479; }
+
+  /* ---------- architecture diagram ---------- */
+  .flow {
+    margin: 26px 0; padding: 30px 22px;
+    background: var(--bg-elev); border: 1px solid var(--border); border-radius: var(--radius);
+    display: flex; align-items: stretch; justify-content: center; gap: 0; flex-wrap: wrap;
+  }
+  .node {
+    flex: 1 1 150px; min-width: 130px; text-align: center;
+    background: var(--bg-code); border: 1px solid var(--border);
+    border-radius: var(--radius-sm); padding: 16px 12px;
+  }
+  .node .nlabel { font-weight: 650; font-size: 15px; color: var(--text); }
+  .node .ndesc { font-size: 12.5px; color: var(--text-dim); font-family: var(--font-mono); margin-top: 5px; }
+  .node.accent { border-color: var(--accent-border); background: var(--accent-soft); }
+  .arrow {
+    flex: 0 0 auto; align-self: center; padding: 0 12px;
+    color: var(--accent); font-size: 22px; line-height: 1; font-family: var(--font-mono);
+  }
+  @media (max-width: 620px) {
+    .flow { flex-direction: column; gap: 0; }
+    .node { width: 100%; }
+    .arrow { padding: 8px 0; transform: rotate(90deg); }
+  }
+
+  /* ---------- bridge cards ---------- */
+  .cards { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 8px; }
+  @media (min-width: 720px) { .cards { grid-template-columns: 1fr 1fr; } .cards .feat { grid-column: 1 / -1; } }
+  .card {
+    background: var(--bg-elev); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 22px 22px;
+  }
+  .card.feat { border-color: var(--accent-border); }
+  .card .ctop { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+  .card h3 { margin: 0; font-size: 1.18rem; }
+  .tag {
+    font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
+    padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); color: var(--text-dim);
+  }
+  .tag.rec { color: var(--accent); border-color: var(--accent-border); background: var(--accent-soft); }
+  .card p { margin: 8px 0; font-size: 15px; }
+  .card .clink { font-family: var(--font-mono); font-size: 13px; }
+
+  /* ---------- callout ---------- */
+  .callout {
+    margin: 22px 0; border-radius: var(--radius);
+    border: 1px solid var(--warn-border); background: var(--warn-soft);
+    padding: 20px 22px;
+  }
+  .callout.info { border-color: var(--accent-border); background: var(--accent-soft); }
+  .callout h3 { margin: 0 0 8px; font-size: 1.05rem; color: var(--text); display: flex; align-items: center; gap: 9px; }
+  .callout .ico { color: var(--warn); font-family: var(--font-mono); font-weight: 700; }
+  .callout.info .ico { color: var(--accent); }
+  .callout p { margin: 8px 0; color: var(--text-muted); font-size: 15px; }
+  .callout b { color: var(--text); }
+
+  /* ---------- steps ---------- */
+  .steps { counter-reset: step; display: grid; gap: 4px; margin-top: 10px; }
+  .step { position: relative; padding: 6px 0 22px 50px; border-left: 1px solid var(--border); margin-left: 14px; }
+  .step:last-child { border-left-color: transparent; }
+  .step::before {
+    counter-increment: step; content: counter(step);
+    position: absolute; left: -15px; top: 0;
+    width: 30px; height: 30px; border-radius: 50%;
+    background: var(--bg-elev); border: 1px solid var(--accent-border); color: var(--accent);
+    font-family: var(--font-mono); font-size: 14px; font-weight: 600;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .step h4 { font-size: 1.06rem; margin: 2px 0 6px; color: var(--text); font-weight: 650; }
+  .step p { margin: 6px 0; font-size: 15px; }
+
+  /* ---------- footer ---------- */
+  footer { border-top: 1px solid var(--border-soft); padding: 44px 0 70px; }
+  footer .sources { font-size: 14px; color: var(--text-muted); }
+  footer .sources h3 { font-size: 1rem; margin-bottom: 12px; color: var(--text); }
+  footer .sources ul { list-style: none; display: grid; gap: 8px; }
+  footer .sources li { font-family: var(--font-mono); font-size: 13px; }
+  footer .disclaim {
+    margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--border-soft);
+    font-size: 13px; color: var(--text-dim); line-height: 1.7;
+  }
+  footer .sig { margin-top: 16px; font-family: var(--font-mono); font-size: 13px; color: var(--text-dim); }
+
+  /* ---------- reveal motion ---------- */
+  .reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.6s cubic-bezier(0.16,1,0.3,1), transform 0.6s cubic-bezier(0.16,1,0.3,1); }
+  .reveal.in { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .reveal { opacity: 1; transform: none; transition: none; }
+    .progress { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brandmark"><span class="dot"></span> Codex × Telegram 中文教學</div>
+    <a class="gh" href="https://github.com/openai/codex" target="_blank" rel="noopener">openai/codex ↗</a>
+  </div>
+  <div class="progress" id="progress"></div>
+</div>
+
+<main>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="wrap">
+      <span class="eyebrow">實作教學 · 2026</span>
+      <h1>把 Codex 接上 Telegram,<br>打造你自己的 <span class="hl">AI 助理</span></h1>
+      <p class="lede">用 OpenAI 的 Codex CLI 加上一個 Telegram bot,就能從手機隨時下指令、看進度。這篇用最少廢話帶你走完:原生外掛系統、現成的橋接工具、真實安裝步驟,還有最容易讓人吃虧的計費與安全。</p>
+      <div class="meta-row">
+        <span>閱讀約 6 分鐘</span>
+        <span>難度:會用終端機即可</span>
+        <span>適用:Codex CLI</span>
+      </div>
+
+      <div class="tldr reveal">
+        <h2><span style="color:var(--accent);font-family:var(--font-mono)">TL;DR</span> 先講結論</h2>
+        <ul>
+          <li><b>Codex 有原生外掛系統</b>(2026 年 3 月推出),CLI 裡用 <code class="inl">/plugins</code> 安裝,底層走 MCP,官方加社群已有上百個。</li>
+          <li><b>但目前沒有官方的 Telegram 外掛</b>。要接 Telegram,得用社群做的橋接程式(本文介紹三個),或在 <code class="inl">/plugins</code> 裡找社群版。</li>
+          <li><b>架構很單純</b>:Telegram bot 收到訊息,橋接程式餵給 Codex,把回覆再傳回去。最省事的選擇是 <b>TeleCodex</b>。</li>
+          <li><b>最大的坑是計費</b>。一定要跑在 ChatGPT 訂閱方案,而不是「每則訊息呼叫一次 API key」,否則帳單會失控。</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- 1. 原理 -->
+  <section>
+    <div class="wrap">
+      <span class="sec-num">01</span>
+      <h2 class="sec">它是怎麼運作的</h2>
+      <p class="sec-sub">Codex CLI 本身是一個跑在你電腦終端機裡的 AI agent(類似 Claude Code)。它不知道 Telegram 的存在。中間需要一個「橋接程式」當翻譯。</p>
+
+      <div class="flow reveal">
+        <div class="node accent">
+          <div class="nlabel">你的手機</div>
+          <div class="ndesc">Telegram</div>
+        </div>
+        <div class="arrow">→</div>
+        <div class="node">
+          <div class="nlabel">Telegram Bot</div>
+          <div class="ndesc">BotFather token</div>
+        </div>
+        <div class="arrow">→</div>
+        <div class="node">
+          <div class="nlabel">橋接程式</div>
+          <div class="ndesc">bridge</div>
+        </div>
+        <div class="arrow">→</div>
+        <div class="node">
+          <div class="nlabel">Codex CLI</div>
+          <div class="ndesc">在你電腦上</div>
+        </div>
+      </div>
+
+      <p>流程拆開來看:你在手機 Telegram 打一句話,訊息經由你向 BotFather 申請的 bot 進來,橋接程式收到後把它丟給本機的 Codex 執行,Codex 跑完再把結果透過 Telegram Bot API 傳回你手機。橋接程式不會去改動 Codex 本身,它只是一層薄薄的轉接。</p>
+    </div>
+  </section>
+
+  <!-- 2. 方法 -->
+  <section>
+    <div class="wrap">
+      <span class="sec-num">02</span>
+      <h2 class="sec">三個現成的橋接工具</h2>
+      <p class="sec-sub">不用自己從零寫。社群已經做好幾個開源橋接,挑一個跟著它的 README 裝就好。以下是目前較成熟的三個。</p>
+
+      <div class="cards">
+        <div class="card feat reveal">
+          <div class="ctop">
+            <h3>TeleCodex</h3>
+            <span class="tag rec">最推薦上手</span>
+          </div>
+          <p>專為 Codex CLI 做的 Telegram 橋接,文件最完整。支援每個聊天室各自獨立 session、即時串流回應與工具輸出、語音和圖片輸入,還能用 <code class="inl">/handback</code> 把對話交回終端機繼續。下一節有完整安裝步驟。</p>
+          <p class="clink"><a href="https://github.com/benedict2310/telecodex" target="_blank" rel="noopener">github.com/benedict2310/telecodex ↗</a></p>
+        </div>
+
+        <div class="card reveal">
+          <div class="ctop">
+            <h3>OpenAB</h3>
+            <span class="tag">輕量</span>
+          </div>
+          <p>Open Agent Bridge。用 Python 包一層,實際上是呼叫 <code class="inl">codex exec</code> 和 <code class="inl">codex exec resume --last</code> 來續接對話。Telegram 和 Discord 都支援,一個設定檔就跑得起來。</p>
+          <p class="clink"><a href="https://github.com/xx025/openab" target="_blank" rel="noopener">github.com/xx025/openab ↗</a></p>
+        </div>
+
+        <div class="card reveal">
+          <div class="ctop">
+            <h3>Untether</h3>
+            <span class="tag">多 agent 通吃</span>
+          </div>
+          <p>同時支援 Codex CLI、Claude Code、Gemini CLI 等多種 agent。可以用文字或語音派任務、即時看進度。如果你想之後換別的 agent,選這個最有彈性。</p>
+          <p class="clink"><a href="https://littlebearapps.com/builds/untether/" target="_blank" rel="noopener">littlebearapps.com/builds/untether ↗</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. 安裝步驟 -->
+  <section>
+    <div class="wrap">
+      <span class="sec-num">03</span>
+      <h2 class="sec">動手做:用 TeleCodex 接起來</h2>
+      <p class="sec-sub">以下步驟對應 TeleCodex 的官方 README。實際裝的時候請以該專案最新說明為準,版本更新可能調整。</p>
+
+      <div class="steps">
+        <div class="step reveal">
+          <h4>準備環境</h4>
+          <p>需要 <strong>Node.js 22 以上</strong>,以及已經安裝並登入過的 <strong>Codex CLI</strong>。想用語音轉文字的話,額外裝 <code class="inl">ffmpeg</code>。</p>
+        </div>
+
+        <div class="step reveal">
+          <h4>向 BotFather 申請一個 bot</h4>
+          <p>在 Telegram 搜尋 <code class="inl">@BotFather</code>,送出 <code class="inl">/newbot</code>,照指示取名,它會給你一組 <strong>bot token</strong>。先複製起來。</p>
+        </div>
+
+        <div class="step reveal">
+          <h4>下載並安裝</h4>
+          <div class="code">
+            <div class="code-head"><span class="fname">終端機</span><span>bash</span></div>
+<pre><code><span class="cmt"># 取得專案後,在專案資料夾內</span>
+npm install
+cp .env.example .env</code></pre>
+          </div>
+        </div>
+
+        <div class="step reveal">
+          <h4>填寫 .env 設定</h4>
+          <p>打開 <code class="inl">.env</code>,至少要填這兩個:</p>
+          <div class="code">
+            <div class="code-head"><span class="fname">.env</span><span>環境變數</span></div>
+<pre><code><span class="var">TELEGRAM_BOT_TOKEN</span>=<span class="cmt"># 上一步 BotFather 給的 token</span>
+<span class="var">TELEGRAM_ALLOWED_USER_IDS</span>=<span class="cmt"># 你的 Telegram user id(逗號分隔)</span></code></pre>
+          </div>
+          <p><code class="inl">TELEGRAM_ALLOWED_USER_IDS</code> 是白名單,只有名單內的人能用你的 bot。<strong>這一欄一定要填</strong>,否則任何人找到你的 bot 都能操作你的電腦。</p>
+        </div>
+
+        <div class="step reveal">
+          <h4>讓 Codex 登入</h4>
+          <p>驗證方式二選一:在 Telegram 裡送 <code class="inl">/login</code> 走裝置授權流程(不必碰終端機),或在 <code class="inl">.env</code> 填 <code class="inl">CODEX_API_KEY</code> 走 API 金鑰。<strong>計費差很大,請先看第 5 節</strong>。</p>
+        </div>
+
+        <div class="step reveal">
+          <h4>啟動</h4>
+          <div class="code">
+            <div class="code-head"><span class="fname">終端機</span><span>bash</span></div>
+<pre><code>npm run dev
+
+<span class="cmt"># 或用 Docker</span>
+docker compose up --build</code></pre>
+          </div>
+          <p>跑起來後,在 Telegram 對你的 bot 說句話試試。它會把回應和工具使用即時串流回來。</p>
+        </div>
+      </div>
+
+      <div class="callout info reveal">
+        <h3><span class="ico">i</span> 可選的進階設定</h3>
+        <p>TeleCodex 還能設定 <code class="inl">CODEX_MODEL</code>(預設模型)、<code class="inl">CODEX_SANDBOX_MODE</code>(沙盒權限:<code class="inl">read-only</code> / <code class="inl">workspace-write</code> / <code class="inl">danger-full-access</code>)、<code class="inl">CODEX_APPROVAL_POLICY</code>(動作核可策略)。新手建議從 <b>唯讀或 workspace-write</b> 開始,別一開始就開全權限。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. /plugins -->
+  <section>
+    <div class="wrap">
+      <span class="sec-num">04</span>
+      <h2 class="sec">順帶認識 Codex 的 /plugins 外掛系統</h2>
+      <p class="sec-sub">Telegram 目前靠橋接,但 Codex 其他能力可以直接用官方外掛擴充,這也是它「像 Claude 那樣」的地方。</p>
+      <p>Codex 在 2026 年 3 月推出了外掛市集,把技能、應用整合、MCP server 打包成可安裝的套件,App、CLI、IDE 擴充都能用。在 CLI 裡直接用指令安裝:</p>
+      <div class="code reveal">
+        <div class="code-head"><span class="fname">Codex CLI</span><span>指令</span></div>
+<pre><code>/plugins</code></pre>
+      </div>
+      <p>底層大多由 <strong>MCP(Model Context Protocol)</strong> 負責:每個 MCP server 是一個獨立程序,Codex 透過協定跟它溝通,支援自訂工具、具狀態的 session 和多步驟操作。官方已有的外掛包含 Slack、GitLab、Figma、Microsoft、Atlassian 等。</p>
+      <ul class="body-list">
+        <li>想要「裝個官方外掛就有 Telegram」:<strong>目前還沒有</strong>,得用上面的第三方橋接。</li>
+        <li>但社群外掛數量不少,可以在 <code class="inl">/plugins</code> 裡搜 <code class="inl">telegram</code> 看有沒有社群做好的版本。</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 5. 避坑 -->
+  <section>
+    <div class="wrap">
+      <span class="sec-num">05</span>
+      <h2 class="sec">上線前一定要知道的事</h2>
+      <p class="sec-sub">這節是整篇最重要的。前面裝錯頂多跑不起來,這裡踩雷會傷荷包或開後門。</p>
+
+      <div class="callout reveal">
+        <h3><span class="ico">!</span> 計費:訂閱 vs 每則訊息呼叫 API</h3>
+        <p>Codex 可以跑在 <b>ChatGPT 訂閱方案</b>(Plus / Pro 現在含 Codex),也可以用 <b>API 金鑰按 token 計費</b>。</p>
+        <p>如果你用 API 金鑰,又讓橋接程式「每收到一則訊息就開一次新呼叫」,在背景跑久了帳單會非常可觀。務必確認你是用<b>訂閱登入</b>,或維持<b>單一常駐 session</b>,不要狂開新呼叫。這是真的有人付出代價學到的教訓。</p>
+      </div>
+
+      <div class="callout reveal">
+        <h3><span class="ico">!</span> 安全:你等於把電腦的鑰匙交出去</h3>
+        <p>橋接程式讓 Telegram 可以操作你本機的 Codex,等於開了一條遠端通道。三個底線:</p>
+        <p>① <b>白名單必填</b>:<code class="inl">TELEGRAM_ALLOWED_USER_IDS</code> 只放自己。<br>
+        ② <b>沙盒收緊</b>:從 <code class="inl">read-only</code> 或 <code class="inl">workspace-write</code> 起步,別預設全權限。<br>
+        ③ <b>別把 token 貼到對話或公開倉庫</b>:bot token 和 API key 都放在 <code class="inl">.env</code>,並確認 <code class="inl">.gitignore</code> 有排除它。</p>
+      </div>
+
+      <div class="callout info reveal">
+        <h3><span class="ico">i</span> 工具更新很快,以 README 為準</h3>
+        <p>這些橋接都是社群維護的開源專案,設定欄位和指令可能隨版本變動。真正安裝時,以各專案 GitHub 上的<b>最新 README</b> 為準,本文是帶你建立全貌。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. 總結 -->
+  <section>
+    <div class="wrap">
+      <span class="sec-num">06</span>
+      <h2 class="sec">那我該選哪個</h2>
+      <ul class="body-list reveal">
+        <li><strong>只想最快接起來、單純用 Codex</strong>:選 <strong>TeleCodex</strong>,文件最齊、功能最完整。</li>
+        <li><strong>之後可能換別的 agent(Claude Code / Gemini)</strong>:選 <strong>Untether</strong>,一套通吃。</li>
+        <li><strong>喜歡簡單、想自己改</strong>:選 <strong>OpenAB</strong>,Python 薄包裝,一個設定檔。</li>
+      </ul>
+      <p>三條路的核心都一樣:一個 Telegram bot、一個橋接、一個本機 Codex。把計費和白名單顧好,你就有了一個從手機就能差遣的個人 AI 助理。</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div class="sources">
+        <h3>資料來源</h3>
+        <ul>
+          <li><a href="https://github.com/benedict2310/telecodex" target="_blank" rel="noopener">TeleCodex(benedict2310/telecodex)</a></li>
+          <li><a href="https://github.com/openai/codex/discussions/13144" target="_blank" rel="noopener">OpenAB 討論串(openai/codex #13144)</a></li>
+          <li><a href="https://littlebearapps.com/builds/untether/" target="_blank" rel="noopener">Untether(Little Bear Apps)</a></li>
+          <li><a href="https://thenewstack.io/openais-codex-gets-plugins/" target="_blank" rel="noopener">OpenAI Codex 外掛系統(The New Stack)</a></li>
+        </ul>
+      </div>
+      <p class="disclaim">本文整理於 2026 年 6 月,內容為當時公開資料的整理,非官方文件。Codex 及相關工具更新快速,實際操作請以官方文件與各專案 README 最新版本為準。安裝第三方橋接前,請自行評估安全與計費風險。</p>
+      <p class="sig">寫給想自己動手的人 · smallkill</p>
+    </div>
+  </footer>
+
+</main>
+
+<script>
+  // reveal on view (IntersectionObserver, respects reduced motion)
+  var prefersReduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var items = document.querySelectorAll('.reveal');
+  if (prefersReduce || !('IntersectionObserver' in window)) {
+    items.forEach(function (el) { el.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.12 });
+    items.forEach(function (el) { io.observe(el); });
+  }
+</script>
+</body>
+</html>
