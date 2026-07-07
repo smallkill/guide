@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guides — Derek 的技術教學</title>
+<meta name="description" content="Derek 的中文技術教學合集:Codex × Telegram 整合、Claude Code 好用 Skills 與 Agents 推薦。">
+<style>
+  :root {
+    --bg: #0b0f14; --bg-elev: #121822; --border: #1f2937;
+    --text: #e6edf3; --text-muted: #93a1b0;
+    --accent: #4cc2ff; --accent-soft: rgba(76,194,255,.12); --accent-border: rgba(76,194,255,.35);
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+    min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 2rem 1.25rem;
+  }
+  main { max-width: 640px; width: 100%; }
+  h1 { font-size: 1.6rem; margin-bottom: .4rem; }
+  h1 .slash { color: var(--accent); }
+  p.lead { color: var(--text-muted); margin-bottom: 2rem; font-size: .95rem; }
+  a.card {
+    display: block; background: var(--bg-elev); border: 1px solid var(--border);
+    border-radius: 12px; padding: 1.2rem 1.4rem; margin-bottom: 1rem;
+    text-decoration: none; color: inherit; transition: border-color .18s, transform .18s;
+  }
+  a.card:hover { border-color: var(--accent-border); transform: translateY(-2px); }
+  .card h2 { font-size: 1.08rem; margin-bottom: .35rem; }
+  .card h2 .tag {
+    font-size: .7rem; color: var(--accent); background: var(--accent-soft);
+    border: 1px solid var(--accent-border); border-radius: 99px; padding: .12rem .55rem;
+    margin-left: .5rem; vertical-align: 2px; font-weight: 500;
+  }
+  .card p { color: var(--text-muted); font-size: .88rem; line-height: 1.6; }
+  footer { margin-top: 2rem; color: var(--text-muted); font-size: .78rem; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<main>
+  <h1><span class="slash">/</span> guides</h1>
+  <p class="lead">Derek 的中文技術教學合集,實際用過才寫。</p>
+
+  <a class="card" href="claude-skills/">
+    <h2>Claude Code 好用 Skills 與 Agents<span class="tag">2026-07</span></h2>
+    <p>實戰驗證的推薦清單:開發紀律、資安稽核、網頁自動化、code review 心法——每一項都附真實使用場景。</p>
+  </a>
+
+  <a class="card" href="codex-telegram/">
+    <h2>Codex × Telegram 新手教學<span class="tag">2026-06</span></h2>
+    <p>把 OpenAI Codex CLI 接上 Telegram、做自己的 AI 助理:從裝 Node 到 TeleCodex 橋接,零基礎照著做。</p>
+  </a>
+
+  <footer>by <a href="https://derek-chen.pages.dev" rel="author">Derek Chen</a> · <a href="https://github.com/smallkill/guide">GitHub</a></footer>
+</main>
+</body>
+</html>

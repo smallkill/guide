@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude Code 實戰好用的 Skills 與 Agents 推薦</title>
+<meta name="description" content="不是清單型的功能介紹,是實際用過、真的省下時間或擋下問題的 Claude Code Skills 與 Agents,每一項都附真實使用場景:superpowers、security-audit、Cloudflare 全家桶、Webwright、design-taste-frontend、context7,以及派工與 code review 的心法。">
+<meta property="og:title" content="Claude Code 實戰好用的 Skills 與 Agents 推薦">
+<meta property="og:description" content="真正用過、真的有用的 Claude Code Skills / Agents,每項都附實戰場景,不是功能清單。">
+<meta property="og:type" content="article">
+<style>
+  :root {
+    --bg: #0b0f14;
+    --bg-elev: #121822;
+    --bg-code: #0e141d;
+    --border: #1f2937;
+    --border-soft: #18212c;
+    --text: #e6edf3;
+    --text-muted: #93a1b0;
+    --text-dim: #8693a1;
+    --accent: #4cc2ff;
+    --accent-soft: rgba(76, 194, 255, 0.12);
+    --accent-border: rgba(76, 194, 255, 0.35);
+    --warn: #ffb454;
+    --warn-soft: rgba(255, 180, 84, 0.10);
+    --warn-border: rgba(255, 180, 84, 0.32);
+    --radius: 14px;
+    --radius-sm: 9px;
+    --maxw: 900px;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", Roboto, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    line-height: 1.75;
+    font-size: 17px;
+    letter-spacing: 0.01em;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; }
+
+  /* ---------- top progress + nav ---------- */
+  .topbar {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(11, 15, 20, 0.82);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .topbar-inner {
+    max-width: var(--maxw); margin: 0 auto; padding: 14px 22px;
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  }
+  .brandmark {
+    display: flex; align-items: center; gap: 10px; font-weight: 650; font-size: 15px; letter-spacing: 0;
+    flex: 1 1 auto; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .brandmark .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 12px var(--accent); flex: none; }
+  .topbar a.gh { font-size: 13.5px; color: var(--text-muted); font-family: var(--font-mono); white-space: nowrap; flex: none; }
+  @media (max-width: 560px) {
+    .topbar a.gh { display: none; }
+    .brandmark { font-size: 13.5px; }
+  }
+  .progress { position: absolute; left: 0; bottom: -1px; height: 2px; width: 100%; background: var(--accent); transform: scaleX(0); transform-origin: left; }
+  @supports (animation-timeline: scroll()) {
+    .progress { animation: progressGrow linear both; animation-timeline: scroll(root block); }
+  }
+  @keyframes progressGrow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+  /* ---------- hero ---------- */
+  .hero { padding: 86px 0 46px; }
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 9px;
+    font-family: var(--font-mono); font-size: 12.5px; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--accent);
+    background: var(--accent-soft); border: 1px solid var(--accent-border);
+    padding: 6px 13px; border-radius: 999px; margin-bottom: 26px;
+  }
+  h1 {
+    font-size: clamp(2.05rem, 5.6vw, 3.15rem);
+    line-height: 1.16; letter-spacing: -0.02em; font-weight: 750;
+    margin-bottom: 20px;
+  }
+  h1 .hl { color: var(--accent); }
+  .lede { font-size: 1.16rem; color: var(--text-muted); max-width: 64ch; }
+  .lede b { color: var(--text); }
+  .meta-row {
+    margin-top: 30px; display: flex; flex-wrap: wrap; gap: 10px 18px;
+    font-family: var(--font-mono); font-size: 13px; color: var(--text-dim);
+  }
+  .meta-row span { display: inline-flex; align-items: center; gap: 7px; }
+
+  /* ---------- TL;DR card ---------- */
+  .tldr {
+    margin-top: 44px; background: var(--bg-elev);
+    border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 26px 28px;
+  }
+  .tldr h2 { font-size: 1.05rem; letter-spacing: 0; margin: 0 0 14px; color: var(--text); display: flex; align-items: center; gap: 10px; }
+  .tldr ul { list-style: none; display: grid; gap: 13px; }
+  .tldr li { position: relative; padding-left: 28px; color: var(--text-muted); font-size: 15.5px; line-height: 1.6; }
+  .tldr li::before {
+    content: ""; position: absolute; left: 4px; top: 9px;
+    width: 7px; height: 7px; border-radius: 2px; background: var(--accent);
+  }
+  .tldr li b { color: var(--text); font-weight: 650; }
+
+  /* ---------- sections ---------- */
+  section { padding: 52px 0; border-top: 1px solid var(--border-soft); }
+  .sec-num { font-family: var(--font-mono); font-size: 13px; color: var(--accent); letter-spacing: 0.08em; }
+  h2.sec { font-size: clamp(1.5rem, 3.6vw, 2.05rem); line-height: 1.2; letter-spacing: -0.015em; margin: 10px 0 8px; font-weight: 720; }
+  .sec-sub { color: var(--text-muted); font-size: 1.02rem; max-width: 68ch; margin-bottom: 26px; }
+  h3 { font-size: 1.2rem; margin: 34px 0 12px; letter-spacing: -0.01em; font-weight: 680; }
+  p { color: var(--text-muted); margin: 14px 0; }
+  p strong, li strong { color: var(--text); font-weight: 650; }
+  .body-list { margin: 14px 0 14px; padding-left: 4px; list-style: none; display: grid; gap: 11px; }
+  .body-list li { position: relative; padding-left: 24px; color: var(--text-muted); }
+  .body-list li::before { content: ""; position: absolute; left: 3px; top: 11px; width: 6px; height: 6px; border-radius: 50%; background: var(--text-dim); }
+
+  code.inl {
+    font-family: var(--font-mono); font-size: 0.875em;
+    background: var(--bg-code); border: 1px solid var(--border);
+    padding: 2px 7px; border-radius: 6px; color: #b9e6ff;
+  }
+
+  /* ---------- code blocks ---------- */
+  .code {
+    position: relative; margin: 18px 0;
+    background: var(--bg-code); border: 1px solid var(--border);
+    border-radius: var(--radius-sm); overflow: hidden;
+  }
+  .code-head {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 9px 14px; border-bottom: 1px solid var(--border-soft);
+    font-family: var(--font-mono); font-size: 12px; color: var(--text-dim);
+    background: rgba(255,255,255,0.015);
+  }
+  .code-head .fname { color: var(--text-muted); }
+  .code pre { margin: 0; padding: 16px 16px; overflow-x: auto; }
+  .code code {
+    font-family: var(--font-mono); font-size: 13.5px; line-height: 1.7;
+    color: #d7e3ee; white-space: pre;
+  }
+  .code .cmt { color: #7c8b98; }
+
+  /* ---------- skill cards ---------- */
+  .cards { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 8px; }
+  @media (min-width: 720px) { .cards.two { grid-template-columns: 1fr 1fr; } }
+  .card {
+    background: var(--bg-elev); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 22px 22px;
+  }
+  .card.feat { border-color: var(--accent-border); }
+  .card .ctop { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 4px; flex-wrap: wrap; }
+  .card h3 { margin: 0; font-size: 1.18rem; }
+  .tag {
+    font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
+    padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); color: var(--text-dim);
+    white-space: nowrap;
+  }
+  .tag.rec { color: var(--accent); border-color: var(--accent-border); background: var(--accent-soft); }
+  .card p { margin: 8px 0; font-size: 15px; }
+  .card .clink { font-family: var(--font-mono); font-size: 13px; margin-top: 10px; }
+  .card .clink.none { color: var(--text-dim); font-style: normal; }
+
+  /* ---------- real-usage story block ---------- */
+  .story {
+    margin-top: 14px; padding: 14px 16px;
+    background: var(--accent-soft); border-left: 3px solid var(--accent);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  }
+  .story .slabel {
+    display: block; font-family: var(--font-mono); font-size: 11.5px;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent);
+    margin-bottom: 6px; font-weight: 700;
+  }
+  .story p { margin: 0; font-size: 14.5px; color: var(--text-muted); line-height: 1.65; }
+  .story p strong { color: var(--text); }
+
+  /* ---------- callout ---------- */
+  .callout {
+    margin: 22px 0; border-radius: var(--radius);
+    border: 1px solid var(--warn-border); background: var(--warn-soft);
+    padding: 20px 22px;
+  }
+  .callout.info { border-color: var(--accent-border); background: var(--accent-soft); }
+  .callout h3 { margin: 0 0 8px; font-size: 1.05rem; color: var(--text); display: flex; align-items: center; gap: 9px; }
+  .callout .ico { color: var(--warn); font-family: var(--font-mono); font-weight: 700; }
+  .callout.info .ico { color: var(--accent); }
+  .callout p { margin: 8px 0; color: var(--text-muted); font-size: 15px; }
+  .callout b { color: var(--text); }
+
+  /* ---------- philosophy items (agents section) ---------- */
+  .steps { counter-reset: step; display: grid; gap: 4px; margin-top: 10px; }
+  .step { position: relative; padding: 6px 0 22px 50px; border-left: 1px solid var(--border); margin-left: 14px; }
+  .step:last-child { border-left-color: transparent; }
+  .step::before {
+    counter-increment: step; content: counter(step);
+    position: absolute; left: -15px; top: 0;
+    width: 30px; height: 30px; border-radius: 50%;
+    background: var(--bg-elev); border: 1px solid var(--accent-border); color: var(--accent);
+    font-family: var(--font-mono); font-size: 14px; font-weight: 600;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .step h4 { font-size: 1.06rem; margin: 2px 0 6px; color: var(--text); font-weight: 650; }
+  .step p { margin: 6px 0; font-size: 15px; }
+
+  /* ---------- cheat sheet ---------- */
+  .cheat { display: grid; gap: 14px; margin-top: 10px; }
+  .cheat-row {
+    display: grid; grid-template-columns: 200px 1fr; gap: 18px;
+    padding: 16px 0; border-bottom: 1px solid var(--border-soft);
+  }
+  .cheat-row:last-child { border-bottom: none; }
+  .cheat-row .cname { font-weight: 650; color: var(--text); font-size: 15px; }
+  .cheat-row .cname .sub { display: block; font-weight: 400; font-family: var(--font-mono); font-size: 12px; color: var(--text-dim); margin-top: 4px; }
+  .cheat-row .cmethod { font-size: 14.5px; color: var(--text-muted); }
+  .cheat-row .cmethod code.inl { display: inline-block; margin: 2px 0; }
+  .cheat-row .cmethod a { font-family: var(--font-mono); font-size: 13px; }
+  @media (max-width: 640px) {
+    .cheat-row { grid-template-columns: 1fr; gap: 6px; }
+  }
+
+  /* ---------- footer ---------- */
+  footer { border-top: 1px solid var(--border-soft); padding: 44px 0 70px; }
+  footer .sources { font-size: 14px; color: var(--text-muted); }
+  footer .sources h3 { font-size: 1rem; margin-bottom: 12px; color: var(--text); }
+  footer .sources ul { list-style: none; display: grid; gap: 8px; }
+  footer .sources li { font-family: var(--font-mono); font-size: 13px; }
+  footer .disclaim {
+    margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--border-soft);
+    font-size: 13px; color: var(--text-dim); line-height: 1.7;
+  }
+  footer .sig { margin-top: 16px; font-family: var(--font-mono); font-size: 13px; color: var(--text-dim); }
+
+  /* ---------- reveal motion ---------- */
+  .reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.6s cubic-bezier(0.16,1,0.3,1), transform 0.6s cubic-bezier(0.16,1,0.3,1); }
+  .reveal.in { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .reveal { opacity: 1; transform: none; transition: none; }
+    .progress { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brandmark"><span class="dot"></span> Claude Code 實戰 Skills / Agents</div>
+    <a class="gh" href="https://claude.com/product/claude-code" target="_blank" rel="noopener">claude.com/product/claude-code ↗</a>
+  </div>
+  <div class="progress" id="progress"></div>
+</div>
+
+<main>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="wrap">
+      <span class="eyebrow">實戰筆記 · 2026</span>
+      <h1>Claude Code 實戰好用的<br><span class="hl">Skills 與 Agents</span> 推薦</h1>
+      <p class="lede">這不是「Claude Code 有哪些外掛」的窮舉清單。這裡只放<b>真的在正式使用中發揮作用</b>的東西——每一項都配一個真實發生過的場景,不是功能說明書。讀者預設已經在用 Claude Code,所以直接講重點,不解釋基礎概念。</p>
+      <div class="meta-row">
+        <span>閱讀約 8 分鐘</span>
+        <span>難度:已在用 Claude Code</span>
+        <span>適用:Claude Code CLI</span>
+      </div>
+
+      <div class="tldr reveal">
+        <h2><span style="color:var(--accent);font-family:var(--font-mono)">TL;DR</span> 先講結論</h2>
+        <ul>
+          <li><b>superpowers</b> 逼自己「沒有證據不准說完成」,大幅減少 AI 自稱做完但其實沒做完的問題。</li>
+          <li><b>security-audit</b> 有一關專門「反過來想辦法推翻自己的發現」,只回報真的能被利用的洞——實測抓到一個沒做限流的 API endpoint。</li>
+          <li><b>Cloudflare 全家桶</b> 寧可查即時官方文件也不信自己記憶——結果查到 Analytics Engine 的 SQL 不支援 <code class="inl">quantile()</code> 和 <code class="inl">CASE WHEN</code>,不然監控會悄悄壞掉都不會報錯。</li>
+          <li><b>Code Review 流程</b>抓到一個 SQL 語法錯誤,而且是<b>單元測試全綠也抓不到</b>的那種——不修的話正式站的告警會永遠是啞的。</li>
+          <li><b>派工模式</b>把大量讀檔、掃 repo 丟給 subagent,主線只收結論,還能平行跑,省下大量 context。</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- 1. Skills -->
+  <section>
+    <div class="wrap">
+      <span class="sec-num">01</span>
+      <h2 class="sec">Skills(裝了就能用)</h2>
+      <p class="sec-sub">Skill 是給 Claude Code 的「操作手冊」,裝上之後模型會在對的時機自動載入、照裡面的方法做事。以下六個都是真的用出成果的,不是隨手裝著好看的。</p>
+
+      <div class="cards">
+
+        <div class="card feat reveal">
+          <div class="ctop">
+            <h3>superpowers</h3>
+            <span class="tag rec">紀律工具箱</span>
+          </div>
+          <p>一整套開發紀律的 skill 包:TDD、系統化除錯(systematic debugging)、還有最關鍵的「完成前必須驗證」(verification-before-completion)。核心精神就一句話:<strong>沒有證據不准說完成</strong>——要求先跑出測試輸出、read-back 或實跑結果,才能宣稱工作做完。</p>
+          <div class="story">
+            <span class="slabel">實戰場景</span>
+            <p>裝了之後,AI 自己說「做完了」卻其實沒做完的狀況明顯變少——因為它被要求先貼出證據,而不是直接下結論。這條規則現在也直接寫進日常工作習慣裡:完成宣告必須附本次執行產生的證據。</p>
+          </div>
+          <p class="clink"><a href="https://github.com/obra/superpowers" target="_blank" rel="noopener">github.com/obra/superpowers ↗</a></p>
+        </div>
+
+        <div class="card feat reveal">
+          <div class="ctop">
+            <h3>security-audit</h3>
+            <span class="tag rec">六階段稽核</span>
+          </div>
+          <p>多 agent 分工的資安稽核流程:偵察(recon)→ 找洞(hunt)→ 對抗性驗證(adversarial verification,專門設計來反過來證偽自己剛找到的漏洞,殺掉 false positive)→ 出報告。只回報「真的可以被利用」的問題,不是理論上有風險就列進去。</p>
+          <div class="story">
+            <span class="slabel">實戰場景</span>
+            <p>拿去掃自架的個人 SaaS 作品集網站和幾個 side project,抓到<strong>沒做限流的 API endpoint</strong>,後來就修掉了。因為有對抗性驗證那一關,報告裡不會塞一堆嚇人但其實不影響的雜訊。</p>
+          </div>
+          <p class="clink"><a href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener">github.com/cloudflare/security-audit-skill ↗</a></p>
+        </div>
+
+        <div class="card feat reveal">
+          <div class="ctop">
+            <h3>Cloudflare 全家桶</h3>
+            <span class="tag rec">部署主力</span>
+          </div>
+          <p>官方 skill 系列(<code class="inl">cloudflare</code>、<code class="inl">wrangler</code>、<code class="inl">workers-best-practices</code> 等),是部署個人專案的主力工具。它的特性是<strong>寧可即時查官方文件,也不信模型訓練時記住的舊知識</strong>。</p>
+          <div class="story">
+            <span class="slabel">實戰場景</span>
+            <p>幫忙接 Cloudflare Analytics Engine 監控時,因為它去查了即時文件,才發現該產品的 SQL 方言<strong>不支援 <code class="inl">quantile()</code> 和 <code class="inl">CASE WHEN</code></strong>。這種坑不會報錯,只是監控部署後悄悄沒有資料——沒查即時文件的話很可能就直接沿用舊知識踩下去了。</p>
+          </div>
+          <p class="clink"><a href="https://github.com/cloudflare/skills" target="_blank" rel="noopener">github.com/cloudflare/skills ↗</a></p>
+        </div>
+
+        <div class="card reveal">
+          <div class="ctop">
+            <h3>Webwright</h3>
+            <span class="tag">瀏覽器自動化</span>
+          </div>
+          <p>讓 Claude 用 Playwright 開一個真的瀏覽器去做網頁任務:查機票、爬資料、填表單,每一步都留截圖和操作紀錄(action log)方便事後核對。</p>
+          <div class="story">
+            <span class="slabel">實戰場景</span>
+            <p>拿來做一個<strong>每天定時跑的 Google Flights 機票比價任務</strong>——排程自動開瀏覽器查、比對價格變化,不用自己每天手動盯著看。</p>
+          </div>
+          <p class="clink"><a href="https://github.com/microsoft/Webwright" target="_blank" rel="noopener">github.com/microsoft/Webwright ↗</a></p>
+        </div>
+
+        <div class="card reveal">
+          <div class="ctop">
+            <h3>design-taste-frontend</h3>
+            <span class="tag">反罐頭設計</span>
+          </div>
+          <p>一個「反樣板感」的前端設計 skill,做 landing page、作品集、教學頁這類需要視覺判斷的東西時會用它——目的是避免輸出長得像 AI 預設模板。<strong>你現在正在看的這個頁面,就是它的產出之一。</strong></p>
+          <p class="clink none">本機安裝的 skill,目前沒有可靠的公開 repo 連結,故不附連結。</p>
+        </div>
+
+        <div class="card reveal">
+          <div class="ctop">
+            <h3>context7</h3>
+            <span class="tag">即時文件</span>
+          </div>
+          <p>一個查「版本正確」官方文件的 MCP/skill,專治「AI 用了過時 API」這個老毛病——寫程式前先查現在這個版本的 API 長什麼樣,而不是憑訓練時記住的舊版介面亂寫。</p>
+          <p class="clink">上游開源專案:<a href="https://github.com/upstash/context7" target="_blank" rel="noopener">github.com/upstash/context7 ↗</a></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Agents & philosophy -->
+  <section>
+    <div class="wrap">
+      <span class="sec-num">02</span>
+      <h2 class="sec">Agents 與用法心法</h2>
+      <p class="sec-sub">這節談的不是「裝哪個外掛」,是怎麼用 Claude Code 內建的 agent 機制,把重複的工作模式變成可以一直重用的流程。</p>
+
+      <div class="steps">
+        <div class="step reveal">
+          <h4>Code Review 必過流程</h4>
+          <p>每一次程式碼類的改動,都要先過 code review(內建 <code class="inl">/code-review</code> 指令或一個 Code Reviewer agent)才算完成,不是自己看一看順眼就送出去。</p>
+          <div class="callout reveal">
+            <h3><span class="ico">!</span> 單元測試全綠,不代表沒問題</h3>
+            <p>有一次 code review 抓到一個監控系統裡的 <strong>SQL 語法錯誤</strong>。如果沒被抓到,部署上去的查詢會<strong>永遠失敗</strong>,告警會悄悄地一直是啞的——但整個過程<strong>單元測試從頭到尾都是綠燈</strong>,因為測試根本沒有真的打過那條 SQL。這是「跑測試」跟「code review」抓的是不同種類的錯的活生生案例。</p>
+          </div>
+        </div>
+
+        <div class="step reveal">
+          <h4>派工模式:Explore / general-purpose subagent</h4>
+          <p>掃 repo、大量讀檔、做研究這種吃 context 又耗時間的工作,丟給 subagent 去做,主線對話只收「結論」。好處有兩個:主線的 context 不會被一堆中間過程塞爆,而且多個 subagent 可以平行跑,不用排隊等。</p>
+        </div>
+
+        <div class="step reveal">
+          <h4>把重複需求固化成自訂 agent</h4>
+          <p>常見的例子:一個 Telegram 訊息分類/派工的「管家」agent,或某個領域的專家 agent。把 system prompt 寫好一次,之後每次只要一句話呼叫,不用每次重新解釋一遍背景脈絡——實測下來比每次重講一次前因後果快上一個數量級。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Bonus -->
+  <section>
+    <div class="wrap">
+      <span class="sec-num">03</span>
+      <h2 class="sec">加碼工具</h2>
+      <p class="sec-sub">不算 Claude Code 的 skill/agent 生態,但幾乎每次要把文件餵給 AI 之前都會先用它。</p>
+
+      <div class="cards">
+        <div class="card reveal">
+          <div class="ctop">
+            <h3>markitdown</h3>
+            <span class="tag">文件轉檔 CLI</span>
+          </div>
+          <p>把 PDF、Word、Excel、PPT 轉成 Markdown 的命令列工具。任何要餵文件給 AI 讀的場合,第一步幾乎都是先跑這個,轉乾淨再丟進對話。</p>
+          <p class="clink"><a href="https://github.com/microsoft/markitdown" target="_blank" rel="noopener">github.com/microsoft/markitdown ↗</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Install cheat sheet -->
+  <section>
+    <div class="wrap">
+      <span class="sec-num">04</span>
+      <h2 class="sec">安裝小抄</h2>
+      <p class="sec-sub">Claude Code 的 plugin 指令確實可用的是這兩條:<code class="inl">claude plugin marketplace add &lt;來源&gt;</code>(從 GitHub repo / URL / 路徑加一個 marketplace)和 <code class="inl">claude plugin install &lt;plugin&gt;@&lt;marketplace&gt;</code>(從已加入的 marketplace 安裝)。至於每個專案確切的 plugin/marketplace 名稱,以下沒把握的一律寫「詳見官方 README」,不亂猜參數。</p>
+
+      <div class="cheat reveal">
+        <div class="cheat-row">
+          <div class="cname">superpowers<span class="sub">obra/superpowers</span></div>
+          <div class="cmethod">Plugin。<code class="inl">claude plugin marketplace add obra/superpowers</code> 之後 <code class="inl">claude plugin install</code>,確切 plugin 名稱詳見官方 README。也可能已包含在 Claude 官方 plugin 目錄裡。</div>
+        </div>
+        <div class="cheat-row">
+          <div class="cname">security-audit<span class="sub">cloudflare/security-audit-skill</span></div>
+          <div class="cmethod">Skill 檔案。複製到 <code class="inl">~/.claude/skills/</code>,或詳見官方 README 的 plugin 安裝方式。</div>
+        </div>
+        <div class="cheat-row">
+          <div class="cname">Cloudflare 全家桶<span class="sub">cloudflare/skills</span></div>
+          <div class="cmethod">Skill 檔案。把需要的資料夾(<code class="inl">cloudflare</code>、<code class="inl">wrangler</code>、<code class="inl">workers-best-practices</code> …)複製到 <code class="inl">~/.claude/skills/</code>。</div>
+        </div>
+        <div class="cheat-row">
+          <div class="cname">Webwright<span class="sub">microsoft/Webwright</span></div>
+          <div class="cmethod">Plugin。<code class="inl">claude plugin marketplace add microsoft/Webwright</code> 接著 <code class="inl">claude plugin install webwright@webwright</code>。</div>
+        </div>
+        <div class="cheat-row">
+          <div class="cname">design-taste-frontend</div>
+          <div class="cmethod">Skill 檔案,直接放進 <code class="inl">~/.claude/skills/design-taste-frontend/</code>。沒有可靠公開 repo,故不附連結。</div>
+        </div>
+        <div class="cheat-row">
+          <div class="cname">context7<span class="sub">upstash/context7</span></div>
+          <div class="cmethod">通常已包含在 Claude 官方 plugin 目錄裡可直接 <code class="inl">claude plugin install context7</code>;若要接原始 MCP server,詳見官方 README。</div>
+        </div>
+        <div class="cheat-row">
+          <div class="cname">Code Review 流程</div>
+          <div class="cmethod">通常已內建於官方 plugin 目錄,直接用 <code class="inl">/code-review</code> 指令,不需額外安裝。</div>
+        </div>
+        <div class="cheat-row">
+          <div class="cname">markitdown<span class="sub">microsoft/markitdown</span></div>
+          <div class="cmethod">
+            <div class="code" style="margin:6px 0 0;">
+              <div class="code-head"><span class="fname">終端機</span><span>bash</span></div>
+<pre><code><span class="cmt"># 建議用 pipx,環境比較乾淨</span>
+pipx install markitdown</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div class="sources">
+        <h3>連結</h3>
+        <ul>
+          <li><a href="https://github.com/obra/superpowers" target="_blank" rel="noopener">superpowers(obra/superpowers)</a></li>
+          <li><a href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener">security-audit(cloudflare/security-audit-skill)</a></li>
+          <li><a href="https://github.com/cloudflare/skills" target="_blank" rel="noopener">Cloudflare 全家桶(cloudflare/skills)</a></li>
+          <li><a href="https://github.com/microsoft/Webwright" target="_blank" rel="noopener">Webwright(microsoft/Webwright)</a></li>
+          <li><a href="https://github.com/upstash/context7" target="_blank" rel="noopener">context7 上游(upstash/context7)</a></li>
+          <li><a href="https://github.com/microsoft/markitdown" target="_blank" rel="noopener">markitdown(microsoft/markitdown)</a></li>
+        </ul>
+      </div>
+      <p class="disclaim">本文整理於 2026 年 7 月,是個人實際使用心得,非官方文件。Claude Code 的 plugin/skill 生態更新很快,實際安裝與參數請以各專案最新 README 為準;文中列出的指令(<code class="inl">claude plugin marketplace add</code> / <code class="inl">claude plugin install</code>)已用 <code class="inl">--help</code> 核對過語法,但每個 plugin 的確切名稱仍請照 README 操作。</p>
+      <p class="sig">寫給已經在用 Claude Code 的人 · smallkill</p>
+    </div>
+  </footer>
+
+</main>
+
+<script>
+  // reveal on view (IntersectionObserver, respects reduced motion)
+  var prefersReduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var items = document.querySelectorAll('.reveal');
+  if (prefersReduce || !('IntersectionObserver' in window)) {
+    items.forEach(function (el) { el.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.12 });
+    items.forEach(function (el) { io.observe(el); });
+  }
+</script>
+</body>
+</html>
