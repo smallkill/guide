@@ -34,7 +34,7 @@
   }
   .card:hover { transform: translateY(-3px); border-color: var(--pill-border); }
   .photo { position: relative; background: #0e141d; }
-  .photo img { width: 100%; height: 260px; object-fit: cover; display: block; }
+  .photo img { width: 100%; height: 300px; object-fit: contain; display: block; }
   .num {
     position: absolute; top: .5rem; left: .5rem;
     background: var(--accent); color: #1a1a1a; font-weight: 800; font-size: .8rem;
@@ -64,6 +64,7 @@
   }
   .tab.active { background: var(--pill); border-color: var(--pill-border); color: var(--accent); font-weight: 700; }
   .tab.soda.active { background: rgba(76,194,255,.14); border-color: rgba(76,194,255,.4); color: var(--accent2); }
+  .tab.special.active { background: rgba(255,120,220,.14); border-color: rgba(255,120,220,.4); color: #ff9be0; }
   .panel { display: none; }
   .panel.active { display: block; }
   .panel-intro { text-align: center; color: var(--muted); font-size: .85rem; margin-bottom: 1.6rem; }
@@ -80,6 +81,7 @@
   <div class="tabs">
     <div class="tab active" data-tab="pika">⚡ 皮卡丘限定（12）</div>
     <div class="tab soda" data-tab="soda">🥤 蘇打系列（5）</div>
+    <div class="tab special" data-tab="special">✨ 特別款（1）</div>
   </div>
   <div class="panel active" id="panel-pika">
     <div class="grid" id="grid-pika"></div>
@@ -87,6 +89,10 @@
   <div class="panel" id="panel-soda">
     <p class="panel-intro">寶可夢中心原創「サイコソーダ・リフレッシュ（SAIKO SODA Refresh）」系列——插畫家 F*Kaori 的蘇打汽水主題,水藍透涼配色+汽水感圓眼。這 5 隻橫跨 3 個不同發售彈次。</p>
     <div class="grid" id="grid-soda"></div>
+  </div>
+  <div class="panel" id="panel-special">
+    <p class="panel-intro">不屬於特定系列的特別款、大型款或親子抱抱款。</p>
+    <div class="grid" id="grid-special"></div>
   </div>
   <footer>
     資訊由以圖搜圖+官方資料查證,標較低信心者待實物吊牌確認 ·
@@ -152,14 +158,19 @@ function render(gridId, data, isSoda) {
     grid.appendChild(c);
   });
 }
+const special = [
+ {img:"x1-dragonite.jpg", name:"快龍＆迷你龍 抱抱娃娃", jp:"だっこぬいぐるみ ミニリュウ＆カイリュー（大器晩成）", loc:"寶可夢中心全店＋線上", year:"2019/10", conf:"高",
+  note:"「大器晚成（TAIKI-BANSEI）」系列——主題是越進化越強的寶可夢。大型快龍(約 33cm)懷抱閉眼睡覺的迷你龍。同系列另有由基拉＋班基拉斯、黏黏寶＋黏美龍。定價 ¥3,000。"},
+];
 render("grid-pika", items, false);
 render("grid-soda", soda, true);
+render("grid-special", special, false);
+const panels = ["pika","soda","special"];
 document.querySelectorAll(".tab").forEach(tab => {
   tab.addEventListener("click", () => {
     const t = tab.dataset.tab;
     document.querySelectorAll(".tab").forEach(x => x.classList.toggle("active", x === tab));
-    document.getElementById("panel-pika").classList.toggle("active", t === "pika");
-    document.getElementById("panel-soda").classList.toggle("active", t === "soda");
+    panels.forEach(p => document.getElementById("panel-"+p).classList.toggle("active", p === t));
   });
 });
 </script>
