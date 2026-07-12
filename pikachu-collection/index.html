@@ -56,6 +56,17 @@
   }
   .pill.loc { background: rgba(76,194,255,.12); color: var(--accent2); border-color: rgba(76,194,255,.35); }
   .note { font-size: .8rem; color: var(--muted); margin-top: .3rem; }
+  .tabs { display: flex; gap: .6rem; justify-content: center; margin: 1.6rem 0 2rem; flex-wrap: wrap; }
+  .tab {
+    padding: .5rem 1.2rem; border-radius: 99px; cursor: pointer; font-size: .92rem;
+    background: var(--card); border: 1px solid var(--border); color: var(--muted);
+    transition: all .15s;
+  }
+  .tab.active { background: var(--pill); border-color: var(--pill-border); color: var(--accent); font-weight: 700; }
+  .tab.soda.active { background: rgba(76,194,255,.14); border-color: rgba(76,194,255,.4); color: var(--accent2); }
+  .panel { display: none; }
+  .panel.active { display: block; }
+  .panel-intro { text-align: center; color: var(--muted); font-size: .85rem; margin-bottom: 1.6rem; }
   footer { text-align: center; margin-top: 3rem; color: var(--dim); font-size: .78rem; }
   footer a { color: var(--accent2); text-decoration: none; }
 </style>
@@ -63,12 +74,22 @@
 <body>
 <main>
   <header>
-    <h1><span class="bolt">⚡</span> 皮卡丘限定收藏圖鑑</h1>
-    <p>Derek 的日本限定皮卡丘娃娃 · 每一隻的限定地點與活動 · 共 12 款</p>
+    <h1><span class="bolt">⚡</span> 寶可夢娃娃收藏圖鑑</h1>
+    <p>Derek 的日本寶可夢娃娃收藏 · 每一隻的系列與限定資訊</p>
   </header>
-  <div class="grid" id="grid"></div>
+  <div class="tabs">
+    <div class="tab active" data-tab="pika">⚡ 皮卡丘限定（12）</div>
+    <div class="tab soda" data-tab="soda">🥤 蘇打系列（5）</div>
+  </div>
+  <div class="panel active" id="panel-pika">
+    <div class="grid" id="grid-pika"></div>
+  </div>
+  <div class="panel" id="panel-soda">
+    <p class="panel-intro">寶可夢中心原創「サイコソーダ・リフレッシュ（SAIKO SODA Refresh）」系列——插畫家 F*Kaori 的蘇打汽水主題,水藍透涼配色+汽水感圓眼。這 5 隻橫跨 3 個不同發售彈次。</p>
+    <div class="grid" id="grid-soda"></div>
+  </div>
   <footer>
-    地點/年份由以圖搜圖+官方資料查證,標「推測」者信心較低待實物吊牌確認 ·
+    資訊由以圖搜圖+官方資料查證,標較低信心者待實物吊牌確認 ·
     <a href="../">← guides</a>
   </footer>
 </main>
@@ -99,23 +120,47 @@ const items = [
  {img:"12-cafe-waitress.jpg", name:"店員皮卡丘（Pokémon Cafe）", jp:"ウェイトレスピカチュウ", loc:"Pokémon Cafe 限定", year:"待確認", conf:"中",
   note:"紅船形帽＋紅白條紋＋寶貝球圍裙,咖啡廳店員制服款。"},
 ];
-const grid = document.getElementById("grid");
-items.forEach((it, i) => {
-  const c = document.createElement("div");
-  c.className = "card";
-  c.innerHTML = `
-    <div class="photo">
-      <img src="img/${it.img}" alt="${it.name}" loading="lazy">
-      <div class="num">${i+1}</div>
-      <div class="conf">信心 ${it.conf}</div>
-    </div>
-    <div class="body">
-      <div class="name">${it.name}</div>
-      <div class="jp">${it.jp}</div>
-      <div class="row"><span class="pill loc">📍 ${it.loc}</span><span class="pill">🗓 ${it.year}</span></div>
-      <div class="note">${it.note}</div>
-    </div>`;
-  grid.appendChild(c);
+const soda = [
+ {img:"s2-psyduck.jpg", name:"可達鴨", jp:"コダック", loc:"寶可夢中心全店＋線上", year:"2021/12 彈", conf:"高",
+  note:"最早的蘇打彈(同彈:夢幻、瑪力露、菊草葉)。慵懶攤坐的經典可達鴨表情。"},
+ {img:"s3-squirtle.jpg", name:"傑尼龜", jp:"ゼニガメ", loc:"寶可夢中心全店＋線上", year:"2024/02 御三家彈", conf:"高",
+  note:"御三家蘇打彈,三隻一組。眼睛帶藍粉汽水色塊。"},
+ {img:"s4-bulbasaur.jpg", name:"妙蛙種子", jp:"フシギダネ", loc:"寶可夢中心全店＋線上", year:"2024/02 御三家彈", conf:"高",
+  note:"薄荷綠版的妙蛙種子,粉紅汽水眼。與傑尼龜、小火龍同彈。"},
+ {img:"s5-charmander.jpg", name:"小火龍", jp:"ヒトカゲ", loc:"寶可夢中心全店＋線上", year:"2024/02 御三家彈", conf:"高",
+  note:"御三家蘇打彈第三隻。橘身配藍綠汽水眼,反差可愛。"},
+ {img:"s1-munchlax.jpg", name:"小卡比獸", jp:"ゴンベ", loc:"寶可夢中心全店＋線上", year:"2025/02 彈", conf:"高",
+  note:"最新彈(同彈:六尾、阿羅拉六尾、哥德寶寶、噴嚏熊)。透涼藍綠配色。"},
+];
+function render(gridId, data, isSoda) {
+  const grid = document.getElementById(gridId);
+  data.forEach((it, i) => {
+    const c = document.createElement("div");
+    c.className = "card";
+    c.innerHTML = `
+      <div class="photo">
+        <img src="img/${it.img}" alt="${it.name}" loading="lazy">
+        <div class="num">${i+1}</div>
+        <div class="conf">信心 ${it.conf}</div>
+      </div>
+      <div class="body">
+        <div class="name">${it.name}</div>
+        <div class="jp">${it.jp}</div>
+        <div class="row"><span class="pill loc">📍 ${it.loc}</span><span class="pill">🗓 ${it.year}</span></div>
+        <div class="note">${it.note}</div>
+      </div>`;
+    grid.appendChild(c);
+  });
+}
+render("grid-pika", items, false);
+render("grid-soda", soda, true);
+document.querySelectorAll(".tab").forEach(tab => {
+  tab.addEventListener("click", () => {
+    const t = tab.dataset.tab;
+    document.querySelectorAll(".tab").forEach(x => x.classList.toggle("active", x === tab));
+    document.getElementById("panel-pika").classList.toggle("active", t === "pika");
+    document.getElementById("panel-soda").classList.toggle("active", t === "soda");
+  });
 });
 </script>
 </body>
