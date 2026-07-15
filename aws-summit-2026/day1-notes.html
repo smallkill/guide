@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AWS Summit Taipei 2026 — Day1 筆記</title>
+<meta name="description" content="AWS Summit Taipei 2026 Day1(7/15)完整筆記:一頁總結、Keynote、Breakout 議程、逐字稿。">
+<style>
+  :root {
+    --bg: #0b0f14; --bg-elev: #121822; --bg-code: #0e141d;
+    --border: #1f2937; --border-soft: #18212c;
+    --text: #e6edf3; --text-muted: #93a1b0; --text-dim: #8693a1;
+    --accent: #4cc2ff; --accent-soft: rgba(76,194,255,.12); --accent-border: rgba(76,194,255,.35);
+    --warn: #ffb454; --warn-soft: rgba(255,180,84,.1);
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+    line-height: 1.7; padding: 1.5rem 1rem 4rem;
+  }
+  main { max-width: 760px; margin: 0 auto; }
+
+  header.top { margin-bottom: 1.4rem; }
+  header.top h1 { font-size: 1.4rem; line-height: 1.35; }
+  header.top h1 .slash { color: var(--accent); }
+  header.top p { color: var(--text-muted); font-size: .85rem; margin-top: .4rem; }
+  header.top a { color: var(--accent); text-decoration: none; }
+
+  nav.sections {
+    display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.1rem 0 2rem;
+    position: sticky; top: 0; padding: .6rem 0; background: var(--bg); z-index: 10;
+    border-bottom: 1px solid var(--border-soft);
+  }
+  nav.sections a {
+    flex: 1 1 auto; text-align: center; padding: .5rem .4rem; border-radius: 10px;
+    border: 1px solid var(--border); background: var(--bg-elev);
+    color: var(--text); text-decoration: none; font-size: .82rem; white-space: nowrap;
+  }
+  nav.sections a:hover { border-color: var(--accent-border); color: var(--accent); }
+
+  section.block { margin-bottom: 2.6rem; }
+
+  h2 {
+    font-size: 1.25rem; margin: 0 0 1.1rem; padding-bottom: .5rem;
+    border-bottom: 1px solid var(--border); color: var(--text); scroll-margin-top: 4.2rem;
+  }
+  h3 {
+    font-size: 1.05rem; margin: 1.9rem 0 .8rem; color: var(--accent);
+    scroll-margin-top: 4.2rem;
+  }
+  h4 { font-size: .95rem; margin: 1.3rem 0 .55rem; color: var(--text); }
+  h4::before { content: "▸ "; color: var(--accent); }
+
+  p { margin: 0 0 .7rem; color: var(--text); font-size: .92rem; }
+  main > section p, main .prose p { color: var(--text); }
+
+  strong { color: #fff; font-weight: 700; }
+  code {
+    background: var(--bg-code); border: 1px solid var(--border-soft);
+    border-radius: 5px; padding: .1rem .35rem; font-size: .82em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: #ffd479;
+  }
+
+  ul, ol { margin: 0 0 .9rem 1.3rem; }
+  li { margin-bottom: .4rem; font-size: .92rem; }
+  li.sub {
+    list-style: none; margin: -.15rem 0 .5rem -1.3rem; padding-left: .9rem;
+    border-left: 2px solid var(--border); color: var(--text-muted); font-size: .86rem;
+  }
+  li.task { list-style: none; margin-left: -1.3rem; }
+  li.task input { margin-right: .4rem; vertical-align: -1px; accent-color: var(--accent); }
+
+  blockquote {
+    margin: 0 0 1rem; padding: .7rem 1rem; border-left: 3px solid var(--accent-border);
+    background: var(--accent-soft); border-radius: 0 8px 8px 0;
+    color: var(--text-muted); font-size: .88rem;
+  }
+  blockquote p { margin: 0; color: inherit; }
+
+  hr { border: none; border-top: 1px solid var(--border); margin: 1.6rem 0; }
+
+  .table-wrap { overflow-x: auto; margin: 0 0 1.1rem; border: 1px solid var(--border); border-radius: 10px; }
+  table { border-collapse: collapse; width: 100%; font-size: .84rem; min-width: 420px; }
+  th, td { padding: .5rem .7rem; text-align: left; border-bottom: 1px solid var(--border-soft); }
+  th { background: var(--bg-elev); color: var(--accent); font-weight: 600; white-space: nowrap; }
+  tr:last-child td { border-bottom: none; }
+  td { color: var(--text-muted); }
+  td strong { color: var(--text); }
+
+  details.transcript {
+    border: 1px solid var(--border); border-radius: 12px; padding: .9rem 1.1rem; background: var(--bg-elev);
+  }
+  details.transcript summary {
+    cursor: pointer; font-size: 1rem; font-weight: 600; color: var(--text);
+    list-style: none; user-select: none;
+  }
+  details.transcript summary::-webkit-details-marker { display: none; }
+  details.transcript summary::before { content: "▸ "; color: var(--accent); }
+  details.transcript[open] summary::before { content: "▾ "; }
+  details.transcript summary .hint { display: block; margin-top: .3rem; font-size: .78rem; font-weight: 400; color: var(--text-muted); }
+  details.transcript .prose { margin-top: 1.2rem; }
+  details.transcript .prose h2 { display: none; }
+  details.transcript .prose p { font-size: .84rem; color: var(--text-muted); }
+  details.transcript .prose h3 {
+    font-size: .9rem; margin: 1.5rem 0 .6rem; color: var(--warn);
+    border-top: 1px dashed var(--border); padding-top: 1rem;
+  }
+  details.transcript .prose h3:first-of-type { border-top: none; padding-top: 0; }
+
+  footer { margin-top: 3rem; color: var(--text-dim); font-size: .78rem; text-align: center; }
+  footer a { color: var(--accent); text-decoration: none; }
+
+  @media (max-width: 480px) {
+    nav.sections a { font-size: .76rem; padding: .48rem .3rem; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header class="top">
+    <h1><span class="slash">/</span> AWS Summit Taipei 2026<br>Day1 筆記</h1>
+    <p>7/15(三)・TICC・<a href="./">← 聽講路線</a><br>
+       Derek 現場整理:一頁總結、Keynote、Breakout 議程、逐字稿。</p>
+  </header>
+
+  <nav class="sections">
+    <a href="#summary">一頁總結</a>
+    <a href="#keynote">Keynote</a>
+    <a href="#breakouts">Breakout</a>
+    <a href="#transcript">逐字稿</a>
+  </nav>
+
+  <section class="block prose" id="summary">
+<h2>AWS Summit Taipei 2026 — Day1 一頁總結</h2>
+<blockquote><p>詳細內容:Day1 Keynote 筆記、Day1 Breakout 議程筆記、Day1 逐字稿</p></blockquote>
+<h3>今天的一句話</h3>
+<p><strong>Agent 元年進入「治理與生產化」階段</strong>——工具大家都有了,分出高下的是隔離、稽核、成本控制與組織設計。</p>
+<h3>三個大趨勢</h3>
+<ol>
+<li><strong>Frontier Agents 產品化</strong>:DevOps Agent(調查 GA/修復還沒)、Security Agent(pen testing/code review GA,threat modeling/code vulnerabilities preview)、Kiro(spec-driven+Powers)。AWS 把「自主 agent」當產品線在賣。</li>
+<li><strong>架構收斂</strong>:三個台灣案例(趨勢科技、幣託、NextLink)同一配方——<strong>EKS 多租戶(隔離)+ Bedrock(模型不出帳號)+ MCP(工具接口)+ Skills(知識注入)</strong>;上下文三層(Instructions/Skills/Memories)與 Claude Code 同構。</li>
+<li><strong>人機分工定型</strong>:「AI 跑腿彙整、人做決策」全天重複三次(OpenClaw×DevOps Agent、Wingman TAM、ASKUL 併進型)。</li>
+</ol>
+<h3>最有料的五個技術點</h3>
+<ol>
+<li><strong>K8s RuntimeClass 沙箱</strong>:runc/gVisor/Kata 同 cluster 混用,一行 yaml 換隔離等級;2026/2 起 C8i/M8i/R8i 巢狀虛擬化讓 Kata 免 bare-metal。</li>
+<li><strong>agent-sandbox-controller</strong>(CRD 仿 PV/PVC):Template/Claim/Sandbox/WarmPool,預熱池解 idle 成本。</li>
+<li><strong>AI Gateway 模式</strong>:模型前自建一層集中管 token 驗證/健康/quota/路由/重放(INF02);幣託版=LiteLLM 零信任路由+Langfuse 觀測+Pod Identity 零金鑰。</li>
+<li><strong>ALB Target Optimizer</strong>:push→pull 的併發感知 LB,GPU/LLM 後端尾延遲治理(100% in-SLA 實測);WebSocket 不支援。</li>
+<li><strong>Quota 決策階梯</strong>:60% 申請調升/80% 換路由/90% 優雅降級——可直接抄成告警閾值。</li>
+</ol>
+<h3>風險提醒(OpenClaw 場)</h3>
+<p>99.9 萬暴露實例、1,184 惡意 plugin、82 CVE;<strong>代碼執行+工具呼叫+資料存取三能力並存=最高風險</strong>;治理四原則:唯讀預設→計畫先審→全程稽核→隔離爆炸半徑。</p>
+<h3>可跟進事項</h3>
+<ul>
+<li class="task"><input type="checkbox" disabled> clone 好的 sample:<code>~/.claude_cache/sample-openclaw-mtp</code>(讀 ArgoCD ApplicationSet/Gateway API/NetworkPolicy ADR,不部署)</li>
+<li class="task"><input type="checkbox" disabled> websec-scanner 借鏡:Continuum「掃描→sandbox 驗證利用→才報告」三段式</li>
+<li class="task"><input type="checkbox" disabled> NOVA 自查:檢查本機有無意外暴露的 listener</li>
+<li class="task"><input type="checkbox" disabled> 巧虎伴伴 2026 Q4 群眾募資(有興趣可追蹤官方 LINE)</li>
+</ul>
+<h3>Day2 預告(7/16)</h3>
+<p>路線:KEY002 → SEC02(Security Agent×CyCraft,101BC)→ SEC01 多租戶 AI Agent 治理 → FINTECH02 Multi-Agent 回測 → DBA03 Gogolook 向量檢索 → AIML08 大規模 Multi-Agent 架構。</p>
+<p>逐字稿爬蟲備妥:拿到 flit.to 連結丟給我,間隔會縮到 10 分鐘。</p>
+  </section>
+
+  <section class="block prose" id="keynote">
+<h2>AWS Summit Taipei 2026 — Day1 Keynote 重點</h2>
+<ul>
+<li><strong>地點／場次</strong>：AWS Summit Taipei 2026,Day1(2026-07-15)Keynote</li>
+<li><strong>記錄方式</strong>：Derek 現場照片整理</li>
+<li><strong>收錄日期</strong>：2026-07-15</li>
+</ul>
+<hr>
+<h3>一、AWS DevOps Agent(Frontier Agents 系列)</h3>
+<ul>
+<li>自主 SRE agent,2026-03-31 GA,跑在 <strong>Bedrock AgentCore</strong>。</li>
+<li>告警觸發後自動調查、測假設、找 root cause。</li>
+<li>官方數據:<strong>RCA 準確率 94%</strong>、<strong>MTTR 改善最高 75%</strong>、<strong>$0.498/agent-分鐘</strong>。</li>
+<li><strong>NEW:Release Management(preview)</strong> — 上線前守門:release readiness 檢查、sandbox 驗 build、自主回歸測試。</li>
+<li class="sub">意義:應用範圍從「事故救火」往前延伸到「release pipeline」。</li>
+</ul>
+<h3>二、Kiro</h3>
+<ul>
+<li>AWS 的 <strong>AI IDE</strong>(VS Code 分支)。</li>
+<li>核心方法論:<strong>spec-driven development</strong> — 需求 / 設計 / 任務三份文件先審過再寫 code。</li>
+<li>支援 <strong>agent hooks</strong>。</li>
+<li>底層主要用 <strong>Claude</strong>。</li>
+</ul>
+<h3>三、ASKUL 案例(日本電商)</h3>
+<p>背景:2025-10 遭勒索軟體重災後重建。</p>
+<h4>敘事</h4>
+<ul>
+<li>復原目標不是「回到 100%」,而是「120%」——用 AI-DLC(<strong>AI-Driven Development Life Cycle</strong>)趁重建升級。</li>
+</ul>
+<h4>AI-DLC 四步</h4>
+<ol>
+<li>決定執行方針(人)</li>
+<li>發現執行課題(Kiro)</li>
+<li>設計解決方案</li>
+<li>提供企業價值</li>
+</ol>
+<p>→ AI 打進<strong>策略／企劃層</strong>,不只是工程層。</p>
+<h4>落地場景</h4>
+<ul>
+<li>商品負責人 AI 工作台:商品管理 + 課題管理 + 資料分析,串接供應商與銷售資料。</li>
+</ul>
+<h4>關鍵數字</h4>
+<ul>
+<li><strong>商品企劃「循序型」336 小時(2 週)→「併進型」3 小時,約 100 倍加速</strong></li>
+<li class="sub">運作方式:人下指令、Kiro 併行分析、人決策。</li>
+</ul>
+<h4>成功四關鍵</h4>
+<ol>
+<li>共同目標 + 執行覺悟</li>
+<li>業務與工程協力</li>
+<li>權限下放第一線</li>
+<li>完善 AI 環境</li>
+</ol>
+<blockquote><p>其中 <strong>3/4 是組織文化,非技術</strong>——這是這個案例最值得借鏡的地方。</p></blockquote>
+<h3>四、AWS Security Agent — AWS Continuum(資安能力線)</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>能力</th><th>狀態</th><th>說明</th></tr></thead>
+<tbody>
+<tr><td>Pen testing</td><td><strong>GA</strong></td><td>滲透測試從年度顧問案 → agent 持續跑</td></tr>
+<tr><td>Code review</td><td><strong>GA</strong></td><td>—</td></tr>
+<tr><td>Threat modeling</td><td><strong>NEW / preview</strong></td><td>自動威脅建模</td></tr>
+<tr><td>Code vulnerabilities</td><td><strong>NEW / preview</strong></td><td>Discover(model agnostic)→ Prioritize(企業 context 排序)→ Validate(隔離 sandbox 實際 exploit 驗證,消滅誤報)→ Remediate(客製修補建議)</td></tr>
+</tbody></table></div>
+<h3>五、Bedrock / 資料層新發表</h3>
+<ul>
+<li><strong>Web Search on AgentCore(NEW,GA)</strong>:agent 原生網頁搜尋 grounding——抓取即時網路資訊、AWS 環境內原生運作、資料與查詢不離開 AWS。</li>
+<li><strong>Amazon Bedrock Managed Knowledge Base(NEW,GA)</strong>:全代管 RAG——內建 parsing/chunking/儲存,原生 connector(S3、Web Crawler、SharePoint、Confluence、Google Drive、OneDrive),agentic retrieval 支援多步查詢。</li>
+<li><strong>AWS Context(NEW,coming soon)</strong>:資料與 agent 的 context intelligence——自學習 knowledge graph、Iceberg 原生 metadata、<strong>shared agent skills</strong>、結構化+非結構化,整合 Glue Data Catalog 與 SageMaker Unified Studio。</li>
+</ul>
+<h3>六、OpenAI × AWS(OpenAI Codex 企業產品負責人 Rohan Varma 上台)</h3>
+<p>三階段合作進程「From model choice to joint agents」:</p>
+<ol>
+<li><strong>2025/8 Model choice</strong>:gpt-oss 開源模型上 Bedrock / SageMaker JumpStart。</li>
+<li><strong>2025/11 Shared scale</strong>:多年期協議,OpenAI workload 跑 AWS(打破微軟獨家)。</li>
+<li><strong>2026 Joint agents</strong>:GPT-5.4/5.5 先上;最新 <strong>GPT-5.6 Sol / Terra / Luna 已在 Bedrock GA</strong>;<strong>Managed Agents powered by OpenAI</strong> 限量 preview。</li>
+</ol>
+<p>→ 意義:OpenAI 模型成為 Bedrock 一級公民;AWS 定位「所有模型的中立賣場」。</p>
+<p><strong>Codex software development lifecycle</strong>:Plan → Build → Review → Deploy → Iterate 五環——agent 全程參與,不只在 Build 段寫 code。</p>
+<p>→ 觀察:Kiro 的 spec-driven、Codex 的 lifecycle、Claude Code 的流程治理,三家講同一個故事:<strong>AI 開發重點從「生成程式碼」移到「治理整條流程」</strong>。</p>
+<p><strong>Bedrock 模型陣容牆</strong>(broadest choice):AI21 Jamba、Amazon Nova、Anthropic(Opus/Sonnet/Haiku/<strong>Fable</strong>)、Cohere、DeepSeek、Google Gemma、Moonshot Kimi、Luma Ray、Meta Llama、MiniMax、Mistral、NVIDIA Nemotron、OpenAI(GPT/gpt-oss/gpt-oss-safeguard)、Qwen3、Stability、TwelveLabs、Writer——中國系模型佔四格,「中立賣場」策略徹底。</p>
+<h3>七、可引用／可借鏡</h3>
+<ul>
+<li>ASKUL「2 週 → 3 小時」案例(出處:AWS Summit Taipei 2026 keynote);「導入 AI 挑戰」可用組織文化四關鍵當框架。</li>
+<li><strong>websec-scanner 專案</strong>:可借鏡 Continuum 的「掃描 → 驗證利用 → 才報告」三段式流程,降低誤報。</li>
+</ul>
+<hr>
+<h3>相關筆記</h3>
+<ul>
+<li>總覽索引:AWS Summit 總覽索引</li>
+</ul>
+  </section>
+
+  <section class="block prose" id="breakouts">
+<h2>AWS Summit Taipei 2026 — Day1 Breakout 議程筆記</h2>
+<p>Derek 現場照片整理;keynote 另見 Day1 Keynote 筆記。</p>
+<h3>KIRO01 — AWS DevOps Agent 自主事件調查(11:30,201ABC)</h3>
+<h4>Operations is a context problem</h4>
+<ul>
+<li><strong>73%</strong> 的事件處理時間花在蒐集上下文,而非修復問題。</li>
+<li>單一 Sev2 事件,值班工程師要用 <strong>11+ 個工具</strong>。</li>
+<li><strong>3am</strong> 是人類最不擅長關聯訊號的時刻。</li>
+<li>分工主張:<strong>DevOps Agent 負責蒐集,工程師負責決策</strong>。</li>
+<li>可借鏡:73% 這個數字適合包裝 devbox watchdog(自動蒐集 error rate/p95)的動機。</li>
+</ul>
+<h4>事件生命週期五階段(標準 SRE 鋪陳)</h4>
+<ol>
+<li>偵測(判斷嚴重度、是否叫醒團隊)</li>
+<li>調查(蒐集上下文、驗證假設以指導恢復)</li>
+<li>恢復(快速恢復,平衡速度 vs 產生額外問題的風險)</li>
+<li>事後檢討(無責 RCA、跨系統改善機會)</li>
+<li>改善(強化可觀測性、測試、基礎設施)</li>
+</ol>
+<h4>DevOps Agent 四大核心能力</h4>
+<ol>
+<li><strong>訊號接收</strong>:CloudWatch/X-Ray/EventBridge/Datadog/Dynatrace/GitHub/PagerDuty → 統一單一事件時間軸。</li>
+<li><strong>拓撲</strong>:即時服務與資源相依圖,agent 持續維護(什麼呼叫什麼、何時變更)。</li>
+<li><strong>根因分析</strong>:從症狀反向走訪拓撲;引用證據排序候選原因;排除干擾項。</li>
+<li><strong>詳細緩解計畫</strong>:每選項附理由、可逆性、風險;禁止措施先過濾(如營業時間不做容錯切換)。</li>
+</ol>
+<ul>
+<li>觀察:第 4 點的「可逆性+營運護欄」是敢讓 agent 碰 production 的關鍵設計。</li>
+</ul>
+<h4>Agent 運作架構(全圖)</h4>
+<ul>
+<li><strong>輸入訊號</strong>:AWS 原生(CloudWatch/X-Ray、EventBridge/CloudTrail、CW Logs/CodePipeline)+ 第三方 APM(Datadog/Dynatrace、New Relic/Splunk、Grafana/Prometheus)+ 開發與值班(GitHub/GitLab、PagerDuty/Opsgenie、Jira/自訂 webhooks)。</li>
+<li><strong>推理核心八模組</strong>:訊號接收(正規化/關聯)、推理迴圈(Bedrock 模型)、程式碼索引(儲存庫/分支/功能)、Runbook 檢索(向量+結構化)、技能目錄(<strong>宣告式規格</strong>)、緩解規劃器(計畫+理由)、記憶與狀態(每事件上下文)、<strong>MCP 伺服器</strong>(工具對外提供)。</li>
+<li><strong>介面</strong>:Slack 機器人(告警+對話問答)、Kiro IDE(MCP client)、Quick console(MCP client)。</li>
+<li><strong>產出</strong>:含理由的緩解計畫、Runbook+差異建議、值班呼叫、稽核日誌+事件筆記。</li>
+<li>觀察:①對外整合全押 <strong>MCP</strong>(Anthropic 的協議成 AWS 官方標準件)②技能目錄=宣告式規格,與 Claude Code skills 同構;整張圖可當 agent 系統設計參考。</li>
+</ul>
+<h4>RCA 七個調查動作(推理迴圈按需呼叫,各附工具組合)</h4>
+<ol>
+<li>指標分析:症狀時間軸/異常偵測/錯誤率延遲量化 — use_aws cloudwatch、pi、sqs、datadog_get_metric</li>
+<li>日誌搜尋:錯誤訊息/堆疊/慢查詢/權限失敗 — query_cloudwatch_logs、describe_log_groups</li>
+<li>基礎設施變更調查:IAM/Lambda/CFN 變更×事件時間關聯 — lookup_cloudtrail_events</li>
+<li>程式碼探索:拒絕策略/查詢生成/斷裂參照 — <strong>repo_grep、repo_read、git_log、git_diff</strong></li>
+<li>部署與程式碼審查:CFN 事件、CI/CD、GitHub 提交記錄看最近部署</li>
+<li>AWS 資源檢查:IAM 角色、Lambda 設定、SQS 屬性、事件來源對應</li>
+<li><strong>調查編排:規劃任務、綜合發現、跨 Agent 判定根因</strong>(→ 底層是多 agent 協作)</li>
+</ol>
+<ul>
+<li>本質:把資深 SRE 的 debug 直覺拆成七個可呼叫動作。</li>
+</ul>
+<h4>系統概覽</h4>
+<ul>
+<li><strong>邊界:目前僅 US-EAST-1</strong>(台灣落地注意延遲/資料出境);認證 AWS IDC/IdP;操作員 Web 應用(拓撲/調查/對話/預防/技能)+管理控制台;後端 Bedrock 驅動。</li>
+<li><strong>Agent 類型六種</strong>:通用、隨需、事件分級、事件 RCA、事件緩解、評估 → 印證多 agent 分工(分級/調查/緩解各自獨立,另有評估 agent 打分)。</li>
+<li><strong>整合四路</strong>:工單溝通(ServiceNow/PagerDuty/Slack)、<strong>自訂 MCP 服務(OAuth 2.0+API Keys,接內部工具的入口)</strong>、CI/CD(GitHub/GitLab/Azure DevOps)、可觀測性(Dynatrace/Datadog/Splunk/New Relic)。</li>
+<li><strong>調查觸發器</strong>:通用 webhook、手動(Web 應用)、ServiceNow Business Rule→webhook、PagerDuty 工單→webhook、Dynatrace Problem→Workflow→webhook(全收斂到 webhook)。</li>
+<li><strong>分析與輸出</strong>:<strong>不可變 Agent 日誌(所有推理步驟,稽核/回放)</strong>、歷史事件分析+建議、時間軸+根因分析、緩解計畫、AWS Support Case 自動附上下文。</li>
+<li>觀察:不可變推理日誌是企業敢用的前提(事後可回放判斷過程)。</li>
+</ul>
+<h4>工作空間即時協作(UI 實截圖)</h4>
+<ol>
+<li>告警 → Agent 自動發布調查結果(含拓撲圖)。</li>
+<li>討論串中工程師 @-mention 機器人追問。</li>
+<li>緩解計畫附完整理由(demo:停用 chaos engineering 場景)。</li>
+<li>證據連結:日誌/指標/Runbook 內嵌呈現。</li>
+</ol>
+<ul>
+<li>體驗定位:「多一個 SRE 同事在討論串裡」;AWS 用 chaos 注入故障來測/展示 agent。</li>
+</ul>
+<h4>主動事件預防(Ops Backlog)</h4>
+<ul>
+<li>方法論:每週回顧 7-30 天事件 → 模式識別(時間/資源/部署)→ 產生目標化可執行建議,進 Ops Backlog(每週跑、狀態追蹤、需 review)。</li>
+<li>建議四類:①可觀測性改善(補告警/追蹤/日誌彙總)②基礎設施最佳化(資源大小/自動擴展/冗餘)③部署管線強化(安全掃描/金絲雀/整合測試)④應用韌性(斷路器/重試/逾時)。</li>
+<li>UI 範例:K8s admission controller 擋危險 env var、CloudWatch 告警多期評估消誤報、CI/CD 加 pre-deployment 安全掃描。</li>
+<li>觀察:等於把 postmortem action items 自動產生+追蹤,解決「寫完就忘」。</li>
+</ul>
+<h4>隨需 SRE 任務處理(對話式,平時可問)</h4>
+<ul>
+<li>對話能力:複雜查詢 NLU、多區域分析、基於對話歷史追問。</li>
+<li>深度檢視:架構(拓撲/資源清單/偏移偵測)、部署(CI/CD 健康度/儲存庫/發布速度)、可觀測性(指標關聯/日誌模式/追蹤)、韌性(錯誤趨勢/相依性健康/安全態勢)。</li>
+<li>範例問法:容量「接近限制的 Lambda」、安全「30 天內到期憑證」、效能「昨天延遲飆升原因」、成本「CPU&lt;10% 的 EC2」。</li>
+<li>對話 demo 的回答結構:結論 → 列出查了什麼(證據)→ 主動提後續選項(好 agent 樣板)。</li>
+</ul>
+<h4>分級代理(事件分級 Agent)</h4>
+<ul>
+<li>問題:五告警同時觸發 → 五個獨立調查 → 同一根因,重工。</li>
+<li>解法:相關事件關聯成單一調查;已連結事件標「LINKED」不自動另起調查、與主調查分組 → alert storm 去重+火力集中。</li>
+<li>對比:Datadog/PagerDuty correlation 類似,差別是去重後直接接自家 RCA agent。</li>
+</ul>
+<h4>Enterprise-Ready 功能</h4>
+<ul>
+<li><strong>區域擴展:上線時 6 區</strong>(US East 維州/US West 奧勒岡/Frankfurt/Ireland/Sydney/<strong>Tokyo</strong>)→ 前面「僅 US-EAST-1」是現況,GA 擴 6 區後台灣可用東京。</li>
+<li><strong>私有 MCP</strong>:連私有 MCP 伺服器、安全存取內部工具、機密流量不經網際網路。</li>
+<li><strong>安全性</strong>:客戶自管金鑰(CMK)、直接 IdP 整合、Okta、Microsoft Entra ID。</li>
+<li><strong>在地化</strong>:瀏覽器語言偵測、agent 回應翻譯、偏好語言互動。</li>
+<li>觀察:私有 MCP+CMK = 瞄準金融/受監管產業。</li>
+</ul>
+<h4>Humans stay in control(治理四原則)</h4>
+<ol>
+<li><strong>預設唯讀</strong>:agent 讀訊號與程式碼;人決定執行什麼。</li>
+<li><strong>計畫、非盲目行動</strong>:建議附理由/證據/替代方案;禁止措施先過濾(營業時間不容錯切換、停機期不再平衡)。</li>
+<li><strong>完整稽核+客戶金鑰</strong>:推理步驟/訊號/程式碼參照記錄於 CloudTrail;Bedrock+KMS CMK;資料不離客戶區域。</li>
+<li><strong>調查隔離</strong>:並行事件獨立;不同標題新告警開全新調查,永不靜默合併。</li>
+</ol>
+<ul>
+<li>一句話框架:「AI agent 上 production 怎麼管」= 唯讀預設 → 計畫先審 → 全程稽核 → 隔離爆炸半徑。</li>
+</ul>
+<h4>總結:產品全貌四模組</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>模組</th><th>狀態</th></tr></thead>
+<tbody>
+<tr><td>發布就緒程式碼審查</td><td>preview</td></tr>
+<tr><td>發布測試自動化</td><td>preview</td></tr>
+<tr><td>自主事件回應</td><td>GA</td></tr>
+<tr><td>主動事件預防</td><td>GA</td></tr>
+</tbody></table></div>
+<ul>
+<li>底座:「生產智慧」持續學習環境/程式碼/維運;定位「跨 AWS、多雲、地端的隨時可用隊友」。preview 兩塊=keynote 的 Release Management。</li>
+</ul>
+<h4>進階上下文管理(三層知識注入)</h4>
+<ul>
+<li><strong>Instructions</strong>(always on,standing orders):每 prompt 自動載入;org 政策/偏好。例:查基礎設施前先看 24h 內部署、回應帶 ticket ID、時間戳一律 UTC。</li>
+<li><strong>Skills</strong>(on task match,on-call runbook):agent 條件式載入;Learned skills 自動從 AWS 環境+多雲拓撲建;Custom skills 用 <strong>SKILL.md</strong> 寫 runbook/SOP,<strong>支援 Git 管理</strong>。</li>
+<li><strong>Memories</strong>(on-demand,team wiki search):按相關性檢索;agent 自評相關性、自動管理記憶庫;可人工寫 directive。例:「Staging DB 週一早上 latency」「Lambda 棄用改 Fargate」。</li>
+<li>觀察:與 Claude Code 同構(CLAUDE.md/skills/memory),連 SKILL.md 命名都相同——業界收斂到同一套上下文分層。</li>
+</ul>
+<h4>生產智慧進 IDE(Kiro Powers)</h4>
+<ul>
+<li>DevOps Agent 以「<strong>Kiro Power</strong> aws-devops-agent」形式進 Kiro IDE;另提 Claude agents。</li>
+<li>可靠性檢查<strong>左移</strong>(code 離開桌面前);告警到修復全在 IDE 不切換;發布就緒審查可掛 <strong>Kiro Hook</strong>(重大規格任務後自動執行)。</li>
+<li>demo 截圖:模型 Claude Opus 4.6 High;狀態列「Kiro Power Overage $679.64」→ 用量超額計費,採購時要問計費模式。</li>
+</ul>
+<p>(KIRO01 完)</p>
+<h3>下一場(講者:台灣,對照 OpenClaw)</h3>
+<h4>OpenClaw vs DevOps Agent:「擴張稅」論</h4>
+<ul>
+<li>自架 agent(OpenClaw)越強、擴張稅越高:連鎖 alert 難追源頭;每接一工具=token 管理+資安審查;skill 知識要持續餵。</li>
+<li>轉折:DevOps Agent 原生 IAM 一次搞定(不用各工具各養 token/各過審查)、OpenSearch 原生直串 log。</li>
+<li>金句:「問題不是誰取代誰——是誰來當那個『不用繳擴張稅』的大腦」。</li>
+<li>評:managed 把整合成本內化,代價是綁 AWS 生態。</li>
+</ul>
+<h4>結論:不是二選一,是各司其職</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>維度</th><th>OpenClaw</th><th>DevOps Agent</th></tr></thead>
+<tbody>
+<tr><td>權限/資安</td><td>每工具各養 token+過審查</td><td>原生 IAM 一次搞定</td></tr>
+<tr><td>Log 存取</td><td>要串、要餵</td><td>AWS 原生 OpenSearch/CW Logs/Grafana</td></tr>
+<tr><td>通用性/通路</td><td>什麼都能接、能通知</td><td>主流工具(Slack/GitHub/JIRA)「還不太夠」</td></tr>
+<tr><td>角色定位</td><td>彈性起點+通路</td><td>最強的(AWS 帳號內)調查大腦</td></tr>
+</tbody></table></div>
+<ul>
+<li>「各有一半,合起來才完整」:OpenClaw 當前台通路,DevOps Agent 當帳號內調查大腦。</li>
+</ul>
+<h4>鏈路 A — 事故:「P1 進來,人起床後調查已跑完」</h4>
+<p>CW Alarm(告警觸發)→ Lambda(接事件)→ Webhook(轉發)→ OpenClaw(收到觸發)→ <strong>DevOps Agent(跨帳號 root cause 調查)</strong> → OpenClaw(整理結果)→ Teams/Slack(回報團隊)</p>
+<ul>
+<li>「OpenClaw 跑腿、DevOps Agent 動腦」:接進來/送出去 vs 找 root cause。</li>
+</ul>
+<h4>鏈路 B — FinOps:「同一個大腦,換上主動海巡模式」</h4>
+<p>DevOps Agent(Custom Agent,每日排程,不等告警自己巡)→ SNS Topic(發布通知)→ Email(SRE 全員)</p>
+<ul>
+<li>與鏈路 A 的差別:這條是「主動」的——每天固定時間巡成本異常,不靠人記得。</li>
+</ul>
+<h4>FinOps 實戰 case(趨勢科技 SRE)</h4>
+<ul>
+<li>每日巡帳抓到「每天漏 $117」:STG Savings Plan 過期 → 默默變 on-demand,無告警、服務正常、純燒錢。</li>
+<li>報告設計:三級分類(Action Required/Monitor/No Action,agent 判斷該不該花)、歸因到 IAM role/repo/是否人為、金錢殺手直接標紅。</li>
+<li>Takeaway:「FinOps 不再是月底翻帳單——是每天有人幫你盯」。</li>
+</ul>
+<h4>DevOps Agent 三層限制(講者實測)+ OpenClaw 補法</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>層面</th><th>限制</th><th>解法</th></tr></thead>
+<tbody>
+<tr><td>通路層</td><td>Slack 只能綁一個 channel(每 region/帳號分流不適用)</td><td>OpenClaw 發訊息</td></tr>
+<tr><td>協作層</td><td>Agent Space 頁面單人可見;AAD 多 Role 無法共享調查結果</td><td>OpenClaw 爬出統一分發;要看頁面才需共用 Role assume</td></tr>
+<tr><td>執行層</td><td><strong>只給建議、不動手修——診斷不執行</strong>(傳 Q4 開放執行)</td><td>OpenClaw 執行 CLI 真正修復;低風險可回滾自動、高風險人工審核</td></tr>
+</tbody></table></div>
+<ul>
+<li>關鍵認知:目前 GA 的「自主」=自主調查,修復仍要人/自接。「不是它不夠好,是它更適合雙人組」。</li>
+</ul>
+<h4>Takeaway 判斷準則</h4>
+<ul>
+<li>環境夠 AWS-native(log 在 OpenSearch、跨多帳號)→ DevOps Agent 當大腦,CP 值最高。</li>
+<li>已有通用 agent(OpenClaw 類)→ 別丟現有投資,讓它當通路、兩個組隊。</li>
+<li>結語:「<strong>AI Agent 的未來不是找一個全能的——是讓專才組隊</strong>」。</li>
+</ul>
+<p>(OpenClaw×DevOps Agent 場完)</p>
+<h3>INF02 — 在 AWS 上構築韌性 AI 架構:TheKeeper 巧虎伴伴實戰(13:30)</h3>
+<p>講者:Bard Lan(AWS Sr. Solutions Architect)、Eason Lin(TheKeeper 技術總監)。主題:兒童陪伴 AI「巧虎伴伴」的韌性架構實戰。</p>
+<h4>韌性=營收(開場數據)</h4>
+<ul>
+<li>非計畫停機:Global 2000 年損 ~$400B ≈ 9% 年獲利(Oxford Economics 2024)。</li>
+<li>1/5 企業最近一次重大停機損失 &gt;$1M;逾半 &gt;$100K(Uptime Institute 2025)。</li>
+<li>停機成董事會/資本市場議題,威脅股東價值與投資人信心(Gartner 2026)。</li>
+<li>Werner Vogels 引言:「建立能把故障視為自然現象的系統」(embrace failure as a natural occurrence)。</li>
+</ul>
+<h4>四大雲 APAC 韌性比較(AWS 自家數據,慎讀)</h4>
+<ul>
+<li>基礎設施:AWS 16 region/50 實體隔離 AZ/100% region ≥3 AZ;GCP 11 region/91%;Azure 22 region 但 50%(11 region 無 AZ);OCI 0%。</li>
+<li>事故統計(出處:AWS「Cloud resilience handbook for APAC CIOs」):AWS 49 件/累計 117.91h/99.62%;OCI 98.99%;Azure 96.47%;GCP 160 件/3,777h/87.67%。</li>
+<li>⚠ GCP 87.67% 明顯與體感不符;統計口徑未揭露,屬廠商行銷比較。AZ 架構事實面可信。</li>
+</ul>
+<h4>Shared Responsibility Model for Resilience(Well-Architected 官方圖)</h4>
+<ul>
+<li>AWS 管雲「本身」:硬體服務(compute/storage/DB/networking)+全球基礎設施(region/AZ/edge)。</li>
+<li>客戶管雲「內」:關鍵基礎設施持續測試、工作負載架構、變更管理與操作韌性、可觀測性與故障管理、網路/限額/約束。</li>
+<li>一句話:買 AWS ≠ 買到韌性,上五層自己負責。</li>
+</ul>
+<h4>韌性 mental model</h4>
+<ul>
+<li><strong>HA</strong>:主環境設計抵禦常見故障;指標 SLA。</li>
+<li><strong>DR</strong>:HA 無法處理的故障,災備環境於可承受時間內恢復;指標 RTO/RPO。</li>
+<li><strong>持續改善</strong>:CI/CD+可觀測性,從部署前測試 → chaos engineering 演練。</li>
+<li>三 AZ HA 參考架構:ELB+ASG 跨 AZ、RDS primary/standby/read replica、S3/DynamoDB 原生跨 AZ;服務分級 zonal(EC2/EBS)/regional(ELB/RDS)/global(S3/DDB)——按故障域決定哪層自己做冗餘。</li>
+</ul>
+<h4>★ AI 工作負載的新故障型態(本場核心)</h4>
+<ul>
+<li>傳統故障(當機/DB/網路)基礎未變,多 AZ/副本/重試仍必要。</li>
+<li><strong>AI 新增五種</strong>:①模型 throttling/限額耗盡 ②單一模型或單區域強相依 ③Agent 長流程狀態遺失 ④幻覺/不當輸出 ⑤成本失控(token 爆量)。</li>
+<li>結論:韌性要做進<strong>推論層與 AI Agent 層</strong>(額外冗餘+主動彌補);幻覺被歸類為「故障型態」= 輸出品質要像 error rate 一樣監控。</li>
+</ul>
+<h4>AWS AI 全家桶地圖(Bedrock 定位:無伺服器的基礎韌性)</h4>
+<ul>
+<li>應用/agents:Kiro、Amazon Quick、AWS Transform、Connect、Marketplace;Frontier Agents(Kiro autonomous/DevOps/Security)。</li>
+<li>Agent 開發兩路線:<strong>Nova Act</strong>(垂直整合)vs <strong>Strands Agents</strong>(Flexible/OSS)。</li>
+<li>Bedrock:Models(<strong>Nova 2</strong>/3P)、Guardrails/Knowledge Bases/Optimization/Customization、No-code <strong>AgentCore Harness</strong>、Unified Governance(Agent Registry)。</li>
+<li><strong>AgentCore</strong>:Runtime/Memory/Gateway/1P Tools/Identity/Observability/Policy/Evaluations/Optimization/<strong>Payments</strong>。</li>
+<li>基礎:SageMaker(model building/training/MLOps/Hyperpod/<strong>Nova Forge</strong>)、Data Foundation(向量搜尋等)、AI Compute(Trainium/Inferentia/GPU)、<strong>AI Factories</strong>。</li>
+<li>兩側貫穿:Interfaces &amp; Protocols(<strong>MCP/A2A</strong>)、Security and Policies。</li>
+</ul>
+<h4>解法 1 — Bedrock CRIS(Cross-Region Inference Service)</h4>
+<ul>
+<li>打「單區域強相依」:應用打 CRIS 端點,智慧路由自動選健康 region 的 FM、挑資源足/延遲低路徑;支援多 FM+Guardrails。</li>
+<li>定位:模型層的 multi-AZ / 官方版模型 fallback。</li>
+</ul>
+<h4>解法 2 — Quota 管理(「限流即事故」)</h4>
+<ul>
+<li>Token 用量分鐘級追蹤(rolling aggregation),即早偵測限額壓力。</li>
+<li><strong>決策階梯:&gt;60% quota 申請調升;&gt;80% 換模型路由/區域;&gt;90% fail gracefully+通知 Ops</strong>(可直接抄成告警閾值)。</li>
+<li>各模型 burndown rate 不同,估限額要納入。</li>
+</ul>
+<h4>解法 3 — Context window 約束</h4>
+<ul>
+<li>應用層先 count_tokens() 守門(放行/截斷),不等模型端爆錯。</li>
+<li>參考值:Claude 200K(Haiku/Sonnet/Opus 4.5)、1M(Sonnet 4.6/5、Opus 4.6-4.8、Fable 5);Nova 300K(Lite/Pro)、1M(Lite 2)。</li>
+</ul>
+<h4>解法 4 — FM Routing Logic(模型層 health check)</h4>
+<ul>
+<li>四指標:health check、錯誤率門檻、延遲 SLA、限額餘量 → FM Primary/Secondary/Tertiary 三級 fallback。</li>
+<li>易漏點:延遲超 SLA 和 quota 見底也算「不健康」,不只看掛沒掛。</li>
+</ul>
+<h4>★ FM 存取韌性參考架構(可直接畫自家版)</h4>
+<p>Client → API GW/ALB → <strong>AI Gateway 層(自建,Lambda/ECS)</strong>:Token Validator+Health Monitor+Quota Monitor+<strong>Router/Replay</strong> → Region A/B/C(各 FM CRIS Profile+Guardrails)→ invocation logs 進 S3/CloudWatch 回饋 gateway。</p>
+<ul>
+<li>核心:模型前自建一層 AI Gateway 集中管 token/健康/quota/路由/重放;Replay=失敗請求換模型重打。</li>
+</ul>
+<h4>Bedrock AgentCore(無伺服器 agent 部署平台,細部)</h4>
+<ul>
+<li>Runtime:any framework/models/agents;prompt+tools+context;介面 HTTP/AG-UI(app)、A2A/MCP(agent 間)、AgentCore CLI。</li>
+<li>元件:Memory、Identity(any provider)、Gateway/Policy(MCP)、Browser、Code Interpreter、Agent Registry、Payments。</li>
+<li>觀測:Observability(原生 OTEL)、Evaluations、Optimization。</li>
+<li>賣點:原生 Multi-AZ、簡化開發部署維運、安全隔離+生態開放。= agent 版的 EC2+IAM+CloudWatch 全家桶。</li>
+</ul>
+<h4>TheKeeper 巧虎伴伴實戰段</h4>
+<ul>
+<li>破題:「巧虎伴伴 = 玩偶 + ChatGPT?」(→ 展開為什麼沒那麼簡單)。</li>
+<li>五大挑戰:①童音 ASR 聽不懂 ②說話不像巧虎(人設一致)③不當內容(兒童安全)④不記得過往對話(記憶)⑤思考太久(延遲,幼兒沒耐心)。</li>
+<li>三方需求:Children 好玩愛互動、Parents 安全放心、<strong>IP 方符合巧虎世界觀</strong>(授權 IP 人設偏移=商業問題)。</li>
+<li>情境影片(Derek 口述):<strong>實體卡片互動=介面+護欄二合一</strong>——插卡選主題,對話鎖定該主題域(硬體層 prompt scoping),把 open-ended 對話收斂成有限狀態,兒童安全風險大降。</li>
+<li>四大核心體驗:自由對話、故事互動(延伸討論)、<strong>主題 NFC 卡牌</strong>(生活習慣+智育引導,即上述卡片)、<strong>家長 Dashboard</strong>(互動記錄/好奇主題,透明化=信任來源)。</li>
+<li>公司背景(agent 查證):TheKeeper=科科科技 KKCompany(KKBOX 母公司)旗下 AI 數位分身平台(2024/12 發表);與 Benesse 台北 IP 授權合作;本業創作者數位分身(志祺七七/芒果醬聲音模型、親子天下黃瑽寧 AI);巧虎伴伴為 IP 應用案例,尚查無售價/上市日。</li>
+<li><strong>Product Tech 1 低延遲:Fast ACK</strong>——先即時墊場(「嗯嗯,巧虎有聽到喔!」「我想一下~」)建立互動感,後端再跑 ASR→意圖→安全→記憶→生成→TTS。用回饋掩蓋延遲而非壓縮 pipeline。</li>
+<li>Demo→Production 落差(兒童輸入的髒):發音不清、語句不完整、邊玩邊說、耐心短、話題亂跳、期待被記得。</li>
+<li><strong>Product Tech 2 兒童 ASR 與意圖修正</strong>:不硬 train 童音模型,ASR 後疊多層軟修正——兒童常用語彙、對話上下文、常見誤辨修正表、意圖補全。接受 ASR 會錯、用 LLM+領域字典後修。</li>
+<li><strong>Product Tech 3 Multi-Agent Guardrails</strong>:生成拆五步流水線 Understand→Filter(安全)→Align(角色)→<strong>Steer(危險話題柔性導開)</strong>→Generate;Bedrock 為模型入口。多步換安全、Fast ACK 撐延遲,設計連貫。</li>
+<li><strong>Product Tech 4 三層記憶</strong>:短期(對話脈絡)/中期(session 摘要)/長期(偏好+互動洞察)→ 長遠陪伴關係。標準記憶分層;open question:兒童長期記憶的隱私與家長刪除權。</li>
+<li><strong>Product Tech 5 自訓 TTS</strong>:機器聲毀信任+毀 IP 形象;第三方 TTS 對不齊角色聲線 → in-house 訓練(= TheKeeper 本業聲音分身技術)。</li>
+<li>五個 Product Tech 合體=兒童語音 AI 工程藍圖:Fast ACK/ASR 軟修正/多 agent 護欄/三層記憶/自訓 TTS。</li>
+</ul>
+<h4>★ 巧虎伴伴 end-to-end 架構(全圖)</h4>
+<ul>
+<li>流:裝置輸入(語音+NFC)→ 語音處理(VAD+ASR+童音修正)→ 互動模式(自由聊/故事/NFC 任務)→ AI 對話大腦(context+prompt 編排)→ Multi-Agent Guardrails(理解+安全+人設+生成)→ 最終回應(文字+語音計畫+動作計畫)。</li>
+<li>旁路 Fast ACK 即時墊場;實體輸出:燈光/動作+TTS(角色聲線+情緒)。</li>
+<li>記憶(歷史+摘要+重點)→ 家長 Dashboard;Context Layer 有故事內容/互動故事 prompts。</li>
+<li>模型層:<strong>Claude Haiku</strong>(推理+生成+摘要)+ <strong>cross-region inference</strong>(可用性+吞吐)——選 Haiku 是清醒選型(兒童對話要快要便宜,不要博士級推理);CRIS 理論在客戶場落地。</li>
+<li>收尾五支柱(為什麼在 AWS):3AZ 韌性、多模型生態、跨區推理、端到端 MLOps、安全內容審查。</li>
+</ul>
+<ul>
+<li>商業模式:「IP 提供靈魂,硬體提供身體,TheKeeper 提供大腦」——TheKeeper(<strong>AI Companion OS</strong>/互動流程/安全機制/App UIUX/商業模式)× IP Holder(角色內容/品牌素材/審核/市場信任)× 硬體夥伴(ID/ME/EE、PCBA、打樣 DFM、測試認證、製造出貨)。AI Companion OS 平台化=可套任何 IP,巧虎是首發。</li>
+</ul>
+<ul>
+<li>Roadmap:<strong>巧虎伴伴 2026 Q4 群眾募資上線</strong>(尚未開賣,印證查無售價);TheKeeper 三方向:優化端到端語音體驗、安全與角色治理標準、多 IP 全球平台。有官方 LINE QR。</li>
+</ul>
+<p>(INF02 完)</p>
+<h3>SPN-001 — NextLink 博弘雲端(贊助場)</h3>
+<ul>
+<li>GenAI 企業需求洞察(NextLink 第一線客戶諮詢統計):<strong>2025 全年 GenAI 議題僅 6% → 2026 H1 52%,近 9 倍</strong>;涵蓋金融/政府/製造/電子/零售/遊戲/SMB/新創。</li>
+<li>解讀:2025H2-2026H1 是台灣企業 GenAI 從觀望轉採購的引爆期(口徑未揭露,方向可信)。</li>
+<li>Before:傳統 TAM(NLOps 顧問=人)六項工作——架構檢診、成本分析、週期會議報告、AWS 新服務分享、教育訓練、緊急處理。</li>
+<li>Now:<strong>Wingman</strong>(AI 助理平台)接手成本分析/週期報告/新服務分享/共享知識庫/能力驗測/YouTube 新知;人留架構檢診/教育訓練/緊急處理+新任務「GenAI 助理開發、工作流與資料驗證」。</li>
+<li>觀察:與 OpenClaw 場同劇本——重複報告類給 AI、判斷/關係/緊急給人;TAM 職種原地轉型成「開發+驗證 AI 助理」。</li>
+<li>技術實施:存取控制(IAM IdC/SSO)、AI 工作流(<strong>PII 偵測遮蔽、主題封鎖、資料不供訓練</strong>,Bedrock)、資料層(S3 分級/生命週期)、治理成本(CloudTrail/CloudWatch/Security Hub);開發用 Kiro+AIDLC+SDD+CI/CD。企業採購在意的=隱私與資料不外流。</li>
+<li>「4+1 工作型態」:既有四類(業務專案/內部 IT/變更/計畫外救火,Phoenix Project 分類)+ 覆蓋其上的第五類 GenAI 專案。</li>
+<li>三層工具選型(給 CIO 的採購對照):①員工生產力層(知識問答/摘要/生成/流程自動化)→ <strong>Amazon Quick</strong> ②開發者創新層(SDD/AI 程式輔助/現代化)→ <strong>Kiro+AWS Transform</strong> ③資料隔離層(隔離/權限/機密/合規)→ <strong>Bedrock</strong>。</li>
+<li>SDD 導入四階段(顧問服務包):AI 觀念建立(工具定位/prompt/決策矩陣/合規)→ SDD(Kiro Specs/Agent/Steering/Hooks+沙盤)→ SDLC 整合(Git Flow/CI-CD 沙盤)→ Optional MCP 實戰。MCP 列 optional=台灣企業成熟度多在前兩階。</li>
+</ul>
+<ul>
+<li>配速表的「企業痛點」欄(台灣現況一手觀察):觀念期=工具使用率低/規範不一/場景不明;SDD 期=文件分散/流程碎片/權責不清/Git 未標準化;SDLC 期=DevSecOps 意識不足/缺自動化/交付仰賴人工/安全未前移。</li>
+</ul>
+<p>(SPN-001 完)</p>
+<h3>MOD03 — 自主 Agent 上 EKS(15:15)</h3>
+<p>Agenda:Autonomous Agent(OpenClaw、Hermes)機會與風險 → 企業級 EKS 維運與多租戶 → agent 跑在 pod 的挑戰 → BitoGroup 實戰 → wrap up。</p>
+<ul>
+<li>核心張力:agent 要 shell/瀏覽器/長時狀態 vs K8s 無狀態短生命週期假設。</li>
+</ul>
+<h4>OpenClaw 的另一面(Oasis Security 研究,ref: declawed.io)</h4>
+<ul>
+<li><strong>999,021 個暴露的 OpenClaw 實例</strong>、12,573,351 個跨實例 CVE 偵測、52,048 個四風險因子全中;40k+ 直接網際網路可達,漏 API token/內部檔案。</li>
+<li>建議:「Never 在存敏感資料的個人/公司機上直接跑 OpenClaw/Hermes」。</li>
+<li>對照自家(NOVA/Claude Code):無對外開 port(Telegram 為 outbound)、Bash 安全閘 hook、破壞性動作先確認;暴露主因=gateway 裸奔上網。<strong>待辦:把「檢查意外暴露的 listener」加進自查。</strong></li>
+</ul>
+<h4>未治理 OpenClaw 五大威脅(OWASP 2026 Agentic Top 10 框架)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>威脅</th><th>等級</th><th>實例</th></tr></thead>
+<tbody>
+<tr><td>Prompt Injection</td><td>Critical</td><td>Zenity 惡意文章接管;Archestra.ai CEO 一封 email 被翻 SSH 私鑰</td></tr>
+<tr><td>惡意 Skills 供應鏈</td><td>Critical</td><td>1,184 惡意 plugin;ClawHavoc 數週+142%;39 個偷 macOS 資料的 skill(趨勢)</td></tr>
+<tr><td>原始碼漏洞</td><td>High</td><td>82 CVE(12 critical 含 RCE,2026-03)</td></tr>
+<tr><td>憑證暴露</td><td>High</td><td>80k+ 實例上網;預設明文存憑證</td></tr>
+<tr><td>企業資料外洩</td><td>High</td><td>36.8% 社群 plugin 有問題;agent 預設繼承全權限</td></tr>
+</tbody></table></div>
+<ul>
+<li>核心:<strong>Code Execution+Tool Calling+Data Access 三能力並存=風險最高</strong>,OpenClaw 全有 → 治理(權限閘、來源審查、外部內容視為不可信)是必須。</li>
+</ul>
+<h4>上 production 的四種門檻(痛點:隔離/治理/觀測/成本)</h4>
+<ul>
+<li>金融(KYC):Docker 共核心、逃逸=跨客戶資料外洩=合規災難。</li>
+<li>大企業(200+ agents):skills 繼承全權限、行銷可打財務 API、缺集中管控稽核。</li>
+<li>AI SaaS(10K+ 日執行):零觀測框架、事故無 log tracing 不可追溯。</li>
+<li>新創:20 實例 24/7,<strong>OpenClaw 多數時間 idle 等 LLM 回應,為 idle 算力付全價</strong>(→ serverless 化動機)。</li>
+</ul>
+<h4>Agent 部署四路徑</h4>
+<p>A 本機($0,個人)→ B Lightsail/EC2 一鍵(小團隊 PoC)→ <strong>C 自管 EKS+Secure Containers</strong>(平台工程,深度客製/完全自主)vs <strong>D AgentCore 全代管</strong>(快、內建安全治理、低維運+硬體隔離)。企業級=C/D 抉擇(控制權 vs 省維運);本場聚焦 C。</p>
+<ul>
+<li>多租戶隔離光譜:cluster 級→namespace 級→pod 級→app 級(dedicated→shared);敏感場景(KYC)靠左,容器逃逸風險決定能站多右。</li>
+<li>Tenant onboarding:control plane(onboarding/用戶租戶管理/provisioning/CI-CD)與 data plane 分離;各 tenant 跑不同框架(Strands/OpenClaw/Hermes/Kiro)皆由 Git+CI/CD 部署——<strong>agent 框架=tenant workload,平台不綁框架</strong>。</li>
+<li><strong>K8s Sandbox(本場技術核心)</strong>:RuntimeClass API 讓 pod 級選 runtime——<code>runtimeClassName: gvisor</code>(或 Kata)→ 不受信任 agent code 跑強隔離 sandbox;同 cluster 混用多 runtime、app 零改動(OCI 相容)。gVisor=用戶態 kernel 攔 syscall、Kata=輕量 VM。金融容器逃逸疑慮的正解;websec-scanner 隔離掃描目標可借用。</li>
+<li><strong>agent-sandbox-controller</strong>(CRD,仿 PV/PVC 模式):SandboxTemplate(藍圖:runtime/資源/volumes/securityContext)→ SandboxClaim(申請,從 warm pool 派發)→ Sandbox(實跑 pod+隔離 workspace+lifecycle hooks)→ <strong>SandboxWarmPool</strong>(預熱消 cold-start,回應 idle 成本問題)。疑似開源專案,值得查 GitHub。</li>
+</ul>
+<h4>Runtime 三選對照</h4>
+<div class="table-wrap"><table>
+<thead><tr><th></th><th>runc</th><th>gVisor(runsc)</th><th>Kata Containers</th></tr></thead>
+<tbody>
+<tr><td>冷啟</td><td>&lt;1ms</td><td>~10ms</td><td>~150ms</td></tr>
+<tr><td>記憶體開銷</td><td>~0</td><td>~20MB</td><td>~128MB</td></tr>
+<tr><td>Syscall 相容</td><td>100%</td><td>70%+</td><td>100%</td></tr>
+<tr><td>隔離</td><td>共用 kernel(最弱)</td><td>用戶態 kernel 攔 syscall</td><td>每 pod 獨立 kernel,KVM micro-VM(QEMU/Cloud Hypervisor/Firecracker)</td></tr>
+</tbody></table></div>
+<ul>
+<li>選型:信任→runc;不信任+輕量→gVisor(I/O 重有損耗);VM 級邊界/全相容→Kata。agent 多落 gVisor,金融級 Kata。</li>
+<li><strong>2026/2/16 解鎖</strong>:過去 Kata+Firecracker 需 bare-metal EC2(KVM 要硬體直通);<strong>C8i/M8i/R8i 巢狀虛擬化</strong>後,兩 runtime 可跑一般虛擬 EC2、直入既有 EKS、app 零改動——VM 級 agent 沙箱平民化。Ref: Secure Agent Sandboxes on EKS。</li>
+<li><strong>Building Sandcastles 平台架構</strong>:SDK/CLI → ALB → Sandbox Control Plane(<strong>Manager</strong> 管生命週期打 K8s API;<strong>Router</strong> 以 <code>X-Sandbox-ID</code> header 代理到對的 pod)→ 雙 node group(gVisor / Kata+FC),pod template RuntimeClass 決定 session runtime——同平台雙 runtime 按敏感度分流。</li>
+<li>官方 runtime 對照補充:效能影響 none/low-moderate/moderate;best for=trusted workloads / balance security-perf / highly untrusted code。</li>
+<li><strong>Runtime 決策框架四軸</strong>:信任度(untrusted→Kata/gVisor;trusted→runc)、效能(延遲敏感→runc/gVisor;I/O 重→runc)、密度(高密度→runc/gVisor;強隔離→Kata)、合規(法規→Kata;一般→gVisor)。衝突時取最嚴格軸。</li>
+</ul>
+<h4>BitoGroup 幣託實戰(加密交易所)</h4>
+<ul>
+<li>需求:一平台接全公司——SRE(事件/日誌/K8s/CI-CD/監控成本/觀測)、資安(稽核/告警彙整/合規報表/掃描/情資)、其他部門(產品研發行銷數據法務客服人資)= tenant onboarding 真實版。</li>
+<li>導入策略權衡:SaaS Copilot(快但資料送第三方+無租戶隔離,交易所不可)、純自建(控制完整但貴慢)、<strong>✅ OpenClaw 路線(開源多租戶框架上自建,掌控+速度兼顧)</strong>。</li>
+<li><strong>WHY BitoClaw</strong>(自建平台名):初期各部門工具孤島(維運/資安/產品各一套、資料不通、無統一安全基準)→「真正的需求不是要不要用 AI,是如何一個平台滿足全公司情境+安全要求」。</li>
+<li>自建三決策標準:控制權(資料/模型行為內控)、擴充性(加租戶工具不綁供應商)、成本(<strong>既有 EKS/AWS 額度打底,邊際成本 &lt;&lt; 逐席授權</strong>)。</li>
+<li>EKS 多租戶隔離四件套:獨立 Namespace(每團隊/每人)、<strong>NetworkPolicy 預設 Deny All 白名單放行</strong>(防 agent 亂爬內網)、獨立 ServiceAccount+最小權限 RBAC、ResourceQuota 防搶佔。</li>
+<li>跨部門場景:產品(需求文件/競品/反饋分類/GA 查詢)、研發(code review/CI-CD 異常/文件同步/套件掃描)、資安(告警分析/弱掃+滲透報告彙整撰寫)、維運(觀測查詢/EKS 健康/成本建議/CI-CD 診斷)——首批用例全是彙整/報告/查詢類,低風險先行。</li>
+<li><strong>BitoClaw 工作流</strong>:Slack 入口 → 部門 agent×4(各綁 channel,tag: bitoclaw)→ <strong>LiteLLM 統一路由(零信任閘道)</strong> → 各部門 BitoClaw tenant;觀測 <strong>Langfuse</strong>(LLM 追蹤)+Grafana。LiteLLM/Langfuse 皆開源可直接借用。</li>
+<li>十層縱深防禦:邊緣/身分/網路隔離/帳號授權/租戶隔離/密鑰/LLM 存取/<strong>成本控制(token 爆量=安全事件)</strong>/資料保護/稽核。亮點:<strong>零 API 金鑰——EKS Pod Identity 直取 Bedrock,無金鑰可洩</strong>;每日 Lambda 掃描控成本+EBS 快照 7 天。</li>
+<li>KPI:99.99% uptime SLA、<strong>新租戶 20 分鐘上線</strong>、100% 模型呼叫可追溯(LiteLLM+Langfuse)、重大資安事件 0(十層+持續監控)。</li>
+</ul>
+<h4>MOD03 Recap</h4>
+<ul>
+<li>問題:部門需求不同/工具孤島/資安限制/資料主權合規。解法:<strong>EKS 多租戶+Bedrock 推理+MCP 生態+專業 Skills = 一個 agent 平台服務全公司</strong>。</li>
+<li>綜觀 Day1:趨勢/幣託/NextLink 三案例同一配方——EKS(隔離)+Bedrock(模型不出帳號)+MCP(工具)+Skills(知識)= 2026 台灣企業 agent 平台標準架構。</li>
+</ul>
+<ul>
+<li>Key takeaways:①<strong>Governance is the price of production</strong>(agent=代碼執行+工具呼叫+資料存取)②<strong>Isolation scales with trust</strong>(runc/gVisor/Kata 同 cluster,只改 RuntimeClass)③BitoGroup 證明受監管業也能 EKS 自建合規多租戶。</li>
+<li><strong>官方 sample code:github.com/aws-samples/sample-openclaw-multi-tenant-platform</strong>(整套平台可 clone 研究)。</li>
+<li>Sample 實查(agent,2026-07-15):32★/MIT-0/單人維護/標 Experimental;<strong>與台上 BitoClaw 落差大</strong>——Cognito 網頁入口(非 Slack)、直連 Bedrock+Pod Identity(無 LiteLLM)、CloudWatch(非 Langfuse)、預設 runc+gVisor opt-in(無 Kata);多租戶=ArgoCD ApplicationSet+Helm per-tenant namespace。成本:3 租戶 ~$243/mo、100 租戶 ~$418/mo、ALB quota ~85-100 租戶封頂。<strong>判斷:讀架構文件(ApplicationSet/Gateway API/NetworkPolicy ADR)有價值,別部署</strong>。已 clone <code>~/.claude_cache/sample-openclaw-mtp</code>。</li>
+</ul>
+<p>(MOD03 完)</p>
+<h3>INF04 — ALB Target Optimizer(16:15)</h3>
+<ul>
+<li>功能(2025/11 re:Invent 發表):<strong>LB 由 push 反轉為 pull</strong>——target 上跑 ALB Agent 追蹤自身併發,「有空位」才向 ALB 要請求;<code>TARGET_CONTROL_MAX_CONCURRENCY</code>(0-1000)。</li>
+<li>動機:<strong>LLM 應用</strong>(GPU 推論一台僅吃 1-2 併發,傳統輪詢硬塞會排隊/OOM)。</li>
+<li>Setup:target 裝 agent(traffic/destination/control port+max concurrency)→ 建 optimized target group(<strong>僅能建立時開啟</strong>)→ 流量灰度切換(新舊 TG 並存可回退)。</li>
+<li>監控:<strong>TargetControlWorkQueueLength</strong>(ALB 端等待認領的隊列長度,按 AZ)——持續走高=容量不足;適合當 auto scaling 觸發指標。</li>
+<li>除錯特徵:隊列滿→ALB 直接 503;access log 三個 processing_time 全 <strong>-1.0</strong>(沒進 target)+503;<code>TargetControlRequestRejectCount</code> ↔ ELB 5XX 同批事件;指標傳播延遲 1-2 分。on-call SOP 要加「503+time=-1=隊列拒絕」這條。</li>
+<li>實測(GPU 受限後端,SLA 6s):無 ATO=67% in-SLA、最慢 15.1s(長請求卡 target、後續排隊);有 ATO=<strong>100% in-SLA、最慢 5.2s、503=0</strong>——LLM 推論類「單請求長且不均」服務的尾延遲治理。</li>
+<li>支援 target:EC2/IP/EKS/ECS;<strong>Lambda 不支援</strong>(無常駐 agent 可裝,且本身一請求一實例)。</li>
+<li>來源:aws.amazon.com/blogs/networking-and-content-delivery/drive-application-performance-with-application-load-balancer-target-optimizer/</li>
+</ul>
+<hr>
+<h3>相關筆記</h3>
+<ul>
+<li>總覽索引:AWS Summit 總覽索引</li>
+</ul>
+  </section>
+
+  <section class="block" id="transcript">
+    <details class="transcript">
+      <summary>Day1 逐字稿(flit.to 即時翻譯抓取)<span class="hint">點開看完整逐字稿;10:00–~10:56,已知有缺段</span></summary>
+      <div class="prose">
+<h2>AWS Summit Taipei 2026 Day1 逐字稿(flit.to 即時翻譯抓取)</h2>
+<p>來源:https://livetr.flit.to/chat/039148</p>
+<h3>10:55 增量</h3>
+<p>AWS Summit Taipei - Keynote</p>
+<p>English</p>
+<p>We are now officially starting today's keynote.</p>
+<p>Thank you everyone.</p>
+<p>First, let us give a warm round of applause to Robert Wang, Managing Director of AWS Taiwan, for his opening remarks.</p>
+<p>Ladies and gentlemen, please join me in welcoming Robert Wang</p>
+<p>Morning ladies and gentlemen, good morning everybody.</p>
+<p>It's great to have our new friends, our old friends, and our customers join us for our annual event.</p>
+<p>AWS Local Zones Taipei, we believe AWS Local Zones are deployed in a very limited number of important cities around the world, and Taipei is one of them.</p>
+<p>So here, on behalf of AWS Taiwan, I would like to thank everyone for your participation and attendance.</p>
+<p>So, to begin with, I'd like to share a few statistics with everyone. First, with the recognition and support from customers around the world and in Taiwan,</p>
+<p>We maintain a very leading position in this industry.</p>
+<p>Thank you once again for the support from all of our customers.</p>
+<p>At the same time, from 2017 to now, we have trained over 260,000 people in Taiwan, whether they are students or working professionals.</p>
+<p>cloud experts, and our ecosystem continues to grow, having expanded to over a thousand partner vendors</p>
+<p>And it continues to grow.</p>
+<p>So let me borrow a quote from our founder, Jeff Bezos.</p>
+<p>He said that we are in a golden age with so many opportunities.</p>
+<p>To all the friends who came to participate today, many of you have a strong grasp, understanding, and curiosity about new technologies, and hope to continue following along.</p>
+<p>GenAI commercial sales means that in GenAI, we are in GenAI, not in co-sell, not in resell, but in GenAI. Why does it need to convey this kind of energy? It's about SaaS sales.</p>
+<p>So in 2023, it was the inaugural year of AI, the inaugural year of AI</p>
+<p>So why is that? On one hand, many of these foundational models have essentially crossed a critical threshold, enabling them to truly execute a vast array of highly complex business operations.</p>
+<p>At the same time, the cloud infrastructure has reached sufficient scale and maturity.</p>
+<p>can allow enterprises to deploy in a very secure environment, so the capabilities of these two aspects are multiplicative, not additive.</p>
+<p>So, what is your GenAI strategy for the future?</p>
+<p>How are you all driving and implementing AI?</p>
+<p>There are several key points here that I recently shared with everyone in media magazines, and I would like to emphasize them again with you all here.</p>
+<p>We believe that first, you need to find the gold before buying the shovel. Taiwan is very enthusiastic about GenAI, and we also handle a significant portion of it, producing many servers as well.</p>
+<p>But these are all tools. You must first find where your gold mine is. The Economist says data is the new oil. You need to dig for gold within all that data.</p>
+<p>Well, no need to rush into buying products. Don't skimp on shovels—they help you dig faster. When you need a shovel, just come to AWS.</p>
+<p>Because it is indeed the biggest obstacle for the bosses, this is not to say any disrespect to the bosses.</p>
+<p>However, our CEO Andy Jassy said that in the process of data-driven digital transformation and technology adoption, the most effective approach is top-down.</p>
+<p>Because we have many Taiwanese clients and business owners in the local, on-premises environment that's around us every day</p>
+<p>Third, take small steps and move quickly.</p>
+<p>You have to step through that door first before you know what's going on there. Don't think everything has to be perfect, or hesitate and remain indecisive.</p>
+<p>The two-way door approach means that when you enter through the door to conduct experiments, you accumulate the learnings from each experiment to build the foundation for the next success.</p>
+<p>Continue to iterate rapidly, and finally establish the boundaries of AI.</p>
+<p>Unable to be managed by humans, the case is managed by another case.</p>
+<p>Within the company, there is a secure environment that allows AI to freely discover and freely explore within such an environment.</p>
+<p>Creating the highest value, for this we need to establish a boundary.</p>
+<p>Should have told me yesterday, and at the same time, after employees leave, these things are all important company assets. The so-called vertical operational model means everything should be archived, which is very important.</p>
+<p>The next thing I want to share with you all is why this is important for our friends in Taiwan.</p>
+<p>This is a very important point. This keynote cannot be used for specifications or basic budgets.</p>
+<p>Every project requires significant computational power support.</p>
+<p>At the same time, many global research reports also show that 90% of the world's advanced chips are produced here in Taiwan.</p>
+<p>So this brings us to how Amazon Bedrock relates to semiconductors.</p>
+<p>In fact, we have a very, very deep relationship with the semiconductor industry.</p>
+<p>For those who are familiar with me, you know that on our platform, we have music, AV, and a roaming office.</p>
+<p>We also have many observations and testimonials that this industry represents the entire global software export.</p>
+<p>At the same time, these semiconductor tubes will be transformed into various different service item instances to be provided for our customers to use.</p>
+<p>We also have our own semiconductor R&amp;D capabilities. We have been on the path of semiconductor research and development for approximately ten years now.</p>
+<p>I am currently very popular, and we have also migrated the renowned EDA tools for semiconductors to the cloud, helping the semiconductor industry accelerate in design, manufacturing, and production.</p>
+<p>So, we also collaborate with TSMC to expose our young friends in high school to semiconductors at a young age.</p>
+<p>Two-Point Line Technology will enter this industry in the future.</p>
+<p>Let me show you this chip.</p>
+<p>As you can see on the screen, this chip called Graviton has evolved from the first generation in 2018 to the present.</p>
+<p>And from the first generation in 2018 to the fifth generation now</p>
+<p>At the same time, I also have the concept of Inferentia. Whether it's used for training or inference, we have professional experience with both.</p>
+<p>Whether it's for training or for inference, we have specialized expertise.</p>
+<p>Why do we have the capability to design chips? Because every day we engage with tens of thousands of customers around the world. We understand very well what semiconductors each customer needs for different application scenarios, targeting different workloads and requirements.</p>
+<p>So I started designing my own office very early on, and you will be involved in production in the future.</p>
+<p>Since 2006, AWS has been the world's first cloud service provider. It has been 20 years since the launch of Amazon S3 back then.</p>
+<p>This wasn't a pre-planned timeframe over these 20 years.</p>
+<p>It is a journey of exploration, together with all the wonderful friends here on-site, no matter how many years, together with everyone.</p>
+<p>Twenty years of continuous investment is also the result of our unwavering belief and commitment to our philosophy.</p>
+<p>So at this 20-year milestone, we have a mysterious guest who has also come to the scene today.</p>
+<p>Chiao-hu, a name everyone knows</p>
+<p>Throughout Taiwan, Japan, Asia, and even globally, in many small places, Chiao-hu holds a special place in parents' hearts</p>
+<p>Chiao-hu, would you like to say a few words to our friends here at the venue and online?</p>
+<p>Thank you, Chiao-hu. Let Chiao-hu continue talking. Let's give him a round of applause. Thank you, Chiao-hu.</p>
+<p>Alright, so at this point, could you please encourage and congratulate us on the success of this exhibition?</p>
+<p>He brought a little Chiao-hu!</p>
+<p>This bridge is a new bridge product built by our partner technician Qiaohu.</p>
+<p>As you can see, this small application is actually built using AWS cloud AI language models combined with AWS cloud security mechanisms.</p>
+<p>And most importantly, what is most important? Dear children, if you are five years old, then you were two years old, three years old, four years old, five years old, six years old.</p>
+<p>The day after tomorrow, we'll teach them to eat, and the day after that, we'll teach them to use the toilet, so we need teaching materials.</p>
+<p>But this Chiao-hu is personalized and unique for every child in your home. He remembers the age of the children in your family, their learning journey, what they are currently doing, the stories they like to hear, and the songs they like to sing.</p>
+<p>So today we've also set up a booth here on the first floor at the venue. We welcome everyone to come visit and chat with our Chiao-hu when you have time.</p>
+<p>This time, we're really bringing you powerful generative AI products.</p>
+<p>So today, everyone, we'll quickly introduce the AWS Summit Taipei program, which includes two tracks featuring many international-level speakers.</p>
+<p>specially invited from all over the world</p>
+<p>In this keynote, we have several speakers. Let me briefly introduce them.</p>
+<p>Rory Richardson, he is an expert in GenAI Go-to-Market.</p>
+<p>She will share with you many technologies and methods, and how we at AWS utilize these technologies.</p>
+<p>The second person is Yoshioka from Japan.</p>
+<p>Akira Yoshioka‘s company, ASKUL, is a Japanese C2C e-commerce brand</p>
+<p>The company serves over 5.6 million customers in Japan, and it was subjected to a cyberattack.</p>
+<p>After this, it should guide the system recovery while simultaneously re-establishing greater trust.</p>
+<p>So they used our Kiro, and then they used AI-DLC. What is AI-DLC? It is an AI-driven lifecycle development work reconstruction platform.</p>
+<p>shortened the platform's opening time from 12 months to 6 months, and then rose from the ashes. In a moment, he will come up and share with us how he rose from the ashes.</p>
+<p>And the third one, OpenAI, we don't need to introduce it specifically.</p>
+<p>Anthropic is one of the few leading companies in the entire development process. In a moment, they will come on stage to share with us about this fully managed Amazon Bedrock.</p>
+<p>We are looking forward to the upcoming sharing.</p>
+<p>Finally, we want to thank our partners, whether they are our global partners, those at Google, those at Anthropic, or our local partners.</p>
+<p>Many of our supporters have also invested their time and energy in these human tools.</p>
+<p>I want to thank you all once again for your participation today. The agenda for these two days is extremely rich and diverse, featuring technical sessions, business process sessions, the latest generative AI applications, and all the demos in the exhibition hall.</p>
+<p>I hope that everyone will gain a lot from this annual event in the future.</p>
+<p>Re-expanding our strategic partnership in this business journey</p>
+<p>Thank you. And welcome to the Summit.</p>
+<p>Let's explore how to connect between your imagination and what you've built.</p>
+<p>At re:Invent last year, we talked about the era of AI agents. What agents could we count? And then what can we do for your organizations?</p>
+<p>But in the month sense, you took them into production. You make the journeys real. Agents are building applications. They're answering customers' questions. They're making decisions.</p>
+<p>and you started seeing real outcomes. Your security backlogs started shrinking. Your code would start shifting the same week that you were able to write it.</p>
+<p>Agents are built well. When they're built correctly, they do better the more that you use them.</p>
+<p>These interactions mean more context, and more context means better outcomes.</p>
+<p>And better outcomes mean you can trust and use the agents more.</p>
+<p>And it's one of your most valuable assets. We're going to talk a lot about the momentum, how to make it faster and better.</p>
+<p>Today, we're going to talk about how to help them accelerate across four distinct areas.</p>
+<p>Agents that change how you work, agents that help you build, agents that keep you secure, and that can create agents to unleash the opportunities that matter most to your organizations.</p>
+<p>Let's start with the way we work, because for many of us, the way we're working is not working.</p>
+<p>Most of us care about achieving an outcome.</p>
+<p>You want to close the deal. You want to drive insights back into your organization.</p>
+<p>or you may want to delight your customers.</p>
+<p>but standing between you and an outcome that you want or choose.</p>
+<p>The things that you need are spread between instant messages or an email or a dashboard that you have open to read.</p>
+<p>Whatever we choose creates more space, like a login, another data source, and a place where context</p>
+<p>Good-bye.</p>
+<p>We don't try to solve this, but we'll do AI assistance.</p>
+<p>We connected them to our tools, but they answered one question and then forgot. They operated in isolation.</p>
+<p>The purpose was intelligence.</p>
+<p>But all we really got was a slightly faster search for it.</p>
+<p>You need AI that changes the way that you work, not just speeds up the steps, but actually eliminates them.</p>
+<p>Because when you are still the one having to connect the dots,</p>
+<p>Your momentum stops.</p>
+<p>The organizations pulling ahead right now are the ones that are able to compound their momentum.</p>
+<p>And that's why we build Amazon Quick</p>
+<p>Because, on the one hand, it's the AI in the system that lets you stick out when you want, and then helps you figure out how to get there.</p>
+<p>We have a search layer that works across all of your data. It reasons over the relationships between people, documents, communication, your data links.</p>
+<p>You build, it learns. It gets smarter with every interaction.</p>
+<p>Here, Amazon QuickSight is helping me prepare for a test mandate.</p>
+<p>even though briefing doc.</p>
+<p>you can create the presentation format in Executive Briefing Doc.</p>
+<p>Why do I need to email to feedback?</p>
+<p>Quick conversations, you can create agents that are always working in the background on your behalf, with no code required.</p>
+<p>From start-ups to large enterprises, more and more organizations are adopting Amazon Quick to transform how they work.</p>
+<p>It's easy to sign up and get started, so I would recommend seeing what Quick can do for you.</p>
+<p>It's very addictive.</p>
+<p>Can I just talk about the agents that are changing how we build?</p>
+<p>No, then it's correct from the start.</p>
+<p>Shift production without the police, and get modern every single day.</p>
+<p>With security and guidance embedded at every part of this process from the beginning, one continuous loop is always running and always compounding.</p>
+<p>We know this works because we've lived it, and it's not stores.</p>
+<p>We use this closed loop approach to achieve 4.5X</p>
+<p>We saw improvement and found quickly that we were able to ship correct code. And we saw 95% accuracy with AI-generated changes.</p>
+<p>And that group is now speaking to campus teams across.</p>
+<p>So how can we help you achieve similar results? Well, okay. We'll start with this. Code generation is cheaper than ever.</p>
+<p>and there's no shortage of the tools that are used to write code fast.</p>
+<p>But a code without the full context of the environment, your standards, the environment, is far more likely to have bugs. And more bugs, well, that's just a sign to not move at any efficient speed.</p>
+<p>This is where Kiro can help.</p>
+<p>You give Kiro a prompt and it turns into clear code.</p>
+<p>Structural designs. Implementation attempts.</p>
+<p>But it's not.</p>
+<p>Let's talk about RAG space,</p>
+<p>they couldn't just move faster by working the same way as they had before.</p>
+<p>So they transform their life cycle, leverage new architecture effects, automating testing, and rapidly evolving defects.</p>
+<p>With the new project goal to complete about 52 weeks of estimated modernization in just three weeks,</p>
+<p>This isn't a small improvement in personal productivity.</p>
+<p>This is rewriting the SDLC.</p>
+<p>That's a 90% increase in efficiency. It was incredible.</p>
+<p>This deployment will only be processed when the loop is running.</p>
+<p>There's an article recently about how developers are literally afraid to close their laptops.</p>
+<p>So the system stop working.</p>
+<p>That's why I'm excited that Kiro will be available as an immediate iOS app. You can do the start chat session, continue the spectrum workflow, and then kick off an autonomous task entirely from your phone.</p>
+<p>You can pick out exactly where the agent left off, and it all runs inside your AWS cloud environment.</p>
+<p>Your momentum no longer depends on your proximity to your system.</p>
+<p>The question is, how quickly does the code reach your customers and start delivering value?</p>
+<p>If your agents are developing code at 10x, the rest of your pipeline is only running at 1x. Your momentum slows. Your generation is great, but what about all of the other steps?</p>
+<p>AWS DevOps Agent is your always available operations team member that resolves incidents.</p>
+<p>It optimizes application reliability, performance, and handles on-demand site reliability engineering tests.</p>
+<p>Companies like T-Mobile and United Airlines use demonetization to fund and address issues in their production pipelines before they even reach customers.</p>
+<p>reducing the time to resolve issues before customers ever see or notice.</p>
+<p>The thing that we are uplifting lots of agents is still pretty reactive. Something breaks, it investigates, it fixes.</p>
+<p>But compounding momentum doesn't only come from fixing problems once they've already happened.</p>
+<p>prevents the problems to ever be a problem in the first place.</p>
+<p>That's why we created the release management within AWS DevOps Agent.</p>
+<p>Something breaks, it investigates, it fixes, but the compelling momentum doesn't come from just fixing problems, but it comes from never having them happen.</p>
+<p>Now, whether you're building a cure or not, Prompt Management picks up your code from the moment it is generated.</p>
+<p>It would use tests, fixes failures before they had a chance to stop the progress. Your coding agent and your shipping agent now work together in one continuous flow.</p>
+<p>to production, fast.</p>
+<p>What about your foundation? At the rate agents produce growth, technical debt accumulates faster than any team could keep up with.</p>
+<p>You need a code base that stays modern on its own, continuously, less for the intuitive agents to work modernizing your code base and legacy systems.</p>
+<p>Since then, customers around the world have been transformed to eliminate over 1.6 million hours</p>
+<p>with minimal modernization working.</p>
+<p>The results prove that modernization works.</p>
+<p>but it's still something you have to run after.</p>
+<p>You can take the problem, get modern access, and then you can do prompt.</p>
+<p>But you see an agent that isn't enough. You need an agent that never stops working.</p>
+<p>That's why I'm happy to introduce AWS Transform Continuous Modernization.</p>
+<p>While their agents write code, continuous modulation works behind them, finding the issues, fixing, validating, and learning.</p>
+<p>for every transformation to make for the next commit. And it plugs into your existing pipeline with tools like CodePipeline and GitLab and GitHub.</p>
+<p>a real one continuous modernization gives you the agent that finds and fixes as fast as it's created</p>
+<p>Can you imagine a world without tech debt?</p>
+<p>The benefit is not only the time that you get back, but every outdated dependency is a security vulnerability waiting for its critical exploit as a CVE.</p>
+<p>Continuous modernization keeps every package occurring continuous cycles. So debt never gets the chance to truly become the risk.</p>
+<p>featured feeds into the mix, correct? Which means you get customer feedback sooner.</p>
+<p>It means you can make smarter, more efficient decisions. Momentum compounds with everything that you built.</p>
+<p>We've been talking about changing how we build with AI.</p>
+<p>Now, I want you to hear from your company. Please put it into practice.</p>
+<p>To tell you about the care in Taiwan and with their donors, please welcome the representative director, president, CEO of ASKUL Corporation, Akira Yoshioka.</p>
+<p>thank you.</p>
+<p>We at ASKUL operate two e-commerce businesses in Japan: ASKUL for businesses and LOHACO for individual consumers.</p>
+<p>NHK since 2020.</p>
+<p>We use this as our core system.</p>
+<p>On October 19th of last year, we were subjected to a ransomware attack.</p>
+<p>During that month, we faced the biggest crisis since the company's founding, losing 95% of our sales.</p>
+<p>These are the words I conveyed to all employees at that time.</p>
+<p>Respond quickly to what needs to be done.</p>
+<p>We rebuilt our business and systems from scratch.</p>
+<p>That's what happened. However, simply putting it back to how it was before...</p>
+<p>I chose to create a new foundation for myself.</p>
+<p>The means to achieve this is AI-DLC.</p>
+<p>AI agents are developed with AI to deliver value, and this development process involves not only AI as individual tools, but also...</p>
+<p>This is a way of thinking that can be used from identifying problems to deciding on policies.</p>
+<p>In today's session, we discussed how we have experienced supply chain attacks.</p>
+<p>Here are two examples of AI-DLC implementation.</p>
+<p>Before introducing the two projects, we first had our employees participate in a retreat-style event to gain experience in AI-DLC development, starting with a small theme.</p>
+<p>For example, the efficiency of email newsletters has been improved. Therefore,</p>
+<p>Business members and engineers worked together to build a successful relationship, experiencing firsthand just how amazing AI-DLC is. With this newfound confidence in AI-DLC, we finally embarked on a major transformation.</p>
+<p>I will now explain the first point.</p>
+<p>This is an initiative to make the speed of product assortment extremely fast.</p>
+<p>In e-commerce, we strive to quickly put information on our website as soon as the weather warms up, when it gets colder, or when new products become available.</p>
+<p>We will secure inventory.</p>
+<p>This will be a very important competitive advantage.</p>
+<p>The key is to increase this speed.</p>
+<p>However, the person in charge of the product is responsible for coordinating with many stakeholders,</p>
+<p>Or, multiple tools.</p>
+<p>Switching between these various tools was taking a lot of time.</p>
+<p>I was unable to concentrate on the tasks that the product manager was supposed to be doing.</p>
+<p>So we thought about what the product manager's job really should be.</p>
+<p>The answer isn't about making adjustments, but rather about discovering new products or being the first to introduce new, valuable products.</p>
+<p>To lower the cost of procurement,</p>
+<p>This is how we create value.</p>
+<p>We unified the management of the previously very complex array of intertwined tools from scratch.</p>
+<p>We built this using AI-DLC. As a result, product managers can now focus on their core responsibilities.</p>
+<p>This is how the actual development process works. Business and engineers look at the same screen and give immediate yes or no feedback to the AI.</p>
+<p>As a result, waiting times and rework were significantly reduced.</p>
+<p>Quantitatively, we cut development time in half and doubled the speed at which we could list important products.</p>
+<p>AI-DLC has changed the very way we do our work.</p>
+<p>Secondly, this is an example that extends beyond the AI ​​development process to include management decision-making.</p>
+<p>In making management decisions, we faced concerns about the supply of commodity products due to the naphtha crisis.</p>
+<p>We used Kiro to quickly formulate a strategy for how to forecast demand and secure supply materials as quickly and reliably as possible.</p>
+<p>Traditionally, we created everything sequentially, from analysis to proposal.</p>
+<p>It took about two weeks for the contents to solidify.</p>
+<p>With Kiro, by utilizing Kiro, what was originally a series process becomes a parallel process, and each step is shortened.</p>
+<p>It used to take a dramatically longer time to produce results. Now it's reduced from two weeks to three hours.</p>
+<p>During this time, all the person in charge was doing was asking questions to the system built with AI-DLC.</p>
+<p>The AI ​​proposed demand forecasts and procurement plans, and as a result, our proposals led to situations such as our company selling medical gloves stockpiled by the Japanese government in Japan.</p>
+<p>Finally, I would like to mention four things that I felt were important for the success of AI-DLC based on these two case studies.</p>
+<p>Firstly, share the same goal and commit to it.</p>
+<p>Making a firm decision means being prepared to abandon the system we've been using for so many years.</p>
+<p>Secondly, this involves business members, marketers, and engineers working together as a unified team.</p>
+<p>The third objective is to transfer authority to those on the ground, based on the premise of sharing information.</p>
+<p>This is what generates speed.</p>
+<p>And fourthly, it's important to create an environment where AI can be used with confidence, including investing in security and establishing a proper infrastructure.</p>
+<p>Evolving for our customers. This is the DNA of ASKUL.</p>
+<p>AWS is the driving force behind that evolution.</p>
+<p>Sheshe Daja, Darinti, Sheshe</p>
+<p>Thank you very much, Akira-san.</p>
+<p>is really awesome to see what you can accomplish with the right tools. So now let's talk about how agents that change,</p>
+<p>you can secure, because we believe that you shouldn't have to choose between security and speed.</p>
+<p>We've been living in a world of telemetry, storage, queries, dashboards, but these things are really designed for humans, not agents.</p>
+<p>We're moving into a world where we are building agentic workflows.</p>
+<p>And in order to secure that world, we have built AWS Continuum, which is a comprehensive collection of products to secure your workloads.</p>
+<p>Now, back in December, we launched pen testing and code review as part of AWS Security Agent. Those capabilities are now the first products within the Continuum family.</p>
+<p>And we've seen them deliver real value.</p>
+<p>But you told us there was another area that you really needed help.</p>
+<p>I mean, today, threat models are created manually by security engineers and developers if they're created at all. They're expensive to build, and they go stale as soon as your architecture changes.</p>
+<p>Most teams are skipping them entirely because the effort just doesn't seem to scale.</p>
+<p>But now, with Continuum threat modeling, you can generate threat models directly from your coding agents.</p>
+<p>The models are mapped to your application architecture, your source code, your design docs, with mitigations across all six stride categories.</p>
+<p>We know that security teams never have a shortage of items in their backlog.</p>
+<p>But now we are seeing Frontier AI agents find vulnerabilities faster than ever before, and that backlog is growing exponentially.</p>
+<p>which is why we introduce AWS Continuum for Code Vulnerabilities. It starts by ingesting your existing backlog, then performs a scan of its own of your environment to find vulnerabilities and associated attack paths.</p>
+<p>It uses context to evaluate, enrich, and prioritize every finding it receives and validates where those vulnerabilities are in order to uncover the false positives.</p>
+<p>Then, it proactively identifies the mitigations and remediations.</p>
+<p>But do we trust it? We know trust is important. So code vulnerability starts in learn mode with a human in the loop.</p>
+<p>And as you gain more confidence, you can move to enforce mode, which automates the mitigation and remediation stage.</p>
+<p>AWS Continuum learns, it protects, and it makes it safe for you to be able to deliver on your promises back to your business.</p>
+<p>Everything I've shown you so far today, agents that help you work, secure, and build, these agents we built to keep your momentum compounding.</p>
+<p>But the agents that will matter to you most, to your business, are the ones that only you can create.</p>
+<p>Because only you can see the opportunities that are hiding inside your organizations.</p>
+<p>Right now, too many agents you've built are stuck somewhere between prototype and production.</p>
+<p>Instead of focusing on the agent logic and the outcome you're trying to drive, teams are spending way too much time building the infrastructure that makes the agent run reliably in the real world.</p>
+<p>We built AWS Bedrock AgentCore to help you build, connect, and optimize production agents securely and at scale.</p>
+<p>It provides the core components needed to build agents, a managed runtime, built-in in-session memory, secure authentication to tools, APIs, and data sources.</p>
+<p>It works with any framework and any model.</p>
+<p>Customers across every industry are using AgentCore to build production agents.</p>
+<p>Epsilon was able to increase productivity 3x, 5x, the PGA TOUR is running tournament coverage 10x faster, and Workday is saving customers 100 hours a month on routine financial planning.</p>
+<p>But what is it that enables the PGA agent to write sports coverage?</p>
+<p>and the Workday agent to analyze financial data.</p>
+<p>you might think it's a different model.</p>
+<p>But really, it's actually the harness. You can think of the model as the brain and the harness as the body.</p>
+<p>The harness provides everything that the brain needs to actually get work done, and it has as much influence on the agent output as the model.</p>
+<p>But creating a harness can take months of engineering before your customer is seeing a single moment of intelligence.</p>
+<p>And we want to be able to give you that time back.</p>
+<p>With AgentCore Harness, you can go from an idea to a working agent in minutes with just three API calls to get your agent running.</p>
+<p>You declare what your agent does, and AgentCore does the hard work for you.</p>
+<p>Your agent runs in an isolated micro VM environment without you needing to provision anything.</p>
+<p>And the harness is decoupled from the model, so you can easily switch out models without touching your agent logic.</p>
+<p>A great harness makes your agent capable, but making sure that your agent can make the right call for your business</p>
+<p>That requires something else.</p>
+<p>Context. It's what makes your agent's tenth decision better than its first.</p>
+<p>And it's what separates agents that are able to compound from agents that can just execute.</p>
+<p>Because even the smartest model has no idea how your business actually works.</p>
+<p>It doesn't know your customers, your systems, your data. And when you give an agent that doesn't know the answer, it doesn't just pause. It very confidently gives you the wrong answer.</p>
+<p>The right answer requires context.</p>
+<p>And context lives in your data.</p>
+<p>There's public data. What's happening right now in the markets, in the news, and non-social, and your company's unstructured knowledge...</p>
+<p>think documents, images, videos—and your company's structured data, like data lakes, data warehouses, databases.</p>
+<p>Let's start with the public data.</p>
+<p>Every model has a knowledge cutoff.</p>
+<p>And that is the day it's picture when the world froze.</p>
+<p>If you ask your agent for a competitive analysis, you need to know what is happening right now when your competitor just released a new product yesterday.</p>
+<p>not the old information from the model's training data.</p>
+<p>And the latest information lives on the web.</p>
+<p>Inside Amazon, we've been working on this problem as well.</p>
+<p>We've been combining company knowledge with web intelligence to answer complex questions for quite a while.</p>
+<p>And customers have been asking us, well, why can't my agent do that?</p>
+<p>Now, the same battle-tested agentic web search that powers some of our services, like Amazon Quick, Kiro, Alexa Plus, is available for your agents.</p>
+<p>Connect it, and your agent can ground its responses in web information.</p>
+<p>with no integration work required.</p>
+<p>WebSearch operates natively within your AWS environment, so your data and your queries never leave AWS.</p>
+<p>But think about where most of your company's knowledge actually lives. I mean, you've got 20 years of documents, PDFs, images, and videos scattered all across SharePoint, OneDrive, Amazon S3. The answer your agent needs exists in this data. It's just buried in 15 places in 12 different formats.</p>
+<p>Connecting, parsing, and retrieving all of that accurately is a massive lift.</p>
+<p>With the new Amazon Bedrock Managed Knowledge Base, you can ground agent responses in your latest organizational data with just a few clicks.</p>
+<p>It provides native connectors to common data sources, and AWS handles the ingestion, the parsing, storage, and the retrieval.</p>
+<p>It enforces document-level permissions, so only users receive responses from content that they actually have access to.</p>
+<p>It enforces these permissions automatically. And for complex, multi-step questions, we built something even smarter.</p>
+<p>an agentic retriever.</p>
+<p>It plans queries across your knowledge base and connects related concepts across the documents and then evaluates what it finds and then re-ranks it so that your agent is actually delivering the best possible answer and not just the closest vector match.</p>
+<p>Dozens of customers are already building on managed knowledge base, including OpenAI.</p>
+<p>Whoop will heal from later, who is using its RAG capabilities to ground inference and model responses reliably and at scale for millions of users with the right customer context?</p>
+<p>Your company's knowledge also includes structured data.</p>
+<p>To make intelligent querying of structured data possible, agents need to understand the shape of your data, where the tables exist, how they relate to each other, and which sources are authoritative.</p>
+<p>You saw earlier how Amazon Quick solved this through a semantic knowledge store. Hundreds of thousands of users have been interacting daily with Amazon Quick's production knowledge graph.</p>
+<p>When the agent needs to answer a question, the knowledge store tells Amazon Quick which data sources to use and what business rules should be applied.</p>
+<p>But the business, you, you don't really think of your data in terms of structured versus unstructured.</p>
+<p>You want unified context across all of your data, regardless of where it lives or what form it takes.</p>
+<p>Now, this is why we built AWS Context.</p>
+<p>It automatically builds a knowledge graph from your existing data. No infrastructure to provision, no retrieval pipeline to build. The knowledge graph improves itself over time as it learns which sources produce the correct results.</p>
+<p>your agents get smarter without you ever having to adjust anything.</p>
+<p>And all the metadata from your structured and unstructured data sources is stored in Iceberg format.</p>
+<p>So you can build against it with the tools that you already use.</p>
+<p>Our next guest is a powerful example of what's possible</p>
+<p>when you combine bold ideas with the right tools and the right services.</p>
+<p>To tell us more about how OpenAI has transformed their business on AWS, please welcome the Enterprise Product Lead for Codex at OpenAI.</p>
+<p>Rohan Varma.</p>
+<p>Hello, my name is Rohan Varma.</p>
+<p>I am one of the product leads at OpenAI.</p>
+<p>New messages</p>
+<p>This content has been translated through Flitto AI</p>
+<h3>10:55 增量</h3>
+<p>on Codex, which is our agent and our agent harness, as well as models.</p>
+<p>Now, OpenAI delivers intelligence to our customers. We train really great models, and then we want to find ways for our customers, you all, to actually get access to that to help modernize and transform your business.</p>
+<p>Now, the problem is that often actually delivering intelligence requires a lot of different things across governance, security, observability, and procurement.</p>
+<p>And we don't want our customers to have to choose, which is why our partnership with AWS is so important.</p>
+<p>AWS has the Apple</p>
+<blockquote><p>註:逐字稿頁面於 11:26 前被主辦方清空;本檔涵蓋 10:00 開場(Robert Wang 致詞)至 ~10:56(OpenAI 段前半)。最後約 10-15 分鐘(OpenAI 段後半+收尾)未及抓取,該段重點見 Day1 Keynote 筆記。</p></blockquote>
+      </div>
+    </details>
+  </section>
+
+  <footer>
+    NOVA 整理,2026-07-15 · <a href="./">← AWS Summit 聽講路線</a> · <a href="../">← guides</a>
+  </footer>
+</main>
+</body>
+</html>
