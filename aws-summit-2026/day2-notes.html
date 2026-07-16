@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AWS Summit Taipei 2026 — Day2 筆記</title>
-<meta name="description" content="AWS Summit Taipei 2026 Day2(7/16)上半場筆記:一頁總結、Keynote、Breakout 議程(SEC02 資安專場)、逐字稿。">
+<meta name="description" content="AWS Summit Taipei 2026 Day2(7/16)筆記:一頁總結、Keynote、Breakout 議程(SEC02 資安專場+SPN-05 Palo Alto Prisma AIRS)、逐字稿。">
 <style>
   :root {
     --bg: #0b0f14; --bg-elev: #121822; --bg-code: #0e141d;
@@ -122,8 +122,8 @@
   <header class="top">
     <h1><span class="slash">/</span> AWS Summit Taipei 2026<br>Day2 筆記</h1>
     <p>7/16(四)・TICC<br>
-       Derek 現場整理:一頁總結、Keynote、Breakout 議程(SEC02 資安專場)、逐字稿。</p>
-    <p style="margin-top:.7rem"><a href="./" style="display:inline-block; padding:.35rem .8rem; border:1px solid var(--accent-border); background:var(--accent-soft); border-radius:8px; font-weight:600;">📅 回聽講路線(議程頁)</a></p>
+       Derek 現場整理:一頁總結、Keynote、Breakout 議程(SEC02 資安專場+SPN-05 Palo Alto Prisma AIRS)、逐字稿。</p>
+    <p style="margin-top:.7rem"><a href="./" style="display:inline-block; padding:.35rem .8rem; border:1px solid var(--accent-border); background:var(--accent-soft); border-radius:8px; font-weight:600;">📅 回聽講路線(議程頁)</a> <a href="day1-notes.html" style="color: var(--accent); font-size: .85rem; margin-left: .3rem;">→ Day1 筆記</a></p>
   </header>
 
   <nav class="sections">
@@ -170,8 +170,24 @@
 <li class="task"><input type="checkbox" disabled> devbox /ask 多輪 RAG:防多輪越獄(單輪安全≠多輪安全)</li>
 <li class="task"><input type="checkbox" disabled> websec-scanner:對標 Security Agent 五階段+意圖層攔截</li>
 </ul>
-<h3>下午場(未整理)</h3>
-<p>SPN-005 主權 AI 資安治理(14:30 101BC)→ SEC01/FINTECH02/DBA03/AIML08。</p>
+<h3>SPN-05 — Palo Alto Prisma AIRS(下午場,主權 AI 資安治理)</h3>
+<ul>
+<li>治理三步 <strong>Discover→Assess→Protect</strong>;第一步都是 Discover(影子 AI:掃出 226 agents/45 MCP servers 等 IT 不知情資產)。</li>
+<li><strong>綁法規合規</strong>(NIST 600-1/OWASP LLM Top 10/EU AI Act/ISO-42001)=大廠差異化,受監管/主權 AI 採購關鍵。</li>
+<li>eBPF 核心層盤點、AI 攻擊納 MITRE ATT&amp;CK 接既有 SOC、DLP 1,000+ 資料特徵(防火牆時代底蘊)。</li>
+<li><strong>AI Gateway = Portkey</strong>(整合開源 LLM gateway),與 BitoClaw LiteLLM/CyCraft Gateway 同類=<strong>LLM Gateway 是 2026 標配層</strong>。</li>
+<li><strong>Agent 身份治理(最硬核)</strong>:身分=Agent ID+<strong>User OBO(代表哪個真人)</strong>+Token+Tools+Time;Agent IdP 發身分+JIT 短時效+可撤銷;<strong>User OBO 根本解「AI 內賊」</strong>(權限=那人權限∩agent 授予)。</li>
+<li>模型後門:<strong>開源模型選 safetensors 避 pickle</strong>(從格式擋 pickle 任意程式碼執行);安全要顧兩條供應鏈(程式碼套件+AI 模型/prompt/工具)。</li>
+</ul>
+<h3>★ 三家資安策略總結(今天最值的一句)</h3>
+<ul>
+<li><strong>AWS</strong>=雲原廠,安全長在開發流程(Security Agent)</li>
+<li><strong>CyCraft</strong>=精準守門員,一 API 擋 injection(XecGuard)</li>
+<li><strong>Palo Alto</strong>=資安平台,全鏈路一站式治理(Prisma AIRS)</li>
+<li>選型看要「深度整合單點」還是「廣度覆蓋全面」;共同結論=agent 資安=盤點+供應鏈+injection+權限。</li>
+</ul>
+<h3>沒去的下午場</h3>
+<p>SEC01(多租戶 AI Agent 治理)/FINTECH02(Multi-Agent 回測)/DBA03(Gogolook 向量檢索)/AIML08(大規模 Multi-Agent 架構)——Derek 聽完 SPN-05 離場。</p>
   </section>
 
   <section class="block prose" id="keynote">
@@ -324,6 +340,37 @@
 </ol>
 <blockquote><p>濃縮:接受不完美→別信模型自律→要語意非正則→綁業務範圍→input+output 雙向多層。可搬進 EIP/任何 LLM 系統安全原則。</p></blockquote>
 <p>(SEC02+CyCraft 完)</p>
+<hr>
+<h3>SPN-05 — 主權 AI 的安全基石(14:30,下午場)</h3>
+<ul>
+<li>講者:陳大為 David Chen(資安技術顧問,<strong>Palo Alto Networks</strong>)——全球資安一線大廠;掛「主權 AI+治理」高度,偏策略/合規框架,與上午 SEC02(產品攔截)互補。產品 <strong>Prisma AIRS</strong>。</li>
+<li>AI 攻擊面四層擴展:AI Applications→Enterprise Agents→Agentic Endpoints→<strong>Agentic Browsers</strong>(會自己開瀏覽器操作的 agent=新端點攻擊面,被劫持替你點擊/填表/讀網頁)。</li>
+<li>治理三步:<strong>Discover(盤點所有 AI 資產)→Assess(持續評估風險)→Protect(即時保護互動)</strong>。觀察:與 AWS Continuum(Discover/Prioritize/Validate/Remediate)、NextLink 盤點優先皆同——<strong>第一步都是 Discover</strong>,因影子 AI(員工偷用/未登記 agent)是最大盲區,治理起手式=先知道自己有多少 AI 在跑。</li>
+<li>Discover demo 儀表板:一企業掃出 <strong>226 agents/204 應用/17 模型/45 MCP-A2A servers/8 資料集/1.3 萬使用者</strong>——多為 IT 不知情的影子 AI;連 MCP server 都成待盤點資產(45 個)。</li>
+<li><strong>AIRS Discovery Module 整合 7 源盤點</strong>:Cortex Cloud AI-SPM、Agent SSPM、<strong>eBPF(核心層 syscall/連線追蹤,agent 偷連藏不住)</strong>、Network Discovery、Agent Identity Gateway、Agent Security Gateway、Agentic Endpoint。多源交叉才盤全(單一角度會漏)。eBPF 與昨天 gVisor/Kata 同 kernel-邊界家族。定位:<strong>Palo Alto=企業級全面盤點(看得見全部)vs XecGuard=單點 guardrail(擋住這次),不同量級、互補。</strong></li>
+<li><strong>Assess 步:跨平台 AI 開發流程治理</strong>——對應開發流程圖(模型/代理/端點+資料流)、監控敏感資料動態(暴露/污染/隱私違規)、評估風險優先序。<strong>關鍵差異化:綁法規合規標準</strong>——NIST 600-1、OWASP LLM Top 10、<strong>EU AI Act(2026 已上路,歐洲強制)</strong>、<strong>ISO-42001(AI 管理系統)</strong>。大廠 vs 其他玩家的分野:賣的不是「擋攻擊」是「幫你過稽核、證明合規」——受監管/主權 AI 採購關鍵。EIP 若進歐洲/政府案,ISO-42001+EU AI Act 是硬門檻。</li>
+<li><strong>Protect 步:即時偵測與回應</strong>——偵測(模型配置變更/惡意 prompt/模型 DDoS)、PII 進訓練/推論監控、無程式碼自動化修復。事故 demo:異常大量請求→War Room 標 <strong>MITRE ATT&amp;CK</strong>+OWASP LLM10:2025,畫攻擊鏈(奈及利亞 IP→suspicious_user→llama-3.1-405b 模型)。<strong>亮點:AI 攻擊納入傳統 SOC 框架(MITRE ATT&amp;CK),SOC 分析師不用重學=大廠把新威脅接進既有資安維運體系。</strong></li>
+<li>SPN-05 全貌:Discover→Assess→Protect 企業級 AI 安全治理平台,強在<strong>盤點+合規+接軌既有 SOC</strong>;偏 CISO/管理層視角,與上午攻防技術場互補。</li>
+<li>部署前全面檢測四塊:Agent 產出掃描(程式碼庫風險路徑)、<strong>AI 紅隊演練</strong>(主動攻擊自己)、<strong>AI 模型安全(掃模型檔後門——供應鏈:下載模型權重可能藏惡意 payload,如 pickle 反序列化攻擊)</strong>、Agent 安全態勢管理(統籌+自動修復)。與上午 AWS Security Agent 高度重疊=「部署前檢測」已成標配。<strong>新認知:連「模型本身」都要當不可信資產掃</strong>(呼應 OpenClaw 惡意 skills 供應鏈);Derek EIP 若用地端開源模型(Mac mini 那個),下載模型檔要驗來源+掃後門。</li>
+<li>AI 模型安全 demo:掃 1,200 次擋 150,<strong>最常被擋規則=「Pickle Model Arbitrary Code Execution Detected」</strong>(pickle 格式模型權重載入時執行程式碼,後門藏這);掃描來源 <strong>HuggingFace</strong>(下載開源模型=下載會執行的程式,如同 pip install 未知套件)。<strong>★ 實務守則:地端開源模型優先選 safetensors 格式(不含可執行碼、天生安全),避開 .pkl/.bin(pickle)——從格式就擋掉,比事後掃後門更根本。</strong> Mac mini 方案適用。</li>
+<li>評估 Agent 供應鏈風險(AI Agent 產出掃描):掃 agent 原始碼、找藏在模型檔/skills/工具的漏洞。demo「Malicious Source Code Injection→Sensitive File Exfiltration」攻擊鏈:Source Code→Security gap→File Reader→<strong>竊 Environment Credentials</strong>;程式碼註解藏「IGNORE PREVIOUS INSTRUCTIONS」prompt injection。對上 OpenClaw 三破口的 Malicious Skills=agent 裝的 skill/工具/程式碼庫都是供應鏈,一環下毒全淪陷。</li>
+<li><strong>三家(AWS Security Agent/CyCraft/Palo Alto)同構結論:agent 資安=盤點+供應鏈+injection+權限</strong>,差在層次與商業定位。Derek 兩天=看完 2026 AI 資安全景。</li>
+<li>紅隊 demo:理賠 Agent 掃描 Risk Score 92(Critical)、<strong>ASR 66.19%</strong>(72 次 43 高危成功)、按類 Safety 84%/Brand 55%/Compliance 43%;50+ 情境=完整攻擊手法庫。ASR=上午 CyCraft 同指標。</li>
+<li><strong>「防禦治理是難題」核心圖</strong>:AI Apps/SaaS Tools/SaaS Agents/Endpoint/Other AI/Enterprise Agents/MCP Servers/Browser Agents/Models 全互連成網。<strong>傳統防南北向(user↔server),agent 世界是東西向爆炸</strong>(agent 呼叫 agent/接 MCP/接工具/接模型,每條連線=攻擊路徑),防線從一道牆變一張網,一點淪陷橫向擴散。首尾呼應四層攻擊面。</li>
+<li><strong>Agent runtime 防護</strong>(對照 pre-deploy 檢測):阻斷網路層/基礎模型/代理專屬測試、<strong>內建 1,000+ 資料特徵(DLP)防敏感資料外洩</strong>、無/低程式碼彈性部署。DLP 是 Palo Alto 老本行(防火牆時代累積的資料特徵庫=大廠底蘊,新創補不上)。</li>
+<li><strong>SPN-05 總結</strong>:Prisma AIRS=pre-deploy 檢測+runtime 防護+Discover/Assess/Protect 治理三步=「AI 版企業安全平台」。<strong>三種路線各有其位:大廠(Palo Alto)打全面治理+合規+DLP、資安新創(CyCraft)打單點精準攔截、雲原廠(AWS)打開發整合</strong>。</li>
+<li>兩種部署模式:<strong>Network-centric</strong>(防火牆部署/不改程式/網路層攔截,適合 CISO 網管保護老系統)vs <strong>Developer-centric</strong>(改程式/security-as-code/幾分鐘設定,適合開發團隊寫進 CI/CD);可擇一或並用。EIP 新開發→developer-centric 最乾淨;保護老系統→network-centric 不改它們。</li>
+<li><strong>★ AI 應用運行時風險全景圖(可當「接 LLM 系統威脅檢查表」)</strong>:Users→App Workloads→AI Model(+cache/API)←Training/Dataset←外部/內部資料源;旁 Vector DB(RAG)、Tools&amp;Plugins→Downstream(外部 DB/網站/第三方)。六風險點:①Direct Prompt Injection ①<strong>Indirect Prompt Injection(從工具/下游汙染資料流進來,更陰險)</strong> ②Model DoS×2 ④Sensitive Data Leak ⑤Insecure Outputs。<strong>與 devbox /ask RAG 架構幾乎一樣,風險全中——尤其 /ask 讀外部網頁/文件時的 indirect injection(藏在內容裡的指令被當真),RAG 最易忽略的洞。</strong></li>
+<li><strong>AI Runtime Security 模組</strong>:Analyzer(判威脅)+Interceptor(Network+API 兩攔截點)卡在 App Workloads↔Model↔Tools 所有連線中央=資料流每接縫設檢查哨。三家收斂:CyCraft 用 gateway、AWS 用 agent、Palo Alto 用 runtime interceptor,本質都是「agent 每個對外互動點插一層檢查」。</li>
+<li><strong>★ 實作範例(最落地一頁,直接是藍圖):AI 助理防護整合</strong>——node 式對話流:使用者輸入→【AIRS-Prompt 輸入檢查(HTTP API call)】→條件 block 走 fallback、正常→Create generative answers(LLM)→【AIRS-Response 輸出檢查(API call)】→條件 block 走 fallback、正常→回答。=<strong>guardrail-as-API 模式</strong>:兩個 HTTP API 節點掛進流程,不改核心邏輯。<strong>devbox /ask 直接套用</strong>:問題進來 call 檢查 API(擋 injection)→LLM 生成後 call 檢查 API(擋洩漏/不當輸出)→任一 flagged 走 fallback(可用 Palo Alto 或自寫/開源)。</li>
+<li><strong>Agent Fabric / Agent Security Gateway</strong>:所有 agent(workload/SaaS)對外連線收斂經 gateway→AI Agents/LLMs/Knowledge Bases/Connected Apps/Internet;攔三協定 <strong>MCP/A2A/Prompts(req/response)</strong>=agent 對外三主幹道。六能力:知道有哪些 agent、agent 在跟誰連、<strong>對人+agent 身分執行最小權限</strong>、阻斷 agent 間接存取、阻斷弱點利用防外洩、可追溯+操作日誌。第三條直接解 CyCraft「AI 內賊」——agent 也要有身分、受最小權限管。概念=把 agent 當需身分管控的「員工」,所有對外連線走同一閘門;與 NOVA harness「工具呼叫過安全閘」同構(企業規模版)。</li>
+<li><strong>★ Prisma AIRS AI Gateway = Portkey</strong>(Palo Alto 整合/收購開源 LLM gateway,非自造)。架構:接入端(AI App、工具含 <strong>Cursor/Claude Code/LibreChat/Open WebUI</strong>、Agents)→Portkey Gateway→1600+ LLMs/MCP Servers/向量 DB(Amazon/Qdrant/Milvus)。五功能:可觀測性、模型路由+備援、身分驗證+權限治理、安全護欄整合、LLM Token 用量管理。<strong>與 BitoClaw 的 LiteLLM、CyCraft 的 LLM Gateway 同類</strong>——LiteLLM/Portkey 都是開源 LLM gateway,統一接多模型+路由+觀測+token。<strong>實用結論:LLM Gateway 已是 2026 標配層,選型 LiteLLM(開源自架)/Portkey(開源+商業);devbox 規模化接多模型直接用現成 gateway,不自造。</strong> 三場資安都講到這層=必備件。</li>
+<li><strong>全家桶總圖(開發者全程被保護)</strong>:①Gen AI 設計(Prisma Browser 安全瀏覽器+DLP/URL/ADEM)②IDE 操作→Cortex Agentic Endpoint Security→③AI 使用治理(AI Gateway/Portkey)→④AI 護欄(AI Runtime/Prisma AIRS 接 AI Detections/URL Filtering/Enterprise DLP)→AI Models/MCP(Claude/Bedrock);⑤模型掃描⑥紅隊掃描。編號 1-8 標請求來回順序。大廠「平台整合」打法:單一廠商全鏈路,省東拼西湊;缺點=全綁一家、貴、未必每模組最強。</li>
+<li><strong>★ 三家資安策略總結</strong>:AWS=雲原廠,安全長在開發流程(Security Agent);CyCraft=精準守門員,一 API 擋 injection(XecGuard);Palo Alto=資安平台,全鏈路一站式治理(Prisma AIRS)。選型看要「深度整合單點」還是「廣度覆蓋全面」。</li>
+<li><strong>★ Agent 身份安全管控(最硬核架構頁)</strong>:agent 身分=5 個 Identity Signals 組合——Agent ID、<strong>User OBO(on-behalf-of,代表哪個真人)</strong>、Token/Credential(⚠️風險)、Tools being invoked、Time。5 訊號進 AI Gateway 做請求仲裁/工具路由/政策強制,底接 <strong>Agent Identity Provider(Agent IdP)</strong>:發 agent 身分、政策評估、<strong>Just-in-time 臨時授權、可撤銷</strong>。權限表細到每 agent 不同(SalesAssist 只能 SaaS actions 存取控制&lt;60s、TaskRunner&lt;10s)=agent 版 IAM+短時效權限。<strong>核心觀念 User OBO:agent 永遠代表某人行動,權限=那人的權限 ∩ agent 授予範圍——根本解「AI 內賊」(權限被代表的人+JIT 短時效雙重限制,非超級權限)。</strong> Agent IdP 是新興概念,自建多 agent 系統遲早要面對。</li>
+<li>AI 開發團隊最佳實踐(開發者視角完整鏈):開發者→Agentic Endpoint with Remediation→①往上 <strong>KOI Supply Chain GW(Allow/Block/JIT)</strong> 守套件供應鏈(VS Code/npm/pip/GitHub 每次下載過閘)②往右 AI Security Gateway+Prisma AIRS Guardrails→Cloud LLM/MCP。可整合任何 EDR/MDM;對 Marketplace+Repo 建供應鏈閘(npm/PyPI/HuggingFace 抓的先過檢查)。<strong>實務總結:安全要覆蓋兩條供應鏈——程式碼供應鏈(套件/依賴)+AI 供應鏈(模型/prompt/工具),EIP 兩條都顧。</strong></li>
+</ul>
+<p>(SPN-05 完)</p>
 <hr>
 <h3>相關筆記</h3>
 <ul>
