@@ -262,7 +262,6 @@
       <div class="nodes">
         <div class="node"><b>整合資料庫(Read Models)</b><small>各來源同步後的乾淨副本,模組只讀這裡</small></div>
         <div class="node"><b>排程 ETL / 同步</b><small>DB 唯讀 view &gt; 匯出檔 &gt; API,批次 + 增量</small></div>
-        <div class="node"><b>文件抽取管線</b><small>LLM vision:掃描圖面標題欄 / 紙本品檢 / 供應商 PDF</small></div>
         <div class="node"><b>資料品質檢核</b><small>筆數對帳 / 異常告警</small></div>
       </div>
     </div>
@@ -346,20 +345,43 @@
     <div class="step"><span class="k">STEP 4</span><b>其餘模組</b><small>滾動推進</small></div>
   </div>
 
-  <h2><span class="n">05</span> 資料整合:OCR / LLM 該放哪裡</h2>
-  <p class="sub">整合老系統的優先序很明確,OCR 只在對的地方才是利器。</p>
+  <h2><span class="n">05</span> MVP:最小可行方案</h2>
+  <p class="sub">用「一條資料管線 + 一個看板 + SSO/RBAC 地基」證明整個架構的核心假設,再談其他模組。</p>
 
-  <div class="callout">
-    <p><b>整合方式優先序</b>(能用左邊就別用右邊):</p>
-    <div class="rule">
-      <span class="r best">DB 唯讀 view</span><span class="gt">&gt;</span>
-      <span class="r">排程匯出檔</span><span class="gt">&gt;</span>
-      <span class="r">API</span><span class="gt">&gt;</span>
-      <span class="r">UI 自動化</span><span class="gt">&gt;</span>
-      <span class="r last">OCR / LLM(僅紙本掃描)</span>
+  <div class="grid">
+    <div class="card" style="border-left:3px solid var(--ok)">
+      <h3><span style="color:var(--ok)">✓</span> MVP 做這些</h3>
+      <ul>
+        <li><b>地基</b>:Laravel 12 + SSO(先接一個 IdP)+ RBAC(2–3 個基本角色)</li>
+        <li><b>一條資料管線</b>:挑最容易唯讀直連的一個來源系統 → 整合資料庫 → 排程 ETL(每日增量)</li>
+        <li><b>一個看板</b>:財務決策看板 或 營運即時查詢 擇一,做決策者最有感的那頁</li>
+        <li><b>部署</b>:CI/CD + dev / prod + 整合庫每日備份</li>
+      </ul>
     </div>
-    <p style="margin-top:1rem"><span class="no">✗ 不要</span> 拿 OCR / LLM 當「系統整合」手段。MySQL、SQL Server、MES 底下都有資料庫,有 DB 可讀卻對著螢幕拍照,錯誤率、維護成本、延遲全差一個量級——UI 一改版就全掛。結構化資料搬運是確定性工作,寫好的程式跑一萬次結果都一樣,塞 LLM 進去反而把「不會錯的事」變成機率性的。</p>
-    <p><span class="yes">✓ 適合</span> 把 LLM vision 用在<b>非結構化文件入口</b>:掃描工程圖的標題欄、紙本品檢記錄、供應商 PDF 報價單。用本地模型(如 Mac mini)初篩、雲端強模型收難件,並且一定要配<b>信心分數 + 低信心進人工複核 + 筆數對帳</b>——當它會錯去設計,才能安心用。</p>
+    <div class="card" style="border-left:3px solid var(--warn)">
+      <h3><span style="color:var(--warn)">✗</span> MVP 先不做</h3>
+      <ul>
+        <li>其餘四個模組(先證明一個)</li>
+        <li>任何回寫來源系統(只讀)</li>
+        <li>資料列級的複雜權限</li>
+        <li>多來源整合(先一個來源)</li>
+        <li>圖面 / 文件處理</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="callout" style="margin-top:.8rem">
+    <p><b>驗收標準</b>(做到就算 MVP 成功):</p>
+    <p><span class="yes">✓</span> 決策者用公司帳號 SSO 登入 · 看到一個從老系統整合來的即時看板 · 資料每天自動更新且有筆數對帳 · 不同角色看到不同資料範圍(RBAC 生效)。</p>
+    <p style="margin-top:1rem;color:var(--muted)">為什麼這樣切:一次驗證三個最大風險——<b>SSO 能不能接、來源能不能唯讀整合、看板對決策者有沒有價值</b>。這三關過了,其餘模組就是照同一套路複製擴充。</p>
+  </div>
+
+  <div style="margin-top:1rem" class="prio">
+    <div class="step"><span class="k">MVP</span><b>1 來源 + 1 看板</b><small>證明核心假設</small></div>
+    <span class="arrow">→</span>
+    <div class="step"><span class="k">v1</span><b>補齊看板模組</b><small>多來源 + 財務/營運全看板</small></div>
+    <span class="arrow">→</span>
+    <div class="step"><span class="k">v2</span><b>回寫 + 進階</b><small>審批/下單寫回、細權限</small></div>
   </div>
 
   <h2><span class="n">06</span> 待釐清</h2>
