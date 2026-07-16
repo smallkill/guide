@@ -1,0 +1,380 @@
+<title>EIP 企業入口平台 — 系統架構 v1</title>
+<style>
+  :root {
+    --bg: #eaeef7;
+    --grid: rgba(47,111,237,.05);
+    --surface: #ffffff;
+    --surface-2: #f5f7fc;
+    --ink: #14203a;
+    --ink-soft: #33415e;
+    --muted: #5d6c88;
+    --line: #d2dcef;
+    --line-strong: #b7c5e2;
+    --accent: #2f6fed;
+    --accent-deep: #1b3a8f;
+    --accent-soft: #e7eefc;
+    --warn: #c4720d;
+    --warn-soft: #fbeeda;
+    --warn-line: #e6b877;
+    --ok: #1f9d6b;
+    --legacy: #6b7280;
+    --legacy-soft: #eef0f3;
+    --shadow: 0 1px 2px rgba(20,32,58,.06), 0 8px 24px rgba(20,32,58,.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b111d;
+      --grid: rgba(91,141,255,.06);
+      --surface: #121c2e;
+      --surface-2: #0f1826;
+      --ink: #e5ecf8;
+      --ink-soft: #c3cee2;
+      --muted: #93a4c1;
+      --line: #223349;
+      --line-strong: #2f4666;
+      --accent: #5b8dff;
+      --accent-deep: #9db9ff;
+      --accent-soft: #16233c;
+      --warn: #e59a3d;
+      --warn-soft: #2c2416;
+      --warn-line: #5a4a2a;
+      --ok: #3fbc8a;
+      --legacy: #8a97ad;
+      --legacy-soft: #182234;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0b111d; --grid: rgba(91,141,255,.06); --surface: #121c2e; --surface-2: #0f1826;
+    --ink: #e5ecf8; --ink-soft: #c3cee2; --muted: #93a4c1; --line: #223349; --line-strong: #2f4666;
+    --accent: #5b8dff; --accent-deep: #9db9ff; --accent-soft: #16233c;
+    --warn: #e59a3d; --warn-soft: #2c2416; --warn-line: #5a4a2a; --ok: #3fbc8a;
+    --legacy: #8a97ad; --legacy-soft: #182234; --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.35);
+  }
+  :root[data-theme="light"] {
+    --bg: #eaeef7; --grid: rgba(47,111,237,.05); --surface: #ffffff; --surface-2: #f5f7fc;
+    --ink: #14203a; --ink-soft: #33415e; --muted: #5d6c88; --line: #d2dcef; --line-strong: #b7c5e2;
+    --accent: #2f6fed; --accent-deep: #1b3a8f; --accent-soft: #e7eefc;
+    --warn: #c4720d; --warn-soft: #fbeeda; --warn-line: #e6b877; --ok: #1f9d6b;
+    --legacy: #6b7280; --legacy-soft: #eef0f3; --shadow: 0 1px 2px rgba(20,32,58,.06), 0 8px 24px rgba(20,32,58,.06);
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", "PingFang TC", "Microsoft JhengHei", "Noto Sans TC", sans-serif;
+    color: var(--ink);
+    background-color: var(--bg);
+    background-image:
+      linear-gradient(var(--grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+    background-size: 28px 28px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .mono { font-family: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace; }
+
+  .wrap { max-width: 960px; margin: 0 auto; padding: clamp(1.4rem, 4vw, 3rem) clamp(1rem, 4vw, 2rem) 4rem; }
+
+  /* ---- header ---- */
+  header { margin-bottom: 2.6rem; }
+  .eyebrow {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: .72rem; letter-spacing: .18em; text-transform: uppercase;
+    color: var(--accent); display: flex; align-items: center; gap: .6rem; margin-bottom: .9rem;
+  }
+  .eyebrow::before { content: ""; width: 26px; height: 2px; background: var(--accent); display: inline-block; }
+  h1 {
+    font-size: clamp(1.7rem, 5vw, 2.5rem); line-height: 1.15; margin: 0 0 .7rem;
+    letter-spacing: -.01em; text-wrap: balance; font-weight: 750;
+  }
+  .lede { font-size: clamp(1rem, 2.4vw, 1.12rem); color: var(--ink-soft); max-width: 60ch; margin: 0 0 1.3rem; }
+  .meta { display: flex; flex-wrap: wrap; gap: .5rem; }
+  .tag {
+    font-family: ui-monospace, Menlo, monospace; font-size: .74rem;
+    padding: .28rem .66rem; border-radius: 999px; border: 1px solid var(--line-strong);
+    background: var(--surface); color: var(--muted); white-space: nowrap;
+  }
+  .tag b { color: var(--ink); font-weight: 600; }
+
+  h2 {
+    font-size: 1.28rem; margin: 3.2rem 0 .3rem; letter-spacing: -.01em; font-weight: 700;
+    display: flex; align-items: baseline; gap: .6rem;
+  }
+  h2 .n { font-family: ui-monospace, Menlo, monospace; font-size: .82rem; color: var(--accent); font-weight: 600; }
+  .sub { color: var(--muted); margin: 0 0 1.4rem; font-size: .96rem; }
+
+  /* ---- architecture stack ---- */
+  .stack { display: flex; flex-direction: column; gap: 0; }
+  .layer {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
+    padding: 1rem 1.1rem 1.1rem; box-shadow: var(--shadow);
+  }
+  .layer.core { border-color: var(--warn-line); background: linear-gradient(180deg, var(--warn-soft), var(--surface) 60%); }
+  .layer.legacy-layer { background: var(--surface-2); }
+  .layer-head { display: flex; align-items: center; gap: .7rem; margin-bottom: .85rem; flex-wrap: wrap; }
+  .layer-title { font-weight: 700; font-size: 1.02rem; }
+  .layer.core .layer-title::before { content: "★ "; color: var(--warn); }
+  .chip {
+    font-family: ui-monospace, Menlo, monospace; font-size: .68rem; letter-spacing: .05em;
+    padding: .18rem .5rem; border-radius: 6px; background: var(--accent-soft); color: var(--accent-deep);
+    text-transform: uppercase; font-weight: 600;
+  }
+  .layer.core .chip { background: var(--warn-soft); color: var(--warn); border: 1px solid var(--warn-line); }
+  .layer.legacy-layer .chip { background: var(--legacy-soft); color: var(--legacy); }
+  .layer-note { color: var(--muted); font-size: .82rem; margin-left: auto; }
+
+  .nodes { display: flex; flex-wrap: wrap; gap: .55rem; }
+  .node {
+    flex: 1 1 150px; min-width: 140px; background: var(--surface-2); border: 1px solid var(--line);
+    border-radius: 9px; padding: .6rem .7rem;
+  }
+  .layer.core .node { background: var(--surface); border-color: var(--warn-line); }
+  .layer.legacy-layer .node { flex: 0 1 auto; min-width: 0; }
+  .node b { display: block; font-size: .9rem; font-weight: 650; }
+  .node small { color: var(--muted); font-size: .76rem; line-height: 1.45; display: block; margin-top: .12rem; }
+  .node.hero { background: linear-gradient(135deg, var(--accent), var(--accent-deep)); border: none; }
+  .node.hero b, .node.hero small { color: #fff; }
+  .node.hero small { opacity: .9; }
+
+  .flow {
+    text-align: center; color: var(--muted); font-size: .78rem; padding: .34rem 0;
+    font-family: ui-monospace, Menlo, monospace; letter-spacing: .04em;
+    display: flex; align-items: center; justify-content: center; gap: .5rem;
+  }
+  .flow::before { content: "▼"; color: var(--line-strong); font-size: .8rem; }
+
+  /* ---- cards grid ---- */
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: .8rem; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; box-shadow: var(--shadow); }
+  .card h3 { margin: 0 0 .1rem; font-size: 1.02rem; display: flex; align-items: baseline; gap: .5rem; }
+  .card h3 .num { font-family: ui-monospace, Menlo, monospace; color: var(--accent); font-size: .8rem; font-weight: 600; }
+  .card p { margin: .35rem 0 0; color: var(--ink-soft); font-size: .9rem; }
+  .card ul { margin: .5rem 0 0; padding-left: 1.05rem; color: var(--muted); font-size: .85rem; }
+  .card li { margin: .12rem 0; }
+
+  /* ---- decisions ---- */
+  .decisions { display: flex; flex-direction: column; gap: .7rem; }
+  .decision { display: flex; gap: .9rem; background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 10px; padding: .9rem 1.1rem; box-shadow: var(--shadow); }
+  .decision .d-num { font-family: ui-monospace, Menlo, monospace; font-size: 1.1rem; font-weight: 700; color: var(--accent); flex-shrink: 0; }
+  .decision b { font-weight: 650; }
+  .decision p { margin: .2rem 0 0; color: var(--ink-soft); font-size: .9rem; }
+
+  /* ---- priority order ---- */
+  .prio { display: flex; flex-wrap: wrap; align-items: stretch; gap: .5rem; }
+  .prio .step { flex: 1 1 120px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: .7rem .85rem; box-shadow: var(--shadow); }
+  .prio .step .k { font-family: ui-monospace, Menlo, monospace; font-size: .72rem; color: var(--accent); font-weight: 600; }
+  .prio .step b { display: block; font-size: .94rem; margin: .1rem 0; }
+  .prio .step small { color: var(--muted); font-size: .78rem; }
+  .prio .arrow { align-self: center; color: var(--line-strong); font-family: monospace; }
+
+  /* ---- rule / integration priority ---- */
+  .rule { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; margin: .6rem 0 0; font-size: .86rem; }
+  .rule .r { font-family: ui-monospace, Menlo, monospace; background: var(--surface-2); border: 1px solid var(--line); border-radius: 6px; padding: .2rem .5rem; color: var(--ink-soft); }
+  .rule .gt { color: var(--muted); }
+  .rule .r.best { border-color: var(--ok); color: var(--ok); }
+  .rule .r.last { border-color: var(--warn-line); color: var(--warn); }
+
+  .callout { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.2rem; box-shadow: var(--shadow); }
+  .callout p { margin: .4rem 0; font-size: .92rem; color: var(--ink-soft); }
+  .callout p:first-child { margin-top: 0; }
+  .callout .yes { color: var(--ok); font-weight: 650; }
+  .callout .no { color: var(--warn); font-weight: 650; }
+
+  .open { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: .5rem; }
+  .open li { background: var(--surface); border: 1px dashed var(--line-strong); border-radius: 9px; padding: .6rem .9rem; color: var(--ink-soft); font-size: .9rem; }
+  .open li::before { content: "?"; font-family: ui-monospace, Menlo, monospace; color: var(--accent); font-weight: 700; margin-right: .6rem; }
+
+  footer { margin-top: 3.5rem; padding-top: 1.4rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .82rem; }
+  footer .conf { display: inline-block; margin-top: .4rem; padding: .2rem .6rem; border: 1px solid var(--warn-line); color: var(--warn); border-radius: 6px; font-family: ui-monospace, Menlo, monospace; font-size: .74rem; }
+
+  @media (max-width: 560px) {
+    .layer-note { margin-left: 0; flex-basis: 100%; }
+    .node { flex-basis: 100%; }
+  }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">內部架構草案 · v1 · 2026-07-16</div>
+    <h1>EIP 企業入口平台 — 系統架構</h1>
+    <p class="lede">統一入口(SSO)+ RBAC 權限控管 + 模組化架構,把五大領域整進一個 Laravel 12 平台;關鍵在最底層——把 MES / ERP 那些老系統的資料乾淨地整合進來,而不是重寫它們。</p>
+    <div class="meta">
+      <span class="tag"><b>Laravel 12</b> EIP Portal</span>
+      <span class="tag"><b>SSO</b> + RBAC</span>
+      <span class="tag">模組化 · 可獨立啟閉</span>
+      <span class="tag">★ 成敗在<b>資料整合層</b></span>
+    </div>
+  </header>
+
+  <h2><span class="n">01</span> 分層架構</h2>
+  <p class="sub">六層由上而下,資料流方向標在層與層之間。★ 標示的資料整合層是本案成敗關鍵。</p>
+
+  <div class="stack">
+    <div class="layer">
+      <div class="layer-head"><span class="layer-title">使用者層</span><span class="chip">Users</span></div>
+      <div class="nodes">
+        <div class="node"><b>內部員工</b><small>營運 / 業務 / 工程 / 品質</small></div>
+        <div class="node"><b>主管 / 決策者</b><small>看板為主</small></div>
+        <div class="node"><b>裝置</b><small>桌面瀏覽器 · 行動(RWD)</small></div>
+      </div>
+    </div>
+    <div class="flow">HTTPS</div>
+
+    <div class="layer">
+      <div class="layer-head"><span class="layer-title">入口層 — Laravel 12 EIP Portal</span><span class="chip">Portal</span></div>
+      <div class="nodes">
+        <div class="node hero"><b>SSO 共用登入</b><small>對接既有 IdP(AD / Entra)</small></div>
+        <div class="node hero"><b>RBAC 權限控管</b><small>角色 × 模組 × 資料範圍</small></div>
+        <div class="node"><b>EIP 選單整合</b><small>統一導覽</small></div>
+        <div class="node"><b>審計日誌</b><small>誰看了什麼</small></div>
+        <div class="node"><b>本地化 UI/UX</b><small>繁中優先</small></div>
+      </div>
+    </div>
+    <div class="flow">內部 API</div>
+
+    <div class="layer">
+      <div class="layer-head"><span class="layer-title">功能模組層</span><span class="chip">Modules</span><span class="layer-note">Laravel Modules,可獨立啟閉</span></div>
+      <div class="nodes">
+        <div class="node"><b>01 管理與平台治理</b><small>後台 / 系統監控 / 參數</small></div>
+        <div class="node"><b>02 營運流程</b><small>BOM / 生產 / 業務 / ERP+ 查詢</small></div>
+        <div class="node"><b>03 財務與決策看板</b><small>戰情 / 採購 / 財務儀表</small></div>
+        <div class="node"><b>04 工程品質研發</b><small>報價成本 / NPD / 品質 / 圖面</small></div>
+        <div class="node"><b>05 品牌與工具</b><small>CIS / 製造輔助工具</small></div>
+      </div>
+    </div>
+    <div class="flow">服務呼叫</div>
+
+    <div class="layer">
+      <div class="layer-head"><span class="layer-title">服務層</span><span class="chip">Services</span></div>
+      <div class="nodes">
+        <div class="node"><b>Hermes API 管控</b><small>API 註冊 / 權限 / 監控(對外唯一出入口)</small></div>
+        <div class="node"><b>報表 / 匯出服務</b><small>非同步產表</small></div>
+        <div class="node"><b>通知服務</b><small>Email / IM webhook</small></div>
+        <div class="node"><b>檔案 / 圖面搜尋</b><small>物件儲存 + 索引</small></div>
+      </div>
+    </div>
+    <div class="flow">唯讀為主</div>
+
+    <div class="layer core">
+      <div class="layer-head"><span class="layer-title">資料整合層</span><span class="chip">Data Integration</span><span class="layer-note">本案成敗關鍵</span></div>
+      <div class="nodes">
+        <div class="node"><b>整合資料庫(Read Models)</b><small>各來源同步後的乾淨副本,模組只讀這裡</small></div>
+        <div class="node"><b>排程 ETL / 同步</b><small>DB 唯讀 view &gt; 匯出檔 &gt; API,批次 + 增量</small></div>
+        <div class="node"><b>文件抽取管線</b><small>LLM vision:掃描圖面標題欄 / 紙本品檢 / 供應商 PDF</small></div>
+        <div class="node"><b>資料品質檢核</b><small>筆數對帳 / 異常告警</small></div>
+      </div>
+    </div>
+    <div class="flow">唯讀連線 · 不回寫來源</div>
+
+    <div class="layer legacy-layer">
+      <div class="layer-head"><span class="layer-title">來源系統(既有,不動它們)</span><span class="chip">Legacy</span></div>
+      <div class="nodes">
+        <div class="node mono"><b>MySQL</b></div>
+        <div class="node mono"><b>SQL Server</b></div>
+        <div class="node mono"><b>MES / MOMS</b></div>
+        <div class="node mono"><b>LPS</b></div>
+        <div class="node mono"><b>YCIQMS</b></div>
+        <div class="node mono"><b>DAHS</b></div>
+        <div class="node mono"><b>ERP</b></div>
+        <div class="node mono"><b>檔案儲存</b></div>
+      </div>
+    </div>
+  </div>
+
+  <h2><span class="n">02</span> 橫切關注</h2>
+  <p class="sub">全層適用,不屬於任何單一模組。</p>
+  <div class="grid">
+    <div class="card"><h3>身分來源 IdP</h3><p>AD / Entra ID — SSO 的信任根。</p></div>
+    <div class="card"><h3>監控與日誌</h3><p>APM / 錯誤率 / 慢查詢。</p></div>
+    <div class="card"><h3>CI / CD</h3><p>測試 → 部署自動化。</p></div>
+    <div class="card"><h3>備份 / DR</h3><p>整合庫每日備份。</p></div>
+    <div class="card"><h3>秘密管理</h3><p>來源 DB 憑證集中管。</p></div>
+    <div class="card"><h3>環境</h3><p>dev / staging / prod。</p></div>
+  </div>
+
+  <h2><span class="n">03</span> 五大功能模組</h2>
+  <p class="sub">照原始藍圖拆分,每個模組可獨立開發、獨立上線。</p>
+  <div class="grid">
+    <div class="card">
+      <h3><span class="num">01</span> 管理與平台治理</h3>
+      <ul><li>後台管理(系統設定 / 參數)</li><li>系統監控 / 日誌</li><li>Hermes API 管控(註冊 / 權限 / 監控)</li></ul>
+    </div>
+    <div class="card">
+      <h3><span class="num">02</span> 營運流程</h3>
+      <ul><li>產品資訊(BOM)</li><li>生產管理(排程 / 進度)</li><li>業務管理(客戶 / 訂單 / 報價)</li><li>ERP+ 即時營運查詢</li></ul>
+    </div>
+    <div class="card">
+      <h3><span class="num">03</span> 財務與決策看板</h3>
+      <ul><li>年度業務戰情</li><li>採購戰略儀表</li><li>財務儀表(指標 / 損益)</li></ul>
+    </div>
+    <div class="card">
+      <h3><span class="num">04</span> 工程、品質與研發</h3>
+      <ul><li>報價與成本</li><li>新產品開發管理(NPD)</li><li>品質管理(檢驗 / 不良 / 改善)</li><li>圖面管理(圖檔 / 版本 / 審批)</li></ul>
+    </div>
+    <div class="card">
+      <h3><span class="num">05</span> 品牌與工具</h3>
+      <ul><li>CIS Portal(品牌規範 / 素材)</li><li>製造輔助工具模組</li></ul>
+    </div>
+  </div>
+
+  <h2><span class="n">04</span> 三個核心設計決定</h2>
+  <p class="sub">這三個決定讓平台低風險、快見效、對老系統零傷害。</p>
+  <div class="decisions">
+    <div class="decision">
+      <span class="d-num">1</span>
+      <div><b>模組只讀「整合資料庫」,不直連來源系統。</b><p>中間隔一層乾淨副本,ETL 排程把各來源同步進來。來源掛了 Portal 照跑、老系統零改動、零風險——這是整個架構最重要的一條界線。</p></div>
+    </div>
+    <div class="decision">
+      <span class="d-num">2</span>
+      <div><b>第一版只做「查詢與看板」,不做回寫。</b><p>審批、下單這類寫回來源的功能留給 v2。先做讀,價值最快、風險最低,也不需要碰來源系統的交易邏輯。</p></div>
+    </div>
+    <div class="decision">
+      <span class="d-num">3</span>
+      <div><b>逐模組上線,不 big-bang。</b><p>先把地基(SSO+RBAC)打好,再從決策者最有感的財務看板切入,讓案子先活下去,其餘模組再滾動推進。</p></div>
+    </div>
+  </div>
+
+  <div style="margin-top:1rem" class="prio">
+    <div class="step"><span class="k">STEP 1</span><b>SSO + RBAC</b><small>地基,先做</small></div>
+    <span class="arrow">→</span>
+    <div class="step"><span class="k">STEP 2</span><b>03 財務看板</b><small>決策者最有感</small></div>
+    <span class="arrow">→</span>
+    <div class="step"><span class="k">STEP 3</span><b>02 營運流程</b><small>日常高頻</small></div>
+    <span class="arrow">→</span>
+    <div class="step"><span class="k">STEP 4</span><b>其餘模組</b><small>滾動推進</small></div>
+  </div>
+
+  <h2><span class="n">05</span> 資料整合:OCR / LLM 該放哪裡</h2>
+  <p class="sub">整合老系統的優先序很明確,OCR 只在對的地方才是利器。</p>
+
+  <div class="callout">
+    <p><b>整合方式優先序</b>(能用左邊就別用右邊):</p>
+    <div class="rule">
+      <span class="r best">DB 唯讀 view</span><span class="gt">&gt;</span>
+      <span class="r">排程匯出檔</span><span class="gt">&gt;</span>
+      <span class="r">API</span><span class="gt">&gt;</span>
+      <span class="r">UI 自動化</span><span class="gt">&gt;</span>
+      <span class="r last">OCR / LLM(僅紙本掃描)</span>
+    </div>
+    <p style="margin-top:1rem"><span class="no">✗ 不要</span> 拿 OCR / LLM 當「系統整合」手段。MySQL、SQL Server、MES 底下都有資料庫,有 DB 可讀卻對著螢幕拍照,錯誤率、維護成本、延遲全差一個量級——UI 一改版就全掛。結構化資料搬運是確定性工作,寫好的程式跑一萬次結果都一樣,塞 LLM 進去反而把「不會錯的事」變成機率性的。</p>
+    <p><span class="yes">✓ 適合</span> 把 LLM vision 用在<b>非結構化文件入口</b>:掃描工程圖的標題欄、紙本品檢記錄、供應商 PDF 報價單。用本地模型(如 Mac mini)初篩、雲端強模型收難件,並且一定要配<b>信心分數 + 低信心進人工複核 + 筆數對帳</b>——當它會錯去設計,才能安心用。</p>
+  </div>
+
+  <h2><span class="n">06</span> 待釐清</h2>
+  <p class="sub">起案時列的問題,跟合作夥伴對齊後填空。</p>
+  <ul class="open">
+    <li>這是公司案還是 side project?甲方是誰、決策者是誰?</li>
+    <li>現況:既有 EIP 是什麼(自建 / 套裝)?最痛的三個問題?</li>
+    <li>資料來源逐一盤點:版本、owner、有無 API、能否唯讀直連(要實測 <span class="mono">SELECT 1</span>)</li>
+    <li>SSO 現有 IdP 是什麼(AD / Entra ID)?</li>
+    <li>團隊與時程:幾個人、多久、預算?</li>
+    <li>為什麼選 Laravel?(團隊既有技能?)</li>
+  </ul>
+
+  <footer>
+    NOVA 整理 · 2026-07-16 · 起案藍圖與模組拆解來自提供的架構圖
+    <br><span class="conf">草案 · 未定案 · v1</span>
+  </footer>
+</div>
