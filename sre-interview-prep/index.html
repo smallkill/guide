@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>SRE Interview Prep — 答題筆記</title>
+<style>
+  :root {
+    --bg: #0b0f14; --bg-elev: #121822; --bg-code: #0e141d;
+    --border: #1f2937; --border-soft: #18212c;
+    --text: #e6edf3; --text-muted: #93a1b0; --text-dim: #8693a1;
+    --accent: #4cc2ff; --accent-soft: rgba(76,194,255,.12); --accent-border: rgba(76,194,255,.35);
+    --warn: #ffb454; --warn-soft: rgba(255,180,84,.1);
+    --green: #7ee787; --green-soft: rgba(126,231,135,.1);
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+    line-height: 1.7; padding: 1.5rem 1rem 4rem;
+  }
+  main { max-width: 780px; margin: 0 auto; }
+  header.top { margin-bottom: 1.6rem; }
+  header.top h1 { font-size: 1.45rem; line-height: 1.35; }
+  header.top h1 .slash { color: var(--accent); }
+  header.top p { color: var(--text-muted); font-size: .88rem; margin-top: .4rem; }
+  nav.toc {
+    background: var(--bg-elev); border: 1px solid var(--border); border-radius: 12px;
+    padding: 1rem 1.2rem; margin: 1.2rem 0 2rem; font-size: .88rem;
+  }
+  nav.toc b { display: block; color: var(--text-dim); font-size: .78rem; letter-spacing: .05em; margin: .5rem 0 .3rem; }
+  nav.toc a { color: var(--accent); text-decoration: none; display: block; padding: .12rem 0; }
+  nav.toc a:hover { text-decoration: underline; }
+  h2.sec {
+    font-size: 1.2rem; margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  h2.sec .num { color: var(--accent); }
+  h3 { font-size: 1rem; margin: 1.5rem 0 .5rem; color: var(--text); }
+  .card {
+    background: var(--bg-elev); border: 1px solid var(--border);
+    border-radius: 12px; padding: 1rem 1.2rem; margin-bottom: 1.2rem;
+  }
+  .tag {
+    display: inline-block; font-size: .74rem; font-weight: 700;
+    border-radius: 6px; padding: .08rem .5rem; margin-bottom: .5rem; letter-spacing: .02em;
+  }
+  .tag.t30 { color: var(--accent); background: var(--accent-soft); border: 1px solid var(--accent-border); }
+  .tag.full { color: var(--green); background: var(--green-soft); border: 1px solid rgba(126,231,135,.3); }
+  .tag.watch { color: var(--warn); background: var(--warn-soft); border: 1px solid rgba(255,180,84,.3); }
+  ul, ol { padding-left: 1.3rem; margin: .4rem 0 .8rem; }
+  li { margin-bottom: .35rem; }
+  li ul, li ol { margin: .3rem 0 .3rem; }
+  p { margin: .5rem 0 .8rem; }
+  .card p:last-child, .card ul:last-child { margin-bottom: 0; }
+  code {
+    font-family: ui-monospace, "Cascadia Code", Menlo, monospace;
+    background: var(--bg-code); border: 1px solid var(--border-soft);
+    border-radius: 5px; padding: .08rem .35rem; font-size: .84em; color: #d2a8ff;
+  }
+  pre {
+    background: var(--bg-code); border: 1px solid var(--border-soft); border-radius: 10px;
+    padding: .8rem 1rem; overflow-x: auto; margin: .6rem 0 .9rem; font-size: .82rem; line-height: 1.55;
+  }
+  pre code { background: none; border: none; padding: 0; color: #a5d6ff; }
+  .say {
+    border-left: 3px solid var(--accent); background: var(--accent-soft);
+    border-radius: 0 10px 10px 0; padding: .7rem 1rem; margin: .6rem 0 .9rem;
+    font-size: .92rem;
+  }
+  .say b { color: var(--accent); }
+  .note {
+    font-size: .82rem; color: var(--warn); background: var(--warn-soft);
+    border: 1px solid rgba(255,180,84,.3); border-radius: 8px; padding: .5rem .8rem; margin: .6rem 0;
+  }
+  table { border-collapse: collapse; width: 100%; font-size: .84rem; margin: .6rem 0 .9rem; display: block; overflow-x: auto; }
+  th, td { border: 1px solid var(--border); padding: .4rem .6rem; text-align: left; }
+  th { color: var(--text-dim); background: var(--bg-code); }
+  footer { margin-top: 3rem; color: var(--text-dim); font-size: .78rem; text-align: center; }
+  a.back-top { color: var(--accent); text-decoration: none; font-size: .8rem; }
+</style>
+</head>
+<body>
+<main id="top">
+  <header class="top">
+    <h1><span class="slash">/</span> SRE Interview Prep<br>答題筆記(第一關 + 第二關)</h1>
+    <p>每題:30 秒答題框架 → 展開版(可直接講的稿)。<br>
+    親身實例優先扣真實經歷;K8s 用「標準最佳實踐 + 誠實遷移學習」話術,不誇大。</p>
+  </header>
+
+  <nav class="toc">
+    <b>第一關 Technical Interview</b>
+    <a href="#s1">1. 背景與專案經驗</a>
+    <a href="#s2">2. Kubernetes(重點)</a>
+    <a href="#s3">3. Cloud Infrastructure(重點)</a>
+    <a href="#s4">4. Monitoring &amp; Observability</a>
+    <a href="#s5">5. Incident Troubleshooting</a>
+    <a href="#s6">6. CI/CD &amp; SDLC</a>
+    <a href="#s7">7. Security(重點)</a>
+    <b>第二關 Technical Deep Dive</b>
+    <a href="#q1">Q1. Too many open files</a>
+    <a href="#q2">Q2. 建置 K8s 的重要設定</a>
+    <a href="#q3">Q3. 硬碟有空間但檔案無法存取</a>
+    <a href="#q4">Q4. DB Response Time 慢的排查</a>
+    <a href="#q5">Q5. 監控工具與指標</a>
+    <a href="#q6">Q6. Linux 查系統資源指令</a>
+    <a href="#q7">Q7. Service Health Check</a>
+    <b>附錄</b>
+    <a href="#weak">弱點與地雷提醒</a>
+  </nav>
+
+  <!-- ===================== 第一關 ===================== -->
+
+  <h2 class="sec" id="s1"><span class="num">1.</span> 背景與專案經驗</h2>
+  <div class="card">
+    <span class="tag t30">30 秒框架</span>
+    <ul>
+      <li>定位:10 年車用 CV/ADAS 出身 → 雲端架構 → 韌體 CI/CD 與 DevSecOps → 現在做 Cloud DevOps,edge 到 cloud 都碰過。</li>
+      <li>三段代表經歷:① 從零建 AWS 車隊監控平台並帶 Cloud Ops 團隊;② Moxa 韌體 GitLab CI/CD + Shift-Left Security;③ 現職 GCP + Terraform + DevSecOps 管線。</li>
+      <li>收尾:個人 side project(Cloudflare 全棧 SaaS)持續練 CI/CD → 部署 → 監控整條線。</li>
+    </ul>
+    <span class="tag full">展開版</span>
+    <div class="say"><b>可以這樣講:</b>「我的職涯是從車用電腦視覺開始的——五年做 3D AVM 環景演算法,被泰國車廠採用進到 Tier 1 供應鏈,所以我對嵌入式和量產級品質要求很熟。之後在自駕車公司從零在 AWS 上建 Vehicle Monitoring System,管 13 台自駕車、4 種車型的即時追蹤和遠端控制,用 MQTT 做到 sub-second 延遲;那時我創立並領導 Cloud Operations Team,建立開發流程和運維標準。接著在 Moxa 做韌體的 CI/CD,設計可擴展的 GitLab CI 支援 5 系列 9 款路由器,把 Coverity 和 Nessus 整合進日常 pipeline 做 Shift-Left Security,整合問題最多提前 7 天發現。現職以 GCP 為核心,用 Terraform 管理基礎設施、Docker 部署服務,負責零中斷部署和環境監控。私底下我也自架了一個完整的 SaaS——Cloudflare Workers + D1,從 CI/CD、部署到 error rate 和 p95 延遲監控全部自己建,因為我相信 SRE 的能力要整條線自己走過一次才算數。」</div>
+    <p>被追問「實際解決過什麼問題」的備用素材:</p>
+    <ul>
+      <li><b>低延遲架構:</b>自駕車遠端監控要 sub-second,edge(ROS/Autoware)與雲端用 MQTT + WebSocket 串,權衡 QoS 與頻寬。</li>
+      <li><b>CI 可重現性:</b>9 款路由器跨硬體架構,build 環境容器化確保一致與可重現;pytest/scapy + Docker 建網路測試框架自動驗證韌體。</li>
+      <li><b>監控實戰:</b>devbox 用 Cloudflare Analytics Engine 自建 watchdog,算真實 error rate 和 p95(取樣資料要用加權 quantile,踩過 <code>_sample_interval</code> 的坑)。</li>
+    </ul>
+    <div class="note">地雷:專利 TWI844132B 不要講成 RSU 專案的成果——它跟 RSU 無關,別混在一起。</div>
+  </div>
+
+  <h2 class="sec" id="s2"><span class="num">2.</span> Kubernetes(重點)</h2>
+  <div class="card">
+    <span class="tag t30">30 秒框架(架構)</span>
+    <ul>
+      <li>Control plane:API Server(唯一入口)、etcd(狀態)、Scheduler(排程)、Controller Manager(調節迴圈)。</li>
+      <li>Node:kubelet(執行 Pod)、kube-proxy(Service 轉發)、container runtime。</li>
+      <li>核心哲學:宣告式 + reconciliation loop——你宣告期望狀態,controller 不斷把實際狀態拉回去。</li>
+    </ul>
+    <span class="tag full">展開版:核心物件</span>
+    <ul>
+      <li><b>Deployment:</b>管理無狀態應用的 ReplicaSet,支援 rolling update / rollback(<code>kubectl rollout undo</code>)。</li>
+      <li><b>Service:</b>ClusterIP(叢集內)、NodePort(節點埠)、LoadBalancer(雲端 LB 對外);用 label selector 找 Pod,提供穩定 endpoint。</li>
+      <li><b>Ingress:</b>L7 路由,一個入口按 host/path 分流到多個 Service,搭配 Ingress Controller(nginx/traefik)與 TLS 終結;比每個服務各開一個 LB 省成本。</li>
+      <li><b>其他常考:</b>ConfigMap/Secret(設定與機敏分離)、StatefulSet(有狀態)、DaemonSet(每節點一份,常用於 log/監控 agent)、HPA(自動水平擴縮)。</li>
+    </ul>
+    <span class="tag full">展開版:RBAC</span>
+    <ul>
+      <li>四件組:Role / ClusterRole(定義能對哪些資源做哪些動詞)+ RoleBinding / ClusterRoleBinding(綁到 user / group / ServiceAccount)。</li>
+      <li>原則:最小權限、namespace 隔離、CI/CD 用專屬 ServiceAccount 而不是 admin kubeconfig、定期用 <code>kubectl auth can-i --list</code> 稽核。</li>
+    </ul>
+    <span class="tag full">展開版:Release 規則怎麼制定</span>
+    <div class="say"><b>可以這樣講:</b>「我會把上線規則定成四層:① 進 pipeline 的門檻——code review + 自動化測試 + 安全掃描全綠才能進 staging,這是我在 Moxa 實際建立過的紀律,Coverity/Nessus 掃不過就是不能出;② 部署策略——預設 rolling update 設好 <code>maxSurge</code>/<code>maxUnavailable</code>,重要服務用 canary 先切一小部分流量觀察指標;③ 觀察窗——上線後盯 error rate 和 latency,超過閾值自動或手動 rollback,Deployment 天生支援 <code>rollout undo</code>;④ 節奏——固定 release window、freeze period、每次上線有 owner 和 rollback plan。」</div>
+    <div class="note">誠實話術(K8s 實戰較弱時被問):「我在正式環境的容器編排經驗主要是 Docker + 雲端託管服務(GCP、Cloudflare),K8s 大規模生產運維我還在累積,但我對它的架構和物件模型下過功夫,而且我做過更難遷移的事——從嵌入式跨到 AWS 從零建平台、再跨到韌體 CI/CD,每次都是三個月內接手上線。K8s 對我是同一條學習曲線,概念上它就是我熟悉的宣告式 IaC + reconciliation,Terraform 我天天在用。」</div>
+  </div>
+
+  <h2 class="sec" id="s3"><span class="num">3.</span> Cloud Infrastructure(重點)</h2>
+  <div class="card">
+    <span class="tag t30">30 秒框架(架構設計)</span>
+    <ul>
+      <li>分層:邊界(CDN/WAF/LB)→ 應用層(無狀態、可水平擴)→ 資料層(managed DB + 備份/replica)。</li>
+      <li>原則:multi-AZ 高可用、IaC(Terraform)全部進版控、最小權限 IAM、私有子網 + 明確出入口。</li>
+      <li>親身:AWS 從零建車隊平台(EC2/S3/Lambda/IoT Core/API GW/KVS);現職 GCP + Terraform。</li>
+    </ul>
+    <span class="tag full">展開版:DDoS / 惡意流量應對</span>
+    <ul>
+      <li><b>事前(架構性防護):</b>CDN + Anycast 吸收 L3/L4(CloudFront/Cloud Armor/Cloudflare)、WAF 擋 L7(SQLi/XSS/bot)、rate limiting、autoscaling 保底、源站藏在 LB 後面不暴露真實 IP、關閉不必要的 port。</li>
+      <li><b>事中:</b>先從監控確認攻擊型態(流量暴增?特定 endpoint?特定來源?)→ WAF 上臨時規則(封 IP 段/GeoIP/加驗證挑戰)→ 必要時啟動雲端 DDoS 進階防護(AWS Shield Advanced / Cloud Armor)。</li>
+      <li><b>事後:</b>檢討 rate limit 閾值、把臨時規則固化進 IaC、寫 postmortem。</li>
+      <li><b>親身:</b>「我自己的公開服務全部掛在 Cloudflare 後面,API 有做 rate limiting——我還特地對自己的站跑過六階段安全稽核,把發現的低風險項全部修掉,包含對統計 endpoint 加限流。」</li>
+    </ul>
+    <span class="tag full">展開版:雲端安全設計</span>
+    <ul>
+      <li>網路:VPC 分公私子網,DB/內部服務不給公網 IP;security group 白名單思維。</li>
+      <li>身分:IAM 最小權限、服務用 service account/role 不用長期金鑰、金鑰進 secret manager 不進 code。</li>
+      <li>變更:全部走 Terraform + review,禁止 console 手改(drift 會咬人)。</li>
+      <li>資料:傳輸 TLS、儲存加密、備份定期演練還原。</li>
+    </ul>
+  </div>
+
+  <h2 class="sec" id="s4"><span class="num">4.</span> Monitoring &amp; Observability</h2>
+  <div class="card">
+    <span class="tag t30">30 秒框架</span>
+    <ul>
+      <li>三支柱:Metrics、Logs、Traces;規劃從「使用者感受」出發定 SLI/SLO,再往下鋪基礎設施指標。</li>
+      <li>兩套經典指標框架:Google 四大黃金訊號(Latency/Traffic/Errors/Saturation)、主機層 USE(Utilization/Saturation/Errors)。</li>
+      <li>工具:Prometheus + Grafana + Alertmanager 為標準組合;log 用 Loki/ELK;雲端原生用 CloudWatch/Cloud Monitoring。</li>
+    </ul>
+    <span class="tag full">展開版</span>
+    <div class="say"><b>可以這樣講:</b>「我規劃監控會從上往下三層:最上層是使用者體驗——error rate、p95/p99 latency、availability,這是定 SLO 用的;中層是應用指標——QPS、queue depth、慢查詢;底層是基礎設施——CPU、memory、disk I/O、network、還有容易被忘記的 inode 和 file descriptor。告警只對『需要人採取行動』的東西發,而且對 symptom 告警優先於對 cause 告警,不然會告警疲勞。我的親身例子:我自架的 SaaS 監控是自己從 request log 建的——每個請求寫進分析資料庫,watchdog 定時算真實 error rate 和 p95 latency,超標就透過 Telegram 通知我。做這件事讓我踩過一個很實際的坑:取樣型的監控資料算 percentile 必須用取樣間隔加權,不然 p95 會失真——這種細節只有真的自己建過才會知道。另外我在自駕車時期建過 13 台車的即時監控平台,那是車輛狀態 + 位置 + 視訊流的多維度監控,對『什麼指標才真正代表健康』很有感。」</div>
+    <p>常見追問:</p>
+    <ul>
+      <li><b>Prometheus 架構:</b>pull-based scrape /metrics、exporter 生態(node_exporter 等)、PromQL、Alertmanager 做分組/靜默/路由。</li>
+      <li><b>告警設計:</b>基於 SLO burn rate 而非單點閾值;分級(page vs ticket);每條告警要有 runbook。</li>
+    </ul>
+  </div>
+
+  <h2 class="sec" id="s5"><span class="num">5.</span> Incident Troubleshooting(情境題)</h2>
+  <div class="card">
+    <span class="tag t30">30 秒框架</span>
+    <ol>
+      <li>先看「使用者受影響了嗎、多大範圍」——error rate、latency、availability 儀表板。</li>
+      <li>先止血再找根因:rollback、切流量、擴容都是合法的第一步。</li>
+      <li>定位:對照「最近改了什麼」(deploy/config/infra 變更)→ 逐層縮小(LB → app → DB → infra)。</li>
+      <li>事後:blameless postmortem + action item 進追蹤。</li>
+    </ol>
+    <span class="tag full">展開版</span>
+    <div class="say"><b>可以這樣講:</b>「異常發生時我第一步看的是 symptom 面的三個數字:error rate、p95 latency、traffic——先回答『使用者現在有沒有受影響、影響多廣』,這決定嚴重度和要不要先止血。第二步問『最近改了什麼』,因為多數 incident 是變更引起的,能 rollback 就先 rollback,恢復服務優先於找根因。第三步才逐層定位:從入口往下——LB 的 5xx 分佈是全部服務還是單一服務?單一服務就看它的日誌和資源(CPU/mem/FD);像 DB 的話看連線數和慢查詢。過程中留時間軸紀錄,事後寫 blameless postmortem,重點是 action item——監控缺口補監控、流程缺口補自動化。我在 Moxa 的習慣就是這樣養的:CI 整合問題我們靠自動化提早最多 7 天抓到,就是把『事後救火』改成『事前攔截』的例子。」</div>
+  </div>
+
+  <h2 class="sec" id="s6"><span class="num">6.</span> CI/CD &amp; SDLC</h2>
+  <div class="card">
+    <span class="tag t30">30 秒框架</span>
+    <ul>
+      <li>Pipeline 標準段:lint/build → unit test → 安全掃描 → 打包(container image)→ deploy staging → 自動驗證 → deploy prod。</li>
+      <li>部署策略:rolling(預設)、blue-green(秒級切換/回退)、canary(小流量驗證)——按服務風險選。</li>
+      <li>親身:Moxa 9 款路由器 GitLab CI、現職零中斷部署、side project GitHub Actions 全自動。</li>
+    </ul>
+    <span class="tag full">展開版</span>
+    <div class="say"><b>可以這樣講:</b>「CI/CD 是我最有把握的領域。在 Moxa 我設計可擴展的 GitLab CI 架構,同一套 pipeline 模板支援 5 個系列共 9 款路由器,關鍵是把共用邏輯抽成 template、硬體差異用變數注入,確保跨架構 build 一致且可重現;測試環境也自動化——pytest + scapy 包成 Docker,在 CI 裡對韌體做網路功能自動驗證。安全掃描(Coverity 靜態分析、Nessus 弱掃)直接整進日常 pipeline,不是上線前才掃。現職做的是零中斷部署和 GitOps 化——基礎設施用 Terraform 進版控,改 infra 也走 review。部署策略我會按風險選:一般服務 rolling update,高風險改動用 canary 先放小流量看指標再全量,資料庫 schema 變更一定 backward-compatible、先加後刪。SDLC 面我堅持的是:main 必須隨時可部署、所有變更走 PR + 自動化門檻、release 可追溯到 commit。」</div>
+    <p>追問備料:pipeline 加速(cache、平行化、只跑受影響模組)、secrets 管理(CI 變數 + secret manager,不進 repo)、artifact 版本化與 rollback。</p>
+  </div>
+
+  <h2 class="sec" id="s7"><span class="num">7.</span> Security(重點)</h2>
+  <div class="card">
+    <span class="tag t30">30 秒框架</span>
+    <ul>
+      <li>總綱:Defense in depth + 最小權限 + Shift-Left(安全做進 pipeline,不是事後稽核)。</li>
+      <li>Cloud:IAM role 化、無長期金鑰、私網隔離、加密、audit log。</li>
+      <li>K8s:RBAC、NetworkPolicy、Secret 管理、image 掃描、Pod 安全(non-root)。</li>
+      <li>LB:TLS 終結 + 現代 cipher、WAF、rate limit、health check 不洩漏資訊。</li>
+    </ul>
+    <span class="tag full">展開版</span>
+    <div class="say"><b>可以這樣講:</b>「我對安全的核心信念是 Shift-Left——這是我在 Moxa 實際落地過的:把 Coverity 和 Nessus 整合進日常 CI,漏洞在開發階段就攔截,而且做到不拖慢開發節奏,這個平衡才是難的。現職也是把安全檢查和漏洞掃描整合進 CI/CD 管線確保合規。Cloud security 面:IAM 最小權限、服務間用 role/service account 不留長期金鑰、機敏值進 secret manager、DB 絕不暴露公網、所有變更走 Terraform 留審計軌跡。K8s security 面:RBAC 最小權限、namespace 隔離、NetworkPolicy 預設拒絕再開白名單、container 以 non-root 跑並用 image scanning(Trivy)進 CI。LoadBalancer 面:TLS 1.2+ 與強 cipher、HTTP 強制轉 HTTPS、WAF + rate limiting 放在 LB 層、後端 security group 只收 LB 來的流量。我還會主動對自己的服務做攻擊面盤點——我對自己的 side project 跑過完整安全稽核並把所有發現修掉,包括對外 API 補 rate limiting。」</div>
+  </div>
+
+  <!-- ===================== 第二關 ===================== -->
+
+  <h2 class="sec" id="q1"><span class="num">Q1.</span> Too many open files 排查與解決</h2>
+  <div class="card">
+    <span class="tag t30">30 秒框架</span>
+    <ol>
+      <li>確認限制:<code>ulimit -n</code>(process)、<code>/proc/sys/fs/file-max</code>(系統)。</li>
+      <li>找兇手:<code>lsof</code> 統計哪個 process 開最多、開的是什麼(socket? log? 沒關的檔?)。</li>
+      <li>對症:是 FD leak 就修程式;是正常高負載就調 limit(systemd <code>LimitNOFILE</code> / <code>limits.conf</code> / sysctl)。</li>
+    </ol>
+    <span class="tag full">展開版 + 指令</span>
+<pre><code># 目前 process 的 FD 上限(soft/hard)
+ulimit -n
+ulimit -Hn
+# 針對已在跑的 process
+cat /proc/&lt;PID&gt;/limits | grep "open files"
+ls /proc/&lt;PID&gt;/fd | wc -l          # 該 process 實際開了幾個
+
+# 系統層
+cat /proc/sys/fs/file-max           # 全系統上限
+cat /proc/sys/fs/file-nr            # 已分配 / 未用 / 上限
+
+# 誰開最多?開了什麼?
+lsof | awk '{print $1, $2}' | sort | uniq -c | sort -rn | head
+lsof -p &lt;PID&gt; | head -50            # 看類型:REG(檔案)/ sock / pipe
+
+# 解法
+# 1) 暫時:ulimit -n 65535(當前 shell)
+# 2) 永久(login):/etc/security/limits.conf → user soft/hard nofile 65535
+# 3) systemd 服務:unit 檔 [Service] LimitNOFILE=65535 → daemon-reload + restart
+# 4) 系統層:sysctl -w fs.file-max=... + /etc/sysctl.conf</code></pre>
+    <div class="say"><b>收尾要講:</b>「調大 limit 只是止血——重點是判斷這是『合理的高並發』還是 <b>FD leak</b>。如果 <code>lsof</code> 看到一堆 CLOSE_WAIT socket 或同一個 log 檔開了幾千次,那是程式沒關 FD,調 limit 只會延後爆炸,要回頭修 code。然後把 FD 使用率加進監控,下次在爆之前告警。」</div>
+  </div>
+
+  <h2 class="sec" id="q2"><span class="num">Q2.</span> 建置 Kubernetes 要設定哪些重要項目</h2>
+  <div class="card">
+    <span class="tag t30">30 秒框架</span>
+    <ul>
+      <li>Control plane 高可用 + etcd 備份;網路(CNI、Pod/Service CIDR 規劃)。</li>
+      <li>安全:RBAC、NetworkPolicy、Secret 加密、audit log。</li>
+      <li>資源治理:requests/limits、ResourceQuota、LimitRange、node pool 規劃。</li>
+      <li>可運維:監控 + log 收集、Ingress、儲存(StorageClass)、升級與備份策略。</li>
+    </ul>
+    <span class="tag full">展開版(檢查清單式回答)</span>
+    <ul>
+      <li><b>叢集拓撲:</b>control plane 至少 3 節點跨 AZ(或直接用 managed:GKE/EKS);etcd 定期 snapshot 備份並演練還原。</li>
+      <li><b>網路:</b>選 CNI(Calico/Cilium);Pod CIDR、Service CIDR 事先規劃不可與 VPC 重疊;DNS(CoreDNS)資源配足。</li>
+      <li><b>安全:</b>RBAC 最小權限 + 停用匿名存取;NetworkPolicy 預設 deny;Secret 啟用 encryption at rest;API server audit logging;node 定期升級補丁;image 私有 registry + 掃描。</li>
+      <li><b>資源治理:</b>所有 workload 設 <code>requests/limits</code>(不設會互相踩死、也讓 scheduler 失準);namespace 級 ResourceQuota;系統元件保留資源(<code>kube-reserved</code>/<code>system-reserved</code>)避免 kubelet 被餓死。</li>
+      <li><b>可運維:</b>metrics-server + Prometheus/Grafana;log 用 DaemonSet 收(Fluent Bit);Ingress Controller + cert 管理(cert-manager);StorageClass 與 PV 回收策略;升級走 node pool 滾動 + PodDisruptionBudget 保住可用性。</li>
+      <li><b>交付流程:</b>manifest 全部進版控(Helm/Kustomize),搭配 GitOps(ArgoCD)——「這對我來說是 Terraform 同一套宣告式思維」。</li>
+    </ul>
+    <div class="note">誠實話術:此題可先講「我以 IaC 和 managed service 的角度回答」,展現架構觀 + 承認自建大規模 K8s 經驗還在累積,比硬掰細節安全。</div>
+  </div>
+
+  <h2 class="sec" id="q3"><span class="num">Q3.</span> 硬碟容量充足但檔案無法存取</h2>
+  <div class="card">
+    <span class="tag t30">30 秒框架(依機率排序)</span>
+    <ol>
+      <li><b>inode 用光</b>——<code>df -h</code> 有空間但 <code>df -i</code> 100%(大量小檔案)。</li>
+      <li><b>權限/屬性</b>——ownership、mode、immutable flag、SELinux/AppArmor。</li>
+      <li><b>檔案系統層</b>——read-only remount(fs error)、mount 掛掉(NFS stale handle)、fs 損毀。</li>
+      <li><b>其他</b>——被 deleted 但仍被 process 佔住、quota 限制、FD 上限(接回 Q1)。</li>
+    </ol>
+    <span class="tag full">展開版 + 指令</span>
+<pre><code>df -h; df -i                 # 空間 vs inode ← 經典陷阱,先看這個
+# inode 滿:找小檔案大戶
+du --inodes -d 3 / 2>/dev/null | sort -rn | head   # 常見:session 檔、cache、mail queue
+
+ls -la file; lsattr file     # 權限 + immutable(i flag 會讓 root 也寫不進)
+# SELinux:ls -Z、ausearch -m avc;AppArmor:dmesg
+
+mount | grep ro,             # 檔案系統被 remount 成 read-only?
+dmesg | grep -iE 'error|ext4|xfs|I/O'   # fs/disk 錯誤 → fsck(unmount 後)
+# NFS:Stale file handle → remount
+
+lsof +L1                     # deleted 但仍被佔住的檔案(空間假象的另一半)
+quota -u user; xfs_quota     # user/group quota</code></pre>
+    <div class="say"><b>答題姿態:</b>先講「<code>df -h</code> 跟 <code>df -i</code> 我會一起看」——這題八成就是在考 inode。然後展開權限/immutable/read-only remount/NFS,展現排查是有層次的,不是背答案。</div>
+  </div>
+
+  <h2 class="sec" id="q4"><span class="num">Q4.</span> DB Response Time 慢的排查與調校</h2>
+  <div class="card">
+    <span class="tag t30">30 秒框架</span>
+    <ol>
+      <li>先分層:是 DB 真的慢,還是網路/連線池/應用層慢?(從 app 端和 DB 端各量一次)</li>
+      <li>DB 端:slow query log 抓慢 SQL → <code>EXPLAIN</code> 看執行計畫 → 缺 index?全表掃?</li>
+      <li>資源與並發:CPU/IO/記憶體、連線數、lock 等待。</li>
+      <li>調校:index、SQL 改寫、連線池、read replica、cache、參數(buffer pool)。</li>
+    </ol>
+    <span class="tag full">展開版 + 指令</span>
+<pre><code>-- MySQL
+SHOW PROCESSLIST;                          -- 現在誰卡著、state 是什麼
+SET GLOBAL slow_query_log=ON; SET GLOBAL long_query_time=1;
+EXPLAIN SELECT ...;                        -- type=ALL 全表掃 / rows 過大 / 沒用到 index
+SHOW ENGINE INNODB STATUS\G                -- lock wait、deadlock
+SHOW GLOBAL STATUS LIKE 'Threads_connected';
+-- PostgreSQL:pg_stat_activity、pg_stat_statements、EXPLAIN (ANALYZE, BUFFERS)
+
+# OS 層(DB 主機)
+iostat -x 1        # %util、await 高 → disk 瓶頸
+vmstat 1           # si/so 有值 → 在 swap,記憶體不夠
+top                # CPU bound?</code></pre>
+    <ul>
+      <li><b>常見根因排序:</b>缺 index / index 沒被用(隱式轉型、函數包欄位)→ 慢 SQL(N+1、大 offset 分頁)→ lock 競爭 → buffer pool 太小 → 連線數爆(沒連線池)→ disk IO 飽和。</li>
+      <li><b>架構級解法:</b>read replica 分流讀、cache(Redis)擋熱點查詢、批次寫入、資料歸檔瘦身大表。</li>
+      <li><b>預防:</b>把 slow query 數、p95 query latency、連線數、replication lag 放進監控,慢化趨勢在使用者抱怨前就看到。</li>
+    </ul>
+  </div>
+
+  <h2 class="sec" id="q5"><span class="num">Q5.</span> 平時用哪些 Monitoring 工具、監控哪些指標</h2>
+  <div class="card">
+    <span class="tag t30">30 秒框架</span>
+    <ul>
+      <li>工具:Prometheus + Grafana + Alertmanager(metrics)、Loki/ELK(logs)、雲原生 CloudWatch / Cloud Monitoring;uptime 外部探測。</li>
+      <li>指標分三層:基礎設施(CPU/Mem/Disk/Net/inode/FD)→ 應用(QPS、error rate、p95/p99、queue)→ 業務 SLO。</li>
+      <li>親身:自建 watchdog 監控真實 error rate 與 p95 + Telegram 告警。</li>
+    </ul>
+    <span class="tag full">展開版</span>
+    <table>
+      <tr><th>層</th><th>指標</th><th>為什麼</th></tr>
+      <tr><td>Infra</td><td>CPU(含 load、iowait)、Memory(含 swap)、Disk(容量、inode、IO util/await)、Network(頻寬、錯包、連線數)、FD 使用率</td><td>USE 法:利用率/飽和度/錯誤;inode 和 FD 是最常被漏掉、爆掉最痛的兩個</td></tr>
+      <tr><td>App</td><td>QPS、error rate、latency p50/p95/p99、queue depth、慢查詢數、GC/thread</td><td>四大黃金訊號;平均值會騙人,一定看 percentile</td></tr>
+      <tr><td>SLO</td><td>availability、error budget 消耗速度</td><td>告警基於 burn rate 而不是單點閾值,減少 noise</td></tr>
+    </table>
+    <div class="say"><b>親身例子:</b>「工具鏈上我實際用過雲端原生監控(AWS 時期建車隊監控、現職 GCP 環境),也自己造過輪子:我的 side project 每個 request 都寫進分析資料庫,watchdog 定期算真實 error rate 和 p95 latency,異常直接推播到我手機。自己建過一次之後,對『取樣資料算 percentile 要加權』『告警閾值怎麼定才不會吵』這些都有實感。」</div>
+  </div>
+
+  <h2 class="sec" id="q6"><span class="num">Q6.</span> Linux 查 CPU / Memory 等資源的指令</h2>
+  <div class="card">
+    <span class="tag t30">30 秒框架</span>
+    <p>綜覽 <code>top/htop</code> → CPU 細看 <code>vmstat/mpstat/uptime</code> → 記憶體 <code>free -h</code> → 磁碟 <code>iostat/df/du</code> → 網路 <code>ss/sar</code> → 針對單一 process 用 <code>pidstat/ps</code>。</p>
+    <span class="tag full">展開版 + 指令</span>
+<pre><code>top / htop            # 綜覽:load、%us/%sy/%wa、每 process CPU/MEM
+uptime                # load average 1/5/15 min(對照 CPU 核數)
+vmstat 1              # r(runnable 排隊)、si/so(swap!)、wa(IO wait)
+mpstat -P ALL 1       # 每顆核心分佈(單核吃滿 vs 平均)
+
+free -h               # 重點看 available;buff/cache 是可回收的,別誤判
+cat /proc/meminfo
+ps aux --sort=-%mem | head    # 記憶體大戶
+# OOM 檢查:dmesg | grep -i "out of memory"
+
+iostat -x 1           # %util、await、r/s w/s → disk 瓶頸
+df -h; df -i; du -sh /* 2>/dev/null | sort -rh | head
+
+ss -tulnp             # 聽哪些 port、誰在聽
+ss -s                 # socket 統計(TIME_WAIT 過多?)
+sar -n DEV 1          # 網卡吞吐
+
+pidstat -p &lt;PID&gt; 1    # 單一 process 的 CPU/mem/IO 時間序列</code></pre>
+    <div class="say"><b>加分講法:</b>「我不會只背指令,我有一套順序:先 <code>uptime</code> + <code>top</code> 判斷是 CPU、memory 還是 IO 型的問題——<code>%wa</code> 高就往 <code>iostat</code> 走,<code>si/so</code> 有值就往記憶體走。<code>free</code> 的重點是 available 而不是 free,buff/cache 是可回收的——很多人看到 free 很小就誤判記憶體不足。」</div>
+  </div>
+
+  <h2 class="sec" id="q7"><span class="num">Q7.</span> 如何確認 Service 存活並持續提供服務(Health Check)</h2>
+  <div class="card">
+    <span class="tag t30">30 秒框架</span>
+    <ul>
+      <li>層次:process 活著 ≠ port 有開 ≠ 能正確回應 ≠ 依賴(DB)健康——health check 要分深淺。</li>
+      <li>手段:systemd/K8s probe 自動重啟 + LB health check 摘除壞節點 + 外部 uptime 探測 + 持續性靠監控告警。</li>
+      <li>K8s 三 probe:liveness(掛了重啟)、readiness(沒準備好就不收流量)、startup(慢啟動保護)。</li>
+    </ul>
+    <span class="tag full">展開版 + 指令</span>
+<pre><code># 手動逐層驗證
+systemctl status myservice          # process 層
+ss -tlnp | grep :8080               # port 層
+curl -sf -m 3 http://localhost:8080/healthz ; echo $?   # 應用層
+curl -w "%{http_code} %{time_total}\n" -o /dev/null -s URL  # 帶延遲
+
+# 自動化
+# systemd:Restart=on-failure + WatchdogSec
+# K8s:
+#   livenessProbe  → 失敗達 failureThreshold 就重啟容器
+#   readinessProbe → 失敗就從 Service endpoints 摘掉,不收流量
+#   startupProbe   → 啟動慢的服務先豁免 liveness</code></pre>
+    <ul>
+      <li><b>Endpoint 設計:</b><code>/healthz</code> 淺檢查(process 能回應)給 liveness;<code>/ready</code> 深檢查(DB/依賴可用)給 readiness——<b>深檢查不要放 liveness</b>,不然 DB 抖一下整排 Pod 被連環重啟。</li>
+      <li><b>「持續」提供服務:</b>單次 check 只證明當下活著;持續性靠外部 uptime 探測(從使用者視角打)+ error rate/latency 監控 + LB 自動摘除,三者合起來才是完整答案。</li>
+      <li><b>親身:</b>「我的 side project 就是這樣做的:watchdog 持續驗證服務真實回應品質(error rate/p95),而不是只 ping 一個 endpoint;自駕車時期更極端——車輛掉線幾秒就是安全事件,所以 heartbeat + 斷線告警是設計核心。」</li>
+    </ul>
+  </div>
+
+  <!-- ===================== 附錄 ===================== -->
+
+  <h2 class="sec" id="weak">附錄:弱點與地雷提醒</h2>
+  <div class="card">
+    <span class="tag watch">面試前最後看一眼</span>
+    <ul>
+      <li><b>K8s 是最大缺口也是對方重點:</b>不要假裝有生產經驗,一被追問細節(某個 kubectl 輸出、某次真實 incident)就會破功。策略=概念答好 + 主動用「Terraform/宣告式同思維 + 三次成功跨域紀錄」收尾。若今晚有 1–2 小時,用 minikube/kind 實際跑一次 Deployment+Service+Ingress+probe,明天就能說「我有動手玩過」。</li>
+      <li><b>專利 TWI844132B 不要提成 RSU 成果</b>——與 RSU 無關。</li>
+      <li><b>對方非常重視 Security</b>——每一題只要能沾到安全就主動沾(最小權限、Shift-Left),這是你有真實戰績(Coverity/Nessus 進 CI)的區域,多打。</li>
+      <li><b>Q3 幾乎必是 inode 題</b>——第一句就講 <code>df -i</code>,直接命中。</li>
+      <li><b>回答節奏:</b>先給 30 秒結構化答案再展開,讓面試官選擇要深入哪裡;避免一開口就灌細節。</li>
+      <li><b>反問題準備:</b>可問「目前的 K8s 叢集是自建還是 managed?on-call 制度?SLO 有沒有正式定?」——展現 SRE 思維也探雷。</li>
+    </ul>
+  </div>
+
+  <footer>
+    <a class="back-top" href="#top">↑ 回頂端</a>
+  </footer>
+</main>
+</body>
+</html>
