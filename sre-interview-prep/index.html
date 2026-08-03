@@ -154,7 +154,7 @@
     </ul>
     <span class="tag full">展開版:Release 規則怎麼制定</span>
     <div class="say"><b>可以這樣講:</b>「我會把上線規則定成四層:① 進 pipeline 的門檻——code review + 自動化測試 + 安全掃描全綠才能進 staging,這是我在 Moxa 實際建立過的紀律,Coverity/Nessus 掃不過就是不能出;② 部署策略——預設 rolling update 設好 <code>maxSurge</code>/<code>maxUnavailable</code>,重要服務用 canary 先切一小部分流量觀察指標;③ 觀察窗——上線後盯 error rate 和 latency,超過閾值自動或手動 rollback,Deployment 天生支援 <code>rollout undo</code>;④ 節奏——固定 release window、freeze period、每次上線有 owner 和 rollback plan。」</div>
-    <div class="note">誠實話術(K8s 實戰較弱時被問):「我在正式環境的容器編排經驗主要是 Docker + 雲端託管服務(GCP、Cloudflare),K8s 大規模生產運維我還在累積,但我對它的架構和物件模型下過功夫,而且我做過更難遷移的事——從嵌入式跨到 AWS 從零建平台、再跨到韌體 CI/CD,每次都是三個月內接手上線。K8s 對我是同一條學習曲線,概念上它就是我熟悉的宣告式 IaC + reconciliation,Terraform 我天天在用。」</div>
+    <div class="note">誠實回答(開場就明講,不要等被追問):「先誠實說:我工作上沒有用過 Kubernetes,正式環境的容器經驗是 Docker + 雲端託管服務(GCP、Cloudflare)。上面講的架構和物件模型是我為了補這塊系統性學的,不是實戰經驗,細節實務坑我還沒踩過。但我有把握短時間上手,理由有二:一,K8s 的核心就是宣告式 + reconciliation,跟我天天在用的 Terraform 是同一套思維;二,我的履歷就是三次跨域紀錄——嵌入式跨到 AWS 從零建車隊平台、再跨到韌體 CI/CD、再到現在的 GCP,每次都是三個月內接手上線。如果加入,我的計畫是先從 managed K8s(GKE)+ 現有 manifest 讀起,搭配資深同事 review 我前幾次的變更。」</div>
   </div>
 
   <h2 class="sec" id="s3"><span class="num">3.</span> Cloud Infrastructure(重點)</h2>
@@ -289,7 +289,7 @@ lsof -p &lt;PID&gt; | head -50            # 看類型:REG(檔案)/ sock / pipe
       <li><b>可運維:</b>metrics-server + Prometheus/Grafana;log 用 DaemonSet 收(Fluent Bit);Ingress Controller + cert 管理(cert-manager);StorageClass 與 PV 回收策略;升級走 node pool 滾動 + PodDisruptionBudget 保住可用性。</li>
       <li><b>交付流程:</b>manifest 全部進版控(Helm/Kustomize),搭配 GitOps(ArgoCD)——「這對我來說是 Terraform 同一套宣告式思維」。</li>
     </ul>
-    <div class="note">誠實話術:此題可先講「我以 IaC 和 managed service 的角度回答」,展現架構觀 + 承認自建大規模 K8s 經驗還在累積,比硬掰細節安全。</div>
+    <div class="note">誠實回答:開頭直接說「我沒有實際建置過 K8s,以下是我準備時整理的檢查清單,用我做 IaC 和 managed service 的架構觀來回答」——先講清楚是知識不是經驗,再展現架構觀。被追問任何沒把握的細節就明說「這塊我沒實際操作過,我的理解是⋯」,絕不硬掰。</div>
   </div>
 
   <h2 class="sec" id="q3"><span class="num">Q3.</span> 硬碟容量充足但檔案無法存取</h2>
@@ -425,7 +425,7 @@ curl -w "%{http_code} %{time_total}\n" -o /dev/null -s URL  # 帶延遲
   <div class="card">
     <span class="tag watch">面試前最後看一眼</span>
     <ul>
-      <li><b>K8s 是最大缺口也是對方重點:</b>不要假裝有生產經驗,一被追問細節(某個 kubectl 輸出、某次真實 incident)就會破功。策略=概念答好 + 主動用「Terraform/宣告式同思維 + 三次成功跨域紀錄」收尾。若今晚有 1–2 小時,用 minikube/kind 實際跑一次 Deployment+Service+Ingress+probe,明天就能說「我有動手玩過」。</li>
+      <li><b>K8s 策略=完全誠實:</b>一開場就明講「我沒用過 K8s,以下是我準備時學的」,不做任何模糊暗示。誠實 + 概念清楚 + 「Terraform 同思維 + 三次跨域紀錄 + 具體上手計畫」是加分組合;被追問沒把握的細節一律「這塊我沒實際操作過」。若今晚有 1–2 小時,用 minikube/kind 實跑一次 Deployment+Service+probe,明天就能誠實說「有動手玩過但沒上過生產」。</li>
       <li><b>專利 TWI844132B 不要提成 RSU 成果</b>——與 RSU 無關。</li>
       <li><b>對方非常重視 Security</b>——每一題只要能沾到安全就主動沾(最小權限、Shift-Left),這是你有真實戰績(Coverity/Nessus 進 CI)的區域,多打。</li>
       <li><b>Q3 幾乎必是 inode 題</b>——第一句就講 <code>df -i</code>,直接命中。</li>
