@@ -2149,13 +2149,14 @@
     "IMG_3154.JPG"
    ],
    "box_image": "tNA_beak-spider.jpg",
-   "loose_image": "",
+   "loose_image": "tNA_beak-spider.jpg",
    "main_image": "box/tNA_beak-spider.jpg",
    "has_image": true,
    "confidence": "high",
    "notes": "2025/6/21發售,大神軍團沖田カイ的戰鬥機體,藍白蜘蛛網花紋。取得官方包裝盒照。",
    "photos": [
     "box/tNA_beak-spider.jpg",
+    "loose/tNA_beak-spider.jpg",
     "raw/IMG_3154.jpg"
    ],
    "ip": "爆走兄弟 迷你四驅車",
@@ -4087,9 +4088,9 @@
   {
    "id": "t10_kaonashi",
    "number": "10",
-   "name_en": "No-Face (Kaonashi)",
+   "name_en": "Dream Tomica Ghibli No.10 Spirited Away Kaonashi (No-Face)",
    "name_ja": "カオナシ",
-   "name_zh": "神隱少女 無臉男",
+   "name_zh": "夢幻多美 吉卜力大集合 10 神隱少女 無臉男",
    "year": "",
    "series": "夢幻多美 吉卜力大集合 (Dream Tomica Ghibli)",
    "category": [
@@ -4108,17 +4109,18 @@
     "IMG_3092.jpg"
    ],
    "box_image": "",
-   "loose_image": "",
-   "main_image": "raw/IMG_3092.jpg",
+   "loose_image": "t10_kaonashi.jpg",
+   "main_image": "loose/t10_kaonashi.jpg",
    "has_image": true,
-   "confidence": "low",
-   "notes": "從盒裝文字與圖像確認為吉卜力系列10號カオナシ,但查無JAN可核對年份;多方嘗試(rakuten/kakaku/tsurumai-hobby)均找不到可信第三方展示照,寧缺勿錯,未再花WebSearch額度重查,box_image/loose_image皆留空。",
+   "confidence": "high",
+   "notes": "夢幻多美 ジブリがいっぱい 10 カオナシ:無臉男坐在木澡桶(可滾動)。圖取自 ghibligoodsfan。",
    "photos": [
+    "loose/t10_kaonashi.jpg",
     "raw/IMG_3092.jpg"
    ],
    "ip": "吉卜力",
    "size": "標準",
-   "has_official": false
+   "has_official": true
   },
   {
    "id": "t141",
