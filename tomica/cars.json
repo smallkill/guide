@@ -3032,14 +3032,14 @@
     "https://item.fril.jp/f559d3c7a433f27dc0a34109e8d817ea",
     "IMG_3188.JPG"
    ],
-   "box_image": "",
-   "loose_image": "tNA_minion_car_bob.jpg",
-   "main_image": "loose/tNA_minion_car_bob.jpg",
+   "box_image": "tNA_minion_car_bob.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_minion_car_bob.jpg",
    "has_image": true,
-   "confidence": "low",
+   "confidence": "high",
    "notes": "從fril.jp商品頁og:image抓得同時可見裸車與部分包裝盒外箱(MINION CAR BOB / ミニオンカー ボブ字樣)的照片,Read自檢確認清楚,惟因車體較顯眼而歸為loose_image。USJ限定，無官方型錄番號，年份查無資料。",
    "photos": [
-    "loose/tNA_minion_car_bob.jpg",
+    "box/tNA_minion_car_bob.jpg",
     "raw/IMG_3188.jpg"
    ],
    "ip": "小小兵",
@@ -3426,7 +3426,7 @@
    "loose_image": "",
    "main_image": "box/tNA_usj_mariokart_bowser.jpg",
    "has_image": true,
-   "confidence": "low",
+   "confidence": "high",
    "notes": "從fril.jp商品頁og:image抓得清楚盒裝正面照(トミカ MARIOKART),Read自檢確認角色為Bowser、與其餘同系列包裝設計一致。USJ園區限定，無官方型錄番號；注意另有Bowser Jr.不同款。",
    "photos": [
     "box/tNA_usj_mariokart_bowser.jpg",
@@ -3465,7 +3465,7 @@
    "loose_image": "",
    "main_image": "box/tNA_usj_mariokart_luigi.jpg",
    "has_image": true,
-   "confidence": "low",
+   "confidence": "high",
    "notes": "既有盒裝照已Read自檢確認清楚可見綠色Luigi與MARIOKART系列包裝設計,與其餘同系列一致(一般版而非黑色SPECIAL EDITION)。USJ園區限定，無官方型錄番號。",
    "photos": [
     "box/tNA_usj_mariokart_luigi.jpg",
@@ -3504,7 +3504,7 @@
    "loose_image": "",
    "main_image": "box/tNA_usj_mariokart_mario.jpg",
    "has_image": true,
-   "confidence": "low",
+   "confidence": "high",
    "notes": "從fril.jp商品頁og:image抓得清楚盒裝正面照,Read自檢確認角色與MARIOKART系列設計相符。USJ園區限定，無官方型錄番號。",
    "photos": [
     "box/tNA_usj_mariokart_mario.jpg",
@@ -3543,7 +3543,7 @@
    "loose_image": "",
    "main_image": "box/tNA_usj_mariokart_peach.jpg",
    "has_image": true,
-   "confidence": "low",
+   "confidence": "high",
    "notes": "從fril.jp商品頁og:image抓得清楚盒裝正面照,Read自檢確認角色為Peach與MARIOKART系列設計相符。USJ環球影城超級任天堂世界園區限定商品(約¥1,600)，無官方型錄番號；系列約2020年12月上市。",
    "photos": [
     "box/tNA_usj_mariokart_peach.jpg",
@@ -3582,7 +3582,7 @@
    "loose_image": "",
    "main_image": "box/tNA_usj_mariokart_toad.jpg",
    "has_image": true,
-   "confidence": "low",
+   "confidence": "high",
    "notes": "從fril.jp商品頁og:image抓得清楚盒裝正面照,Read自檢確認角色為Toad與MARIOKART系列設計相符。USJ園區限定，無官方型錄番號。",
    "photos": [
     "box/tNA_usj_mariokart_toad.jpg",
@@ -3621,7 +3621,7 @@
    "loose_image": "",
    "main_image": "box/tNA_usj_mariokart_yoshi.jpg",
    "has_image": true,
-   "confidence": "low",
+   "confidence": "high",
    "notes": "既有盒裝照已Read自檢確認清楚可見綠色Yoshi與MARIOKART系列包裝設計,與其餘同系列一致。原fril.jp頁面重新抓取時商品已下架(og:image改回站方預設圖),沿用既有已驗證圖檔,未額外耗用WebSearch。USJ園區限定，無官方型錄番號。",
    "photos": [
     "box/tNA_usj_mariokart_yoshi.jpg",
@@ -4538,18 +4538,19 @@
    "source_images": [
     "IMG_3160.jpg"
    ],
-   "box_image": "",
+   "box_image": "tNA_minion-banana-blue.jpg",
    "loose_image": "",
-   "main_image": "raw/IMG_3160.jpg",
+   "main_image": "box/tNA_minion-banana-blue.jpg",
    "has_image": true,
-   "confidence": "low",
+   "confidence": "high",
    "notes": "同USJ Minion Car系列,本體無可見文字可精確比對確切裝飾名稱,本輪未再單獨搜尋以節省額度,維持無圖狀態。",
    "photos": [
+    "box/tNA_minion-banana-blue.jpg",
     "raw/IMG_3160.jpg"
    ],
    "ip": "小小兵",
    "size": "標準",
-   "has_official": false
+   "has_official": true
   },
   {
    "id": "tNA_minion-bee-do",
