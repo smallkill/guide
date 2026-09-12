@@ -3920,13 +3920,14 @@
     "https://tshop.r10s.jp/diomart/cabinet/diopic/systempic297/b0bgkjqz9mv-00.jpg",
     "IMG_3095.JPG"
    ],
-   "box_image": "",
+   "box_image": "t_ghibli01_totoro_nekobus.jpg",
    "loose_image": "t_ghibli01_totoro_nekobus.jpg",
-   "main_image": "loose/t_ghibli01_totoro_nekobus.jpg",
+   "main_image": "box/t_ghibli01_totoro_nekobus.jpg",
    "has_image": true,
    "confidence": "high",
    "notes": "品番 4904810212331;僅找到清楚裸車產品照,未找到包裝盒照",
    "photos": [
+    "box/t_ghibli01_totoro_nekobus.jpg",
     "loose/t_ghibli01_totoro_nekobus.jpg",
     "raw/IMG_3095.jpg"
    ],
@@ -3957,13 +3958,14 @@
     "https://tshop.r10s.jp/gloria-kyoto/cabinet/4904810212348.jpg",
     "IMG_3094.JPG"
    ],
-   "box_image": "",
+   "box_image": "t_ghibli02_porco_rosso.jpg",
    "loose_image": "t_ghibli02_porco_rosso.jpg",
-   "main_image": "loose/t_ghibli02_porco_rosso.jpg",
+   "main_image": "box/t_ghibli02_porco_rosso.jpg",
    "has_image": true,
    "confidence": "high",
    "notes": "JAN 4904810212348,2022-11-19發售;僅找到清楚裸車產品照,未找到包裝盒照",
    "photos": [
+    "box/t_ghibli02_porco_rosso.jpg",
     "loose/t_ghibli02_porco_rosso.jpg",
     "raw/IMG_3094.jpg"
    ],
@@ -3994,13 +3996,14 @@
     "https://tshop.r10s.jp/gloria-kyoto/cabinet/4904810189916.jpg",
     "IMG_3096.JPG"
    ],
-   "box_image": "",
+   "box_image": "t_ghibli03_umihara_densha.jpg",
    "loose_image": "t_ghibli03_umihara_densha.jpg",
-   "main_image": "loose/t_ghibli03_umihara_densha.jpg",
+   "main_image": "box/t_ghibli03_umihara_densha.jpg",
    "has_image": true,
    "confidence": "high",
    "notes": "JAN 4904810189916;僅找到清楚裸車產品照,未找到包裝盒照",
    "photos": [
+    "box/t_ghibli03_umihara_densha.jpg",
     "loose/t_ghibli03_umihara_densha.jpg",
     "raw/IMG_3096.jpg"
    ],
@@ -4031,13 +4034,14 @@
     "https://tshop.r10s.jp/hobbyone/cabinet/plamodel/sonota2/4904810221722.jpg",
     "IMG_3093.JPG"
    ],
-   "box_image": "",
+   "box_image": "t_ghibli05_ponyo_boat.jpg",
    "loose_image": "t_ghibli05_ponyo_boat.jpg",
-   "main_image": "loose/t_ghibli05_ponyo_boat.jpg",
+   "main_image": "box/t_ghibli05_ponyo_boat.jpg",
    "has_image": true,
    "confidence": "high",
    "notes": "JAN 4904810221722;僅找到清楚裸車產品照,未找到包裝盒照",
    "photos": [
+    "box/t_ghibli05_ponyo_boat.jpg",
     "loose/t_ghibli05_ponyo_boat.jpg",
     "raw/IMG_3093.jpg"
    ],
@@ -4108,13 +4112,14 @@
    "source_images": [
     "IMG_3092.jpg"
    ],
-   "box_image": "",
+   "box_image": "t10_kaonashi.jpg",
    "loose_image": "t10_kaonashi.jpg",
-   "main_image": "loose/t10_kaonashi.jpg",
+   "main_image": "box/t10_kaonashi.jpg",
    "has_image": true,
    "confidence": "high",
    "notes": "夢幻多美 ジブリがいっぱい 10 カオナシ:無臉男坐在木澡桶(可滾動)。圖取自 ghibligoodsfan。",
    "photos": [
+    "box/t10_kaonashi.jpg",
     "loose/t10_kaonashi.jpg",
     "raw/IMG_3092.jpg"
    ],
