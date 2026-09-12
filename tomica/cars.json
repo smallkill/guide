@@ -1,0 +1,4960 @@
+{
+ "updated": "2026-09-12",
+ "count": 131,
+ "cars": [
+  {
+   "id": "t03_type90-tank",
+   "number": "03",
+   "name_en": "JSDF Type 90 Tank",
+   "name_ja": "自衛隊 90式戦車",
+   "name_zh": "陸上自衛隊 90式戰車",
+   "year": "",
+   "series": "Tomica Premium",
+   "category": [
+    "軍事車輛",
+    "戰車"
+   ],
+   "keywords": [
+    "Type 90 Tank",
+    "90式戦車",
+    "JSDF",
+    "自衛隊",
+    "1/124"
+   ],
+   "source_images": [
+    "https://www.hlj.co.jp/product/TKT82428",
+    "https://www.takaratomy.co.jp/products/tomica/tomicabrand/premium/premium-03/",
+    "IMG_3146.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "t03_type90-tank.jpg",
+   "main_image": "loose/t03_type90-tank.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Tomica Premium系列編號03,1/124比例,砲塔可旋轉、履帶可轉動。查證來源未列出確切發售年份故year留空。圖為官方商品照(非包裝盒)。",
+   "photos": [
+    "loose/t03_type90-tank.jpg",
+    "raw/IMG_3146.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t05_fiat500",
+   "number": "05",
+   "name_en": "Lupin III Castle of Cagliostro Fiat 500",
+   "name_ja": "ルパン三世 カリオストロの城 フィアット500",
+   "name_zh": "魯邦三世 卡里奧斯特羅之城 飛雅特500",
+   "year": "2024",
+   "series": "Tomica Premium unlimited",
+   "category": [
+    "古典車",
+    "聯名",
+    "動漫周邊"
+   ],
+   "keywords": [
+    "Fiat 500",
+    "フィアット500",
+    "Lupin III",
+    "ルパン三世",
+    "カリオストロの城",
+    "魯邦三世",
+    "卡里奧斯特羅之城"
+   ],
+   "source_images": [
+    "https://www.hlj.co.jp/product/TKT93652",
+    "https://takaratomymall.jp/shop/g/g4904810936527/",
+    "IMG_3142.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t05_fiat500.jpg",
+   "main_image": "loose/t05_fiat500.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Tomica Premium unlimited系列編號05,2024/12/21發售,以2018年Tomica Premium 29 Fiat 500F為基礎重新開模,呈現電影《魯邦三世 卡里奧斯特羅之城》中的座車。圖為官方商品照(非包裝盒)。",
+   "photos": [
+    "loose/t05_fiat500.jpg",
+    "raw/IMG_3142.jpg"
+   ],
+   "ip": "魯邦三世",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t05_rx7-amuro",
+   "number": "05",
+   "name_en": "Detective Conan RX-7 (Amuro Toru)",
+   "name_ja": "名探偵コナン RX-7（安室透）",
+   "name_zh": "名偵探柯南 RX-7(安室透)",
+   "year": "2023",
+   "series": "Tomica Premium unlimited",
+   "category": [
+    "跑車",
+    "聯名",
+    "動漫周邊"
+   ],
+   "keywords": [
+    "Mazda RX-7",
+    "RX-7",
+    "Detective Conan",
+    "名探偵コナン",
+    "安室透",
+    "名偵探柯南"
+   ],
+   "source_images": [
+    "https://kakaku.com/item/S0000938735/",
+    "https://www.takaratomy.co.jp/products/tomica/tomicabrand/unlimited/unlimited-05/",
+    "IMG_3150.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t05_rx7-amuro.jpg",
+   "main_image": "loose/t05_rx7-amuro.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Tomica Premium unlimited系列編號05(與Fiat 500同編號05,屬不同批次改版,id以車型slug區分避免衝突),2023/10/21發售,重現安室透座駕白色RX-7,可開關車門及避震結構。圖為零售平台商品照(非包裝盒)。",
+   "photos": [
+    "loose/t05_rx7-amuro.jpg",
+    "raw/IMG_3150.jpg"
+   ],
+   "ip": "名偵探柯南",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t06_hogwarts-express",
+   "number": "06",
+   "name_en": "Harry Potter Hogwarts Express",
+   "name_ja": "ハリー・ポッター ホグワーツ特急",
+   "name_zh": "哈利波特 霍格華茲特快車",
+   "year": "2025",
+   "series": "Tomica Premium unlimited",
+   "category": [
+    "列車",
+    "聯名",
+    "電影周邊"
+   ],
+   "keywords": [
+    "Hogwarts Express",
+    "ホグワーツ特急",
+    "Harry Potter",
+    "哈利波特",
+    "霍格華茲特快車",
+    "GWR 5972"
+   ],
+   "source_images": [
+    "https://www.hlj.co.jp/product/TKT93651",
+    "https://takaratomymall.jp/shop/g/g4904810936510/",
+    "IMG_3148.jpg",
+    "IMG_3156.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t06_hogwarts-express.jpg",
+   "main_image": "loose/t06_hogwarts-express.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Tomica Premium unlimited系列編號06,2025/6/21發售。此筆合併原始兩張照片(IMG_3148完整盒裝照+IMG_3156裸車車頭特寫照),視為同一件收藏品。車頭印有「5972」為原型蒸汽機關車GWR 5972(現實中保存於英國、USJ亦有複製展示)之真實編號,非玩具型號。圖為官方商品照。",
+   "photos": [
+    "loose/t06_hogwarts-express.jpg",
+    "raw/IMG_3148.jpg",
+    "raw/IMG_3156.jpg"
+   ],
+   "ip": "哈利波特",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t07_conan-porsche-gin",
+   "number": "07",
+   "name_en": "Detective Conan Porsche (Gin)",
+   "name_ja": "名探偵コナン ポルシェ（ジン）",
+   "name_zh": "名偵探柯南 保時捷(琴酒)",
+   "year": "2025",
+   "series": "Tomica Premium unlimited",
+   "category": [
+    "古典車",
+    "聯名",
+    "動漫周邊"
+   ],
+   "keywords": [
+    "Porsche 356A",
+    "ポルシェ356A",
+    "Detective Conan",
+    "名探偵コナン",
+    "ジン",
+    "琴酒",
+    "名偵探柯南"
+   ],
+   "source_images": [
+    "https://www.hlj.co.jp/product/TKT29767",
+    "https://www.takaratomy.co.jp/products/tomica/tomicabrand/unlimited/unlimited-07-202506/",
+    "IMG_3147.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "t07_conan-porsche-gin.jpg",
+   "main_image": "loose/t07_conan-porsche-gin.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Tomica Premium unlimited系列編號07,2025/6/21發售,重現《名偵探柯南》黑衣組織成員琴酒座駕保時捷356A。圖為官方商品照(非包裝盒)。",
+   "photos": [
+    "loose/t07_conan-porsche-gin.jpg",
+    "raw/IMG_3147.jpg"
+   ],
+   "ip": "名偵探柯南",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t10",
+   "number": "10",
+   "name_en": "Tomica Premium Toyota Crown Police Car",
+   "name_ja": "トミカプレミアム 10 トヨタ クラウン パトロールカー",
+   "name_zh": "Tomica Premium No.10 豐田皇冠警車",
+   "year": "2024",
+   "series": "Tomica Premium",
+   "category": [
+    "police car",
+    "sedan",
+    "Tomica Premium"
+   ],
+   "keywords": [
+    "toyota crown",
+    "police car",
+    "tomica premium",
+    "1/65 scale"
+   ],
+   "source_images": [
+    "IMG_3114.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "t10.jpg",
+   "main_image": "loose/t10.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "官方(takaratomy.co.jp)產品頁提供的是車輛細節照(含前後視角),非包裝盒照片。1/65比例、含避震功能,發售日2024-03-16。中文名為合理直譯,非官方正式譯名。",
+   "photos": [
+    "loose/t10.jpg",
+    "raw/IMG_3114.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t101_isuzu_giga_dump",
+   "number": 101,
+   "name_en": "No.101 Isuzu Giga Dump Truck",
+   "name_ja": "トミカ No.101 いすゞ ギガ ダンプカー",
+   "name_zh": "多美卡 No.101 五十鈴 Giga 傾卸車",
+   "year": "",
+   "series": "トミカ 標準車(No.1-120)",
+   "category": [
+    "工程/作業車"
+   ],
+   "keywords": [
+    "isuzu giga",
+    "dump truck",
+    "傾卸車",
+    "tomica no.101"
+   ],
+   "source_images": [
+    "https://tsurumai-hobby.jp/images/item/takaratomy/4904810859864.jpg",
+    "IMG_3101.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t101_isuzu_giga_dump.jpg",
+   "main_image": "loose/t101_isuzu_giga_dump.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "JAN 4904810859864(サック箱版);確切發售年份未查得;僅找到清楚裸車產品照",
+   "photos": [
+    "loose/t101_isuzu_giga_dump.jpg",
+    "raw/IMG_3101.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t102",
+   "number": "102",
+   "name_en": "Hitachi Construction Machinery Rigid Dump Truck EH3500ACII",
+   "name_ja": "日立建機 リジッドダンプトラック EH3500ACII",
+   "name_zh": "日立建機 剛性自卸卡車 EH3500ACII",
+   "year": "",
+   "series": "Tomica Regular",
+   "category": [
+    "工程車",
+    "卡車",
+    "礦業車輛"
+   ],
+   "keywords": [
+    "Hitachi",
+    "EH3500ACII",
+    "dump truck",
+    "日立",
+    "自卸卡車",
+    "礦車"
+   ],
+   "source_images": [
+    "IMG_3167.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "t102.jpg",
+   "main_image": "loose/t102.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Visible text 'HITACHI, EH3500ACII' is an exact match to Tomica No.102. Product photo sourced via kakaku.com listing (rakuten cabinet image), visually confirmed as identical model/livery.",
+   "photos": [
+    "loose/t102.jpg",
+    "raw/IMG_3167.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t110",
+   "number": "110",
+   "name_en": "No.110 Toyota Crown Patrol Car (2012)",
+   "name_ja": "トミカ No.110 トヨタ クラウン パトロールカー",
+   "name_zh": "多美卡 No.110 豐田皇冠 巡邏警車",
+   "year": "2012",
+   "series": "レギュラー (Regular Tomica)",
+   "category": [
+    "police",
+    "sedan",
+    "regular Tomica"
+   ],
+   "keywords": [
+    "クラウン",
+    "Crown",
+    "皇冠",
+    "パトカー",
+    "police car",
+    "警車",
+    "1/69"
+   ],
+   "source_images": [
+    "https://cdn11.bigcommerce.com/s-lsouzjo20i/images/stencil/1280x1280/products/1884/3492/Tomica_No._110_392705_01__74611.1619904515.jpg",
+    "IMG_3130.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t110.jpg",
+   "main_image": "loose/t110.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "13th-gen Toyota Crown [S200] Tokyo Metropolitan Police livery, released 2012-03-17, scale 1/69, JAN 4904810392705. 6th vehicle assigned No.110. Working suspension, no opening features.",
+   "photos": [
+    "loose/t110.jpg",
+    "raw/IMG_3130.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t11_ssk",
+   "number": "11",
+   "name_en": "Lupin III Mercedes-Benz SSK",
+   "name_ja": "ルパン三世 メルセデスベンツ SSK",
+   "name_zh": "魯邦三世 賓士 SSK",
+   "year": "2023",
+   "series": "Tomica Premium unlimited",
+   "category": [
+    "古典車",
+    "聯名",
+    "動漫周邊"
+   ],
+   "keywords": [
+    "Mercedes-Benz SSK",
+    "メルセデスベンツSSK",
+    "Lupin III",
+    "ルパン三世",
+    "魯邦三世",
+    "賓士SSK"
+   ],
+   "source_images": [
+    "https://takaratomymall.jp/shop/g/g4904810211389/",
+    "https://64minicar.blog.jp/archives/18161937.html",
+    "IMG_3143.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t11_ssk.jpg",
+   "main_image": "loose/t11_ssk.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Tomica Premium unlimited系列編號11,2023/2發售,重現《魯邦三世》TV版第1、2季中魯邦座車、12缸引擎改裝版賓士SSK,是系列首款賓士車型。圖片來源為部落格評測商品照(非包裝盒)。",
+   "photos": [
+    "loose/t11_ssk.jpg",
+    "raw/IMG_3143.jpg"
+   ],
+   "ip": "魯邦三世",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t12",
+   "number": "12",
+   "name_en": "Toyota Alphard",
+   "name_ja": "トヨタ アルファード",
+   "name_zh": "豐田 Alphard 商旅車",
+   "year": "2015",
+   "series": "Tomica Regular (No.1-120)",
+   "category": [
+    "轎車",
+    "廂型車/商旅車"
+   ],
+   "keywords": [
+    "toyota",
+    "alphard",
+    "minivan",
+    "3代目"
+   ],
+   "source_images": [
+    "IMG_3120.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t12.jpg",
+   "main_image": "loose/t12.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Tomica No.12 豐田 Alphard(白色),圖取自台灣玩具反斗城。",
+   "photos": [
+    "loose/t12.jpg",
+    "raw/IMG_3120.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t121",
+   "number": 121,
+   "name_en": "Ichihara City Fire Bureau Scrum Force",
+   "name_ja": "市原市消防局 スクラムフォース",
+   "name_zh": "市原市消防局 特種消防車組",
+   "year": 2022,
+   "series": "Long Type Tomica",
+   "category": [
+    "消防車",
+    "特種車輛組合"
+   ],
+   "keywords": [
+    "Ichihara",
+    "Scrum Force",
+    "fire bureau",
+    "市原市",
+    "消防局"
+   ],
+   "source_images": [
+    "IMG_3076.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "t121.webp",
+   "main_image": "loose/t121.webp",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Long Tomica No.121,2022/12/15發售,含車體+4台小型消防機器人+貼紙。展示圖為官方去背照,非盒裝照。",
+   "photos": [
+    "loose/t121.webp",
+    "raw/IMG_3076.jpg"
+   ],
+   "ip": "",
+   "size": "長型",
+   "has_official": true
+  },
+  {
+   "id": "t127",
+   "number": 127,
+   "name_en": "Mercedes-Benz 4850 Type 240 Schnabel Trailer",
+   "name_ja": "メルセデスベンツ 4850 240型 シュナーベル式トレーラー",
+   "name_zh": "賓士 4850 240型 重型拖板車(含牽引車)",
+   "year": 2018,
+   "series": "Long Type Tomica",
+   "category": [
+    "重型拖板車",
+    "工程車"
+   ],
+   "keywords": [
+    "Mercedes-Benz 4850",
+    "Schnabel trailer",
+    "重型拖板車",
+    "賓士"
+   ],
+   "source_images": [
+    "IMG_3082.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "t127.jpg",
+   "main_image": "loose/t127.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Long Tomica No.127(第4代),2018/12發售,2022/9停產。展示圖為官方去背照(取自HLJ),非盒裝照,顏色配置(橘/軍綠)吻合。",
+   "photos": [
+    "loose/t127.jpg",
+    "raw/IMG_3082.jpg"
+   ],
+   "ip": "",
+   "size": "長型",
+   "has_official": true
+  },
+  {
+   "id": "t131",
+   "number": 131,
+   "name_en": "Mitsubishi Fuso Super Great Transporter",
+   "name_ja": "三菱ふそう スーパーグレート トランスポーター",
+   "name_zh": "三菱扶桑 Super Great 汽車運輸車",
+   "year": 2009,
+   "series": "Long Type Tomica",
+   "category": [
+    "汽車運輸車",
+    "拖運車"
+   ],
+   "keywords": [
+    "Mitsubishi Fuso",
+    "Super Great",
+    "car transporter",
+    "三菱扶桑"
+   ],
+   "source_images": [
+    "IMG_3081.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "t131.webp",
+   "main_image": "loose/t131.webp",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Long Tomica No.131,2009/5發售,長期常銷款。展示圖為官方去背照,非盒裝照。",
+   "photos": [
+    "loose/t131.webp",
+    "raw/IMG_3081.jpg"
+   ],
+   "ip": "",
+   "size": "長型",
+   "has_official": true
+  },
+  {
+   "id": "t132",
+   "number": 132,
+   "name_en": "Morita Small Off-Road Fire Fighting Vehicle Red Ladybug & Transporter",
+   "name_ja": "モリタ小型オフロード消防車 レッドレディバグ&トランスポーター",
+   "name_zh": "森田小型越野消防車 紅色瓢蟲號&運輸車",
+   "year": 2026,
+   "series": "Long Type Tomica",
+   "category": [
+    "消防車",
+    "越野車",
+    "拖運車"
+   ],
+   "keywords": [
+    "Morita",
+    "Red Ladybug",
+    "off-road fire truck",
+    "transporter",
+    "森田",
+    "瓢蟲"
+   ],
+   "source_images": [
+    "IMG_3075.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "t132.jpg",
+   "main_image": "loose/t132.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Long Tomica No.132,2026年新發售。展示圖為官方單車去背照(取自HLJ),非盒裝照。",
+   "photos": [
+    "loose/t132.jpg",
+    "raw/IMG_3075.jpg"
+   ],
+   "ip": "",
+   "size": "長型",
+   "has_official": true
+  },
+  {
+   "id": "t136",
+   "number": 136,
+   "name_en": "UD Trucks Quon Tank Lorry",
+   "name_ja": "UDトラックス クオン タンクローリー",
+   "name_zh": "UD卡車 Quon 油罐車",
+   "year": 2023,
+   "series": "Long Type Tomica",
+   "category": [
+    "油罐卡車",
+    "工程/商用車"
+   ],
+   "keywords": [
+    "UD Trucks",
+    "Quon",
+    "tank lorry",
+    "油罐車"
+   ],
+   "source_images": [
+    "IMG_3077.jpg",
+    "IMG_3083.jpg"
+   ],
+   "box_image": "t136.jpg",
+   "loose_image": "t136.jpg",
+   "main_image": "box/t136.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Long Tomica No.136,2023/9/16發售,取代舊版136 Komatsu收割機。同一款車有兩張原照(IMG_3077/IMG_3083)。展示圖畫質偏小(176x132)但車型清楚吻合。 官方盒照(Tomica No.136 UDトラックス クオン タンクローリー)取自 PChome。",
+   "photos": [
+    "box/t136.jpg",
+    "loose/t136.jpg",
+    "raw/IMG_3077.jpg",
+    "raw/IMG_3083.jpg"
+   ],
+   "ip": "",
+   "size": "長型",
+   "has_official": true
+  },
+  {
+   "id": "t143",
+   "number": "P-01",
+   "name_en": "Pokémon Quest Tomica P-01 Pikachu",
+   "name_ja": "ポケモンクエスト トミカ P-01 ピカチュウ",
+   "name_zh": "寶可夢探險尋寶 皮卡丘 方塊車",
+   "year": "2018",
+   "series": "ポケモンクエスト トミカ (Pokémon Quest Tomica)",
+   "category": [
+    "聯名角色車",
+    "寶可夢",
+    "廂型車"
+   ],
+   "keywords": [
+    "Pokemon",
+    "Pokémon Quest",
+    "ポケモンクエスト",
+    "Pikachu",
+    "ピカチュウ",
+    "皮卡丘",
+    "方塊車",
+    "box car",
+    "P-01",
+    "JAN 4904810615187"
+   ],
+   "source_images": [
+    "IMG_3163.jpg"
+   ],
+   "box_image": "t143.jpg",
+   "loose_image": "",
+   "main_image": "box/t143.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Dream Tomica No.143 Pikachu Car — official product photo from takaratomy.co.jp matches exactly (face-shaped yellow van with Pikachu ears/face and Pokemon logo).",
+   "photos": [
+    "box/t143.jpg",
+    "raw/IMG_3163.jpg"
+   ],
+   "ip": "寶可夢",
+   "size": "標準",
+   "has_official": true,
+   "sub": "方塊車"
+  },
+  {
+   "id": "t144",
+   "number": 144,
+   "name_en": "Super Ambulance (Tokyo Fire Department)",
+   "name_ja": "スーパーアンビュランス(東京消防庁)",
+   "name_zh": "東京消防廳 大型特殊救護車",
+   "year": 2025,
+   "series": "Long Type Tomica",
+   "category": [
+    "救護車",
+    "特種車"
+   ],
+   "keywords": [
+    "Super Ambulance",
+    "Tokyo Fire Department",
+    "東京消防廳",
+    "救護車"
+   ],
+   "source_images": [
+    "IMG_3084.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "t144.jpg",
+   "main_image": "loose/t144.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Long Tomica No.144(第5代),2025/6/21發售,可左右展開變身移動醫療站。展示圖為官方去背照,非盒裝照。",
+   "photos": [
+    "loose/t144.jpg",
+    "raw/IMG_3084.jpg"
+   ],
+   "ip": "",
+   "size": "長型",
+   "has_official": true
+  },
+  {
+   "id": "t145",
+   "number": "145",
+   "name_en": "Dream Tomica No.145 Initial D AE86 Trueno",
+   "name_ja": "ドリームトミカ No.145 頭文字D(イニシャルD) AE86 トレノ",
+   "name_zh": "夢幻多美卡 No.145 頭文字D AE86 Trueno(白色)",
+   "year": "2015",
+   "series": "Dream Tomica",
+   "category": [
+    "sports car",
+    "anime/character",
+    "Dream Tomica"
+   ],
+   "keywords": [
+    "イニシャルD",
+    "Initial D",
+    "頭文字D",
+    "AE86",
+    "トレノ",
+    "Trueno",
+    "藤原とうふ店",
+    "Fujiwara Tofu Shop",
+    "Takumi Fujiwara"
+   ],
+   "source_images": [
+    "https://d2ev13g7cze5ka.cloudfront.net/tkt/thumb_tkt81598_0.jpg",
+    "IMG_3132.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t145.jpg",
+   "main_image": "loose/t145.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Dream Tomica No.145 頭文字D AE86 Trueno(藤原豆腐店),清楚官方盒照取自 anytoystore。",
+   "photos": [
+    "loose/t145.jpg",
+    "raw/IMG_3132.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t145_b",
+   "number": 145,
+   "name_en": "Nagoya City Fire Bureau Ladder Truck M32L-AT",
+   "name_ja": "名古屋市消防局 はしご付消防自動車 M32L-AT",
+   "name_zh": "名古屋市消防局 30米雲梯消防車 M32L-AT",
+   "year": 2021,
+   "series": "Long Type Tomica",
+   "category": [
+    "消防車",
+    "雲梯車"
+   ],
+   "keywords": [
+    "Nagoya",
+    "ladder truck",
+    "M32L-AT",
+    "名古屋",
+    "雲梯車"
+   ],
+   "source_images": [
+    "IMG_3079.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "t145_b.webp",
+   "main_image": "loose/t145_b.webp",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Long Tomica No.145,1/90比例,2021/6/19發售。id加_b後綴:images/loose/ 已存在另一台不同的舊t145.jpg(白色轎車,推測為別批次不同年份的145號車),避免覆蓋衝突。展示圖為官方去背照,非盒裝照。",
+   "photos": [
+    "loose/t145_b.webp",
+    "raw/IMG_3079.jpg"
+   ],
+   "ip": "",
+   "size": "長型",
+   "has_official": true
+  },
+  {
+   "id": "t149_a",
+   "number": 149,
+   "name_en": "HRC Motor Home",
+   "name_ja": "HRC モーターホーム",
+   "name_zh": "HRC (Honda Racing) 賽事拖車廂",
+   "year": 2024,
+   "series": "Long Type Tomica",
+   "category": [
+    "拖車",
+    "賽事運輸車"
+   ],
+   "keywords": [
+    "HRC",
+    "Honda Racing",
+    "motor home",
+    "本田賽事拖車"
+   ],
+   "source_images": [
+    "IMG_3078.jpg",
+    "IMG_3086.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "t149_a.webp",
+   "main_image": "loose/t149_a.webp",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Long Tomica No.149-5,2024/6發售。id 加 _a 後綴以區別同批另一台也曾用過149號的Isuzu Giga(t149_b)。同一款車有兩張原照(IMG_3078/IMG_3086)。展示圖為官方去背照,非盒裝照。",
+   "photos": [
+    "loose/t149_a.webp",
+    "raw/IMG_3078.jpg",
+    "raw/IMG_3086.jpg"
+   ],
+   "ip": "",
+   "size": "長型",
+   "has_official": true
+  },
+  {
+   "id": "t149_b",
+   "number": 149,
+   "name_en": "Isuzu Giga Special High Pressure Tank Transporter",
+   "name_ja": "いすゞ ギガ 特殊高圧タンク輸送車",
+   "name_zh": "五十鈴 GIGA 特殊高壓罐輸送車",
+   "year": 2021,
+   "series": "Long Type Tomica",
+   "category": [
+    "特殊拖運車",
+    "工程/商用車"
+   ],
+   "keywords": [
+    "Isuzu Giga",
+    "high pressure tank",
+    "transporter",
+    "五十鈴",
+    "高壓罐"
+   ],
+   "source_images": [
+    "IMG_3080.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "t149_b.webp",
+   "main_image": "loose/t149_b.webp",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Long Tomica No.149(第4代),2021/12/18發售,2024/6停產。id加_b後綴,與同批另一台HRC Motor Home(t149_a)同號區分。展示圖為官方去背照,非盒裝照。",
+   "photos": [
+    "loose/t149_b.webp",
+    "raw/IMG_3080.jpg"
+   ],
+   "ip": "",
+   "size": "長型",
+   "has_official": true
+  },
+  {
+   "id": "t14_mclaren-senna",
+   "number": "14",
+   "name_en": "McLaren Senna",
+   "name_ja": "マクラーレン セナ",
+   "name_zh": "麥拉倫 Senna",
+   "year": "2019",
+   "series": "Tomica Premium",
+   "category": [
+    "跑車",
+    "超跑"
+   ],
+   "keywords": [
+    "McLaren Senna",
+    "マクラーレンセナ",
+    "麥拉倫",
+    "1/62"
+   ],
+   "source_images": [
+    "https://www.hlj.co.jp/product/TKT13186",
+    "https://64minicar.blog.jp/archives/24307205.html",
+    "IMG_3145.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "t14_mclaren-senna.jpg",
+   "main_image": "loose/t14_mclaren-senna.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Tomica Premium系列編號14,2019/7/20發售,1/62比例。使用者實物為深藍灰(gunmetal)標準版,故未採用同編號的橘色「發售記念仕様」商品照,改用另一篇部落格評測中標準版商品照。",
+   "photos": [
+    "loose/t14_mclaren-senna.jpg",
+    "raw/IMG_3145.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t150",
+   "number": 150,
+   "name_en": "Enoshima Electric Railway Type 300",
+   "name_ja": "江ノ島電鉄 300形",
+   "name_zh": "江之電 300型 雙節電車",
+   "year": 2024,
+   "series": "Long Type Tomica",
+   "category": [
+    "電車",
+    "路面電車"
+   ],
+   "keywords": [
+    "Enoshima Electric Railway",
+    "Enoden",
+    "Type 300",
+    "江之電"
+   ],
+   "source_images": [
+    "IMG_3088.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "t150.webp",
+   "main_image": "loose/t150.webp",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Long Tomica No.150,1/162比例,2024/9/21發售,可開門、含4支集電弓配件。展示圖為官方去背照,非盒裝照。",
+   "photos": [
+    "loose/t150.webp",
+    "raw/IMG_3088.jpg"
+   ],
+   "ip": "",
+   "size": "長型",
+   "has_official": true
+  },
+  {
+   "id": "t151",
+   "number": "151",
+   "name_en": "Dream Tomica No.151 Pokemon to Dokoiku!? Dokoikkocar (Pikachu)",
+   "name_ja": "ドリームトミカ No.151 ポケモンとどこいく!? どこいこっカー",
+   "name_zh": "夢幻多美 151號 要跟寶可夢去哪裡!? 去哪裡車(皮卡丘)",
+   "year": 2025,
+   "series": "Dream Tomica",
+   "category": [
+    "character car",
+    "anime collab",
+    "bus"
+   ],
+   "keywords": [
+    "Pokemon",
+    "ポケモン",
+    "ピカチュウ",
+    "Pikachu",
+    "どこいこっカー",
+    "PoKeDoKo"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/a/img/item/4904810913894/L/36ab8ef55027e9dd2eb3cb27324c1b848311b321741e352f23aab3497566eebf.jpg",
+    "IMG_3211.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t151.jpg",
+   "main_image": "loose/t151.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Pre-orders opened 2024-11-30; Pikachu-shaped bus from the \"Pokemon to Dokoiku!?\" collab.",
+   "photos": [
+    "loose/t151.jpg",
+    "raw/IMG_3211.jpg"
+   ],
+   "ip": "寶可夢",
+   "size": "標準",
+   "has_official": true,
+   "sub": "皮卡丘"
+  },
+  {
+   "id": "t153",
+   "number": "153",
+   "name_en": "Dream Tomica No.153 Snoopy Car II",
+   "name_ja": "ドリームトミカ No.153 スヌーピーカーII",
+   "name_zh": "夢幻多美卡 No.153 史努比車 II",
+   "year": "2024",
+   "series": "Dream Tomica",
+   "category": [
+    "novelty",
+    "character car",
+    "Peanuts",
+    "Dream Tomica"
+   ],
+   "keywords": [
+    "スヌーピー",
+    "Snoopy",
+    "史努比",
+    "Peanuts",
+    "ピーナッツ",
+    "novelty car"
+   ],
+   "source_images": [
+    "https://d2ev13g7cze5ka.cloudfront.net/tkt/thumb_tkt90876_0_1707798030.jpg",
+    "IMG_3133.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t153.jpg",
+   "main_image": "loose/t153.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Released 2024-03-16, JAN 4904810908760, package size W78xH41xD39mm, works with suspension action. Second Snoopy-themed Dream Tomica car (follows earlier No.153 'Snoopy Car').",
+   "photos": [
+    "loose/t153.jpg",
+    "raw/IMG_3133.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t155",
+   "number": "155",
+   "name_en": "Dream Tomica Rilakkuma Car",
+   "name_ja": "ドリームトミカ No.155 リラックマカー",
+   "name_zh": "夢幻多美卡 No.155 拉拉熊車",
+   "year": "2023",
+   "series": "Dream Tomica",
+   "category": [
+    "character car",
+    "Dream Tomica"
+   ],
+   "keywords": [
+    "rilakkuma",
+    "dream tomica",
+    "san-x",
+    "character car"
+   ],
+   "source_images": [
+    "IMG_3111.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "t155.jpg",
+   "main_image": "loose/t155.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "官方(takaratomy.co.jp)產品頁僅提供360度裸車照,無包裝盒照片;中文名為合理直譯,非官方正式譯名。發售日2023-06-17。",
+   "photos": [
+    "loose/t155.jpg",
+    "raw/IMG_3111.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t157",
+   "number": "157",
+   "name_en": "Gudetama",
+   "name_ja": "ぐでたま",
+   "name_zh": "蛋黃哥",
+   "year": "2016",
+   "series": "Dream Tomica",
+   "category": [
+    "角色車",
+    "Sanrio"
+   ],
+   "keywords": [
+    "gudetama",
+    "sanrio",
+    "dream tomica",
+    "egg",
+    "蛋黃哥"
+   ],
+   "source_images": [
+    "IMG_3121.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t157.jpg",
+   "main_image": "loose/t157.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "發售日 2016-12-28,已停產(2022-01);找不到清楚盒裝照,採用裸車照",
+   "photos": [
+    "loose/t157.jpg",
+    "raw/IMG_3121.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t158",
+   "number": "158",
+   "name_en": "Dream Tomica Doraemon Wrapping Bus",
+   "name_ja": "ドリームトミカ ドラえもん ラッピングバス",
+   "name_zh": "夢幻多美卡 哆啦A夢 彩繪巴士",
+   "year": "2021",
+   "series": "Dream Tomica",
+   "category": [
+    "角色車",
+    "巴士",
+    "動漫角色"
+   ],
+   "keywords": [
+    "doraemon",
+    "wrapping bus",
+    "fujiko f fujio"
+   ],
+   "source_images": [
+    "IMG_3108.JPG"
+   ],
+   "box_image": "t158.jpg",
+   "loose_image": "",
+   "main_image": "box/t158.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "2021年9月18日發售,為第4代No.158車款,車身周圍印有哆啦A夢圖案",
+   "photos": [
+    "box/t158.jpg",
+    "raw/IMG_3108.jpg"
+   ],
+   "ip": "哆啦A夢",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t159",
+   "number": "159",
+   "name_en": "Dream Tomica Nontan",
+   "name_ja": "ドリームトミカ No.159 ノンタン",
+   "name_zh": "夢幻多美卡 No.159 小貓丹丹(NONTAN／ノンタン)",
+   "year": "2024",
+   "series": "Dream Tomica",
+   "category": [
+    "character car",
+    "Dream Tomica"
+   ],
+   "keywords": [
+    "nontan",
+    "dream tomica",
+    "picture book character",
+    "convertible",
+    "小貓丹丹",
+    "Nontan",
+    "ノンタン",
+    "白貓",
+    "紅色敞篷車",
+    "COCOS"
+   ],
+   "source_images": [
+    "IMG_3113.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "t159.jpg",
+   "main_image": "loose/t159.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "官方(takaratomy.co.jp)產品頁僅提供360度裸車照,無包裝盒照片。のんたん(Nontan)是日本繪本角色(貓咪),中文暫無公認官方譯名,「儂灘」為音譯,非官方。發售日2024-12-21。",
+   "photos": [
+    "loose/t159.jpg",
+    "raw/IMG_3113.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t161",
+   "number": "161",
+   "name_en": "Dream Tomica No.161 Cup Noodle W Tab",
+   "name_ja": "ドリームトミカ No.161 カップヌードル Wタブ",
+   "name_zh": "夢幻多美卡 No.161 杯麵 雙開蓋版",
+   "year": "2023",
+   "series": "Dream Tomica",
+   "category": [
+    "novelty",
+    "food-themed",
+    "Dream Tomica"
+   ],
+   "keywords": [
+    "カップヌードル",
+    "cup noodle",
+    "杯麵",
+    "日清",
+    "Nissin",
+    "novelty car",
+    "ドリームトミカ"
+   ],
+   "source_images": [
+    "https://d2ev13g7cze5ka.cloudfront.net/tkt/thumb_tkt90772_0_1691651421.jpg",
+    "IMG_3129.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t161.jpg",
+   "main_image": "loose/t161.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Released 2023-09-02, JAN 4904810907725. Second vehicle assigned No.161 (W-tab redesign with two opening tabs, replacing earlier single-tab Cup Noodle Tomica). Verified image is loose product photo, not box packaging.",
+   "photos": [
+    "loose/t161.jpg",
+    "raw/IMG_3129.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t165",
+   "number": "165",
+   "name_en": "Dream Tomica Doraemon",
+   "name_ja": "ドリームトミカ ドラえもん",
+   "name_zh": "夢幻多美卡 哆啦A夢",
+   "year": "2022",
+   "series": "Dream Tomica",
+   "category": [
+    "角色車",
+    "動漫角色"
+   ],
+   "keywords": [
+    "doraemon",
+    "character car"
+   ],
+   "source_images": [
+    "IMG_3109.JPG"
+   ],
+   "box_image": "t165.jpg",
+   "loose_image": "",
+   "main_image": "box/t165.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "2022年2月19日發售,為No.143哆啦A夢車款的再版",
+   "photos": [
+    "box/t165.jpg",
+    "raw/IMG_3109.jpg"
+   ],
+   "ip": "哆啦A夢",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t166",
+   "number": "166",
+   "name_en": "Natsume's Book of Friends - Nyanko-sensei",
+   "name_ja": "夏目友人帳 ニャンコ先生",
+   "name_zh": "多美夢幻 夏目友人帳 貓咪老師(Nyanko-sensei)",
+   "year": "",
+   "series": "Dream Tomica",
+   "category": [
+    "Dream Tomica",
+    "Natsume Yuujinchou"
+   ],
+   "keywords": [
+    "夏目友人帳",
+    "ニャンコ先生",
+    "Nyanko-sensei",
+    "貓咪老師",
+    "夢幻トミカ"
+   ],
+   "source_images": [
+    "https://item.fril.jp/d4d359c803e816d8dca3315d182f6d86",
+    "IMG_3193.JPG"
+   ],
+   "box_image": "t166.jpg",
+   "loose_image": "",
+   "main_image": "box/t166.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "包裝盒照清楚顯示番號166、NATSUME YUJIN-CHO字樣，與visible_text一致",
+   "photos": [
+    "box/t166.jpg",
+    "raw/IMG_3193.jpg"
+   ],
+   "ip": "夏目友人帳",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t167",
+   "number": "167",
+   "name_en": "Dream Tomica No.167 Sumikko Gurashi Yumemiru Fune Tokage",
+   "name_ja": "ドリームトミカ NO.167 すみっコぐらし ゆめみるふね とかげ",
+   "name_zh": "夢幻多美 167號 角落小夥伴 夢幻船 蜥蜴版",
+   "year": 2025,
+   "series": "Dream Tomica",
+   "category": [
+    "boat car",
+    "anime collab",
+    "novelty vehicle"
+   ],
+   "keywords": [
+    "Sumikko Gurashi",
+    "すみっコぐらし",
+    "とかげ",
+    "tokage",
+    "lizard",
+    "ゆめみるふね"
+   ],
+   "source_images": [
+    "https://www.takaratomy.co.jp/products/tomica/sp/sumikkogurashi/images/pic_dt_sg_202509_tokage_01.webp",
+    "IMG_3208.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t167.jpg",
+   "main_image": "loose/t167.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Only numbered mainline entry in this set (No.167); other 4 in the wave are SP (unnumbered). Released 2025-09-20.",
+   "photos": [
+    "loose/t167.jpg",
+    "raw/IMG_3208.jpg"
+   ],
+   "ip": "角落小夥伴",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t168",
+   "number": "168",
+   "name_en": "Dream Tomica Kirby",
+   "name_ja": "ドリームトミカ 星のカービィ",
+   "name_zh": "夢幻多美卡 星之卡比",
+   "year": "2022",
+   "series": "Dream Tomica",
+   "category": [
+    "角色車",
+    "遊戲角色"
+   ],
+   "keywords": [
+    "kirby",
+    "hoshi no kirby",
+    "warp star",
+    "nintendo"
+   ],
+   "source_images": [
+    "IMG_3106.JPG",
+    "IMG_3191.JPG"
+   ],
+   "box_image": "t168.jpg",
+   "loose_image": "",
+   "main_image": "box/t168.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "2022年7月16日發售,卡比乘坐星星warp star造型車",
+   "photos": [
+    "box/t168.jpg",
+    "raw/IMG_3106.jpg",
+    "raw/IMG_3191.jpg"
+   ],
+   "ip": "星之卡比",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t32",
+   "number": "32",
+   "name_en": "Sakai City Fire Bureau Special High-Level Rescue Work Vehicle",
+   "name_ja": "堺市消防局 特別高度救助工作車",
+   "name_zh": "堺市消防局 特別高度救助工作車",
+   "year": "2022",
+   "series": "Tomica Regular",
+   "category": [
+    "消防車",
+    "救助車"
+   ],
+   "keywords": [
+    "fire",
+    "rescue",
+    "sakai",
+    "hino ranger",
+    "boom"
+   ],
+   "source_images": [
+    "IMG_3105.JPG"
+   ],
+   "box_image": "t32.jpg",
+   "loose_image": "",
+   "main_image": "box/t32.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "以日野第6代Ranger為藍本,可動起重臂,2022年4月16日發售,為堺市消防局特別高度救助隊「Phoenix Rescue」用車",
+   "photos": [
+    "box/t32.jpg",
+    "raw/IMG_3105.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t33",
+   "number": "33",
+   "name_en": "Nissan Skyline Patrol Car",
+   "name_ja": "日産 スカイライン パトロールカー",
+   "name_zh": "日產 Skyline 巡邏車",
+   "year": "2025",
+   "series": "Tomica Regular (No.1-120)",
+   "category": [
+    "警車",
+    "轎車"
+   ],
+   "keywords": [
+    "nissan",
+    "skyline",
+    "police",
+    "patrol car",
+    "v37"
+   ],
+   "source_images": [
+    "IMG_3123.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t33.jpg",
+   "main_image": "loose/t33.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "發售日 2025-02-15,以 V37 Skyline 北海道警察塗裝為原型;找不到清楚盒裝照,採用裸車照(來源圖含北海道警車字樣,與 Derek 實物為白黑塗裝一致)",
+   "photos": [
+    "loose/t33.jpg",
+    "raw/IMG_3123.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t34",
+   "number": "34",
+   "name_en": "Isuzu Elf (New 2024)",
+   "name_ja": "いすゞ エルフ",
+   "name_zh": "五十鈴 Elf 廂型貨車(2024年新登場)",
+   "year": "2024",
+   "series": "Tomica Regular No.34",
+   "category": [
+    "貨車",
+    "箱型車"
+   ],
+   "keywords": [
+    "isuzu",
+    "elf",
+    "box truck",
+    "7代目エルフ",
+    "2024年10月発売"
+   ],
+   "source_images": [
+    "IMG_3138"
+   ],
+   "box_image": "t34.jpg",
+   "loose_image": "",
+   "main_image": "box/t34.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "2024年10月第3週上市,取代原No.34 Toyota Aqua;第7代Elf全新改款,售價550円(含稅)。箱裝照已確認吻合。",
+   "photos": [
+    "box/t34.jpg",
+    "raw/IMG_3138.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t4",
+   "number": "4",
+   "name_en": "Honda VFR Police Bike",
+   "name_ja": "Honda VFR 白バイ",
+   "name_zh": "本田 VFR 白色警用機車",
+   "year": "2005",
+   "series": "Tomica Regular (No.1-120)",
+   "category": [
+    "警車",
+    "機車"
+   ],
+   "keywords": [
+    "honda",
+    "vfr",
+    "police bike",
+    "motorcycle",
+    "白バイ"
+   ],
+   "source_images": [
+    "IMG_3119.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t4.jpg",
+   "main_image": "loose/t4.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "發售日 2005-05-21,取代舊版 No.4 Honda Police Bike;找不到清楚盒裝照,採用裸車照",
+   "photos": [
+    "loose/t4.jpg",
+    "raw/IMG_3119.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t41_morita_fire_engine",
+   "number": 41,
+   "name_en": "No.41 Morita Fire Engine Type CD-I",
+   "name_ja": "トミカ No.41 モリタ CD-I型 ポンプ消防車",
+   "name_zh": "多美卡 No.41 森田 CD-I型 消防幫浦車",
+   "year": 2003,
+   "series": "トミカ 標準車(No.1-120)",
+   "category": [
+    "消防車"
+   ],
+   "keywords": [
+    "morita fire engine",
+    "cd-i",
+    "消防車",
+    "tomica no.41"
+   ],
+   "source_images": [
+    "https://image1.shopserve.jp/kidbox.co.jp/pic-labo/TOMICA65454.jpg",
+    "IMG_3100.JPG"
+   ],
+   "box_image": "t41_morita_fire_engine.jpg",
+   "loose_image": "",
+   "main_image": "box/t41_morita_fire_engine.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "JAN 4904810654544,原始發售2003-12-20(後續多次再販,確切此批年份未查得);已取得清楚包裝盒正面照",
+   "photos": [
+    "box/t41_morita_fire_engine.jpg",
+    "raw/IMG_3100.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t53_ud_quon_mixer",
+   "number": 53,
+   "name_en": "No.53 UD Trucks Quon Mixer Car",
+   "name_ja": "トミカ No.53 UDトラックス クオン ミキサー車",
+   "name_zh": "多美卡 No.53 UD卡車 Quon 攪拌車",
+   "year": "",
+   "series": "トミカ 標準車(No.1-120)",
+   "category": [
+    "工程/作業車"
+   ],
+   "keywords": [
+    "ud trucks quon",
+    "mixer truck",
+    "混凝土攪拌車",
+    "tomica no.53"
+   ],
+   "source_images": [
+    "https://tsurumai-hobby.jp/images/item/takaratomy/4904810742241.jpg",
+    "IMG_3099.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t53_ud_quon_mixer.jpg",
+   "main_image": "loose/t53_ud_quon_mixer.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "JAN 4904810742241(サック箱版);原始車型2007年發售,此為後續再販版本,確切再販年份未查得;僅找到清楚裸車產品照",
+   "photos": [
+    "loose/t53_ud_quon_mixer.jpg",
+    "raw/IMG_3099.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t69",
+   "number": "69",
+   "name_en": "Aquarium Truck (Kaiyukan)",
+   "name_ja": "水族館トラック（海遊館）",
+   "name_zh": "水族館卡車（海遊館）",
+   "year": "2007",
+   "series": "レギュラー（Tomica Regular）",
+   "category": [
+    "特殊車輛",
+    "水族館",
+    "卡車"
+   ],
+   "keywords": [
+    "aquarium truck",
+    "水族館トラック",
+    "kaiyukan",
+    "海遊館",
+    "shark",
+    "サメ",
+    "UD Quon",
+    "no.69"
+   ],
+   "source_images": [
+    "https://64minicar.blog.jp/archives/19394115.html",
+    "https://takaratomymall.jp/shop/g/g4904810746829/",
+    "https://item.fril.jp/253709b159cda012554feb0613d67354",
+    "https://img.fril.jp/img/796770631/l/2714452112.jpg?1761644519",
+    "IMG_3125.JPG"
+   ],
+   "box_image": "t69.jpg",
+   "loose_image": "",
+   "main_image": "box/t69.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Tomica No.69 Aquarium Truck, originally released May 4, 2007 (base: Nissan Diesel/UD Quon large truck). Box design features Kaiyukan (Osaka Aquarium) branding and a whale shark graphic, matching visible_text exactly (No.69, AQUARIUM TRUCK, 水族館トラック, 海遊館). Box photo verified to show No.69 box with matching truck/shark artwork.",
+   "photos": [
+    "box/t69.jpg",
+    "raw/IMG_3125.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t77",
+   "number": "77",
+   "name_en": "Hitachi Construction Machinery Macadam Roller ZC125M-5",
+   "name_ja": "日立建機 マカダムローラ ZC125M-5",
+   "name_zh": "日立建機 碎石壓路機 ZC125M-5",
+   "year": "2022",
+   "series": "Tomica Regular No.77",
+   "category": [
+    "工程車",
+    "壓路機"
+   ],
+   "keywords": [
+    "hitachi",
+    "macadam roller",
+    "road roller",
+    "construction",
+    "zc125m-5",
+    "1/80"
+   ],
+   "source_images": [
+    "IMG_3137"
+   ],
+   "box_image": "",
+   "loose_image": "t77.jpg",
+   "main_image": "loose/t77.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "2022年新登場,比例1/80,售價594円(含稅)。找到的是清楚裸車照(來自motor-fan.jp報導圖),非盒裝照,已resize確認吻合。",
+   "photos": [
+    "loose/t77.jpg",
+    "raw/IMG_3137.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t8",
+   "number": "8",
+   "name_en": "Suzuki Alto",
+   "name_ja": "スズキ アルト",
+   "name_zh": "鈴木 Alto",
+   "year": "2015",
+   "series": "レギュラー（Tomica Regular, 2015 NEW）",
+   "category": [
+    "輕型車",
+    "掀背車"
+   ],
+   "keywords": [
+    "suzuki alto",
+    "スズキ アルト",
+    "kei car",
+    "hatchback",
+    "no.8",
+    "2015 new",
+    "1/56"
+   ],
+   "source_images": [
+    "https://64minicar.blog.jp/archives/14125578.html",
+    "https://livedoor.blogimg.jp/nobuno88-js3585qo/imgs/9/7/974a8bc5.jpg",
+    "IMG_3126.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t8.jpg",
+   "main_image": "loose/t8.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Tomica No.8 Suzuki Alto (8th gen HA36S/HA36V), released Oct 17 2015, scale 1/56, regular color Phoenix Red Pearl. Initial box-photo attempts failed (site timeouts/blocks); first loose-photo attempt wrongly used a white first-run special-edition variant (fixed) — replaced with a verified red variant photo matching the actual red toy.",
+   "photos": [
+    "loose/t8.jpg",
+    "raw/IMG_3126.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t85",
+   "number": "85",
+   "name_en": "No.85 Mitsubishi Fuso Super Great (container truck)",
+   "name_ja": "トミカ No.85 三菱ふそう スーパーグレート",
+   "name_zh": "多美卡 No.85 三菱扶桑 Super Great 貨櫃車",
+   "year": "2018",
+   "series": "レギュラー (Regular Tomica)",
+   "category": [
+    "truck",
+    "container truck",
+    "regular Tomica"
+   ],
+   "keywords": [
+    "三菱ふそう",
+    "Mitsubishi Fuso",
+    "スーパーグレート",
+    "Super Great",
+    "貨櫃車",
+    "container truck",
+    "トラック"
+   ],
+   "source_images": [
+    "https://d2ev13g7cze5ka.cloudfront.net/tkt/thumb_tkt97198_0_1527737149.jpg",
+    "IMG_3134.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t85.jpg",
+   "main_image": "loose/t85.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Released 2018-07-21 (2nd-gen Fuso Super Great, launched 2017), replaced No.85 Toyota FJ Cruiser. Removable red container. Also released in US/Canada/Australia (Walmart exclusive) in 2019.",
+   "photos": [
+    "loose/t85.jpg",
+    "raw/IMG_3134.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t87_sprinkler_truck",
+   "number": 87,
+   "name_en": "No.87 Sprinkler Truck",
+   "name_ja": "トミカ No.87 散水車",
+   "name_zh": "多美卡 No.87 灑水車",
+   "year": 2025,
+   "series": "トミカ 標準車(No.1-120)",
+   "category": [
+    "工程/作業車"
+   ],
+   "keywords": [
+    "sprinkler truck",
+    "watering truck",
+    "散水車",
+    "tomica no.87"
+   ],
+   "source_images": [
+    "https://tsurumai-hobby.jp/images/item/takaratomy/4904810950363.jpg",
+    "IMG_3098.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t87_sprinkler_truck.jpg",
+   "main_image": "loose/t87_sprinkler_truck.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "JAN 4904810950363,2025-08-16發售;僅找到清楚裸車產品照,未找到包裝盒照",
+   "photos": [
+    "loose/t87_sprinkler_truck.jpg",
+    "raw/IMG_3098.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t9",
+   "number": "9",
+   "name_en": "Komatsu Excavator PC200-10",
+   "name_ja": "コマツ 油圧ショベル PC200-10型",
+   "name_zh": "小松 油壓挖土機 PC200-10",
+   "year": "",
+   "series": "Tomica Regular",
+   "category": [
+    "工程車",
+    "挖土機"
+   ],
+   "keywords": [
+    "Komatsu",
+    "excavator",
+    "PC200-10",
+    "小松",
+    "挖土機",
+    "トミカ9"
+   ],
+   "source_images": [
+    "IMG_3158.jpg"
+   ],
+   "box_image": "t9.jpg",
+   "loose_image": "",
+   "main_image": "box/t9.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Box photo shows full text (トミカ9, KOMATSU EXCAVATOR PC200-10) confirming exact match. Box image downloaded from kidbox.co.jp product listing, verified by visual comparison (identical box art).",
+   "photos": [
+    "box/t9.jpg",
+    "raw/IMG_3158.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t90",
+   "number": "90",
+   "name_en": "Tomica No.90 UD Trucks Quon Eneos Tank Lorry",
+   "name_ja": "トミカ No.90 UDトラックス クオン エネオス タンクローリー",
+   "name_zh": "多美卡 No.90 UD卡車 Quon Eneos油罐車",
+   "year": "2016",
+   "series": "Tomica Regular",
+   "category": [
+    "truck",
+    "tank lorry",
+    "Tomica Regular"
+   ],
+   "keywords": [
+    "ud trucks",
+    "quon",
+    "eneos",
+    "tank lorry",
+    "tomica regular"
+   ],
+   "source_images": [
+    "IMG_3115.jpg",
+    "IMG_3127.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t90.jpg",
+   "main_image": "loose/t90.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "圖片取自 Motor-Fan.jp 型錄文章的官方型錄照(圖上附有Tomica x Motor-Fan標題橫幅,但車輛本體清楚可辨),非純盒裝照。2016年4月發售新車(取代Fiat 500絕版)。中文名為合理直譯,非官方正式譯名。",
+   "photos": [
+    "loose/t90.jpg",
+    "raw/IMG_3115.jpg",
+    "raw/IMG_3127.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tDMT-04",
+   "number": "DMT-04",
+   "name_en": "Disney Motors Tsum Tsum Nemo",
+   "name_ja": "ディズニーモータース ツムツム ニモ",
+   "name_zh": "多美 迪士尼小汽車 疊疊樂 尼莫",
+   "year": "",
+   "series": "Disney Motors Tsum Tsum",
+   "category": [
+    "Disney Motors",
+    "Tsum Tsum"
+   ],
+   "keywords": [
+    "ディズニーモータース",
+    "ツムツム",
+    "ニモ",
+    "Nemo",
+    "Finding Nemo",
+    "海底總動員",
+    "疊疊樂"
+   ],
+   "source_images": [
+    "https://item.fril.jp/66b02ea002bd83ede91261644c1503dd",
+    "IMG_3189.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tDMT-04.jpg",
+   "main_image": "loose/tDMT-04.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "番號DMT-04由visible_text盒上文字確認；僅取得清楚裸車照",
+   "photos": [
+    "loose/tDMT-04.jpg",
+    "raw/IMG_3189.jpg"
+   ],
+   "ip": "迪士尼",
+   "size": "標準",
+   "has_official": true,
+   "sub": "尼莫"
+  },
+  {
+   "id": "tMMC02",
+   "number": "MMC02",
+   "name_en": "King Bob",
+   "name_ja": "キングボブ",
+   "name_zh": "多美夢幻 王者鮑伯(King Bob)",
+   "year": "2019",
+   "series": "Dream Tomica Minion Movie Collection",
+   "category": [
+    "Dream Tomica",
+    "Minions"
+   ],
+   "keywords": [
+    "ミニオン",
+    "King Bob",
+    "キングボブ",
+    "Minion Movie Collection",
+    "MMC02",
+    "小小兵",
+    "國王鮑伯"
+   ],
+   "source_images": [
+    "https://item.fril.jp/1006c3ac624fca9798168e6a78dad553",
+    "IMG_3177.JPG"
+   ],
+   "box_image": "tMMC02.jpg",
+   "loose_image": "",
+   "main_image": "box/tMMC02.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "官方盒裝照確認番號MMC02、角色King Bob、系列Dream Tomica Minion Movie Collection，2019年發售系列",
+   "photos": [
+    "box/tMMC02.jpg",
+    "raw/IMG_3177.jpg"
+   ],
+   "ip": "小小兵",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tMMC03",
+   "number": "MMC03",
+   "name_en": "Cro-Minion Stuart",
+   "name_ja": "クロミニオン／スチュアート",
+   "name_zh": "多美夢幻 穴居小兵/史都華(Cro-Minion/Stuart)",
+   "year": "2019",
+   "series": "Dream Tomica Minion Movie Collection",
+   "category": [
+    "Dream Tomica",
+    "Minions"
+   ],
+   "keywords": [
+    "ミニオン",
+    "スチュアート",
+    "Stuart",
+    "Cro-Minion",
+    "MMC03",
+    "小小兵",
+    "史都華"
+   ],
+   "source_images": [
+    "https://store.shopping.yahoo.co.jp/tokiwaya/4904810-131434.html",
+    "IMG_3178.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tMMC03.jpg",
+   "main_image": "loose/tMMC03.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "僅找到清楚裸車照，包裝盒圖片未尋獲合格圖源；番號與角色由visible_text與零售頁面確認",
+   "photos": [
+    "loose/tMMC03.jpg",
+    "raw/IMG_3178.jpg"
+   ],
+   "ip": "小小兵",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tMMC04",
+   "number": "MMC04",
+   "name_en": "Bored Silly / Bob",
+   "name_ja": "氷河期／ボブ",
+   "name_zh": "多美夢幻 冰河期/鮑伯(Bored Silly/Bob)",
+   "year": "2019",
+   "series": "Dream Tomica Minion Movie Collection",
+   "category": [
+    "Dream Tomica",
+    "Minions"
+   ],
+   "keywords": [
+    "ミニオン",
+    "ボブ",
+    "Bob",
+    "氷河期",
+    "MMC04",
+    "小小兵",
+    "冰河期"
+   ],
+   "source_images": [
+    "https://auctions.yahoo.co.jp/jp/auction/x1155509902",
+    "IMG_3179.JPG"
+   ],
+   "box_image": "tMMC04.jpg",
+   "loose_image": "",
+   "main_image": "box/tMMC04.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "雪花藍色包裝盒照與番號MMC04、Bored Silly/Bob名稱一致確認",
+   "photos": [
+    "box/tMMC04.jpg",
+    "raw/IMG_3179.jpg"
+   ],
+   "ip": "小小兵",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tMMC05",
+   "number": "MMC05",
+   "name_en": "Break Out Stripe / Mel",
+   "name_ja": "囚人／メル",
+   "name_zh": "多美夢幻 越獄條紋/梅爾(Break Out Stripe/Mel)",
+   "year": "2019",
+   "series": "Dream Tomica Minion Movie Collection",
+   "category": [
+    "Dream Tomica",
+    "Minions"
+   ],
+   "keywords": [
+    "ミニオン",
+    "メル",
+    "Mel",
+    "囚人",
+    "MMC05",
+    "小小兵",
+    "越獄"
+   ],
+   "source_images": [
+    "https://item.fril.jp/41ffefee0fe1aebb7b8bff8bd197ad7e",
+    "IMG_3180.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tMMC05.jpg",
+   "main_image": "loose/tMMC05.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "僅找到清楚裸車照(黃黑條紋囚犯造型卡車)，與visible_text/desc相符；包裝盒圖片未尋獲合格圖源",
+   "photos": [
+    "loose/tMMC05.jpg",
+    "raw/IMG_3180.jpg"
+   ],
+   "ip": "小小兵",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tMMC06",
+   "number": "MMC06",
+   "name_en": "Evil Minion / Kevin",
+   "name_ja": "イーブルミニオン／ケビン",
+   "name_zh": "多美夢幻 邪惡小兵/凱文(Evil Minion/Kevin)",
+   "year": "2019",
+   "series": "Dream Tomica Minion Movie Collection",
+   "category": [
+    "Dream Tomica",
+    "Minions"
+   ],
+   "keywords": [
+    "ミニオン",
+    "ケビン",
+    "Kevin",
+    "イーブルミニオン",
+    "MMC06",
+    "小小兵",
+    "邪惡小兵"
+   ],
+   "source_images": [
+    "https://store.shopping.yahoo.co.jp/toy-manoa/4904810618782.html",
+    "IMG_3181.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tMMC06.jpg",
+   "main_image": "loose/tMMC06.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "官方發售日2019-03-16確認(多方零售頁一致)；僅取得清楚裸車照(紫色)",
+   "photos": [
+    "loose/tMMC06.jpg",
+    "raw/IMG_3181.jpg"
+   ],
+   "ip": "小小兵",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_avante-jr",
+   "number": "",
+   "name_en": "Avante Jr.",
+   "name_ja": "アバンテJr.",
+   "name_zh": "Avante Jr.",
+   "year": "2023",
+   "series": "Tomica Premium unlimited x Tamiya (Mini 4WD)",
+   "category": [
+    "迷你四驅車",
+    "聯名"
+   ],
+   "keywords": [
+    "Avante Jr.",
+    "アバンテJr.",
+    "Tamiya Mini 4WD",
+    "1980年代迷你四驅熱潮"
+   ],
+   "source_images": [
+    "https://www.hlj.co.jp/product/TKT91567",
+    "https://www.tamiya.com/japan/newstopics/2023/11/21tomica.html",
+    "IMG_3151.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_avante-jr.jpg",
+   "main_image": "loose/tNA_avante-jr.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "2023年底發售,象徵1980年代末迷你四驅熱潮的經典機型,還原滾輪轉動機構。無官方番號,圖為官方商品照(非包裝盒)。",
+   "photos": [
+    "loose/tNA_avante-jr.jpg",
+    "raw/IMG_3151.jpg"
+   ],
+   "ip": "爆走兄弟 迷你四驅車",
+   "size": "標準",
+   "has_official": true,
+   "seq": 10
+  },
+  {
+   "id": "tNA_baymax-forklift",
+   "number": "",
+   "name_en": "Baymax's Forklift",
+   "name_ja": "ベイマックスのフォークリフト",
+   "name_zh": "大白的堆高機",
+   "year": "2020",
+   "series": "Disney Vehicle Collection (ディズニーキャラクターカーコレクション)",
+   "category": [
+    "Disney",
+    "diecast",
+    "forklift"
+   ],
+   "keywords": [
+    "Baymax",
+    "大白",
+    "Big Hero 6",
+    "堆高機",
+    "迪士尼"
+   ],
+   "source_images": [
+    "IMG_3116.jpg"
+   ],
+   "box_image": "tNA_baymax-forklift.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_baymax-forklift.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "既有盒裝照(mezzomiki.jp部落格,2020/07刊出)已 Read 自檢確認為正確商品盒身,清楚可見「ベイマックスのフォークリフト」字樣與角色造型;年份為推測非官方確認,故信心度維持low。未再花額外 WebSearch 額度。",
+   "photos": [
+    "box/tNA_baymax-forklift.jpg",
+    "raw/IMG_3116.jpg"
+   ],
+   "ip": "迪士尼",
+   "size": "標準",
+   "has_official": true,
+   "sub": "大白"
+  },
+  {
+   "id": "tNA_beak-spider",
+   "number": "",
+   "name_en": "Beak Spider",
+   "name_ja": "ビークスパイダー",
+   "name_zh": "Beak Spider",
+   "year": "2025",
+   "series": "Tomica Premium unlimited x Tamiya (爆走兄弟レッツ&ゴー!! Mini 4WD)",
+   "category": [
+    "迷你四驅車",
+    "聯名",
+    "動漫周邊"
+   ],
+   "keywords": [
+    "Beak Spider",
+    "ビークスパイダー",
+    "Tamiya Mini 4WD",
+    "爆走兄弟レッツ&ゴー",
+    "Let's & Go",
+    "沖田カイ",
+    "大神軍團"
+   ],
+   "source_images": [
+    "https://takaratomymall.jp/shop/g/g4904810955412/",
+    "https://fuji4423.blog.jp/archives/27917061.html",
+    "IMG_3154.JPG"
+   ],
+   "box_image": "tNA_beak-spider.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_beak-spider.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "2025/6/21發售,大神軍團沖田カイ的戰鬥機體,藍白蜘蛛網花紋。取得官方包裝盒照。",
+   "photos": [
+    "box/tNA_beak-spider.jpg",
+    "raw/IMG_3154.jpg"
+   ],
+   "ip": "爆走兄弟 迷你四驅車",
+   "size": "標準",
+   "has_official": true,
+   "seq": 9
+  },
+  {
+   "id": "tNA_brockengigant",
+   "number": "",
+   "name_en": "Brocken Gigant",
+   "name_ja": "ブロッケンギガント",
+   "name_zh": "Brocken Gigant",
+   "year": 2026,
+   "series": "Tomica Premium unlimited",
+   "category": [
+    "跑車",
+    "迷你四驅車聯名"
+   ],
+   "keywords": [
+    "Brocken Gigant",
+    "爆走兄弟",
+    "Let's & Go",
+    "Tamiya",
+    "mini 4WD",
+    "布洛肯巨人"
+   ],
+   "source_images": [
+    "IMG_3073.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_brockengigant.jpg",
+   "main_image": "loose/tNA_brockengigant.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "無正式Tomica番號(Tamiya迷你四驅車跨界聯名,Tomica Premium unlimited系列,2026/6/20發售)。中文名暫譯。展示圖為官方單車去背照,非盒裝照(找不到盒裝正面圖)。",
+   "photos": [
+    "loose/tNA_brockengigant.jpg",
+    "raw/IMG_3073.jpg"
+   ],
+   "ip": "爆走兄弟 迷你四驅車",
+   "size": "標準",
+   "has_official": true,
+   "seq": 7
+  },
+  {
+   "id": "tNA_chiikawa-furuhonya",
+   "number": "",
+   "name_en": "Dream Tomica SP Chiikawa Furuhonya (Used Bookstore)",
+   "name_ja": "ドリームトミカSP ちいかわ 古本屋",
+   "name_zh": "夢幻多美 吉伊卡哇 二手書店版(暫譯)",
+   "year": 2025,
+   "series": "Dream Tomica SP",
+   "category": [
+    "character car",
+    "anime collab",
+    "novelty vehicle"
+   ],
+   "keywords": [
+    "Chiikawa",
+    "ちいかわ",
+    "古本屋",
+    "used bookstore"
+   ],
+   "source_images": [
+    "https://www.takaratomy.co.jp/products/tomica/sp/chiikawa/images/pic_202508_chiikawa_08.webp",
+    "IMG_3202.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_chiikawa-furuhonya.jpg",
+   "main_image": "loose/tNA_chiikawa-furuhonya.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Later-wave Chiikawa Dream Tomica (2025 batch per official page dated 202508); year approximate. 繁中譯名暫譯。",
+   "photos": [
+    "loose/tNA_chiikawa-furuhonya.jpg",
+    "raw/IMG_3202.jpg"
+   ],
+   "ip": "吉伊卡哇",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_chiikawa-hachiware",
+   "number": "",
+   "name_en": "Dream Tomica SP Chiikawa Hachiware",
+   "name_ja": "ドリームトミカSP ちいかわ ハチワレ",
+   "name_zh": "夢幻多美 吉伊卡哇 八割貓版",
+   "year": 2023,
+   "series": "Dream Tomica SP",
+   "category": [
+    "character car",
+    "anime collab",
+    "figure car"
+   ],
+   "keywords": [
+    "Chiikawa",
+    "ちいかわ",
+    "ハチワレ",
+    "Hachiware",
+    "cat"
+   ],
+   "source_images": [
+    "https://www.takaratomy.co.jp/products/tomica/sp/chiikawa/images/pic_chiikawa_02.png",
+    "IMG_3205.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_chiikawa-hachiware.jpg",
+   "main_image": "loose/tNA_chiikawa-hachiware.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "First-wave Chiikawa Dream Tomica, released 2023-06-10.",
+   "photos": [
+    "loose/tNA_chiikawa-hachiware.jpg",
+    "raw/IMG_3205.jpg"
+   ],
+   "ip": "吉伊卡哇",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_chiikawa-kurimanju",
+   "number": "",
+   "name_en": "Dream Tomica SP Chiikawa Kuri-manju",
+   "name_ja": "ドリームトミカSP ちいかわ くりまんじゅう",
+   "name_zh": "夢幻多美 吉伊卡哇 栗子饅頭版(暫譯)",
+   "year": 2024,
+   "series": "Dream Tomica SP",
+   "category": [
+    "character car",
+    "anime collab",
+    "figure car"
+   ],
+   "keywords": [
+    "Chiikawa",
+    "ちいかわ",
+    "くりまんじゅう",
+    "chestnut manju"
+   ],
+   "source_images": [
+    "https://www.takaratomy.co.jp/products/tomica/sp/chiikawa/images/pic_chiikawa_06.png",
+    "IMG_3198.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_chiikawa-kurimanju.jpg",
+   "main_image": "loose/tNA_chiikawa-kurimanju.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Second-wave Chiikawa Dream Tomica; exact release date not confirmed, year approximate. 繁中譯名暫譯。",
+   "photos": [
+    "loose/tNA_chiikawa-kurimanju.jpg",
+    "raw/IMG_3198.jpg"
+   ],
+   "ip": "吉伊卡哇",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_chiikawa-main",
+   "number": "",
+   "name_en": "Dream Tomica SP Chiikawa",
+   "name_ja": "ドリームトミカSP ちいかわ",
+   "name_zh": "夢幻多美 吉伊卡哇 本體版",
+   "year": 2023,
+   "series": "Dream Tomica SP",
+   "category": [
+    "character car",
+    "anime collab",
+    "figure car"
+   ],
+   "keywords": [
+    "Chiikawa",
+    "ちいかわ",
+    "pink roof"
+   ],
+   "source_images": [
+    "https://www.takaratomy.co.jp/products/tomica/sp/chiikawa/images/pic_chiikawa_01.png",
+    "IMG_3204.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_chiikawa-main.jpg",
+   "main_image": "loose/tNA_chiikawa-main.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "First-wave Chiikawa Dream Tomica, released 2023-06-10, the titular Chiikawa character car.",
+   "photos": [
+    "loose/tNA_chiikawa-main.jpg",
+    "raw/IMG_3204.jpg"
+   ],
+   "ip": "吉伊卡哇",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_chiikawa-momonga",
+   "number": "",
+   "name_en": "Dream Tomica SP Chiikawa Momonga (Flying Squirrel)",
+   "name_ja": "ドリームトミカSP ちいかわ モモンガ",
+   "name_zh": "夢幻多美 吉伊卡哇 飛鼠版(暫譯)",
+   "year": 2024,
+   "series": "Dream Tomica SP",
+   "category": [
+    "character car",
+    "anime collab",
+    "figure car"
+   ],
+   "keywords": [
+    "Chiikawa",
+    "ちいかわ",
+    "モモンガ",
+    "flying squirrel"
+   ],
+   "source_images": [
+    "https://www.takaratomy.co.jp/products/tomica/sp/chiikawa/images/pic_chiikawa_04.png",
+    "IMG_3201.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_chiikawa-momonga.jpg",
+   "main_image": "loose/tNA_chiikawa-momonga.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Later-wave Chiikawa Dream Tomica; year approximate. 繁中譯名暫譯。",
+   "photos": [
+    "loose/tNA_chiikawa-momonga.jpg",
+    "raw/IMG_3201.jpg"
+   ],
+   "ip": "吉伊卡哇",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_chiikawa-rakko",
+   "number": "",
+   "name_en": "Dream Tomica SP Chiikawa Rakko (Sea Otter)",
+   "name_ja": "ドリームトミカSP ちいかわ ラッコ",
+   "name_zh": "夢幻多美 吉伊卡哇 海獺版(暫譯)",
+   "year": 2024,
+   "series": "Dream Tomica SP",
+   "category": [
+    "character car",
+    "anime collab",
+    "figure car"
+   ],
+   "keywords": [
+    "Chiikawa",
+    "ちいかわ",
+    "ラッコ",
+    "sea otter"
+   ],
+   "source_images": [
+    "https://www.takaratomy.co.jp/products/tomica/sp/chiikawa/images/pic_chiikawa_05.png",
+    "IMG_3199.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_chiikawa-rakko.jpg",
+   "main_image": "loose/tNA_chiikawa-rakko.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Second-wave Chiikawa Dream Tomica; year approximate. 繁中譯名暫譯。",
+   "photos": [
+    "loose/tNA_chiikawa-rakko.jpg",
+    "raw/IMG_3199.jpg"
+   ],
+   "ip": "吉伊卡哇",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_chiikawa-shisa",
+   "number": "",
+   "name_en": "Dream Tomica SP Chiikawa Shisa",
+   "name_ja": "ドリームトミカSP ちいかわ シーサー",
+   "name_zh": "夢幻多美 吉伊卡哇 風獅爺版(暫譯)",
+   "year": 2025,
+   "series": "Dream Tomica SP",
+   "category": [
+    "character car",
+    "anime collab",
+    "figure car"
+   ],
+   "keywords": [
+    "Chiikawa",
+    "ちいかわ",
+    "シーサー",
+    "Shisa"
+   ],
+   "source_images": [
+    "https://www.takaratomy.co.jp/products/tomica/sp/chiikawa/images/pic_202508_chiikawa_07.webp",
+    "IMG_3197.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_chiikawa-shisa.jpg",
+   "main_image": "loose/tNA_chiikawa-shisa.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Part of a later-wave Chiikawa Dream Tomica release (2025 batch per official takaratomy.co.jp page dated 202508); year approximate. 繁中譯名暫譯。",
+   "photos": [
+    "loose/tNA_chiikawa-shisa.jpg",
+    "raw/IMG_3197.jpg"
+   ],
+   "ip": "吉伊卡哇",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_chiikawa-usagi",
+   "number": "",
+   "name_en": "Dream Tomica SP Chiikawa Usagi (Rabbit)",
+   "name_ja": "ドリームトミカSP ちいかわ うさぎ",
+   "name_zh": "夢幻多美 吉伊卡哇 兔子版(暫譯)",
+   "year": 2023,
+   "series": "Dream Tomica SP",
+   "category": [
+    "character car",
+    "anime collab",
+    "figure car"
+   ],
+   "keywords": [
+    "Chiikawa",
+    "ちいかわ",
+    "うさぎ",
+    "rabbit",
+    "Usagi"
+   ],
+   "source_images": [
+    "https://www.takaratomy.co.jp/products/tomica/sp/chiikawa/images/pic_chiikawa_03.png",
+    "IMG_3200.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_chiikawa-usagi.jpg",
+   "main_image": "loose/tNA_chiikawa-usagi.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "First-wave Chiikawa Dream Tomica, released 2023-06-10 with Chiikawa & Hachiware. 繁中譯名暫譯。",
+   "photos": [
+    "loose/tNA_chiikawa-usagi.jpg",
+    "raw/IMG_3200.jpg"
+   ],
+   "ip": "吉伊卡哇",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_cyclone-magnum",
+   "number": "",
+   "name_en": "Cyclone Magnum",
+   "name_ja": "サイクロンマグナム",
+   "name_zh": "Cyclone Magnum",
+   "year": "2024",
+   "series": "Tomica Premium unlimited x Tamiya (爆走兄弟レッツ&ゴー!! Mini 4WD)",
+   "category": [
+    "迷你四驅車",
+    "聯名",
+    "動漫周邊"
+   ],
+   "keywords": [
+    "Cyclone Magnum",
+    "サイクロンマグナム",
+    "Tamiya Mini 4WD",
+    "爆走兄弟レッツ&ゴー",
+    "Let's & Go",
+    "旋風馬格農"
+   ],
+   "source_images": [
+    "https://www.hlj.co.jp/product/TKT94657",
+    "https://takaratomymall.jp/shop/g/g4904810065272/",
+    "IMG_3140.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_cyclone-magnum.jpg",
+   "main_image": "loose/tNA_cyclone-magnum.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "2024/12/21發售,Tomica x Tamiya聯名迷你四驅車,盒上文字「tomica unlimited」為系列舊稱,現行正式系列名為Tomica Premium unlimited。無官方Tomica番號(迷你四駆系列不編號),圖為官方商品照(非包裝盒)。",
+   "photos": [
+    "loose/tNA_cyclone-magnum.jpg",
+    "raw/IMG_3140.jpg"
+   ],
+   "ip": "爆走兄弟 迷你四驅車",
+   "size": "標準",
+   "has_official": true,
+   "seq": 5
+  },
+  {
+   "id": "tNA_daihatsu_wake_assembly",
+   "number": "",
+   "name_en": "Tomica Assembly Factory Vol.21 Daihatsu Wake",
+   "name_ja": "トミカ 組み立て工場 第21弾 ダイハツ ウェイク",
+   "name_zh": "多美卡 組裝工廠 第21彈 大發 Wake（暫譯）",
+   "year": "2019",
+   "series": "トミカ組み立て工場（Tomica Shop original event series）",
+   "category": [
+    "輕型車",
+    "組裝工場限定",
+    "3台セット"
+   ],
+   "keywords": [
+    "daihatsu",
+    "wake",
+    "assembly factory",
+    "組み立て工場",
+    "第21弾",
+    "ダイハツ",
+    "kei car",
+    "tomica shop"
+   ],
+   "source_images": [
+    "https://www.beep-shop.com/ec/products/detail/30835",
+    "https://www.toys-zero.com/?pid=117164513",
+    "https://img06.shop-pro.jp/PA01109/775/product/117164513.jpg?cmsp_timestamp=20170428000541",
+    "IMG_3124.JPG"
+   ],
+   "box_image": "tNA_daihatsu_wake_assembly.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_daihatsu_wake_assembly.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Tomica Shop 'Assembly Factory' (組み立て工場) 21st installment, Daihatsu Wake, released around Dec 2019 at Tomica Shop Osaka; sold as a 3-car set (different color combinations, box shows yellow/red/blue Wake). No regular Tomica catalog number — this is an event/original item, so id uses tNA_ prefix. Box photo confirmed to show the correct 3-car assembly-factory box matching visible_text.",
+   "photos": [
+    "box/tNA_daihatsu_wake_assembly.jpg",
+    "raw/IMG_3124.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_disney_motors_cubot_nemo",
+   "number": "",
+   "name_en": "Disney Motors Cubot Nemo",
+   "name_ja": "ディズニーモータース キューボット ニモ",
+   "name_zh": "迪士尼小汽車 方塊車 尼莫",
+   "year": "",
+   "series": "Disney Motors Cubot",
+   "category": [
+    "Disney",
+    "diecast",
+    "Cubot"
+   ],
+   "keywords": [
+    "Nemo",
+    "尼莫",
+    "海底總動員",
+    "Finding Nemo",
+    "Cubot"
+   ],
+   "source_images": [
+    "https://item.fril.jp/69595c20d16680a2c2b091cef17d66b3",
+    "IMG_3190.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_disney_motors_cubot_nemo.jpg",
+   "main_image": "loose/tNA_disney_motors_cubot_nemo.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "從 fril.jp 商品頁 og:image 抓得清楚裸車照(https://img.fril.jp/img/778122985/l/2638905113.jpg),Read 自檢確認為橘白 Nemo 造型方塊車,與原描述相符。未找到盒裝照;番號與年份查無資料,未額外耗用 WebSearch。",
+   "photos": [
+    "loose/tNA_disney_motors_cubot_nemo.jpg",
+    "raw/IMG_3190.jpg"
+   ],
+   "ip": "迪士尼",
+   "size": "標準",
+   "has_official": true,
+   "sub": "尼莫"
+  },
+  {
+   "id": "tNA_disney_motors_tsumtsum_baymax",
+   "number": "",
+   "name_en": "Disney Motors Tsum Tsum Baymax",
+   "name_ja": "ディズニーモータース ツムツム ベイマックス",
+   "name_zh": "迪士尼小汽車 疊疊樂 大白",
+   "year": "",
+   "series": "Disney Motors Tsum Tsum",
+   "category": [
+    "Disney",
+    "diecast",
+    "Tsum Tsum"
+   ],
+   "keywords": [
+    "Baymax",
+    "大白",
+    "杯麵",
+    "Big Hero 6",
+    "Tsum Tsum"
+   ],
+   "source_images": [
+    "https://item.fril.jp/11e064b068677a080b5a6ca21a2cf2c1",
+    "IMG_3192.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_disney_motors_tsumtsum_baymax.jpg",
+   "main_image": "loose/tNA_disney_motors_tsumtsum_baymax.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "從 fril.jp 商品頁 og:image 抓得清楚裸車照(https://img.fril.jp/img/840440952/l/2896814136.jpg),Read 自檢確認為白色 Baymax 臉部造型 Tsum Tsum 車體。未找到盒裝照;番號與年份查無資料,未額外耗用 WebSearch。",
+   "photos": [
+    "loose/tNA_disney_motors_tsumtsum_baymax.jpg",
+    "raw/IMG_3192.jpg"
+   ],
+   "ip": "迪士尼",
+   "size": "標準",
+   "has_official": true,
+   "sub": "大白"
+  },
+  {
+   "id": "tNA_disney_resort_cruiser_2026",
+   "number": "",
+   "name_en": "Disney Resort Cruiser (Happy New Year 2026 Version)",
+   "name_ja": "ディズニーリゾートクルーザー HAPPY NEW YEAR 2026",
+   "name_zh": "迪士尼度假區巡遊巴士 2026新年版(暫譯)",
+   "year": "2025",
+   "series": "Disney Vehicle Collection (Tomica)",
+   "category": [
+    "巴士",
+    "迪士尼",
+    "特注/限定"
+   ],
+   "keywords": [
+    "disney",
+    "resort cruiser",
+    "happy new year",
+    "2026",
+    "午年",
+    "horse",
+    "tokyo disney resort",
+    "ディズニービークルコレクション"
+   ],
+   "source_images": [
+    "IMG_3135"
+   ],
+   "box_image": "tNA_disney_resort_cruiser_2026.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_disney_resort_cruiser_2026.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Disney Vehicle Collection 特注品(非一般トミカ番號),2025年12月1日發售,2026丙午年新年版;箱裝照取自部落格開箱文(DSC03397),與參考照片箱面一致確認過。",
+   "photos": [
+    "box/tNA_disney_resort_cruiser_2026.jpg",
+    "raw/IMG_3135.jpg"
+   ],
+   "ip": "迪士尼",
+   "size": "標準",
+   "has_official": true,
+   "sub": "巡遊巴士"
+  },
+  {
+   "id": "tNA_disneycruiser",
+   "number": "",
+   "name_en": "Tokyo Disney Resort Cruiser (opening door version)",
+   "name_ja": "ディズニーリゾートクルーザー(ドア開閉)",
+   "name_zh": "迪士尼度假區巡遊巴士(車門可開闔)",
+   "year": "2008",
+   "series": "Tokyo Disney Resort Vehicle Collection",
+   "category": [
+    "Disney",
+    "diecast",
+    "bus",
+    "resort limited"
+   ],
+   "keywords": [
+    "Tokyo Disney Resort",
+    "接駁巴士",
+    "東京迪士尼",
+    "1/126"
+   ],
+   "source_images": [
+    "IMG_3110.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_disneycruiser.jpg",
+   "main_image": "loose/tNA_disneycruiser.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "既有裸車照為車門開啟處近拍(非全車正面),Read 確認可見紅白車身與開啟車門結構,但構圖不理想、未找到更清楚全車照或官方盒裝照;因冷門東京迪士尼限定品難查證,保留原圖,confidence維持low,未再花WebSearch額度重查。",
+   "photos": [
+    "loose/tNA_disneycruiser.jpg",
+    "raw/IMG_3110.jpg"
+   ],
+   "ip": "迪士尼",
+   "size": "標準",
+   "has_official": true,
+   "sub": "巡遊巴士"
+  },
+  {
+   "id": "tNA_epalette",
+   "number": "",
+   "name_en": "Toyota e-Palette",
+   "name_ja": "トヨタ e-Palette",
+   "name_zh": "豐田 e-Palette",
+   "year": "2021",
+   "series": "Tomica 一般系列",
+   "category": [
+    "自動駕駛車",
+    "商用車"
+   ],
+   "keywords": [
+    "Toyota e-Palette",
+    "トヨタイーパレット",
+    "autonomous shuttle",
+    "自動駕駛接駁車"
+   ],
+   "source_images": [
+    "https://www.hlj.com/toyota-e-palette-tkt14356",
+    "IMG_3144.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_epalette.jpg",
+   "main_image": "loose/tNA_epalette.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "2021/7/17發售,1/32比例,重現東京奧運選手村使用的Toyota e-Palette自動駕駛接駁車。屬一般Tomica常規編號車款,但常規編號經常變動故未填入number。圖為官方商品照(非包裝盒)。",
+   "photos": [
+    "loose/tNA_epalette.jpg",
+    "raw/IMG_3144.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_evo6",
+   "number": "",
+   "name_en": "Tomica Transporter with Mitsubishi Lancer Evolution VI GSR (Tomica Premium)",
+   "name_ja": "tomicaトランスポーター 三菱 ランサーエボリューションVI GSR",
+   "name_zh": "Tomica 運輸車組(附三菱 Lancer Evolution VI GSR)",
+   "year": 2023,
+   "series": "Tomica Premium",
+   "category": [
+    "轎車",
+    "運輸車套組"
+   ],
+   "keywords": [
+    "Lancer Evolution VI",
+    "GSR",
+    "Tomica Transporter",
+    "Tomica Premium",
+    "藍旗亞"
+   ],
+   "source_images": [
+    "IMG_3085.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_evo6.png",
+   "main_image": "loose/tNA_evo6.png",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "無一般Tomica番號(Tomica Premium套組,附專屬配色Lancer Evo VI GSR),2023/7發售,售價2,640円。展示圖取自官方商品頁,顯示運輸車+車輛外觀,非嚴格盒裝正面照。",
+   "photos": [
+    "loose/tNA_evo6.png",
+    "raw/IMG_3085.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_ford-anglia",
+   "number": "",
+   "name_en": "Flying Ford Anglia (Harry Potter, USJ limited)",
+   "name_ja": "飛ぶフォード・アングリア(ハリー・ポッター、USJ限定)",
+   "name_zh": "飛天福特安格里亞(哈利波特,USJ環球影城限定)",
+   "year": "2014",
+   "series": "Tomica Harry Potter (USJ限定)",
+   "category": [
+    "USJ限定",
+    "diecast",
+    "Harry Potter"
+   ],
+   "keywords": [
+    "Ford Anglia",
+    "Harry Potter",
+    "USJ",
+    "環球影城",
+    "哈利波特"
+   ],
+   "source_images": [
+    "https://www.suruga-ya.jp/product/detail/770537400",
+    "https://ameblo.jp/about595/entry-12623336108.html",
+    "IMG_3157.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_ford-anglia.jpg",
+   "main_image": "loose/tNA_ford-anglia.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "既有裸車照(淺藍配白車頂)已 Read 確認清楚可辨識為Ford Anglia造型,與商品比對相符,但缺乏包裝盒文字佐證,故confidence維持low。未找到盒裝照,未再花WebSearch額度重查。",
+   "photos": [
+    "loose/tNA_ford-anglia.jpg",
+    "raw/IMG_3157.jpg"
+   ],
+   "ip": "哈利波特",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_hurricane_sonic",
+   "number": "",
+   "name_en": "Hurricane Sonic",
+   "name_ja": "トミカプレミアムunlimited 爆走兄弟レッツ&ゴー!! ミニ四駆 ハリケーンソニック",
+   "name_zh": "Hurricane Sonic",
+   "year": "2024",
+   "series": "Tomica Premium unlimited (Tomica x Tamiya crossover)",
+   "category": [
+    "跑車",
+    "迷你四驅車",
+    "聯名/特注"
+   ],
+   "keywords": [
+    "hurricane sonic",
+    "let's & go",
+    "mini 4wd",
+    "tamiya",
+    "tomica unlimited",
+    "爆走兄弟",
+    "30周年"
+   ],
+   "source_images": [
+    "IMG_3140"
+   ],
+   "box_image": "tNA_hurricane_sonic.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_hurricane_sonic.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "2024年12月21日發售,Tomica與Tamiya聯名紀念《爆走兄弟Let's&Go!!》30週年,無傳統番號的Tomica Premium unlimited系列品項。箱裝照已與參考照片核對一致。IMG_3140僅取part1(Hurricane Sonic),part2(Cyclone Magnum)不在本批範圍。",
+   "photos": [
+    "box/tNA_hurricane_sonic.jpg",
+    "raw/IMG_3140.jpg"
+   ],
+   "ip": "爆走兄弟 迷你四驅車",
+   "size": "標準",
+   "has_official": true,
+   "seq": 6
+  },
+  {
+   "id": "tNA_littlegreenmen",
+   "number": "",
+   "name_en": "Little Green Men Planet Car",
+   "name_ja": "リトルグリーンメンのプラネットカー",
+   "name_zh": "三眼怪星球車(非官方譯名)",
+   "year": "",
+   "series": "Tokyo Disney Resort Vehicle Collection (Toy Story and Beyond)",
+   "category": [
+    "Disney",
+    "Pixar",
+    "diecast",
+    "resort limited"
+   ],
+   "keywords": [
+    "Little Green Men",
+    "三眼怪",
+    "Toy Story",
+    "玩具總動員",
+    "Alien"
+   ],
+   "source_images": [
+    "IMG_3117.JPG"
+   ],
+   "box_image": "tNA_littlegreenmen.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_littlegreenmen.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "既有盒裝照已 Read 自檢確認清楚可見「リトルグリーンメンのプラネットカー」字樣、Toy Story and Beyond 標誌與角色造型,與商品相符。無官方番號,發售年份查無資料,未再花WebSearch額度重查。",
+   "photos": [
+    "box/tNA_littlegreenmen.jpg",
+    "raw/IMG_3117.jpg"
+   ],
+   "ip": "玩具總動員",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_magnum-saber",
+   "number": "",
+   "name_en": "Magnum Saber",
+   "name_ja": "マグナムセイバー",
+   "name_zh": "Magnum Saber",
+   "year": "2024",
+   "series": "Tomica Premium unlimited x Tamiya (爆走兄弟レッツ&ゴー!! Mini 4WD)",
+   "category": [
+    "迷你四驅車",
+    "聯名",
+    "動漫周邊"
+   ],
+   "keywords": [
+    "Magnum Saber",
+    "マグナムセイバー",
+    "Tamiya Mini 4WD",
+    "爆走兄弟レッツ&ゴー",
+    "Let's & Go",
+    "星馬烈"
+   ],
+   "source_images": [
+    "https://www.hlj.co.jp/product/TKT91568",
+    "IMG_3141.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_magnum-saber.jpg",
+   "main_image": "loose/tNA_magnum-saber.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "2024/3/16發售,主角星馬烈用機,30周年紀念商品。無官方番號,圖為官方商品照(非包裝盒)。",
+   "photos": [
+    "loose/tNA_magnum-saber.jpg",
+    "raw/IMG_3141.jpg"
+   ],
+   "ip": "爆走兄弟 迷你四驅車",
+   "size": "標準",
+   "has_official": true,
+   "seq": 1
+  },
+  {
+   "id": "tNA_minion-bites",
+   "number": "",
+   "name_en": "Minion Car \"Bites\" Ice Cream (USJ exclusive)",
+   "name_ja": "USJオリジナル ミニオンカー Bites アイスクリーム",
+   "name_zh": "小小兵造型車「Bites 冰淇淋」（日本環球影城限定）",
+   "year": "",
+   "series": "Tomica x Minions (USJ exclusive Minion Car line)",
+   "category": [
+    "聯名角色車",
+    "小小兵"
+   ],
+   "keywords": [
+    "Minions",
+    "Minion Car",
+    "USJ",
+    "Bites",
+    "ice cream",
+    "小小兵",
+    "環球影城",
+    "冰淇淋"
+   ],
+   "source_images": [
+    "IMG_3161.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_minion-bites.jpg",
+   "main_image": "loose/tNA_minion-bites.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Confirmed via zero-craft.com listing 'USJオリジナル ミニオンカー Bites アイスクリーム' — product photo visually matches pink/yellow ice-cream unicorn decoration exactly.",
+   "photos": [
+    "loose/tNA_minion-bites.jpg",
+    "raw/IMG_3161.jpg"
+   ],
+   "ip": "小小兵",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_minion_car_bob",
+   "number": "",
+   "name_en": "Minion Car Bob",
+   "name_ja": "ミニオンカー ボブ",
+   "name_zh": "小小兵車 鮑伯(抱著泰迪熊Tim)",
+   "year": "",
+   "series": "Minion Car (USJ限定)",
+   "category": [
+    "USJ限定",
+    "diecast",
+    "Minions"
+   ],
+   "keywords": [
+    "Minion",
+    "小小兵",
+    "Bob",
+    "鮑伯",
+    "USJ",
+    "環球影城"
+   ],
+   "source_images": [
+    "https://item.fril.jp/f559d3c7a433f27dc0a34109e8d817ea",
+    "IMG_3188.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_minion_car_bob.jpg",
+   "main_image": "loose/tNA_minion_car_bob.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "從fril.jp商品頁og:image抓得同時可見裸車與部分包裝盒外箱(MINION CAR BOB / ミニオンカー ボブ字樣)的照片,Read自檢確認清楚,惟因車體較顯眼而歸為loose_image。USJ限定，無官方型錄番號，年份查無資料。",
+   "photos": [
+    "loose/tNA_minion_car_bob.jpg",
+    "raw/IMG_3188.jpg"
+   ],
+   "ip": "小小兵",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_natsume-kuronyanko",
+   "number": "",
+   "name_en": "Dream Tomica SP Natsume's Book of Friends Kuro Nyanko",
+   "name_ja": "ドリームトミカSP 夏目友人帳 黒ニャンコ",
+   "name_zh": "夢幻多美 夏目友人帳 黑貓老師(暫譯)",
+   "year": 2022,
+   "series": "Dream Tomica SP",
+   "category": [
+    "character car",
+    "anime collab",
+    "figure car"
+   ],
+   "keywords": [
+    "Natsume Yuujinchou",
+    "Kuro Nyanko",
+    "Nyanko Sensei",
+    "夏目友人帳",
+    "黒ニャンコ",
+    "cat"
+   ],
+   "source_images": [
+    "https://animeanime.jp/imgs/zoom/492647.jpg",
+    "IMG_3195.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_natsume-kuronyanko.jpg",
+   "main_image": "loose/tNA_natsume-kuronyanko.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Released 2022-05-21 alongside regular Nyanko Sensei (No.166); this is the black variant sold as a Dream Tomica SP companion piece. 繁中譯名暫譯。",
+   "photos": [
+    "loose/tNA_natsume-kuronyanko.jpg",
+    "raw/IMG_3195.jpg"
+   ],
+   "ip": "夏目友人帳",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_oshi_no_ko_concert_truck",
+   "number": "",
+   "name_en": "Oshi no Ko Dream Tomica SP Concert Truck - Komachi ver.",
+   "name_ja": "【推しの子】ドリームトミカSP コンサートトラック（アイ推しver.？）小町ver.",
+   "name_zh": "多美夢幻SP 我推的孩子 演唱會卡車 小町(Komachi)版",
+   "year": "",
+   "series": "Dream Tomica SP",
+   "category": [
+    "Dream Tomica SP",
+    "Oshi no Ko"
+   ],
+   "keywords": [
+    "推しの子",
+    "我推的孩子",
+    "コンサートトラック",
+    "Komachi",
+    "小町",
+    "演唱會卡車"
+   ],
+   "source_images": [
+    "https://item.fril.jp/02eded511e823b47286ecbc629b21ef9",
+    "IMG_3194.JPG"
+   ],
+   "box_image": "tNA_oshi_no_ko_concert_truck.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_oshi_no_ko_concert_truck.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "包裝盒照清楚顯示OSHI NO KO字樣與粉色演唱會卡車插畫，與visible_text一致；具體發售年份未查得",
+   "photos": [
+    "box/tNA_oshi_no_ko_concert_truck.jpg",
+    "raw/IMG_3194.jpg"
+   ],
+   "ip": "我推的孩子",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_oshinoko-concert-truck-aqua-ruby",
+   "number": "",
+   "name_en": "Dream Tomica SP [Oshi no Ko] Concert Truck Aqua & Ruby ver.",
+   "name_ja": "ドリームトミカSP 【推しの子】コンサートトラック アクア&ルビーver.",
+   "name_zh": "夢幻多美 我推的孩子 演唱會卡車 愛久亞&露比版(暫譯)",
+   "year": 2024,
+   "series": "Dream Tomica SP",
+   "category": [
+    "truck",
+    "anime collab",
+    "opening stage"
+   ],
+   "keywords": [
+    "Oshi no Ko",
+    "推しの子",
+    "Aqua",
+    "Ruby",
+    "concert truck",
+    "アクア",
+    "ルビー"
+   ],
+   "source_images": [
+    "https://car.watch.impress.co.jp/img/car/docs/1549/996/007_o.jpg",
+    "IMG_3196.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_oshinoko-concert-truck-aqua-ruby.jpg",
+   "main_image": "loose/tNA_oshinoko-concert-truck-aqua-ruby.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Takaratomy Mall original; sold as pair with B-Komachi ver. Released 2024, pre-orders opened 2023-12-04. Container opens to reveal Aqua & Ruby stage art. 繁中譯名暫譯。",
+   "photos": [
+    "loose/tNA_oshinoko-concert-truck-aqua-ruby.jpg",
+    "raw/IMG_3196.jpg"
+   ],
+   "ip": "我推的孩子",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_raystinger",
+   "number": "",
+   "name_en": "Ray Stinger",
+   "name_ja": "レイスティンガー",
+   "name_zh": "Ray Stinger",
+   "year": 2026,
+   "series": "Tomica Premium unlimited",
+   "category": [
+    "跑車",
+    "迷你四驅車聯名"
+   ],
+   "keywords": [
+    "Ray Stinger",
+    "爆走兄弟",
+    "Let's & Go",
+    "Tamiya",
+    "mini 4WD",
+    "雷刺客"
+   ],
+   "source_images": [
+    "IMG_3074.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_raystinger.jpg",
+   "main_image": "loose/tNA_raystinger.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "無正式Tomica番號(同上聯名系列)。中文名暫譯。展示圖為官方單車去背照,非盒裝照。",
+   "photos": [
+    "loose/tNA_raystinger.jpg",
+    "raw/IMG_3074.jpg"
+   ],
+   "ip": "爆走兄弟 迷你四驅車",
+   "size": "標準",
+   "has_official": true,
+   "seq": 8
+  },
+  {
+   "id": "tNA_sonic-saber",
+   "number": "",
+   "name_en": "Sonic Saber",
+   "name_ja": "ソニックセイバー",
+   "name_zh": "Sonic Saber",
+   "year": "2024",
+   "series": "Tomica Premium unlimited x Tamiya (爆走兄弟レッツ&ゴー!! Mini 4WD)",
+   "category": [
+    "迷你四驅車",
+    "聯名",
+    "動漫周邊"
+   ],
+   "keywords": [
+    "Sonic Saber",
+    "ソニックセイバー",
+    "Tamiya Mini 4WD",
+    "爆走兄弟レッツ&ゴー",
+    "Let's & Go",
+    "星馬豪"
+   ],
+   "source_images": [
+    "https://www.hlj.co.jp/product/TKT91569",
+    "IMG_3141.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_sonic-saber.jpg",
+   "main_image": "loose/tNA_sonic-saber.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "2024/3/16與Magnum Saber同時發售,主角星馬豪用機。無官方番號,圖為官方商品照(非包裝盒)。",
+   "photos": [
+    "loose/tNA_sonic-saber.jpg",
+    "raw/IMG_3141.jpg"
+   ],
+   "ip": "爆走兄弟 迷你四驅車",
+   "size": "標準",
+   "has_official": true,
+   "seq": 2
+  },
+  {
+   "id": "tNA_sumikko-yumemirufune-neko",
+   "number": "",
+   "name_en": "Dream Tomica SP Sumikko Gurashi Yumemiru Fune Neko",
+   "name_ja": "ドリームトミカSP すみっコぐらし ゆめみるふね ねこ",
+   "name_zh": "夢幻多美 角落小夥伴 夢幻船 貓咪版(暫譯)",
+   "year": 2025,
+   "series": "Dream Tomica SP",
+   "category": [
+    "boat car",
+    "anime collab",
+    "novelty vehicle"
+   ],
+   "keywords": [
+    "Sumikko Gurashi",
+    "すみっコぐらし",
+    "ねこ",
+    "neko",
+    "cat",
+    "ゆめみるふね"
+   ],
+   "source_images": [
+    "https://www.takaratomy.co.jp/products/tomica/sp/sumikkogurashi/images/pic_dt_sg_202509_neko_01.webp",
+    "IMG_3210.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_sumikko-yumemirufune-neko.jpg",
+   "main_image": "loose/tNA_sumikko-yumemirufune-neko.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Released 2025-09-20. 繁中譯名暫譯。",
+   "photos": [
+    "loose/tNA_sumikko-yumemirufune-neko.jpg",
+    "raw/IMG_3210.jpg"
+   ],
+   "ip": "角落小夥伴",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_sumikko-yumemirufune-pengin",
+   "number": "",
+   "name_en": "Dream Tomica SP Sumikko Gurashi Yumemiru Fune Pengin?",
+   "name_ja": "ドリームトミカSP すみっコぐらし ゆめみるふね ぺんぎん?",
+   "name_zh": "夢幻多美 角落小夥伴 夢幻船 企鵝(?)版(暫譯)",
+   "year": 2025,
+   "series": "Dream Tomica SP",
+   "category": [
+    "boat car",
+    "anime collab",
+    "novelty vehicle"
+   ],
+   "keywords": [
+    "Sumikko Gurashi",
+    "すみっコぐらし",
+    "ぺんぎん",
+    "penguin?",
+    "ゆめみるふね",
+    "dream ship"
+   ],
+   "source_images": [
+    "https://www.takaratomy.co.jp/products/tomica/sp/sumikkogurashi/images/pic_dt_sg_202509_penguin_01.webp",
+    "IMG_3207.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_sumikko-yumemirufune-pengin.jpg",
+   "main_image": "loose/tNA_sumikko-yumemirufune-pengin.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Character name officially includes a question mark (ぺんぎん？, \"penguin?\" — an identity joke in Sumikko Gurashi canon). Released 2025-09-20. 繁中譯名暫譯。",
+   "photos": [
+    "loose/tNA_sumikko-yumemirufune-pengin.jpg",
+    "raw/IMG_3207.jpg"
+   ],
+   "ip": "角落小夥伴",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_sumikko-yumemirufune-shirokuma",
+   "number": "",
+   "name_en": "Dream Tomica SP Sumikko Gurashi Yumemiru Fune Shirokuma",
+   "name_ja": "ドリームトミカSP すみっコぐらし ゆめみるふね しろくま",
+   "name_zh": "夢幻多美 角落小夥伴 夢幻船 白熊版(暫譯)",
+   "year": 2025,
+   "series": "Dream Tomica SP",
+   "category": [
+    "boat car",
+    "anime collab",
+    "novelty vehicle"
+   ],
+   "keywords": [
+    "Sumikko Gurashi",
+    "すみっコぐらし",
+    "しろくま",
+    "shirokuma",
+    "ゆめみるふね",
+    "dream ship"
+   ],
+   "source_images": [
+    "https://www.takaratomy.co.jp/products/tomica/sp/sumikkogurashi/images/pic_dt_sg_202509_shirokuma_01.webp",
+    "IMG_3206.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_sumikko-yumemirufune-shirokuma.jpg",
+   "main_image": "loose/tNA_sumikko-yumemirufune-shirokuma.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Part of 5-piece Yumemiru Fune (dream boat) series released 2025-09-20. 繁中譯名暫譯。",
+   "photos": [
+    "loose/tNA_sumikko-yumemirufune-shirokuma.jpg",
+    "raw/IMG_3206.jpg"
+   ],
+   "ip": "角落小夥伴",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_sumikko-yumemirufune-tonkatsu",
+   "number": "",
+   "name_en": "Dream Tomica SP Sumikko Gurashi Yumemiru Fune Tonkatsu",
+   "name_ja": "ドリームトミカSP すみっコぐらし ゆめみるふね とんかつ",
+   "name_zh": "夢幻多美 角落小夥伴 夢幻船 炸豬排版(暫譯)",
+   "year": 2025,
+   "series": "Dream Tomica SP",
+   "category": [
+    "boat car",
+    "anime collab",
+    "novelty vehicle"
+   ],
+   "keywords": [
+    "Sumikko Gurashi",
+    "すみっコぐらし",
+    "とんかつ",
+    "tonkatsu",
+    "pork cutlet",
+    "ゆめみるふね"
+   ],
+   "source_images": [
+    "https://www.takaratomy.co.jp/products/tomica/sp/sumikkogurashi/images/pic_dt_sg_202509_tonkatsu_01.webp",
+    "IMG_3209.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_sumikko-yumemirufune-tonkatsu.jpg",
+   "main_image": "loose/tNA_sumikko-yumemirufune-tonkatsu.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Released 2025-09-20. 繁中譯名暫譯。",
+   "photos": [
+    "loose/tNA_sumikko-yumemirufune-tonkatsu.jpg",
+    "raw/IMG_3209.jpg"
+   ],
+   "ip": "角落小夥伴",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_usj_mariokart_bowser",
+   "number": "",
+   "name_en": "Mario Kart Bowser (USJ limited)",
+   "name_ja": "マリオカート クッパ",
+   "name_zh": "瑪利歐賽車 庫巴",
+   "year": "2020",
+   "series": "Tomica Mario Kart (USJ限定)",
+   "category": [
+    "USJ限定",
+    "diecast",
+    "Mario Kart"
+   ],
+   "keywords": [
+    "Bowser",
+    "庫巴",
+    "Mario Kart",
+    "瑪利歐賽車",
+    "USJ",
+    "Super Nintendo World"
+   ],
+   "source_images": [
+    "https://item.fril.jp/9737c82d1baf986dad77e90538f85446",
+    "IMG_3187.JPG"
+   ],
+   "box_image": "tNA_usj_mariokart_bowser.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_usj_mariokart_bowser.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "從fril.jp商品頁og:image抓得清楚盒裝正面照(トミカ MARIOKART),Read自檢確認角色為Bowser、與其餘同系列包裝設計一致。USJ園區限定，無官方型錄番號；注意另有Bowser Jr.不同款。",
+   "photos": [
+    "box/tNA_usj_mariokart_bowser.jpg",
+    "raw/IMG_3187.jpg"
+   ],
+   "ip": "瑪利歐賽車",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_usj_mariokart_luigi",
+   "number": "",
+   "name_en": "Mario Kart Luigi (USJ limited)",
+   "name_ja": "マリオカート ルイージ",
+   "name_zh": "瑪利歐賽車 路易吉",
+   "year": "2020",
+   "series": "Tomica Mario Kart (USJ限定)",
+   "category": [
+    "USJ限定",
+    "diecast",
+    "Mario Kart"
+   ],
+   "keywords": [
+    "Luigi",
+    "路易吉",
+    "Mario Kart",
+    "瑪利歐賽車",
+    "USJ",
+    "Super Nintendo World"
+   ],
+   "source_images": [
+    "https://store.shopping.yahoo.co.jp/media-world/65305261001.html",
+    "IMG_3185.JPG"
+   ],
+   "box_image": "tNA_usj_mariokart_luigi.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_usj_mariokart_luigi.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "既有盒裝照已Read自檢確認清楚可見綠色Luigi與MARIOKART系列包裝設計,與其餘同系列一致(一般版而非黑色SPECIAL EDITION)。USJ園區限定，無官方型錄番號。",
+   "photos": [
+    "box/tNA_usj_mariokart_luigi.jpg",
+    "raw/IMG_3185.jpg"
+   ],
+   "ip": "瑪利歐賽車",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_usj_mariokart_mario",
+   "number": "",
+   "name_en": "Mario Kart Mario (USJ limited)",
+   "name_ja": "マリオカート マリオ",
+   "name_zh": "瑪利歐賽車 瑪利歐",
+   "year": "2020",
+   "series": "Tomica Mario Kart (USJ限定)",
+   "category": [
+    "USJ限定",
+    "diecast",
+    "Mario Kart"
+   ],
+   "keywords": [
+    "Mario",
+    "瑪利歐",
+    "Mario Kart",
+    "瑪利歐賽車",
+    "USJ",
+    "Super Nintendo World"
+   ],
+   "source_images": [
+    "https://item.fril.jp/d206d61c556bc24e5bfdf7f72d493861",
+    "IMG_3186.JPG"
+   ],
+   "box_image": "tNA_usj_mariokart_mario.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_usj_mariokart_mario.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "從fril.jp商品頁og:image抓得清楚盒裝正面照,Read自檢確認角色與MARIOKART系列設計相符。USJ園區限定，無官方型錄番號。",
+   "photos": [
+    "box/tNA_usj_mariokart_mario.jpg",
+    "raw/IMG_3186.jpg"
+   ],
+   "ip": "瑪利歐賽車",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_usj_mariokart_peach",
+   "number": "",
+   "name_en": "Mario Kart Peach (USJ limited)",
+   "name_ja": "マリオカート ピーチ",
+   "name_zh": "瑪利歐賽車 碧姬公主",
+   "year": "2020",
+   "series": "Tomica Mario Kart (USJ限定)",
+   "category": [
+    "USJ限定",
+    "diecast",
+    "Mario Kart"
+   ],
+   "keywords": [
+    "Peach",
+    "碧姬公主",
+    "Mario Kart",
+    "瑪利歐賽車",
+    "USJ",
+    "Super Nintendo World"
+   ],
+   "source_images": [
+    "https://item.fril.jp/7f8c94e788b4fbe7ad8a1029be1c6545",
+    "IMG_3182.JPG"
+   ],
+   "box_image": "tNA_usj_mariokart_peach.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_usj_mariokart_peach.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "從fril.jp商品頁og:image抓得清楚盒裝正面照,Read自檢確認角色為Peach與MARIOKART系列設計相符。USJ環球影城超級任天堂世界園區限定商品(約¥1,600)，無官方型錄番號；系列約2020年12月上市。",
+   "photos": [
+    "box/tNA_usj_mariokart_peach.jpg",
+    "raw/IMG_3182.jpg"
+   ],
+   "ip": "瑪利歐賽車",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_usj_mariokart_toad",
+   "number": "",
+   "name_en": "Mario Kart Toad (USJ limited)",
+   "name_ja": "マリオカート キノピオ",
+   "name_zh": "瑪利歐賽車 奇諾比奧(蘑菇仔)",
+   "year": "2020",
+   "series": "Tomica Mario Kart (USJ限定)",
+   "category": [
+    "USJ限定",
+    "diecast",
+    "Mario Kart"
+   ],
+   "keywords": [
+    "Toad",
+    "奇諾比奧",
+    "蘑菇仔",
+    "Mario Kart",
+    "瑪利歐賽車",
+    "USJ"
+   ],
+   "source_images": [
+    "https://item.fril.jp/b6dfb8ebc44b49e5dbc9cd42c43b9dd7",
+    "IMG_3184.JPG"
+   ],
+   "box_image": "tNA_usj_mariokart_toad.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_usj_mariokart_toad.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "從fril.jp商品頁og:image抓得清楚盒裝正面照,Read自檢確認角色為Toad與MARIOKART系列設計相符。USJ園區限定，無官方型錄番號。",
+   "photos": [
+    "box/tNA_usj_mariokart_toad.jpg",
+    "raw/IMG_3184.jpg"
+   ],
+   "ip": "瑪利歐賽車",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_usj_mariokart_yoshi",
+   "number": "",
+   "name_en": "Mario Kart Yoshi (USJ limited)",
+   "name_ja": "マリオカート ヨッシー",
+   "name_zh": "瑪利歐賽車 耀西",
+   "year": "2020",
+   "series": "Tomica Mario Kart (USJ限定)",
+   "category": [
+    "USJ限定",
+    "diecast",
+    "Mario Kart"
+   ],
+   "keywords": [
+    "Yoshi",
+    "耀西",
+    "Mario Kart",
+    "瑪利歐賽車",
+    "USJ",
+    "Super Nintendo World"
+   ],
+   "source_images": [
+    "https://item.fril.jp/755300874",
+    "IMG_3183.JPG"
+   ],
+   "box_image": "tNA_usj_mariokart_yoshi.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_usj_mariokart_yoshi.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "既有盒裝照已Read自檢確認清楚可見綠色Yoshi與MARIOKART系列包裝設計,與其餘同系列一致。原fril.jp頁面重新抓取時商品已下架(og:image改回站方預設圖),沿用既有已驗證圖檔,未額外耗用WebSearch。USJ園區限定，無官方型錄番號。",
+   "photos": [
+    "box/tNA_usj_mariokart_yoshi.jpg",
+    "raw/IMG_3183.jpg"
+   ],
+   "ip": "瑪利歐賽車",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_vanguard-sonic",
+   "number": "",
+   "name_en": "Vanguard Sonic",
+   "name_ja": "バンガードソニック",
+   "name_zh": "Vanguard Sonic",
+   "year": "2024",
+   "series": "Tomica Premium unlimited x Tamiya (爆走兄弟レッツ&ゴー!! Mini 4WD)",
+   "category": [
+    "迷你四驅車",
+    "聯名",
+    "動漫周邊"
+   ],
+   "keywords": [
+    "Vanguard Sonic",
+    "バンガードソニック",
+    "Tamiya Mini 4WD",
+    "爆走兄弟レッツ&ゴー",
+    "Let's & Go"
+   ],
+   "source_images": [
+    "https://www.hlj.co.jp/product/TKT93432",
+    "IMG_3153.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_vanguard-sonic.jpg",
+   "main_image": "loose/tNA_vanguard-sonic.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "2024/8/17發售,第二代機體。無官方番號,圖為官方商品照(非包裝盒)。",
+   "photos": [
+    "loose/tNA_vanguard-sonic.jpg",
+    "raw/IMG_3153.jpg"
+   ],
+   "ip": "爆走兄弟 迷你四驅車",
+   "size": "標準",
+   "has_official": true,
+   "seq": 4
+  },
+  {
+   "id": "tNA_victory-magnum",
+   "number": "",
+   "name_en": "Victory Magnum",
+   "name_ja": "ビクトリーマグナム",
+   "name_zh": "Victory Magnum",
+   "year": "2024",
+   "series": "Tomica Premium unlimited x Tamiya (爆走兄弟レッツ&ゴー!! Mini 4WD)",
+   "category": [
+    "迷你四驅車",
+    "聯名",
+    "動漫周邊"
+   ],
+   "keywords": [
+    "Victory Magnum",
+    "ビクトリーマグナム",
+    "Tamiya Mini 4WD",
+    "爆走兄弟レッツ&ゴー",
+    "Let's & Go"
+   ],
+   "source_images": [
+    "https://www.hlj.co.jp/product/TKT93433",
+    "IMG_3152.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_victory-magnum.jpg",
+   "main_image": "loose/tNA_victory-magnum.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "2024/8/17與Vanguard Sonic同時發售,為星馬兄弟第二代機體。無官方番號,圖為官方商品照(非包裝盒)。",
+   "photos": [
+    "loose/tNA_victory-magnum.jpg",
+    "raw/IMG_3152.jpg"
+   ],
+   "ip": "爆走兄弟 迷你四驅車",
+   "size": "標準",
+   "has_official": true,
+   "seq": 3
+  },
+  {
+   "id": "tNA_zootopia2",
+   "number": "",
+   "name_en": "Dream Tomica SP Disney Motors Goody Carry - Zootopia 2",
+   "name_ja": "ドリームトミカ SP ディズニーモータース グッディキャリー ズートピア2",
+   "name_zh": "夢幻多美 SP 迪士尼汽車 好夥伴貨車 動物方城市2(非官方譯名)",
+   "year": "2025",
+   "series": "Dream Tomica SP / Disney Motors",
+   "category": [
+    "迪士尼",
+    "動物方城市",
+    "貨車"
+   ],
+   "keywords": [
+    "zootopia",
+    "disney motors",
+    "goody carry",
+    "dream tomica",
+    "truck"
+   ],
+   "source_images": [
+    "IMG_3118.JPG"
+   ],
+   "box_image": "tNA_zootopia2.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_zootopia2.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "發售日 2025-11-08(HLJ 商品頁);無官方番號,中文名為非官方翻譯",
+   "photos": [
+    "box/tNA_zootopia2.jpg",
+    "raw/IMG_3118.jpg"
+   ],
+   "ip": "動物方城市",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_zootopia2judy",
+   "number": "",
+   "name_en": "Dream Tomica SP Zootopia 2 Judy",
+   "name_ja": "ドリームトミカ SP ズートピア2 ジュディ",
+   "name_zh": "夢幻多美卡 SP 動物方城市2 茱蒂",
+   "year": "2025",
+   "series": "Dream Tomica SP",
+   "category": [
+    "角色車",
+    "迪士尼",
+    "電影角色"
+   ],
+   "keywords": [
+    "zootopia",
+    "judy hopps",
+    "disney",
+    "police"
+   ],
+   "source_images": [
+    "IMG_3107.JPG"
+   ],
+   "box_image": "tNA_zootopia2judy.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_zootopia2judy.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "無官方番號;紀念電影《動物方城市2》發售,2025年11月8日出貨,車身以茱蒂臉部與警察制服為造型；中文名為非官方翻譯",
+   "photos": [
+    "box/tNA_zootopia2judy.jpg",
+    "raw/IMG_3107.jpg"
+   ],
+   "ip": "動物方城市",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tP052",
+   "number": "P052",
+   "name_en": "Mitsubishi Fuso Aero Queen",
+   "name_ja": "三菱ふそう エアロクィーン",
+   "name_zh": "三菱扶桑 Aero Queen 巴士",
+   "year": "",
+   "series": "Pocket Tomica (ポケットトミカ) Vol.12",
+   "category": [
+    "巴士",
+    "Pocket Tomica"
+   ],
+   "keywords": [
+    "pocket tomica",
+    "P052",
+    "fuso",
+    "aero queen",
+    "taito prize",
+    "yellow black"
+   ],
+   "source_images": [
+    "IMG_3139"
+   ],
+   "box_image": "tP052.jpg",
+   "loose_image": "",
+   "main_image": "box/tP052.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "タイトー景品系列Pocket Tomica,箱裝照(黃/黑塗裝)已與參考照片核對一致。",
+   "photos": [
+    "box/tP052.jpg",
+    "raw/IMG_3139.jpg"
+   ],
+   "ip": "",
+   "size": "口袋",
+   "has_official": true
+  },
+  {
+   "id": "tP056",
+   "number": "P056",
+   "name_en": "Isuzu Elf (Cool Delivery Service)",
+   "name_ja": "いすゞ エルフ クール宅配便",
+   "name_zh": "五十鈴 Elf 冷藏宅配車",
+   "year": "",
+   "series": "Pocket Tomica (ポケットトミカ) Vol.12",
+   "category": [
+    "貨車",
+    "Pocket Tomica"
+   ],
+   "keywords": [
+    "pocket tomica",
+    "P056",
+    "isuzu elf",
+    "cool delivery",
+    "クール宅配便",
+    "taito prize"
+   ],
+   "source_images": [
+    "IMG_3139"
+   ],
+   "box_image": "tP056.jpg",
+   "loose_image": "",
+   "main_image": "box/tP056.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "タイトー景品系列Pocket Tomica,箱裝照已與參考照片核對一致(白色車身+クール宅配便字樣)。",
+   "photos": [
+    "box/tP056.jpg",
+    "raw/IMG_3139.jpg"
+   ],
+   "ip": "",
+   "size": "口袋",
+   "has_official": true
+  },
+  {
+   "id": "tR10_pikachu_ballcar",
+   "number": "",
+   "name_en": "Dream Tomica Ride On R10 Pikachu & Monster Ball Car",
+   "name_ja": "ドリームトミカ ライドオン R10 ピカチュウ＆モンスターボールカー",
+   "name_zh": "夢幻多美 Ride On R10 皮卡丘與精靈球車",
+   "year": "",
+   "series": "ドリームトミカ ライドオン",
+   "category": [
+    "造型車",
+    "寶可夢聯名"
+   ],
+   "keywords": [
+    "pikachu",
+    "monster ball car",
+    "pokemon tomica",
+    "dream tomica ride on r10"
+   ],
+   "source_images": [
+    "https://tshop.r10s.jp/diomart/cabinet/diopic/systempic865/dio-07hpd555z1.jpg",
+    "IMG_3091.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "tR10_pikachu_ballcar.jpg",
+   "main_image": "loose/tR10_pikachu_ballcar.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "JAN 4904810119432;僅找到清楚裸車產品照,未找到包裝盒照",
+   "photos": [
+    "loose/tR10_pikachu_ballcar.jpg",
+    "raw/IMG_3091.jpg"
+   ],
+   "ip": "寶可夢",
+   "size": "標準",
+   "has_official": true,
+   "sub": "皮卡丘"
+  },
+  {
+   "id": "t_ghibli01_totoro_nekobus",
+   "number": "",
+   "name_en": "Dream Tomica Ghibli Collection 01 My Neighbor Totoro - Catbus (Nekobus)",
+   "name_ja": "ドリームトミカ ジブリがいっぱい 01 となりのトトロ ネコバス",
+   "name_zh": "夢幻多美 吉卜力大集合 01 龍貓 貓巴士",
+   "year": "",
+   "series": "ドリームトミカ ジブリがいっぱい",
+   "category": [
+    "造型車(貓巴士)",
+    "吉卜力聯名"
+   ],
+   "keywords": [
+    "totoro",
+    "nekobus",
+    "catbus",
+    "ghibli tomica",
+    "龍貓",
+    "貓巴士"
+   ],
+   "source_images": [
+    "https://tshop.r10s.jp/diomart/cabinet/diopic/systempic297/b0bgkjqz9mv-00.jpg",
+    "IMG_3095.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t_ghibli01_totoro_nekobus.jpg",
+   "main_image": "loose/t_ghibli01_totoro_nekobus.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "品番 4904810212331;僅找到清楚裸車產品照,未找到包裝盒照",
+   "photos": [
+    "loose/t_ghibli01_totoro_nekobus.jpg",
+    "raw/IMG_3095.jpg"
+   ],
+   "ip": "吉卜力",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t_ghibli02_porco_rosso",
+   "number": "",
+   "name_en": "Dream Tomica Ghibli Collection 02 Porco Rosso - Savoia S.21F",
+   "name_ja": "ドリームトミカ ジブリがいっぱい 02 紅の豚 サボイアS.21F",
+   "name_zh": "夢幻多美 吉卜力大集合 02 紅豬 薩伏亞 S.21F",
+   "year": 2022,
+   "series": "ドリームトミカ ジブリがいっぱい",
+   "category": [
+    "造型車(水上飛機)",
+    "吉卜力聯名"
+   ],
+   "keywords": [
+    "porco rosso",
+    "savoia s.21f",
+    "ghibli tomica",
+    "紅豬",
+    "水上飛機"
+   ],
+   "source_images": [
+    "https://tshop.r10s.jp/gloria-kyoto/cabinet/4904810212348.jpg",
+    "IMG_3094.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t_ghibli02_porco_rosso.jpg",
+   "main_image": "loose/t_ghibli02_porco_rosso.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "JAN 4904810212348,2022-11-19發售;僅找到清楚裸車產品照,未找到包裝盒照",
+   "photos": [
+    "loose/t_ghibli02_porco_rosso.jpg",
+    "raw/IMG_3094.jpg"
+   ],
+   "ip": "吉卜力",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t_ghibli03_umihara_densha",
+   "number": "",
+   "name_en": "Dream Tomica Ghibli Collection 03 Spirited Away - Umihara Electric Railway",
+   "name_ja": "ドリームトミカ ジブリがいっぱい 03 千と千尋の神隠し 海原電鉄",
+   "name_zh": "夢幻多美 吉卜力大集合 03 神隱少女 海原電鐵",
+   "year": "",
+   "series": "ドリームトミカ ジブリがいっぱい",
+   "category": [
+    "造型車(電車)",
+    "吉卜力聯名"
+   ],
+   "keywords": [
+    "spirited away",
+    "umihara railway",
+    "ghibli tomica",
+    "神隱少女",
+    "海原電鐵"
+   ],
+   "source_images": [
+    "https://tshop.r10s.jp/gloria-kyoto/cabinet/4904810189916.jpg",
+    "IMG_3096.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t_ghibli03_umihara_densha.jpg",
+   "main_image": "loose/t_ghibli03_umihara_densha.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "JAN 4904810189916;僅找到清楚裸車產品照,未找到包裝盒照",
+   "photos": [
+    "loose/t_ghibli03_umihara_densha.jpg",
+    "raw/IMG_3096.jpg"
+   ],
+   "ip": "吉卜力",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t_ghibli05_ponyo_boat",
+   "number": "",
+   "name_en": "Dream Tomica Ghibli Collection 05 Ponyo - Sosuke's Pon-Pon Boat",
+   "name_ja": "ドリームトミカ ジブリがいっぱい 05 崖の上のポニョ 宗介のポンポン船",
+   "name_zh": "夢幻多美 吉卜力大集合 05 崖上的波妞 宗介的噗噗船",
+   "year": 2022,
+   "series": "ドリームトミカ ジブリがいっぱい",
+   "category": [
+    "造型車(船)",
+    "吉卜力聯名"
+   ],
+   "keywords": [
+    "ponyo",
+    "sosuke boat",
+    "ghibli tomica",
+    "波妞",
+    "宗介"
+   ],
+   "source_images": [
+    "https://tshop.r10s.jp/hobbyone/cabinet/plamodel/sonota2/4904810221722.jpg",
+    "IMG_3093.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "t_ghibli05_ponyo_boat.jpg",
+   "main_image": "loose/t_ghibli05_ponyo_boat.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "JAN 4904810221722;僅找到清楚裸車產品照,未找到包裝盒照",
+   "photos": [
+    "loose/t_ghibli05_ponyo_boat.jpg",
+    "raw/IMG_3093.jpg"
+   ],
+   "ip": "吉卜力",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tjudy",
+   "number": "",
+   "name_en": "Zootopia Tomica Judy's Mini Patrol Car",
+   "name_ja": "ドリームトミカSP ズートピア ジュディのミニパトカー",
+   "name_zh": "夢幻多美卡 SP 朱迪的迷你巡邏車(動物方城市)",
+   "year": "",
+   "series": "Dream Tomica SP",
+   "category": [
+    "Disney",
+    "diecast",
+    "Dream Tomica SP",
+    "Zootopia"
+   ],
+   "keywords": [
+    "Judy",
+    "朱迪",
+    "Zootopia",
+    "動物方城市",
+    "ZPD",
+    "巡邏車"
+   ],
+   "source_images": [
+    "https://d2ev13g7cze5ka.cloudfront.net/tkt/tkt85643_0_1459220298.jpg",
+    "IMG_3131.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "tjudy.jpg",
+   "main_image": "loose/tjudy.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "既有裸車照已Read自檢確認清楚可見白色ZPD警車造型與Judy人偶,與商品相符。JAN 4904810099741 / HLJ SKU TKT85643,SP特別項目無正式型錄編號;另有2025年Zootopia 2紀念版可能為不同款,無法確認確切版本，故confidence維持low，未再花WebSearch額度重查。",
+   "photos": [
+    "loose/tjudy.jpg",
+    "raw/IMG_3131.jpg"
+   ],
+   "ip": "動物方城市",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t10_kaonashi",
+   "number": "10",
+   "name_en": "No-Face (Kaonashi)",
+   "name_ja": "カオナシ",
+   "name_zh": "神隱少女 無臉男",
+   "year": "",
+   "series": "夢幻多美 吉卜力大集合 (Dream Tomica Ghibli)",
+   "category": [
+    "Ghibli",
+    "diecast",
+    "Dream Tomica"
+   ],
+   "keywords": [
+    "Kaonashi",
+    "無臉男",
+    "神隱少女",
+    "Spirited Away",
+    "吉卜力"
+   ],
+   "source_images": [
+    "IMG_3092.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "",
+   "main_image": "raw/IMG_3092.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "從盒裝文字與圖像確認為吉卜力系列10號カオナシ,但查無JAN可核對年份;多方嘗試(rakuten/kakaku/tsurumai-hobby)均找不到可信第三方展示照,寧缺勿錯,未再花WebSearch額度重查,box_image/loose_image皆留空。",
+   "photos": [
+    "raw/IMG_3092.jpg"
+   ],
+   "ip": "吉卜力",
+   "size": "標準",
+   "has_official": false
+  },
+  {
+   "id": "t141",
+   "number": "141",
+   "name_en": "Jurassic World Tour Vehicle",
+   "name_ja": "ジュラシック・ワールド ツアービークル",
+   "name_zh": "侏儸紀世界 導覽車",
+   "year": "2018",
+   "series": "Dream Tomica",
+   "category": [
+    "電影/角色車"
+   ],
+   "keywords": [
+    "Jurassic Park",
+    "Jurassic World",
+    "Ford Explorer",
+    "Tour Vehicle",
+    "電影周邊"
+   ],
+   "source_images": [
+    "IMG_3165.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "t141.jpg",
+   "main_image": "loose/t141.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Dream Tomica No.141,2018年發售(侏儸紀公園25週年/侏儸紀世界2上映紀念)。裸車照取自 HLJ.co.jp 商品頁,經比對車身塗裝、JURASSIC PARK字樣、車型皆吻合。",
+   "photos": [
+    "loose/t141.jpg",
+    "raw/IMG_3165.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "t72",
+   "number": "72",
+   "name_en": "Hino S'Elega JR Bus Tohoku Komachi Color",
+   "name_ja": "日野セレガ ジェイアールバス東北 こまちカラー",
+   "name_zh": "日野 Selega JR巴士東北（Komachi 新幹線塗裝）",
+   "year": "2015",
+   "series": "Tomica",
+   "category": [
+    "巴士",
+    "交通工具"
+   ],
+   "keywords": [
+    "Hino Selega",
+    "JR Bus Tohoku",
+    "Komachi",
+    "Shinkansen livery",
+    "巴士"
+   ],
+   "source_images": [
+    "IMG_3172.jpg"
+   ],
+   "box_image": "t72.jpg",
+   "loose_image": "",
+   "main_image": "box/t72.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Tomica No.72,2015年12月發售,以秋田新幹線 Komachi(E6系)塗裝為藍本。盒裝正面照取自 hobbyland-pochi.net,文字、紅白塗裝、車型皆吻合。",
+   "photos": [
+    "box/t72.jpg",
+    "raw/IMG_3172.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_aquarium",
+   "number": "",
+   "name_en": "Tomica Town Aquarium (with Tomica)",
+   "name_ja": "トミカタウン 水族館(トミカ付き)",
+   "name_zh": "Tomica Town 街中水族館場景組(附水族館運輸車)",
+   "year": "2024",
+   "series": "Tomica Town",
+   "category": [
+    "場景組",
+    "情景玩具"
+   ],
+   "keywords": [
+    "Tomica Town",
+    "水族館",
+    "UD Trucks Quon",
+    "移動水族館",
+    "まちなか水族館"
+   ],
+   "source_images": [
+    "IMG_3087.jpg"
+   ],
+   "box_image": "tNA_aquarium.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_aquarium.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "2024/12/28發售的「トミカワールド トミカタウン 水族館(トミカ付き)」,含移動水族館UDトラックスクオントミカ1台。盒裝照取自 hobby.watch.impress.co.jp 官方新聞稿圖,場景/車輛皆吻合。",
+   "photos": [
+    "box/tNA_aquarium.jpg",
+    "raw/IMG_3087.jpg"
+   ],
+   "ip": "",
+   "kind": "場景套組",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_black-saber",
+   "number": "",
+   "name_en": "Black Saber",
+   "name_ja": "ブラックセイバー",
+   "name_zh": "Black Saber",
+   "year": "2024",
+   "series": "Tomica Premium unlimited",
+   "category": [
+    "職人/特仕",
+    "紀念商品"
+   ],
+   "keywords": [
+    "30周年紀念",
+    "黑澤太",
+    "Tomica Premium unlimited"
+   ],
+   "source_images": [
+    "https://takaratomymall.jp/shop/g/g4904810934318/",
+    "https://hobby.dengeki.com/news/2271015/",
+    "IMG_3149.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "",
+   "main_image": "raw/IMG_3149.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "2024/7下旬發售,黑澤太用機,30周年紀念商品,Tomica Premium unlimited系列,售價1,430日圓。本次再嘗試 WebFetch takaratomymall.jp(逾時)及 hobby.dengeki.com(圖片為 lazy-load,無法取得直連URL),仍未能取得可下載展示圖,依規則未強行配圖。",
+   "photos": [
+    "raw/IMG_3149.jpg"
+   ],
+   "ip": "爆走兄弟 迷你四驅車",
+   "size": "標準",
+   "has_official": false,
+   "seq": 11
+  },
+  {
+   "id": "tNA_car-carrier-blue",
+   "number": "60",
+   "name_en": "Tomica No.60 Isuzu Elf Vehicle Transporter",
+   "name_ja": "いすゞ エルフ 車両運搬車",
+   "name_zh": "多美卡 No.60 五十鈴 Elf 車輛運輸車(附黃色轎跑)",
+   "year": "",
+   "series": "トミカ 標準車(No.1-120)",
+   "category": [
+    "工程/商用車"
+   ],
+   "keywords": [
+    "Isuzu Elf",
+    "いすゞエルフ",
+    "vehicle transporter",
+    "車輛運輸車",
+    "拖板車",
+    "No.60",
+    "yellow coupe"
+   ],
+   "source_images": [
+    "IMG_3175.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_car-carrier-blue.jpg",
+   "main_image": "loose/tNA_car-carrier-blue.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "原為單一商品:Tomica No.60 いすゞエルフ車両運搬車,附一台黃色小轎跑於平板上(IMG_3175 即此盒實物)。圖取自 up-next.com.hk(Shopify)。",
+   "photos": [
+    "loose/tNA_car-carrier-blue.jpg",
+    "raw/IMG_3175.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_cement-mixer-blue",
+   "number": "31",
+   "name_en": "Tomica No.31 Nissan Diesel Quon Mixer Car",
+   "name_ja": "日産ディーゼル ビッグサム／クオン ミキサー車",
+   "name_zh": "多美卡 No.31 日產柴油 Quon 水泥預拌車",
+   "year": "",
+   "series": "トミカ 標準車(No.1-120)",
+   "category": [
+    "工程車"
+   ],
+   "keywords": [
+    "Nissan Diesel Quon",
+    "日產柴油",
+    "UD",
+    "mixer",
+    "水泥車",
+    "攪拌車",
+    "No.31"
+   ],
+   "source_images": [
+    "IMG_3168.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_cement-mixer-blue.jpg",
+   "main_image": "loose/tNA_cement-mixer-blue.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "舊版 Tomica No.31 日產柴油(Nissan Diesel)Quon 水泥預拌車,與新版 No.53 UD Trucks Quon 攪拌車為不同番號/不同世代,非重複。圖取自 Yahoo 拍賣。",
+   "photos": [
+    "loose/tNA_cement-mixer-blue.jpg",
+    "raw/IMG_3168.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_disney-resort-cruiser-undercover-mission",
+   "number": "",
+   "name_en": "Disney Resort Cruiser (Undercover Mission ver.)",
+   "name_ja": "ディズニーリゾートクルーザー アンダーカバーミッション",
+   "name_zh": "迪士尼交通工具收藏系列 迪士尼度假區巡遊巴士(秘密行動版)",
+   "year": "2001",
+   "series": "Disney Motors / Disney Resort Cruiser",
+   "category": [
+    "迪士尼",
+    "巴士"
+   ],
+   "keywords": [
+    "Disney Resort Cruiser",
+    "東京迪士尼度假區限定",
+    "米奇圖案",
+    "Undercover Mission"
+   ],
+   "source_images": [
+    "IMG_3112.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "",
+   "main_image": "raw/IMG_3112.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "本體(Disney Resort Cruiser)於2001年12月首發、東京迪士尼度假區限定、1/126比例,車身隱藏米奇圖案已確認;「Undercover Mission」此特定版本的發售年份/番號/圖源本輪仍查無,未強行配圖,維持先前建議請Derek補充原始包裝照。 【年份待查:網路查無此特定版本確切發售年,推測為近年新品,尚未證實。】",
+   "photos": [
+    "raw/IMG_3112.jpg"
+   ],
+   "ip": "迪士尼",
+   "size": "標準",
+   "has_official": false,
+   "sub": "巡遊巴士"
+  },
+  {
+   "id": "tNA_garage_gtr_a",
+   "number": "",
+   "name_en": "Tomica Garage Premium Black Standard Edition",
+   "name_ja": "tomica GARAGE PREMIUM BLACK Standard Edition",
+   "name_zh": "多美卡車庫 Premium BLACK 標準版(車庫,非車輛)",
+   "year": "2025",
+   "series": "Tomica Premium",
+   "category": [
+    "情景玩具",
+    "展示車庫"
+   ],
+   "keywords": [
+    "tomica GARAGE",
+    "PREMIUM BLACK",
+    "車庫",
+    "garage",
+    "展示"
+   ],
+   "source_images": [
+    "IMG_3097.JPG"
+   ],
+   "box_image": "tNA_garage_gtr_a.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_garage_gtr_a.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "盒面印刷插圖車輛(非實體壓鑄小車),商品為2025年12月發售的tomica GARAGE PREMIUM BLACK Standard Edition電動捲門展示車庫。盒裝正面照取自 racingmodels.jp 商品頁,圖中可見藍/黑/銀三台GT-R造型插畫車,與a/b/c三筆記錄共用同一張圖。",
+   "photos": [
+    "box/tNA_garage_gtr_a.jpg",
+    "raw/IMG_3097.jpg"
+   ],
+   "ip": "",
+   "kind": "車庫",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_hiroshima-police",
+   "number": "82",
+   "name_en": "Tomica No.82 Mazda CX-5 Police Car (Hiroshima Pref. Police)",
+   "name_ja": "マツダ CX-5 パトロールカー 広島県警察",
+   "name_zh": "多美卡 No.82 馬自達 CX-5 巡邏車(広島県警察)",
+   "year": "",
+   "series": "トミカ 標準車(No.1-120)",
+   "category": [
+    "警車",
+    "地方限定"
+   ],
+   "keywords": [
+    "Mazda CX-5",
+    "マツダCX-5",
+    "広島県警察",
+    "Hiroshima Police",
+    "パトカー",
+    "No.82"
+   ],
+   "source_images": [
+    "IMG_3166.jpg"
+   ],
+   "box_image": "tNA_hiroshima-police.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_hiroshima-police.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "Tomica No.82 マツダ CX-5 パトロールカー 広島県警察塗裝。圖取自 Mercari。",
+   "photos": [
+    "box/tNA_hiroshima-police.jpg",
+    "raw/IMG_3166.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_lancer_evo_x_taiwan_police",
+   "number": "",
+   "name_en": "Mitsubishi Lancer Evolution X Taiwan Police Car",
+   "name_ja": "三菱 ランサー エボリューションX 台湾ポリスカー",
+   "name_zh": "三菱 Lancer Evolution X 台灣警車(TAIWAN Police Car)",
+   "year": "",
+   "series": "Tomica",
+   "category": [
+    "警車",
+    "限定/特仕"
+   ],
+   "keywords": [
+    "Lancer Evolution X",
+    "Mitsubishi",
+    "Taiwan Police",
+    "台灣警車",
+    "台湾ポリスカー",
+    "限定"
+   ],
+   "source_images": [
+    "IMG_3136"
+   ],
+   "box_image": "",
+   "loose_image": "",
+   "main_image": "raw/IMG_3136.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "台灣限定特注(日本未發售),盒面確認 MITSUBISHI LANCER EVOLUTION X TAIWAN Police Car。eBay/Amazon/mobile01 圖源皆擋爬蟲無法下載,顯示暫用你的實照。",
+   "photos": [
+    "raw/IMG_3136.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": false
+  },
+  {
+   "id": "tNA_minion-banana-blingz",
+   "number": "",
+   "name_en": "Minion Car \"Banana Blingz\" (USJ exclusive, unofficial name)",
+   "name_ja": "ミニオンカー バナナ ブリングス(非公式譯名)",
+   "name_zh": "小小兵造型車「香蕉 Blingz」（日本環球影城限定,非官方譯名）",
+   "year": "",
+   "series": "USJ Minion Car",
+   "category": [
+    "主題樂園限定",
+    "造型車"
+   ],
+   "keywords": [
+    "Minions",
+    "USJ",
+    "Minion Car",
+    "Banana",
+    "Blingz",
+    "VW Beetle造型"
+   ],
+   "source_images": [
+    "IMG_3159.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "",
+   "main_image": "raw/IMG_3159.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "USJ限定Minion Car系列,各單品有各自裝飾名稱(如Bites/Fluffy/Blingz)。本輪嘗試搜尋'ミニオン カーニバル ミニカー バナナ ブリングス'未查到對應商品圖源,依規則未強行配圖。",
+   "photos": [
+    "raw/IMG_3159.jpg"
+   ],
+   "ip": "小小兵",
+   "size": "標準",
+   "has_official": false
+  },
+  {
+   "id": "tNA_minion-banana-blue",
+   "number": "",
+   "name_en": "Minion Car \"Banana (light blue stripe)\" (USJ exclusive, unofficial name)",
+   "name_ja": "ミニオンカー バナナ 水色ストライプ（USJ限定）",
+   "name_zh": "小小兵造型車「香蕉 淺藍條紋版」（日本環球影城限定,非官方譯名）",
+   "year": "",
+   "series": "USJ Minion Car",
+   "category": [
+    "主題樂園限定",
+    "造型車"
+   ],
+   "keywords": [
+    "Minions",
+    "USJ",
+    "Minion Car",
+    "Banana"
+   ],
+   "source_images": [
+    "IMG_3160.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "",
+   "main_image": "raw/IMG_3160.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "同USJ Minion Car系列,本體無可見文字可精確比對確切裝飾名稱,本輪未再單獨搜尋以節省額度,維持無圖狀態。",
+   "photos": [
+    "raw/IMG_3160.jpg"
+   ],
+   "ip": "小小兵",
+   "size": "標準",
+   "has_official": false
+  },
+  {
+   "id": "tNA_minion-bee-do",
+   "number": "",
+   "name_en": "Minion Car \"Bee-Do\" (USJ exclusive, unofficial name)",
+   "name_ja": "ミニオンカー Bee-Do（USJ限定）",
+   "name_zh": "小小兵造型車「Bee-Do 警笛」（日本環球影城限定,非官方譯名）",
+   "year": "",
+   "series": "USJ Minion Car",
+   "category": [
+    "主題樂園限定",
+    "造型車"
+   ],
+   "keywords": [
+    "Minions",
+    "USJ",
+    "Minion Car",
+    "Bee-Do"
+   ],
+   "source_images": [
+    "IMG_3162.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "",
+   "main_image": "raw/IMG_3162.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "同USJ Minion Car系列,可見文字'BEE-DO, MINIONS',本輪未再單獨搜尋以節省額度,維持無圖狀態。",
+   "photos": [
+    "raw/IMG_3162.jpg"
+   ],
+   "ip": "小小兵",
+   "size": "標準",
+   "has_official": false
+  },
+  {
+   "id": "tNA_okinawa_bus_pikachu",
+   "number": "",
+   "name_en": "Flying Pikachu Project Okinawa Bus (Mitsubishi Fuso Aero Star)",
+   "name_ja": "そらとぶピカチュウプロジェクト 沖縄バス 三菱ふそう エアロスター",
+   "name_zh": "飛天皮卡丘計畫 沖繩巴士 三菱扶桑 Aero Star(沖繩限定特注品)",
+   "year": "",
+   "series": "特注トミカ(沖縄限定/そらとぶピカチュウプロジェクト)",
+   "category": [
+    "bus",
+    "pokemon",
+    "regional_limited"
+   ],
+   "keywords": [
+    "Okinawa",
+    "Pikachu",
+    "そらとぶピカチュウプロジェクト",
+    "沖縄バス",
+    "Aero Star",
+    "1/138"
+   ],
+   "source_images": [
+    "IMG_3090.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "",
+   "main_image": "raw/IMG_3090.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "確認為沖繩土產店/機場特注トミカ,多種塗裝主題(花與寶可夢/森林/丘陵/海/夕陽飛天皮卡丘等),無公開JAN/番號可核對確切年份;圖片來源(paypayフリマ/ヤフオク/ラクマ等)皆為二手拍賣網站,非官方清楚展示照,故不附圖。",
+   "photos": [
+    "raw/IMG_3090.jpg"
+   ],
+   "ip": "寶可夢",
+   "size": "標準",
+   "has_official": false,
+   "sub": "皮卡丘"
+  },
+  {
+   "id": "tNA_panda-truck",
+   "number": "3",
+   "name_en": "Tomica No.3 Panda Transport Truck",
+   "name_ja": "パンダ運搬車",
+   "name_zh": "多美卡 No.3 熊貓運輸車",
+   "year": "",
+   "series": "トミカ 標準車(No.1-120)",
+   "category": [
+    "truck",
+    "novelty"
+   ],
+   "keywords": [
+    "panda",
+    "熊貓",
+    "熊猫",
+    "transport truck",
+    "運輸車",
+    "No.3"
+   ],
+   "source_images": [
+    "IMG_3174.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_panda-truck.jpg",
+   "main_image": "loose/tNA_panda-truck.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "正式商品:Tomica No.3 熊貓運輸車(白色車頭+竹葉平板載3隻熊貓)。圖取自台灣玩具反斗城。",
+   "photos": [
+    "loose/tNA_panda-truck.jpg",
+    "raw/IMG_3174.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_pig_farm_truck",
+   "number": "",
+   "name_en": "Tomica Shop Original Pig Farm Truck (Suzuki Carry)",
+   "name_ja": "トミカショップオリジナル トミカ養豚場トラック",
+   "name_zh": "多美卡 養豬場卡車（暫譯）",
+   "year": "2019-03",
+   "series": "トミカショップオリジナル",
+   "category": [
+    "truck",
+    "shop_exclusive",
+    "animal"
+   ],
+   "keywords": [
+    "養豚場",
+    "Suzuki Carry",
+    "TOMICASHOP",
+    "pig",
+    "4904810134251"
+   ],
+   "source_images": [
+    "https://www.amazon.co.jp/-/en/Tomica-Shop-Original-Farm-Truck/dp/B07PCNC6S3",
+    "https://tomica.fandom.com/wiki/Tomica_Pig_Farm_Truck_(Tomica_Shop)",
+    "IMG_3128.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "",
+   "main_image": "raw/IMG_3128.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "確認為TakaraTomyMall/トミカショップオリジナル商品(JAN 4904810134251),車身有TOMICASHOP字樣,以海外養豬場為主題,車體為Suzuki Carry(鈴木キャリイ),紅色為主色,搭載4隻可上下車斗的豬公仔;每人限購3個。takaratomymall.jp / amazon.co.jp / rakuten 等站台均因地區限制(CloudFront 403)或連線逾時無法下載圖片,故image欄位留空。",
+   "photos": [
+    "raw/IMG_3128.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": false
+  },
+  {
+   "id": "tNA_pokemon-van-green-a",
+   "number": "P-02",
+   "name_en": "Pokémon Quest Tomica P-02 Bulbasaur",
+   "name_ja": "ポケモンクエスト トミカ P-02 フシギダネ",
+   "name_zh": "寶可夢探險尋寶 妙蛙種子 方塊車",
+   "year": "2018",
+   "series": "ポケモンクエスト トミカ (Pokémon Quest Tomica)",
+   "category": [
+    "character_car",
+    "pokemon"
+   ],
+   "keywords": [
+    "Pokemon",
+    "Pokémon Quest",
+    "ポケモンクエスト",
+    "Bulbasaur",
+    "フシギダネ",
+    "妙蛙種子",
+    "方塊車",
+    "box car",
+    "P-02",
+    "JAN 4904810615194"
+   ],
+   "source_images": [
+    "IMG_3164.jpg"
+   ],
+   "box_image": "tNA_pokemon-van-green-a.jpg",
+   "loose_image": "",
+   "main_image": "box/tNA_pokemon-van-green-a.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "搜尋到ドリームトミカNo.151「ポケモンとどこいく!?どこいこっカー」(黃色皮卡丘造型)及「ポケモンクエストトミカ」系列(P-01皮卡丘/P-02フシギダネ等方塊造型角色車),フシギダネ(妙蛙種子)為綠色,型態上可能相符,但未能取得清楚圖片比對確認,為避免誤配暫不附圖也不填角色名。",
+   "photos": [
+    "box/tNA_pokemon-van-green-a.jpg",
+    "raw/IMG_3164.jpg"
+   ],
+   "ip": "寶可夢",
+   "size": "標準",
+   "has_official": true,
+   "sub": "方塊車"
+  },
+  {
+   "id": "tNA_postal_garbage",
+   "number": "",
+   "name_en": "Chunghwa Post Original Tomica 2-Car Set",
+   "name_ja": "中華郵政 ごみ収集車型郵便車(台湾限定)",
+   "name_zh": "中華郵政 郵務車 2台組(垃圾車造型郵務車+綠色廂型郵務車)",
+   "year": "",
+   "series": "台灣限定特注",
+   "category": [
+    "truck",
+    "taiwan_limited",
+    "postal"
+   ],
+   "keywords": [
+    "中華郵政",
+    "垃圾車造型",
+    "台灣限定",
+    "2台組",
+    "套組"
+   ],
+   "source_images": [
+    "IMG_3089.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "",
+   "main_image": "raw/IMG_3089.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "台灣限定 中華郵政原創トミカ 2台組,同一盒;IMG_3089 一盒兩車。",
+   "photos": [
+    "raw/IMG_3089.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": false
+  },
+  {
+   "id": "tNA_shinsha-bus",
+   "number": "20",
+   "name_en": "Tomica No.20 Isuzu Erga Toei Bus",
+   "name_ja": "いすゞ エルガ 都営バス",
+   "name_zh": "多美卡 No.20 五十鈴 Erga 都營巴士",
+   "year": "",
+   "series": "トミカ 標準車(No.1-120)",
+   "category": [
+    "bus"
+   ],
+   "keywords": [
+    "Isuzu Erga",
+    "いすゞエルガ",
+    "Toei Bus",
+    "都営バス",
+    "都營巴士",
+    "No.20",
+    "bus"
+   ],
+   "source_images": [
+    "IMG_3173.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "tNA_shinsha-bus.jpg",
+   "main_image": "loose/tNA_shinsha-bus.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "即 Tomica No.20 いすゞエルガ 都営バス;先前「New Shar Bus」為盒面路線字樣誤讀。圖取自蝦皮。",
+   "photos": [
+    "loose/tNA_shinsha-bus.jpg",
+    "raw/IMG_3173.jpg"
+   ],
+   "ip": "",
+   "size": "標準",
+   "has_official": true
+  },
+  {
+   "id": "tNA_woody_sheriff_car",
+   "number": "",
+   "name_en": "Disney Tomica (Vehicle Collection) Woody Sheriff Car",
+   "name_ja": "ディズニートミカ(ビークルコレクション) ウッディ シェリフカー",
+   "name_zh": "東京迪士尼樂園 交通工具收藏 玩具總動員 胡迪的警長車",
+   "year": "",
+   "series": "ディズニートミカ ビークルコレクション(東京ディズニーリゾート限定)",
+   "category": [
+    "character_car",
+    "disney",
+    "toy_story",
+    "regional_limited"
+   ],
+   "keywords": [
+    "Woody",
+    "Sheriff Car",
+    "Toy Story",
+    "Tokyo Disney Resort",
+    "Western River Railroad"
+   ],
+   "source_images": [
+    "IMG_3104.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "",
+   "main_image": "raw/IMG_3104.jpg",
+   "has_image": true,
+   "confidence": "low",
+   "notes": "確認商品名為「ディズニー トミカ(ビークルコレクション)ウッディ シェリフカー 東京ディズニーリゾート限定」,車身配色呼應胡迪服裝,設計參考Western River Railroad;僅在Amazon.co.jp找到轉售頁面,連線逾時/受地區限制,未能取得清楚展示照,不附圖。",
+   "photos": [
+    "raw/IMG_3104.jpg"
+   ],
+   "ip": "玩具總動員",
+   "size": "標準",
+   "has_official": false
+  },
+  {
+   "id": "tNA_zootopia2_nick_face",
+   "number": "",
+   "name_en": "Dream Tomica SP Zootopia 2 Nick",
+   "name_ja": "ドリームトミカ SP ズートピア2 ニック",
+   "name_zh": "夢幻多美 SP 尼克 造型車(動物方城市2)",
+   "year": "2025-11",
+   "series": "ドリームトミカ SP",
+   "category": [
+    "character_car",
+    "disney",
+    "zootopia"
+   ],
+   "keywords": [
+    "Zootopia 2",
+    "Nick",
+    "ニック",
+    "4904810099710"
+   ],
+   "source_images": [
+    "IMG_3103.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "",
+   "main_image": "raw/IMG_3103.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "JAN 4904810099710,確認為紀念電影『動物方城市2』發售之圓潤車身尼克造型車,車身側面繪有尼克的領帶與襯衫圖案。TakaraTomyMall/Rakuten/ganguoroshi等站台皆因地區限制(CloudFront 403)或連線逾時無法取得展示圖,不附圖。",
+   "photos": [
+    "raw/IMG_3103.jpg"
+   ],
+   "ip": "動物方城市",
+   "size": "標準",
+   "has_official": false
+  },
+  {
+   "id": "tNA_zootopia_finnick_van",
+   "number": "",
+   "name_en": "Dream Tomica SP Finnick's Van (Zootopia 2)",
+   "name_ja": "ドリームトミカ SP フィニックのバン",
+   "name_zh": "夢幻多美 SP 芬尼克的廂型車(動物方城市2)",
+   "year": "2025-11",
+   "series": "ドリームトミカ SP",
+   "category": [
+    "character_car",
+    "disney",
+    "zootopia"
+   ],
+   "keywords": [
+    "Zootopia 2",
+    "Finnick",
+    "フィニック",
+    "4904810099734"
+   ],
+   "source_images": [
+    "IMG_3102.JPG"
+   ],
+   "box_image": "",
+   "loose_image": "",
+   "main_image": "raw/IMG_3102.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "JAN 4904810099734,確認為紀念『動物方城市2』發售之芬尼克廂型車,內附尼克與芬尼克公仔。TakaraTomyMall等站台因地區限制/連線逾時無法取得展示圖,不附圖。",
+   "photos": [
+    "raw/IMG_3102.jpg"
+   ],
+   "ip": "動物方城市",
+   "size": "標準",
+   "has_official": false
+  },
+  {
+   "id": "tmmc01",
+   "number": "MMC01",
+   "name_en": "Dream Tomica MMC-01 I Love Gru / Mel",
+   "name_ja": "ドリームトミカ MMC01 アイラブグルー/メル",
+   "name_zh": "小小兵電影特輯：我愛葛魯/梅爾",
+   "year": "",
+   "series": "Dream Tomica Minion Movie Collection",
+   "category": [
+    "character_car",
+    "minions"
+   ],
+   "keywords": [
+    "Minions",
+    "Gru",
+    "Mel",
+    "I Love Gru",
+    "MMC01"
+   ],
+   "source_images": [
+    "IMG_3176.jpg"
+   ],
+   "box_image": "",
+   "loose_image": "tmmc01.jpg",
+   "main_image": "loose/tmmc01.jpg",
+   "has_image": true,
+   "confidence": "high",
+   "notes": "從Takara Tomy Asia官方頁面取得產品展示照(https://takaratomyasia.com/media/5xqfo4am/131441-image-001.webp,原為webp已轉存jpg),圖片為藍黃配色小卡車,擋風玻璃處印有心形'I ♥ GRU'字樣,車斗側面印'MINIONS'並載運香蕉,經Read自檢與IMG_3176.jpg盒裝照上文字資訊(トミカ、MMC01、MINION MOVIE COLLECTION、I Love Gru/Mel)一致,確認為正確商品之裸車展示照(非盒裝照)。",
+   "photos": [
+    "loose/tmmc01.jpg",
+    "raw/IMG_3176.jpg"
+   ],
+   "ip": "小小兵",
+   "size": "標準",
+   "has_official": true
+  }
+ ]
+}
