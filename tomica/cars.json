@@ -2186,13 +2186,14 @@
    "source_images": [
     "IMG_3073.jpg"
    ],
-   "box_image": "",
+   "box_image": "tNA_brockengigant.jpg",
    "loose_image": "tNA_brockengigant.jpg",
-   "main_image": "loose/tNA_brockengigant.jpg",
+   "main_image": "box/tNA_brockengigant.jpg",
    "has_image": true,
    "confidence": "high",
    "notes": "無正式Tomica番號(Tamiya迷你四驅車跨界聯名,Tomica Premium unlimited系列,2026/6/20發售)。中文名暫譯。展示圖為官方單車去背照,非盒裝照(找不到盒裝正面圖)。",
    "photos": [
+    "box/tNA_brockengigant.jpg",
     "loose/tNA_brockengigant.jpg",
     "raw/IMG_3073.jpg"
    ],
@@ -3186,13 +3187,14 @@
    "source_images": [
     "IMG_3074.jpg"
    ],
-   "box_image": "",
+   "box_image": "tNA_raystinger.jpg",
    "loose_image": "tNA_raystinger.jpg",
-   "main_image": "loose/tNA_raystinger.jpg",
+   "main_image": "box/tNA_raystinger.jpg",
    "has_image": true,
    "confidence": "high",
    "notes": "無正式Tomica番號(同上聯名系列)。中文名暫譯。展示圖為官方單車去背照,非盒裝照。",
    "photos": [
+    "box/tNA_raystinger.jpg",
     "loose/tNA_raystinger.jpg",
     "raw/IMG_3074.jpg"
    ],
