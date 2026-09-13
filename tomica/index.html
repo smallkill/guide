@@ -113,11 +113,12 @@
 </div>
 
 <script>
-let CARS=[], FILTER=null, GROUP_ORDER=[], IP_RANK={}, MODE='ip';
+let CARS=[], FILTER=null, GROUP_ORDER=[], IP_RANK={}, MODE='ip', BUILD='';
+const IMG=p=>`images/${p}${BUILD?('?v='+BUILD):''}`;
 const $=s=>document.querySelector(s), grid=$('#grid');
 
 function imgHtml(c,cls){
-  if(c.main_image) return `<div class="thumb ${cls||''}" style="background-image:url('images/${c.main_image}')"></div>`;
+  if(c.main_image) return `<div class="thumb ${cls||''}" style="background-image:url('${IMG(c.main_image)}')"></div>`;
   return `<div class="thumb none ${cls||''}">🚗</div>`;
 }
 function card(c){
@@ -184,10 +185,10 @@ function plabel(p){
 function galleryHtml(c){
   const ps=photoList(c);
   if(!ps.length) return `<div class="thumb none" style="aspect-ratio:16/9">🚗 無圖片</div>`;
-  const main=`<img id="mainphoto" src="images/${ps[0]}">`;
+  const main=`<img id="mainphoto" src="${IMG(ps[0])}">`;
   if(ps.length===1){const[l]=plabel(ps[0]);return main+(l?`<div class="onelbl">${l}</div>`:'');}
   const strip=`<div class="strip">`+ps.map((p,i)=>{const[l,cl]=plabel(p);
-    return `<div class="pth ${cl}${i===0?' on':''}" data-src="images/${p}"><img src="images/${p}">${l?`<span>${l}</span>`:''}</div>`;}).join('')+`</div>`;
+    return `<div class="pth ${cl}${i===0?' on':''}" data-src="${IMG(p)}"><img src="${IMG(p)}">${l?`<span>${l}</span>`:''}</div>`;}).join('')+`</div>`;
   return main+strip;
 }
 function openCard(id){
@@ -213,8 +214,8 @@ $('#close').onclick=()=>$('#modal').classList.remove('on');
 $('#modal').onclick=e=>{if(e.target.id==='modal')$('#modal').classList.remove('on')};
 $('#q').addEventListener('input',apply);
 
-fetch('cars.json').then(r=>r.json()).then(d=>{
-  CARS=d.cars;
+fetch('cars.json?v='+Date.now()).then(r=>r.json()).then(d=>{
+  CARS=d.cars; BUILD=d.build||d.updated||'';
   const nCar=CARS.filter(c=>!c.kind).length;
   const withImg=CARS.filter(c=>c.main_image).length;
   const sz={};CARS.forEach(c=>{if(c.kind)return;sz[c.size]=(sz[c.size]||0)+1});
