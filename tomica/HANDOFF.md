@@ -2,7 +2,7 @@
 
 > 給 AI 的指示:這份文件描述一個純靜態的收藏圖鑑網站。請依「AI 負責」段落完成工作,
 > 遇到「人類手動」段落時停下來,明確告訴使用者要做什麼、等他做完再繼續。
-> 範例站:https://smallkill.github.io/guide/tomica/(可直接開來看成品長什麼樣)
+> 範例站(可直接開來看成品長什麼樣): <https://smallkill.github.io/guide/tomica/>
 
 ---
 
