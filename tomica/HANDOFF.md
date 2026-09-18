@@ -6,6 +6,17 @@
 
 ---
 
+## 快速開始(給人類看,一段話)
+
+把這份文件的網址貼給你的 AI,叫它照做:
+<https://raw.githubusercontent.com/smallkill/guide/main/tomica/HANDOFF.md>
+
+- 成品長什麼樣:<https://smallkill.github.io/guide/tomica/>
+- 程式原始碼:<https://github.com/smallkill/guide/tree/main/tomica>(index.html 直接拿去用,cars.json 是資料格式範例)
+- 文件裡標了哪些步驟 AI 做、哪些要你自己動手;AI 停下來問你時再處理就好。
+
+---
+
 ## 0. 網站結構(只有三樣東西,沒有 build 步驟)
 
 ```
