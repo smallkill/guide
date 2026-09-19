@@ -1,7 +1,7 @@
 {
  "updated": "2026-09-20",
- "count": 46,
- "build": 1789837193,
+ "count": 47,
+ "build": 1789837487,
  "items": [
   {
    "id": "vocaloid_sakura-miku_coreful-wafu-kissa",
@@ -1540,6 +1540,42 @@
    ],
    "confidence": "high",
    "notes": "約32cm大型景品,2025年12月上市"
+  },
+  {
+   "id": "windbreaker_various_chokorin-mascot",
+   "name_ja": "ちょこりんマスコット WIND BREAKER",
+   "name_en": "Chokorin Mascot WIND BREAKER (blind box, 6 types)",
+   "name_zh": "防風少年 迷你吊飾 盒玩(6款)",
+   "ip": "WIND BREAKER",
+   "character": "桜遥/杉下京太郎/蘇枋隼飛/梅宮一/兎耳山丁子/十亀条",
+   "maker": "MegaHouse",
+   "line": "ちょこりんマスコット",
+   "type": "figure",
+   "year": "2024",
+   "category": [
+    "動畫",
+    "盒玩",
+    "公仔"
+   ],
+   "keywords": [
+    "wind breaker",
+    "ウィンブレ",
+    "防風少年",
+    "ちょこりんマスコット",
+    "megahouse"
+   ],
+   "source_images": [
+    "https://www.megahobby.jp/products/item/4547",
+    "P_20260919_170059.jpg"
+   ],
+   "box_image": "windbreaker_various_chokorin-mascot.jpg",
+   "main_image": "box/windbreaker_various_chokorin-mascot.jpg",
+   "photos": [
+    "box/windbreaker_various_chokorin-mascot.jpg",
+    "raw/P_20260919_170059.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2024年12月下旬發售,全6種;Derek 指認為防風少年(WIND BREAKER)後查證"
   }
  ]
 }
