@@ -1,0 +1,1545 @@
+{
+ "updated": "2026-09-20",
+ "count": 46,
+ "build": 1789836596,
+ "items": [
+  {
+   "id": "vocaloid_sakura-miku_coreful-wafu-kissa",
+   "name_ja": "桜ミク Coreful フィギュア ～描き下ろし和風喫茶ver.～",
+   "name_en": "Sakura Miku Coreful Figure - Japanese Café ver.",
+   "name_zh": "櫻初音未來 Coreful 公仔～和風喫茶ver.～",
+   "ip": "初音ミク",
+   "character": "桜ミク (Sakura Miku)",
+   "maker": "TAITO",
+   "line": "Coreful フィギュア",
+   "type": "figure",
+   "year": "2024",
+   "category": [
+    "公仔",
+    "VOCALOID"
+   ],
+   "keywords": [
+    "桜ミク",
+    "和風喫茶",
+    "Coreful",
+    "TAITO"
+   ],
+   "source_images": [
+    "https://www.taito.co.jp/taito-prize/0451731600",
+    "P_20260919_163651.jpg"
+   ],
+   "box_image": "vocaloid_sakura-miku_coreful-wafu-kissa.jpg",
+   "main_image": "box/vocaloid_sakura-miku_coreful-wafu-kissa.jpg",
+   "photos": [
+    "box/vocaloid_sakura-miku_coreful-wafu-kissa.jpg",
+    "raw/P_20260919_163651.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2024年6月發售,TAITO Coreful系列"
+  },
+  {
+   "id": "vocaloid_hatsune-miku_wonderland-thumbelina",
+   "name_ja": "初音ミク Wonderland フィギュア 親指姫",
+   "name_en": "Hatsune Miku Wonderland Figure - Thumbelina",
+   "name_zh": "初音未來 Wonderland 拇指姑娘",
+   "ip": "初音ミク",
+   "character": "初音ミク",
+   "maker": "TAITO",
+   "line": "Wonderland フィギュア",
+   "type": "figure",
+   "year": "2022",
+   "category": [
+    "公仔",
+    "VOCALOID",
+    "童話系列"
+   ],
+   "keywords": [
+    "初音ミク",
+    "Wonderland",
+    "親指姫",
+    "TAITO"
+   ],
+   "source_images": [
+    "https://www.taito.co.jp/taito-prize/0451518600",
+    "P_20260919_163651.jpg"
+   ],
+   "box_image": "vocaloid_hatsune-miku_wonderland-thumbelina.jpg",
+   "main_image": "box/vocaloid_hatsune-miku_wonderland-thumbelina.jpg",
+   "photos": [
+    "box/vocaloid_hatsune-miku_wonderland-thumbelina.jpg",
+    "raw/P_20260919_163651.jpg"
+   ],
+   "confidence": "high",
+   "notes": "童話系列,親指姫(拇指姑娘)主題,2022年底首發"
+  },
+  {
+   "id": "bocchi-the-rock_gotoh-hitori_ichibankuji-vol2-a",
+   "name_ja": "一番くじ アニメ「ぼっち・ざ・ろっく！」VOLUME 2 A賞 後藤ひとり フィギュア",
+   "name_en": "Ichiban Kuji Bocchi the Rock! VOLUME 2 A Prize - Gotoh Hitori Figure",
+   "name_zh": "一番賞 孤獨搖滾 VOLUME2 A賞 後藤獨美 公仔",
+   "ip": "ぼっち・ざ・ろっく！",
+   "character": "後藤ひとり",
+   "maker": "BANDAI SPIRITS",
+   "line": "一番くじ A賞",
+   "type": "figure",
+   "year": "2024",
+   "category": [
+    "公仔",
+    "一番賞"
+   ],
+   "keywords": [
+    "ぼっちざろっく",
+    "後藤ひとり",
+    "一番くじ"
+   ],
+   "source_images": [
+    "https://bsp-prize.jp/item/2712942/",
+    "P_20260919_163651.jpg"
+   ],
+   "box_image": "bocchi-the-rock_gotoh-hitori_ichibankuji-vol2-a.jpg",
+   "main_image": "box/bocchi-the-rock_gotoh-hitori_ichibankuji-vol2-a.jpg",
+   "photos": [
+    "box/bocchi-the-rock_gotoh-hitori_ichibankuji-vol2-a.jpg",
+    "raw/P_20260919_163651.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2024/7/12發售,750円/抽,A賞"
+  },
+  {
+   "id": "lycoris-recoil_takina-inoue_luminasta-china-style",
+   "name_ja": "リコリス・リコイル Luminasta “井ノ上たきな -チャイナStyle-”",
+   "name_en": "Lycoris Recoil Luminasta - Takina Inoue China Style",
+   "name_zh": "莉可麗絲 Luminasta 井上瀧奈-旗袍款-",
+   "ip": "リコリス・リコイル",
+   "character": "井ノ上たきな",
+   "maker": "SEGA",
+   "line": "Luminasta",
+   "type": "figure",
+   "year": "2025",
+   "category": [
+    "公仔"
+   ],
+   "keywords": [
+    "リコリコ",
+    "井ノ上たきな",
+    "チャイナ服",
+    "Luminasta"
+   ],
+   "source_images": [
+    "https://segaplaza.jp/prize/D122038/",
+    "P_20260919_163817.jpg"
+   ],
+   "box_image": "lycoris-recoil_takina-inoue_luminasta-china-style.jpg",
+   "main_image": "box/lycoris-recoil_takina-inoue_luminasta-china-style.jpg",
+   "photos": [
+    "box/lycoris-recoil_takina-inoue_luminasta-china-style.jpg",
+    "raw/P_20260919_163817.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2025/3/21發售"
+  },
+  {
+   "id": "lycoris-recoil_takina-inoue_luminasta-yukata-odekake",
+   "name_ja": "リコリス・リコイル Luminasta “井ノ上たきな -浴衣でお出かけ-”",
+   "name_en": "Lycoris Recoil Luminasta - Takina Inoue Yukata Outing",
+   "name_zh": "莉可麗絲 Luminasta 井上瀧奈-浴衣外出款-",
+   "ip": "リコリス・リコイル",
+   "character": "井ノ上たきな",
+   "maker": "SEGA",
+   "line": "Luminasta",
+   "type": "figure",
+   "year": "2024",
+   "category": [
+    "公仔"
+   ],
+   "keywords": [
+    "リコリコ",
+    "井ノ上たきな",
+    "浴衣",
+    "Luminasta"
+   ],
+   "source_images": [
+    "https://segaplaza.jp/prize/D121969/",
+    "P_20260919_163817.jpg"
+   ],
+   "box_image": "lycoris-recoil_takina-inoue_luminasta-yukata-odekake.jpg",
+   "main_image": "box/lycoris-recoil_takina-inoue_luminasta-yukata-odekake.jpg",
+   "photos": [
+    "box/lycoris-recoil_takina-inoue_luminasta-yukata-odekake.jpg",
+    "raw/P_20260919_163817.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2024/9/27發售"
+  },
+  {
+   "id": "lycoris-recoil_chisato-nishikigi_luminasta-yukata-odekake",
+   "name_ja": "リコリス・リコイル Luminasta “錦木千束 -浴衣でお出かけ-”",
+   "name_en": "Lycoris Recoil Luminasta - Chisato Nishikigi Yukata Outing",
+   "name_zh": "莉可麗絲 Luminasta 錦木千束-浴衣外出款-",
+   "ip": "リコリス・リコイル",
+   "character": "錦木千束",
+   "maker": "SEGA",
+   "line": "Luminasta",
+   "type": "figure",
+   "year": "2024",
+   "category": [
+    "公仔"
+   ],
+   "keywords": [
+    "リコリコ",
+    "錦木千束",
+    "浴衣",
+    "Luminasta"
+   ],
+   "source_images": [
+    "https://segaplaza.jp/prize/D121968/",
+    "P_20260919_163817.jpg"
+   ],
+   "box_image": "lycoris-recoil_chisato-nishikigi_luminasta-yukata-odekake.jpg",
+   "main_image": "box/lycoris-recoil_chisato-nishikigi_luminasta-yukata-odekake.jpg",
+   "photos": [
+    "box/lycoris-recoil_chisato-nishikigi_luminasta-yukata-odekake.jpg",
+    "raw/P_20260919_163817.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2024/9/20發售"
+  },
+  {
+   "id": "vocaloid_hatsune-miku_fashion-preppy",
+   "name_ja": "初音ミク Fashionフィギュア Preppy",
+   "name_en": "Hatsune Miku Fashion Figure - Preppy",
+   "name_zh": "初音未來 Fashion系列 學院風",
+   "ip": "初音ミク",
+   "character": "初音ミク",
+   "maker": "TAITO",
+   "line": "Fashion フィギュア",
+   "type": "figure",
+   "year": "2025",
+   "category": [
+    "公仔",
+    "VOCALOID"
+   ],
+   "keywords": [
+    "初音ミク",
+    "Preppy",
+    "Fashion",
+    "TAITO"
+   ],
+   "source_images": [
+    "https://www.taito.co.jp/taito-prize/0451905700",
+    "P_20260919_163935.jpg"
+   ],
+   "box_image": "vocaloid_hatsune-miku_fashion-preppy.jpg",
+   "main_image": "box/vocaloid_hatsune-miku_fashion-preppy.jpg",
+   "photos": [
+    "box/vocaloid_hatsune-miku_fashion-preppy.jpg",
+    "raw/P_20260919_163935.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2025/7/19發售"
+  },
+  {
+   "id": "vocaloid_hatsune-miku_wonderland-puss-in-boots",
+   "name_ja": "初音ミク Wonderland フィギュア 長靴を履いた猫",
+   "name_en": "Hatsune Miku Wonderland Figure - Puss in Boots",
+   "name_zh": "初音未來 Wonderland 穿長靴的貓",
+   "ip": "初音ミク",
+   "character": "初音ミク",
+   "maker": "TAITO",
+   "line": "Wonderland フィギュア",
+   "type": "figure",
+   "year": "2026",
+   "category": [
+    "公仔",
+    "VOCALOID",
+    "童話系列"
+   ],
+   "keywords": [
+    "初音ミク",
+    "長靴を履いた猫",
+    "Wonderland"
+   ],
+   "source_images": [
+    "https://www.taito.co.jp/taito-prize/0451558400",
+    "P_20260919_163935.jpg"
+   ],
+   "box_image": "vocaloid_hatsune-miku_wonderland-puss-in-boots.jpg",
+   "main_image": "box/vocaloid_hatsune-miku_wonderland-puss-in-boots.jpg",
+   "photos": [
+    "box/vocaloid_hatsune-miku_wonderland-puss-in-boots.jpg",
+    "raw/P_20260919_163935.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2026年1月發售,Wonderland系列第6彈"
+  },
+  {
+   "id": "vocaloid_hatsune-miku_wonderland-red-riding-hood",
+   "name_ja": "初音ミク Wonderland フィギュア 赤ずきん",
+   "name_en": "Hatsune Miku Wonderland Figure - Red Riding Hood",
+   "name_zh": "初音未來 Wonderland 小紅帽",
+   "ip": "初音ミク",
+   "character": "初音ミク",
+   "maker": "TAITO",
+   "line": "Wonderland フィギュア",
+   "type": "figure",
+   "year": "2021",
+   "category": [
+    "公仔",
+    "VOCALOID",
+    "童話系列"
+   ],
+   "keywords": [
+    "初音ミク",
+    "赤ずきん",
+    "Wonderland"
+   ],
+   "source_images": [
+    "https://www.taito.co.jp/taito-prize/0451827900",
+    "P_20260919_163935.jpg"
+   ],
+   "box_image": "vocaloid_hatsune-miku_wonderland-red-riding-hood.jpg",
+   "main_image": "box/vocaloid_hatsune-miku_wonderland-red-riding-hood.jpg",
+   "photos": [
+    "box/vocaloid_hatsune-miku_wonderland-red-riding-hood.jpg",
+    "raw/P_20260919_163935.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Wonderland系列第一彈,2021年5月首發"
+  },
+  {
+   "id": "frieren_frieren_amp-plus-battle",
+   "name_ja": "葬送のフリーレン AMP+ フリーレン フィギュア",
+   "name_en": "Frieren: Beyond Journey's End AMP+ Figure - Frieren (battle pose)",
+   "name_zh": "葬送的芙莉蓮 AMP+ 芙莉蓮 公仔(戰鬥版)",
+   "ip": "葬送のフリーレン",
+   "character": "フリーレン",
+   "maker": "TAITO",
+   "line": "AMP+ フィギュア",
+   "type": "figure",
+   "year": "2025",
+   "category": [
+    "公仔"
+   ],
+   "keywords": [
+    "フリーレン",
+    "AMP+",
+    "TAITO"
+   ],
+   "source_images": [
+    "https://www.taito.co.jp/taito-prize/0451916900",
+    "P_20260919_164534.jpg"
+   ],
+   "box_image": "frieren_frieren_amp-plus-battle.jpg",
+   "main_image": "box/frieren_frieren_amp-plus-battle.jpg",
+   "photos": [
+    "box/frieren_frieren_amp-plus-battle.jpg",
+    "raw/P_20260919_164534.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2025年9月下旬發售,約21cm"
+  },
+  {
+   "id": "frieren_frieren_desktop-cute-trunk",
+   "name_ja": "葬送のフリーレン Desktop Cute フィギュア フリーレン～トランクver.～",
+   "name_en": "Frieren Desktop Cute Figure - Trunk ver.",
+   "name_zh": "葬送的芙莉蓮 Desktop Cute 公仔～行李箱ver.～",
+   "ip": "葬送のフリーレン",
+   "character": "フリーレン",
+   "maker": "TAITO",
+   "line": "Desktop Cute フィギュア",
+   "type": "figure",
+   "year": "2025",
+   "category": [
+    "公仔"
+   ],
+   "keywords": [
+    "フリーレン",
+    "トランク",
+    "Desktop Cute"
+   ],
+   "source_images": [
+    "https://www.taito.co.jp/taito-prize/0451922600",
+    "P_20260919_164534.jpg"
+   ],
+   "box_image": "frieren_frieren_desktop-cute-trunk.jpg",
+   "main_image": "box/frieren_frieren_desktop-cute-trunk.jpg",
+   "photos": [
+    "box/frieren_frieren_desktop-cute-trunk.jpg",
+    "raw/P_20260919_164534.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2025年9月中旬發售,約13cm"
+  },
+  {
+   "id": "frieren_frieren_luminasta-flower-crown",
+   "name_ja": "葬送のフリーレン Luminasta “フリーレン”～花冠～",
+   "name_en": "Frieren Luminasta - Frieren Flower Crown ver.",
+   "name_zh": "葬送的芙莉蓮 Luminasta 芙莉蓮～花冠～",
+   "ip": "葬送のフリーレン",
+   "character": "フリーレン",
+   "maker": "SEGA",
+   "line": "Luminasta",
+   "type": "figure",
+   "year": "2025",
+   "category": [
+    "公仔"
+   ],
+   "keywords": [
+    "フリーレン",
+    "花冠",
+    "Luminasta"
+   ],
+   "source_images": [
+    "https://segaplaza.jp/prize/D122591/",
+    "P_20260919_164534.jpg"
+   ],
+   "box_image": "frieren_frieren_luminasta-flower-crown.jpg",
+   "main_image": "box/frieren_frieren_luminasta-flower-crown.jpg",
+   "photos": [
+    "box/frieren_frieren_luminasta-flower-crown.jpg",
+    "raw/P_20260919_164534.jpg"
+   ],
+   "confidence": "high",
+   "notes": "箱面標示為「花個」,官方名為「花畑/花冠」系列,2025年春發售"
+  },
+  {
+   "id": "dressup-darling_kitagawa-marin_t-most-liz",
+   "name_ja": "その着せ替え人形は恋をする T-most 喜多川海夢 フィギュア～リズver.～",
+   "name_en": "My Dress-Up Darling T-most Figure - Kitagawa Marin Liz ver.",
+   "name_zh": "更衣人偶墜入愛河 T-most 喜多川海夢～莉茲ver.～",
+   "ip": "その着せ替え人形は恋をする",
+   "character": "喜多川海夢",
+   "maker": "TAITO",
+   "line": "T-most",
+   "type": "figure",
+   "year": "2024",
+   "category": [
+    "公仔"
+   ],
+   "keywords": [
+    "着せ恋",
+    "喜多川海夢",
+    "リズver",
+    "T-most"
+   ],
+   "source_images": [
+    "https://www.taito.co.jp/taito-prize/0451827400",
+    "P_20260919_165104.jpg"
+   ],
+   "box_image": "dressup-darling_kitagawa-marin_t-most-liz.jpg",
+   "main_image": "box/dressup-darling_kitagawa-marin_t-most-liz.jpg",
+   "photos": [
+    "box/dressup-darling_kitagawa-marin_t-most-liz.jpg",
+    "raw/P_20260919_165104.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2024年12月下旬發售,約29cm含底座"
+  },
+  {
+   "id": "vocaloid_sakura-miku_amp-plus-sakura-dress",
+   "name_ja": "桜ミク AMP+ フィギュア～桜ドレスver.～",
+   "name_en": "Sakura Miku AMP+ Figure - Sakura Dress ver.",
+   "name_zh": "櫻初音未來 AMP+ 公仔～櫻花洋裝ver.～",
+   "ip": "初音ミク",
+   "character": "桜ミク",
+   "maker": "TAITO",
+   "line": "AMP+ フィギュア",
+   "type": "figure",
+   "year": "2026",
+   "category": [
+    "公仔",
+    "VOCALOID"
+   ],
+   "keywords": [
+    "桜ミク",
+    "AMP+",
+    "桜ドレス"
+   ],
+   "source_images": [
+    "https://www.taito.co.jp/taito-prize/0452000900",
+    "P_20260919_165104.jpg"
+   ],
+   "box_image": "vocaloid_sakura-miku_amp-plus-sakura-dress.jpg",
+   "main_image": "box/vocaloid_sakura-miku_amp-plus-sakura-dress.jpg",
+   "photos": [
+    "box/vocaloid_sakura-miku_amp-plus-sakura-dress.jpg",
+    "raw/P_20260919_165104.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2026年2月下旬發售,約21cm"
+  },
+  {
+   "id": "vocaloid_hatsune-miku_wonderland-rapunzel",
+   "name_ja": "初音ミク Wonderlandフィギュア ラプンツェル",
+   "name_en": "Hatsune Miku Wonderland Figure - Rapunzel",
+   "name_zh": "初音未來 Wonderland 長髮公主",
+   "ip": "初音ミク",
+   "character": "初音ミク",
+   "maker": "TAITO",
+   "line": "Wonderland フィギュア",
+   "type": "figure",
+   "year": "2025",
+   "category": [
+    "公仔",
+    "VOCALOID",
+    "童話系列"
+   ],
+   "keywords": [
+    "初音ミク",
+    "ラプンツェル",
+    "Wonderland"
+   ],
+   "source_images": [
+    "https://taito.co.jp/taito-prize/0451876900",
+    "P_20260919_165104.jpg"
+   ],
+   "box_image": "vocaloid_hatsune-miku_wonderland-rapunzel.jpg",
+   "main_image": "box/vocaloid_hatsune-miku_wonderland-rapunzel.jpg",
+   "photos": [
+    "box/vocaloid_hatsune-miku_wonderland-rapunzel.jpg",
+    "raw/P_20260919_165104.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2025/5/10發售"
+  },
+  {
+   "id": "frieren_frieren_stellar-festival",
+   "name_ja": "葬送のフリーレン XStellar “フリーレン”～とある祭りにて～",
+   "name_en": "Frieren XStellar - Frieren At a Certain Festival ver.",
+   "name_zh": "葬送的芙莉蓮 XStellar 芙莉蓮～在某祭典中～",
+   "ip": "葬送のフリーレン",
+   "character": "フリーレン",
+   "maker": "SEGA",
+   "line": "Stellar(エクステラ)",
+   "category": [
+    "公仔"
+   ],
+   "type": "figure",
+   "year": "2025",
+   "keywords": [
+    "フリーレン",
+    "Stellar",
+    "祭り"
+   ],
+   "source_images": [
+    "https://segaplaza.jp/prize/D122850/",
+    "P_20260919_165224.jpg"
+   ],
+   "box_image": "frieren_frieren_stellar-festival.jpg",
+   "main_image": "box/frieren_frieren_stellar-festival.jpg",
+   "photos": [
+    "box/frieren_frieren_stellar-festival.jpg",
+    "raw/P_20260919_165224.jpg"
+   ],
+   "confidence": "high",
+   "notes": "箱上標示ShoPro/著作權標示,SEGA Stellar品牌"
+  },
+  {
+   "id": "gintama_kagura_vibration-stars-yoshiwara",
+   "name_ja": "新劇場版 銀魂 -吉原大炎上- VIBRATION STARS-神楽-",
+   "name_en": "Gintama the Movie: Yoshiwara in Flames VIBRATION STARS - Kagura",
+   "name_zh": "銀魂新劇場版-吉原大炎上- VIBRATION STARS-神樂-",
+   "ip": "銀魂",
+   "character": "神楽",
+   "maker": "BANPRESTO",
+   "line": "VIBRATION STARS",
+   "type": "figure",
+   "year": "2026",
+   "category": [
+    "公仔"
+   ],
+   "keywords": [
+    "銀魂",
+    "神楽",
+    "VIBRATION STARS"
+   ],
+   "source_images": [
+    "https://bsp-prize.jp/item/2785914/",
+    "P_20260919_165224.jpg"
+   ],
+   "box_image": "gintama_kagura_vibration-stars-yoshiwara.jpg",
+   "main_image": "box/gintama_kagura_vibration-stars-yoshiwara.jpg",
+   "photos": [
+    "box/gintama_kagura_vibration-stars-yoshiwara.jpg",
+    "raw/P_20260919_165224.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2026/2/10起發售"
+  },
+  {
+   "id": "gintama_kamui_vibration-stars-yoshiwara",
+   "name_ja": "新劇場版 銀魂 -吉原大炎上- VIBRATION STARS-神威-",
+   "name_en": "Gintama the Movie: Yoshiwara in Flames VIBRATION STARS - Kamui",
+   "name_zh": "銀魂新劇場版-吉原大炎上- VIBRATION STARS-神威-",
+   "ip": "銀魂",
+   "character": "神威",
+   "maker": "BANPRESTO",
+   "line": "VIBRATION STARS",
+   "type": "figure",
+   "year": "2026",
+   "category": [
+    "公仔"
+   ],
+   "keywords": [
+    "銀魂",
+    "神威",
+    "VIBRATION STARS"
+   ],
+   "source_images": [
+    "https://bsp-prize.jp/item/2785915/",
+    "P_20260919_165224.jpg"
+   ],
+   "box_image": "gintama_kamui_vibration-stars-yoshiwara.jpg",
+   "main_image": "box/gintama_kamui_vibration-stars-yoshiwara.jpg",
+   "photos": [
+    "box/gintama_kamui_vibration-stars-yoshiwara.jpg",
+    "raw/P_20260919_165224.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2026/2/10起發售"
+  },
+  {
+   "id": "vocaloid_hatsune-miku_princess-amp-mermaid",
+   "name_ja": "初音ミク Princess AMP フィギュア～マーメイドver.～",
+   "name_en": "Hatsune Miku Princess AMP Figure - Mermaid ver.",
+   "name_zh": "初音未來 Princess AMP 公仔～美人魚ver.～",
+   "ip": "初音ミク",
+   "character": "初音ミク",
+   "maker": "TAITO",
+   "line": "ARTIST MASTERPIECE (AMP)",
+   "type": "figure",
+   "year": "2021",
+   "category": [
+    "公仔",
+    "VOCALOID"
+   ],
+   "keywords": [
+    "初音ミク",
+    "マーメイド",
+    "AMP",
+    "Princess"
+   ],
+   "source_images": [
+    "https://www.taito.co.jp/taito-prize/0000003973",
+    "P_20260919_165440.jpg"
+   ],
+   "box_image": "vocaloid_hatsune-miku_princess-amp-mermaid.jpg",
+   "main_image": "box/vocaloid_hatsune-miku_princess-amp-mermaid.jpg",
+   "photos": [
+    "box/vocaloid_hatsune-miku_princess-amp-mermaid.jpg",
+    "raw/P_20260919_165440.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2021年4月發售,約23cm,AMP第2彈"
+  },
+  {
+   "id": "vocaloid_hatsune-miku_amp-plus-birthday-2023",
+   "name_ja": "初音ミク AMP＋ フィギュア ～HATSUNE MIKU Birthday 2023 ver.～",
+   "name_en": "Hatsune Miku AMP+ Figure - Birthday 2023 ver.",
+   "name_zh": "初音未來 AMP+ 公仔～生日2023ver.～",
+   "ip": "初音ミク",
+   "character": "初音ミク",
+   "maker": "TAITO",
+   "line": "AMP+ フィギュア",
+   "type": "figure",
+   "year": "2023",
+   "category": [
+    "公仔",
+    "VOCALOID"
+   ],
+   "keywords": [
+    "初音ミク",
+    "Birthday",
+    "AMP+"
+   ],
+   "source_images": [
+    "https://www.taito.co.jp/taito-prize/0451662700",
+    "P_20260919_165440.jpg"
+   ],
+   "box_image": "vocaloid_hatsune-miku_amp-plus-birthday-2023.jpg",
+   "main_image": "box/vocaloid_hatsune-miku_amp-plus-birthday-2023.jpg",
+   "photos": [
+    "box/vocaloid_hatsune-miku_amp-plus-birthday-2023.jpg",
+    "raw/P_20260919_165440.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2023/12/23發售,約21cm"
+  },
+  {
+   "id": "vocaloid_hatsune-miku_neo-story-of-my-world-box",
+   "name_ja": "初音ミクシリーズ A NEO STORY OF MY WORLD (4個入りBOX)",
+   "name_en": "Hatsune Miku Series - A Neo Story of My World (Blind Box, 4 types)",
+   "name_zh": "初音未來系列 A NEO STORY OF MY WORLD(4款一盒)",
+   "ip": "初音ミク",
+   "character": "初音ミク",
+   "maker": "Re-ment",
+   "line": "A NEO STORY OF MY WORLD",
+   "type": "figure",
+   "year": "2026",
+   "category": [
+    "公仔",
+    "盒玩",
+    "VOCALOID"
+   ],
+   "keywords": [
+    "初音ミク",
+    "リーメント",
+    "Re-ment",
+    "ブラインドボックス"
+   ],
+   "source_images": [
+    "https://www.re-ment.co.jp/product/r70004",
+    "P_20260919_165440.jpg"
+   ],
+   "box_image": "vocaloid_hatsune-miku_neo-story-of-my-world-box.jpg",
+   "main_image": "box/vocaloid_hatsune-miku_neo-story-of-my-world-box.jpg",
+   "photos": [
+    "box/vocaloid_hatsune-miku_neo-story-of-my-world-box.jpg",
+    "raw/P_20260919_165440.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2026/7/6發售,全4種,一盒即整套4款,而非拍賣式;拍到的是整盒外箱(CGAFFW為批號)"
+  },
+  {
+   "id": "no-game-no-life_shiro_coreful-cat-ear-uniform",
+   "name_ja": "ノーゲーム・ノーライフ Coreful フィギュア 白～猫耳制服ver.～",
+   "name_en": "No Game No Life Coreful Figure - Shiro Cat Ear Uniform ver.",
+   "name_zh": "遊戲人生 Coreful 公仔 白～貓耳制服ver.～",
+   "ip": "ノーゲーム・ノーライフ",
+   "character": "白 (Shiro)",
+   "maker": "TAITO",
+   "line": "Coreful フィギュア",
+   "type": "figure",
+   "year": "2024",
+   "category": [
+    "公仔"
+   ],
+   "keywords": [
+    "ノーゲームノーライフ",
+    "白",
+    "猫耳制服",
+    "Coreful"
+   ],
+   "source_images": [
+    "https://www.taito.co.jp/taito-prize/0451703900",
+    "P_20260919_165805.jpg"
+   ],
+   "box_image": "no-game-no-life_shiro_coreful-cat-ear-uniform.jpg",
+   "main_image": "box/no-game-no-life_shiro_coreful-cat-ear-uniform.jpg",
+   "photos": [
+    "box/no-game-no-life_shiro_coreful-cat-ear-uniform.jpg",
+    "raw/P_20260919_165805.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2024年2月上旬發售"
+  },
+  {
+   "id": "inuyasha_sesshomaru_trio-try-it",
+   "name_ja": "犬夜叉 Trio-Try-iT Figure -殺生丸-",
+   "name_en": "Inuyasha Trio-Try-iT Figure - Sesshomaru",
+   "name_zh": "犬夜叉 Trio-Try-iT 公仔 殺生丸",
+   "ip": "犬夜叉",
+   "character": "殺生丸",
+   "maker": "FuRyu",
+   "line": "Trio-Try-iT Figure",
+   "type": "figure",
+   "year": "2024",
+   "category": [
+    "公仔"
+   ],
+   "keywords": [
+    "犬夜叉",
+    "殺生丸",
+    "FuRyu"
+   ],
+   "source_images": [
+    "https://furyuprize.com/item/21749",
+    "P_20260919_165805.jpg"
+   ],
+   "box_image": "inuyasha_sesshomaru_trio-try-it.jpg",
+   "main_image": "box/inuyasha_sesshomaru_trio-try-it.jpg",
+   "photos": [
+    "box/inuyasha_sesshomaru_trio-try-it.jpg",
+    "raw/P_20260919_165805.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2024年5月第5週發售"
+  },
+  {
+   "id": "bunny-girl-senpai_mai-sakurajima_bicute-bunnies",
+   "name_ja": "青春ブタ野郎はバニーガール先輩の夢を見ない BiCute Bunnies Figure-桜島麻衣-",
+   "name_en": "Rascal Does Not Dream of Bunny Girl Senpai BiCute Bunnies Figure - Mai Sakurajima",
+   "name_zh": "青春豬頭少年不會夢到兔女郎學姐 BiCute Bunnies 桜島麻衣",
+   "ip": "青春ブタ野郎はバニーガール先輩の夢を見ない",
+   "character": "桜島麻衣",
+   "maker": "FuRyu",
+   "line": "BiCute Bunnies Figure",
+   "type": "figure",
+   "year": "2025",
+   "category": [
+    "公仔"
+   ],
+   "keywords": [
+    "青ブタ",
+    "桜島麻衣",
+    "BiCute Bunnies",
+    "FuRyu"
+   ],
+   "source_images": [
+    "https://charahiroba.com/prize/item/detail?id=14157",
+    "P_20260919_165805.jpg"
+   ],
+   "box_image": "",
+   "main_image": "",
+   "photos": [
+    "raw/P_20260919_165805.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2025年5月第4週發售,約29cm;查證到正確商品(FuRyu BiCute Bunnies)但找不到此特定商品的官方圖檔(只找到同系列不同商品的圖),故main_image留空以免誤用"
+  },
+  {
+   "id": "frieren_frieren-and-friends_nendoroid-plus-6pack",
+   "name_ja": "葬送のフリーレン ねんどろいど ぷらす 6個入りBOX Frieren: Beyond Journey's End",
+   "name_en": "Frieren: Beyond Journey's End Nendoroid Plus (6-pack box)",
+   "name_zh": "葬送的芙莉蓮 黏土人plus 盒玩(6入)",
+   "ip": "葬送のフリーレン",
+   "character": "フリーレン他",
+   "maker": "GOOD SMILE COMPANY",
+   "line": "ねんどろいど ぷらす",
+   "type": "figure",
+   "year": "2025",
+   "category": [
+    "公仔",
+    "盒玩"
+   ],
+   "keywords": [
+    "フリーレン",
+    "ねんどろいど",
+    "GOODSMILE"
+   ],
+   "source_images": [
+    "https://www.goodsmile.info/ja/product/15397/",
+    "https://blog.toyget.com/entry/2025/06/27/161304",
+    "P_20260919_170059.jpg"
+   ],
+   "box_image": "frieren_frieren-and-friends_nendoroid-plus-6pack.jpg",
+   "main_image": "box/frieren_frieren-and-friends_nendoroid-plus-6pack.jpg",
+   "photos": [
+    "box/frieren_frieren-and-friends_nendoroid-plus-6pack.jpg",
+    "raw/P_20260919_170059.jpg"
+   ],
+   "confidence": "high",
+   "notes": "補充查證:2026年2月發售,10,800円(含稅),內含フリーレン/フェルン/シュタルク/ヒンメル/アイゼン等全6種(全18種驚喜零件版本)"
+  },
+  {
+   "id": "gintama_various_chokorin-collection-box",
+   "name_ja": "銀魂 Chokorin Collection",
+   "name_en": "Gintama Chokorin Collection (blind box)",
+   "name_zh": "銀魂 迷你公仔盒玩",
+   "ip": "銀魂",
+   "character": "多角色(坂田銀時/志村新八/神楽等)",
+   "maker": "MegaHouse",
+   "line": "Chokorin Collection",
+   "type": "figure",
+   "year": "",
+   "category": [
+    "公仔",
+    "盒玩"
+   ],
+   "keywords": [
+    "銀魂",
+    "ちょこりん",
+    "MegaHouse"
+   ],
+   "source_images": [
+    "https://www.megahobby.jp/products/item/5331/",
+    "P_20260919_170059.jpg"
+   ],
+   "box_image": "gintama_various_chokorin-collection-box.jpg",
+   "main_image": "box/gintama_various_chokorin-collection-box.jpg",
+   "photos": [
+    "box/gintama_various_chokorin-collection-box.jpg",
+    "raw/P_20260919_170059.jpg"
+   ],
+   "confidence": "low",
+   "notes": "官方圖為「ちょこりんコレクション 銀魂 vol.2」箱圖,角色為坂田銀時/土方十四郎/沖田総悟/近藤勲/山崎退/伊東鴨太郎;但使用者實拍箱面出現エリザベス/定春等角色,可能是vol.1或不同版本,圖片僅供參考,商品名確認為銀魂ちょこりんコレクション但確切版本(vol)未100%確認"
+  },
+  {
+   "id": "gintama_various_chokorin-mascot-red",
+   "name_ja": "銀魂 ちょこりんマスコット(赤)",
+   "name_en": "Gintama Chokorin Mascot (red box)",
+   "name_zh": "銀魂 迷你吊飾(紅盒)",
+   "ip": "銀魂",
+   "character": "坂田銀時/土方十四郎/沖田総悟/神威/桂小太郎/高杉晋助",
+   "maker": "MegaHouse",
+   "line": "chokorin mascot",
+   "type": "figure",
+   "year": "",
+   "category": [
+    "公仔",
+    "盒玩"
+   ],
+   "keywords": [
+    "銀魂",
+    "ちょこりんマスコット"
+   ],
+   "source_images": [
+    "https://www.megahobby.jp/toriko_blog/?p=7233",
+    "P_20260919_170059.jpg"
+   ],
+   "box_image": "gintama_various_chokorin-mascot-red.jpg",
+   "main_image": "box/gintama_various_chokorin-mascot-red.jpg",
+   "photos": [
+    "box/gintama_various_chokorin-mascot-red.jpg",
+    "raw/P_20260919_170059.jpg"
+   ],
+   "confidence": "high",
+   "notes": "角色(坂田銀時/土方十四郎/沖田総悟/桂小太郎/高杉晋助/神威)與MegaHouse ちょこりんマスコット銀魂官方陣容一致,2025年3月27日再販"
+  },
+  {
+   "id": "haikyuu_various_chokorin-mascot-grey1",
+   "name_ja": "ハイキュー!! ちょこりんマスコット(灰1)",
+   "name_en": "Haikyuu!! Chokorin Mascot (grey box #1)",
+   "name_zh": "排球少年 迷你吊飾(灰1)",
+   "ip": "ハイキュー!!",
+   "character": "孤爪研磨/黒尾鉄朗/木兎光太郎/赤葦京治/宮侑/宮治",
+   "maker": "MegaHouse",
+   "line": "chokorin mascot",
+   "type": "figure",
+   "year": "",
+   "category": [
+    "公仔",
+    "盒玩"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "ちょこりんマスコット"
+   ],
+   "source_images": [
+    "https://www.megahobby.jp/products/item/3836/",
+    "P_20260919_170059.jpg"
+   ],
+   "box_image": "haikyuu_various_chokorin-mascot-grey1.jpg",
+   "main_image": "box/haikyuu_various_chokorin-mascot-grey1.jpg",
+   "photos": [
+    "box/haikyuu_various_chokorin-mascot-grey1.jpg",
+    "raw/P_20260919_170059.jpg"
+   ],
+   "confidence": "high",
+   "notes": "角色(孤爪研磨/黒尾鉄朗/木兎光太郎/赤葦京治/宮侑/宮治)與ちょこりんマスコット ハイキュー!! Vol.2官方陣容完全一致"
+  },
+  {
+   "id": "haikyuu_various_chokorin-mascot-grey2",
+   "name_ja": "ハイキュー!! ちょこりんマスコット(灰2)",
+   "name_en": "Haikyuu!! Chokorin Mascot (grey box #2)",
+   "name_zh": "排球少年 迷你吊飾(灰2)",
+   "ip": "ハイキュー!!",
+   "character": "日向翔陽/影山飛雄/月島蛍/山口忠/及川徹/岩泉一",
+   "maker": "MegaHouse",
+   "line": "chokorin mascot",
+   "type": "figure",
+   "year": "",
+   "category": [
+    "公仔",
+    "盒玩"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "ちょこりんマスコット"
+   ],
+   "source_images": [
+    "https://www.megahobby.jp/products/item/3723/",
+    "P_20260919_170059.jpg"
+   ],
+   "box_image": "haikyuu_various_chokorin-mascot-grey2.jpg",
+   "main_image": "box/haikyuu_various_chokorin-mascot-grey2.jpg",
+   "photos": [
+    "box/haikyuu_various_chokorin-mascot-grey2.jpg",
+    "raw/P_20260919_170059.jpg"
+   ],
+   "confidence": "low",
+   "notes": "角色(日向翔陽/影山飛雄/月島蛍/山口忠/及川徹/岩泉一)符合ハイキュー主要角色,推測為Vol.1,但未逐一核對該頁列出的6種是否完全對應,圖片可能為其他Vol"
+  },
+  {
+   "id": "haikyuu_kageyama-tobio_high-premium_170813",
+   "name_ja": "アニメ「ハイキュー!!」ハイプレミアムフィギュア\"影山飛雄\"",
+   "name_en": "Haikyu!! High Premium Figure - Tobio Kageyama",
+   "name_zh": "排球少年 高級景品公仔 影山飛雄",
+   "ip": "ハイキュー!!",
+   "character": "影山飛雄",
+   "maker": "SEGA",
+   "line": "ハイプレミアムフィギュア",
+   "type": "figure",
+   "year": "2026",
+   "category": [
+    "動畫",
+    "運動",
+    "公仔"
+   ],
+   "keywords": [
+    "haikyuu",
+    "kageyama",
+    "sega prize",
+    "volleyball"
+   ],
+   "source_images": [
+    "https://segaplaza.jp/prize/D122950/",
+    "P_20260919_170813.jpg"
+   ],
+   "box_image": "haikyuu_kageyama-tobio_high-premium_170813.jpg",
+   "main_image": "box/haikyuu_kageyama-tobio_high-premium_170813.jpg",
+   "photos": [
+    "box/haikyuu_kageyama-tobio_high-premium_170813.jpg",
+    "raw/P_20260919_170813.jpg"
+   ],
+   "confidence": "high",
+   "notes": "官方2026年1月上市"
+  },
+  {
+   "id": "haikyuu_hinata-shoyo_high-premium_170813",
+   "name_ja": "アニメ「ハイキュー!!」ハイプレミアムフィギュア\"日向翔陽\"",
+   "name_en": "Haikyu!! High Premium Figure - Shoyo Hinata",
+   "name_zh": "排球少年 高級景品公仔 日向翔陽",
+   "ip": "ハイキュー!!",
+   "character": "日向翔陽",
+   "maker": "SEGA",
+   "line": "ハイプレミアムフィギュア",
+   "type": "figure",
+   "year": "2026",
+   "category": [
+    "動畫",
+    "運動",
+    "公仔"
+   ],
+   "keywords": [
+    "haikyuu",
+    "hinata",
+    "sega prize",
+    "volleyball"
+   ],
+   "source_images": [
+    "https://segaplaza.jp/prize/D122951/",
+    "P_20260919_170813.jpg"
+   ],
+   "box_image": "haikyuu_hinata-shoyo_high-premium_170813.jpg",
+   "main_image": "box/haikyuu_hinata-shoyo_high-premium_170813.jpg",
+   "photos": [
+    "box/haikyuu_hinata-shoyo_high-premium_170813.jpg",
+    "raw/P_20260919_170813.jpg"
+   ],
+   "confidence": "high",
+   "notes": "同組影山飛雄配對商品"
+  },
+  {
+   "id": "haikyuu_hinata-shoyo_posing-figure_170813",
+   "name_ja": "ハイキュー!! ポージングフィギュア-日向翔陽-",
+   "name_en": "Haikyu!! Posing Figure - Shoyo Hinata",
+   "name_zh": "排球少年 躍動姿勢公仔 日向翔陽",
+   "ip": "ハイキュー!!",
+   "character": "日向翔陽",
+   "maker": "BANPRESTO",
+   "line": "ポージングフィギュア",
+   "type": "figure",
+   "year": "2024",
+   "category": [
+    "動畫",
+    "運動",
+    "公仔"
+   ],
+   "keywords": [
+    "haikyuu",
+    "hinata",
+    "banpresto",
+    "posing figure"
+   ],
+   "source_images": [
+    "https://bsp-prize.jp/item/2709954/",
+    "P_20260919_170813.jpg"
+   ],
+   "box_image": "haikyuu_hinata-shoyo_posing-figure_170813.jpg",
+   "main_image": "box/haikyuu_hinata-shoyo_posing-figure_170813.jpg",
+   "photos": [
+    "box/haikyuu_hinata-shoyo_posing-figure_170813.jpg",
+    "raw/P_20260919_170813.jpg"
+   ],
+   "confidence": "high",
+   "notes": "與影山飛雄款成對推出(2024年3月)"
+  },
+  {
+   "id": "jjk_gojo-satoru_chokonose-kaigyoku-gyokusetsu_170903",
+   "name_ja": "呪術廻戦 懐玉・玉折 ちょこのせ プレミアムフィギュア\"五条悟\"",
+   "name_en": "Jujutsu Kaisen Hidden Inventory - Chokonose Premium Figure - Satoru Gojo",
+   "name_zh": "咒術迴戰 懷玉・玉折 坐坐公仔 五條悟",
+   "ip": "呪術廻戦",
+   "character": "五条悟",
+   "maker": "SEGA",
+   "line": "ちょこのせ プレミアムフィギュア",
+   "type": "figure",
+   "year": "2024",
+   "category": [
+    "動畫",
+    "公仔"
+   ],
+   "keywords": [
+    "jujutsu kaisen",
+    "gojo",
+    "chokonose",
+    "sega prize"
+   ],
+   "source_images": [
+    "https://segaplaza.jp/prize/D121162/",
+    "P_20260919_170903.jpg"
+   ],
+   "box_image": "",
+   "main_image": "",
+   "photos": [
+    "raw/P_20260919_170903.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2024年3月 SEGA 景品;官方圖抓取失敗待補"
+  },
+  {
+   "id": "jjk_geto-suguru_chokonose-kaigyoku-gyokusetsu_170903",
+   "name_ja": "呪術廻戦 懐玉・玉折 ちょこのせ プレミアムフィギュア\"夏油傑\"",
+   "name_en": "Jujutsu Kaisen Hidden Inventory - Chokonose Premium Figure - Suguru Geto",
+   "name_zh": "咒術迴戰 懷玉・玉折 坐坐公仔 夏油傑",
+   "ip": "呪術廻戦",
+   "character": "夏油傑",
+   "maker": "SEGA",
+   "line": "ちょこのせ プレミアムフィギュア",
+   "type": "figure",
+   "year": "2024",
+   "category": [
+    "動畫",
+    "公仔"
+   ],
+   "keywords": [
+    "jujutsu kaisen",
+    "geto",
+    "chokonose",
+    "sega prize"
+   ],
+   "source_images": [
+    "https://segaplaza.jp/prize/D121266/",
+    "P_20260919_170903.jpg"
+   ],
+   "box_image": "",
+   "main_image": "",
+   "photos": [
+    "raw/P_20260919_170903.jpg"
+   ],
+   "confidence": "high",
+   "notes": "與五条悟同系列配對商品;官方圖待補"
+  },
+  {
+   "id": "jjk_inumaki-toge_jufutsu-no-waza_170903",
+   "name_ja": "呪術廻戦 呪祓ノ術-狗巻棘-",
+   "name_en": "Jujutsu Kaisen Jufutsu no Waza - Toge Inumaki",
+   "name_zh": "咒術迴戰 呪祓之術 狗卷棘",
+   "ip": "呪術廻戦",
+   "character": "狗巻棘",
+   "maker": "BANPRESTO",
+   "line": "呪祓ノ術",
+   "type": "figure",
+   "year": "2022",
+   "category": [
+    "動畫",
+    "公仔"
+   ],
+   "keywords": [
+    "jujutsu kaisen",
+    "inumaki",
+    "banpresto"
+   ],
+   "source_images": [
+    "https://bsp-prize.jp/item/2575137/",
+    "P_20260919_170903.jpg"
+   ],
+   "box_image": "jjk_inumaki-toge_jufutsu-no-waza_170903.jpg",
+   "main_image": "box/jjk_inumaki-toge_jufutsu-no-waza_170903.jpg",
+   "photos": [
+    "box/jjk_inumaki-toge_jufutsu-no-waza_170903.jpg",
+    "raw/P_20260919_170903.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2022年2月上市"
+  },
+  {
+   "id": "goldenkamuy_sugimoto_ohiruneko-mini-vol1.5_213716",
+   "name_ja": "TVアニメ「ゴールデンカムイ」おひるねこ ミニフィギュア Vol.1.5 \"杉元佐一\"",
+   "name_en": "Golden Kamuy Ohiruneko Mini Figure Vol.1.5 - Sugimoto Saichi",
+   "name_zh": "黃金神威 午睡貓迷你公仔 Vol.1.5 杉元佐一",
+   "ip": "ゴールデンカムイ",
+   "character": "杉元佐一",
+   "maker": "SEGA",
+   "line": "おひるねこ",
+   "type": "figure",
+   "year": "2023",
+   "category": [
+    "動畫",
+    "吉祥物",
+    "公仔"
+   ],
+   "keywords": [
+    "golden kamuy",
+    "sugimoto",
+    "ohiruneko",
+    "sega prize"
+   ],
+   "source_images": [
+    "https://hobby.dengeki.com/news/2165111/",
+    "P_20260919_213716.jpg"
+   ],
+   "box_image": "",
+   "main_image": "",
+   "photos": [
+    "raw/P_20260919_213716.jpg"
+   ],
+   "confidence": "high",
+   "notes": "官方圖待補;照片中另有一顆同款無盒吊飾"
+  },
+  {
+   "id": "goldenkamuy_sugimoto_chokonose_213716",
+   "name_ja": "TVアニメ「ゴールデンカムイ」ちょこのせ プレミアムフィギュア\"杉元佐一\"",
+   "name_en": "Golden Kamuy Chokonose Premium Figure - Sugimoto Saichi",
+   "name_zh": "黃金神威 坐坐公仔 杉元佐一",
+   "ip": "ゴールデンカムイ",
+   "character": "杉元佐一",
+   "maker": "SEGA",
+   "line": "ちょこのせ プレミアムフィギュア",
+   "type": "figure",
+   "year": "2023",
+   "category": [
+    "動畫",
+    "公仔"
+   ],
+   "keywords": [
+    "golden kamuy",
+    "sugimoto",
+    "chokonose",
+    "sega prize"
+   ],
+   "source_images": [
+    "https://www.amiami.jp/top/detail/detail?gcode=FIGURE-166140-R",
+    "P_20260919_213716.jpg"
+   ],
+   "box_image": "",
+   "main_image": "",
+   "photos": [
+    "raw/P_20260919_213716.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2023年3月上市;官方圖待補"
+  },
+  {
+   "id": "goldenkamuy_asirpa_xrosslink_213716",
+   "name_ja": "TVアニメ『ゴールデンカムイ』 XrossLink フィギュア\"アシㇼパ\"",
+   "name_en": "Golden Kamuy XrossLink Figure - Asirpa",
+   "name_zh": "黃金神威 XrossLink公仔 阿席莉帕",
+   "ip": "ゴールデンカムイ",
+   "character": "アシㇼパ",
+   "maker": "SEGA",
+   "line": "XrossLink",
+   "type": "figure",
+   "year": "2026",
+   "category": [
+    "動畫",
+    "公仔"
+   ],
+   "keywords": [
+    "golden kamuy",
+    "asirpa",
+    "xrosslink",
+    "sega prize"
+   ],
+   "source_images": [
+    "https://segaplaza.jp/prize/D122035/",
+    "P_20260919_213716.jpg"
+   ],
+   "box_image": "goldenkamuy_asirpa_xrosslink_213716.jpg",
+   "main_image": "box/goldenkamuy_asirpa_xrosslink_213716.jpg",
+   "photos": [
+    "box/goldenkamuy_asirpa_xrosslink_213716.jpg",
+    "raw/P_20260919_213716.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2026年1月起陸續上市"
+  },
+  {
+   "id": "goldenkamuy_sugimoto-saichi_xrosslink_213716",
+   "name_ja": "TVアニメ『ゴールデンカムイ』 XrossLink フィギュア\"杉元佐一\"",
+   "name_en": "Golden Kamuy XrossLink Figure - Sugimoto Saichi",
+   "name_zh": "黃金神威 XrossLink公仔 杉元佐一",
+   "ip": "ゴールデンカムイ",
+   "character": "杉元佐一",
+   "maker": "SEGA",
+   "line": "XrossLink",
+   "type": "figure",
+   "year": "2026",
+   "category": [
+    "動畫",
+    "公仔"
+   ],
+   "keywords": [
+    "golden kamuy",
+    "sugimoto",
+    "xrosslink",
+    "sega prize"
+   ],
+   "source_images": [
+    "https://segaplaza.jp/prize/D120413/",
+    "P_20260919_213716.jpg"
+   ],
+   "box_image": "goldenkamuy_sugimoto-saichi_xrosslink_213716.jpg",
+   "main_image": "box/goldenkamuy_sugimoto-saichi_xrosslink_213716.jpg",
+   "photos": [
+    "box/goldenkamuy_sugimoto-saichi_xrosslink_213716.jpg",
+    "raw/P_20260919_213716.jpg"
+   ],
+   "confidence": "high",
+   "notes": "與アシㇼパ、白石由竹同系列同期發售"
+  },
+  {
+   "id": "vocaloid_megurine-luka_bicute-bunnies_214200",
+   "name_ja": "初音ミクシリーズ BiCute Bunnies Figure-巡音ルカ-",
+   "name_en": "BiCute Bunnies Figure - Megurine Luka",
+   "name_zh": "初音未來系列 BiCute Bunnies 兔女郎公仔 巡音流歌",
+   "ip": "初音ミク",
+   "character": "巡音ルカ",
+   "maker": "FuRyu",
+   "line": "BiCute Bunnies Figure",
+   "type": "figure",
+   "year": "2025",
+   "category": [
+    "VOCALOID",
+    "公仔",
+    "兔女郎"
+   ],
+   "keywords": [
+    "megurine luka",
+    "bicute bunnies",
+    "furyu prize",
+    "vocaloid"
+   ],
+   "source_images": [
+    "https://hobby.dengeki.com/news/2608852/",
+    "P_20260919_214200.jpg"
+   ],
+   "box_image": "",
+   "main_image": "",
+   "photos": [
+    "raw/P_20260919_214200.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2025年11月上市;官方圖待補"
+  },
+  {
+   "id": "vocaloid_hatsune-miku_bicute-bunnies-wink_214200",
+   "name_ja": "初音ミク BiCute Bunnies Figure-初音ミク-",
+   "name_en": "BiCute Bunnies Figure - Hatsune Miku",
+   "name_zh": "初音未來 BiCute Bunnies 兔女郎公仔",
+   "ip": "初音ミク",
+   "character": "初音ミク",
+   "maker": "FuRyu",
+   "line": "BiCute Bunnies Figure",
+   "type": "figure",
+   "year": "2022",
+   "category": [
+    "VOCALOID",
+    "公仔",
+    "兔女郎"
+   ],
+   "keywords": [
+    "hatsune miku",
+    "bicute bunnies",
+    "furyu prize",
+    "vocaloid"
+   ],
+   "source_images": [
+    "https://hobby.dengeki.com/news/1639999/",
+    "P_20260919_214200.jpg"
+   ],
+   "box_image": "vocaloid_hatsune-miku_bicute-bunnies-wink_214200.jpg",
+   "main_image": "box/vocaloid_hatsune-miku_bicute-bunnies-wink_214200.jpg",
+   "photos": [
+    "box/vocaloid_hatsune-miku_bicute-bunnies-wink_214200.jpg",
+    "raw/P_20260919_214200.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2022年8月上市首版,黑色兔女郎裝"
+  },
+  {
+   "id": "tabitabi_elaina_desktop-cute-casual-renewal_214200",
+   "name_ja": "魔女の旅々 Desktop Cute フィギュア イレイナ～私服ver.～Renewal",
+   "name_en": "The Journey of Elaina - Desktop Cute Figure - Elaina (Casual ver. Renewal)",
+   "name_zh": "魔女之旅 Desktop Cute 公仔 伊蕾娜 私服版 Renewal",
+   "ip": "魔女の旅々",
+   "character": "イレイナ",
+   "maker": "TAITO",
+   "line": "Desktop Cute",
+   "type": "figure",
+   "year": "2025",
+   "category": [
+    "動畫",
+    "公仔"
+   ],
+   "keywords": [
+    "elaina",
+    "journey of elaina",
+    "desktop cute",
+    "taito prize"
+   ],
+   "source_images": [
+    "https://hobby.dengeki.com/news/2835566/",
+    "P_20260919_214200.jpg"
+   ],
+   "box_image": "tabitabi_elaina_desktop-cute-casual-renewal_214200.jpg",
+   "main_image": "box/tabitabi_elaina_desktop-cute-casual-renewal_214200.jpg",
+   "photos": [
+    "box/tabitabi_elaina_desktop-cute-casual-renewal_214200.jpg",
+    "raw/P_20260919_214200.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2025年12月中上市 Renewal 版"
+  },
+  {
+   "id": "vocaloid_hatsune-miku_amp-plus-birthday2025-party_214200",
+   "name_ja": "初音ミク Birthday2025 AMP+ フィギュア～Party ver.～",
+   "name_en": "Hatsune Miku Birthday2025 AMP+ Figure - Party ver.",
+   "name_zh": "初音未來 生日2025 AMP+ 公仔 派對版",
+   "ip": "初音ミク",
+   "character": "初音ミク",
+   "maker": "TAITO",
+   "line": "AMP+",
+   "type": "figure",
+   "year": "2025",
+   "category": [
+    "VOCALOID",
+    "公仔"
+   ],
+   "keywords": [
+    "hatsune miku",
+    "amp+",
+    "birthday",
+    "taito prize",
+    "weri"
+   ],
+   "source_images": [
+    "https://torajirou-hobby.blog/2025/11/03/",
+    "P_20260919_214200.jpg"
+   ],
+   "box_image": "vocaloid_hatsune-miku_amp-plus-birthday2025-party_214200.jpg",
+   "main_image": "box/vocaloid_hatsune-miku_amp-plus-birthday2025-party_214200.jpg",
+   "photos": [
+    "box/vocaloid_hatsune-miku_amp-plus-birthday2025-party_214200.jpg",
+    "raw/P_20260919_214200.jpg"
+   ],
+   "confidence": "high",
+   "notes": "插畫家 WERI 繪製,2025年8月底上市,約21cm"
+  },
+  {
+   "id": "chainsawman_power_vibration-stars_225001",
+   "name_ja": "チェンソーマン VIBRATION STARS-POWER-",
+   "name_en": "Chainsaw Man VIBRATION STARS - Power",
+   "name_zh": "電鋸人 VIBRATION STARS 帕瓦",
+   "ip": "チェンソーマン",
+   "character": "パワー",
+   "maker": "BANPRESTO",
+   "line": "VIBRATION STARS",
+   "type": "figure",
+   "year": "2023",
+   "category": [
+    "動畫",
+    "公仔"
+   ],
+   "keywords": [
+    "chainsaw man",
+    "power",
+    "vibration stars",
+    "banpresto"
+   ],
+   "source_images": [
+    "https://bsp-prize.jp/item/2569001/",
+    "P_20260919_225001.jpg"
+   ],
+   "box_image": "chainsawman_power_vibration-stars_225001.jpg",
+   "main_image": "box/chainsawman_power_vibration-stars_225001.jpg",
+   "photos": [
+    "box/chainsawman_power_vibration-stars_225001.jpg",
+    "raw/P_20260919_225001.jpg"
+   ],
+   "confidence": "high",
+   "notes": "初版 2023年6月上市"
+  },
+  {
+   "id": "haikyuu_osamu-miya_posing-figure_225158",
+   "name_ja": "ハイキュー!! ポージングフィギュア-宮 治-",
+   "name_en": "Haikyu!! Posing Figure - Osamu Miya",
+   "name_zh": "排球少年 躍動姿勢公仔 宮治",
+   "ip": "ハイキュー!!",
+   "character": "宮治",
+   "maker": "BANPRESTO",
+   "line": "ポージングフィギュア",
+   "type": "figure",
+   "year": "2025",
+   "category": [
+    "動畫",
+    "運動",
+    "公仔"
+   ],
+   "keywords": [
+    "haikyuu",
+    "osamu miya",
+    "banpresto",
+    "posing figure"
+   ],
+   "source_images": [
+    "https://bsp-prize.jp/item/2786093/",
+    "P_20260919_225158.jpg",
+    "P_20260919_230246.jpg"
+   ],
+   "box_image": "haikyuu_osamu-miya_posing-figure_225158.jpg",
+   "main_image": "box/haikyuu_osamu-miya_posing-figure_225158.jpg",
+   "photos": [
+    "box/haikyuu_osamu-miya_posing-figure_225158.jpg",
+    "raw/P_20260919_225158.jpg",
+    "raw/P_20260919_230246.jpg"
+   ],
+   "confidence": "high",
+   "notes": "兩張照片重複出現,僅建一筆"
+  },
+  {
+   "id": "overlord_albedo_evolve-empress-of-darkness_230246",
+   "name_ja": "オーバーロード BANPRESTO EVOLVE-Empress of Darkness-アルベドフィギュア",
+   "name_en": "Overlord BANPRESTO EVOLVE - Empress of Darkness - Albedo",
+   "name_zh": "Overlord BANPRESTO EVOLVE 黑暗女帝 雅兒貝德",
+   "ip": "オーバーロード",
+   "character": "アルベド",
+   "maker": "BANPRESTO",
+   "line": "BANPRESTO EVOLVE",
+   "type": "figure",
+   "year": "2025",
+   "category": [
+    "動畫",
+    "公仔"
+   ],
+   "keywords": [
+    "overlord",
+    "albedo",
+    "banpresto evolve"
+   ],
+   "source_images": [
+    "https://bsp-prize.jp/item/2799750/",
+    "P_20260919_230246.jpg"
+   ],
+   "box_image": "overlord_albedo_evolve-empress-of-darkness_230246.jpg",
+   "main_image": "box/overlord_albedo_evolve-empress-of-darkness_230246.jpg",
+   "photos": [
+    "box/overlord_albedo_evolve-empress-of-darkness_230246.jpg",
+    "raw/P_20260919_230246.jpg"
+   ],
+   "confidence": "high",
+   "notes": "約32cm大型景品,2025年12月上市"
+  }
+ ]
+}
