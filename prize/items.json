@@ -1,7 +1,7 @@
 {
  "updated": "2026-09-20",
- "count": 47,
- "build": 1789841644,
+ "count": 48,
+ "build": 1789841814,
  "items": [
   {
    "id": "vocaloid_sakura-miku_coreful-wafu-kissa",
@@ -1576,6 +1576,41 @@
    ],
    "confidence": "high",
    "notes": "2024年12月下旬發售,全6種;Derek 指認為防風少年(WIND BREAKER)後查證"
+  },
+  {
+   "id": "overlord_albedo_amp-plus-black-dress",
+   "name_ja": "オーバーロードIV AMP+ アルベド フィギュア～黒ドレス ver.～",
+   "name_en": "Overlord IV AMP+ Figure - Albedo Black Dress ver.",
+   "name_zh": "Overlord IV AMP+ 雅兒貝德 公仔～黑禮服ver.～",
+   "ip": "オーバーロード",
+   "character": "アルベド",
+   "maker": "TAITO",
+   "line": "AMP+",
+   "type": "figure",
+   "year": "2023",
+   "category": [
+    "動畫",
+    "公仔"
+   ],
+   "keywords": [
+    "overlord",
+    "albedo",
+    "amp+",
+    "黒ドレス",
+    "taito prize"
+   ],
+   "source_images": [
+    "https://www.taito.co.jp/taito-prize/0451714200",
+    "TG_20260920_albedo-amp-black-dress.jpg"
+   ],
+   "box_image": "overlord_albedo_amp-plus-black-dress.jpg",
+   "main_image": "box/overlord_albedo_amp-plus-black-dress.jpg",
+   "photos": [
+    "box/overlord_albedo_amp-plus-black-dress.jpg",
+    "raw/TG_20260920_albedo-amp-black-dress.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2023/8/28 初版、2024/2 再販;約20cm;Derek 2026-09-20 Telegram 傳照新增"
   }
  ]
 }
