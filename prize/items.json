@@ -1,7 +1,7 @@
 {
  "updated": "2026-09-20",
  "count": 47,
- "build": 1789841392,
+ "build": 1789841644,
  "items": [
   {
    "id": "vocaloid_sakura-miku_coreful-wafu-kissa",
@@ -861,8 +861,8 @@
     "box/gintama_various_chokorin-collection-box.jpg",
     "raw/P_20260919_170059.jpg"
    ],
-   "confidence": "low",
-   "notes": "官方圖為「ちょこりんコレクション 銀魂 vol.2」箱圖,角色為坂田銀時/土方十四郎/沖田総悟/近藤勲/山崎退/伊東鴨太郎;但使用者實拍箱面出現エリザベス/定春等角色,可能是vol.1或不同版本,圖片僅供參考,商品名確認為銀魂ちょこりんコレクション但確切版本(vol)未100%確認"
+   "confidence": "high",
+   "notes": "圖片由 Derek 指定(shimamura 商品圖,2026-09-20)"
   },
   {
    "id": "gintama_various_chokorin-mascot-red",
