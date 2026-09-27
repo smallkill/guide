@@ -81,7 +81,7 @@
   <div class="tabs">
     <div class="tab active" data-tab="pika">⚡ 皮卡丘限定（12）</div>
     <div class="tab soda" data-tab="soda">🥤 蘇打系列（5）</div>
-    <div class="tab special" data-tab="special">✨ 特別款（1）</div>
+    <div class="tab special" data-tab="special">✨ 特別款（2）</div>
   </div>
   <div class="panel active" id="panel-pika">
     <div class="grid" id="grid-pika"></div>
@@ -161,6 +161,8 @@ function render(gridId, data, isSoda) {
 const special = [
  {img:"x1-dragonite.jpg", name:"快龍＆迷你龍 抱抱娃娃", jp:"だっこぬいぐるみ ミニリュウ＆カイリュー（大器晩成）", loc:"寶可夢中心全店＋線上", year:"2019/10", conf:"高",
   note:"「大器晚成（TAIKI-BANSEI）」系列——主題是越進化越強的寶可夢。大型快龍(約 33cm)懷抱閉眼睡覺的迷你龍。同系列另有由基拉＋班基拉斯、黏黏寶＋黏美龍。定價 ¥3,000。"},
+ {img:"x2-ditto-koffing.jpg", name:"百變怪變身瓦斯彈(へんしん!メタモン 吊飾)", jp:"マスコット へんしん！メタモン ドガース", loc:"寶可夢中心(通販/全店)", year:"2026/07", conf:"高",
+  note:"「へんしん！メタモン」系列——百變怪變身成其他寶可夢、但變身臉還維持百變怪表情的搞笑吊飾系列。此款變身瓦斯彈(ドガース),紫色圓身印骷髏標記,附紫色寶貝球造型扣環。吊飾版定價 ¥1,870(另有布偶版 ¥2,200)。"},
 ];
 render("grid-pika", items, false);
 render("grid-soda", soda, true);
