@@ -9,6 +9,7 @@
   :root {
     --bg: #0b0f14; --card: #121822; --border: #1f2937;
     --text: #e6edf3; --muted: #93a1b0; --dim: #8693a1;
+    --backlink: #8693a1;
     --accent: #ffcb05; --accent2: #4cc2ff;   /* 皮卡丘黃 + 站點藍 */
     --pill: rgba(255,203,5,.14); --pill-border: rgba(255,203,5,.4);
   }
@@ -69,12 +70,15 @@
   .panel.active { display: block; }
   .panel-intro { text-align: center; color: var(--muted); font-size: .85rem; margin-bottom: 1.6rem; }
   footer { text-align: center; margin-top: 3rem; color: var(--dim); font-size: .78rem; }
+  .back { display:inline-block; color: var(--dim); font-size: 12px; text-decoration: none; margin-bottom: 8px; }
+  .back:hover { text-decoration: underline; }
   footer a { color: var(--accent2); text-decoration: none; }
 </style>
 </head>
 <body>
 <main>
   <header>
+    <a class="back" href="../">← 回 Guide 首頁</a>
     <h1><span class="bolt">⚡</span> 寶可夢中心娃娃</h1>
     <p>Derek 的寶可夢中心娃娃收藏 · 每一隻的系列與限定資訊</p>
   </header>
