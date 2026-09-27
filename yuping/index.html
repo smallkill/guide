@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yuping 的收藏</title>
+<meta name="description" content="Yuping 的收藏圖鑑合集。">
+<style>
+  :root {
+    --bg: #0b0f14; --bg-elev: #121822; --border: #1f2937;
+    --text: #e6edf3; --text-muted: #93a1b0;
+    --accent: #4cc2ff; --accent-soft: rgba(76,194,255,.12); --accent-border: rgba(76,194,255,.35);
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+    min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 2rem 1.25rem;
+  }
+  main { max-width: 640px; width: 100%; }
+  h1 { font-size: 1.6rem; margin-bottom: .4rem; }
+  h1 .slash { color: var(--accent); }
+  p.lead { color: var(--text-muted); margin-bottom: 2rem; font-size: .95rem; }
+  a.card {
+    display: block; background: var(--bg-elev); border: 1px solid var(--border);
+    border-radius: 12px; padding: 1.2rem 1.4rem; margin-bottom: 1rem;
+    text-decoration: none; color: inherit; transition: border-color .18s, transform .18s;
+  }
+  a.card:hover { border-color: var(--accent-border); transform: translateY(-2px); }
+  .card h2 { font-size: 1.08rem; margin-bottom: .35rem; }
+  .card h2 .tag {
+    font-size: .7rem; color: var(--accent); background: var(--accent-soft);
+    border: 1px solid var(--accent-border); border-radius: 99px; padding: .12rem .55rem;
+    margin-left: .5rem; vertical-align: 2px; font-weight: 500;
+  }
+  .card p { color: var(--text-muted); font-size: .88rem; line-height: 1.6; }
+  footer { margin-top: 2rem; color: var(--text-muted); font-size: .78rem; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<main>
+  <h1><span class="slash">/</span> yuping</h1>
+  <p class="lead">Yuping 的收藏圖鑑。</p>
+
+  <a class="card" href="prize/">
+    <h2>景品公仔圖鑑<span class="tag">🎁 48 件</span></h2>
+    <p>日本景品公仔收藏庫:依作品/廠商/類型分類,角色、系列、廠商即時搜尋,每件附官方圖與實拍照。</p>
+  </a>
+
+  <footer>by <a href="https://derek-chen.pages.dev" rel="author">Derek Chen</a> · <a href="https://github.com/smallkill/guide">GitHub</a></footer>
+</main>
+</body>
+</html>
