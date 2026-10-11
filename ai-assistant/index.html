@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>私人 AI 助理能做到的事</title>
+<meta name="description" content="把 Claude 當私人 AI 助理 NOVA 使用,能做到的事一覽:理財、生活旅遊、收藏興趣、職涯工作、寫程式與底層能力。">
+<meta property="og:title" content="私人 AI 助理能做到的事">
+<meta property="og:description" content="理財、旅遊、收藏、職涯、寫程式,用條列方式看私人 AI 助理 NOVA 實際能做到什麼。">
+<meta property="og:type" content="article">
+<style>
+  :root {
+    --bg:#0b0f14; --bg-elev:#121822; --border:#1f2937; --border-soft:#18212c;
+    --text:#e6edf3; --text-muted:#9aa8b6; --accent:#4cc2ff;
+    --accent-soft:rgba(76,194,255,.12); --accent-border:rgba(76,194,255,.35);
+    --ok:#6ee7a8; --ok-soft:rgba(110,231,168,.09); --ok-border:rgba(110,231,168,.32);
+    --radius:14px; --maxw:960px;
+    --font-sans:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Noto Sans TC","Microsoft JhengHei",Roboto,sans-serif;
+    --font-mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{background:var(--bg);color:var(--text);font-family:var(--font-sans);line-height:1.9;font-size:18px;overflow-x:hidden}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline;text-underline-offset:3px}
+  a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 16px}
+  .topbar{position:sticky;top:0;z-index:50;background:rgba(11,15,20,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--border-soft)}
+  .topbar-in{max-width:var(--maxw);margin:0 auto;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:16px}
+  .topbar .brand{display:flex;align-items:center;gap:9px;font-weight:650}
+  .dot{width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px var(--accent);flex:none}
+  .hero{padding:48px 0 30px;display:grid;gap:28px;align-items:center}
+  .eyebrow{display:inline-block;font-family:var(--font-mono);font-size:15px;letter-spacing:.12em;color:var(--accent);background:var(--accent-soft);border:1px solid var(--accent-border);padding:5px 12px;border-radius:999px;margin-bottom:18px}
+  h1{font-size:clamp(2rem,6vw,3.2rem);line-height:1.15;letter-spacing:-.02em;font-weight:750;margin-bottom:16px}
+  h1 .hl{color:var(--accent)}
+  .lede{font-size:1.15rem;color:var(--text-muted);max-width:56ch}
+  figure img{display:block;width:100%;height:auto;border-radius:var(--radius);border:1px solid var(--border);background:var(--bg-elev)}
+  .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:8px 0 0;list-style:none}
+  .stats li{background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;padding:14px 16px;font-size:17px;color:var(--text-muted);line-height:1.5}
+  .stats b{display:block;color:var(--accent);font-size:1.15rem;margin-bottom:2px}
+  section{padding:48px 0;border-top:1px solid var(--border-soft)}
+  .num{font-family:var(--font-mono);font-size:15px;color:var(--accent);letter-spacing:.08em}
+  h2{font-size:clamp(1.45rem,3.6vw,2rem);line-height:1.25;letter-spacing:-.015em;font-weight:720;margin:8px 0 8px}
+  .sub{color:var(--text-muted);max-width:62ch;margin-bottom:22px}
+  .split{display:grid;gap:24px;align-items:start}
+  .cards{display:grid;gap:12px;list-style:none}
+  .cards li{background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;padding:14px 16px;color:var(--text-muted);font-size:17.5px;line-height:1.8}
+  .cards li b{display:block;color:var(--text);font-size:18.5px;margin-bottom:2px}
+  .trust{background:var(--ok-soft);border:1px solid var(--ok-border);border-radius:var(--radius);padding:24px 20px}
+  .trust h2{margin-top:0}
+  .trust .num{color:var(--ok)}
+  .trust ul{list-style:none;display:grid;gap:12px;margin-top:16px}
+  .trust li{position:relative;padding-left:26px;color:var(--text-muted);font-size:17.5px;line-height:1.8}
+  .trust li::before{content:"";position:absolute;left:3px;top:10px;width:8px;height:8px;border-radius:2px;background:var(--ok)}
+  .trust li b{color:var(--text)}
+  ol.steps{list-style:none;counter-reset:s;display:grid;gap:12px;margin-top:8px}
+  ol.steps li{counter-increment:s;position:relative;background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;padding:14px 16px 14px 56px;color:var(--text-muted);font-size:17.5px;line-height:1.8}
+  ol.steps li::before{content:counter(s);position:absolute;left:14px;top:12px;width:28px;height:28px;border-radius:50%;background:var(--accent-soft);border:1px solid var(--accent-border);color:var(--accent);display:grid;place-items:center;font-family:var(--font-mono);font-size:13px}
+  ol.steps b{color:var(--text)}
+  .back{display:inline-block;margin:22px 0 0}
+  footer{border-top:1px solid var(--border-soft);padding:28px 0 48px;color:var(--text-muted);font-size:17px}
+  .cards li p{margin-top:6px}
+  @media (min-width:760px){
+    body{font-size:19px}
+    .wrap,.topbar-in{padding-left:24px;padding-right:24px}
+    .hero{grid-template-columns:1.1fr 1fr;padding:72px 0 40px}
+    .split{grid-template-columns:1fr 1fr;gap:32px}
+    .split.rev figure{order:2}
+    .stats{grid-template-columns:repeat(4,1fr)}
+    .trust{padding:34px 36px}
+    .trust ul{grid-template-columns:1fr 1fr;gap:14px 28px}
+  }
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  .list{list-style:none;display:grid;gap:8px;margin-top:14px}
+  .list li{position:relative;background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;padding:11px 14px 11px 38px;color:var(--text);font-size:17px;line-height:1.7}
+  .list li::before{content:"";position:absolute;left:16px;top:21px;width:8px;height:8px;border-radius:2px;background:var(--accent)}
+  .trust li{color:var(--text)}
+  section.wide .list{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="topbar-in">
+  <span class="brand"><span class="dot" aria-hidden="true"></span>私人 AI 助理 NOVA</span>
+  <a href="../">← 回首頁</a>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <div>
+      <h1>私人 AI 助理<span class="hl">能做到的事</span></h1>
+      <p class="lede">把 Claude 當成專屬助理 NOVA,實際用起來能做到這些。</p>
+    </div>
+    <figure><img src="img/hero.webp" width="1200" height="800" alt="一顆發光的助理核心,以光線連接手機、日曆、圖表、相片與筆記" fetchpriority="high"></figure>
+  </div>
+
+  <section id="finance">
+    <div class="split">
+      <figure><img src="img/finance.webp" width="1200" height="800" loading="lazy" alt="漂浮的圖表儀表板、盾牌與跳出通知的手機"></figure>
+      <div>
+        <span class="num">01</span>
+        <h2>理財投資</h2>
+        <ul class="list">
+          <li>整合多個帳戶,建立全資產淨值帳本並定期對帳</li>
+          <li>逐筆整理美股、台股交易,算出真實年化報酬並和大盤比</li>
+          <li>盯著關注清單,價格偏離行情過多或跌到設定價時推播到手機</li>
+          <li>依近期平均走勢,定期自動重算買進參考價</li>
+          <li>健檢多年記帳資料,分析儲蓄率、訂閱支出與現金流</li>
+          <li>整理信用卡清單,每月提醒帳單並產出月報(只記卡號末四碼)</li>
+          <li>唯讀串接券商 API(程式對接介面),查詢持股與損益</li>
+          <li>計算黃金持有的真實成本</li>
+          <li>把稅務問題交給專門的稅務專家 AI 處理</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="life">
+    <div class="split rev">
+      <figure><img src="img/life.webp" width="1200" height="800" loading="lazy" alt="紙飛機、行李箱、地圖標記與相機漂浮在小地圖上"></figure>
+      <div>
+        <span class="num">02</span>
+        <h2>生活旅遊</h2>
+        <ul class="list">
+          <li>每天早上推播日本機票價格到手機</li>
+          <li>整理旅遊行程:航班、住宿、交通</li>
+          <li>統計歷次旅遊花費</li>
+          <li>把手機與社群相簿裡的大量照片自動分類歸檔</li>
+          <li>用人臉辨識,從社團活動的大量照片中找出有自己的照片</li>
+          <li>在 LINE 旅遊群組放一個多人共用的小幫手機器人</li>
+          <li>依指定地標,產生健行或單車的路線檔</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="hobby">
+    <div class="split">
+      <figure><img src="img/hobby.webp" width="1200" height="800" loading="lazy" alt="擺滿玩具車、玩偶與麻將牌的收藏架,一支手機鏡頭正在掃描"></figure>
+      <div>
+        <span class="num">03</span>
+        <h2>收藏與興趣</h2>
+        <ul class="list">
+          <li>拍收藏品(玩具車、公仔、娃娃)照片 → 自動查型號資料、建成可搜尋的圖鑑網站</li>
+          <li>做麻將聽牌計算網頁,拍照就能辨識手牌</li>
+          <li>用使用者標註的資料,持續微調自訓的辨識模型</li>
+          <li>架設私人電子書閱讀網站,有密碼保護,手機可用深色模式</li>
+          <li>提供星座專家 AI,回答星座相關問題</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="career">
+    <div class="split rev">
+      <figure><img src="img/work.webp" width="1200" height="800" loading="lazy" alt="筆電、文件堆與分支成多個版本的履歷,旁邊是作品集網頁視窗"></figure>
+      <div>
+        <span class="num">04</span>
+        <h2>職涯工作</h2>
+        <ul class="list">
+          <li>建立履歷母體資料庫,同一份事實產出多個版本的履歷</li>
+          <li>做個人作品集網站,內建 AI 問答,訪客可直接問「他做過什麼」</li>
+          <li>全面翻新求職平台上的履歷</li>
+          <li>製作面試準備頁、投影片與講稿</li>
+          <li>整理新工作的工作筆記</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="code" class="wide">
+    <span class="num">05</span>
+    <h2>寫程式專案</h2>
+    <ul class="list">
+          <li>做股票比較網站,台股、美股各一個</li>
+          <li>打造企業入口平台的基本骨架</li>
+          <li>寫資安掃描練習工具</li>
+          <li>把舊的 C++ 專案搬到新環境重新跑起來</li>
+          <li>盤點並清理所有程式碼倉庫(GitHub)</li>
+          <li>程式上傳後,自動確認自動化檢查是否通過</li>
+          <li>網站上線前,先跑一輪安全稽核</li>
+        </ul>
+  </section>
+
+  <section id="core">
+    <div class="split">
+      <figure><img src="img/core.webp" width="1200" height="800" loading="lazy" alt="中央樞紐把工作派給多個專家小幫手,周圍有鎖、雲端備份與對話框"></figure>
+      <div>
+        <span class="num">06</span>
+        <h2>助理的底層能力</h2>
+        <ul class="list">
+          <li>用 Telegram 隨時下指令,人在外面也行</li>
+          <li>接收語音訊息,在本機轉成文字,不上傳</li>
+          <li>提供語音對話網頁,喊名字就喚醒</li>
+          <li>用長期記憶系統,跨對話記得偏好與進度</li>
+          <li>自己當指揮官,把工作派給各領域的專家子助理</li>
+          <li>每天凌晨自動備份到雲端硬碟</li>
+          <li>整理 Obsidian 筆記庫</li>
+          <li>唯讀讀取信箱,可讀寫試算表</li>
+          <li>依日曆與待辦,定時提醒</li>
+          <li>攔截危險指令的安全閘</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="trust">
+    <div class="trust">
+      <span class="num">07</span>
+      <h2>好習慣與隱私原則</h2>
+      <ul>
+        <li>敏感資料只記末四碼</li>
+        <li>敏感檔案在本機加密</li>
+        <li>語音在本機轉成文字</li>
+        <li>能唯讀就唯讀</li>
+        <li>花錢、刪除、對外發送,一律先問</li>
+        <li>完成要附上證據,不能只說做好了</li>
+      </ul>
+    </div>
+  </section>
+  <a class="back" href="../">← 回到所有教學</a>
+</main>
+
+<footer><div class="wrap">本頁內容已去識別化,僅描述能力與做法。</div></footer>
+</body>
+</html>
