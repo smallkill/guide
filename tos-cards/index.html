@@ -40,15 +40,23 @@
   .info{color:var(--dim);font-size:14px;margin-top:3px}
   .count{max-width:860px;margin:14px auto 4px;padding:0 16px;color:var(--dim);font-size:14px}
   #list{max-width:860px;margin:0 auto;padding:0 12px 20px}
-  .it{display:flex;gap:12px;align-items:center;background:var(--panel);border:1px solid var(--line);
-    border-radius:12px;padding:10px;margin-top:8px}
-  .it.own{border-left:4px solid var(--ok)} .it.not{border-left:4px solid var(--no);opacity:.9}
-  .it img,.it .ph{width:64px;height:64px;border-radius:10px;background:#0b0d11;flex:none;object-fit:contain}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(60px,1fr));gap:6px;margin-top:8px}
+  .cell{position:relative;display:block;padding:0;border:2px solid transparent;border-radius:10px;background:#0b0d11;
+    aspect-ratio:1/1;cursor:pointer;overflow:hidden;font:inherit;color:inherit}
+  .cell.own{border-color:var(--ok)}
+  .cell:focus-visible,.cell.sel{outline:3px solid var(--accent2);outline-offset:1px}
+  .cell img{width:100%;height:100%;object-fit:contain;display:block}
+  .cell .ph{width:100%;height:100%}
+  .gray{filter:grayscale(1);opacity:.5}
+  .cell .n{position:absolute;right:2px;bottom:2px;background:rgba(0,0,0,.78);color:var(--ok);font-size:11px;font-weight:800;
+    line-height:1;padding:2px 4px;border-radius:6px}
+  #pop{position:fixed;z-index:60;display:none;background:var(--panel);border:2px solid var(--line);border-radius:14px;
+    padding:12px 14px;box-shadow:0 8px 30px rgba(0,0,0,.6);width:min(280px,calc(100vw - 24px));pointer-events:none}
+  #pop.on{display:block} #pop.yes{border-color:var(--ok)} #pop.no{border-color:var(--no)}
+  #pop .id{color:var(--accent2);font-size:13px;font-weight:700} #pop .nm{font-size:18px;font-weight:700;line-height:1.3;word-break:break-all}
+  #pop .st{font-size:17px;font-weight:800;margin-top:4px} #pop.yes .st{color:var(--ok)} #pop.no .st{color:var(--no)}
+  @media (max-width:600px){#pop{left:12px!important;right:12px;bottom:12px;top:auto!important;width:auto}}
   .ph{display:flex;align-items:center;justify-content:center;color:#404757;font-size:22px}
-  .it .nm{font-size:17px;font-weight:700;line-height:1.3;word-break:break-all}
-  .it .id{color:var(--accent2);font-size:13px;font-weight:700}
-  .it .st{font-size:16px;font-weight:700;margin-top:2px}
-  .own .st{color:var(--ok)} .not .st{color:var(--no)}
   .att{display:inline-block;padding:0 6px;border-radius:5px;background:var(--panel2);color:var(--txt);font-size:12px;margin-right:4px}
   button.more{display:block;margin:14px auto;background:var(--panel2);color:var(--txt);border:1px solid var(--line);
     border-radius:12px;padding:14px 28px;font-size:17px;cursor:pointer}
@@ -74,10 +82,11 @@
 <div class="hero" id="hero"></div>
 <div class="count" id="count"></div>
 <div id="list"></div>
+<div id="pop"></div>
 <footer>資料取自遊戲官方互助檢視;卡名與圖片來源 tinghan33704/tos-tools。圖片版權屬 Madhead。</footer>
 
 <script>
-const $=s=>document.querySelector(s), PAGE=60;
+const $=s=>document.querySelector(s), PAGE=180;
 let OWN=new Map(), ALL=[], META={}, state={q:'',own:'all',att:'',race:'',star:'',shown:PAGE};
 
 const norm=s=>String(s).normalize('NFKC').replace(/[\s‧·．.・]/g,'').toLowerCase();
@@ -110,19 +119,22 @@ function statusHtml(x){
   if(!x.o) return '❌ 沒有';
   const o=x.o; return `✅ 有 ×${o.count}(最高 Lv${o.maxLevel})`;
 }
-function imgHtml(x,cls){
-  return x.o&&!x.o.unknown ? `<img loading="lazy" decoding="async" width="64" height="64" src="img/${x.id}.webp" alt="" onerror="this.outerHTML='<div class=ph>?</div>'">` : `<div class="ph">?</div>`;
+const PH="onerror=\"this.outerHTML='<div class=ph>?</div>'\"";
+function imgHtml(x,w){
+  return `<img loading="lazy" decoding="async" width="${w}" height="${w}" src="img/${esc(x.id)}.webp" alt="" class="${x.o?'':'gray'}" ${PH}>`;
 }
 function infoLine(x){
   const a=[]; if(x.att)a.push(`<span class="att">${esc(x.att)}</span>`); if(x.race)a.push(esc(x.race)); if(x.star)a.push(esc(x.star)+'★');
   return a.join(' ');
 }
 function item(x){
-  return `<div class="it ${x.o?'own':'not'}">${imgHtml(x)}<div style="min-width:0">
-    <div class="id">No.${x.id}</div><div class="nm">${esc(x.name)}</div>
-    <div class="info">${infoLine(x)}</div><div class="st">${statusHtml(x)}</div></div></div>`;
+  const lab=`${x.id} ${x.name} ${x.o?'有':'沒有'}`;
+  return `<button type="button" class="cell ${x.o?'own':'no'}" data-id="${esc(x.id)}" aria-label="${esc(lab)}" aria-describedby="pop">${imgHtml(x,64)}${x.o?`<span class="n">×${esc(x.o.count)}</span>`:''}</button>`;
 }
-function rawQ(){return state.q.normalize('NFKC').trim()}
+function popHtml(x){
+  return `<div class="id">No.${esc(x.id)}</div><div class="nm">${esc(x.name)}</div><div class="info">${infoLine(x)}</div><div class="st">${esc(statusHtml(x))}</div>`;
+}
+function rawQ(){return state.q.normalize("NFKC").trim()}
 function search(){
   const raw=rawQ();
   let list=ALL, exact=null;
@@ -143,12 +155,13 @@ function search(){
   return {list,exact};
 }
 function render(){
+  hidePop();
   const {list,exact}=search();
   const hero=$('#hero'); hero.innerHTML='';
   if(/^\d+$/.test(rawQ())){
     const n=+rawQ();
     if(exact){
-      hero.innerHTML=`<div class="big ${exact.o?'yes':'no'}">${exact.o&&!exact.o.unknown?`<img src="img/${exact.id}.webp" alt="" onerror="this.outerHTML='<div class=ph>?</div>'">`:'<div class="ph">?</div>'}
+      hero.innerHTML=`<div class="big ${exact.o?'yes':'no'}">${imgHtml(exact,96)}
         <div style="min-width:0"><div class="id" style="color:var(--accent2);font-weight:700">No.${exact.id}</div>
         <div class="nm">${esc(exact.name)}</div><div class="info">${infoLine(exact)}</div>
         <div class="st">${statusHtml(exact)}</div></div></div>`;
@@ -159,7 +172,7 @@ function render(){
   $('#count').textContent=`符合 ${list.length} 種`+(list.length>state.shown?`(顯示前 ${state.shown} 筆)`:'');
   const el=$('#list');
   if(!list.length){el.innerHTML='<div class="empty">找不到符合的卡片</div>';return}
-  el.innerHTML=list.slice(0,state.shown).map(item).join('')+
+  el.innerHTML='<div class="grid">'+list.slice(0,state.shown).map(item).join('')+'</div>'+
     (list.length>state.shown?'<button class="more" id="more">再顯示 '+Math.min(PAGE,list.length-state.shown)+' 筆</button>':'');
 }
 let timer;
@@ -170,6 +183,31 @@ document.addEventListener('click',e=>{
   if(t.dataset.o){state.own=t.dataset.o;[...$('#own').children].forEach(c=>c.classList.toggle('on',c===t));state.shown=PAGE;render();return}
   if(t.dataset.k){state[t.dataset.k]=t.dataset.v;t.parentElement.querySelectorAll('.chip').forEach(c=>c.classList.toggle('on',c===t));state.shown=PAGE;render()}
 });
+// ---- 浮動詳細卡:桌機 hover / 鍵盤 focus / 手機 tap ----
+const pop=$('#pop'); let pinned=null;
+let IDX=null;const byId=id=>(IDX||(IDX=new Map(ALL.map(x=>[x.id,x])))).get(+id);
+function showPop(cell){
+  const x=byId(cell.dataset.id); if(!x)return;
+  pop.className='on '+(x.o?'yes':'no'); pop.innerHTML=popHtml(x);
+  const r=cell.getBoundingClientRect(), w=pop.offsetWidth, h=pop.offsetHeight;
+  let l=Math.min(Math.max(8,r.left+r.width/2-w/2),innerWidth-w-8);
+  let t=r.top-h-8; if(t<8)t=r.bottom+8;
+  pop.style.left=l+'px'; pop.style.top=t+'px';
+}
+function hidePop(){pop.className='';pinned&&pinned.classList.remove('sel');pinned=null}
+const cellOf=e=>e.target.closest&&e.target.closest('.cell');
+const canHover=matchMedia('(hover:hover)').matches;
+$('#list').addEventListener('mouseover',e=>{const c=cellOf(e);if(c&&canHover&&!pinned)showPop(c)});
+$('#list').addEventListener('mouseout',e=>{const c=cellOf(e);if(c&&canHover&&!pinned&&!c.contains(e.relatedTarget))hidePop()});
+$('#list').addEventListener('focusin',e=>{const c=cellOf(e);if(!c)return;if(pinned&&pinned!==c)hidePop();if(!pinned)showPop(c)});
+$('#list').addEventListener('focusout',e=>{if(cellOf(e)&&!pinned)hidePop()});
+document.addEventListener('click',e=>{
+  const c=cellOf(e);
+  if(c){ if(pinned===c){hidePop();return} hidePop(); pinned=c; c.classList.add('sel'); showPop(c); return }
+  hidePop();
+},true);
+document.addEventListener('keydown',e=>{if(e.key==='Escape')hidePop()});
+addEventListener('scroll',()=>{if(!canHover)hidePop();else if(pinned)showPop(pinned)},{passive:true});
 init();
 </script>
 </body>
