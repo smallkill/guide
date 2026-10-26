@@ -1,0 +1,2734 @@
+{
+ "updated": "2026-10-26",
+ "build": 1792998519,
+ "count": 86,
+ "items": [
+  {
+   "id": "gintama_unknown-peach-pillow_132014",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "銀魂 長條抱枕型娃娃(品名待確認)",
+   "ip": "銀魂",
+   "character": "未確認(橘色長條枕型,頭部米色)",
+   "maker": "",
+   "line": "",
+   "type": "other",
+   "year": "",
+   "category": [
+    "絨毛娃娃",
+    "抱枕"
+   ],
+   "keywords": [
+    "銀魂"
+   ],
+   "source_images": [
+    "raw/P_20261026_132014_1.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132014_1.jpg",
+   "photos": [
+    "raw/P_20261026_132014_1.jpg"
+   ],
+   "confidence": "low",
+   "notes": "長條抱枕型絨毛,橘色身體、米色頭部與手臂,臉部有斜眼表情。吊牌在右下角僅見「ワ48」類字樣殘片,無法讀出完整商品名。IP 歸屬為銀魂為推測(與同批次其他照片同組),角色未確認。",
+   "code": "N01"
+  },
+  {
+   "id": "gintama_elizabeth_plush-standing_132014",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "銀魂 伊莉莎白 絨毛娃娃(站姿)",
+   "ip": "銀魂",
+   "character": "エリザベス (Elizabeth)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "銀魂",
+    "エリザベス"
+   ],
+   "source_images": [
+    "raw/P_20261026_132014_2.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132014_2.jpg",
+   "photos": [
+    "raw/P_20261026_132014_2.jpg"
+   ],
+   "confidence": "low",
+   "notes": "黃嘴白色鳥型絨毛,角色判為 Elizabeth 是依造型推測。無吊牌可見,未能查到確切商品名、廠商與年份。照片中背景另有一隻白色帶光環的娃娃(非本筆)。",
+   "code": "N02"
+  },
+  {
+   "id": "gintama_elizabeth_rukappu-poncho_132014",
+   "name_ja": "るかっぷ ポンチョ 銀魂 エリザベス",
+   "name_en": "Rukappu Poncho Gintama Elizabeth",
+   "name_zh": "Rukappu 披風 銀魂 伊莉莎白",
+   "ip": "銀魂",
+   "character": "エリザベス (Elizabeth)",
+   "maker": "MegaHouse",
+   "line": "るかっぷ",
+   "type": "other",
+   "year": "2026",
+   "category": [
+    "周邊",
+    "披風",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "銀魂",
+    "エリザベス",
+    "るかっぷ",
+    "ポンチョ",
+    "MegaHouse"
+   ],
+   "source_images": [
+    "https://www.megahobby.jp/products/item/5701/",
+    "raw/P_20261026_132014_3.jpg"
+   ],
+   "box_image": "gintama_elizabeth_rukappu-poncho_132014.jpg",
+   "main_image": "box/gintama_elizabeth_rukappu-poncho_132014.jpg",
+   "photos": [
+    "box/gintama_elizabeth_rukappu-poncho_132014.jpg",
+    "raw/P_20261026_132014_3.jpg"
+   ],
+   "confidence": "high",
+   "notes": "MegaHouse(メガホビ公式頁 item/5701)確認:るかっぷ ポンチョ 銀魂 エリザベス,2026年。包裝(BANDAI NAMCO/MegaHouse)與實拍一致。",
+   "code": "N03"
+  },
+  {
+   "id": "gintama_sadaharu_rukyappu_132014",
+   "name_ja": "るきゃっぷ 銀魂 定春",
+   "name_en": "",
+   "name_zh": "Rukyappu 銀魂 定春",
+   "ip": "銀魂",
+   "character": "定春 (Sadaharu)",
+   "maker": "MegaHouse",
+   "line": "るかっぷ",
+   "type": "plush",
+   "year": "2026",
+   "category": [
+    "絨毛娃娃",
+    "帽子/頭套"
+   ],
+   "keywords": [
+    "銀魂",
+    "定春",
+    "るきゃっぷ"
+   ],
+   "source_images": [
+    "https://www.megahobby.jp/products/item/5702/",
+    "raw/P_20261026_132014_4.jpg"
+   ],
+   "box_image": "gintama_sadaharu_rukyappu_132014.jpg",
+   "main_image": "box/gintama_sadaharu_rukyappu_132014.jpg",
+   "photos": [
+    "box/gintama_sadaharu_rukyappu_132014.jpg",
+    "raw/P_20261026_132014_4.jpg"
+   ],
+   "confidence": "high",
+   "notes": "MegaHouse(メガホビ公式頁 item/5702)確認:るきゃっぷ 銀魂 定春,2026年。外型與實拍包裝一致。",
+   "code": "N04"
+  },
+  {
+   "id": "gintama_sadaharu_banpresto-a1_132014",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "銀魂 號碼布造型娃娃 A1(疑似定春)",
+   "ip": "銀魂",
+   "character": "定春 (Sadaharu)(推測)",
+   "maker": "BANPRESTO(推測)",
+   "line": "賽馬 A1",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃",
+    "景品"
+   ],
+   "keywords": [
+    "銀魂",
+    "定春",
+    "A1",
+    "賽馬"
+   ],
+   "source_images": [
+    "raw/P_20261026_132014_5.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132014_5.jpg",
+   "photos": [
+    "raw/P_20261026_132014_5.jpg"
+   ],
+   "confidence": "low",
+   "notes": "胸前紅底黑字「A」與白框「1」賽馬式號碼布;白色貓臉造型依上一筆判為定春(推測)。查證搜尋未找到對應商品,廠商/系列未確認。與 gintama_sadaharu_rukyappu 是否同角色不同商品:未確定,分開建檔。",
+   "code": "N05"
+  },
+  {
+   "id": "gintama_unknown-c1-pink_132014",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "銀魂 號碼布造型娃娃 C1(角色待確認)",
+   "ip": "銀魂",
+   "character": "未確認(粉色造型)",
+   "maker": "BANPRESTO(推測)",
+   "line": "賽馬 C1",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃",
+    "景品"
+   ],
+   "keywords": [
+    "銀魂",
+    "C1",
+    "賽馬"
+   ],
+   "source_images": [
+    "raw/P_20261026_132014_6.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132014_6.jpg",
+   "photos": [
+    "raw/P_20261026_132014_6.jpg"
+   ],
+   "confidence": "low",
+   "notes": "胸前綠底黑字「C」與白框「1」號碼布;被塑膠袋包住,僅見粉色頭部與眼睛,角色無法確認,未建議命名。",
+   "code": "N06"
+  },
+  {
+   "id": "gintama_elizabeth_ball-plush_132014",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "銀魂 伊莉莎白 圓球絨毛娃娃",
+   "ip": "銀魂",
+   "character": "エリザベス (Elizabeth)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "銀魂",
+    "エリザベス"
+   ],
+   "source_images": [
+    "raw/P_20261026_132014_7.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132014_7.jpg",
+   "photos": [
+    "raw/P_20261026_132014_7.jpg"
+   ],
+   "confidence": "low",
+   "notes": "包在透明袋中的圓球頭黃嘴白鳥,角色判為 Elizabeth 是依造型推測。與照片2是否為同一隻未能確認(造型比例不同,故分開建檔)。未查到商品名/廠商。",
+   "code": "N07"
+  },
+  {
+   "id": "gintama_unknown-white-cat-blue-sash_132014",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "銀魂 動物造型娃娃(白貓・藍浪紋腰帶,疑似銀時)",
+   "ip": "銀魂",
+   "character": "坂田銀時(推測)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "銀魂"
+   ],
+   "source_images": [
+    "raw/P_20261026_132014_8.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132014_8.jpg",
+   "photos": [
+    "raw/P_20261026_132014_8.jpg"
+   ],
+   "confidence": "low",
+   "notes": "白色貓型、藍白雲紋腰帶、吊牌可見「いちご牛乳」與 MOFUSA 樣字樣。角色與 IP 歸屬未能確認(可能為銀魂相關,亦可能非銀魂)。查證搜尋未找到對應商品。",
+   "code": "N08"
+  },
+  {
+   "id": "gintama_unknown-gray-cat-suit_132014",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "銀魂 動物造型娃娃(灰貓・頭頂伊莉莎白,疑似桂小太郎)",
+   "ip": "銀魂",
+   "character": "桂小太郎(推測)",
+   "maker": "",
+   "line": "MOFUSA(吊牌字樣)",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "銀魂",
+    "MOFUSA"
+   ],
+   "source_images": [
+    "raw/P_20261026_132014_9.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132014_9.jpg",
+   "photos": [
+    "raw/P_20261026_132014_9.jpg"
+   ],
+   "confidence": "low",
+   "notes": "灰色貓型穿西裝、頭上貼著黑眼白嘴的白鳥卡片(疑似 Elizabeth 元素)、吊牌印 MOFUSA。IP 與角色未確認,查證未找到商品頁。",
+   "code": "N09"
+  },
+  {
+   "id": "gintama_unknown-orange-rabbit-black-belt_132014",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "銀魂 動物造型娃娃(橘兔・黑服紫傘,疑似神威)",
+   "ip": "銀魂",
+   "character": "神威(推測)",
+   "maker": "",
+   "line": "MOFUSA(吊牌字樣)",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "銀魂",
+    "MOFUSA"
+   ],
+   "source_images": [
+    "raw/P_20261026_132014_10.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132014_10.jpg",
+   "photos": [
+    "raw/P_20261026_132014_10.jpg"
+   ],
+   "confidence": "low",
+   "notes": "橘色長耳兔型、灰色上衣配黑腰帶與紫色結,吊牌 MOFUSA 字樣。角色未能確認,查證未找到商品頁。",
+   "code": "N10"
+  },
+  {
+   "id": "gintama_unknown-orange-rabbit-red-outfit_132014",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "銀魂 動物造型娃娃(橘兔・紅旗袍,疑似神樂)",
+   "ip": "銀魂",
+   "character": "神樂(推測)",
+   "maker": "",
+   "line": "MOFUSA(吊牌字樣)",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "銀魂",
+    "MOFUSA"
+   ],
+   "source_images": [
+    "raw/P_20261026_132014_11.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132014_11.jpg",
+   "photos": [
+    "raw/P_20261026_132014_11.jpg"
+   ],
+   "confidence": "low",
+   "notes": "橘色長耳兔型、紅色與黃色服飾、單眼藍色高光。與照片10 是否為同系列不同角色:造型不同,分開建檔。角色未確認。",
+   "code": "N11"
+  },
+  {
+   "id": "gintama_unknown-brown-mask_132014",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "銀魂 動物造型娃娃(棕熊・紅墨鏡,疑似坂本辰馬)",
+   "ip": "銀魂",
+   "character": "坂本辰馬(推測)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "銀魂"
+   ],
+   "source_images": [
+    "raw/P_20261026_132014_12.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132014_12.jpg",
+   "photos": [
+    "raw/P_20261026_132014_12.jpg"
+   ],
+   "confidence": "low",
+   "notes": "棕色圓耳熊型、紅色眼罩、黑色制服式衣領。IP 與角色未確認,無可讀吊牌。",
+   "code": "N12"
+  },
+  {
+   "id": "gintama_unknown-black-cat-face_132014",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "銀魂 黑貓臉 絨毛(包裝印 GINTAMA)",
+   "ip": "銀魂",
+   "character": "未確認(黑貓臉)",
+   "maker": "",
+   "line": "",
+   "type": "other",
+   "year": "",
+   "category": [
+    "絨毛娃娃",
+    "小物"
+   ],
+   "keywords": [
+    "銀魂",
+    "黑貓"
+   ],
+   "source_images": [
+    "raw/P_20261026_132014_13.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132014_13.jpg",
+   "photos": [
+    "raw/P_20261026_132014_13.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "黑貓臉造型(金色眼、粉色耳),包裝可見「GINTAMA」字樣,判定為銀魂周邊。具體角色/系列未查到,類型暫設 other(可能是扁平臉袋/小物)。",
+   "code": "N13"
+  },
+  {
+   "id": "gintama_unknown-white-cat-face_132014",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "銀魂 白貓臉 絨毛(包裝印 GINTAMA)",
+   "ip": "銀魂",
+   "character": "未確認(白貓臉無奈眼)",
+   "maker": "",
+   "line": "",
+   "type": "other",
+   "year": "",
+   "category": [
+    "絨毛娃娃",
+    "小物"
+   ],
+   "keywords": [
+    "銀魂",
+    "白貓"
+   ],
+   "source_images": [
+    "raw/P_20261026_132014_14.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132014_14.jpg",
+   "photos": [
+    "raw/P_20261026_132014_14.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "白色貓臉、無奈半閉眼與粉色耳,包裝可見「GINTAMA」字樣,判定為銀魂周邊。具體角色/系列未查到,類型暫設 other。",
+   "code": "N14"
+  },
+  {
+   "id": "haikyuu_kuroo-cat_animal-big-plush_132718",
+   "name_ja": "ハイキュー!! アニマルBIGぬいぐるみ2(クロオネコ)",
+   "name_en": "Haikyu!! Animal BIG Plush 2 (Kuroo Neko (Kuroo cat))",
+   "name_zh": "排球少年 動物系大型絨毛娃娃2(黑尾貓)",
+   "ip": "ハイキュー!!",
+   "character": "黒尾鉄朗(クロオネコ)",
+   "maker": "SK Japan",
+   "line": "アニマルBIGぬいぐるみ",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "アニマルBIGぬいぐるみ",
+    "クロオネコ",
+    "SK JAPAN",
+    "キャラとる"
+   ],
+   "source_images": [
+    "https://www.sk-japan.co.jp/charatoru/chara/haikyu/amgoods-53516",
+    "P_20261026_132718_1.jpg"
+   ],
+   "box_image": "haikyuu_kuroo-cat_animal-big-plush_132718.jpg",
+   "main_image": "box/haikyuu_kuroo-cat_animal-big-plush_132718.jpg",
+   "photos": [
+    "box/haikyuu_kuroo-cat_animal-big-plush_132718.jpg",
+    "raw/P_20261026_132718_1.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "SK Japan アニマルBIGぬいぐるみ2(2025年7月第3週),全2種(クロオネコ/ケンマネコ)。照片1在袋內被其他娃娃遮擋、反光,但灰貓+黑瀏海+粉耳可辨,與官方款相符。官方圖為雙款圖裁切。",
+   "code": "N15"
+  },
+  {
+   "id": "haikyuu_kenma-cat_animal-big-plush_132718",
+   "name_ja": "ハイキュー!! アニマルBIGぬいぐるみ2(ケンマネコ)",
+   "name_en": "Haikyu!! Animal BIG Plush 2 (Kenma Neko (Kenma cat))",
+   "name_zh": "排球少年 動物系大型絨毛娃娃2(研磨貓)",
+   "ip": "ハイキュー!!",
+   "character": "孤爪研磨(ケンマネコ)",
+   "maker": "SK Japan",
+   "line": "アニマルBIGぬいぐるみ",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "アニマルBIGぬいぐるみ",
+    "ケンマネコ",
+    "SK JAPAN",
+    "キャラとる"
+   ],
+   "source_images": [
+    "https://www.sk-japan.co.jp/charatoru/chara/haikyu/amgoods-53516",
+    "P_20261026_132718_2.jpg"
+   ],
+   "box_image": "haikyuu_kenma-cat_animal-big-plush_132718.jpg",
+   "main_image": "box/haikyuu_kenma-cat_animal-big-plush_132718.jpg",
+   "photos": [
+    "box/haikyuu_kenma-cat_animal-big-plush_132718.jpg",
+    "raw/P_20261026_132718_2.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "同Vol.2的另一款。照片2只拍到一角(棕黃瀏海+白臉+半邊黃眼圈)且被日向烏鴉的橘髮遮擋,但特徵與官方吻合。官方圖為雙款圖裁切。",
+   "code": "N16"
+  },
+  {
+   "id": "haikyuu_hinagarasu_animal-big-plush_132718_p3",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "排球少年 日向烏鴉 深藍橘髮絨毛(照片3,另一隻,款式待確認)",
+   "ip": "ハイキュー!!",
+   "character": "日向翔陽(ヒナガラス)",
+   "maker": "SK Japan",
+   "line": "アニマルBIGぬいぐるみ",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "アニマルBIGぬいぐるみ",
+    "ヒナガラス",
+    "SK JAPAN",
+    "キャラとる"
+   ],
+   "source_images": [
+    "raw/P_20261026_132718_3.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132718_3.jpg",
+   "photos": [
+    "raw/P_20261026_132718_3.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片3 為深藍色身體+橘色頭髮毛氈+白點眼的絨毛(近拍);Derek 指出與照片10 是不同件。與 ヒナガラス BIG 同色系但尺寸/款式未確認,不套用官方圖。",
+   "code": "N17"
+  },
+  {
+   "id": "haikyuu_bokuto-owl_animal-big-plush_132718",
+   "name_ja": "ハイキュー!! アニマルBIGぬいぐるみ3(フクロウ)",
+   "name_en": "Haikyu!! Animal BIG Plush 3 (Bokuto Fukuro (Bokuto owl))",
+   "name_zh": "排球少年 動物系大型絨毛娃娃3(木兎貓頭鷹)",
+   "ip": "ハイキュー!!",
+   "character": "木兎光太郎(ボクトフクロウ)",
+   "maker": "SK Japan",
+   "line": "アニマルBIGぬいぐるみ",
+   "type": "plush",
+   "year": "2026",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "アニマルBIGぬいぐるみ",
+    "フクロウ",
+    "SK JAPAN",
+    "キャラとる"
+   ],
+   "source_images": [
+    "https://www.sk-japan.co.jp/charatoru/chara/haikyu/amgoods-60110",
+    "P_20261026_132718_4.jpg"
+   ],
+   "box_image": "haikyuu_bokuto-owl_animal-big-plush_132718.jpg",
+   "main_image": "box/haikyuu_bokuto-owl_animal-big-plush_132718.jpg",
+   "photos": [
+    "box/haikyuu_bokuto-owl_animal-big-plush_132718.jpg",
+    "raw/P_20261026_132718_4.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "SK Japan アニマルBIGぬいぐるみ3(2026年4月第4週),灰米色貓頭鷹+橘眼=木兎;同系列另一款為赤葦(褐色鴞)。照片4為側拍,吊牌可見「ハイキュー!!」與角色卡。官方頁面本身未標註角色名,角色由外型比對得出。官方圖為雙款圖裁切木兎款。",
+   "code": "N18"
+  },
+  {
+   "id": "haikyuu_bokuto-4_sitting-plush_132718",
+   "name_ja": "ハイキュー!! おすわりぬいぐるみ(木兎光太郎)",
+   "name_en": "Haikyu!! Sitting plush (Bokuto)",
+   "name_zh": "排球少年 坐姿絨毛娃娃(木兎光太郎)",
+   "ip": "ハイキュー!!",
+   "character": "木兎光太郎",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "木兎光太郎"
+   ],
+   "source_images": [
+    "P_20261026_132718_5.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132718_5.jpg",
+   "photos": [
+    "raw/P_20261026_132718_5.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片5:梟谷白黑制服背號4、黑髮笑臉,判斷為木兎光太郎(medium);商品系列/廠商無法確認。已比對 Furyu ぬいもっちマスコット、Bandai Namco Chibiぬいぐるみ、SK みにコレ!ぬいぐるみ、ちょぴぬいぷち 的官方圖,造型皆不符,故無官方圖、年份廠商留空。吊牌在袋內看不到。",
+   "code": "N19"
+  },
+  {
+   "id": "haikyuu_kuroo-red_sitting-plush_132718",
+   "name_ja": "ハイキュー!! おすわりぬいぐるみ(黒尾鉄朗)",
+   "name_en": "Haikyu!! Sitting plush (Kuroo)",
+   "name_zh": "排球少年 坐姿絨毛娃娃(黑尾鐵朗)",
+   "ip": "ハイキュー!!",
+   "character": "黒尾鉄朗",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "黒尾鉄朗"
+   ],
+   "source_images": [
+    "P_20261026_132718_6.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132718_6.jpg",
+   "photos": [
+    "raw/P_20261026_132718_6.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片6:音駒紅色制服、黑色亂翹髮、手抱排球,判斷為黑尾鉄朗(medium;背號看不到,也可能是同校其他角色);商品系列/廠商無法確認(比對過Furyu ぬいもっち、Bandai Namco Chibi、SK みにコレ,皆不符)。",
+   "code": "N20"
+  },
+  {
+   "id": "haikyuu_hinata-black_sitting-plush_132718",
+   "name_ja": "ハイキュー!! おすわりぬいぐるみ(日向翔陽)",
+   "name_en": "Haikyu!! Sitting plush (Hinata)",
+   "name_zh": "排球少年 坐姿絨毛娃娃(日向翔陽)",
+   "ip": "ハイキュー!!",
+   "character": "日向翔陽",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "日向翔陽"
+   ],
+   "source_images": [
+    "P_20261026_132718_7.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132718_7.jpg",
+   "photos": [
+    "raw/P_20261026_132718_7.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片7:烏野黑色制服背號10、橘髮、ω嘴,判斷為日向翔陽(high);商品系列/廠商無法確認(比對過Furyu ぬいもっち A賞、Bandai Namco Chibi、SK みにコレ,皆不符)。背面尾巴處有「ハイキュー!!」吊牌。",
+   "code": "N21"
+  },
+  {
+   "id": "unknown_shiba-tulip-hood_plush_132718",
+   "name_ja": "(未確認)チューリップ帽の犬ぬいぐるみ",
+   "name_en": "Unidentified plush: white dog with yellow tulip hood",
+   "name_zh": "(未確認)黃色鬱金香帽小狗絨毛娃娃",
+   "ip": "不明(待辨識)",
+   "character": "犬(白、チューリップ帽)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "柴犬",
+    "チューリップ",
+    "カワイイ"
+   ],
+   "source_images": [
+    "P_20261026_132718_8.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132718_8.jpg",
+   "photos": [
+    "raw/P_20261026_132718_8.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片8:白臉小狗,頭戴黃色花帽,手腳為黃色鬱金香造型,下方米色身體;吊牌為日文片假名,只讀得到「カワイ…」片段,商品與IP無法辨識(查過日文搜尋沒有符合結果),建議使用者補拍吊牌。照片只有一張,畫面右下角露出的麻布是照片9的束口袋。",
+   "code": "N22"
+  },
+  {
+   "id": "maplestory_mushroom-003_pouch-plush_132718",
+   "name_ja": "メイプルストーリー キノコ #003 ぬいぐるみ巾着(推定)",
+   "name_en": "MapleStory mushroom #003 plush pouch (tentative)",
+   "name_zh": "新楓之谷 蘑菇 #003 絨毛娃娃束口袋(推測)",
+   "ip": "メイプルストーリー",
+   "character": "キノコ系モンスター(#003、白黒斑点)",
+   "maker": "Nexon Korea",
+   "line": "",
+   "type": "other",
+   "year": "",
+   "category": [
+    "遊戲",
+    "周邊"
+   ],
+   "keywords": [
+    "maplestory",
+    "메이플스토리",
+    "nexon",
+    "mushroom",
+    "#003"
+   ],
+   "source_images": [
+    "P_20261026_132718_9.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132718_9.jpg",
+   "photos": [
+    "raw/P_20261026_132718_9.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片9:橘色吊牌「#003」+黑白斑點蘑菇圖與韓文說明,背面標籤寫製造/發行 Nexon Korea Corporation(中國製、尺寸約160mm×220mm),亞麻束口袋印橘色楓葉星形。判斷為韓國 MapleStory 周邊(袋內大概是娃娃/鑰匙圈),但官方 MapleStore 的「인형 키링 파우치」只找到 주황버섯/슬라임/핑크빈/예티/돌의 정령,沒有 #003 款,無法對上確切商品,故無官方圖。照片左上角露出日向翔陽娃娃(照片7)。",
+   "code": "N23"
+  },
+  {
+   "id": "haikyuu_hinagarasu_animal-big-plush_132718",
+   "name_ja": "ハイキュー!! アニマルBIGぬいぐるみ(ヒナガラス)",
+   "name_en": "Haikyu!! Animal BIG Plush (Hinagarasu (Hinata crow))",
+   "name_zh": "排球少年 動物系大型絨毛娃娃(日向烏鴉)",
+   "ip": "ハイキュー!!",
+   "character": "日向翔陽(ヒナガラス)",
+   "maker": "SK Japan",
+   "line": "アニマルBIGぬいぐるみ",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "アニマルBIGぬいぐるみ",
+    "ヒナガラス",
+    "SK JAPAN",
+    "キャラとる"
+   ],
+   "source_images": [
+    "https://www.sk-japan.co.jp/charatoru/chara/haikyu/amgoods-51982",
+    "P_20261026_132718_10.jpg",
+    "P_20261026_132718_3.jpg"
+   ],
+   "box_image": "haikyuu_hinagarasu_animal-big-plush_132718.jpg",
+   "main_image": "box/haikyuu_hinagarasu_animal-big-plush_132718.jpg",
+   "photos": [
+    "box/haikyuu_hinagarasu_animal-big-plush_132718.jpg",
+    "raw/P_20261026_132718_10.jpg"
+   ],
+   "confidence": "high",
+   "notes": "SK Japan 2025年5月第3週,H30×W35×D36cm,全2種(ヒナガラス/カゲガラス)。照片10正面確認(橘髮+圓點眼)、(照片3 經 Derek 指出為不同件,已另立一筆。)官方圖為官方雙款圖裁切出日向款。",
+   "code": "N24"
+  },
+  {
+   "id": "lol_poro_white-poro-plush_132718",
+   "name_ja": "ポロ ぬいぐるみ(ホワイトポロ)",
+   "name_en": "League of Legends White Poro Plush",
+   "name_zh": "英雄聯盟 魄羅 絨毛娃娃(白)",
+   "ip": "リーグ・オブ・レジェンド",
+   "character": "ポロ(Poro)",
+   "maker": "Riot Games",
+   "line": "",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "遊戲",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "league of legends",
+    "lol",
+    "poro",
+    "魄羅",
+    "riot games merch"
+   ],
+   "source_images": [
+    "https://merch.riotgames.com/en-us/product/white-poro-plush/",
+    "P_20261026_132718_11.jpg"
+   ],
+   "box_image": "lol_poro_white-poro-plush_132718.jpg",
+   "main_image": "box/lol_poro_white-poro-plush_132718.jpg",
+   "photos": [
+    "box/lol_poro_white-poro-plush_132718.jpg",
+    "raw/P_20261026_132718_11.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "袋上標籤:品名「魄罗毛绒玩偶/포로 인형」、型號 PLUSH、SKU 2193-00-00、製造 2025-02、中國製,進口商 라이엇게임즈코리아(Riot Games Korea),製造商 Shenzhen JT Culture & Creation。屬官方授權(Riot Merch)的韓國版。官方圖取自 Riot Merch「White Poro Plush」頁,與實物外型相符但未能核對 SKU,故 medium。",
+   "code": "N25"
+  },
+  {
+   "id": "disney_mickey-burger_plush_132718",
+   "name_ja": "ミッキー型ハンバーガー ぬいぐるみ(推定)",
+   "name_en": "Mickey-shaped hamburger plush (tentative)",
+   "name_zh": "米奇造型漢堡絨毛玩具(推測)",
+   "ip": "ディズニー",
+   "character": "ミッキーマウス(ハンバーガー型)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "迪士尼",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "disney",
+    "mickey",
+    "burger",
+    "ミッキー",
+    "ハンバーガー"
+   ],
+   "source_images": [
+    "P_20261026_132718_12.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132718_12.jpg",
+   "photos": [
+    "raw/P_20261026_132718_12.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片12:三個漢堡疊成米奇頭形(一大兩小),芝麻上有隱藏米奇圖案,內有紅醬/萵苣/起司。推測是迪士尼周邊(類似 Disney Store 的米奇漢堡抱枕),但無吊牌可確認廠商與是否為官方;網搜找不到完全相同的商品,不編造品名。",
+   "code": "N26"
+  },
+  {
+   "id": "lol_teemo_teemo-hat_132718",
+   "name_ja": "ティーモ ハット(ぬいぐるみ帽)",
+   "name_en": "League of Legends Teemo Plush Hat",
+   "name_zh": "英雄聯盟 提摩 絨毛帽",
+   "ip": "リーグ・オブ・レジェンド",
+   "character": "ティーモ(Teemo)",
+   "maker": "Riot Games",
+   "line": "Teemo Hat",
+   "type": "other",
+   "year": "2025",
+   "category": [
+    "遊戲",
+    "絨毛帽"
+   ],
+   "keywords": [
+    "league of legends",
+    "lol",
+    "teemo",
+    "teemo hat",
+    "riot games merch"
+   ],
+   "source_images": [
+    "P_20261026_132718_13.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_132718_13.jpg",
+   "photos": [
+    "raw/P_20261026_132718_13.jpg"
+   ],
+   "confidence": "high",
+   "notes": "袋上英文標示 Name: Teemo Hat、Fabric 100% Polyester、© 2025 Riot Games,SKU 1082-00-00,製造 2025-02,中國製;韓國進口商 라이엇게임즈코리아,標價 ₩29,000(原吊牌)。確定是 Riot 官方授權的提摩絨毛帽(非娃娃)。Riot 官方商店找不到對應商品頁(只有已停售 Firecracker Teemo Hat),故無官方圖。",
+   "code": "N27"
+  },
+  {
+   "id": "haikyuu_kagegarasu_animal-big-plush_132718",
+   "name_ja": "ハイキュー!! アニマルBIGぬいぐるみ(カゲガラス)",
+   "name_en": "Haikyu!! Animal BIG Plush (Kagegarasu (Kageyama crow))",
+   "name_zh": "排球少年 動物系大型絨毛娃娃(影山烏鴉)",
+   "ip": "ハイキュー!!",
+   "character": "影山飛雄(カゲガラス)",
+   "maker": "SK Japan",
+   "line": "アニマルBIGぬいぐるみ",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "アニマルBIGぬいぐるみ",
+    "カゲガラス",
+    "SK JAPAN",
+    "キャラとる"
+   ],
+   "source_images": [
+    "https://www.sk-japan.co.jp/charatoru/chara/haikyu/amgoods-51982",
+    "P_20261026_132718_14.jpg"
+   ],
+   "box_image": "haikyuu_kagegarasu_animal-big-plush_132718.jpg",
+   "main_image": "box/haikyuu_kagegarasu_animal-big-plush_132718.jpg",
+   "photos": [
+    "box/haikyuu_kagegarasu_animal-big-plush_132718.jpg",
+    "raw/P_20261026_132718_14.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片14只拍到深藍色背面/側面一角,有一隻淺色眼睛與底部「ハイキュー!!」吊牌,頭頂黑髮看不到;因與ヒナガラス成對(Vol.1共2款)且與照片10的外型不同(眼睛輪廓偏杏仁形),推測為カゲガラス,但也可能是ヒナガラス另一角度,不確定。官方圖為官方雙款圖裁切影山款。",
+   "code": "N28"
+  },
+  {
+   "id": "sumikko_unknown-yellow-red-leaf_133212",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "角落生物 黃色絨毛(紅葉裝飾,角色待確認)",
+   "ip": "すみっコぐらし",
+   "character": "不明(黃色、紅葉耳/尾裝飾、粉紅緞帶)",
+   "maker": "San-X(推測)",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133212_1.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133212_1.jpg",
+   "photos": [
+    "raw/P_20261026_133212_1.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片1:黃色毛絨、紅色項圈帶、紅色葉片。(照片5 經 Derek 指出為不同件,已另立一筆。)角色不明,品名未編造。",
+   "code": "N29"
+  },
+  {
+   "id": "unknown_yellow-chick-gingham_133212",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "",
+   "ip": "不明(待辨識)",
+   "character": "不明(黃色小雞狀、紅嘴、橘格紋圍巾)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133212_2.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133212_2.jpg",
+   "photos": [
+    "raw/P_20261026_133212_2.jpg"
+   ],
+   "confidence": "low",
+   "notes": "黃色長條形絨毛,紅色嘴/鳥喙、橘色格紋圍巾。角色與系列不明,搜尋未找到,未編造品名。可能為 Sumikko 相近角色但未確認。",
+   "code": "N30"
+  },
+  {
+   "id": "unknown_mint-white-top_133212",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "",
+   "ip": "不明(待辨識)",
+   "character": "不明(薄荷綠、上半白色、雙鰭狀手)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133212_3.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133212_3.jpg",
+   "photos": [
+    "raw/P_20261026_133212_3.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片3:正面,白色上半+薄荷綠下半、帶吊牌。(照片11 經 Derek 指出為不同件,已另立一筆。)角色不明。",
+   "code": "N31"
+  },
+  {
+   "id": "unknown_pink-plush_133212",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "",
+   "ip": "不明(待辨識)",
+   "character": "不明(粉紅色)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133212_4.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133212_4.jpg",
+   "photos": [
+    "raw/P_20261026_133212_4.jpg"
+   ],
+   "confidence": "low",
+   "notes": "粉紅色短胖絨毛,黑點眼與嘴,袋上有日文吊牌(文字模糊)。角色/系列不明,未編造。",
+   "code": "N32"
+  },
+  {
+   "id": "sumikko_unknown-yellow-red-leaf_133212_p5",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "角落生物 黃色絨毛(粉紅腹帶・紅葉片,照片5)",
+   "ip": "すみっコぐらし",
+   "character": "不明(黃色、紅葉耳/尾裝飾、粉紅緞帶)",
+   "maker": "San-X(推測)",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133212_5.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133212_5.jpg",
+   "photos": [
+    "raw/P_20261026_133212_5.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片5:黃色毛絨、粉紅色腹帶(上有小圖案)、紅色葉片裝飾;Derek 指出與照片1(紅項圈款)為不同件。角色未確認。",
+   "code": "N33"
+  },
+  {
+   "id": "unknown_cream-fluffy_133212",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "",
+   "ip": "不明(待辨識)",
+   "character": "不明(米白色毛球、粉紅頭飾)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133212_6.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133212_6.jpg",
+   "photos": [
+    "raw/P_20261026_133212_6.jpg"
+   ],
+   "confidence": "low",
+   "notes": "米白色捲毛絨毛,頭頂粉紅裝飾,黑點眼。袋上有日文吊牌(模糊)。角色/系列不明。",
+   "code": "N34"
+  },
+  {
+   "id": "unknown_light-blue_133212",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "角落生物 淺藍色絨毛(疑似とかげ)",
+   "ip": "すみっコぐらし",
+   "character": "とかげ(推測)",
+   "maker": "San-X(推測)",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133212_7.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133212_7.jpg",
+   "photos": [
+    "raw/P_20261026_133212_7.jpg"
+   ],
+   "confidence": "low",
+   "notes": "淺藍色絨毛,黑點眼與短線嘴,袋上有吊牌(模糊)。可能與 Sumikko 角色相近但未確認,獨立一筆(與照片3/11 色調接近但臉部不同,未合併)。",
+   "code": "N35"
+  },
+  {
+   "id": "unknown_beige-white-small_133212",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "",
+   "ip": "不明(待辨識)",
+   "character": "不明(米黃/白、小型)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133212_8.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133212_8.jpg",
+   "photos": [
+    "raw/P_20261026_133212_8.jpg"
+   ],
+   "confidence": "low",
+   "notes": "小型米黃+白色圓臉,褐色點眼,照片僅露半身,角色不明。",
+   "code": "N36"
+  },
+  {
+   "id": "unknown_blue-hood-costume_133212",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "",
+   "ip": "不明(待辨識)",
+   "character": "不明(藍色連帽造型、白臉、黃色星星)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133212_9.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133212_9.jpg",
+   "photos": [
+    "raw/P_20261026_133212_9.jpg"
+   ],
+   "confidence": "low",
+   "notes": "藍色連帽造型(可能是著裝/動物裝),白色臉與褐色鼻,腰間黃色星星裝飾。角色不明,未編造。",
+   "code": "N37"
+  },
+  {
+   "id": "unknown_green-fishbone-costume_133212",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "角落生物 とかげ 變裝款(綠色・魚骨圍巾,推測)",
+   "ip": "すみっコぐらし",
+   "character": "とかげ(推測)",
+   "maker": "San-X(推測)",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133212_10.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133212_10.jpg",
+   "photos": [
+    "raw/P_20261026_133212_10.jpg"
+   ],
+   "confidence": "low",
+   "notes": "綠色身體、粉色腮紅與紫色魚骨圖案圍巾/胸帶。可能為 Sumikko 系列裝扮造型,角色未確認。",
+   "code": "N38"
+  },
+  {
+   "id": "unknown_light-blue-spiky_133212_p11",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "角落生物風 淺藍色鋸齒背絨毛(照片11,側面)",
+   "ip": "不明(待辨識)",
+   "character": "不明(淺藍色、背部鋸齒、貼條碼貼紙)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133212_11.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133212_11.jpg",
+   "photos": [
+    "raw/P_20261026_133212_11.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片11:淺藍色長型毛絨,背部有藍色鋸齒狀,貼黑色條碼貼紙;Derek 指出與照片3(薄荷綠白)為不同件。角色不明。",
+   "code": "N39"
+  },
+  {
+   "id": "sumikko_ebifurai-no-shippo_s-2025",
+   "name_ja": "すみっコぐらし ぬいぐるみ(S) えびふらいのしっぽ(もしもすみっコが進化したら?・進化B)",
+   "name_en": "Sumikko Gurashi Ebifurai no Shippo plush (S)",
+   "name_zh": "角落生物 炸蝦尾巴 絨毛娃娃(S)",
+   "ip": "すみっコぐらし",
+   "character": "えびふらいのしっぽ",
+   "maker": "San-X",
+   "line": "ぬいぐるみ(S)",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "すみっコぐらし",
+    "sumikko gurashi",
+    "san-x"
+   ],
+   "source_images": [
+    "https://www.san-x.co.jp/ja/special/goods/2025/03/sg.html",
+    "raw/P_20261026_133212_12.jpg"
+   ],
+   "box_image": "sumikko_ebifurai-no-shippo_s-2025.jpg",
+   "main_image": "box/sumikko_ebifurai-no-shippo_s-2025.jpg",
+   "photos": [
+    "box/sumikko_ebifurai-no-shippo_s-2025.jpg",
+    "raw/P_20261026_133212_12.jpg"
+   ],
+   "confidence": "high",
+   "notes": "San-X 官方特設頁(2025年3月「もしもすみっコが進化したら?」)確認:ぬいぐるみ(S)えびふらいのしっぽ 進化B,¥1,540。官方圖為特設頁裁切。吊牌標語與實拍一致。",
+   "code": "N40"
+  },
+  {
+   "id": "unknown_beige-hood-brown-face_133212",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "",
+   "ip": "不明(待辨識)",
+   "character": "不明(米色連帽、褐色臉罩)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133212_13.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133212_13.jpg",
+   "photos": [
+    "raw/P_20261026_133212_13.jpg"
+   ],
+   "confidence": "low",
+   "notes": "米色連帽、褐色大面部與耳朵,可能為動物裝扮。角色不明,未編造。",
+   "code": "N41"
+  },
+  {
+   "id": "unknown_red-haired-pair_133212",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "(待辨識)紅髮白臉綠葉吊飾絨毛・左",
+   "ip": "不明(待辨識)",
+   "character": "不明(紅髮白臉、綠葉、吊飾;左:驚嚇表情)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133212_14.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133212_14.jpg",
+   "photos": [
+    "raw/P_20261026_133212_14.jpg"
+   ],
+   "confidence": "low",
+   "notes": "同一袋內兩隻(照片14)。經查看確為兩隻不同表情(左:驚嚇閉嘴、右:張嘴),各為獨立一件。角色不明。此為左側。",
+   "code": "N42"
+  },
+  {
+   "id": "unknown_red-haired-pair_133212_right",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "(待辨識)紅髮白臉綠葉吊飾絨毛・右",
+   "ip": "不明(待辨識)",
+   "character": "不明(紅髮白臉、綠葉、吊飾;右:張嘴表情)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133212_14.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133212_14.jpg",
+   "photos": [
+    "raw/P_20261026_133212_14.jpg"
+   ],
+   "confidence": "low",
+   "notes": "同一袋內兩隻(照片14)。此為右側(張嘴、粉紅舌)。角色不明。",
+   "code": "N43"
+  },
+  {
+   "id": "unknown_red-daruma-like_133212",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "",
+   "ip": "不明(待辨識)",
+   "character": "不明(紅色、白臉、金色月紋)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133212_15.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133212_15.jpg",
+   "photos": [
+    "raw/P_20261026_133212_15.jpg"
+   ],
+   "confidence": "low",
+   "notes": "紅色不倒翁/達摩造型,白色臉、金色月形與綠葉圖案。角色不明,未編造。",
+   "code": "N44"
+  },
+  {
+   "id": "unknown_jinbe-shark_polka-large_133707",
+   "name_ja": "じんべえさん ぬいぐるみ",
+   "name_en": "",
+   "name_zh": "じんべえさん 大型玩偶(水藍白點)",
+   "ip": "じんべえさん",
+   "character": "じんべえさん(San-X;背上粉紅小角色)",
+   "maker": "San-X(推測)",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "水族",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "甚平鯊",
+    "鯨鯊",
+    "ジンベエザメ",
+    "大型玩偶"
+   ],
+   "source_images": [
+    "P_20261026_133707_1.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133707_1.jpg",
+   "photos": [
+    "raw/P_20261026_133707_1.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "大型鯨鯊造型玩偶,包裝膜未撕,吊牌/品牌未拍到。背部粉色片狀裝飾(疑似背鰭或另一角色),無法確認 IP。Web 查證未找到對應官方頁。前景有白色毛絨物一角,未建檔。 〔2026-10-26 更正:じんべえさん 是 San-X 獨立角色,非すみっコぐらし。〕",
+   "code": "N45"
+  },
+  {
+   "id": "unknown_mokona-clamp-white_133707",
+   "name_ja": "モコナ",
+   "name_en": "",
+   "name_zh": "魔法咒語 毛茸茸(Mokona) 白色玩偶",
+   "ip": "庫洛魔法使",
+   "character": "毛茸茸(Mokona)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "動畫",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "mokona",
+    "毛茸茸",
+    "CLAMP",
+    "庫洛魔法使"
+   ],
+   "source_images": [
+    "P_20261026_133707_2.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133707_2.jpg",
+   "photos": [
+    "raw/P_20261026_133707_2.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "白色 Mokona 造型,額頭紅色圓點,粉色耳,腳側有 CLAMP 繡標。角色歸屬依 Derek 指認(庫洛魔法使);但 Mokona 亦見於 CLAMP《魔法騎士 レイアース》等作品,IP 待確認。查證未找到對應商品頁,無官方圖。",
+   "code": "N46"
+  },
+  {
+   "id": "unknown_pink-purple-horn_pouch_133707",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "粉色紫角造型小包/零錢包",
+   "ip": "不明(待辨識)",
+   "character": "不明(粉色圓臉、紫色角)",
+   "maker": "",
+   "line": "",
+   "type": "other",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "粉色",
+    "紫角",
+    "小包"
+   ],
+   "source_images": [
+    "P_20261026_133707_3.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133707_3.jpg",
+   "photos": [
+    "raw/P_20261026_133707_3.jpg"
+   ],
+   "confidence": "low",
+   "notes": "粉色圓臉、紫色角、白色下腹,疑似收納包/小袋造型,拉鍊可見。角色與品牌無法辨識,未查證到來源。",
+   "code": "N47"
+  },
+  {
+   "id": "unknown_chick-strawberry-apron_keychain_133707",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "輕鬆小雞(キイロイトリ) 草莓蛋糕帽 吊飾",
+   "ip": "リラックマ",
+   "character": "キイロイトリ",
+   "maker": "San-X(推測)",
+   "line": "",
+   "type": "other",
+   "year": "",
+   "category": [
+    "吊飾",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "小雞",
+    "草莓",
+    "蛋糕",
+    "吊飾",
+    "格紋圍裙"
+   ],
+   "source_images": [
+    "P_20261026_133707_4.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133707_4.jpg",
+   "photos": [
+    "raw/P_20261026_133707_4.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "黃色小雞頭頂草莓蛋糕、穿格紋圍裙,附金屬吊環。角色風格類似 San-X 小雞系列,但未找到確認商品頁,品牌與系列未知。",
+   "code": "N48"
+  },
+  {
+   "id": "rilakkuma_rilakkuma_peanut-apple-mascot_133707",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "拉拉熊 花生與蘋果吊飾(掛繩款)",
+   "ip": "リラックマ",
+   "character": "拉拉熊(リラックマ)",
+   "maker": "San-X",
+   "line": "",
+   "type": "other",
+   "year": "",
+   "category": [
+    "吊飾",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "リラックマ",
+    "拉拉熊",
+    "花生",
+    "蘋果",
+    "吊飾"
+   ],
+   "source_images": [
+    "P_20261026_133707_5.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133707_5.jpg",
+   "photos": [
+    "raw/P_20261026_133707_5.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "拉拉熊抱著黃色大花生與紅蘋果,附彩色編織掛繩與綠色吊牌。角色確定,但具體商品名與系列未查到,製造商依角色版權推測為 San-X,待確認。",
+   "code": "N49"
+  },
+  {
+   "id": "unknown_white-yellow-ears_keychain_133707",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "白色玩偶 黃色耳朵 紅繩(吊飾)",
+   "ip": "不明(待辨識)",
+   "character": "不明(白色、黃色耳朵)",
+   "maker": "",
+   "line": "",
+   "type": "other",
+   "year": "",
+   "category": [
+    "吊飾",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "白色",
+    "黃色耳朵",
+    "紅繩"
+   ],
+   "source_images": [
+    "P_20261026_133707_6.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133707_6.jpg",
+   "photos": [
+    "raw/P_20261026_133707_6.jpg"
+   ],
+   "confidence": "low",
+   "notes": "白色玩偶、黃色耳朵、紅色繩狀裝飾,包裝膜未撕、拍攝角度為側面,臉部僅見局部。與 #2 白色 Mokona 的耳色不同,暫判為不同玩偶,未與 #2 合併。角色無法辨識。",
+   "code": "N50"
+  },
+  {
+   "id": "unknown_yellow-orange-paws_133707",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "黃色玩偶 橘色腳掌(背面)",
+   "ip": "不明(待辨識)",
+   "character": "不明(黃色身體、橘色手腳)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "黃色",
+    "橘色腳掌"
+   ],
+   "source_images": [
+    "P_20261026_133707_7.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133707_7.jpg",
+   "photos": [
+    "raw/P_20261026_133707_7.jpg"
+   ],
+   "confidence": "low",
+   "notes": "僅拍到背面:黃色身體、橘色手腳、紅色繩狀物。包裝上有貼紙字樣(型號片段 06-6308),無法辨識角色與廠商。",
+   "code": "N51"
+  },
+  {
+   "id": "frozen_olaf_plush-mascot_133707",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "冰雪奇緣 雪寶 小型玩偶",
+   "ip": "冰雪奇緣",
+   "character": "雪寶(Olaf)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "電影",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "冰雪奇緣",
+    "Olaf",
+    "雪寶",
+    "迪士尼"
+   ],
+   "source_images": [
+    "P_20261026_133707_8.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133707_8.jpg",
+   "photos": [
+    "raw/P_20261026_133707_8.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "雪寶造型小型玩偶,包裝膜未撕、吊牌未拍到。Web 查證有多款 Frozen 小型景品(如 Frewie P-PATCH 系列、Sega 吊飾系列),未能確認此款坐姿款的商品名與年份。無官方圖。",
+   "code": "N52"
+  },
+  {
+   "id": "unknown_bun-brown_plush_133707",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "棕色麵包造型玩偶",
+   "ip": "不明(待辨識)",
+   "character": "不明(麵包/糰子造型)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "麵包",
+    "棕色"
+   ],
+   "source_images": [
+    "P_20261026_133707_9.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133707_9.jpg",
+   "photos": [
+    "raw/P_20261026_133707_9.jpg"
+   ],
+   "confidence": "low",
+   "notes": "包裝膜內為棕色圓形、帶小耳的造型,底部有小圓點,角色不明。未查證到來源。",
+   "code": "N53"
+  },
+  {
+   "id": "unknown_blue-polka_keychain_133707",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "藍色圓點吊飾(球鍊)",
+   "ip": "不明(待辨識)",
+   "character": "不明(藍底圓點、黃色細節)",
+   "maker": "",
+   "line": "",
+   "type": "other",
+   "year": "",
+   "category": [
+    "吊飾",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "藍色",
+    "圓點",
+    "球鍊",
+    "吊飾"
+   ],
+   "source_images": [
+    "P_20261026_133707_10.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133707_10.jpg",
+   "photos": [
+    "raw/P_20261026_133707_10.jpg"
+   ],
+   "confidence": "low",
+   "notes": "藍色、白色圓點花紋,附銀色球鍊,包裝上有吊牌局部。配色與 #1 甚平鯊(水藍白點)接近,但角度與形狀不足以判定為同款,未合併。角色無法辨識。",
+   "code": "N54"
+  },
+  {
+   "id": "unknown_chick-cp0017_plush_133707",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "輕鬆小雞(キイロイトリ) 玩偶(CP0017 吊牌)",
+   "ip": "リラックマ",
+   "character": "キイロイトリ",
+   "maker": "San-X(推測)",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "小雞",
+    "黃色",
+    "CP0017"
+   ],
+   "source_images": [
+    "P_20261026_133707_11.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133707_11.jpg",
+   "photos": [
+    "raw/P_20261026_133707_11.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "黃色小雞、橘色嘴、白色底部邊緣,附條碼吊牌,吊牌上有型號 CP0017。角色為小雞類,系列與廠商未查證到。與 #4 草莓小雞為不同款式。",
+   "code": "N55"
+  },
+  {
+   "id": "unknown_white-pink-ear_plush_133707",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "卡娜赫拉的小動物 P助(ピスケ)與章魚 玩偶(推測)",
+   "ip": "カナヘイの小動物",
+   "character": "ピスケ(推測)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "白色",
+    "粉色耳朵",
+    "紅色配件"
+   ],
+   "source_images": [
+    "P_20261026_133707_12.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133707_12.jpg",
+   "photos": [
+    "raw/P_20261026_133707_12.jpg"
+   ],
+   "confidence": "low",
+   "notes": "白色圓身、粉色耳朵與臉頰、深褐色腳,臉部有褐色與黃色點狀刺繡,肩側附紅色小造型配件。角色與系列無法辨識,未查證到來源。",
+   "code": "N56"
+  },
+  {
+   "id": "unknown_white-open-mouth-small_133707_13",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "白色小型毛絨(張嘴,疑似動物角色)",
+   "ip": "不明(待辨識)",
+   "character": "不明",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133707_13.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133707_13.jpg",
+   "photos": [
+    "raw/P_20261026_133707_13.jpg"
+   ],
+   "confidence": "low",
+   "notes": "2026-10-26 補回。照片133707_13 中黃色圓糰旁、同一包裝內半露出的白色小角色,張嘴表情,角色不明。",
+   "code": "N57"
+  },
+  {
+   "id": "unknown_yellow-bun_plush_133707",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "黃色圓糰造型玩偶",
+   "ip": "不明(待辨識)",
+   "character": "不明(黃色圓糰、白色小角色並排)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "黃色",
+    "圓糰"
+   ],
+   "source_images": [
+    "P_20261026_133707_13.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133707_13.jpg",
+   "photos": [
+    "raw/P_20261026_133707_13.jpg"
+   ],
+   "confidence": "low",
+   "notes": "包裝膜內黃色圓糰造型玩偶,旁邊露出一隻白色小角色(僅見半張臉與耳朵,無法辨識,依規則未建檔)。黃色玩偶本身角色不明,未查證到來源。",
+   "code": "N58"
+  },
+  {
+   "id": "natsume_nyanko-sensei_keychain-calico_134131",
+   "name_ja": "",
+   "name_en": "Natsume's Book of Friends Nyanko-sensei keychain plush (calico)",
+   "name_zh": "夏目友人帳 貓咪老師 小吊飾(三花款)",
+   "ip": "夏目友人帳",
+   "character": "ニャンコ先生",
+   "maker": "",
+   "line": "",
+   "type": "other",
+   "year": "",
+   "category": [
+    "動畫",
+    "吊飾"
+   ],
+   "keywords": [
+    "夏目友人帳",
+    "ニャンコ先生",
+    "吊飾"
+   ],
+   "source_images": [
+    "P_20261026_134131_1.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134131_1.jpg",
+   "photos": [
+    "raw/P_20261026_134131_1.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片1:三花貓造型的小吊飾(頂端有鈴狀掛環),吊牌/系列未見,品名未查證,無官方圖。",
+   "code": "N59"
+  },
+  {
+   "id": "natsume_nyanko-sensei_maneki-white_134131",
+   "name_ja": "",
+   "name_en": "Natsume's Book of Friends Nyanko-sensei white plush (red collar, bell)",
+   "name_zh": "夏目友人帳 貓咪老師 白色招財貓風 公仔(紅項圈鈴鐺)",
+   "ip": "夏目友人帳",
+   "character": "ニャンコ先生",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "動畫",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "夏目友人帳",
+    "ニャンコ先生",
+    "招き猫",
+    "鈴"
+   ],
+   "source_images": [
+    "P_20261026_134131_2.jpg",
+    "P_20261026_134131_3.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134131_2.jpg",
+   "photos": [
+    "raw/P_20261026_134131_2.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片2(睜眼款)。照片3 經 Derek 指出為不同件,已另立一筆。白色貓、紅項圈、黃鈴鐺。疑似候補:バンプレスト「もふぐっとぬいぐるみ~福招きニャンコ先生~」(投入2026-01-15),但未能查到該款鈴/項圈細節與尺寸,未確認。吊牌字太小無法讀。無官方圖。",
+   "code": "N60"
+  },
+  {
+   "id": "natsume_nyanko-sensei_maneki-white_134131_p3",
+   "name_ja": "",
+   "name_en": "Natsume's Book of Friends Nyanko-sensei white plush (red collar, bell)",
+   "name_zh": "夏目友人帳 貓咪老師 白色招財貓風 公仔(照片3,瞇眼花紋款)",
+   "ip": "夏目友人帳",
+   "character": "ニャンコ先生",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "動畫",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "夏目友人帳",
+    "ニャンコ先生",
+    "招き猫",
+    "鈴"
+   ],
+   "source_images": [
+    "raw/P_20261026_134131_3.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134131_3.jpg",
+   "photos": [
+    "raw/P_20261026_134131_3.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片3:白色貓咪老師、紅項圈黃鈴鐺、頭頂三花斑、臉頰紅色花紋、瞇眼;Derek 指出與照片2 為不同件。品名未查證。",
+   "code": "N61"
+  },
+  {
+   "id": "goldenkamuy_unknown-blue-bandana_134131",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "黃金神威風 動物造型娃娃(藍頭巾・藍白圍巾,角色待確認)",
+   "ip": "ゴールデンカムイ",
+   "character": "未確認(疑似アシㇼパ造型,推測)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "動畫",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_134131_4.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134131_4.jpg",
+   "photos": [
+    "raw/P_20261026_134131_4.jpg"
+   ],
+   "confidence": "low",
+   "notes": "2026-10-26 補回(前次略過)。灰白動物、藍色花紋頭巾與圍巾、藍眼;IP 依造型推測,品名未查證。",
+   "code": "N62"
+  },
+  {
+   "id": "goldenkamuy_unknown-tabby-scar_134131",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "黃金神威風 動物造型娃娃(虎斑・臉有疤・灰披布,角色待確認)",
+   "ip": "ゴールデンカムイ",
+   "character": "未確認(疑似杉元造型,推測)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "動畫",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_134131_5.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134131_5.jpg",
+   "photos": [
+    "raw/P_20261026_134131_5.jpg"
+   ],
+   "confidence": "low",
+   "notes": "2026-10-26 補回。虎斑色、鼻上有疤、灰色披布;IP 與角色依造型推測,品名未查證。與照片4、6 同組(邊緣可見相鄰娃娃)。",
+   "code": "N63"
+  },
+  {
+   "id": "goldenkamuy_unknown-bear-plaid_134131",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "黃金神威風 動物造型娃娃(棕熊・黃格紋圍巾,角色待確認)",
+   "ip": "ゴールデンカムイ",
+   "character": "未確認(推測)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "動畫",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_134131_6.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134131_6.jpg",
+   "photos": [
+    "raw/P_20261026_134131_6.jpg"
+   ],
+   "confidence": "low",
+   "notes": "2026-10-26 補回。棕色熊、黃色格紋圍巾、藍色披肩、頭戴帽;IP 依造型推測,品名未查證。",
+   "code": "N64"
+  },
+  {
+   "id": "chainsaw-man_makima_cat-hood_134131",
+   "name_ja": "",
+   "name_en": "Chainsaw Man Makima cat-hood plush",
+   "name_zh": "鏈鋸人 瑪奇瑪 貓耳帽造型 公仔",
+   "ip": "チェンソーマン",
+   "character": "マキマ",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "動畫",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "チェンソーマン",
+    "マキマ",
+    "猫"
+   ],
+   "source_images": [
+    "P_20261026_134131_7.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134131_7.jpg",
+   "photos": [
+    "raw/P_20261026_134131_7.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "照片7:瑪奇瑪(粉橘髮、金色眼)穿白色貓耳連帽造型,底部有 ©藤本タツキ 字樣。角色依髮色/眼色判斷為瑪奇瑪;廠商/系列未查證。無官方圖。",
+   "code": "N65"
+  },
+  {
+   "id": "chainsaw-man_denji_mascot_134131",
+   "name_ja": "",
+   "name_en": "Chainsaw Man Denji deformed plush (white shirt, black tie)",
+   "name_zh": "鏈鋸人 電次 變形公仔 吊飾(白襯衫黑領帶)",
+   "ip": "チェンソーマン",
+   "character": "デンジ",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "動畫",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "チェンソーマン",
+    "デンジ"
+   ],
+   "source_images": [
+    "P_20261026_134131_8.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134131_8.jpg",
+   "photos": [
+    "raw/P_20261026_134131_8.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "照片8:電次(金髮、紅眼、白襯衫黑領帶、黑短褲)變形公仔,背面有金色繩。角色依造型判斷;系列/廠商未查證。照片中吊牌字太小。無官方圖。",
+   "code": "N66"
+  },
+  {
+   "id": "natsume_nyanko-sensei_ebi-fry_134131",
+   "name_ja": "",
+   "name_en": "Natsume's Book of Friends Nyanko-sensei with fried shrimp plush",
+   "name_zh": "夏目友人帳 貓咪老師 炸蝦款 公仔",
+   "ip": "夏目友人帳",
+   "character": "ニャンコ先生",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "動畫",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "夏目友人帳",
+    "ニャンコ先生",
+    "エビフライ"
+   ],
+   "source_images": [
+    "P_20261026_134131_9.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134131_9.jpg",
+   "photos": [
+    "raw/P_20261026_134131_9.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片9:白色貓抱著橘色炸蝦(エビフライ)造型。疑似「もふぐっとぬいぐるみ~ニャンコ先生エビフライ大好き~」或「めちゃもふぐっと ニャンコ先生エビフライ」系列,但未能確認版本與廠商。照片中有白底吊牌,字看不清。無官方圖。",
+   "code": "N67"
+  },
+  {
+   "id": "unknown_panda-like-black-white_134131",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "黑白毛絨動物娃娃(角色待辨識)",
+   "ip": "不明(待辨識)",
+   "character": "不明",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_134131_10.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134131_10.jpg",
+   "photos": [
+    "raw/P_20261026_134131_10.jpg"
+   ],
+   "confidence": "low",
+   "notes": "2026-10-26 補回。黑白相間長毛絨毛娃娃,包裝內,疑似熊貓或黑白貓,無吊牌可讀。",
+   "code": "N68"
+  },
+  {
+   "id": "natsume_nyanko-sensei_cushion-bandai_134131",
+   "name_ja": "",
+   "name_en": "Natsume's Book of Friends Nyanko-sensei cushion with mini plush (Bandai)",
+   "name_zh": "夏目友人帳 貓咪老師 靠墊 附小公仔(BANDAI吊牌)",
+   "ip": "夏目友人帳",
+   "character": "ニャンコ先生",
+   "maker": "BANDAI",
+   "line": "",
+   "type": "other",
+   "year": "",
+   "category": [
+    "動畫",
+    "靠墊"
+   ],
+   "keywords": [
+    "夏目友人帳",
+    "ニャンコ先生",
+    "クッション",
+    "bandai"
+   ],
+   "source_images": [
+    "P_20261026_134131_11.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134131_11.jpg",
+   "photos": [
+    "raw/P_20261026_134131_11.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片11:橘色貓形靠墊,上面趴著一隻白橘灰小貓公仔(紅項圈)。吊牌可見 BANDAI 字樣,疑似 2017 年バンダイ PC クッション或其他靠墊款,未確認。無官方圖。",
+   "code": "N69"
+  },
+  {
+   "id": "pokemon_polteageist-magic-hour_134634_1",
+   "name_ja": "ぬいぐるみ Pokémon Magic Hour Illusion! ポットデス(がんさくフォルム)",
+   "name_en": "Pokémon Magic Hour Illusion! Polteageist (Counterfeit Form) Plush",
+   "name_zh": "Pokémon Magic Hour Illusion! 壺壺 毛絨娃娃(贋作形態)",
+   "ip": "ポケットモンスター",
+   "character": "ポットデス(がんさくフォルム)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "polteageist",
+    "ポットデス",
+    "Magic Hour"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329439150.html",
+    "raw/P_20261026_134634_1.jpg"
+   ],
+   "box_image": "pokemon_polteageist-magic-hour_134634_1.jpg",
+   "main_image": "box/pokemon_polteageist-magic-hour_134634_1.jpg",
+   "photos": [
+    "box/pokemon_polteageist-magic-hour_134634_1.jpg",
+    "raw/P_20261026_134634_1.jpg"
+   ],
+   "confidence": "high",
+   "notes": "寶可夢中心線上商店「ぬいぐるみ Pokémon Magic Hour Illusion! ポットデス(がんさくフォルム)」(JAN 4521329439150)確認:薄荷綠壺身、紫色蝴蝶結、黃握把。(先前標示疑似ヤバチャ)",
+   "code": "N70"
+  },
+  {
+   "id": "pokemon_raichu-guess_134634",
+   "name_ja": "ライチュウ ぬいぐるみ(推測)",
+   "name_en": "Raichu plush (guess)",
+   "name_zh": "伊布 毛絨娃娃(兔耳裝飾,推測)",
+   "ip": "ポケットモンスター",
+   "character": "イーブイ(推測)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "raichu",
+    "ライチュウ",
+    "雷丘",
+    "寶可夢"
+   ],
+   "source_images": [
+    "raw/P_20261026_134634_2.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134634_2.jpg",
+   "photos": [
+    "raw/P_20261026_134634_2.jpg"
+   ],
+   "confidence": "low",
+   "notes": "黃色長耳與橘棕身體近似雷丘,胸前掛有兔子造型吊飾;變體(地區/服裝版本)未確定,品名未查證。",
+   "code": "N71"
+  },
+  {
+   "id": "pokemon_ditto_keychain-pokemoncard_134634",
+   "name_ja": "メタモン キーホルダー(推測)",
+   "name_en": "Ditto keychain (guess)",
+   "name_zh": "百變怪 鑰匙圈 娃娃(推測)",
+   "ip": "ポケットモンスター",
+   "character": "メタモン(百變怪)",
+   "maker": "",
+   "line": "",
+   "type": "other",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "吊飾"
+   ],
+   "keywords": [
+    "ditto",
+    "メタモン",
+    "百變怪",
+    "鑰匙圈",
+    "pokemon card"
+   ],
+   "source_images": [
+    "raw/P_20261026_134634_3.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134634_3.jpg",
+   "photos": [
+    "raw/P_20261026_134634_3.jpg"
+   ],
+   "confidence": "low",
+   "notes": "吊牌可見「Pokémon Card」字樣與 DITTO 多語標示,附花束造型與金屬鉤環;確定為百變怪(Ditto)造型,但品名、年份、廠商均未查證。官方搜尋無結果。",
+   "code": "N72"
+  },
+  {
+   "id": "pokemon_rowlet_plush-large_134634",
+   "name_ja": "ぬいぐるみ モクロー",
+   "name_en": "Rowlet Plush",
+   "name_zh": "木木梟 毛絨娃娃(大)",
+   "ip": "ポケットモンスター",
+   "character": "モクロー(木木梟)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "rowlet",
+    "モクロー",
+    "木木梟",
+    "寶可夢",
+    "pokemon plush"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329338514.html",
+    "raw/P_20261026_134634_4.jpg"
+   ],
+   "box_image": "pokemon_rowlet_plush-large_134634.jpg",
+   "main_image": "box/pokemon_rowlet_plush-large_134634.jpg",
+   "photos": [
+    "box/pokemon_rowlet_plush-large_134634.jpg",
+    "raw/P_20261026_134634_4.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "寶可夢中心線上商店「ぬいぐるみ モクロー」(JAN 4521329338514)外型相符(橘米色圓身、黑眼橢圓、綠領結、橘腳);尺寸以吊牌未確認,信心 medium。",
+   "code": "N73"
+  },
+  {
+   "id": "pokemon_rowlet_small-plush-tag_134634_p5",
+   "name_ja": "ポケピース ぬいぐるみ モクロー",
+   "name_en": "Pokémon Peaceful Place Plush Rowlet",
+   "name_zh": "ポケピース 木木梟 毛絨娃娃",
+   "ip": "ポケットモンスター",
+   "character": "モクロー(木木梟)",
+   "maker": "タカラトミーアーツ",
+   "line": "ポケピース",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "rowlet",
+    "モクロー",
+    "ぬいぐるみ"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4904790727658.html",
+    "raw/P_20261026_134634_5.jpg"
+   ],
+   "box_image": "pokemon_rowlet_small-plush-tag_134634_p5.jpg",
+   "main_image": "box/pokemon_rowlet_small-plush-tag_134634_p5.jpg",
+   "photos": [
+    "box/pokemon_rowlet_small-plush-tag_134634_p5.jpg",
+    "raw/P_20261026_134634_5.jpg"
+   ],
+   "confidence": "high",
+   "notes": "寶可夢中心線上商店官方頁確認:ポケピース／ぬいぐるみ／モクロー(JAN 4904790727658),毛茸米色+綠領結+「ポケピース」吊牌與實拍一致(實拍吊牌條碼為同系列 4904790727726)。",
+   "code": "N74"
+  },
+  {
+   "id": "pokemon_rowlet_poke-peaceful-place_134634",
+   "name_ja": "ポケピース ぬいぐるみバッジ モクロー",
+   "name_en": "Pokémon Peaceful Place Plush Badge Rowlet",
+   "name_zh": "ポケピース 木木梟 毛絨小徽章",
+   "ip": "ポケットモンスター",
+   "character": "モクロー(木木梟)",
+   "maker": "株式会社ポケモン",
+   "line": "ポケピース",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃",
+    "徽章"
+   ],
+   "keywords": [
+    "rowlet",
+    "モクロー",
+    "ポケピース",
+    "pokemon peaceful place",
+    "ぬいぐるみバッジ"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4904790758089.html",
+    "raw/P_20261026_134634_6.jpg"
+   ],
+   "box_image": "pokemon_rowlet_poke-peaceful-place_134634.jpg",
+   "main_image": "box/pokemon_rowlet_poke-peaceful-place_134634.jpg",
+   "photos": [
+    "box/pokemon_rowlet_poke-peaceful-place_134634.jpg",
+    "raw/P_20261026_134634_6.jpg"
+   ],
+   "confidence": "high",
+   "notes": "寶可夢中心線上商店官方頁確認:ポケピース／ぬいぐるみバッジ／モクロー(JAN 4904790758089),包裝(8才以上、¥990)與實拍一致。",
+   "code": "N75"
+  },
+  {
+   "id": "pokemon_ditto_pair-charm_134634",
+   "name_ja": "メタモン 双体 吊飾(推測)",
+   "name_en": "Ditto pair charm (guess)",
+   "name_zh": "百變怪 雙隻 吊飾(推測)",
+   "ip": "ポケットモンスター",
+   "character": "メタモン(百變怪)",
+   "maker": "",
+   "line": "",
+   "type": "other",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "吊飾"
+   ],
+   "keywords": [
+    "ditto",
+    "メタモン",
+    "百變怪",
+    "吊飾"
+   ],
+   "source_images": [
+    "raw/P_20261026_134634_7.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134634_7.jpg",
+   "photos": [
+    "raw/P_20261026_134634_7.jpg"
+   ],
+   "confidence": "low",
+   "notes": "照片為綠色圓形吊牌上兩隻紫色百變怪造型(一隻閉眼一隻橫躺),材質偏毛絨。與照片3 的鑰匙圈不同件(造型與包裝不同)。品名、廠商未查證。",
+   "code": "N76"
+  },
+  {
+   "id": "pokemon_unknown-cream-brown-ears_134634",
+   "name_ja": "不明",
+   "name_en": "Unidentified Pokemon plush (cream body, brown ears)",
+   "name_zh": "謎擬Q 毛絨娃娃(推測)",
+   "ip": "ポケットモンスター",
+   "character": "ミミッキュ(推測)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "寶可夢",
+    "不明"
+   ],
+   "source_images": [
+    "raw/P_20261026_134634_8.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134634_8.jpg",
+   "photos": [
+    "raw/P_20261026_134634_8.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "角色無法確定(奶白身體、棕色耳與花紋、袋上有ポケ字樣);未查證種類,名稱與品名留空待人工判定。",
+   "code": "N77"
+  },
+  {
+   "id": "pokemon_wooper-group_134634_9",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "寶可夢 ウパー 等毛絨(照片含多隻,推測)",
+   "ip": "ポケットモンスター",
+   "character": "ウパー(大隻淺藍,推測)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_134634_9.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134634_9.jpg",
+   "photos": [
+    "raw/P_20261026_134634_9.jpg"
+   ],
+   "confidence": "low",
+   "notes": "2026-10-26 補回。畫面為大隻淺藍色粉紅外鰓(疑似ウパー),旁有小型淺藍與白色毛絨(未確認種類);吊牌可見藍色波浪裝飾,品名未查證。",
+   "code": "N78"
+  },
+  {
+   "id": "pokemon_togepi_134634",
+   "name_ja": "トゲピー ぬいぐるみ(推測)",
+   "name_en": "Togepi plush (guess)",
+   "name_zh": "波克比 毛絨娃娃(推測)",
+   "ip": "ポケットモンスター",
+   "character": "トゲピー(波克比)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "togepi",
+    "トゲピー",
+    "波克比",
+    "寶可夢"
+   ],
+   "source_images": [
+    "raw/P_20261026_134634_10.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134634_10.jpg",
+   "photos": [
+    "raw/P_20261026_134634_10.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "照片10 可見藍色三角紋與黃色頭部,辨識為波克比;為群照(9~11)中的一隻,僅此張清楚,其餘角度無。品名未查證。",
+   "code": "N79"
+  },
+  {
+   "id": "pokemon_pile-pink-unknown_134634_11",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "寶可夢毛絨堆(粉橘色大隻・照片局部,待辨識)",
+   "ip": "ポケットモンスター",
+   "character": "不明(局部)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_134634_11.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134634_11.jpg",
+   "photos": [
+    "raw/P_20261026_134634_11.jpg"
+   ],
+   "confidence": "low",
+   "notes": "2026-10-26 補回。照片僅拍到局部:粉橘色大型毛絨,上方有小型棕色娃娃,下方藍色吊牌;無法判定。",
+   "code": "N80"
+  },
+  {
+   "id": "pokemon_vaporeon_sleep-plush_134634",
+   "name_ja": "シャワーズ ぬいぐるみ(推測)",
+   "name_en": "Vaporeon plush (guess)",
+   "name_zh": "百變怪變身 水伊布 毛絨娃娃(推測)",
+   "ip": "ポケットモンスター",
+   "character": "メタモン(變身水伊布,推測)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "vaporeon",
+    "シャワーズ",
+    "水伊布",
+    "寶可夢"
+   ],
+   "source_images": [
+    "raw/P_20261026_134634_12.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_134634_12.jpg",
+   "photos": [
+    "raw/P_20261026_134634_12.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "藍色身體、黃色耳鰭、藍色尾鰭特徵符合水伊布;袋裝、無吊牌可見,品名與廠商未查證。",
+   "code": "N81"
+  },
+  {
+   "id": "pokemon_slowpoke_plush_134634",
+   "name_ja": "カラビナ付きマスコット ヤドン",
+   "name_en": "Slowpoke Mascot with Carabiner",
+   "name_zh": "呆呆獸 附扣環吊飾毛絨",
+   "ip": "ポケットモンスター",
+   "character": "ヤドン(呆呆獸)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "slowpoke",
+    "ヤドン",
+    "呆呆獸",
+    "寶可夢"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329413129.html",
+    "raw/P_20261026_134634_13.jpg"
+   ],
+   "box_image": "pokemon_slowpoke_plush_134634.jpg",
+   "main_image": "box/pokemon_slowpoke_plush_134634.jpg",
+   "photos": [
+    "box/pokemon_slowpoke_plush_134634.jpg",
+    "raw/P_20261026_134634_13.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "寶可夢中心線上商店「カラビナ付きマスコット ヤドン」(JAN 4521329413129)同系列(與可達鴨同款式);實拍粉紅身+奶黃嘴相符,扣環顏色未完全確認。",
+   "code": "N82"
+  },
+  {
+   "id": "pokemon_psyduck_plush_134634",
+   "name_ja": "カラビナ付きマスコット コダック",
+   "name_en": "Psyduck Mascot with Carabiner",
+   "name_zh": "可達鴨 附扣環吊飾毛絨",
+   "ip": "ポケットモンスター",
+   "character": "コダック(可達鴨)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "psyduck",
+    "コダック",
+    "可達鴨",
+    "寶可夢"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329413099.html",
+    "raw/P_20261026_134634_14.jpg"
+   ],
+   "box_image": "pokemon_psyduck_plush_134634.jpg",
+   "main_image": "box/pokemon_psyduck_plush_134634.jpg",
+   "photos": [
+    "box/pokemon_psyduck_plush_134634.jpg",
+    "raw/P_20261026_134634_14.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "寶可夢中心線上商店「カラビナ付きマスコット コダック」(JAN 4521329413099)外型相符(橘色扣環、頭頂黑毛、黃身);未見吊牌確認。",
+   "code": "N83"
+  },
+  {
+   "id": "pokemon_alolan-vulpix_plush_134634",
+   "name_ja": "ぬいぐるみ(S) ロコン(アローラのすがた)",
+   "name_en": "Alolan Vulpix Plush (S)",
+   "name_zh": "阿羅拉六尾 毛絨娃娃(S)",
+   "ip": "ポケットモンスター",
+   "character": "アローラキュウコン(阿羅拉六尾)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "alolan vulpix",
+    "アローラキュウコン",
+    "阿羅拉六尾",
+    "寶可夢"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4905330033710.html",
+    "raw/P_20261026_134634_15.jpg"
+   ],
+   "box_image": "pokemon_alolan-vulpix_plush_134634.jpg",
+   "main_image": "box/pokemon_alolan-vulpix_plush_134634.jpg",
+   "photos": [
+    "box/pokemon_alolan-vulpix_plush_134634.jpg",
+    "raw/P_20261026_134634_15.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "寶可夢中心線上商店「ぬいぐるみ(S) ロコン(アローラのすがた)」(JAN 4905330033710)外型相符(坐姿、薄荷色腳、深藍耳);同系列另有 Pokémon fit 版,以身形判斷為本款,信心 medium。",
+   "code": "N84"
+  },
+  {
+   "id": "pokemon_ditto-hisui-zorua_134634",
+   "name_ja": "ぬいぐるみ へんしん！メタモン ヒスイゾロア",
+   "name_en": "Transform! Ditto - Hisuian Zorua Plush",
+   "name_zh": "百變怪變身 洗翠索羅亞 毛絨娃娃",
+   "ip": "ポケットモンスター",
+   "character": "メタモン(ヒスイゾロアへんしん)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ditto",
+    "メタモン",
+    "hisuian zorua",
+    "ヒスイゾロア",
+    "へんしん"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329420301.html",
+    "raw/P_20261026_134634_16.jpg"
+   ],
+   "box_image": "pokemon_ditto-hisui-zorua_134634.jpg",
+   "main_image": "box/pokemon_ditto-hisui-zorua_134634.jpg",
+   "photos": [
+    "box/pokemon_ditto-hisui-zorua_134634.jpg",
+    "raw/P_20261026_134634_16.jpg"
+   ],
+   "confidence": "high",
+   "notes": "先前誤認為ベロバー等。寶可夢中心線上商店「ぬいぐるみ へんしん！メタモン ヒスイゾロア」(JAN 4521329420301)確認:白身粉紅尾毛、百變怪臉。",
+   "code": "N85"
+  },
+  {
+   "id": "pokemon_ditto-zorua_134634",
+   "name_ja": "ぬいぐるみ へんしん！メタモン ゾロア",
+   "name_en": "Transform! Ditto - Zorua Plush",
+   "name_zh": "百變怪變身 索羅亞 毛絨娃娃",
+   "ip": "ポケットモンスター",
+   "character": "メタモン(ゾロアへんしん)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ditto",
+    "メタモン",
+    "zorua",
+    "ゾロア",
+    "へんしん"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329420318.html",
+    "raw/P_20261026_134634_17.jpg"
+   ],
+   "box_image": "pokemon_ditto-zorua_134634.jpg",
+   "main_image": "box/pokemon_ditto-zorua_134634.jpg",
+   "photos": [
+    "box/pokemon_ditto-zorua_134634.jpg",
+    "raw/P_20261026_134634_17.jpg"
+   ],
+   "confidence": "high",
+   "notes": "先前誤認為ヤミラミ。寶可夢中心線上商店「ぬいぐるみ へんしん！メタモン ゾロア」(JAN 4521329420318)確認:深灰藍身、紅色頭毛/爪、百變怪臉。",
+   "code": "N86"
+  }
+ ]
+}
