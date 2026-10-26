@@ -4,33 +4,43 @@
  "count": 86,
  "items": [
   {
-   "id": "gintama_unknown-peach-pillow_132014",
-   "name_ja": "",
-   "name_en": "",
-   "name_zh": "銀魂 長條抱枕型娃娃(品名待確認)",
+   "id": "gintama_justaway_mechamofugutto_132014_1",
+   "name_ja": "銀魂 めちゃもふぐっとぬいぐるみ～ジャスタウェイ～",
+   "name_en": "Gintama Mecha Mofu Gutto Plush ~Justaway~",
+   "name_zh": "銀魂 傑士塔威(ジャスタウェイ) 超蓬鬆抱抱大娃娃(長條抱枕型)",
    "ip": "銀魂",
-   "character": "未確認(橘色長條枕型,頭部米色)",
-   "maker": "",
-   "line": "",
-   "type": "other",
-   "year": "",
+   "character": "ジャスタウェイ(傑士塔威)",
+   "maker": "バンプレスト(BANPRESTO/BANDAI SPIRITS)",
+   "line": "めちゃもふぐっとぬいぐるみ",
+   "type": "plush",
+   "year": "2026",
    "category": [
+    "銀魂",
     "絨毛娃娃",
-    "抱枕"
+    "抱枕",
+    "プライズ"
    ],
    "keywords": [
-    "銀魂"
+    "銀魂",
+    "ジャスタウェイ",
+    "傑士塔威",
+    "Justaway",
+    "めちゃもふぐっと",
+    "バンプレスト",
+    "抱枕"
    ],
    "source_images": [
+    "https://bsp-prize.jp/item/2821959/",
     "raw/P_20261026_132014_1.jpg"
    ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_132014_1.jpg",
+   "box_image": "gintama_justaway_mechamofugutto_132014_1.jpg",
+   "main_image": "box/gintama_justaway_mechamofugutto_132014_1.jpg",
    "photos": [
+    "box/gintama_justaway_mechamofugutto_132014_1.jpg",
     "raw/P_20261026_132014_1.jpg"
    ],
-   "confidence": "low",
-   "notes": "長條抱枕型絨毛,橘色身體、米色頭部與手臂,臉部有斜眼表情。吊牌在右下角僅見「ワ48」類字樣殘片,無法讀出完整商品名。IP 歸屬為銀魂為推測(與同批次其他照片同組),角色未確認。",
+   "confidence": "high",
+   "notes": "Derek 指認為ジャスタウェイ。バンプレストナビ官方頁「銀魂 めちゃもふぐっとぬいぐるみ～ジャスタウェイ～」https://bsp-prize.jp/item/2821959/,全1種、約40cm,2026/4/28 起陸續登場(クレーンゲーム プライズ,BANPRESTO);外型(橘粉長條身體、米色頭、斜眼、細棒手)與實拍吻合,吊牌 BANDAI SPIRITS、8歲以上亦符。官方圖僅有 500px。",
    "code": "N01"
   },
   {
@@ -2674,38 +2684,44 @@
    "code": "N83"
   },
   {
-   "id": "pokemon_alolan-vulpix_plush_134634",
-   "name_ja": "ぬいぐるみ(S) ロコン(アローラのすがた)",
-   "name_en": "Alolan Vulpix Plush (S)",
-   "name_zh": "阿羅拉六尾 毛絨娃娃(S)",
+   "id": "pokemon_alolan-vulpix_psycho-soda-refresh_134634_15",
+   "name_ja": "ぬいぐるみ サイコソーダ・リフレッシュ アローラロコン",
+   "name_en": "Plush Psycho Soda Refresh Alolan Vulpix",
+   "name_zh": "冰六尾(阿羅拉六尾) 汽水系列 毛絨娃娃",
    "ip": "ポケットモンスター",
    "character": "アローラキュウコン(阿羅拉六尾)",
-   "maker": "",
-   "line": "",
+   "maker": "ポケモンセンター",
+   "line": "Psycho Soda Refresh(サイコソーダ・リフレッシュ/汽水系列)",
    "type": "plush",
-   "year": "",
+   "year": "2025",
    "category": [
     "寶可夢",
-    "絨毛娃娃"
+    "絨毛娃娃",
+    "汽水系列"
    ],
    "keywords": [
     "alolan vulpix",
+    "アローラロコン",
     "アローラキュウコン",
     "阿羅拉六尾",
-    "寶可夢"
+    "冰六尾",
+    "寶可夢",
+    "汽水",
+    "Psycho Soda",
+    "サイコソーダ"
    ],
    "source_images": [
-    "https://www.pokemoncenter-online.com/4905330033710.html",
+    "https://www.pokemoncenter-online.com/4521329414492.html",
     "raw/P_20261026_134634_15.jpg"
    ],
-   "box_image": "pokemon_alolan-vulpix_plush_134634.jpg",
-   "main_image": "box/pokemon_alolan-vulpix_plush_134634.jpg",
+   "box_image": "pokemon_alolan-vulpix_psycho-soda-refresh_134634_15.jpg",
+   "main_image": "box/pokemon_alolan-vulpix_psycho-soda-refresh_134634_15.jpg",
    "photos": [
-    "box/pokemon_alolan-vulpix_plush_134634.jpg",
+    "box/pokemon_alolan-vulpix_psycho-soda-refresh_134634_15.jpg",
     "raw/P_20261026_134634_15.jpg"
    ],
-   "confidence": "medium",
-   "notes": "寶可夢中心線上商店「ぬいぐるみ(S) ロコン(アローラのすがた)」(JAN 4905330033710)外型相符(坐姿、薄荷色腳、深藍耳);同系列另有 Pokémon fit 版,以身形判斷為本款,信心 medium。",
+   "confidence": "high",
+   "notes": "Derek 指認為汽水系列(PChome 截圖「冰六尾 Psycho Soda Refresh 勁爽汽水 絨毛玩具」)。寶可夢中心線上「ぬいぐるみ サイコソーダ・リフレッシュ アローラロコン」,https://www.pokemoncenter-online.com/4521329414492.html,商品碼 4521329414492,2025/3/25 發售、¥1,980(含稅)、15×16×18cm 96g;坐姿、薄荷腳、藍耳與刺繡眼睛與實拍吻合。原判「ぬいぐるみ(S) 4905330033710」為誤配,已更正。",
    "code": "N84"
   },
   {
