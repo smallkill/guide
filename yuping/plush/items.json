@@ -1885,13 +1885,13 @@
   },
   {
    "id": "frozen_olaf_plush-mascot_133707",
-   "name_ja": "",
-   "name_en": "",
-   "name_zh": "冰雪奇緣 雪寶 小型玩偶",
+   "name_ja": "オラフ ぬいぐるみ うるぽちゃちゃん アナと雪の女王",
+   "name_en": "Olaf Plush Urupocha-chan (Frozen)",
+   "name_zh": "冰雪奇緣 雪寶 うるぽちゃちゃん 小型玩偶",
    "ip": "迪士尼 冰雪奇緣(アナと雪の女王)",
    "character": "雪寶(Olaf)",
-   "maker": "",
-   "line": "",
+   "maker": "ディズニーストア",
+   "line": "うるぽちゃちゃん",
    "type": "plush",
    "year": "",
    "category": [
@@ -1899,21 +1899,24 @@
     "絨毛娃娃"
    ],
    "keywords": [
-    "冰雪奇緣",
-    "Olaf",
+    "オラフ",
     "雪寶",
-    "迪士尼"
+    "アナと雪の女王",
+    "冰雪奇緣",
+    "うるぽちゃちゃん",
+    "ディズニーストア"
    ],
    "source_images": [
     "P_20261026_133707_8.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_133707_8.jpg",
+   "main_image": "box/disney_olaf_urupochachan_133707_8.jpg",
    "photos": [
+    "box/disney_olaf_urupochachan_133707_8.jpg",
     "raw/P_20261026_133707_8.jpg"
    ],
    "confidence": "medium",
-   "notes": "雪寶造型小型玩偶,包裝膜未撕、吊牌未拍到。Web 查證有多款 Frozen 小型景品(如 Frewie P-PATCH 系列、Sega 吊飾系列),未能確認此款坐姿款的商品名與年份。無官方圖。",
+   "notes": "雪寶造型小型玩偶,包裝膜未撕、吊牌未拍到。Web 查證有多款 Frozen 小型景品(如 Frewie P-PATCH 系列、Sega 吊飾系列),未能確認此款坐姿款的商品名與年份。無官方圖。;Derek 提供 Disney Store 商品頁(JAN 4550586294325)與官方商品圖;樹枝手/雙鈕扣/藍色笑線/橘鼻與原照一致;但原照鈕扣為亮黑色、鼻子較大,官方圖鈕扣為咖啡色毛氈,可能為不同年份版本(另有 JAN 4550586678439 款,約 2024-12、¥1,400),待確認",
    "code": "N52"
   },
   {
