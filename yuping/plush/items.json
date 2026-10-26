@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-26",
- "build": 1792998519,
+ "build": 1793004486,
  "count": 86,
  "items": [
   {
@@ -955,13 +955,13 @@
   },
   {
    "id": "unknown_yellow-chick-gingham_133212",
-   "name_ja": "",
+   "name_ja": "すみっコぐらし ぬいぐるみ(黄色いひよこ風・赤いくちばし)",
    "name_en": "",
-   "name_zh": "",
-   "ip": "不明(待辨識)",
-   "character": "不明(黃色小雞狀、紅嘴、橘格紋圍巾)",
-   "maker": "",
-   "line": "",
+   "name_zh": "角落生物 黃色小雞造型玩偶(紅嘴・橘格紋圍巾,角色待確認)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "不明(黃色小雞狀,紅嘴、橘格紋圍巾;推測為角落生物角色)",
+   "maker": "San-X(推測)",
+   "line": "ぬいぐるみ",
    "type": "plush",
    "year": "",
    "category": [
@@ -978,18 +978,18 @@
     "raw/P_20261026_133212_2.jpg"
    ],
    "confidence": "low",
-   "notes": "黃色長條形絨毛,紅色嘴/鳥喙、橘色格紋圍巾。角色與系列不明,搜尋未找到,未編造品名。可能為 Sumikko 相近角色但未確認。",
+   "notes": "實拍:黃色長條形絨毛,紅色大嘴,橘白格紋圍巾,袋裝。Derek 指認為角落生物系列;官方角色表(San-X)中找不到完全吻合的角色,維持低信心,未放官方圖。",
    "code": "N30"
   },
   {
    "id": "unknown_mint-white-top_133212",
-   "name_ja": "",
+   "name_ja": "すみっコぐらし ぬいぐるみ とかげのおかあさん(推測)",
    "name_en": "",
-   "name_zh": "",
-   "ip": "不明(待辨識)",
-   "character": "不明(薄荷綠、上半白色、雙鰭狀手)",
-   "maker": "",
-   "line": "",
+   "name_zh": "角落生物 とかげのおかあさん 玩偶(推測)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "とかげのおかあさん(推測)",
+   "maker": "San-X(推測)",
+   "line": "ぬいぐるみ",
    "type": "plush",
    "year": "",
    "category": [
@@ -1006,18 +1006,18 @@
     "raw/P_20261026_133212_3.jpg"
    ],
    "confidence": "low",
-   "notes": "照片3:正面,白色上半+薄荷綠下半、帶吊牌。(照片11 經 Derek 指出為不同件,已另立一筆。)角色不明。",
+   "notes": "實拍:薄荷綠身體、白色上半頭部、兩片白色鰭狀手,有吊牌,袋裝。依色系與海邊恐龍造型推測為「とかげのおかあさん」(官方介紹:恐龍的倖存者,住在海的角落);未找到同款官方商品圖。",
    "code": "N31"
   },
   {
    "id": "unknown_pink-plush_133212",
-   "name_ja": "",
+   "name_ja": "すみっコぐらし ぬいぐるみ(ピンク色)",
    "name_en": "",
-   "name_zh": "",
-   "ip": "不明(待辨識)",
-   "character": "不明(粉紅色)",
-   "maker": "",
-   "line": "",
+   "name_zh": "角落生物 粉紅色絨毛玩偶(角色待確認)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "不明(粉紅色短胖、黑點眼與一字嘴)",
+   "maker": "San-X(推測)",
+   "line": "ぬいぐるみ",
    "type": "plush",
    "year": "",
    "category": [
@@ -1034,18 +1034,18 @@
     "raw/P_20261026_133212_4.jpg"
    ],
    "confidence": "low",
-   "notes": "粉紅色短胖絨毛,黑點眼與嘴,袋上有日文吊牌(文字模糊)。角色/系列不明,未編造。",
+   "notes": "實拍:粉紅色短胖絨毛,黑點眼與短線嘴,胸前有小摺邊,袋上有日文吊牌(模糊)。Derek 指認為角落生物系列;官方角色表無明確對應,可能為特別色/限定色款,待看吊牌。",
    "code": "N32"
   },
   {
    "id": "sumikko_unknown-yellow-red-leaf_133212_p5",
-   "name_ja": "",
+   "name_ja": "すみっコぐらし ぬいぐるみ ねこ(推測)",
    "name_en": "",
-   "name_zh": "角落生物 黃色絨毛(粉紅腹帶・紅葉片,照片5)",
-   "ip": "すみっコぐらし",
-   "character": "不明(黃色、紅葉耳/尾裝飾、粉紅緞帶)",
+   "name_zh": "角落生物 ねこ 玩偶(紅葉片・粉紅腹帶,推測)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "ねこ(推測)",
    "maker": "San-X(推測)",
-   "line": "",
+   "line": "ぬいぐるみ",
    "type": "plush",
    "year": "",
    "category": [
@@ -1062,18 +1062,18 @@
     "raw/P_20261026_133212_5.jpg"
    ],
    "confidence": "low",
-   "notes": "照片5:黃色毛絨、粉紅色腹帶(上有小圖案)、紅色葉片裝飾;Derek 指出與照片1(紅項圈款)為不同件。角色未確認。",
+   "notes": "實拍(照片5):奶黃色毛絨、圓耳,粉紅色腹帶(印小圖案)並貼有兩片紅色毛氈葉片。體色與耳形接近「ねこ」,葉片可能為季節/造型配件;與同組另一件(紅項圈款)為不同件。未找到同款官方圖。",
    "code": "N33"
   },
   {
    "id": "unknown_cream-fluffy_133212",
-   "name_ja": "",
+   "name_ja": "すみっコぐらし ぬいぐるみ わた(推測)",
    "name_en": "",
-   "name_zh": "",
-   "ip": "不明(待辨識)",
-   "character": "不明(米白色毛球、粉紅頭飾)",
-   "maker": "",
-   "line": "",
+   "name_zh": "角落生物 わた 玩偶(推測)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "わた(推測)",
+   "maker": "San-X(推測)",
+   "line": "ぬいぐるみ",
    "type": "plush",
    "year": "",
    "category": [
@@ -1090,20 +1090,20 @@
     "raw/P_20261026_133212_6.jpg"
    ],
    "confidence": "low",
-   "notes": "米白色捲毛絨毛,頭頂粉紅裝飾,黑點眼。袋上有日文吊牌(模糊)。角色/系列不明。",
+   "notes": "實拍:米白色捲毛絨球,頭頂粉紅色裝飾,黑點眼。依毛球造型推測為「わた」(官方介紹:只在被珍惜的玩偶裡才有的特別棉花);未找到同款官方圖。",
    "code": "N34"
   },
   {
    "id": "unknown_light-blue_133212",
-   "name_ja": "",
+   "name_ja": "すみっコぐらし てのりぬいぐるみ とかげ(進化A or B・推測)",
    "name_en": "",
-   "name_zh": "角落生物 淺藍色絨毛(疑似とかげ)",
-   "ip": "すみっコぐらし",
-   "character": "とかげ(推測)",
-   "maker": "San-X(推測)",
-   "line": "",
+   "name_zh": "角落生物 とかげ 手乘玩偶(進化A/B,推測)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "とかげ",
+   "maker": "San-X",
+   "line": "てのりぬいぐるみ(もしもすみっコが進化したら?)・推測",
    "type": "plush",
-   "year": "",
+   "year": "2025",
    "category": [
     "角落生物",
     "絨毛娃娃"
@@ -1118,18 +1118,18 @@
     "raw/P_20261026_133212_7.jpg"
    ],
    "confidence": "low",
-   "notes": "淺藍色絨毛,黑點眼與短線嘴,袋上有吊牌(模糊)。可能與 Sumikko 角色相近但未確認,獨立一筆(與照片3/11 色調接近但臉部不同,未合併)。",
+   "notes": "實拍:淺藍色圓丘狀絨毛,底部米色邊,黑點眼,有吊牌。與 San-X「もしもすみっコが進化したら?」てのりぬいぐるみ とかげ(進化A/進化B,¥1,210)外形相近,但臉部細節在照片中無法分辨 A 或 B,故不放官方圖。",
    "code": "N35"
   },
   {
    "id": "unknown_beige-white-small_133212",
-   "name_ja": "",
+   "name_ja": "すみっコぐらし ぬいぐるみ ねこ(推測)",
    "name_en": "",
-   "name_zh": "",
-   "ip": "不明(待辨識)",
-   "character": "不明(米黃/白、小型)",
-   "maker": "",
-   "line": "",
+   "name_zh": "角落生物 ねこ 玩偶(小型,推測)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "ねこ(推測)",
+   "maker": "San-X(推測)",
+   "line": "ぬいぐるみ",
    "type": "plush",
    "year": "",
    "category": [
@@ -1146,18 +1146,18 @@
     "raw/P_20261026_133212_8.jpg"
    ],
    "confidence": "low",
-   "notes": "小型米黃+白色圓臉,褐色點眼,照片僅露半身,角色不明。",
+   "notes": "實拍:小型米黃+白色圓臉、尖耳、褐色點眼,僅露半身。外形符合「ねこ」(官方介紹:害羞、在意體型的貓);款式(手乘/掛飾)無法判斷。",
    "code": "N36"
   },
   {
    "id": "unknown_blue-hood-costume_133212",
-   "name_ja": "",
+   "name_ja": "すみっコぐらし ぬいぐるみ(青いフード・星)",
    "name_en": "",
-   "name_zh": "",
-   "ip": "不明(待辨識)",
-   "character": "不明(藍色連帽造型、白臉、黃色星星)",
-   "maker": "",
-   "line": "",
+   "name_zh": "角落生物 變裝款玩偶(藍色連帽・黃星星,角色待確認)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "不明(藍色連帽裝扮、白臉、腰間黃色星星)",
+   "maker": "San-X(推測)",
+   "line": "ぬいぐるみ",
    "type": "plush",
    "year": "",
    "category": [
@@ -1174,18 +1174,18 @@
     "raw/P_20261026_133212_9.jpg"
    ],
    "confidence": "low",
-   "notes": "藍色連帽造型(可能是著裝/動物裝),白色臉與褐色鼻,腰間黃色星星裝飾。角色不明,未編造。",
+   "notes": "實拍:藍色連帽造型、白色臉褐色點眼、米色肚子、腰間黃色星星。可能為「星空さんぽ」或變裝系列之一,裡面是哪個角色無法確認。",
    "code": "N37"
   },
   {
    "id": "unknown_green-fishbone-costume_133212",
-   "name_ja": "",
+   "name_ja": "すみっコぐらし ぬいぐるみ(緑・魚の骨ストール)",
    "name_en": "",
-   "name_zh": "角落生物 とかげ 變裝款(綠色・魚骨圍巾,推測)",
-   "ip": "すみっコぐらし",
+   "name_zh": "角落生物 變裝款玩偶(綠色・魚骨圍巾,推測とかげ)",
+   "ip": "角落生物(すみっコぐらし)",
    "character": "とかげ(推測)",
    "maker": "San-X(推測)",
-   "line": "",
+   "line": "ぬいぐるみ",
    "type": "plush",
    "year": "",
    "category": [
@@ -1202,35 +1202,37 @@
     "raw/P_20261026_133212_10.jpg"
    ],
    "confidence": "low",
-   "notes": "綠色身體、粉色腮紅與紫色魚骨圖案圍巾/胸帶。可能為 Sumikko 系列裝扮造型,角色未確認。",
+   "notes": "實拍:綠色身體、粉紅色圓點腮紅、紫色魚骨圖案圍巾/胸帶。可能是角落生物裝扮造型,角色推測為「とかげ」,未確認。",
    "code": "N38"
   },
   {
    "id": "unknown_light-blue-spiky_133212_p11",
-   "name_ja": "",
+   "name_ja": "すみっコぐらし てのりぬいぐるみ とかげ(進化D)",
    "name_en": "",
-   "name_zh": "角落生物風 淺藍色鋸齒背絨毛(照片11,側面)",
-   "ip": "不明(待辨識)",
-   "character": "不明(淺藍色、背部鋸齒、貼條碼貼紙)",
-   "maker": "",
-   "line": "",
+   "name_zh": "角落生物 とかげ 手乘玩偶(進化D)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "とかげ",
+   "maker": "San-X",
+   "line": "てのりぬいぐるみ(もしもすみっコが進化したら?・進化D)",
    "type": "plush",
-   "year": "",
+   "year": "2025",
    "category": [
     "角落生物",
     "絨毛娃娃"
    ],
    "keywords": [],
    "source_images": [
+    "https://www.san-x.co.jp/ja/special/goods/2025/03/sg.html",
     "raw/P_20261026_133212_11.jpg"
    ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_133212_11.jpg",
+   "box_image": "sumikko_tokage_tenori-D.jpg",
+   "main_image": "box/sumikko_tokage_tenori-D.jpg",
    "photos": [
+    "box/sumikko_tokage_tenori-D.jpg",
     "raw/P_20261026_133212_11.jpg"
    ],
-   "confidence": "low",
-   "notes": "照片11:淺藍色長型毛絨,背部有藍色鋸齒狀,貼黑色條碼貼紙;Derek 指出與照片3(薄荷綠白)為不同件。角色不明。",
+   "confidence": "medium",
+   "notes": "實拍(側面):淺藍色長型身體、背部藍色鋸齒、米色腹部、貼條碼貼紙。對照 San-X 特設頁「もしもすみっコが進化したら?」(2025/03)てのりぬいぐるみ とかげ 進化D(背面鋸齒、長身形)外形一致,¥1,210。官方圖為特設頁裁切。",
    "code": "N39"
   },
   {
@@ -1297,17 +1299,17 @@
   },
   {
    "id": "unknown_red-haired-pair_133212",
-   "name_ja": "",
+   "name_ja": "鬼灯の冷徹 金魚草 ぬいぐるみマスコット(ボールチェーン付き)",
    "name_en": "",
-   "name_zh": "(待辨識)紅髮白臉綠葉吊飾絨毛・左",
-   "ip": "不明(待辨識)",
-   "character": "不明(紅髮白臉、綠葉、吊飾;左:驚嚇表情)",
-   "maker": "",
-   "line": "",
+   "name_zh": "鬼燈的冷徹 金魚草 鎖鍊吊飾玩偶(驚嚇表情・2入之左)",
+   "ip": "鬼燈的冷徹(鬼灯の冷徹)",
+   "character": "金魚草",
+   "maker": "不明(景品/周邊廠商待確認)",
+   "line": "ぬいぐるみマスコット(ボールチェーン付き)",
    "type": "plush",
    "year": "",
    "category": [
-    "角落生物",
+    "鬼燈的冷徹",
     "絨毛娃娃"
    ],
    "keywords": [],
@@ -1320,22 +1322,22 @@
     "raw/P_20261026_133212_14.jpg"
    ],
    "confidence": "low",
-   "notes": "同一袋內兩隻(照片14)。經查看確為兩隻不同表情(左:驚嚇閉嘴、右:張嘴),各為獨立一件。角色不明。此為左側。",
+   "notes": "同袋兩隻金魚草臉部玩偶(左:驚嚇閉嘴),紅頭髮、白臉、綠葉領、附珠鍊。Derek 指認為鬼灯の冷徹 金魚草。已比對 Hobby Search エル・プランニング(盆栽側身款)與 TAITO ぬいぐるみマスコット(側身款),造型不同,故不放官方圖;廠商與系列待確認。",
    "code": "N42"
   },
   {
    "id": "unknown_red-haired-pair_133212_right",
-   "name_ja": "",
+   "name_ja": "鬼灯の冷徹 金魚草 ぬいぐるみマスコット(ボールチェーン付き)",
    "name_en": "",
-   "name_zh": "(待辨識)紅髮白臉綠葉吊飾絨毛・右",
-   "ip": "不明(待辨識)",
-   "character": "不明(紅髮白臉、綠葉、吊飾;右:張嘴表情)",
-   "maker": "",
-   "line": "",
+   "name_zh": "鬼燈的冷徹 金魚草 鎖鍊吊飾玩偶(張嘴表情・2入之右)",
+   "ip": "鬼燈的冷徹(鬼灯の冷徹)",
+   "character": "金魚草",
+   "maker": "不明(景品/周邊廠商待確認)",
+   "line": "ぬいぐるみマスコット(ボールチェーン付き)",
    "type": "plush",
    "year": "",
    "category": [
-    "角落生物",
+    "鬼燈的冷徹",
     "絨毛娃娃"
    ],
    "keywords": [],
@@ -1348,35 +1350,37 @@
     "raw/P_20261026_133212_14.jpg"
    ],
    "confidence": "low",
-   "notes": "同一袋內兩隻(照片14)。此為右側(張嘴、粉紅舌)。角色不明。",
+   "notes": "同袋兩隻金魚草臉部玩偶(右:張嘴、粉紅舌)。判斷同 N42。",
    "code": "N43"
   },
   {
    "id": "unknown_red-daruma-like_133212",
-   "name_ja": "",
+   "name_ja": "鬼灯の冷徹 地獄達磨 金魚草(ぬいぐるみ)",
    "name_en": "",
-   "name_zh": "",
-   "ip": "不明(待辨識)",
-   "character": "不明(紅色、白臉、金色月紋)",
-   "maker": "",
-   "line": "",
+   "name_zh": "鬼燈的冷徹 金魚草 地獄達磨 玩偶",
+   "ip": "鬼燈的冷徹(鬼灯の冷徹)",
+   "character": "金魚草",
+   "maker": "ムービック(Movic)/ACOS",
+   "line": "地獄達磨(5種)",
    "type": "plush",
    "year": "",
    "category": [
-    "角落生物",
+    "鬼燈的冷徹",
     "絨毛娃娃"
    ],
    "keywords": [],
    "source_images": [
+    "http://www.hozukino-reitetsu.com/goods/128.html",
     "raw/P_20261026_133212_15.jpg"
    ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_133212_15.jpg",
+   "box_image": "hozuki_kingyoso_jigoku-daruma.jpg",
+   "main_image": "box/hozuki_kingyoso_jigoku-daruma.jpg",
    "photos": [
+    "box/hozuki_kingyoso_jigoku-daruma.jpg",
     "raw/P_20261026_133212_15.jpg"
    ],
-   "confidence": "low",
-   "notes": "紅色不倒翁/達摩造型,白色臉、金色月形與綠葉圖案。角色不明,未編造。",
+   "confidence": "medium",
+   "notes": "紅色不倒翁造型,白臉、金色月牙紋、綠葉。對照 TVアニメ「鬼灯の冷徹」官方站グッズ「地獄達磨」(5種之一,發売元 ムービック,¥1,800+税,第弐期その弐 2014年8月)金魚草款外形一致。官方圖為官網合照裁切。",
    "code": "N44"
   },
   {
@@ -1447,16 +1451,17 @@
   },
   {
    "id": "unknown_pink-purple-horn_pouch_133707",
-   "name_ja": "",
+   "name_ja": "メイプルストーリー ピンクビーン ぬいぐるみポーチ",
    "name_en": "",
-   "name_zh": "粉色紫角造型小包/零錢包",
-   "ip": "不明(待辨識)",
-   "character": "不明(粉色圓臉、紫色角)",
-   "maker": "",
-   "line": "",
+   "name_zh": "楓之谷 粉豆(Pink Bean)絨毛零錢包",
+   "ip": "楓之谷(メイプルストーリー / MapleStory)",
+   "character": "ピンクビーン(粉豆)",
+   "maker": "NEXON(楓之谷授權周邊,廠商待確認)",
+   "line": "絨毛零錢包/小袋",
    "type": "other",
    "year": "",
    "category": [
+    "楓之谷",
     "絨毛娃娃"
    ],
    "keywords": [
@@ -1465,15 +1470,15 @@
     "小包"
    ],
    "source_images": [
-    "P_20261026_133707_3.jpg"
+    "raw/P_20261026_133707_3.jpg"
    ],
    "box_image": "",
    "main_image": "raw/P_20261026_133707_3.jpg",
    "photos": [
     "raw/P_20261026_133707_3.jpg"
    ],
-   "confidence": "low",
-   "notes": "粉色圓臉、紫色角、白色下腹,疑似收納包/小袋造型,拉鍊可見。角色與品牌無法辨識,未查證到來源。",
+   "confidence": "medium",
+   "notes": "粉紅圓臉、紫色螺紋角、白色肚皮、拉鍊小袋,符合楓之谷 BOSS「粉豆(Pink Bean/ピンクビーン)」造型。台灣市面有「楓之谷 菇菇寶貝 粉豆 零錢包」授權品,但未找到與實拍完全同款的官方商品頁,故不放官方圖。",
    "code": "N47"
   },
   {
@@ -1546,17 +1551,17 @@
   },
   {
    "id": "unknown_white-yellow-ears_keychain_133707",
-   "name_ja": "",
+   "name_ja": "スシロー だっこずし タコひつじ ぬいぐるみ",
    "name_en": "",
-   "name_zh": "白色玩偶 黃色耳朵 紅繩(吊飾)",
-   "ip": "不明(待辨識)",
-   "character": "不明(白色、黃色耳朵)",
-   "maker": "",
-   "line": "",
+   "name_zh": "壽司郎 抱抱壽司 章魚綿羊(タコひつじ)玩偶",
+   "ip": "壽司郎 抱抱壽司(スシロー だっこずし)",
+   "character": "タコひつじ",
+   "maker": "あきんどスシロー(壽司郎)",
+   "line": "だっこずし ぬいぐるみマスコット",
    "type": "other",
    "year": "",
    "category": [
-    "吊飾",
+    "壽司郎",
     "絨毛娃娃"
    ],
    "keywords": [
@@ -1565,29 +1570,32 @@
     "紅繩"
    ],
    "source_images": [
-    "P_20261026_133707_6.jpg"
-   ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_133707_6.jpg",
-   "photos": [
+    "https://www.akindo-sushiro.co.jp/dakko/",
     "raw/P_20261026_133707_6.jpg"
    ],
-   "confidence": "low",
-   "notes": "白色玩偶、黃色耳朵、紅色繩狀裝飾,包裝膜未撕、拍攝角度為側面,臉部僅見局部。與 #2 白色 Mokona 的耳色不同,暫判為不同玩偶,未與 #2 合併。角色無法辨識。",
+   "box_image": "sushiro_dakkozushi_tako-hitsuji.jpg",
+   "main_image": "box/sushiro_dakkozushi_tako-hitsuji.jpg",
+   "photos": [
+    "box/sushiro_dakkozushi_tako-hitsuji.jpg",
+    "raw/P_20261026_133707_6.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "白色綿羊、黃色捲角、紅色吸盤腳(紅繩狀)抱著章魚。對照壽司郎官方「だっこずしのなかまたち」角色表的タコひつじ外形一致。商品款式(景品/店頭販售)未確認。官方圖為官網角色插圖裁切。",
    "code": "N50"
   },
   {
    "id": "unknown_yellow-orange-paws_133707",
-   "name_ja": "",
+   "name_ja": "スシロー だっこずし たまコッコ ぬいぐるみ",
    "name_en": "",
-   "name_zh": "黃色玩偶 橘色腳掌(背面)",
-   "ip": "不明(待辨識)",
-   "character": "不明(黃色身體、橘色手腳)",
-   "maker": "",
-   "line": "",
+   "name_zh": "壽司郎 抱抱壽司 玉子雞(たまコッコ)玩偶(背面)",
+   "ip": "壽司郎 抱抱壽司(スシロー だっこずし)",
+   "character": "たまコッコ",
+   "maker": "あきんどスシロー(壽司郎)",
+   "line": "だっこずし ぬいぐるみマスコット",
    "type": "plush",
    "year": "",
    "category": [
+    "壽司郎",
     "絨毛娃娃"
    ],
    "keywords": [
@@ -1595,15 +1603,17 @@
     "橘色腳掌"
    ],
    "source_images": [
-    "P_20261026_133707_7.jpg"
-   ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_133707_7.jpg",
-   "photos": [
+    "https://www.akindo-sushiro.co.jp/dakko/",
     "raw/P_20261026_133707_7.jpg"
    ],
-   "confidence": "low",
-   "notes": "僅拍到背面:黃色身體、橘色手腳、紅色繩狀物。包裝上有貼紙字樣(型號片段 06-6308),無法辨識角色與廠商。",
+   "box_image": "sushiro_dakkozushi_tamakokko.jpg",
+   "main_image": "box/sushiro_dakkozushi_tamakokko.jpg",
+   "photos": [
+    "box/sushiro_dakkozushi_tamakokko.jpg",
+    "raw/P_20261026_133707_7.jpg"
+   ],
+   "confidence": "medium",
+   "notes": "背面照:黃色玉子燒、橘色腳掌、白身體與紅色雞冠/尾。對照壽司郎官方角色表的たまコッコ(玉子+雞)外形一致。包裝貼紙型號片段 06-6308。官方圖為官網角色插圖裁切。",
    "code": "N51"
   },
   {
@@ -2166,10 +2176,10 @@
    "name_zh": "Pokémon Magic Hour Illusion! 壺壺 毛絨娃娃(贋作形態)",
    "ip": "ポケットモンスター",
    "character": "ポットデス(がんさくフォルム)",
-   "maker": "",
-   "line": "",
+   "maker": "ポケモンセンター(株式会社ポケモン)",
+   "line": "Pokémon Magic Hour Illusion!(2026 ハロウィン)",
    "type": "plush",
-   "year": "",
+   "year": "2026",
    "category": [
     "寶可夢",
     "絨毛娃娃"
@@ -2190,20 +2200,20 @@
     "raw/P_20261026_134634_1.jpg"
    ],
    "confidence": "high",
-   "notes": "寶可夢中心線上商店「ぬいぐるみ Pokémon Magic Hour Illusion! ポットデス(がんさくフォルム)」(JAN 4521329439150)確認:薄荷綠壺身、紫色蝴蝶結、黃握把。(先前標示疑似ヤバチャ)",
+   "notes": "寶可夢中心線上商店「ぬいぐるみ Pokémon Magic Hour Illusion! ポットデス(がんさくフォルム)」(JAN 4521329439150)確認:薄荷綠壺身、紫色蝴蝶結、黃握把。(先前標示疑似ヤバチャ) 〔2026-10-26 更新:屬寶可夢中心 2026 萬聖節系列「Pokémon Magic Hour Illusion!」(2026/9/12 起發售,官方公告 pokemon.co.jp/goods/2026/09/260904_to01.html)。〕",
    "code": "N70"
   },
   {
    "id": "pokemon_raichu-guess_134634",
-   "name_ja": "ライチュウ ぬいぐるみ(推測)",
+   "name_ja": "マスコット Pokémon Magic Hour Illusion! アローラライチュウ",
    "name_en": "Raichu plush (guess)",
-   "name_zh": "伊布 毛絨娃娃(兔耳裝飾,推測)",
+   "name_zh": "寶可夢 阿羅拉雷丘 掛飾玩偶(Pokémon Magic Hour Illusion! 萬聖節)",
    "ip": "ポケットモンスター",
-   "character": "イーブイ(推測)",
-   "maker": "",
-   "line": "",
+   "character": "アローラライチュウ",
+   "maker": "ポケモンセンター(株式会社ポケモン)",
+   "line": "Pokémon Magic Hour Illusion!(2026 ハロウィン)",
    "type": "plush",
-   "year": "",
+   "year": "2026",
    "category": [
     "寶可夢",
     "絨毛娃娃"
@@ -2215,26 +2225,28 @@
     "寶可夢"
    ],
    "source_images": [
+    "https://www.pokemoncenter-online.com/4521329439198.html",
     "raw/P_20261026_134634_2.jpg"
    ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_134634_2.jpg",
+   "box_image": "pokemon_alolan-raichu_magic-hour-mascot.jpg",
+   "main_image": "box/pokemon_alolan-raichu_magic-hour-mascot.jpg",
    "photos": [
+    "box/pokemon_alolan-raichu_magic-hour-mascot.jpg",
     "raw/P_20261026_134634_2.jpg"
    ],
-   "confidence": "low",
-   "notes": "黃色長耳與橘棕身體近似雷丘,胸前掛有兔子造型吊飾;變體(地區/服裝版本)未確定,品名未查證。",
+   "confidence": "high",
+   "notes": "寶可夢中心線上商店「マスコット Pokémon Magic Hour Illusion! アローラライチュウ」(JAN 4521329439198)外形一致:煎餅/鬆餅小物、蝴蝶結與兔耳南瓜吊飾。屬 2026 萬聖節系列(與 N70 同系列)。更正:原判伊布(推測)為誤。",
    "code": "N71"
   },
   {
    "id": "pokemon_ditto_keychain-pokemoncard_134634",
-   "name_ja": "メタモン キーホルダー(推測)",
+   "name_ja": "メタモン(ディットー) 花束 ぬいぐるみキーホルダー(韓国ポケモンストア)",
    "name_en": "Ditto keychain (guess)",
-   "name_zh": "百變怪 鑰匙圈 娃娃(推測)",
+   "name_zh": "寶可夢 百變怪 抱花束 吊飾玩偶(韓國寶可夢商店)",
    "ip": "ポケットモンスター",
-   "character": "メタモン(百變怪)",
-   "maker": "",
-   "line": "",
+   "character": "メタモン",
+   "maker": "ポケモンストア韓国(Pokémon Korea)・metamong PLAYGROUND",
+   "line": "「말랑말랑 메타몽의 하루」ピカチュウ×メタモン キーホルダー",
    "type": "other",
    "year": "",
    "category": [
@@ -2249,6 +2261,7 @@
     "pokemon card"
    ],
    "source_images": [
+    "~/repos/daigou-shops/korea-pokemon-daigou/images/item05.jpg(唯讀對照)",
     "raw/P_20261026_134634_3.jpg"
    ],
    "box_image": "",
@@ -2256,8 +2269,8 @@
    "photos": [
     "raw/P_20261026_134634_3.jpg"
    ],
-   "confidence": "low",
-   "notes": "吊牌可見「Pokémon Card」字樣與 DITTO 多語標示,附花束造型與金屬鉤環;確定為百變怪(Ditto)造型,但品名、年份、廠商均未查證。官方搜尋無結果。",
+   "confidence": "medium",
+   "notes": "吊牌為 Pokémon Center 多語言標示(DITTO)。比對 Derek 代購清單 #5「皮卡丘×百變怪鑰匙圈」(2026/5 韓國 metamong PLAYGROUND)圖中抱花束的百變怪款外形一致。官方圖僅有代購清單內的截圖(含勾選記號),未用作官方圖。",
    "code": "N72"
   },
   {
@@ -2369,13 +2382,13 @@
   },
   {
    "id": "pokemon_ditto_pair-charm_134634",
-   "name_ja": "メタモン 双体 吊飾(推測)",
+   "name_ja": "メタモン ヘアピン 2個セット(韓国)",
    "name_en": "Ditto pair charm (guess)",
-   "name_zh": "百變怪 雙隻 吊飾(推測)",
+   "name_zh": "寶可夢 百變怪 髮夾(2入・韓國購入)",
    "ip": "ポケットモンスター",
-   "character": "メタモン(百變怪)",
-   "maker": "",
-   "line": "",
+   "character": "メタモン",
+   "maker": "ポケモンストア韓国(推測)",
+   "line": "ヘアピン(韓国・推測)",
    "type": "other",
    "year": "",
    "category": [
@@ -2397,7 +2410,7 @@
     "raw/P_20261026_134634_7.jpg"
    ],
    "confidence": "low",
-   "notes": "照片為綠色圓形吊牌上兩隻紫色百變怪造型(一隻閉眼一隻橫躺),材質偏毛絨。與照片3 的鑰匙圈不同件(造型與包裝不同)。品名、廠商未查證。",
+   "notes": "綠色圓形吊牌上的兩隻紫色絨毛百變怪,判斷為髮夾。已查 Derek 代購清單:#1 髮夾組為皮卡丘/雷丘等「All Together, Zap Zap!」草地款,不含此款;韓國通路另有「메타몽 헤어핀」二入商品,但未能確認與實拍相同,故不放官方圖。",
    "code": "N76"
   },
   {
@@ -2522,15 +2535,15 @@
   },
   {
    "id": "pokemon_vaporeon_sleep-plush_134634",
-   "name_ja": "シャワーズ ぬいぐるみ(推測)",
+   "name_ja": "ぬいぐるみ へんしん!メタモン メッソン",
    "name_en": "Vaporeon plush (guess)",
-   "name_zh": "百變怪變身 水伊布 毛絨娃娃(推測)",
+   "name_zh": "寶可夢 變身!百變怪 變身成淚眼蜥 玩偶",
    "ip": "ポケットモンスター",
-   "character": "メタモン(變身水伊布,推測)",
-   "maker": "",
-   "line": "",
+   "character": "メタモン(メッソンにへんしん)",
+   "maker": "ポケモンセンター(株式会社ポケモン)",
+   "line": "へんしん!メタモン(2026/7/9 発売)",
    "type": "plush",
-   "year": "",
+   "year": "2026",
    "category": [
     "寶可夢",
     "絨毛娃娃"
@@ -2542,15 +2555,17 @@
     "寶可夢"
    ],
    "source_images": [
+    "https://www.pokemoncenter-online.com/4521329420295.html",
     "raw/P_20261026_134634_12.jpg"
    ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_134634_12.jpg",
+   "box_image": "pokemon_ditto-sobble_plush.jpg",
+   "main_image": "box/pokemon_ditto-sobble_plush.jpg",
    "photos": [
+    "box/pokemon_ditto-sobble_plush.jpg",
     "raw/P_20261026_134634_12.jpg"
    ],
-   "confidence": "medium",
-   "notes": "藍色身體、黃色耳鰭、藍色尾鰭特徵符合水伊布;袋裝、無吊牌可見,品名與廠商未查證。",
+   "confidence": "high",
+   "notes": "寶可夢中心線上商店「ぬいぐるみ へんしん!メタモン メッソン」(JAN 4521329420295,¥2,200,2026-07-09 発売)外形一致:藍色淚眼蜥身體但臉保留百變怪。更正:原判水伊布(推測)為誤。",
    "code": "N81"
   },
   {
