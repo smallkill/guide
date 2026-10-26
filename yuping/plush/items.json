@@ -473,7 +473,7 @@
     "raw/P_20261026_132718_1.jpg"
    ],
    "confidence": "medium",
-   "notes": "SK Japan アニマルBIGぬいぐるみ2(2025年7月第3週),全2種(クロオネコ/ケンマネコ)。照片1在袋內被其他娃娃遮擋、反光,但灰貓+黑瀏海+粉耳可辨,與官方款相符。官方圖為雙款圖裁切。",
+   "notes": "SK Japan アニマルBIGぬいぐるみ2(2025年7月第3週),全2種(クロオネコ/ケンマネコ)。照片1在袋內被其他娃娃遮擋、反光,但灰貓+黑瀏海+粉耳可辨,與官方款相符。官方圖為雙款圖裁切。 [2026-10-26 Derek 確認為娃娃(非地毯/墊子);SK Japan 官方頁外型相符,無證據顯示為一番くじ。]",
    "code": "N15"
   },
   {
@@ -510,14 +510,14 @@
     "raw/P_20261026_132718_2.jpg"
    ],
    "confidence": "medium",
-   "notes": "同Vol.2的另一款。照片2只拍到一角(棕黃瀏海+白臉+半邊黃眼圈)且被日向烏鴉的橘髮遮擋,但特徵與官方吻合。官方圖為雙款圖裁切。",
+   "notes": "同Vol.2的另一款。照片2只拍到一角(棕黃瀏海+白臉+半邊黃眼圈)且被日向烏鴉的橘髮遮擋,但特徵與官方吻合。官方圖為雙款圖裁切。 [2026-10-26 Derek 確認為娃娃(非地毯/墊子);SK Japan 官方頁外型相符,無證據顯示為一番くじ。]",
    "code": "N16"
   },
   {
    "id": "haikyuu_hinagarasu_animal-big-plush_132718_p3",
-   "name_ja": "",
-   "name_en": "",
-   "name_zh": "排球少年 日向烏鴉 深藍橘髮絨毛(照片3,另一隻,款式待確認)",
+   "name_ja": "ヒナガラス ぬいぐるみ(款式待確認)",
+   "name_en": "Hinagarasu plush (variant TBC)",
+   "name_zh": "排球少年 日向烏鴉 絨毛(款式待確認)",
    "ip": "ハイキュー!!",
    "character": "日向翔陽(ヒナガラス)",
    "maker": "SK Japan",
@@ -545,7 +545,7 @@
     "raw/P_20261026_132718_3.jpg"
    ],
    "confidence": "low",
-   "notes": "照片3 為深藍色身體+橘色頭髮毛氈+白點眼的絨毛(近拍);Derek 指出與照片10 是不同件。與 ヒナガラス BIG 同色系但尺寸/款式未確認,不套用官方圖。",
+   "notes": "Derek 指示:此張只算日向烏鴉(深藍身體+橘色毛氈髮+白點眼),照片中其他東西忽略。外型可能是 SK Japan アニマルBIGぬいぐるみ 或 一番くじ ～全国への道～ C賞 ヒナガラスふわふわクッション(同色系),照片僅拍到頭側,無法定論,故不套官方圖。",
    "code": "N17"
   },
   {
@@ -582,7 +582,7 @@
     "raw/P_20261026_132718_4.jpg"
    ],
    "confidence": "medium",
-   "notes": "SK Japan アニマルBIGぬいぐるみ3(2026年4月第4週),灰米色貓頭鷹+橘眼=木兎;同系列另一款為赤葦(褐色鴞)。照片4為側拍,吊牌可見「ハイキュー!!」與角色卡。官方頁面本身未標註角色名,角色由外型比對得出。官方圖為雙款圖裁切木兎款。",
+   "notes": "SK Japan アニマルBIGぬいぐるみ3(2026年4月第4週),灰米色貓頭鷹+橘眼=木兎;同系列另一款為赤葦(褐色鴞)。照片4為側拍,吊牌可見「ハイキュー!!」與角色卡。官方頁面本身未標註角色名,角色由外型比對得出。官方圖為雙款圖裁切木兎款。 [2026-10-26 Derek 確認為娃娃(非地毯/墊子);SK Japan 官方頁外型相符,無證據顯示為一番くじ。]",
    "code": "N18"
   },
   {
@@ -748,13 +748,13 @@
   },
   {
    "id": "haikyuu_hinagarasu_animal-big-plush_132718",
-   "name_ja": "ハイキュー!! アニマルBIGぬいぐるみ(ヒナガラス)",
-   "name_en": "Haikyu!! Animal BIG Plush (Hinagarasu (Hinata crow))",
-   "name_zh": "排球少年 動物系大型絨毛娃娃(日向烏鴉)",
+   "name_ja": "一番くじ ハイキュー!! ～全国への道～ C賞 ヒナガラスふわふわクッション",
+   "name_en": "Ichiban Kuji Haikyu!! -Road to Nationals- Prize C: Hinagarasu Fluffy Cushion",
+   "name_zh": "一番賞 排球少年 ～前進全國～ C賞 日向烏鴉毛絨抱枕娃娃",
    "ip": "ハイキュー!!",
    "character": "日向翔陽(ヒナガラス)",
-   "maker": "SK Japan",
-   "line": "アニマルBIGぬいぐるみ",
+   "maker": "BANDAI SPIRITS",
+   "line": "一番くじ ハイキュー!! ～全国への道～(C賞)",
    "type": "plush",
    "year": "2025",
    "category": [
@@ -764,15 +764,17 @@
    ],
    "keywords": [
     "ハイキュー",
-    "アニマルBIGぬいぐるみ",
+    "一番くじ",
+    "全国への道",
+    "C賞",
     "ヒナガラス",
-    "SK JAPAN",
-    "キャラとる"
+    "クッション",
+    "BANDAI SPIRITS"
    ],
    "source_images": [
-    "https://www.sk-japan.co.jp/charatoru/chara/haikyu/amgoods-51982",
-    "P_20261026_132718_10.jpg",
-    "P_20261026_132718_3.jpg"
+    "https://www.famitsu.com/article/202508/49845",
+    "https://www.inside-games.jp/imgs/zoom/1603433.jpg",
+    "P_20261026_132718_10.jpg"
    ],
    "box_image": "haikyuu_hinagarasu_animal-big-plush_132718.jpg",
    "main_image": "box/haikyuu_hinagarasu_animal-big-plush_132718.jpg",
@@ -780,8 +782,8 @@
     "box/haikyuu_hinagarasu_animal-big-plush_132718.jpg",
     "raw/P_20261026_132718_10.jpg"
    ],
-   "confidence": "high",
-   "notes": "SK Japan 2025年5月第3週,H30×W35×D36cm,全2種(ヒナガラス/カゲガラス)。照片10正面確認(橘髮+圓點眼)、(照片3 經 Derek 指出為不同件,已另立一筆。)官方圖為官方雙款圖裁切出日向款。",
+   "confidence": "medium",
+   "notes": "Derek 指認:抱枕娃娃、一番賞獎品。比對一番くじ ハイキュー!! ～全国への道～(BANDAI SPIRITS,2025/8/16 發售)C賞「ヒナガラスふわふわクッション」全1種約38cm:形狀(扁圓身體+橘髮+圓眼)吻合;但官方圖為淺藍毛圈布、照片為袋內深藍色,色差可能來自光線/反光。官方圖取自 inside-games 報導。",
    "code": "N24"
   },
   {
@@ -890,13 +892,13 @@
   },
   {
    "id": "haikyuu_kagegarasu_animal-big-plush_132718",
-   "name_ja": "ハイキュー!! アニマルBIGぬいぐるみ(カゲガラス)",
-   "name_en": "Haikyu!! Animal BIG Plush (Kagegarasu (Kageyama crow))",
-   "name_zh": "排球少年 動物系大型絨毛娃娃(影山烏鴉)",
+   "name_ja": "一番くじ ハイキュー!! 烏クッション(カゲガラス?・彈/賞別待確認)",
+   "name_en": "Ichiban Kuji Haikyu!! crow cushion (Kagegarasu?, series/prize TBC)",
+   "name_zh": "一番賞 排球少年 烏鴉抱枕娃娃(疑似影山烏鴉,彈別/賞別待確認)",
    "ip": "ハイキュー!!",
    "character": "影山飛雄(カゲガラス)",
-   "maker": "SK Japan",
-   "line": "アニマルBIGぬいぐるみ",
+   "maker": "BANDAI SPIRITS",
+   "line": "一番くじ ハイキュー!!(彈名待確認)",
    "type": "plush",
    "year": "2025",
    "category": [
@@ -912,17 +914,15 @@
     "キャラとる"
    ],
    "source_images": [
-    "https://www.sk-japan.co.jp/charatoru/chara/haikyu/amgoods-51982",
     "P_20261026_132718_14.jpg"
    ],
-   "box_image": "haikyuu_kagegarasu_animal-big-plush_132718.jpg",
-   "main_image": "box/haikyuu_kagegarasu_animal-big-plush_132718.jpg",
+   "box_image": "",
+   "main_image": "raw/P_20261026_132718_14.jpg",
    "photos": [
-    "box/haikyuu_kagegarasu_animal-big-plush_132718.jpg",
     "raw/P_20261026_132718_14.jpg"
    ],
    "confidence": "low",
-   "notes": "照片14只拍到深藍色背面/側面一角,有一隻淺色眼睛與底部「ハイキュー!!」吊牌,頭頂黑髮看不到;因與ヒナガラス成對(Vol.1共2款)且與照片10的外型不同(眼睛輪廓偏杏仁形),推測為カゲガラス,但也可能是ヒナガラス另一角度,不確定。官方圖為官方雙款圖裁切影山款。",
+   "notes": "Derek 指認:抱枕娃娃、一番賞獎品。照片僅見藍色身體+淺藍眼+「ハイキュー!!」吊牌。查過 ～全国への道～(2025,僅C賞ヒナガラス)、～烏野の未来～(2026)、～10th anniversary～(2024)、～頂の景色～(2023)、～最強の挑戦者～(2026) 賞品表,均未找到カゲガラス抱枕;彈名/賞別未確認,不套官方圖。若為 C賞 ヒナガラス 另一角度也有可能。",
    "code": "N28"
   },
   {
