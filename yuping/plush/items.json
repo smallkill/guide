@@ -471,13 +471,13 @@
   },
   {
    "id": "gintama_unknown-black-cat-face_132014",
-   "name_ja": "銀魂 黑貓臉 毛絨徽章",
-   "name_en": "",
-   "name_zh": "銀魂 黑貓臉毛絨徽章(淘寶購入)",
+   "name_ja": "銀魂 桂猫 ぬいぐるみバッジ(上海ポップアップ)",
+   "name_en": "Gintama Katsura Cat Plush Badge (Shanghai pop-up)",
+   "name_zh": "銀魂 桂貓 毛絨徽章(上海快閃店)",
    "ip": "銀魂",
    "character": "貓化角色(黑貓,待確認)",
-   "maker": "",
-   "line": "銀魂 ギン猫シリーズ(推測)",
+   "maker": "GoGoGooDs 谷子快跑(中國快閃店販售)",
+   "line": "毛絨徽章(選款)全3款",
    "type": "other",
    "year": "",
    "category": [
@@ -487,32 +487,37 @@
    ],
    "keywords": [
     "銀魂",
+    "桂貓",
+    "桂猫",
+    "桂小太郎",
     "毛絨徽章",
-    "ぬいぐるみバッジ",
-    "ギン猫",
-    "淘寶"
+    "GoGoGooDs",
+    "谷子快跑",
+    "上海快閃",
+    "大悅城"
    ],
    "source_images": [
     "raw/P_20261026_132014_13.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_132014_13.jpg",
+   "main_image": "box/gintama_katsura-cat_plush-badge_gogogoods_132014_13.jpg",
    "photos": [
+    "box/gintama_katsura-cat_plush-badge_gogogoods_132014_13.jpg",
     "raw/P_20261026_132014_13.jpg"
    ],
-   "confidence": "low",
-   "notes": "Derek 提供:銀魂毛絨徽章(ぬいぐるみバッジ),淘寶購入。黑貓、金色眼、粉耳;疑為官方「ギン猫」系列(ソル・インターナショナル)中國版/周邊同系列的另一角色,但未查到黑貓對應角色與官方圖(神里屋頁被 CAPTCHA 擋,已跳過),淘寶品可能為非原廠,故不放官方圖。",
+   "confidence": "high",
+   "notes": "Derek 提供:銀魂毛絨徽章(ぬいぐるみバッジ),淘寶購入。黑貓、金色眼、粉耳;疑為官方「ギン猫」系列(ソル・インターナショナル)中國版/周邊同系列的另一角色,但未查到黑貓對應角色與官方圖(神里屋頁被 CAPTCHA 擋,已跳過),淘寶品可能為非原廠,故不放官方圖。;確認:GoGoGooDs 谷子快跑「馬上發財」春節限定快閃(上海靜安大悅城 南座1F S108)海報,Derek 提供;毛絨徽章(選款)全3款:銀時款/桂貓/近藤款。官方圖為海報裁切(解析度低);本件=桂貓(黑貓、金眼、藍領巾)",
    "code": "N13"
   },
   {
    "id": "gintama_unknown-white-cat-face_132014",
-   "name_ja": "銀魂 銀猫(ギン猫)ぬいぐるみバッジ",
-   "name_en": "",
-   "name_zh": "銀魂 銀貓(ギン猫)毛絨徽章(淘寶購入)",
+   "name_ja": "銀魂 銀時 猫 ぬいぐるみバッジ(上海ポップアップ)",
+   "name_en": "Gintama Gintoki Cat Plush Badge (Shanghai pop-up)",
+   "name_zh": "銀魂 銀時款 白貓毛絨徽章(上海快閃店)",
    "ip": "銀魂",
    "character": "坂田銀時(貓化「ギン猫」)",
-   "maker": "",
-   "line": "銀魂 ギン猫シリーズ(推測)",
+   "maker": "GoGoGooDs 谷子快跑(中國快閃店販售)",
+   "line": "毛絨徽章(選款)全3款",
    "type": "other",
    "year": "",
    "category": [
@@ -522,22 +527,26 @@
    ],
    "keywords": [
     "銀魂",
-    "毛絨徽章",
-    "ぬいぐるみバッジ",
+    "銀時",
+    "銀貓",
     "ギン猫",
-    "淘寶",
-    "銀猫"
+    "毛絨徽章",
+    "GoGoGooDs",
+    "谷子快跑",
+    "上海快閃",
+    "大悅城"
    ],
    "source_images": [
     "raw/P_20261026_132014_14.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_132014_14.jpg",
+   "main_image": "box/gintama_gintoki-cat_plush-badge_gogogoods_132014_14.jpg",
    "photos": [
+    "box/gintama_gintoki-cat_plush-badge_gogogoods_132014_14.jpg",
     "raw/P_20261026_132014_14.jpg"
    ],
-   "confidence": "medium",
-   "notes": "Derek 提供:銀魂毛絨徽章(ぬいぐるみバッジ),淘寶購入。白貓、半閉死魚眼、粉耳,符合「銀猫/ギン猫」(銀時貓化,ソル・インターナショナル 官方系列,日本有中國再販ぬいぐるみバッジ);淘寶品可能為非原廠,未取得官方圖,維持實拍為主圖。",
+   "confidence": "high",
+   "notes": "Derek 提供:銀魂毛絨徽章(ぬいぐるみバッジ),淘寶購入。白貓、半閉死魚眼、粉耳,符合「銀猫/ギン猫」(銀時貓化,ソル・インターナショナル 官方系列,日本有中國再販ぬいぐるみバッジ);淘寶品可能為非原廠,未取得官方圖,維持實拍為主圖。;確認:GoGoGooDs 谷子快跑「馬上發財」春節限定快閃(上海靜安大悅城 南座1F S108)海報,Derek 提供;毛絨徽章(選款)全3款:銀時款/桂貓/近藤款。官方圖為海報裁切(解析度低);本件=銀時款(白貓死魚眼)",
    "code": "N14"
   },
   {
