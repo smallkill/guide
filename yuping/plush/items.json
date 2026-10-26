@@ -182,9 +182,9 @@
     "raw/P_20261026_132014_5.jpg"
    ],
    "box_image": "gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
-   "main_image": "box/gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
+   "main_image": "box/gintama_3z_ponpon_sadaharu.jpg",
    "photos": [
-    "box/gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
+    "box/gintama_3z_ponpon_sadaharu.jpg",
     "raw/P_20261026_132014_5.jpg"
    ],
    "confidence": "high",
@@ -195,7 +195,7 @@
    "id": "gintama_unknown-c1-pink_132014",
    "name_ja": "3年Z組銀八先生 ポンポンぬい(銀八先生)",
    "name_en": "",
-   "name_zh": "3年Z組銀八先生 圓球吊飾絨毛娃娃(銀八先生)",
+   "name_zh": "3年Z組銀八先生 圓球吊飾絨毛娃娃(傑士塔威)",
    "ip": "銀魂",
    "character": "銀八先生",
    "maker": "BANPRESTO(BANDAI SPIRITS)",
@@ -213,20 +213,22 @@
     "3年Z組銀八先生",
     "ポンポンぬい",
     "銀八先生",
-    "號碼布"
+    "號碼布",
+    "傑士塔威",
+    "ジャスタウェイ"
    ],
    "source_images": [
     "https://bsp-prize.jp/item/2803882/",
     "raw/P_20261026_132014_6.jpg"
    ],
    "box_image": "gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
-   "main_image": "box/gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
+   "main_image": "box/gintama_3z_ponpon_justaway.jpg",
    "photos": [
-    "box/gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
+    "box/gintama_3z_ponpon_justaway.jpg",
     "raw/P_20261026_132014_6.jpg"
    ],
    "confidence": "high",
-   "notes": "Derek 提供商品名「3年Z組銀八先生 ポンポンぬい」。BANPRESTO 官網:全3種、約7cm、2025/11/11 起陸續登場;N06 為膚色圓頭+粉色身體的銀八先生,實拍與官方圖相符(胸前C1號碼布為抽選貼紙)。官方頁 https://bsp-prize.jp/item/2803882/",
+   "notes": "Derek 提供商品名「3年Z組銀八先生 ポンポンぬい」。BANPRESTO 官網:全3種、約7cm、2025/11/11 起陸續登場;N06 為膚色圓頭+粉色身體的銀八先生,實拍與官方圖相符(胸前C1號碼布為抽選貼紙)。官方頁 https://bsp-prize.jp/item/2803882/;NOVA 依官方圖更正:此款為ジャスタウェイ(非銀八先生),官方圖已裁單隻",
    "code": "N06"
   },
   {
@@ -258,9 +260,9 @@
     "raw/P_20261026_132014_7.jpg"
    ],
    "box_image": "gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
-   "main_image": "box/gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
+   "main_image": "box/gintama_3z_ponpon_elizabeth.jpg",
    "photos": [
-    "box/gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
+    "box/gintama_3z_ponpon_elizabeth.jpg",
     "raw/P_20261026_132014_7.jpg"
    ],
    "confidence": "high",
@@ -1022,37 +1024,49 @@
   },
   {
    "id": "sumikko_unknown-yellow-red-leaf_133212",
-   "name_ja": "",
-   "name_en": "",
-   "name_zh": "角落生物 黃色絨毛(紅葉裝飾,角色待確認)",
+   "name_ja": "すみっコぐらし こいぬといぬごっこ うつぶせぬいぐるみBIG(Dえびふらいのしっぽ)",
+   "name_en": "Sumikkogurashi Koinu to Inu Gokko Prone Plush BIG (Ebifurai no Shippo)",
+   "name_zh": "角落生物 炸蝦尾 小狗扮狗狗 趴姿大娃娃(全長約25cm)",
    "ip": "角落生物(すみっコぐらし)",
    "character": "不明(黃色、紅葉耳/尾裝飾、粉紅緞帶)",
-   "maker": "San-X(推測)",
-   "line": "",
+   "maker": "System Service(システムサービス,Taito 通路發售)",
+   "line": "こいぬといぬごっこ うつぶせぬいぐるみBIG",
    "type": "plush",
-   "year": "",
+   "year": "2022",
    "category": [
     "角落生物",
     "絨毛娃娃"
    ],
-   "keywords": [],
+   "keywords": [
+    "すみっコぐらし",
+    "角落生物",
+    "えびふらいのしっぽ",
+    "炸蝦尾",
+    "こいぬといぬごっこ",
+    "うつぶせぬいぐるみBIG",
+    "システムサービス",
+    "タイトー",
+    "プライズ",
+    "趴姿"
+   ],
    "source_images": [
     "raw/P_20261026_133212_1.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_133212_1.jpg",
+   "main_image": "box/sumikko_ebifurai-shippo_koinu-inugokko_utsubuse-big_133212.jpg",
    "photos": [
+    "box/sumikko_ebifurai-shippo_koinu-inugokko_utsubuse-big_133212.jpg",
     "raw/P_20261026_133212_1.jpg"
    ],
-   "confidence": "low",
-   "notes": "照片1:黃色毛絨、紅色項圈帶、紅色葉片。(照片5 經 Derek 指出為不同件,已另立一筆。)角色不明,品名未編造。",
+   "confidence": "high",
+   "notes": "照片1:黃色毛絨、紅色項圈帶、紅色葉片。(照片5 經 Derek 指出為不同件,已另立一筆。)角色不明,品名未編造。;Derek 提供品名;官方 Taito 頁 https://www.taito.co.jp/prize/0473939910,全長約25cm,2022-05;官方圖為5款合照,已裁炸蝦尾款",
    "code": "N29"
   },
   {
    "id": "unknown_yellow-chick-gingham_133212",
-   "name_ja": "すみっコぐらし ぬいぐるみ(黄色いひよこ風・赤いくちばし)",
-   "name_en": "",
-   "name_zh": "角落生物 黃色小雞造型玩偶(紅嘴・橘格紋圍巾,角色待確認)",
+   "name_ja": "すみっコぐらし えびふらいのしっぽ(たこ)ぬいぐるみ(商品名未確認)",
+   "name_en": "Sumikko Gurashi Ebifurai no Shippo holding a small octopus plush (model unconfirmed)",
+   "name_zh": "角落生物 炸蝦尾抱小章魚 玩偶(款式待確認)",
    "ip": "角落生物(すみっコぐらし)",
    "character": "不明(黃色小雞狀,紅嘴、橘格紋圍巾;推測為角落生物角色)",
    "maker": "San-X(推測)",
@@ -1063,7 +1077,19 @@
     "角落生物",
     "絨毛娃娃"
    ],
-   "keywords": [],
+   "keywords": [
+    "すみっコぐらし",
+    "角落生物",
+    "えびふらいのしっぽ",
+    "炸蝦尾",
+    "たこ",
+    "章魚",
+    "たこウインナー",
+    "ぬいぐるみ",
+    "玩偶",
+    "San-X",
+    "てのりぬいぐるみ"
+   ],
    "source_images": [
     "raw/P_20261026_133212_2.jpg"
    ],
@@ -1073,7 +1099,7 @@
     "raw/P_20261026_133212_2.jpg"
    ],
    "confidence": "low",
-   "notes": "實拍:黃色長條形絨毛,紅色大嘴,橘白格紋圍巾,袋裝。Derek 指認為角落生物系列;官方角色表(San-X)中找不到完全吻合的角色,維持低信心,未放官方圖。",
+   "notes": "實拍:黃色長條形絨毛,紅色大嘴,橘白格紋圍巾,袋裝。Derek 指認為角落生物系列;官方角色表(San-X)中找不到完全吻合的角色,維持低信心,未放官方圖。;Derek 指認:炸蝦尾拿小章魚;線索 San-X てのりぬいぐるみ えびふらいのしっぽ(たこウインナー) SMG5337 未驗證",
    "code": "N30"
   },
   {
