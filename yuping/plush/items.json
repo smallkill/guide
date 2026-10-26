@@ -1632,15 +1632,15 @@
   },
   {
    "id": "unknown_jinbe-shark_polka-large_133707",
-   "name_ja": "じんべえさん ぬいぐるみ(エイさんポケット付き疑似,待確認)",
-   "name_en": "",
-   "name_zh": "じんべえさん 大型玩偶(水藍白點)",
+   "name_ja": "じんべえさん ぬいぐるみリュック",
+   "name_en": "Jinbesan Plush Backpack",
+   "name_zh": "甚平鯊 絨毛後背包(嘴巴拉鍊,身上粉紅魟魚エイさん,全長約36cm)",
    "ip": "甚平鯊(じんべえさん)",
    "character": "じんべえさん(San-X;背上粉紅小角色)",
-   "maker": "San-X",
-   "line": "スーパーもーちもち系列(推測,未確認)",
+   "maker": "San-X 授權之遊樂場 prize(製造商未明)",
+   "line": "ぬいぐるみリュック(2種之一:背包款)",
    "type": "plush",
-   "year": "",
+   "year": "2018",
    "category": [
     "水族",
     "絨毛娃娃"
@@ -1649,24 +1649,26 @@
     "甚平鯊",
     "鯨鯊",
     "じんべえさん",
-    "ジンベエザメ",
     "San-X",
     "サンエックス",
-    "スーパーもーちもち",
+    "ぬいぐるみリュック",
+    "プライズ",
     "エイさん",
     "魟魚",
-    "大型玩偶"
+    "背包",
+    "リュック"
    ],
    "source_images": [
     "P_20261026_133707_1.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_133707_1.jpg",
+   "main_image": "box/jinbesan_nuigurumi-ryukku_133707_1.jpg",
    "photos": [
+    "box/jinbesan_nuigurumi-ryukku_133707_1.jpg",
     "raw/P_20261026_133707_1.jpg"
    ],
-   "confidence": "low",
-   "notes": "大型鯨鯊造型玩偶,包裝膜未撕,吊牌/品牌未拍到。背部粉色片狀裝飾(疑似背鰭或另一角色),無法確認 IP。Web 查證未找到對應官方頁。前景有白色毛絨物一角,未建檔。 〔2026-10-26 更正:じんべえさん 是 San-X 獨立角色,非すみっコぐらし。〕;Derek 提供出處:San-X じんべえさん https://www.san-x.co.jp/zh-TW/characters/jinbesan/ ;官方站未能比對到同款,背上粉色エイさん+腹部拉鍊款待查(疑エイさんポケット可取下)。",
+   "confidence": "medium",
+   "notes": "大型鯨鯊造型玩偶,包裝膜未撕,吊牌/品牌未拍到。背部粉色片狀裝飾(疑似背鰭或另一角色),無法確認 IP。Web 查證未找到對應官方頁。前景有白色毛絨物一角,未建檔。 〔2026-10-26 更正:じんべえさん 是 San-X 獨立角色,非すみっコぐらし。〕;Derek 提供出處:San-X じんべえさん https://www.san-x.co.jp/zh-TW/characters/jinbesan/ ;官方站未能比對到同款,背上粉色エイさん+腹部拉鍊款待查(疑エイさんポケット可取下)。;來源:livedoor news「ぬいぐるみリュックも登場!じんべえさん…8月のプライズ情報」https://news.livedoor.com/article/detail/15106218/ ;2018年8月第1週起於全國遊樂場(クレーンゲーム)順次登場,全長約36cm,共2種(背包款+斜背小包款),嘴部為拉鍊可放物品。官方商品圖取自該報導(box_original.jpg)。價格不詳(prize品非販售);製造商報導未載,Mercari 有疑似「ジンベエザメリュック」中古上架(AMUSE 字樣,未驗證)。已排除:Derek 傳的藍底 JinbeSan 圖(非本品)、2017 超特大120cm、10周年特大、M/S もーちもち(エイさん為腹部口袋,無背上粉魟魚)。",
    "code": "N45"
   },
   {
