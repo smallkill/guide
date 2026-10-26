@@ -1176,30 +1176,46 @@
   },
   {
    "id": "sumikko_unknown-yellow-red-leaf_133212_p5",
-   "name_ja": "すみっコぐらし ぬいぐるみ ねこ(推測)",
-   "name_en": "",
-   "name_zh": "角落生物 ねこ 玩偶(紅葉片・粉紅腹帶,推測)",
+   "name_ja": "一番くじ すみっコぐらし ～こいぬといぬごっこテーマ～ E賞 えびふらいのしっぽ いぬぬいぐるみ",
+   "name_en": "Ichiban Kuji Sumikko Gurashi Koinu to Inugokko Theme - Prize E Ebifurai no Shippo Dog Plush",
+   "name_zh": "角落生物 一番賞 E賞 炸蝦尾 小狗扮裝玩偶(こいぬといぬごっこ)",
    "ip": "角落生物(すみっコぐらし)",
    "character": "ねこ(推測)",
-   "maker": "San-X(推測)",
-   "line": "ぬいぐるみ",
+   "maker": "BANDAI SPIRITS",
+   "line": "一番くじ すみっコぐらし ～こいぬといぬごっこテーマ～ E賞",
    "type": "plush",
-   "year": "",
+   "year": "2023",
    "category": [
     "角落生物",
     "絨毛娃娃"
    ],
-   "keywords": [],
+   "keywords": [
+    "すみっコぐらし",
+    "角落生物",
+    "一番賞",
+    "一番くじ",
+    "E賞",
+    "えびふらいのしっぽ",
+    "炸蝦尾",
+    "いぬぬいぐるみ",
+    "こいぬといぬごっこ",
+    "小狗與扮狗狗",
+    "BANDAI SPIRITS",
+    "San-X",
+    "2023",
+    "plush"
+   ],
    "source_images": [
     "raw/P_20261026_133212_5.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_133212_5.jpg",
+   "main_image": "box/sumikko_ebifurai-shippo_ichibankuji-E_inugokko_N33.jpg",
    "photos": [
+    "box/sumikko_ebifurai-shippo_ichibankuji-E_inugokko_N33.jpg",
     "raw/P_20261026_133212_5.jpg"
    ],
-   "confidence": "low",
-   "notes": "實拍(照片5):奶黃色毛絨、圓耳,粉紅色腹帶(印小圖案)並貼有兩片紅色毛氈葉片。體色與耳形接近「ねこ」,葉片可能為季節/造型配件;與同組另一件(紅項圈款)為不同件。未找到同款官方圖。",
+   "confidence": "high",
+   "notes": "實拍(照片5):奶黃色毛絨、圓耳,粉紅色腹帶(印小圖案)並貼有兩片紅色毛氈葉片。體色與耳形接近「ねこ」,葉片可能為季節/造型配件;與同組另一件(紅項圈款)為不同件。未找到同款官方圖。;Derek 提供品名;官網 1kuji.com:E賞全1種、約13cm、2023/6/24 起店頭陸續發售(1回680円);紅色毛氈尾巴+粉紅「いぬ/こいぬ」圖案巴恩達娜,與實拍相符;實拍為透明袋包裝背面角度。",
    "code": "N33"
   },
   {
