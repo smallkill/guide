@@ -1104,30 +1104,46 @@
   },
   {
    "id": "unknown_mint-white-top_133212",
-   "name_ja": "すみっコぐらし ぬいぐるみ とかげのおかあさん(推測)",
-   "name_en": "",
-   "name_zh": "角落生物 とかげのおかあさん 玩偶(推測)",
+   "name_ja": "すみっコぐらし ぬいぐるみ(S) こいぬといぬごっこ・やま",
+   "name_en": "Sumikko Gurashi Plush (S) Koinu to Inugokko Theme - Yama",
+   "name_zh": "角落生物 山(やま) 玩偶(S) 小狗與扮狗狗主題",
    "ip": "角落生物(すみっコぐらし)",
    "character": "とかげのおかあさん(推測)",
-   "maker": "San-X(推測)",
-   "line": "ぬいぐるみ",
+   "maker": "San-X",
+   "line": "ぬいぐるみ(S) こいぬといぬごっこ",
    "type": "plush",
-   "year": "",
+   "year": "2022",
    "category": [
     "角落生物",
     "絨毛娃娃"
    ],
-   "keywords": [],
+   "keywords": [
+    "すみっコぐらし",
+    "角落生物",
+    "やま",
+    "山",
+    "ぬいぐるみ",
+    "S",
+    "こいぬといぬごっこ",
+    "小狗與扮狗狗",
+    "San-X",
+    "MF43401",
+    "2022",
+    "富士山",
+    "Yama",
+    "plush"
+   ],
    "source_images": [
     "raw/P_20261026_133212_3.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_133212_3.jpg",
+   "main_image": "box/sumikko_yama_koinu-inugokko_s_N31.jpg",
    "photos": [
+    "box/sumikko_yama_koinu-inugokko_s_N31.jpg",
     "raw/P_20261026_133212_3.jpg"
    ],
-   "confidence": "low",
-   "notes": "實拍:薄荷綠身體、白色上半頭部、兩片白色鰭狀手,有吊牌,袋裝。依色系與海邊恐龍造型推測為「とかげのおかあさん」(官方介紹:恐龍的倖存者,住在海的角落);未找到同款官方商品圖。",
+   "confidence": "high",
+   "notes": "實拍:薄荷綠身體、白色上半頭部、兩片白色鰭狀手,有吊牌,袋裝。依色系與海邊恐龍造型推測為「とかげのおかあさん」(官方介紹:恐龍的倖存者,住在海的角落);未找到同款官方商品圖。;Derek 提供品名;San-X ぬいぐるみ(S) こいぬといぬごっこ やま,2022/2,¥990;主圖為零售商(tantan)商品照,官方店 SMG4329 憑證錯誤未能取圖",
    "code": "N31"
   },
   {
