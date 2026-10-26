@@ -2216,37 +2216,47 @@
   },
   {
    "id": "natsume_nyanko-sensei_ebi-fry_134131",
-   "name_ja": "ポケピース ワッカネズミ ぬいぐるみマスコット ホットドッグ",
-   "name_en": "Pokepeace Tandemaus plush mascot (hot dog)",
-   "name_zh": "寶可夢 一對鼠(ワッカネズミ) 絨毛吊飾(抱熱狗)",
+   "name_ja": "一番くじ ポケピース ～“PEACE”なダイナーへようこそ～ F賞 ぬいぐるみマスコット F-3(ワッカネズミ・ホットドッグ)",
+   "name_en": "Ichiban Kuji Pokepeace F Prize Plush Mascot F-3 (Tandemaus with hot dog)",
+   "name_zh": "寶可夢 一對鼠(ワッカネズミ) 抱熱狗 絨毛吊飾(一番賞 F-3)",
    "ip": "寶可夢(ポケットモンスター)",
    "character": "ワッカネズミ(一對鼠 Tandemaus)",
-   "maker": "タカラトミーアーツ(推測)",
-   "line": "ポケピース(推測)",
+   "maker": "BANDAI SPIRITS",
+   "line": "一番くじ ポケピース ～“PEACE”なダイナーへようこそ～ F賞 ぬいぐるみマスコット",
    "type": "plush",
-   "year": "",
+   "year": "2026",
    "category": [
     "寶可夢",
     "絨毛娃娃"
    ],
    "keywords": [
     "ポケモン",
+    "寶可夢",
     "ワッカネズミ",
     "一對鼠",
     "Tandemaus",
     "ポケピース",
-    "ホットドッグ"
+    "Pokepeace",
+    "ホットドッグ",
+    "熱狗",
+    "一番くじ",
+    "一番賞",
+    "BANDAI SPIRITS",
+    "F賞",
+    "ぬいぐるみマスコット",
+    "PEACEなダイナー"
    ],
    "source_images": [
     "P_20261026_134131_9.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_134131_9.jpg",
+   "main_image": "box/pokemon_tandemaus-hotdog_kuji-peace3-f3.jpg",
    "photos": [
+    "box/pokemon_tandemaus-hotdog_kuji-peace3-f3.jpg",
     "raw/P_20261026_134131_9.jpg"
    ],
-   "confidence": "medium",
-   "notes": "Derek 指認為寶可夢 一對鼠(ワッカネズミ),原判夏目友人帳貓咪老師為誤。兩隻白色一對鼠共抱熱狗造型;查到二手頁商品名「ポケピース ワッカネズミ ぬいぐるみマスコット ホットドッグ」(說明:抱熱狗的新品)吻合,但未找到官方商品頁與官方圖。最接近的官方品=ポケモンセンター「ポケピース／ぬいぐるみ／ワッカネズミ」(4904790779039,16×22.5×8.5cm)與「Mocchi-Mocchi-Style」(4904790799686)為單純站姿、無熱狗,外型不同,故不放官方圖。",
+   "confidence": "high",
+   "notes": "Derek 指認為寶可夢 一對鼠(ワッカネズミ),原判夏目友人帳貓咪老師為誤。兩隻白色一對鼠共抱熱狗造型;查到二手頁商品名「ポケピース ワッカネズミ ぬいぐるみマスコット ホットドッグ」(說明:抱熱狗的新品)吻合,但未找到官方商品頁與官方圖。最接近的官方品=ポケモンセンター「ポケピース／ぬいぐるみ／ワッカネズミ」(4904790779039,16×22.5×8.5cm)與「Mocchi-Mocchi-Style」(4904790799686)為單純站姿、無熱狗,外型不同,故不放官方圖。;Derek 提供出處:https://1kuji.com/products/pk_peace3 。官方頁 F賞 ぬいぐるみマスコット 全3種(可選),F-1/F-2 約10cm、F-3 縦9.5×横15cm;F-3 為兩隻ワッカネズミ共抱熱狗,與實拍相符。發售:2026/01/10(土)起店頭順次發售,1回700円(含稅)。",
    "code": "N67"
   },
   {
