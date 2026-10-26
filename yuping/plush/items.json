@@ -1391,12 +1391,12 @@
   {
    "id": "sumikko_ebifurai-no-shippo_s-2025",
    "name_ja": "すみっコぐらし ぬいぐるみ(S) えびふらいのしっぽ(もしもすみっコが進化したら?・進化B)",
-   "name_en": "Sumikko Gurashi Ebifurai no Shippo plush (S)",
-   "name_zh": "角落生物 炸蝦尾巴 絨毛娃娃(S)",
+   "name_en": "Sumikko Gurashi Plush (S) Ebifurai no Shippo (What if Sumikko Evolved? Evolution B)",
+   "name_zh": "角落生物 炸蝦尾巴 絨毛娃娃(S)(如果角落夥伴進化了?・進化B)",
    "ip": "角落生物(すみっコぐらし)",
    "character": "えびふらいのしっぽ",
    "maker": "San-X",
-   "line": "ぬいぐるみ(S)",
+   "line": "もしもすみっコが進化したら? ぬいぐるみ(S)",
    "type": "plush",
    "year": "2025",
    "category": [
@@ -1406,7 +1406,12 @@
    "keywords": [
     "すみっコぐらし",
     "sumikko gurashi",
-    "san-x"
+    "san-x",
+    "えびふらいのしっぽ",
+    "もしもすみっコが進化したら?",
+    "進化B",
+    "MV04101",
+    "4974413876322"
    ],
    "source_images": [
     "https://www.san-x.co.jp/ja/special/goods/2025/03/sg.html",
@@ -1419,7 +1424,7 @@
     "raw/P_20261026_133212_12.jpg"
    ],
    "confidence": "high",
-   "notes": "San-X 官方特設頁(2025年3月「もしもすみっコが進化したら?」)確認:ぬいぐるみ(S)えびふらいのしっぽ 進化B,¥1,540。官方圖為特設頁裁切。吊牌標語與實拍一致。",
+   "notes": "San-X 官方特設頁(2025年3月「もしもすみっコが進化したら?」)確認:ぬいぐるみ(S)えびふらいのしっぽ 進化B,¥1,540。官方圖為特設頁裁切。吊牌標語與實拍一致。;Derek 提供條碼 4974413876322;經 Yahoo!検索/Yahoo!ショッピング與 Kawaii Limited 確認為 ぬいぐるみ(S)えびふらいのしっぽ 進化B,型號 MV04101,尺寸約 120×60×90mm,越南製,2025 年 3 月系列。圖源:kawaii-limited.com 商品圖(已裁掉浮水印),僅作比對。",
    "code": "N40"
   },
   {
