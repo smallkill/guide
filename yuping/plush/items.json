@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-26",
- "build": 1793004486,
+ "build": 1793005934,
  "count": 86,
  "items": [
   {
@@ -441,15 +441,15 @@
   },
   {
    "id": "haikyuu_kuroo-cat_animal-big-plush_132718",
-   "name_ja": "ハイキュー!! アニマルBIGぬいぐるみ2(クロオネコ)",
-   "name_en": "Haikyu!! Animal BIG Plush 2 (Kuroo Neko (Kuroo cat))",
-   "name_zh": "排球少年 動物系大型絨毛娃娃2(黑尾貓)",
+   "name_ja": "ハイキュー!! クロオネコ ぬいぐるみ(全身・座り/系列待確認)",
+   "name_en": "Haikyu!! クロオネコ plush (full-body, series TBC)",
+   "name_zh": "排球少年 黑尾貓 全身坐姿絨毛娃娃(系列待確認)",
    "ip": "ハイキュー!!",
    "character": "黒尾鉄朗(クロオネコ)",
-   "maker": "SK Japan",
-   "line": "アニマルBIGぬいぐるみ",
+   "maker": "",
+   "line": "",
    "type": "plush",
-   "year": "2025",
+   "year": "",
    "category": [
     "動畫",
     "運動",
@@ -457,36 +457,32 @@
    ],
    "keywords": [
     "ハイキュー",
-    "アニマルBIGぬいぐるみ",
     "クロオネコ",
-    "SK JAPAN",
-    "キャラとる"
+    "ぬいぐるみ"
    ],
    "source_images": [
-    "https://www.sk-japan.co.jp/charatoru/chara/haikyu/amgoods-53516",
     "P_20261026_132718_1.jpg"
    ],
-   "box_image": "haikyuu_kuroo-cat_animal-big-plush_132718.jpg",
-   "main_image": "box/haikyuu_kuroo-cat_animal-big-plush_132718.jpg",
+   "box_image": "",
+   "main_image": "raw/P_20261026_132718_1.jpg",
    "photos": [
-    "box/haikyuu_kuroo-cat_animal-big-plush_132718.jpg",
     "raw/P_20261026_132718_1.jpg"
    ],
-   "confidence": "medium",
-   "notes": "SK Japan アニマルBIGぬいぐるみ2(2025年7月第3週),全2種(クロオネコ/ケンマネコ)。照片1在袋內被其他娃娃遮擋、反光,但灰貓+黑瀏海+粉耳可辨,與官方款相符。官方圖為雙款圖裁切。 [2026-10-26 Derek 確認為娃娃(非地毯/墊子);SK Japan 官方頁外型相符,無證據顯示為一番くじ。]",
+   "confidence": "low",
+   "notes": "角色由外型判斷(黑尾貓);實拍為有身體手腳的立體娃娃。吊牌有 ハイキュー!! 標誌與角色卡片(背號10的球員圖),廠商/系列未確認。〔2026-10-26 第六輪:Derek 確認為娃娃。先前掛的 SK Japan アニマルBIGぬいぐるみ官方圖是扁平臉形靠墊(無身體),與實拍(有身體的坐姿娃娃)不符,已撤下;查過 SK Japan、一番くじ ハイキュー!! 全彈(含 全国への道/烏野の未来/10th 等)、みんなのくじ アニマルピクニック(僅 ヒナガラス/カゲガラス ぬいぐるみ)、Taito でっかいぬいぐるみ(音駒 孤爪&黒尾,2015)皆未能對上,廠商/系列待確認。〕",
    "code": "N15"
   },
   {
    "id": "haikyuu_kenma-cat_animal-big-plush_132718",
-   "name_ja": "ハイキュー!! アニマルBIGぬいぐるみ2(ケンマネコ)",
-   "name_en": "Haikyu!! Animal BIG Plush 2 (Kenma Neko (Kenma cat))",
-   "name_zh": "排球少年 動物系大型絨毛娃娃2(研磨貓)",
+   "name_ja": "ハイキュー!! ケンマネコ ぬいぐるみ(全身・座り/系列待確認)",
+   "name_en": "Haikyu!! ケンマネコ plush (full-body, series TBC)",
+   "name_zh": "排球少年 研磨貓 全身坐姿絨毛娃娃(系列待確認)",
    "ip": "ハイキュー!!",
    "character": "孤爪研磨(ケンマネコ)",
-   "maker": "SK Japan",
-   "line": "アニマルBIGぬいぐるみ",
+   "maker": "",
+   "line": "",
    "type": "plush",
-   "year": "2025",
+   "year": "",
    "category": [
     "動畫",
     "運動",
@@ -494,23 +490,19 @@
    ],
    "keywords": [
     "ハイキュー",
-    "アニマルBIGぬいぐるみ",
     "ケンマネコ",
-    "SK JAPAN",
-    "キャラとる"
+    "ぬいぐるみ"
    ],
    "source_images": [
-    "https://www.sk-japan.co.jp/charatoru/chara/haikyu/amgoods-53516",
     "P_20261026_132718_2.jpg"
    ],
-   "box_image": "haikyuu_kenma-cat_animal-big-plush_132718.jpg",
-   "main_image": "box/haikyuu_kenma-cat_animal-big-plush_132718.jpg",
+   "box_image": "",
+   "main_image": "raw/P_20261026_132718_2.jpg",
    "photos": [
-    "box/haikyuu_kenma-cat_animal-big-plush_132718.jpg",
     "raw/P_20261026_132718_2.jpg"
    ],
-   "confidence": "medium",
-   "notes": "同Vol.2的另一款。照片2只拍到一角(棕黃瀏海+白臉+半邊黃眼圈)且被日向烏鴉的橘髮遮擋,但特徵與官方吻合。官方圖為雙款圖裁切。 [2026-10-26 Derek 確認為娃娃(非地毯/墊子);SK Japan 官方頁外型相符,無證據顯示為一番くじ。]",
+   "confidence": "low",
+   "notes": "角色由外型判斷(研磨貓);實拍為有身體手腳的立體娃娃。吊牌有 ハイキュー!! 標誌與角色卡片(背號10的球員圖),廠商/系列未確認。〔2026-10-26 第六輪:Derek 確認為娃娃。先前掛的 SK Japan アニマルBIGぬいぐるみ官方圖是扁平臉形靠墊(無身體),與實拍(有身體的坐姿娃娃)不符,已撤下;查過 SK Japan、一番くじ ハイキュー!! 全彈(含 全国への道/烏野の未来/10th 等)、みんなのくじ アニマルピクニック(僅 ヒナガラス/カゲガラス ぬいぐるみ)、Taito でっかいぬいぐるみ(音駒 孤爪&黒尾,2015)皆未能對上,廠商/系列待確認。〕",
    "code": "N16"
   },
   {
@@ -550,15 +542,15 @@
   },
   {
    "id": "haikyuu_bokuto-owl_animal-big-plush_132718",
-   "name_ja": "ハイキュー!! アニマルBIGぬいぐるみ3(フクロウ)",
-   "name_en": "Haikyu!! Animal BIG Plush 3 (Bokuto Fukuro (Bokuto owl))",
-   "name_zh": "排球少年 動物系大型絨毛娃娃3(木兎貓頭鷹)",
+   "name_ja": "ハイキュー!! ボクトフクロウ ぬいぐるみ(全身・座り/系列待確認)",
+   "name_en": "Haikyu!! ボクトフクロウ plush (full-body, series TBC)",
+   "name_zh": "排球少年 木兎貓頭鷹 全身坐姿絨毛娃娃(系列待確認)",
    "ip": "ハイキュー!!",
    "character": "木兎光太郎(ボクトフクロウ)",
-   "maker": "SK Japan",
-   "line": "アニマルBIGぬいぐるみ",
+   "maker": "",
+   "line": "",
    "type": "plush",
-   "year": "2026",
+   "year": "",
    "category": [
     "動畫",
     "運動",
@@ -566,23 +558,19 @@
    ],
    "keywords": [
     "ハイキュー",
-    "アニマルBIGぬいぐるみ",
-    "フクロウ",
-    "SK JAPAN",
-    "キャラとる"
+    "ボクトフクロウ",
+    "ぬいぐるみ"
    ],
    "source_images": [
-    "https://www.sk-japan.co.jp/charatoru/chara/haikyu/amgoods-60110",
     "P_20261026_132718_4.jpg"
    ],
-   "box_image": "haikyuu_bokuto-owl_animal-big-plush_132718.jpg",
-   "main_image": "box/haikyuu_bokuto-owl_animal-big-plush_132718.jpg",
+   "box_image": "",
+   "main_image": "raw/P_20261026_132718_4.jpg",
    "photos": [
-    "box/haikyuu_bokuto-owl_animal-big-plush_132718.jpg",
     "raw/P_20261026_132718_4.jpg"
    ],
-   "confidence": "medium",
-   "notes": "SK Japan アニマルBIGぬいぐるみ3(2026年4月第4週),灰米色貓頭鷹+橘眼=木兎;同系列另一款為赤葦(褐色鴞)。照片4為側拍,吊牌可見「ハイキュー!!」與角色卡。官方頁面本身未標註角色名,角色由外型比對得出。官方圖為雙款圖裁切木兎款。 [2026-10-26 Derek 確認為娃娃(非地毯/墊子);SK Japan 官方頁外型相符,無證據顯示為一番くじ。]",
+   "confidence": "low",
+   "notes": "角色由外型判斷(木兎貓頭鷹);實拍為有身體手腳的立體娃娃。吊牌有 ハイキュー!! 標誌與角色卡片(背號10的球員圖),廠商/系列未確認。〔2026-10-26 第六輪:Derek 確認為娃娃。先前掛的 SK Japan アニマルBIGぬいぐるみ官方圖是扁平臉形靠墊(無身體),與實拍(有身體的坐姿娃娃)不符,已撤下;查過 SK Japan、一番くじ ハイキュー!! 全彈(含 全国への道/烏野の未来/10th 等)、みんなのくじ アニマルピクニック(僅 ヒナガラス/カゲガラス ぬいぐるみ)、Taito でっかいぬいぐるみ(音駒 孤爪&黒尾,2015)皆未能對上,廠商/系列待確認。〕",
    "code": "N18"
   },
   {
@@ -748,15 +736,15 @@
   },
   {
    "id": "haikyuu_hinagarasu_animal-big-plush_132718",
-   "name_ja": "一番くじ ハイキュー!! ～全国への道～ C賞 ヒナガラスふわふわクッション",
-   "name_en": "Ichiban Kuji Haikyu!! -Road to Nationals- Prize C: Hinagarasu Fluffy Cushion",
-   "name_zh": "一番賞 排球少年 ～前進全國～ C賞 日向烏鴉毛絨抱枕娃娃",
+   "name_ja": "みんなのくじ アニメ「ハイキュー!!」アニマルピクニック A賞 BIGぬいぐるみ―ヒナガラス―",
+   "name_en": "Minna no Kuji Haikyu!! Animal Picnic Prize A: BIG Plush - Hinagarasu",
+   "name_zh": "みんなのくじ(FuRyu)排球少年 動物野餐 A賞 BIG絨毛娃娃 日向烏鴉",
    "ip": "ハイキュー!!",
    "character": "日向翔陽(ヒナガラス)",
-   "maker": "BANDAI SPIRITS",
-   "line": "一番くじ ハイキュー!! ～全国への道～(C賞)",
+   "maker": "FuRyu(フリュー)",
+   "line": "みんなのくじ ハイキュー!! アニマルピクニック(A賞)",
    "type": "plush",
-   "year": "2025",
+   "year": "2023",
    "category": [
     "動畫",
     "運動",
@@ -764,16 +752,16 @@
    ],
    "keywords": [
     "ハイキュー",
-    "一番くじ",
-    "全国への道",
-    "C賞",
+    "みんなのくじ",
+    "アニマルピクニック",
+    "A賞",
     "ヒナガラス",
-    "クッション",
-    "BANDAI SPIRITS"
+    "BIGぬいぐるみ",
+    "FuRyu"
    ],
    "source_images": [
-    "https://www.famitsu.com/article/202508/49845",
-    "https://www.inside-games.jp/imgs/zoom/1603433.jpg",
+    "https://collabo-cafe.com/events/collabo/haikyu-minna-no-kuji-furyu2023/",
+    "https://animeanime.jp/article/2023/05/20/77448.html",
     "P_20261026_132718_10.jpg"
    ],
    "box_image": "haikyuu_hinagarasu_animal-big-plush_132718.jpg",
@@ -783,7 +771,7 @@
     "raw/P_20261026_132718_10.jpg"
    ],
    "confidence": "medium",
-   "notes": "Derek 指認:抱枕娃娃、一番賞獎品。比對一番くじ ハイキュー!! ～全国への道～(BANDAI SPIRITS,2025/8/16 發售)C賞「ヒナガラスふわふわクッション」全1種約38cm:形狀(扁圓身體+橘髮+圓眼)吻合;但官方圖為淺藍毛圈布、照片為袋內深藍色,色差可能來自光線/反光。官方圖取自 inside-games 報導。",
+   "notes": "Derek 指認:抱枕娃娃、くじ賞品。重新比對:みんなのくじ(FuRyu,2023/5/20)アニマルピクニック A賞「BIGぬいぐるみ―ヒナガラス―」約30×30cm(深藍短毛+橘毛氈髮+白點眼,與實拍袋內深藍色/小白點眼吻合)。上一輪的 一番くじ 全国への道 C賞(淺藍毛圈布、大眼+嘴)色與眼型皆不符,已撤下。注意:這是 FuRyu みんなのくじ,不是 BANDAI 一番くじ。實拍為袋內平放,背帶水壺等配件未見,信心 medium。官方圖來源 collabo-cafe。",
    "code": "N24"
   },
   {
@@ -892,15 +880,15 @@
   },
   {
    "id": "haikyuu_kagegarasu_animal-big-plush_132718",
-   "name_ja": "一番くじ ハイキュー!! 烏クッション(カゲガラス?・彈/賞別待確認)",
-   "name_en": "Ichiban Kuji Haikyu!! crow cushion (Kagegarasu?, series/prize TBC)",
-   "name_zh": "一番賞 排球少年 烏鴉抱枕娃娃(疑似影山烏鴉,彈別/賞別待確認)",
+   "name_ja": "みんなのくじ アニメ「ハイキュー!!」アニマルピクニック B賞 BIGぬいぐるみ―カゲガラス―",
+   "name_en": "Minna no Kuji Haikyu!! Animal Picnic Prize B: BIG Plush - Kagegarasu",
+   "name_zh": "みんなのくじ(FuRyu)排球少年 動物野餐 B賞 BIG絨毛娃娃 影山烏鴉",
    "ip": "ハイキュー!!",
    "character": "影山飛雄(カゲガラス)",
-   "maker": "BANDAI SPIRITS",
-   "line": "一番くじ ハイキュー!!(彈名待確認)",
+   "maker": "FuRyu(フリュー)",
+   "line": "みんなのくじ ハイキュー!! アニマルピクニック(B賞)",
    "type": "plush",
-   "year": "2025",
+   "year": "2023",
    "category": [
     "動畫",
     "運動",
@@ -908,21 +896,26 @@
    ],
    "keywords": [
     "ハイキュー",
-    "アニマルBIGぬいぐるみ",
+    "みんなのくじ",
+    "アニマルピクニック",
+    "B賞",
     "カゲガラス",
-    "SK JAPAN",
-    "キャラとる"
+    "BIGぬいぐるみ",
+    "FuRyu"
    ],
    "source_images": [
+    "https://collabo-cafe.com/events/collabo/haikyu-minna-no-kuji-furyu2023/",
+    "https://animeanime.jp/article/2023/05/20/77448.html",
     "P_20261026_132718_14.jpg"
    ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_132718_14.jpg",
+   "box_image": "haikyuu_kagegarasu_animal-big-plush_132718.jpg",
+   "main_image": "box/haikyuu_kagegarasu_animal-big-plush_132718.jpg",
    "photos": [
+    "box/haikyuu_kagegarasu_animal-big-plush_132718.jpg",
     "raw/P_20261026_132718_14.jpg"
    ],
    "confidence": "low",
-   "notes": "Derek 指認:抱枕娃娃、一番賞獎品。照片僅見藍色身體+淺藍眼+「ハイキュー!!」吊牌。查過 ～全国への道～(2025,僅C賞ヒナガラス)、～烏野の未来～(2026)、～10th anniversary～(2024)、～頂の景色～(2023)、～最強の挑戦者～(2026) 賞品表,均未找到カゲガラス抱枕;彈名/賞別未確認,不套官方圖。若為 C賞 ヒナガラス 另一角度也有可能。",
+   "notes": "Derek 指認:抱枕娃娃、くじ賞品。同一彈(みんなのくじ・FuRyu 2023)B賞「BIGぬいぐるみ―カゲガラス―」約28×30cm(藍色身體+黑髮+三明治);實拍僅見一角藍色身體+淺藍眼白,與 A賞ヒナガラス 同系列同吊牌,推定為此款,但可見面積太小,信心 low。",
    "code": "N28"
   },
   {
@@ -2410,7 +2403,7 @@
     "raw/P_20261026_134634_7.jpg"
    ],
    "confidence": "low",
-   "notes": "綠色圓形吊牌上的兩隻紫色絨毛百變怪,判斷為髮夾。已查 Derek 代購清單:#1 髮夾組為皮卡丘/雷丘等「All Together, Zap Zap!」草地款,不含此款;韓國通路另有「메타몽 헤어핀」二入商品,但未能確認與實拍相同,故不放官方圖。",
+   "notes": "綠色圓形吊牌上的兩隻紫色絨毛百變怪,判斷為髮夾。已查 Derek 代購清單:#1 髮夾組為皮卡丘/雷丘等「All Together, Zap Zap!」草地款,不含此款;韓國通路另有「메타몽 헤어핀」二入商品,但未能確認與實拍相同,故不放官方圖。 〔2026-10-26 第六輪:候選官方款 寶可夢中心「Pokémon accessory ふわふわヘアピン49 MM」(2021/9,2個入,淺紫絨毛メタモン;https://www.pokemoncenter-online.com/4521329340135.html)材質/色/2入吻合,但輪廓較圓、實拍較尖角,未確定,故不放官方圖,比較圖見 Derek 驗收。韓國站(11st/kream)未查到同款。〕",
    "code": "N76"
   },
   {
@@ -2446,43 +2439,52 @@
   },
   {
    "id": "pokemon_wooper-group_134634_9",
-   "name_ja": "",
-   "name_en": "",
-   "name_zh": "寶可夢 ウパー 等毛絨(照片含多隻,推測)",
+   "name_ja": "ぬいぐるみ Little Daydream ウパーとヌオーぬいぐるみ",
+   "name_en": "Little Daydream Wooper & Quagsire Plush",
+   "name_zh": "Little Daydream 烏波抱著沼王 毛絨娃娃",
    "ip": "ポケットモンスター",
-   "character": "ウパー(大隻淺藍,推測)",
-   "maker": "",
-   "line": "",
+   "character": "ウパー(ヌオーのぬいぐるみを抱く)",
+   "maker": "株式会社ポケモン(ポケモンセンター)",
+   "line": "Little Daydream",
    "type": "plush",
-   "year": "",
+   "year": "2026",
    "category": [
     "寶可夢",
     "絨毛娃娃"
    ],
-   "keywords": [],
+   "keywords": [
+    "wooper",
+    "ウパー",
+    "quagsire",
+    "ヌオー",
+    "Little Daydream"
+   ],
    "source_images": [
+    "https://www.pokemoncenter-online.com/4521329412757.html",
+    "Little Daydream: https://www.pokemon.co.jp/goods/2025/12/251226_to01.html",
     "raw/P_20261026_134634_9.jpg"
    ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_134634_9.jpg",
+   "box_image": "pokemon_wooper-group_134634_9.jpg",
+   "main_image": "box/pokemon_wooper-group_134634_9.jpg",
    "photos": [
+    "box/pokemon_wooper-group_134634_9.jpg",
     "raw/P_20261026_134634_9.jpg"
    ],
-   "confidence": "low",
-   "notes": "2026-10-26 補回。畫面為大隻淺藍色粉紅外鰓(疑似ウパー),旁有小型淺藍與白色毛絨(未確認種類);吊牌可見藍色波浪裝飾,品名未查證。",
+   "confidence": "high",
+   "notes": "Derek 指認:ウパー抱著ヌオー。寶可夢中心「Little Daydream」系列(2026/1/8 線上先售、1/10 店頭)ぬいぐるみ全5種之一,¥3,300,約23×20×16.5cm。淺藍綠身+粉紅外鰓+抱淺藍ヌオー,與實拍一致。",
    "code": "N78"
   },
   {
    "id": "pokemon_togepi_134634",
-   "name_ja": "トゲピー ぬいぐるみ(推測)",
-   "name_en": "Togepi plush (guess)",
-   "name_zh": "波克比 毛絨娃娃(推測)",
+   "name_ja": "ぬいぐるみ Little Daydream トゲピーとトゲキッスぬいぐるみ",
+   "name_en": "Little Daydream Togepi & Togekiss Plush",
+   "name_zh": "Little Daydream 波克比抱著波克基斯 毛絨娃娃",
    "ip": "ポケットモンスター",
-   "character": "トゲピー(波克比)",
-   "maker": "",
-   "line": "",
+   "character": "トゲピー(トゲキッスのぬいぐるみを抱く)",
+   "maker": "株式会社ポケモン(ポケモンセンター)",
+   "line": "Little Daydream",
    "type": "plush",
-   "year": "",
+   "year": "2026",
    "category": [
     "寶可夢",
     "絨毛娃娃"
@@ -2490,47 +2492,60 @@
    "keywords": [
     "togepi",
     "トゲピー",
-    "波克比",
-    "寶可夢"
+    "togekiss",
+    "トゲキッス",
+    "Little Daydream"
    ],
    "source_images": [
+    "https://www.pokemoncenter-online.com/4521329412771.html",
+    "Little Daydream: https://www.pokemon.co.jp/goods/2025/12/251226_to01.html",
     "raw/P_20261026_134634_10.jpg"
    ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_134634_10.jpg",
+   "box_image": "pokemon_togepi_134634.jpg",
+   "main_image": "box/pokemon_togepi_134634.jpg",
    "photos": [
+    "box/pokemon_togepi_134634.jpg",
     "raw/P_20261026_134634_10.jpg"
    ],
-   "confidence": "medium",
-   "notes": "照片10 可見藍色三角紋與黃色頭部,辨識為波克比;為群照(9~11)中的一隻,僅此張清楚,其餘角度無。品名未查證。",
+   "confidence": "high",
+   "notes": "Derek 指認:トゲピー抱著トゲキッス。寶可夢中心「Little Daydream」系列(2026/1)ぬいぐるみ,¥3,300,約18×15×16cm。蛋殼+藍色三角紋+抱白色トゲキッス,與實拍一致。",
    "code": "N79"
   },
   {
    "id": "pokemon_pile-pink-unknown_134634_11",
-   "name_ja": "",
-   "name_en": "",
-   "name_zh": "寶可夢毛絨堆(粉橘色大隻・照片局部,待辨識)",
+   "name_ja": "ぬいぐるみ Little Daydream ヒトカゲとリザードンぬいぐるみ",
+   "name_en": "Little Daydream Charmander & Charizard Plush",
+   "name_zh": "Little Daydream 小火龍抱著噴火龍 毛絨娃娃",
    "ip": "ポケットモンスター",
-   "character": "不明(局部)",
-   "maker": "",
-   "line": "",
+   "character": "ヒトカゲ(リザードンのぬいぐるみを抱く)",
+   "maker": "株式会社ポケモン(ポケモンセンター)",
+   "line": "Little Daydream",
    "type": "plush",
-   "year": "",
+   "year": "2026",
    "category": [
     "寶可夢",
     "絨毛娃娃"
    ],
-   "keywords": [],
+   "keywords": [
+    "charmander",
+    "ヒトカゲ",
+    "charizard",
+    "リザードン",
+    "Little Daydream"
+   ],
    "source_images": [
+    "https://www.pokemoncenter-online.com/4521329412740.html",
+    "Little Daydream: https://www.pokemon.co.jp/goods/2025/12/251226_to01.html",
     "raw/P_20261026_134634_11.jpg"
    ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_134634_11.jpg",
+   "box_image": "pokemon_pile-pink-unknown_134634_11.jpg",
+   "main_image": "box/pokemon_pile-pink-unknown_134634_11.jpg",
    "photos": [
+    "box/pokemon_pile-pink-unknown_134634_11.jpg",
     "raw/P_20261026_134634_11.jpg"
    ],
-   "confidence": "low",
-   "notes": "2026-10-26 補回。照片僅拍到局部:粉橘色大型毛絨,上方有小型棕色娃娃,下方藍色吊牌;無法判定。",
+   "confidence": "medium",
+   "notes": "Derek 指認:ヒトカゲ抱著リザードン。寶可夢中心「Little Daydream」系列(2026/1)ぬいぐるみ,¥3,300,約16×19×20cm。實拍僅見局部(粉橘身體+小隻棕橘娃娃),與官方款色調/配置吻合,信心 medium。",
    "code": "N80"
   },
   {
