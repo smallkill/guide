@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-26",
- "build": 1793005934,
+ "build": 1793007116,
  "count": 86,
  "items": [
   {
@@ -2375,15 +2375,15 @@
   },
   {
    "id": "pokemon_ditto_pair-charm_134634",
-   "name_ja": "メタモン ヘアピン 2個セット(韓国)",
-   "name_en": "Ditto pair charm (guess)",
-   "name_zh": "寶可夢 百變怪 髮夾(2入・韓國購入)",
+   "name_ja": "Pokémon accessory ふわふわヘアピン49 MM(メタモン・2個入)",
+   "name_en": "Pokémon accessory Fluffy Hairpin 49 MM (Ditto, set of 2)",
+   "name_zh": "寶可夢 百變怪 毛絨髮夾(2入)",
    "ip": "ポケットモンスター",
    "character": "メタモン",
-   "maker": "ポケモンストア韓国(推測)",
-   "line": "ヘアピン(韓国・推測)",
+   "maker": "ポケモンセンター(株式会社ポケモン)",
+   "line": "Pokémon accessory ふわふわヘアピン",
    "type": "other",
-   "year": "",
+   "year": "2021",
    "category": [
     "寶可夢",
     "吊飾"
@@ -2392,18 +2392,22 @@
     "ditto",
     "メタモン",
     "百變怪",
-    "吊飾"
+    "ヘアピン",
+    "髮夾",
+    "Pokémon accessory"
    ],
    "source_images": [
+    "https://www.pokemoncenter-online.com/4521329340135.html",
     "raw/P_20261026_134634_7.jpg"
    ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_134634_7.jpg",
+   "box_image": "pokemon_ditto_fluffy-hairpin49_134634.jpg",
+   "main_image": "box/pokemon_ditto_fluffy-hairpin49_134634.jpg",
    "photos": [
+    "box/pokemon_ditto_fluffy-hairpin49_134634.jpg",
     "raw/P_20261026_134634_7.jpg"
    ],
-   "confidence": "low",
-   "notes": "綠色圓形吊牌上的兩隻紫色絨毛百變怪,判斷為髮夾。已查 Derek 代購清單:#1 髮夾組為皮卡丘/雷丘等「All Together, Zap Zap!」草地款,不含此款;韓國通路另有「메타몽 헤어핀」二入商品,但未能確認與實拍相同,故不放官方圖。 〔2026-10-26 第六輪:候選官方款 寶可夢中心「Pokémon accessory ふわふわヘアピン49 MM」(2021/9,2個入,淺紫絨毛メタモン;https://www.pokemoncenter-online.com/4521329340135.html)材質/色/2入吻合,但輪廓較圓、實拍較尖角,未確定,故不放官方圖,比較圖見 Derek 驗收。韓國站(11st/kream)未查到同款。〕",
+   "confidence": "medium",
+   "notes": "Derek 更正:日本買的(非韓國)。寶可夢中心「Pokémon accessory ふわふわヘアピン49 MM」(2021/9/30 發售,2個入,¥1,320,淺紫絨毛メタモン,每個約5×6×2cm,聚酯纖維+鐵)。顏色、材質、數量與實拍吻合(綠色圓形吊牌上兩隻紫色絨毛百變怪);輪廓細節略有差異,信心 medium。",
    "code": "N76"
   },
   {
@@ -2512,40 +2516,42 @@
    "code": "N79"
   },
   {
-   "id": "pokemon_pile-pink-unknown_134634_11",
-   "name_ja": "ぬいぐるみ Little Daydream ヒトカゲとリザードンぬいぐるみ",
-   "name_en": "Little Daydream Charmander & Charizard Plush",
-   "name_zh": "Little Daydream 小火龍抱著噴火龍 毛絨娃娃",
+   "id": "pokemon_charmander-charizard-mascot_134634_11",
+   "name_ja": "マスコット Little Daydream ヒトカゲとリザードンぬいぐるみ(カラビナ付きマスコット)",
+   "name_en": "Little Daydream Charmander & Charizard Mascot (carabiner charm)",
+   "name_zh": "Little Daydream 小火龍抱著噴火龍 掛飾/吊飾(附扣環)",
    "ip": "ポケットモンスター",
    "character": "ヒトカゲ(リザードンのぬいぐるみを抱く)",
    "maker": "株式会社ポケモン(ポケモンセンター)",
    "line": "Little Daydream",
-   "type": "plush",
+   "type": "other",
    "year": "2026",
    "category": [
     "寶可夢",
-    "絨毛娃娃"
+    "吊飾"
    ],
    "keywords": [
     "charmander",
     "ヒトカゲ",
     "charizard",
     "リザードン",
-    "Little Daydream"
+    "Little Daydream",
+    "マスコット",
+    "吊飾"
    ],
    "source_images": [
-    "https://www.pokemoncenter-online.com/4521329412740.html",
+    "https://www.pokemoncenter-online.com/4521329412795.html",
     "Little Daydream: https://www.pokemon.co.jp/goods/2025/12/251226_to01.html",
     "raw/P_20261026_134634_11.jpg"
    ],
-   "box_image": "pokemon_pile-pink-unknown_134634_11.jpg",
-   "main_image": "box/pokemon_pile-pink-unknown_134634_11.jpg",
+   "box_image": "pokemon_charmander-charizard-mascot_134634_11.jpg",
+   "main_image": "box/pokemon_charmander-charizard-mascot_134634_11.jpg",
    "photos": [
-    "box/pokemon_pile-pink-unknown_134634_11.jpg",
+    "box/pokemon_charmander-charizard-mascot_134634_11.jpg",
     "raw/P_20261026_134634_11.jpg"
    ],
    "confidence": "medium",
-   "notes": "Derek 指認:ヒトカゲ抱著リザードン。寶可夢中心「Little Daydream」系列(2026/1)ぬいぐるみ,¥3,300,約16×19×20cm。實拍僅見局部(粉橘身體+小隻棕橘娃娃),與官方款色調/配置吻合,信心 medium。",
+   "notes": "Derek 更正:這件是吊飾(掛飾),不是娃娃。寶可夢中心「Little Daydream」系列(2026/1/8)有同款「マスコット」:ヒトカゲ抱著リザードン,附藍色精靈球扣環(カラビナ),約9×10×18cm,¥1,760,官方頁 4521329412795。外型一致(粉橘毛絨身體、胸前藍色條紋、懷中小隻棕橘リザードン)。實拍僅見局部且在包裝袋內,信心 medium。〔先前誤配的 ぬいぐるみ版(¥3,300,4521329412740)官方圖已撤下。〕",
    "code": "N80"
   },
   {
