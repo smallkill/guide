@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-26",
- "build": 1793007116,
+ "build": 1793013169,
  "count": 86,
  "items": [
   {
@@ -2311,37 +2311,41 @@
    "code": "N73"
   },
   {
-   "id": "pokemon_rowlet_small-plush-tag_134634_p5",
-   "name_ja": "ポケピース ぬいぐるみ モクロー",
-   "name_en": "Pokémon Peaceful Place Plush Rowlet",
-   "name_zh": "ポケピース 木木梟 毛絨娃娃",
+   "id": "pokemon_rowlet_ballchain-mascot_134634_p5",
+   "name_ja": "ポケピース ボールチェーンマスコット モクロー",
+   "name_en": "Pokémon Peaceful Place Ball Chain Mascot Rowlet",
+   "name_zh": "ポケピース 木木梟 球鏈吊飾玩偶",
    "ip": "ポケットモンスター",
    "character": "モクロー(木木梟)",
    "maker": "タカラトミーアーツ",
    "line": "ポケピース",
-   "type": "plush",
-   "year": "",
+   "type": "other",
+   "year": "2022",
    "category": [
     "寶可夢",
+    "吊飾",
     "絨毛娃娃"
    ],
    "keywords": [
     "rowlet",
     "モクロー",
-    "ぬいぐるみ"
+    "ボールチェーンマスコット",
+    "ポケピース",
+    "吊飾",
+    "マスコット"
    ],
    "source_images": [
-    "https://www.pokemoncenter-online.com/4904790727658.html",
+    "https://www.pokemoncenter-online.com/4904790727726.html",
     "raw/P_20261026_134634_5.jpg"
    ],
-   "box_image": "pokemon_rowlet_small-plush-tag_134634_p5.jpg",
-   "main_image": "box/pokemon_rowlet_small-plush-tag_134634_p5.jpg",
+   "box_image": "pokemon_rowlet_ballchain-mascot_134634_p5.jpg",
+   "main_image": "box/pokemon_rowlet_ballchain-mascot_134634_p5.jpg",
    "photos": [
-    "box/pokemon_rowlet_small-plush-tag_134634_p5.jpg",
+    "box/pokemon_rowlet_ballchain-mascot_134634_p5.jpg",
     "raw/P_20261026_134634_5.jpg"
    ],
    "confidence": "high",
-   "notes": "寶可夢中心線上商店官方頁確認:ポケピース／ぬいぐるみ／モクロー(JAN 4904790727658),毛茸米色+綠領結+「ポケピース」吊牌與實拍一致(實拍吊牌條碼為同系列 4904790727726)。",
+   "notes": "Derek 提供商品頁:https://www.pokemoncenter-online.com/4904790727726.html 。寶可夢中心線上商店「ポケピース／ボールチェーンマスコット／モクロー」,JAN 4904790727726(與實拍吊牌條碼一致),2022/10/22 發售、¥1,870(含稅)、9×9×7.5cm 20g、附球鏈;毛茸米色+綠領結與實拍吻合。原判「ぬいぐるみ(JAN 4904790727658)」為誤配,已更正。",
    "code": "N74"
   },
   {
