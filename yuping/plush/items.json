@@ -2411,34 +2411,36 @@
    "code": "N76"
   },
   {
-   "id": "pokemon_unknown-cream-brown-ears_134634",
-   "name_ja": "不明",
-   "name_en": "Unidentified Pokemon plush (cream body, brown ears)",
-   "name_zh": "謎擬Q 毛絨娃娃(推測)",
+   "id": "pokemon_mimikyu_pokepeace-plush_134634",
+   "name_ja": "ポケピース ぬいぐるみ ミミッキュ",
+   "name_en": "Poképeace Plush: Mimikyu",
+   "name_zh": "寶可夢中心 Poképeace 毛絨娃娃 謎擬Q",
    "ip": "ポケットモンスター",
-   "character": "ミミッキュ(推測)",
-   "maker": "",
-   "line": "",
+   "character": "ミミッキュ",
+   "maker": "ポケモンセンター(ポケモンセンターオリジナル)",
+   "line": "ポケピース(Poképeace)ぬいぐるみ ミミッキュ(24cm、¥3,080、4904790785863)",
    "type": "plush",
-   "year": "",
+   "year": "2024",
    "category": [
     "寶可夢",
     "絨毛娃娃"
    ],
    "keywords": [
     "寶可夢",
-    "不明"
+    "ミミッキュ",
+    "ポケピース",
+    "寶可夢中心"
    ],
    "source_images": [
     "raw/P_20261026_134634_8.jpg"
    ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_134634_8.jpg",
+   "box_image": "pokemon_mimikyu_pokepeace-plush_4904790785863.jpg",
+   "main_image": "box/pokemon_mimikyu_pokepeace-plush_4904790785863.jpg",
    "photos": [
     "raw/P_20261026_134634_8.jpg"
    ],
-   "confidence": "medium",
-   "notes": "角色無法確定(奶白身體、棕色耳與花紋、袋上有ポケ字樣);未查證種類,名稱與品名留空待人工判定。",
+   "confidence": "high",
+   "notes": "吊牌「ポケピース」與外型、奶白捲毛+棕耳棕腳+刺繡臉皆吻合。寶可夢中心線上 2024/10/19 發售,非一番賞(查無一番くじ同款)。官方頁 pokemoncenter-online.com/4904790785863.html",
    "code": "N77"
   },
   {
