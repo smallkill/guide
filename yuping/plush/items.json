@@ -1726,7 +1726,7 @@
    "id": "unknown_pink-purple-horn_pouch_133707",
    "name_ja": "メイプルストーリー ピンクビーン ぬいぐるみポーチ",
    "name_en": "MapleStory Pink Bean Plush Coin Purse (5 inch)",
-   "name_zh": "新楓之谷 粉豆 5吋 絨毛零錢包(MapleMonster 系列,台灣授權品)",
+   "name_zh": "新楓之谷 粉豆 造型包(絨毛零錢包)",
    "ip": "楓之谷(メイプルストーリー)",
    "character": "ピンクビーン(粉豆)",
    "maker": "NEXON / 台灣遊戲橘子 Gamania 授權周邊(實際廠商待確認)",
@@ -1751,12 +1751,13 @@
     "raw/P_20261026_133707_3.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_133707_3.jpg",
+   "main_image": "box/maplestory_pinkbean_pouch_133707_3.jpg",
    "photos": [
+    "box/maplestory_pinkbean_pouch_133707_3.jpg",
     "raw/P_20261026_133707_3.jpg"
    ],
-   "confidence": "medium",
-   "notes": "粉紅圓臉、紫色螺紋角、白色肚皮、拉鍊小袋,符合楓之谷 BOSS「粉豆(Pink Bean/ピンクビーン)」造型。台灣市面有「楓之谷 菇菇寶貝 粉豆 零錢包」授權品,但未找到與實拍完全同款的官方商品頁,故不放官方圖。;原照確認:粉紅圓臉、紫色螺紋雙角、一眼有疤、白肚皮,為粉豆造型零錢包。Derek 提供蝦皮標題『【Maplestory】正版授權 新楓之谷 5吋 粉豆 雪吉拉 零錢包…』(https://shopee.tw/-i.34715705.53304745146)僅作關鍵字線索,未用其圖。查過(皆無同款官方商品頁/官方圖):WebSearch 中/日/韓關鍵字、Gamania/橘子商城、Nexon 韓日周邊、MapleMonster 官方報導;蝦皮頁無法讀取。僅見飛比/iOPEN 等第三方賣場列『台灣現貨正版授權 新楓之谷(5吋)』粉豆零錢包,屬零售商非官網,不採圖。",
+   "confidence": "high",
+   "notes": "粉紅圓臉、紫色螺紋角、白色肚皮、拉鍊小袋,符合楓之谷 BOSS「粉豆(Pink Bean/ピンクビーン)」造型。台灣市面有「楓之谷 菇菇寶貝 粉豆 零錢包」授權品,但未找到與實拍完全同款的官方商品頁,故不放官方圖。;原照確認:粉紅圓臉、紫色螺紋雙角、一眼有疤、白肚皮,為粉豆造型零錢包。Derek 提供蝦皮標題『【Maplestory】正版授權 新楓之谷 5吋 粉豆 雪吉拉 零錢包…』(https://shopee.tw/-i.34715705.53304745146)僅作關鍵字線索,未用其圖。查過(皆無同款官方商品頁/官方圖):WebSearch 中/日/韓關鍵字、Gamania/橘子商城、Nexon 韓日周邊、MapleMonster 官方報導;蝦皮頁無法讀取。僅見飛比/iOPEN 等第三方賣場列『台灣現貨正版授權 新楓之谷(5吋)』粉豆零錢包,屬零售商非官網,不採圖。;Derek 指認品名「楓之谷造型包」並提供官方商品圖(粉豆款);刺繡五官、眼睛疤痕、紫角、白肚與原照一致",
    "code": "N47"
   },
   {
