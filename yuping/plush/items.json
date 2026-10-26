@@ -1997,21 +1997,27 @@
   {
    "id": "unknown_chick-cp0017_plush_133707",
    "name_ja": "",
-   "name_en": "",
-   "name_zh": "輕鬆小雞(キイロイトリ) 玩偶(CP0017 吊牌)",
-   "ip": "拉拉熊(リラックマ)",
+   "name_en": "Bugcat Capoo Instant Chick Plush (Ready-to-eat Chick)",
+   "name_zh": "貓貓蟲咖波 即食小雞 絨毛娃娃(約7cm)",
+   "ip": "咖波(Bugcat Capoo)",
    "character": "キイロイトリ",
-   "maker": "San-X(推測)",
-   "line": "",
+   "maker": "卡特島 Carter Island(咖波官方商店)",
+   "line": "即食小雞",
    "type": "plush",
    "year": "",
    "category": [
     "絨毛娃娃"
    ],
    "keywords": [
+    "咖波",
+    "貓貓蟲",
+    "Bugcat Capoo",
     "小雞",
-    "黃色",
-    "CP0017"
+    "即食小雞",
+    "CP0017",
+    "卡特島",
+    "絨毛娃娃",
+    "布偶"
    ],
    "source_images": [
     "P_20261026_133707_11.jpg"
@@ -2021,8 +2027,8 @@
    "photos": [
     "raw/P_20261026_133707_11.jpg"
    ],
-   "confidence": "medium",
-   "notes": "黃色小雞、橘色嘴、白色底部邊緣,附條碼吊牌,吊牌上有型號 CP0017。角色為小雞類,系列與廠商未查證到。與 #4 草莓小雞為不同款式。",
+   "confidence": "high",
+   "notes": "黃色小雞、橘色嘴、白色底部邊緣,附條碼吊牌,吊牌上有型號 CP0017。角色為小雞類,系列與廠商未查證到。與 #4 草莓小雞為不同款式。;Derek 指認咖波小雞布偶;吊牌 CP0017 與卡特島商品頁 https://www.carterislandtw.com/products/cp0017 型號一致;官方圖未取得(頁面忙碌)",
    "code": "N55"
   },
   {
