@@ -822,33 +822,41 @@
   },
   {
    "id": "unknown_shiba-tulip-hood_plush_132718",
-   "name_ja": "(未確認)チューリップ帽の犬ぬいぐるみ",
-   "name_en": "Unidentified plush: white dog with yellow tulip hood",
-   "name_zh": "(未確認)黃色鬱金香帽小狗絨毛娃娃",
-   "ip": "不明(待辨識)",
+   "name_ja": "新劇場版 銀魂 -吉原大炎上- 旅するマメしばエリザベス",
+   "name_en": "Gintama the Movie: Yoshiwara in Flames - Traveling Mameshiba Elizabeth (plush mascot)",
+   "name_zh": "新劇場版 銀魂 -吉原大炎上- 旅行的豆柴伊莉莎白 絨毛吊飾(約W70×H85mm)",
+   "ip": "銀魂",
    "character": "犬(白、チューリップ帽)",
-   "maker": "",
-   "line": "",
-   "type": "plush",
+   "maker": "未確認(東京電視台商店販售頁未載製造商;「旅するマメしば」系列)",
+   "line": "旅するマメしば",
+   "type": "other",
    "year": "",
    "category": [
     "絨毛娃娃"
    ],
    "keywords": [
-    "柴犬",
-    "チューリップ",
-    "カワイイ"
+    "銀魂",
+    "吉原大炎上",
+    "旅するマメしば",
+    "マメしば",
+    "豆柴",
+    "エリザベス",
+    "伊莉莎白",
+    "カワイイだろ",
+    "吊飾",
+    "テレ東"
    ],
    "source_images": [
     "P_20261026_132718_8.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_132718_8.jpg",
+   "main_image": "box/gintama_elizabeth_mameshiba-tabisuru_132718_8.jpg",
    "photos": [
+    "box/gintama_elizabeth_mameshiba-tabisuru_132718_8.jpg",
     "raw/P_20261026_132718_8.jpg"
    ],
-   "confidence": "low",
-   "notes": "照片8:白臉小狗,頭戴黃色花帽,手腳為黃色鬱金香造型,下方米色身體;吊牌為日文片假名,只讀得到「カワイ…」片段,商品與IP無法辨識(查過日文搜尋沒有符合結果),建議使用者補拍吊牌。照片只有一張,畫面右下角露出的麻布是照片9的束口袋。",
+   "confidence": "high",
+   "notes": "照片8:白臉小狗,頭戴黃色花帽,手腳為黃色鬱金香造型,下方米色身體;吊牌為日文片假名,只讀得到「カワイ…」片段,商品與IP無法辨識(查過日文搜尋沒有符合結果),建議使用者補拍吊牌。照片只有一張,畫面右下角露出的麻布是照片9的束口袋。;原筆記「黃色鬱金香帽小狗」為誤認:黃色『花帽』其實是伊莉莎白的黃色鴨嘴,黃色『鬱金香手腳』是伊莉莎白的黃色腳掌。官方頁:1,540円(税込)、約W70×H85mm、含球鏈吊飾;頁面未載發售日與製造商;頁面註明圖為イメージ。來源 https://shop.tv-tokyo.co.jp/shop/g/gDBS014702/;球鏈吊飾(type 比照 N74/N80 歸 other);發售年未確認",
    "code": "N22"
   },
   {
