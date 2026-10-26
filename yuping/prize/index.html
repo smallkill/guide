@@ -88,12 +88,25 @@
     color:#fff;width:32px;height:32px;border-radius:50%;font-size:18px;cursor:pointer}
   .note{margin-top:10px;font-size:12px;color:var(--warn);line-height:1.5}
   a{color:var(--accent2)}
+  .hrow{display:flex;align-items:center;justify-content:space-between;gap:8px}
+  .tgl{display:none;background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+    border-radius:8px;padding:6px 12px;font-size:13px;cursor:pointer;white-space:nowrap}
+  .tgl.act{border-color:var(--accent);color:var(--accent)}
+  @media (max-width:700px){
+    header{padding:10px 12px}
+    .tgl{display:inline-block}
+    header.collapsed .panel{display:none}
+  }
 </style>
 </head>
 <body>
 <header><div class="wrap">
-  <div><a class="back" href="../../">← 回 Guide 首頁</a><a class="back" href="../">Yuping 的收藏</a><a class="back" href="../plush/">娃娃收藏(待確認)</a></div>
+  <div class="hrow">
   <h1>Yuping <span class="r">景品</span> 收藏<span class="y">圖鑑</span></h1>
+  <button class="tgl" id="tgl" type="button">篩選 / 搜尋 ▾</button>
+  </div>
+  <div class="panel">
+  <div><a class="back" href="../../">← 回 Guide 首頁</a><a class="back" href="../">Yuping 的收藏</a><a class="back" href="../plush/">娃娃收藏(待確認)</a></div>
   <div class="sub" id="sub">載入中…</div>
   <div class="search">
     <input id="q" placeholder="搜尋:角色 / 作品 / 廠商 / 系列(如 初音、ぼっち、SEGA、一番くじ)" autocomplete="off">
@@ -104,6 +117,7 @@
     <span class="mchip" data-m="type">依類型</span>
   </div>
   <div class="chips" id="chips"></div>
+  </div>
 </div></header>
 <div class="count" id="count"></div>
 <div id="grid"></div>
@@ -199,6 +213,17 @@ fetch('items.json?v='+Date.now()).then(r=>r.json()).then(d=>{
     $('#chips').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.k===FILTER));render();});
   render();
 }).catch(e=>{$('#sub').textContent='items.json 載入失敗:'+e});
+
+// 手機版:功能區預設收起,點「篩選」展開
+(function(){
+  const h=document.querySelector('header'),b=document.getElementById('tgl'),q=document.getElementById('q');
+  const sync=()=>{const open=!h.classList.contains('collapsed');
+    const on=q.value.trim()||document.querySelector('#chips .chip.on');
+    b.textContent=(open?'收起 ▴':'篩選 / 搜尋 ▾');b.classList.toggle('act',!open&&!!on);};
+  if(matchMedia('(max-width:700px)').matches)h.classList.add('collapsed');
+  b.addEventListener('click',()=>{h.classList.toggle('collapsed');sync();});
+  q.addEventListener('input',sync);sync();
+})();
 </script>
 </body>
 </html>
