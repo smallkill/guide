@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-26",
- "build": 1793013169,
+ "build": 1793013739,
  "count": 86,
  "items": [
   {
@@ -45,32 +45,41 @@
   },
   {
    "id": "gintama_elizabeth_plush-standing_132014",
-   "name_ja": "",
+   "name_ja": "一番くじ 銀魂～笑顔を護る者たちの日常と非日常～ ラストワン賞 アルザベスぬいぐるみ",
    "name_en": "",
-   "name_zh": "銀魂 伊莉莎白 絨毛娃娃(站姿)",
+   "name_zh": "一番賞 銀魂～守護笑容者們的日常與非日常～ 最後賞 阿爾紮貝斯(アルザベス)絨毛娃娃",
    "ip": "銀魂",
-   "character": "エリザベス (Elizabeth)",
-   "maker": "",
-   "line": "",
+   "character": "アルザベス(エリザベス・基地潛入神樂+新八版)",
+   "maker": "BANDAI SPIRITS",
+   "line": "一番くじ 銀魂-笑顔を護る者たちの日常と非日常- ラストワン賞",
    "type": "plush",
-   "year": "",
+   "year": "2012",
    "category": [
-    "絨毛娃娃"
+    "銀魂",
+    "絨毛娃娃",
+    "一番賞",
+    "ラストワン賞"
    ],
    "keywords": [
     "銀魂",
-    "エリザベス"
+    "一番賞",
+    "ラストワン",
+    "ラストワン賞",
+    "アルザベス",
+    "一番くじ"
    ],
    "source_images": [
+    "https://1kuji.com/products/gintama3",
     "raw/P_20261026_132014_2.jpg"
    ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_132014_2.jpg",
+   "box_image": "gintama_elizabeth_arzabeth_lastone_132014_2.jpg",
+   "main_image": "box/gintama_elizabeth_arzabeth_lastone_132014_2.jpg",
    "photos": [
+    "box/gintama_elizabeth_arzabeth_lastone_132014_2.jpg",
     "raw/P_20261026_132014_2.jpg"
    ],
-   "confidence": "low",
-   "notes": "黃嘴白色鳥型絨毛,角色判為 Elizabeth 是依造型推測。無吊牌可見,未能查到確切商品名、廠商與年份。照片中背景另有一隻白色帶光環的娃娃(非本筆)。",
+   "confidence": "high",
+   "notes": "Derek 提供彈名與賞別:一番くじ 銀魂～笑顔を護る者たちの日常と非日常～ ラストワン賞。1kuji.com 官方:「アルザベスぬいぐるみ」全1種、全高約17cm,2012年6月中旬店頭發售(最後一抽附贈);D賞○○ザベス的搭檔,基地潛入的神樂與新八造型。實拍與官方圖外型相符(耳罩、頭頂新八立牌)。",
    "code": "N02"
   },
   {
@@ -146,97 +155,116 @@
   },
   {
    "id": "gintama_sadaharu_banpresto-a1_132014",
-   "name_ja": "",
+   "name_ja": "3年Z組銀八先生 ポンポンぬい(定春)",
    "name_en": "",
-   "name_zh": "銀魂 號碼布造型娃娃 A1(疑似定春)",
-   "ip": "銀魂",
-   "character": "定春 (Sadaharu)(推測)",
-   "maker": "BANPRESTO(推測)",
-   "line": "賽馬 A1",
+   "name_zh": "3年Z組銀八先生 圓球吊飾絨毛娃娃(定春)",
+   "ip": "銀魂 (3年Z組銀八先生)",
+   "character": "定春",
+   "maker": "BANPRESTO(BANDAI SPIRITS)",
+   "line": "3年Z組銀八先生 ポンポンぬい",
    "type": "plush",
-   "year": "",
+   "year": "2025",
    "category": [
+    "銀魂",
     "絨毛娃娃",
-    "景品"
+    "吊飾",
+    "プライズ"
    ],
    "keywords": [
     "銀魂",
+    "3年Z組銀八先生",
+    "ポンポンぬい",
     "定春",
-    "A1",
-    "賽馬"
+    "號碼布"
    ],
    "source_images": [
+    "https://bsp-prize.jp/item/2803882/",
     "raw/P_20261026_132014_5.jpg"
    ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_132014_5.jpg",
+   "box_image": "gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
+   "main_image": "box/gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
    "photos": [
+    "box/gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
     "raw/P_20261026_132014_5.jpg"
    ],
-   "confidence": "low",
-   "notes": "胸前紅底黑字「A」與白框「1」賽馬式號碼布;白色貓臉造型依上一筆判為定春(推測)。查證搜尋未找到對應商品,廠商/系列未確認。與 gintama_sadaharu_rukyappu 是否同角色不同商品:未確定,分開建檔。",
+   "confidence": "high",
+   "notes": "Derek 提供商品名「3年Z組銀八先生 ポンポンぬい」。BANPRESTO 官網:全3種(定春/銀八先生/エリザベス)、約7cm、2025/11/11 起陸續登場,附吊繩;N05 為定春,實拍與官方圖外型相符(胸前A1號碼布為抽選貼紙)。官方頁 https://bsp-prize.jp/item/2803882/",
    "code": "N05"
   },
   {
    "id": "gintama_unknown-c1-pink_132014",
-   "name_ja": "",
+   "name_ja": "3年Z組銀八先生 ポンポンぬい(銀八先生)",
    "name_en": "",
-   "name_zh": "銀魂 號碼布造型娃娃 C1(角色待確認)",
-   "ip": "銀魂",
-   "character": "未確認(粉色造型)",
-   "maker": "BANPRESTO(推測)",
-   "line": "賽馬 C1",
+   "name_zh": "3年Z組銀八先生 圓球吊飾絨毛娃娃(銀八先生)",
+   "ip": "銀魂 (3年Z組銀八先生)",
+   "character": "銀八先生",
+   "maker": "BANPRESTO(BANDAI SPIRITS)",
+   "line": "3年Z組銀八先生 ポンポンぬい",
    "type": "plush",
-   "year": "",
+   "year": "2025",
    "category": [
+    "銀魂",
     "絨毛娃娃",
-    "景品"
+    "吊飾",
+    "プライズ"
    ],
    "keywords": [
     "銀魂",
-    "C1",
-    "賽馬"
+    "3年Z組銀八先生",
+    "ポンポンぬい",
+    "銀八先生",
+    "號碼布"
    ],
    "source_images": [
+    "https://bsp-prize.jp/item/2803882/",
     "raw/P_20261026_132014_6.jpg"
    ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_132014_6.jpg",
+   "box_image": "gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
+   "main_image": "box/gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
    "photos": [
+    "box/gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
     "raw/P_20261026_132014_6.jpg"
    ],
-   "confidence": "low",
-   "notes": "胸前綠底黑字「C」與白框「1」號碼布;被塑膠袋包住,僅見粉色頭部與眼睛,角色無法確認,未建議命名。",
+   "confidence": "high",
+   "notes": "Derek 提供商品名「3年Z組銀八先生 ポンポンぬい」。BANPRESTO 官網:全3種、約7cm、2025/11/11 起陸續登場;N06 為膚色圓頭+粉色身體的銀八先生,實拍與官方圖相符(胸前C1號碼布為抽選貼紙)。官方頁 https://bsp-prize.jp/item/2803882/",
    "code": "N06"
   },
   {
    "id": "gintama_elizabeth_ball-plush_132014",
-   "name_ja": "",
+   "name_ja": "3年Z組銀八先生 ポンポンぬい(エリザベス)",
    "name_en": "",
-   "name_zh": "銀魂 伊莉莎白 圓球絨毛娃娃",
-   "ip": "銀魂",
+   "name_zh": "3年Z組銀八先生 圓球吊飾絨毛娃娃(伊莉莎白)",
+   "ip": "銀魂 (3年Z組銀八先生)",
    "character": "エリザベス (Elizabeth)",
-   "maker": "",
-   "line": "",
+   "maker": "BANPRESTO(BANDAI SPIRITS)",
+   "line": "3年Z組銀八先生 ポンポンぬい",
    "type": "plush",
-   "year": "",
+   "year": "2025",
    "category": [
-    "絨毛娃娃"
+    "銀魂",
+    "絨毛娃娃",
+    "吊飾",
+    "プライズ"
    ],
    "keywords": [
     "銀魂",
-    "エリザベス"
+    "3年Z組銀八先生",
+    "ポンポンぬい",
+    "エリザベス",
+    "伊莉莎白"
    ],
    "source_images": [
+    "https://bsp-prize.jp/item/2803882/",
     "raw/P_20261026_132014_7.jpg"
    ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_132014_7.jpg",
+   "box_image": "gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
+   "main_image": "box/gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
    "photos": [
+    "box/gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
     "raw/P_20261026_132014_7.jpg"
    ],
-   "confidence": "low",
-   "notes": "包在透明袋中的圓球頭黃嘴白鳥,角色判為 Elizabeth 是依造型推測。與照片2是否為同一隻未能確認(造型比例不同,故分開建檔)。未查到商品名/廠商。",
+   "confidence": "high",
+   "notes": "Derek 提供商品名「3年Z組銀八先生 ポンポンぬい」。BANPRESTO 官網:全3種、約7cm、2025/11/11 起陸續登場;N07 為エリザベス,實拍與官方圖相符。官方頁 https://bsp-prize.jp/item/2803882/",
    "code": "N07"
   },
   {
