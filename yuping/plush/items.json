@@ -2233,37 +2233,45 @@
   },
   {
    "id": "pokemon_ditto_keychain-pokemoncard_134634",
-   "name_ja": "メタモン(ディットー) 花束 ぬいぐるみキーホルダー(韓国ポケモンストア)",
-   "name_en": "Ditto keychain (guess)",
-   "name_zh": "寶可夢 百變怪 抱花束 吊飾玩偶(韓國寶可夢商店)",
+   "name_ja": "マスコット 十ポケ十色 ずぶといメタモン(Pokémon Natures)",
+   "name_en": "Pokémon Natures Ditto (BOLD) mascot keychain",
+   "name_zh": "寶可夢 Pokémon Natures(十色系列)百變怪 大膽 吊飾(ずぶといメタモン マスコット)",
    "ip": "ポケットモンスター",
    "character": "メタモン",
-   "maker": "ポケモンストア韓国(Pokémon Korea)・metamong PLAYGROUND",
-   "line": "「말랑말랑 메타몽의 하루」ピカチュウ×メタモン キーホルダー",
+   "maker": "ポケモンセンター",
+   "line": "Pokémon Natures(十色系列)/十ポケ十色",
    "type": "other",
-   "year": "",
+   "year": "2025",
    "category": [
     "寶可夢",
     "吊飾"
    ],
    "keywords": [
+    "DITTO (BOLD)",
+    "Natures",
+    "Pokémon Natures",
     "ditto",
+    "ずぶとい",
     "メタモン",
+    "十ポケ十色",
+    "十色",
+    "十色系列",
+    "大膽",
     "百變怪",
-    "鑰匙圈",
-    "pokemon card"
+    "鑰匙圈"
    ],
    "source_images": [
-    "~/repos/daigou-shops/korea-pokemon-daigou/images/item05.jpg(唯讀對照)",
+    "https://www.pokemoncenter-online.com/4521329397719.html",
     "raw/P_20261026_134634_3.jpg"
    ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_134634_3.jpg",
+   "box_image": "pokemon_ditto-bold-natures-mascot_134634_3.jpg",
+   "main_image": "box/pokemon_ditto-bold-natures-mascot_134634_3.jpg",
    "photos": [
+    "box/pokemon_ditto-bold-natures-mascot_134634_3.jpg",
     "raw/P_20261026_134634_3.jpg"
    ],
-   "confidence": "medium",
-   "notes": "吊牌為 Pokémon Center 多語言標示(DITTO)。比對 Derek 代購清單 #5「皮卡丘×百變怪鑰匙圈」(2026/5 韓國 metamong PLAYGROUND)圖中抱花束的百變怪款外形一致。官方圖僅有代購清單內的截圖(含勾選記號),未用作官方圖。",
+   "confidence": "high",
+   "notes": "Derek 確認:韓國百變怪快閃店購入。吊牌印 DITTO (BOLD)。寶可夢中心「Pokémon Natures(十色系列)」(日文名「十ポケ十色」,取自「十人十色」)共10款(皮卡丘×5+百變怪×5)之一,抱花束、咖啡色織帶+精靈球扣環。日本寶可夢中心線上 2025/11/06 發售(¥1,650,10×7×8cm,商品碼 4521329397719);寶可夢中心台北 2026/1/3 發售。",
    "code": "N72"
   },
   {
