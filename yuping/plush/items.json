@@ -974,8 +974,8 @@
     "box/lol_poro_white-poro-plush_132718.jpg",
     "raw/P_20261026_132718_11.jpg"
    ],
-   "confidence": "medium",
-   "notes": "袋上標籤:品名「魄罗毛绒玩偶/포로 인형」、型號 PLUSH、SKU 2193-00-00、製造 2025-02、中國製,進口商 라이엇게임즈코리아(Riot Games Korea),製造商 Shenzhen JT Culture & Creation。屬官方授權(Riot Merch)的韓國版。官方圖取自 Riot Merch「White Poro Plush」頁,與實物外型相符但未能核對 SKU,故 medium。",
+   "confidence": "high",
+   "notes": "袋上標籤:品名「魄罗毛绒玩偶/포로 인형」、型號 PLUSH、SKU 2193-00-00、製造 2025-02、中國製,進口商 라이엇게임즈코리아(Riot Games Korea),製造商 Shenzhen JT Culture & Creation。屬官方授權(Riot Merch)的韓國版。官方圖取自 Riot Merch「White Poro Plush」頁,與實物外型相符但未能核對 SKU,故 medium。;Riot Merch 官方頁 https://merch.riotgames.com/en-us/product/white-poro-plush/ 品名與外型(伸舌頭、愛心肚、肉球)吻合;與 N27 Teemo Hat 同批 Riot Merch 韓國版(2025-02 製造)",
    "code": "N25"
   },
   {
@@ -1022,12 +1022,12 @@
   {
    "id": "lol_teemo_teemo-hat_132718",
    "name_ja": "ティーモ ハット(ぬいぐるみ帽)",
-   "name_en": "League of Legends Teemo Plush Hat",
-   "name_zh": "英雄聯盟 提摩 絨毛帽",
+   "name_en": "League of Legends Teemo Hat",
+   "name_zh": "英雄聯盟 提摩 絨毛帽(Teemo Hat)",
    "ip": "英雄聯盟(League of Legends)",
    "character": "ティーモ(Teemo)",
-   "maker": "Riot Games",
-   "line": "Teemo Hat",
+   "maker": "Riot Games(Riot Merch 官方授權;韓國進口商 라이엇게임즈코리아)",
+   "line": "Riot Merch Teemo Hat",
    "type": "other",
    "year": "2025",
    "category": [
@@ -1039,18 +1039,20 @@
     "lol",
     "teemo",
     "teemo hat",
+    "提摩",
     "riot games merch"
    ],
    "source_images": [
     "P_20261026_132718_13.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_132718_13.jpg",
+   "main_image": "box/P_20261026_132718_13.jpg",
    "photos": [
+    "box/P_20261026_132718_13.jpg",
     "raw/P_20261026_132718_13.jpg"
    ],
    "confidence": "high",
-   "notes": "袋上英文標示 Name: Teemo Hat、Fabric 100% Polyester、© 2025 Riot Games,SKU 1082-00-00,製造 2025-02,中國製;韓國進口商 라이엇게임즈코리아,標價 ₩29,000(原吊牌)。確定是 Riot 官方授權的提摩絨毛帽(非娃娃)。Riot 官方商店找不到對應商品頁(只有已停售 Firecracker Teemo Hat),故無官方圖。",
+   "notes": "袋上英文標示 Name: Teemo Hat、Fabric 100% Polyester、© 2025 Riot Games,SKU 1082-00-00,製造 2025-02,中國製;韓國進口商 라이엇게임즈코리아,標價 ₩29,000(原吊牌)。確定是 Riot 官方授權的提摩絨毛帽(非娃娃)。Riot 官方商店找不到對應商品頁(只有已停售 Firecracker Teemo Hat),故無官方圖。;官方頁 Riot Merch「Teemo Hat」:聚酯纖維,頭圍約62cm、高22.9cm、寬25.4cm(官網目前缺貨)。來源 https://merch.riotgames.com/en-us/product/teemo-hat/ ;官方圖 cdn.sanity.io b216318e...-1000x1000.png。實物袋標 Teemo Hat、SKU 1082-00-00、製造2025-02、標價 ₩29,000。Derek 提示 N27 與 N25(Riot Merch White Poro Plush,SKU 2193-00-00,同為 2025-02 製造、同韓國進口商/製造商 Shenzhen JT)同系列,已核對:兩者吊牌/袋標格式一致,確屬同批 Riot Merch 韓國版。實物袋內帽耳摺入,官方圖貓耳外翻,其餘綠毛+紅護目鏡+藍鏡片一致。",
    "code": "N27"
   },
   {
@@ -1724,12 +1726,12 @@
   {
    "id": "unknown_pink-purple-horn_pouch_133707",
    "name_ja": "メイプルストーリー ピンクビーン ぬいぐるみポーチ",
-   "name_en": "",
-   "name_zh": "楓之谷 粉豆(Pink Bean)絨毛零錢包",
+   "name_en": "MapleStory Pink Bean Plush Coin Purse (5 inch)",
+   "name_zh": "新楓之谷 粉豆 5吋 絨毛零錢包(MapleMonster 系列,台灣授權品)",
    "ip": "楓之谷(メイプルストーリー)",
    "character": "ピンクビーン(粉豆)",
-   "maker": "NEXON(楓之谷授權周邊,廠商待確認)",
-   "line": "絨毛零錢包/小袋",
+   "maker": "NEXON / 台灣遊戲橘子 Gamania 授權周邊(實際廠商待確認)",
+   "line": "MapleMonster 小怪物系列 絨毛零錢包",
    "type": "other",
    "year": "",
    "category": [
@@ -1737,9 +1739,14 @@
     "絨毛娃娃"
    ],
    "keywords": [
-    "粉色",
-    "紫角",
-    "小包"
+    "新楓之谷",
+    "楓之谷",
+    "粉豆",
+    "ピンクビーン",
+    "Pink Bean",
+    "MapleMonster",
+    "零錢包",
+    "5吋"
    ],
    "source_images": [
     "raw/P_20261026_133707_3.jpg"
@@ -1750,7 +1757,7 @@
     "raw/P_20261026_133707_3.jpg"
    ],
    "confidence": "medium",
-   "notes": "粉紅圓臉、紫色螺紋角、白色肚皮、拉鍊小袋,符合楓之谷 BOSS「粉豆(Pink Bean/ピンクビーン)」造型。台灣市面有「楓之谷 菇菇寶貝 粉豆 零錢包」授權品,但未找到與實拍完全同款的官方商品頁,故不放官方圖。",
+   "notes": "粉紅圓臉、紫色螺紋角、白色肚皮、拉鍊小袋,符合楓之谷 BOSS「粉豆(Pink Bean/ピンクビーン)」造型。台灣市面有「楓之谷 菇菇寶貝 粉豆 零錢包」授權品,但未找到與實拍完全同款的官方商品頁,故不放官方圖。;原照確認:粉紅圓臉、紫色螺紋雙角、一眼有疤、白肚皮,為粉豆造型零錢包。Derek 提供蝦皮標題『【Maplestory】正版授權 新楓之谷 5吋 粉豆 雪吉拉 零錢包…』(https://shopee.tw/-i.34715705.53304745146)僅作關鍵字線索,未用其圖。查過(皆無同款官方商品頁/官方圖):WebSearch 中/日/韓關鍵字、Gamania/橘子商城、Nexon 韓日周邊、MapleMonster 官方報導;蝦皮頁無法讀取。僅見飛比/iOPEN 等第三方賣場列『台灣現貨正版授權 新楓之谷(5吋)』粉豆零錢包,屬零售商非官網,不採圖。",
    "code": "N47"
   },
   {
