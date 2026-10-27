@@ -799,15 +799,15 @@
   },
   {
    "id": "haikyuu_hinata-black_sitting-plush_132718",
-   "name_ja": "ハイキュー!! おすわりぬいぐるみ(日向翔陽)",
-   "name_en": "Haikyu!! Sitting plush (Hinata)",
-   "name_zh": "排球少年 坐姿絨毛娃娃(日向翔陽)",
+   "name_ja": "ハイキュー!! もちぴこマスコットvol.1(日向翔陽)",
+   "name_en": "Haikyu!! Mochipiko Mascot vol.1 (Hinata Shoyo)",
+   "name_zh": "排球少年 麻糬皮可吊飾娃娃 vol.1 日向翔陽(約12cm)",
    "ip": "排球少年(ハイキュー!!)",
    "character": "日向翔陽",
-   "maker": "",
-   "line": "",
-   "type": "plush",
-   "year": "",
+   "maker": "FuRyu(フリュー)",
+   "line": "もちぴこマスコット vol.1",
+   "type": "other",
+   "year": "2026",
    "category": [
     "動畫",
     "運動",
@@ -815,18 +815,27 @@
    ],
    "keywords": [
     "ハイキュー",
-    "日向翔陽"
+    "排球少年",
+    "日向翔陽",
+    "もちぴこマスコット",
+    "もちぴこ",
+    "フリュー",
+    "FuRyu",
+    "プライズ",
+    "吊飾",
+    "マスコット"
    ],
    "source_images": [
     "P_20261026_132718_7.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_132718_7.jpg",
+   "main_image": "box/haikyu_mochipiko_hinata_132718.jpg",
    "photos": [
+    "box/haikyu_mochipiko_hinata_132718.jpg",
     "raw/P_20261026_132718_7.jpg"
    ],
-   "confidence": "low",
-   "notes": "照片7:烏野黑色制服背號10、橘髮、ω嘴,判斷為日向翔陽(high);商品系列/廠商無法確認(比對過Furyu ぬいもっち A賞、Bandai Namco Chibi、SK みにコレ,皆不符)。背面尾巴處有「ハイキュー!!」吊牌。",
+   "confidence": "high",
+   "notes": "照片7:烏野黑色制服背號10、橘髮、ω嘴,判斷為日向翔陽(high);商品系列/廠商無法確認(比對過Furyu ぬいもっち A賞、Bandai Namco Chibi、SK みにコレ,皆不符)。背面尾巴處有「ハイキュー!!」吊牌。;Derek 指認:日向翔陽 もちぴこマスコットvol.1「ハイキュー!!」(景品)。來源 prize-house.com https://prize-house.com/prize-list/121144 :品名「ハイキュー!! もちぴこマスコットvol.1」、廠商フリュー(FuRyu)、約12cm、2026-01-09 登場預定(共4款:日向10號/影山9號/月島11號/山口12號,附黑色吊繩)。日向款=橘髮、ω嘴、烏野深藍制服背號10,與實拍一致。FuRyu 官方景品頁搜尋未找到 vol.1(僅 vol.2 有 charahiroba.com/prize/item/detail?id=15630),故官方圖取自 prize-house 的 FuRyu 宣傳圖。實拍背面有ハイキュー!!吊牌,吊繩可能已被收起。",
    "code": "N21"
   },
   {
