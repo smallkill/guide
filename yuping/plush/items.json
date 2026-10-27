@@ -2166,15 +2166,15 @@
   },
   {
    "id": "natsume_nyanko-sensei_keychain-calico_134131",
-   "name_ja": "",
-   "name_en": "Natsume's Book of Friends Nyanko-sensei keychain plush (calico)",
-   "name_zh": "夏目友人帳 貓咪老師 小吊飾(三花款)",
+   "name_ja": "パン型マスコットぬいぐるみ(ニャンコ先生 白パン)",
+   "name_en": "Nyanko-sensei Bread-shaped Mascot Plush (white bread)",
+   "name_zh": "麵包造型吊飾玩偶(貓咪老師 白麵包款)",
    "ip": "夏目友人帳",
    "character": "ニャンコ先生",
-   "maker": "",
-   "line": "",
-   "type": "other",
-   "year": "",
+   "maker": "BANDAI SPIRITS",
+   "line": "一番くじ 夏目友人帳～ニャンコ先生と焼きたてパン～ D賞 パン型マスコットぬいぐるみ",
+   "type": "plush",
+   "year": "2022",
    "category": [
     "動畫",
     "吊飾"
@@ -2188,12 +2188,13 @@
     "P_20261026_134131_1.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_134131_1.jpg",
+   "main_image": "box/natsume_ichiban_d_pan_134131_1.jpg",
    "photos": [
+    "box/natsume_ichiban_d_pan_134131_1.jpg",
     "raw/P_20261026_134131_1.jpg"
    ],
-   "confidence": "low",
-   "notes": "照片1:三花貓造型的小吊飾(頂端有鈴狀掛環),吊牌/系列未見,品名未查證,無官方圖。",
+   "confidence": "high",
+   "notes": "照片1:三花貓造型的小吊飾(頂端有鈴狀掛環),吊牌/系列未見,品名未查證,無官方圖。;Derek 2026-10-27 指認為一番くじ D賞;官方頁 https://1kuji.com/products/natsume38 ;D賞全2種(白パン=ニャンコ先生臉型/吐司款),本件為白パン款,與原照三花斑、閉眼、金色掛環一致;尺寸約10cm;1回650円(稅10%込);店頭2022/05/28起順次發售;官方圖 https://sn.bpnavi.jp/page/natsume/natsume38/0420/1kuji_5_natsume_D2_1080px_0406.jpg 裁切;查證日 2026-10-27",
    "code": "N59"
   },
   {
