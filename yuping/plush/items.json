@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-27",
- "build": "20261027191705",
+ "build": "20261027193855",
  "count": 86,
  "items": [
   {
@@ -2395,33 +2395,38 @@
   },
   {
    "id": "chainsaw-man_denji_mascot_134131",
-   "name_ja": "",
-   "name_en": "Chainsaw Man Denji deformed plush (white shirt, black tie)",
-   "name_zh": "鏈鋸人 電次 變形公仔 吊飾(白襯衫黑領帶)",
+   "name_ja": "チェンソーマン かぷっこふれんず デンジ",
+   "name_en": "Chainsaw Man Kapukko Friends Plush Mascot - Denji (self-translated)",
+   "name_zh": "鏈鋸人 Kapukko Friends 玩偶吊飾 電次(自譯)",
    "ip": "鏈鋸人(チェンソーマン)",
    "character": "デンジ",
-   "maker": "",
-   "line": "",
+   "maker": "フクヤ(株式会社フクヤ / Fancy Fukuya)",
+   "line": "かぷっこふれんず",
    "type": "plush",
-   "year": "",
+   "year": "2022",
    "category": [
     "動畫",
     "絨毛娃娃"
    ],
    "keywords": [
     "チェンソーマン",
-    "デンジ"
+    "デンジ",
+    "かぷっこふれんず",
+    "フクヤ",
+    "カプセルトイ",
+    "ぬいぐるみ"
    ],
    "source_images": [
     "P_20261026_134131_8.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_134131_8.jpg",
+   "main_image": "box/chainsawman_kapukko_denji_134131.jpg",
    "photos": [
+    "box/chainsawman_kapukko_denji_134131.jpg",
     "raw/P_20261026_134131_8.jpg"
    ],
-   "confidence": "medium",
-   "notes": "照片8:電次(金髮、紅眼、白襯衫黑領帶、黑短褲)變形公仔,背面有金色繩。角色依造型判斷;系列/廠商未查證。照片中吊牌字太小。無官方圖。",
+   "confidence": "high",
+   "notes": "照片8:電次(金髮、紅眼、白襯衫黑領帶、黑短褲)變形公仔,背面有金色繩。角色依造型判斷;系列/廠商未查證。照片中吊牌字太小。無官方圖。;Derek 2026-10-27 指認為 チェンソーマン かぷっこふれんず デンジ;福屋(フクヤ)官方商品頁:全5種(デンジ/早川アキ/パワー/マキマ/ポチタ),尺寸約8cm,發售月2022年12月,商品類別為カプセルトイ(非プライズ)、ぬいぐるみ,附可掛包包的橡皮繩;與原照(金髮、紅眼尖牙、白襯衫黑領帶黑短褲)外觀一致,原照吊牌文字為「デンジ/かぷっこふれんず」;官方圖為5款合照,裁出デンジ款;官方頁未載價格;官方 URL https://www.fancy-fukuya.co.jp/goods/202212chainsawman02/ ;查證日 2026-10-27",
    "code": "N66"
   },
   {
