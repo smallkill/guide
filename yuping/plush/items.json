@@ -2176,15 +2176,15 @@
   },
   {
    "id": "natsume_nyanko-sensei_maneki-white_134131",
-   "name_ja": "",
-   "name_en": "Natsume's Book of Friends Nyanko-sensei white plush (red collar, bell)",
-   "name_zh": "夏目友人帳 貓咪老師 白色招財貓風 公仔(紅項圈鈴鐺)",
+   "name_ja": "ふわりんニャンコ先生ぬいぐるみ",
+   "name_en": "Natsume's Book of Friends Fuwarin Nyanko-sensei Plush (open eyes)",
+   "name_zh": "夏目友人帳 ふわりん貓咪老師玩偶(睜眼款)",
    "ip": "夏目友人帳",
    "character": "ニャンコ先生",
-   "maker": "",
-   "line": "",
+   "maker": "バンプレスト(BANDAI SPIRITS)",
+   "line": "夏目友人帳 ふわりんニャンコ先生ぬいぐるみ(全4種)",
    "type": "plush",
-   "year": "",
+   "year": "2019",
    "category": [
     "動畫",
     "絨毛娃娃"
@@ -2192,7 +2192,8 @@
    "keywords": [
     "夏目友人帳",
     "ニャンコ先生",
-    "招き猫",
+    "ふわりん",
+    "バンプレスト",
     "鈴"
    ],
    "source_images": [
@@ -2200,25 +2201,26 @@
     "P_20261026_134131_3.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_134131_2.jpg",
+   "main_image": "box/natsume_fuwarin_open.jpg",
    "photos": [
+    "box/natsume_fuwarin_open.jpg",
     "raw/P_20261026_134131_2.jpg"
    ],
-   "confidence": "low",
-   "notes": "照片2(睜眼款)。照片3 經 Derek 指出為不同件,已另立一筆。白色貓、紅項圈、黃鈴鐺。疑似候補:バンプレスト「もふぐっとぬいぐるみ~福招きニャンコ先生~」(投入2026-01-15),但未能查到該款鈴/項圈細節與尺寸,未確認。吊牌字太小無法讀。無官方圖。",
+   "confidence": "high",
+   "notes": "照片2(睜眼款)。照片3 經 Derek 指出為不同件,已另立一筆。白色貓、紅項圈、黃鈴鐺。疑似候補:バンプレスト「もふぐっとぬいぐるみ~福招きニャンコ先生~」(投入2026-01-15),但未能查到該款鈴/項圈細節與尺寸,未確認。吊牌字太小無法讀。無官方圖。;Derek 2026-10-27 指認為バンプレスト「ふわりんニャンコ先生ぬいぐるみ」;官方頁 https://www.natsume-anime.jp/goods/%E3%83%90%E3%83%B3%E3%83%97%E3%83%AC%E3%82%B9%E3%83%88%E3%82%88%E3%82%8A%E3%80%8C%E3%81%B5%E3%82%8F%E3%82%8A%E3%82%93%E3%83%8B%E3%83%A3%E3%83%B3%E3%82%B3%E5%85%88%E7%94%9F%E3%81%AC%E3%81%84%E3%81%90 ;全4種(睜眼/瞇眼/渦卷眼/灰色黑貓老師款,官方頁未逐款說明),本件為睜眼款(官方圖左上),與原照白色圓球身、紅項圈黃鈴鐺、頭頂三花斑、臉頰紅紋及眼型一致;尺寸約8cm;2019年1月下旬發售(預定);官方圖 http://www.natsume-anime.jp/wp-content/uploads/2019/01/39054_夏目友人帳-ふわりんニャンコ先生ぬいぐるみ.png 裁切;查證日 2026-10-27",
    "code": "N60"
   },
   {
    "id": "natsume_nyanko-sensei_maneki-white_134131_p3",
-   "name_ja": "",
-   "name_en": "Natsume's Book of Friends Nyanko-sensei white plush (red collar, bell)",
-   "name_zh": "夏目友人帳 貓咪老師 白色招財貓風 公仔(照片3,瞇眼花紋款)",
+   "name_ja": "ふわりんニャンコ先生ぬいぐるみ",
+   "name_en": "Natsume's Book of Friends Fuwarin Nyanko-sensei Plush (closed eyes)",
+   "name_zh": "夏目友人帳 ふわりん貓咪老師玩偶(瞇眼款)",
    "ip": "夏目友人帳",
    "character": "ニャンコ先生",
-   "maker": "",
-   "line": "",
+   "maker": "バンプレスト(BANDAI SPIRITS)",
+   "line": "夏目友人帳 ふわりんニャンコ先生ぬいぐるみ(全4種)",
    "type": "plush",
-   "year": "",
+   "year": "2019",
    "category": [
     "動畫",
     "絨毛娃娃"
@@ -2226,19 +2228,21 @@
    "keywords": [
     "夏目友人帳",
     "ニャンコ先生",
-    "招き猫",
+    "ふわりん",
+    "バンプレスト",
     "鈴"
    ],
    "source_images": [
     "raw/P_20261026_134131_3.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_134131_3.jpg",
+   "main_image": "box/natsume_fuwarin_closed.jpg",
    "photos": [
+    "box/natsume_fuwarin_closed.jpg",
     "raw/P_20261026_134131_3.jpg"
    ],
-   "confidence": "low",
-   "notes": "照片3:白色貓咪老師、紅項圈黃鈴鐺、頭頂三花斑、臉頰紅色花紋、瞇眼;Derek 指出與照片2 為不同件。品名未查證。",
+   "confidence": "high",
+   "notes": "照片3:白色貓咪老師、紅項圈黃鈴鐺、頭頂三花斑、臉頰紅色花紋、瞇眼;Derek 指出與照片2 為不同件。品名未查證。;Derek 2026-10-27 指認為バンプレスト「ふわりんニャンコ先生ぬいぐるみ」;官方頁 https://www.natsume-anime.jp/goods/%E3%83%90%E3%83%B3%E3%83%97%E3%83%AC%E3%82%B9%E3%83%88%E3%82%88%E3%82%8A%E3%80%8C%E3%81%B5%E3%82%8F%E3%82%8A%E3%82%93%E3%83%8B%E3%83%A3%E3%83%B3%E3%82%B3%E5%85%88%E7%94%9F%E3%81%AC%E3%81%84%E3%81%90 ;全4種(睜眼/瞇眼/渦卷眼/灰色黑貓老師款,官方頁未逐款說明),本件為瞇眼款(官方圖右上),與原照白色圓球身、紅項圈黃鈴鐺、頭頂三花斑、臉頰紅紋及眼型一致;尺寸約8cm;2019年1月下旬發售(預定);官方圖 http://www.natsume-anime.jp/wp-content/uploads/2019/01/39054_夏目友人帳-ふわりんニャンコ先生ぬいぐるみ.png 裁切;查證日 2026-10-27",
    "code": "N61"
   },
   {
