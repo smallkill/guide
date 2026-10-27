@@ -97,13 +97,12 @@
   .note{margin-top:10px;font-size:12px;color:var(--warn);line-height:1.5}
   a{color:var(--accent2)}
   .hrow{display:flex;align-items:center;justify-content:space-between;gap:8px}
-  .tgl{display:none;background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+  .tgl{display:inline-block;background:var(--panel2);border:1px solid var(--line);color:var(--txt);
     border-radius:8px;padding:6px 12px;font-size:13px;cursor:pointer;white-space:nowrap}
   .tgl.act{border-color:var(--accent);color:var(--accent)}
+  header.collapsed .panel{display:none}
   @media (max-width:700px){
     header{padding:10px 12px}
-    .tgl{display:inline-block}
-    header.collapsed .panel{display:none}
   }
 </style>
 </head>
@@ -223,13 +222,13 @@ fetch('items.json?v='+Date.now()).then(r=>r.json()).then(d=>{
   render();
 }).catch(e=>{$('#sub').textContent='items.json 載入失敗:'+e});
 
-// 手機版:功能區預設收起,點「篩選」展開
+// 功能區可收合(所有螢幕);手機或矮螢幕預設收起,點「篩選」展開
 (function(){
   const h=document.querySelector('header'),b=document.getElementById('tgl'),q=document.getElementById('q');
   const sync=()=>{const open=!h.classList.contains('collapsed');
     const on=q.value.trim()||document.querySelector('#chips .chip.on');
     b.textContent=(open?'收起 ▴':'篩選 / 搜尋 ▾');b.classList.toggle('act',!open&&!!on);};
-  if(matchMedia('(max-width:700px)').matches)h.classList.add('collapsed');
+  if(matchMedia('(max-width:700px), (max-height:900px)').matches)h.classList.add('collapsed');
   b.addEventListener('click',()=>{h.classList.toggle('collapsed');sync();});
   q.addEventListener('input',sync);sync();
 })();
