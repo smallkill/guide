@@ -2,6 +2,7 @@
 <html lang="zh-Hant">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>娃娃收藏(待確認)</title>
 <style>
@@ -140,10 +141,10 @@
 
 <script>
 let ITEMS=[], FILTER=null, MODE='ip', BUILD='';
-const IMG=p=>`images/${p}${BUILD?('?v='+BUILD):''}`;
+const IMG=p=>esc(`images/${encodeURI(p)}${BUILD?('?v='+encodeURIComponent(BUILD)):''}`); // 先編碼再跳脫:也用在 url('...') 與屬性裡
 const $=s=>document.querySelector(s), grid=$('#grid');
 const TYPE_LABEL={figure:'公仔 / 模型',plush:'玩偶',other:'其他'};
-const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 function imgHtml(c,cls){
   if(c.main_image) return `<div class="thumb ${cls||''}" style="background-image:url('${IMG(c.main_image)}')"></div>`;
