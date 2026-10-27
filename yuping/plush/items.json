@@ -1586,15 +1586,15 @@
   },
   {
    "id": "unknown_red-haired-pair_133212",
-   "name_ja": "鬼灯の冷徹 金魚草 ぬいぐるみマスコット(ボールチェーン付き)",
-   "name_en": "",
-   "name_zh": "鬼燈的冷徹 金魚草 鎖鍊吊飾玩偶(驚嚇表情・2入之左)",
+   "name_ja": "鬼灯の冷徹 金魚草ぬいぐるみマスコット",
+   "name_en": "Hozuki no Reitetsu Kingyoso Plush Mascot (self-translated)",
+   "name_zh": "鬼燈的冷徹 金魚草玩偶吊飾(自譯)",
    "ip": "鬼燈的冷徹(鬼灯の冷徹)",
    "character": "金魚草",
-   "maker": "不明(景品/周邊廠商待確認)",
-   "line": "ぬいぐるみマスコット(ボールチェーン付き)",
+   "maker": "TAITO",
+   "line": "タイトープライズ ぬいぐるみマスコット",
    "type": "plush",
-   "year": "",
+   "year": "2014",
    "category": [
     "鬼燈的冷徹",
     "絨毛娃娃"
@@ -1604,25 +1604,26 @@
     "raw/P_20261026_133212_14.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_133212_14.jpg",
+   "main_image": "box/kingyoso_taito_12cm_closed.jpg",
    "photos": [
+    "box/kingyoso_taito_12cm_closed.jpg",
     "raw/P_20261026_133212_14.jpg"
    ],
-   "confidence": "low",
-   "notes": "同袋兩隻金魚草臉部玩偶(左:驚嚇閉嘴),紅頭髮、白臉、綠葉領、附珠鍊。Derek 指認為鬼灯の冷徹 金魚草。已比對 Hobby Search エル・プランニング(盆栽側身款)與 TAITO ぬいぐるみマスコット(側身款),造型不同,故不放官方圖;廠商與系列待確認。",
+   "confidence": "high",
+   "notes": "同袋兩隻金魚草臉部玩偶(左:驚嚇閉嘴),紅頭髮、白臉、綠葉領、附珠鍊。Derek 指認為鬼灯の冷徹 金魚草。已比對 Hobby Search エル・プランニング(盆栽側身款)與 TAITO ぬいぐるみマスコット(側身款),造型不同,故不放官方圖;廠商與系列待確認。;Derek 2026-10-27 指認為 TAITO 景品「鬼灯の冷徹 金魚草ぬいぐるみマスコット」;官方頁 https://www.taito.co.jp/taito-prize/0000000031 ;官方圖為2隻並列(噘嘴閉口款+張嘴款,皆附珠鍊、綠葉墊),本件為左款(嘴閉成噘嘴、有立體唇凸,官方圖中下方那隻),與原照表情、紅頭髮、白臉、綠葉領一致;尺寸約12cm;2014年10月上旬登場;官方頁未標示種類數與款式名,僅以官方圖判讀為2款;官方圖 https://www.taito.co.jp/Content/images/zone/2/item/201407/c9127a11-8478-4a84-a02b-529312899e24_p_01_ja.jpg 裁切;name_zh/name_en 為自譯;查證日 2026-10-27",
    "code": "N42"
   },
   {
    "id": "unknown_red-haired-pair_133212_right",
-   "name_ja": "鬼灯の冷徹 金魚草 ぬいぐるみマスコット(ボールチェーン付き)",
-   "name_en": "",
-   "name_zh": "鬼燈的冷徹 金魚草 鎖鍊吊飾玩偶(張嘴表情・2入之右)",
+   "name_ja": "鬼灯の冷徹 金魚草ぬいぐるみマスコット",
+   "name_en": "Hozuki no Reitetsu Kingyoso Plush Mascot (self-translated)",
+   "name_zh": "鬼燈的冷徹 金魚草玩偶吊飾(自譯)",
    "ip": "鬼燈的冷徹(鬼灯の冷徹)",
    "character": "金魚草",
-   "maker": "不明(景品/周邊廠商待確認)",
-   "line": "ぬいぐるみマスコット(ボールチェーン付き)",
+   "maker": "TAITO",
+   "line": "タイトープライズ ぬいぐるみマスコット",
    "type": "plush",
-   "year": "",
+   "year": "2014",
    "category": [
     "鬼燈的冷徹",
     "絨毛娃娃"
@@ -1632,12 +1633,13 @@
     "raw/P_20261026_133212_14.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_133212_14.jpg",
+   "main_image": "box/kingyoso_taito_12cm_open.jpg",
    "photos": [
+    "box/kingyoso_taito_12cm_open.jpg",
     "raw/P_20261026_133212_14.jpg"
    ],
-   "confidence": "low",
-   "notes": "同袋兩隻金魚草臉部玩偶(右:張嘴、粉紅舌)。判斷同 N42。",
+   "confidence": "high",
+   "notes": "同袋兩隻金魚草臉部玩偶(右:張嘴、粉紅舌)。判斷同 N42。;Derek 2026-10-27 指認為 TAITO 景品「鬼灯の冷徹 金魚草ぬいぐるみマスコット」;官方頁 https://www.taito.co.jp/taito-prize/0000000031 ;官方圖為2隻並列(噘嘴閉口款+張嘴款,皆附珠鍊、綠葉墊),本件為右款(張嘴、口內粉紅,官方圖中上方那隻),與原照表情、紅頭髮、白臉、綠葉領一致;尺寸約12cm;2014年10月上旬登場;官方頁未標示種類數與款式名,僅以官方圖判讀為2款;官方圖 https://www.taito.co.jp/Content/images/zone/2/item/201407/c9127a11-8478-4a84-a02b-529312899e24_p_01_ja.jpg 裁切;name_zh/name_en 為自譯;查證日 2026-10-27",
    "code": "N43"
   },
   {
@@ -2247,13 +2249,13 @@
   },
   {
    "id": "goldenkamuy_unknown-blue-bandana_134131",
-   "name_ja": "",
-   "name_en": "",
-   "name_zh": "黃金神威風 動物造型娃娃(藍頭巾・藍白圍巾,角色待確認)",
+   "name_ja": "ゴールデンカムイ どうぶつフォーゼマスコット (2)アシリパ",
+   "name_en": "Golden Kamuy Doubutsu Phose Mascot (2) Asirpa (self-translated)",
+   "name_zh": "黃金神威 動物變身造型吊飾玩偶 (2)阿席莉帕(自譯)",
    "ip": "黃金神威(ゴールデンカムイ)",
    "character": "未確認(疑似アシㇼパ造型,推測)",
-   "maker": "",
-   "line": "",
+   "maker": "ensky(エンスカイ)",
+   "line": "ゴールデンカムイ どうぶつフォーゼマスコット(全6種)",
    "type": "plush",
    "year": "",
    "category": [
@@ -2265,68 +2267,83 @@
     "raw/P_20261026_134131_4.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_134131_4.jpg",
+   "main_image": "box/ensky_goldenkamuy_doubutsu_phose_asirpa.jpg",
    "photos": [
+    "box/ensky_goldenkamuy_doubutsu_phose_asirpa.jpg",
     "raw/P_20261026_134131_4.jpg"
    ],
-   "confidence": "low",
-   "notes": "2026-10-26 補回(前次略過)。灰白動物、藍色花紋頭巾與圍巾、藍眼;IP 依造型推測,品名未查證。",
+   "confidence": "high",
+   "notes": "2026-10-26 補回(前次略過)。灰白動物、藍色花紋頭巾與圍巾、藍眼;IP 依造型推測,品名未查證。;Derek 2026-10-27 指認為 ensky「ゴールデンカムイ どうぶつフォーゼマスコット (2)アシリパ」;官方頁 https://www.ensky.co.jp/item/19701.html ;全6種(月島/鯉登/杉元/アシリパ/白石/尾形),本件為アシリパ款,與原照藍色花紋頭巾、藍白圍巾披肩、藍眼、灰白動物造型、肉球一致;尺寸約 H105×W75×D70mm(依種類略異);材質聚酯纖維,附球鏈;JAN 4970381634919;價格 1,800円(税抜)/1,980円(税込);官方頁標示「再販」,再販預定 2026年11月發售(官方宣傳圖),初版發售日官方頁未載;官方圖(enskyshop.com 三視圖)裁切正面;查證日 2026-10-27",
    "code": "N62"
   },
   {
    "id": "goldenkamuy_unknown-tabby-scar_134131",
-   "name_ja": "",
-   "name_en": "",
-   "name_zh": "黃金神威風 動物造型娃娃(虎斑・臉有疤・灰披布,角色待確認)",
+   "name_ja": "ゴールデンカムイ どうぶつフォーゼマスコット (4)尾形百之助",
+   "name_en": "Golden Kamuy Animal-Pose Mascot (4) Ogata Hyakunosuke (self-translated)",
+   "name_zh": "黃金神威 動物變身造型吊飾玩偶 (4)尾形百之助(自譯)",
    "ip": "黃金神威(ゴールデンカムイ)",
    "character": "未確認(疑似杉元造型,推測)",
-   "maker": "",
-   "line": "",
+   "maker": "ensky(エンスカイ)",
+   "line": "ゴールデンカムイ どうぶつフォーゼマスコット(全6種)",
    "type": "plush",
    "year": "",
    "category": [
     "動畫",
     "絨毛娃娃"
    ],
-   "keywords": [],
+   "keywords": [
+    "尾形百之助",
+    "どうぶつフォーゼ",
+    "ensky",
+    "ゴールデンカムイ",
+    "ヤマネコ"
+   ],
    "source_images": [
     "raw/P_20261026_134131_5.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_134131_5.jpg",
+   "main_image": "box/goldenkamuy_dobutsu_ogata_134131_5.jpg",
    "photos": [
+    "box/goldenkamuy_dobutsu_ogata_134131_5.jpg",
     "raw/P_20261026_134131_5.jpg"
    ],
-   "confidence": "low",
-   "notes": "2026-10-26 補回。虎斑色、鼻上有疤、灰色披布;IP 與角色依造型推測,品名未查證。與照片4、6 同組(邊緣可見相鄰娃娃)。",
+   "confidence": "high",
+   "notes": "2026-10-26 補回。虎斑色、鼻上有疤、灰色披布;IP 與角色依造型推測,品名未查證。與照片4、6 同組(邊緣可見相鄰娃娃)。;Derek 2026-10-27 指認為ゴールデンカムイ どうぶつフォーゼマスコット (4)尾形百之助(ensky);官方頁 https://www.ensky.co.jp/item/19703.html ;全6種;尺寸約H105×W75×D70mm(依種類略異);材質ポリエステル等;附ボールチェーン;商品代碼 4970381634933;價格1,800円(稅抜)/1,980円(稅込);官方頁標示「再販」,再販預定2026年11月發售(官方宣傳圖),初版發售日官方頁未載(不填);與原照虎斑橘色動物造型、臉上疤紋、灰色披布、肉球一致;官方圖 https://www.enskyshop.com/html/upload/save_image/1111163957_6731b4cdb9be7.jpg 取中央正面裁切;查證日 2026-10-27",
    "code": "N63"
   },
   {
    "id": "goldenkamuy_unknown-bear-plaid_134131",
-   "name_ja": "",
-   "name_en": "",
-   "name_zh": "黃金神威風 動物造型娃娃(棕熊・黃格紋圍巾,角色待確認)",
+   "name_ja": "ゴールデンカムイ どうぶつフォーゼマスコット (1)杉元佐一",
+   "name_en": "Golden Kamuy Animal-Pose Mascot (1) Sugimoto Saichi (self-translated)",
+   "name_zh": "黃金神威 動物變身造型吊飾玩偶 (1)杉元佐一(自譯)",
    "ip": "黃金神威(ゴールデンカムイ)",
    "character": "未確認(推測)",
-   "maker": "",
-   "line": "",
+   "maker": "ensky(エンスカイ)",
+   "line": "ゴールデンカムイ どうぶつフォーゼマスコット(全6種)",
    "type": "plush",
    "year": "",
    "category": [
     "動畫",
     "絨毛娃娃"
    ],
-   "keywords": [],
+   "keywords": [
+    "杉元佐一",
+    "どうぶつフォーゼ",
+    "ensky",
+    "ゴールデンカムイ",
+    "ヒグマ"
+   ],
    "source_images": [
     "raw/P_20261026_134131_6.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_134131_6.jpg",
+   "main_image": "box/goldenkamuy_dobutsu_sugimoto_134131_6.jpg",
    "photos": [
+    "box/goldenkamuy_dobutsu_sugimoto_134131_6.jpg",
     "raw/P_20261026_134131_6.jpg"
    ],
-   "confidence": "low",
-   "notes": "2026-10-26 補回。棕色熊、黃色格紋圍巾、藍色披肩、頭戴帽;IP 依造型推測,品名未查證。",
+   "confidence": "high",
+   "notes": "2026-10-26 補回。棕色熊、黃色格紋圍巾、藍色披肩、頭戴帽;IP 依造型推測,品名未查證。;Derek 2026-10-27 指認為ゴールデンカムイ どうぶつフォーゼマスコット (1)杉元佐一(ensky);官方頁 https://www.ensky.co.jp/item/19700.html ;全6種;尺寸約H105×W75×D70mm(依種類略異);材質ポリエステル等;附ボールチェーン;價格1,800円(稅抜)/1,980円(稅込);商品代碼 4970381634902;官方頁標示「再販」;與原照棕色動物造型、黃格紋圍巾、藍披肩、頭戴帽一致;官方圖 https://www.enskyshop.com/html/upload/save_image/1111163453_6731b39d375c6.jpg 取中央正面裁切;發售日官方頁未載(不填);查證日 2026-10-27",
    "code": "N64"
   },
   {
@@ -2471,15 +2488,15 @@
   },
   {
    "id": "natsume_nyanko-sensei_cushion-bandai_134131",
-   "name_ja": "",
-   "name_en": "Natsume's Book of Friends Nyanko-sensei cushion with mini plush (Bandai)",
-   "name_zh": "夏目友人帳 貓咪老師 靠墊 附小公仔(BANDAI吊牌)",
+   "name_ja": "たいやきぬいぐるみ(ニャンコ先生)",
+   "name_en": "Nyanko-sensei on Taiyaki Plush (self-translated)",
+   "name_zh": "鯛魚燒造型玩偶(貓咪老師趴睡款,自譯)",
    "ip": "夏目友人帳",
    "character": "ニャンコ先生",
-   "maker": "BANDAI",
-   "line": "",
-   "type": "other",
-   "year": "",
+   "maker": "BANDAI SPIRITS",
+   "line": "一番くじ 夏目友人帳～ニャンコ先生とはんなり和すいーつ～ A賞 たいやきぬいぐるみ",
+   "type": "plush",
+   "year": "2019",
    "category": [
     "動畫",
     "靠墊"
@@ -2494,12 +2511,13 @@
     "P_20261026_134131_11.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_134131_11.jpg",
+   "main_image": "box/natsume_ichiban_a_taiyaki_134131_11.jpg",
    "photos": [
+    "box/natsume_ichiban_a_taiyaki_134131_11.jpg",
     "raw/P_20261026_134131_11.jpg"
    ],
-   "confidence": "low",
-   "notes": "照片11:橘色貓形靠墊,上面趴著一隻白橘灰小貓公仔(紅項圈)。吊牌可見 BANDAI 字樣,疑似 2017 年バンダイ PC クッション或其他靠墊款,未確認。無官方圖。",
+   "confidence": "high",
+   "notes": "照片11:橘色貓形靠墊,上面趴著一隻白橘灰小貓公仔(紅項圈)。吊牌可見 BANDAI 字樣,疑似 2017 年バンダイ PC クッション或其他靠墊款,未確認。無官方圖。;Derek 2026-10-27 指認為一番くじ A賞;官方頁 https://1kuji.com/products/natsume28 ;A賞全1種,尺寸約45cm;與原照鯛魚燒本體(橘色、同花紋)及趴在上面的閉眼ニャンコ先生(原照可見紅項圈,官方圖角度看不到)一致(ラストワン賞為キラ目款,本件為閉眼故判為A賞);1回650円(稅込);店頭2019/06/21起順次發售;官方圖 https://assets.1kuji.com/uploads/product_item/image/16260/151fe410-43f5-4c79-bd6e-175c07c40641.jpg ;原備註「橘色貓形靠墊」誤,實為鯛魚燒造型;查證日 2026-10-27",
    "code": "N69"
   },
   {
