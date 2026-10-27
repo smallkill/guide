@@ -2358,34 +2358,38 @@
   },
   {
    "id": "chainsaw-man_makima_cat-hood_134131",
-   "name_ja": "",
-   "name_en": "Chainsaw Man Makima cat-hood plush",
-   "name_zh": "鏈鋸人 瑪奇瑪 貓耳帽造型 公仔",
+   "name_ja": "チェンソーマン あにずきん(ぬいぐるみマスコット) パワー",
+   "name_en": "Chainsaw Man Anizukin Plush Mascot - Power (self-translated)",
+   "name_zh": "鏈鋸人 Anizukin 頭套玩偶吊飾 帕瓦(自譯)",
    "ip": "鏈鋸人(チェンソーマン)",
    "character": "マキマ",
-   "maker": "",
-   "line": "",
+   "maker": "ムービック(Movic)",
+   "line": "あにずきん(ぬいぐるみマスコット)",
    "type": "plush",
-   "year": "",
+   "year": "2023",
    "category": [
     "動畫",
     "絨毛娃娃"
    ],
    "keywords": [
     "チェンソーマン",
-    "マキマ",
+    "パワー",
+    "あにずきん",
+    "ムービック",
+    "ずきん",
     "猫"
    ],
    "source_images": [
     "P_20261026_134131_7.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_134131_7.jpg",
+   "main_image": "box/chainsawman_anizukin_power_134131.jpg",
    "photos": [
+    "box/chainsawman_anizukin_power_134131.jpg",
     "raw/P_20261026_134131_7.jpg"
    ],
-   "confidence": "medium",
-   "notes": "照片7:瑪奇瑪(粉橘髮、金色眼)穿白色貓耳連帽造型,底部有 ©藤本タツキ 字樣。角色依髮色/眼色判斷為瑪奇瑪;廠商/系列未查證。無官方圖。",
+   "confidence": "high",
+   "notes": "照片7:瑪奇瑪(粉橘髮、金色眼)穿白色貓耳連帽造型,底部有 ©藤本タツキ 字樣。角色依髮色/眼色判斷為瑪奇瑪;廠商/系列未查證。無官方圖。;Derek 2026-10-27 指認為パワー(原判讀瑪奇瑪有誤,改正);ムービック「あにずきん」TVアニメ『チェンソーマン』版,Power=白色貓耳頭巾款,與原照(粉橘髮金眼、白貓耳連帽)一致;全5種(官方試作圖:デンジ/ポチタ/姫野/早川アキ/パワー,BOX販售1BOX5パック入、不保證全種);尺寸約直徑8cm(依角色而異);1個990円(稅込);發售日2023/08/04(アニメイト頁,2023-04-07 存檔版記載,預約階段資訊);素材 聚酯纖維/聚乙烯;官方圖來自アニメイト商品頁 https://www.animate-onlineshop.jp/pn/pd/2243899/ (經 web.archive.org 存檔,圖 https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4549743841403_1_1680775509.jpg),Power 部分裁切;駿河屋頁 403 未取得;movic.jp 自家頁未找到;查證日 2026-10-27",
    "code": "N65"
   },
   {
