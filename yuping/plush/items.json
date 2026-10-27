@@ -2108,60 +2108,37 @@
    "code": "N56"
   },
   {
-   "id": "unknown_white-open-mouth-small_133707_13",
-   "name_ja": "",
-   "name_en": "",
-   "name_zh": "白色小型毛絨(張嘴,疑似動物角色)",
-   "ip": "不明(待辨識)",
-   "character": "不明",
-   "maker": "",
-   "line": "",
-   "type": "plush",
-   "year": "",
-   "category": [
-    "絨毛娃娃"
-   ],
-   "keywords": [],
-   "source_images": [
-    "raw/P_20261026_133707_13.jpg"
-   ],
-   "box_image": "",
-   "main_image": "raw/P_20261026_133707_13.jpg",
-   "photos": [
-    "raw/P_20261026_133707_13.jpg"
-   ],
-   "confidence": "low",
-   "notes": "2026-10-26 補回。照片133707_13 中黃色圓糰旁、同一包裝內半露出的白色小角色,張嘴表情,角色不明。",
-   "code": "N57"
-  },
-  {
    "id": "unknown_yellow-bun_plush_133707",
-   "name_ja": "",
-   "name_en": "",
-   "name_zh": "黃色圓糰造型玩偶",
-   "ip": "不明(待辨識)",
+   "name_ja": "サンリオキャラクターズ ポムポムプリン マフィン ニコぬいキーホルダー マスコット",
+   "name_en": "Sanrio Pompompurin & Muffin Nikonui Keychain Mascot",
+   "name_zh": "布丁狗&馬芬 ニコぬい 吊飾玩偶組(三麗鷗)",
+   "ip": "サンリオ",
    "character": "不明(黃色圓糰、白色小角色並排)",
-   "maker": "",
-   "line": "",
+   "maker": "サンリオ",
+   "line": "ニコぬいキーホルダー",
    "type": "plush",
-   "year": "",
+   "year": "2025",
    "category": [
     "絨毛娃娃"
    ],
    "keywords": [
-    "黃色",
-    "圓糰"
+    "ポムポムプリン",
+    "マフィン",
+    "ニコぬい",
+    "サンリオ",
+    "吊飾"
    ],
    "source_images": [
     "P_20261026_133707_13.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_133707_13.jpg",
+   "main_image": "box/sanrio_pompompurin_muffin_niconui_133707_13.jpg",
    "photos": [
+    "box/sanrio_pompompurin_muffin_niconui_133707_13.jpg",
     "raw/P_20261026_133707_13.jpg"
    ],
-   "confidence": "low",
-   "notes": "包裝膜內黃色圓糰造型玩偶,旁邊露出一隻白色小角色(僅見半張臉與耳朵,無法辨識,依規則未建檔)。黃色玩偶本身角色不明,未查證到來源。",
+   "confidence": "high",
+   "notes": "包裝膜內黃色圓糰造型玩偶,旁邊露出一隻白色小角色(僅見半張臉與耳朵,無法辨識,依規則未建檔)。黃色玩偶本身角色不明,未查證到來源。;Derek 指認並以樂天(perfectworld-tokyo 5354-133186)比對:黃色圓糰=布丁狗、白色張嘴小角色=好朋友倉鼠馬芬,一組成套(原 N57 併入此項);吊牌「ニコぬいキーホルダー」;樂天頁尺寸約11×14×7cm、聚酯纖維、JAN 4550451331865、頁尾©2025 SANRIO;年份依頁面分類/版權年(2025),價格頁面讀不到未填;官方圖為樂天商品圖",
    "code": "N58"
   },
   {
@@ -2460,7 +2437,7 @@
    "id": "unknown_panda-like-black-white_134131",
    "name_ja": "",
    "name_en": "",
-   "name_zh": "黑白毛絨動物娃娃(角色待辨識)",
+   "name_zh": "黑白長毛犬造型玩偶(角色/品名待確認)",
    "ip": "不明(待辨識)",
    "character": "不明",
    "maker": "",
@@ -2470,17 +2447,22 @@
    "category": [
     "絨毛娃娃"
    ],
-   "keywords": [],
+   "keywords": [
+    "黑犬",
+    "額頭紅點",
+    "吊飾玩偶"
+   ],
    "source_images": [
     "raw/P_20261026_134131_10.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_134131_10.jpg",
+   "main_image": "box/black_dog_plush_134131_10.jpg",
    "photos": [
+    "box/black_dog_plush_134131_10.jpg",
     "raw/P_20261026_134131_10.jpg"
    ],
    "confidence": "low",
-   "notes": "2026-10-26 補回。黑白相間長毛絨毛娃娃,包裝內,疑似熊貓或黑白貓,無吊牌可讀。",
+   "notes": "2026-10-26 補回。黑白相間長毛絨毛娃娃,包裝內,疑似熊貓或黑白貓,無吊牌可讀。;官方圖由 Derek 提供(黑犬、白胸、黃眼、額頭六個紅點圓圈、頂端掛環;圖註「画像は試作品を撮影したもの」),與原照黑白長毛吻合。疑似呪術廻戦 玉犬・黒,但未證實:已查 ムービック玉犬ぬいぐるみキーチェーンセット(2021/3,約15×10×18cm)、FuRyu/GiGO 玉犬(黑)(額頭為紅色三角印,外觀不同)、タイトー フェイスぬいぐるみ,皆無法對上六點圓圈圖,故品名/廠商/年份未填",
    "code": "N68"
   },
   {
