@@ -1546,30 +1546,40 @@
   },
   {
    "id": "unknown_beige-hood-brown-face_133212",
-   "name_ja": "",
-   "name_en": "",
-   "name_zh": "",
-   "ip": "不明(待辨識)",
+   "name_ja": "すずめ スーパーもーちもちぬいぐるみ「すみっコぐらし」",
+   "name_en": "Sumikkogurashi Super Mochimochi Plush (Suzume / Sparrow)",
+   "name_zh": "角落生物 麻雀 超Q彈絨毛娃娃(約8×11.5×16cm)",
+   "ip": "角落生物(すみっコぐらし)",
    "character": "不明(米色連帽、褐色臉罩)",
-   "maker": "",
-   "line": "",
+   "maker": "San-X(サンエックス)",
+   "line": "スーパーもーちもちぬいぐるみ",
    "type": "plush",
-   "year": "",
+   "year": "2018",
    "category": [
     "角落生物",
     "絨毛娃娃"
    ],
-   "keywords": [],
+   "keywords": [
+    "すみっコぐらし",
+    "角落生物",
+    "すずめ",
+    "麻雀",
+    "スーパーもーちもち",
+    "ぬいぐるみ",
+    "サンエックス",
+    "MX79201"
+   ],
    "source_images": [
     "raw/P_20261026_133212_13.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_133212_13.jpg",
+   "main_image": "box/sumikko_suzume_super-mochimochi_133212.jpg",
    "photos": [
+    "box/sumikko_suzume_super-mochimochi_133212.jpg",
     "raw/P_20261026_133212_13.jpg"
    ],
-   "confidence": "low",
-   "notes": "米色連帽、褐色大面部與耳朵,可能為動物裝扮。角色不明,未編造。",
+   "confidence": "high",
+   "notes": "米色連帽、褐色大面部與耳朵,可能為動物裝扮。角色不明,未編造。;Derek 指認:すずめ スーパーもーちもちぬいぐるみ(駿河屋 https://www.suruga-ya.jp/product/detail/646098629 ,該頁 403 無法直接讀)。經查為 San-X 一般商品,品番 MX79201、JAN 4974413721806,發售 2018-10-06,定價 968円(駿河屋買取頁 https://www.suruga-ya.jp/kaitori/kaitori_detail/646098629 搜尋摘要;San-X 官方網路商店 SMG1618 定價1,100円稅込),尺寸約80×115×160mm。非 SEGA 景品(未見景品版資訊);Derek 稱景品,可能為景品流通/店家分類,待確認。官方圖缺(shop.san-x.co.jp 憑證錯誤未讀),圖為 Yahoo!購物 サンドラッグe-shop 商品圖備援 https://store.shopping.yahoo.co.jp/sundrugec/4974413721806.html",
    "code": "N41"
   },
   {
