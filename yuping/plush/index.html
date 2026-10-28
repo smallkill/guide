@@ -5,156 +5,20 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>娃娃收藏(待確認)</title>
+<link rel="stylesheet" href="../../assets/catalog-viewer.css?v=20261028">
+<script src="../../assets/catalog-viewer.js?v=20261028"></script>
 <style>
+  :root{
+    --bg:#0f1115; --panel:#171a21; --panel2:#1e222b; --line:#2a2f3a;
+    --txt:#e8eaed; --dim:#9aa3b2; --accent:#ff4f8b; --accent2:#7cf2ff;
+    --ok:#3ecf8e; --warn:#e0a53a;
+  }
   .intro{margin:8px 0;padding:8px 12px;background:var(--panel2);border:1px solid var(--line);border-radius:8px;font-size:13px;color:var(--dim);line-height:1.6}
   .intro b{color:var(--accent2)}
   .code{position:absolute;top:6px;left:6px;background:var(--accent);color:#fff;font-weight:700;font-size:13px;padding:2px 7px;border-radius:6px;z-index:2}
   .cf{display:inline-block;font-size:11px;padding:1px 7px;border-radius:5px;margin-left:6px;background:var(--panel2);border:1px solid var(--line);vertical-align:middle}
   .cf.low{background:var(--warn);color:#000}
   .mcode{display:inline-block;background:var(--accent);color:#fff;padding:1px 9px;border-radius:6px;margin-right:8px;font-size:.8em}
-
-  :root{
-    --bg:#0f1115; --panel:#171a21; --panel2:#1e222b; --line:#2a2f3a;
-    --txt:#e8eaed; --dim:#9aa3b2; --accent:#ff4f8b; --accent2:#7cf2ff;
-  .back{display:inline-block;color:var(--dim);font-size:12px;text-decoration:none;margin-right:8px}
-  .back:hover{text-decoration:underline}
-    --ok:#3ecf8e; --warn:#e0a53a;
-  }
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--txt);
-    font-family:"Noto Sans TC",system-ui,-apple-system,"Segoe UI",sans-serif;}
-  header{position:sticky;top:0;z-index:20;background:rgba(15,17,21,.95);
-    backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:14px 16px}
-  .wrap{max-width:1100px;margin:0 auto}
-  h1{margin:0;font-size:20px;letter-spacing:.5px}
-  h1 .r{color:var(--accent)} h1 .y{color:var(--accent2)}
-  .sub{color:var(--dim);font-size:12px;margin-top:2px}
-  .search{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}
-  #q{flex:1;min-width:200px;background:var(--panel2);border:1px solid var(--line);
-    color:var(--txt);border-radius:10px;padding:11px 14px;font-size:15px;outline:none}
-  #q:focus{border-color:var(--accent)}
-  .chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
-  .chip{background:var(--panel2);border:1px solid var(--line);color:var(--dim);
-    border-radius:999px;padding:5px 12px;font-size:12px;cursor:pointer;user-select:none}
-  .chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
-  .modes{display:flex;gap:6px;margin-top:10px}
-  .mchip{background:var(--panel2);border:1px solid var(--line);color:var(--dim);
-    border-radius:8px;padding:6px 14px;font-size:13px;cursor:pointer;user-select:none;font-weight:600}
-  .mchip.on{background:var(--accent2);border-color:var(--accent2);color:#000}
-  .count{color:var(--dim);font-size:12px;margin:14px 16px 0}
-  #grid{padding-bottom:40px}
-  .gsec{max-width:1100px;margin:0 auto}
-  .ghdr{display:flex;align-items:center;gap:8px;margin:22px 16px 4px;
-    font-size:15px;font-weight:700;color:var(--txt);border-left:3px solid var(--accent);padding-left:10px}
-  .ghdr span{font-size:11px;font-weight:500;color:var(--dim);
-    background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:1px 8px}
-  .grid{margin:8px auto 8px;padding:0 12px;
-    display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
-  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;
-    overflow:hidden;cursor:pointer;transition:.15s;display:flex;flex-direction:column}
-  .card:hover{border-color:var(--accent);transform:translateY(-2px)}
-  .thumb{aspect-ratio:1/1;background:#0b0d11 center/contain no-repeat;
-    display:flex;align-items:center;justify-content:center}
-  .thumb.none{color:#404757;font-size:34px}
-  .badges{position:absolute;margin:6px;display:flex;gap:4px}
-  .cardhead{position:relative}
-  .num{position:absolute;top:6px;left:6px;background:var(--accent);color:#fff;
-    font-size:11px;font-weight:700;padding:2px 7px;border-radius:6px}
-  .lc{position:absolute;top:6px;right:6px;background:var(--warn);color:#000;
-    font-size:10px;padding:2px 6px;border-radius:6px}
-  .own{position:absolute;bottom:6px;left:6px;background:var(--accent2);color:#000;
-    font-size:10px;font-weight:700;padding:2px 6px;border-radius:6px}
-  .meta{padding:8px 10px}
-  .nm{font-size:13px;line-height:1.35;font-weight:600}
-  .nsub{font-size:11px;color:var(--dim);margin-top:3px;
-    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .yr{font-size:11px;color:var(--accent2);margin-top:4px}
-  /* modal */
-  .modal{position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:50;
-    display:none;align-items:center;justify-content:center;padding:16px}
-  .modal.on{display:flex}
-  .box{background:var(--panel);border:1px solid var(--line);border-radius:16px;
-    max-width:620px;width:100%;max-height:90vh;overflow:auto}
-  .box img{width:100%;background:#0b0d11;display:block;max-height:52vh;object-fit:contain}
-  .strip{display:flex;gap:6px;overflow-x:auto;padding:8px 10px;background:#0b0d11;border-top:1px solid var(--line)}
-  .pth{position:relative;flex:0 0 auto;width:64px;height:64px;border:2px solid transparent;
-    border-radius:8px;overflow:hidden;cursor:pointer;background:#000}
-  .pth.on{border-color:var(--accent)}
-  .pth img{width:100%;height:100%;object-fit:cover;max-height:none}
-  .pth span{position:absolute;left:0;right:0;bottom:0;font-size:9px;text-align:center;
-    background:rgba(0,0,0,.7);color:#fff;padding:1px 0}
-  .pth.mine span{background:var(--accent2);color:#000}
-  .box .body{padding:16px}
-  .box h2{margin:0 0 4px;font-size:19px}
-  .kv{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin-top:12px;font-size:13px}
-  .kv b{color:var(--dim);font-weight:500}
-  .tags{margin-top:10px;display:flex;gap:6px;flex-wrap:wrap}
-  .tag{background:var(--panel2);border:1px solid var(--line);border-radius:6px;
-    padding:2px 8px;font-size:11px;color:var(--dim)}
-  .close{position:sticky;top:8px;z-index:6;display:block;float:none;margin:8px 8px -40px auto;background:#000a;border:0;
-    color:#fff;width:32px;height:32px;border-radius:50%;font-size:18px;cursor:pointer}
-  .note{margin-top:10px;font-size:12px;color:var(--warn);line-height:1.5}
-  a{color:var(--accent2)}
-  .hrow{display:flex;align-items:center;justify-content:space-between;gap:8px}
-  .tgl{display:inline-block;background:var(--panel2);border:1px solid var(--line);color:var(--txt);
-    border-radius:8px;padding:6px 12px;font-size:13px;cursor:pointer;white-space:nowrap}
-  .tgl.act{border-color:var(--accent);color:var(--accent)}
-  header.collapsed .panel{display:none}
-  @media (max-width:700px){
-    header{padding:10px 12px}
-  }
-
-  /* 照片模式 */
-  .views{display:flex;align-items:center;gap:6px;margin-top:10px}
-  .views .vl{color:var(--dim);font-size:12px;margin-right:2px}
-  .vchip{background:var(--panel2);border:1px solid var(--line);color:var(--dim);border-radius:8px;
-    padding:6px 14px;font-size:13px;cursor:pointer;font-weight:600;font-family:inherit}
-  .vchip.on{background:var(--txt);border-color:var(--txt);color:#000}
-  .vchip:focus-visible,.sbtn:focus-visible,.slides:focus-visible{outline:2px solid var(--accent2);outline-offset:2px}
-  .grid.pgrid{grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:14px}
-  .pcard .meta{padding:12px 14px 14px}
-  .pcard .nm{font-size:16px;line-height:1.35}
-  .pcard .nja{font-size:12px;color:var(--dim);margin-top:2px}
-  .pills{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
-  .pill{background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:2px 9px;font-size:11px;color:var(--accent2)}
-  .pnote{margin-top:8px;font-size:12px;line-height:1.55;color:var(--dim);display:-webkit-box;
-    -webkit-line-clamp:3;line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-  .pcode{position:absolute;top:8px;left:8px;z-index:3;pointer-events:none;background:var(--accent);color:#fff;
-    font-weight:700;font-size:12px;padding:3px 9px;border-radius:999px}
-  .pcf{position:absolute;top:8px;right:8px;z-index:3;pointer-events:none;font-size:10px;padding:3px 8px;
-    border-radius:999px;background:#000a;color:var(--dim);border:1px solid var(--line)}
-  .pcf.low{background:var(--warn);color:#000;border-color:var(--warn)}
-  .pcf.high{color:var(--ok);border-color:var(--ok)}
-  .slider{position:relative;background:#0b0d11}
-  .pcard .slider{height:300px}
-  .pcard .thumb.none{height:300px;aspect-ratio:auto}
-  .slides{display:flex;height:100%;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;
-    scrollbar-width:none;-webkit-overflow-scrolling:touch}
-  .slides::-webkit-scrollbar{display:none}
-  .sl{flex:0 0 100%;scroll-snap-align:center;position:relative;height:100%;min-width:0}
-  .sl img{width:100%;height:100%;object-fit:contain;display:block;max-height:none;background:#0b0d11}
-  .pl{position:absolute;left:8px;bottom:8px;font-size:10px;font-weight:700;padding:2px 7px;border-radius:6px;
-    background:#000b;color:#fff;pointer-events:none}
-  .pl.mine{background:var(--accent2);color:#000}
-  .dots{position:absolute;left:0;right:0;bottom:8px;display:flex;justify-content:center;gap:5px;pointer-events:none}
-  .dots i{width:6px;height:6px;border-radius:50%;background:#fff5;box-shadow:0 0 2px #000}
-  .dots i.on{background:#fff}
-  .sbtn{display:none;position:absolute;top:50%;transform:translateY(-50%);z-index:4;width:32px;height:32px;
-    border-radius:50%;border:0;background:#000a;color:#fff;font-size:20px;line-height:1;cursor:pointer;padding:0}
-  .sbtn.prev{left:6px}.sbtn.next{right:6px}
-  @media (hover:hover) and (pointer:fine){
-    .slider:hover .sbtn,.slider:focus-within .sbtn{display:block}
-  }
-  .msl{height:52vh;max-height:480px}
-  /* 縮圖卡也可左右滑 */
-  .tsl{aspect-ratio:1/1}
-  .tsl .sl{scroll-snap-stop:always}
-  .tsl .pl{display:none}
-  .tsl .dots{bottom:5px;gap:4px}
-  .tsl .dots i{width:5px;height:5px}
-  .tsl .sbtn{width:26px;height:26px;font-size:17px}
-  .tsl .sbtn.prev{left:4px}.tsl .sbtn.next{right:4px}
-  .cardhead>span{pointer-events:none}
 </style>
 </head>
 <body>
@@ -171,183 +35,66 @@
   <div class="search">
     <input id="q" placeholder="搜尋(可輸入代號如 N12):角色 / 作品 / 廠商 / 系列(如 初音、ぼっち、SEGA、一番くじ)" autocomplete="off">
   </div>
-  <div class="modes" id="modes">
-    <span class="mchip on" data-m="ip">依作品</span>
-    <span class="mchip" data-m="maker">依廠商</span>
-    <span class="mchip" data-m="type">依類型</span>
-  </div>
+  <div class="modes" id="modes"></div>
   <div class="chips" id="chips"></div>
   </div>
 </div></header>
 <div class="count" id="count"></div>
 <div id="grid"></div>
 
-<div class="modal" id="modal">
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="詳細資料">
   <div class="box">
-    <button class="close" id="close">×</button>
+    <button class="close" id="close" type="button" aria-label="關閉">×</button>
     <div id="mimg"></div>
     <div class="body" id="mbody"></div>
   </div>
 </div>
 
 <script>
-let ITEMS=[], FILTER=null, MODE='ip', BUILD='';
-const IMG=p=>esc(`images/${encodeURI(p)}${BUILD?('?v='+encodeURIComponent(BUILD)):''}`); // 先編碼再跳脫:也用在 url('...') 與屬性裡
-const $=s=>document.querySelector(s), grid=$('#grid');
-const TYPE_LABEL={figure:'公仔 / 模型',plush:'玩偶',other:'其他'};
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-
-function imgHtml(c,cls){
-  if(c.main_image) return `<div class="thumb ${cls||''}" style="background-image:url('${IMG(c.main_image)}')"></div>`;
-  return `<div class="thumb none ${cls||''}">🎁</div>`;
-}
-function cardThumb(c){
-  const lc=c.confidence==='low'?`<span class="lc">信心低</span>`:'';
-  const name=c.name_zh||c.name_en||c.name_ja||c.id;
-  const sub=[c.maker,c.line].filter(Boolean).join(' · ');
-  return `<div class="card" data-id="${esc(c.id)}">
-    <div class="cardhead">${thumbImg(c)}<span class="code">${esc(c.code)}</span>${lc}</div>
-    <div class="meta"><div class="nm">${esc(c.code)} ${esc(name)}</div>
-    <div class="nsub" title="${esc(sub)}">${esc(sub)}</div>
-    ${c.year?`<div class="yr">${esc(c.year)}</div>`:''}</div></div>`;
-}
-function groupKey(c){ return MODE==='maker'?(c.maker||'其他'):MODE==='type'?(TYPE_LABEL[c.type]||'其他'):(c.ip||'其他'); }
-function render(){
-  const q=$('#q').value.trim().toLowerCase();
-  let list=ITEMS.filter(c=>{
-    if(!q) return true;
-    const hay=[c.name_zh,c.name_en,c.name_ja,c.ip,c.character,c.maker,c.line,c.id,c.code,
-      (c.category||[]).join(' '),(c.keywords||[]).join(' ')].join(' ').toLowerCase();
-    return q.split(/\s+/).every(t=>hay.includes(t));
-  });
-  if(FILTER) list=list.filter(c=>(c.category||[]).includes(FILTER));
-  const groups={};
-  list.forEach(c=>{(groups[groupKey(c)]=groups[groupKey(c)]||[]).push(c)});
-  const keys=Object.keys(groups).sort((a,b)=>groups[b].length-groups[a].length||a.localeCompare(b,'ja'));
-  grid.innerHTML=keys.map(k=>`<div class="gsec"><div class="ghdr">${esc(k)}<span>${groups[k].length}</span></div>
-    <div class="grid${VIEW==='photo'?' pgrid':''}">${groups[k].map(card).join('')}</div></div>`).join('')||`<div class="count">沒有符合的項目</div>`;
-  $('#count').textContent=`顯示 ${list.length} / ${ITEMS.length} 件`;
-}
-function plabel(p){ if(p.startsWith('raw/'))return['我拍的','mine']; if(p.startsWith('box/'))return['官方圖','']; return['',''] }
-function photoList(c){
-  let ps=(c.photos&&c.photos.length)?c.photos.slice():[];
-  if(!ps.length && c.main_image) ps=[c.main_image];
-  return ps;
-}
-function galleryHtml(c){
-  const ps=photoList(c);
-  if(!ps.length) return `<div class="thumb none" style="height:200px">🎁</div>`;
-  const name=c.name_zh||c.name_en||c.name_ja||c.id;
-  const main=sliderHtml(c,'msl',name);
-  if(ps.length===1) return main;
-  const strip=`<div class="strip">`+ps.map((p,i)=>{const[l,cl]=plabel(p);
-    return `<div class="pth ${cl}${i===0?' on':''}" data-i="${i}"><img src="${IMG(p)}" loading="lazy" alt="">${l?`<span>${l}</span>`:''}</div>`;}).join('')+`</div>`;
-  return main+strip;
-}
-function open(id,idx){
-  const c=ITEMS.find(x=>x.id===id); if(!c) return;
-  $('#mimg').innerHTML=galleryHtml(c);
-  const rows=[['中文名',c.name_zh],['英文名',c.name_en],['日文名',c.name_ja],['作品',c.ip],['角色',c.character],
-    ['廠商',c.maker],['系列',c.line],['類型',TYPE_LABEL[c.type]||c.type],['年份',c.year],
-    ['分類',(c.category||[]).join('、')]].filter(r=>r[1]);
-  const kv=rows.map(r=>`<b>${r[0]}</b><div>${esc(r[1])}</div>`).join('');
-  const tags=(c.keywords||[]).map(k=>`<span class="tag">${esc(k)}</span>`).join('');
-  const note=[c.confidence==='low'?'⚠️ 辨識信心低,待確認':'',c.notes?('📝 '+esc(c.notes)):''].filter(Boolean).join('<br>');
-  $('#mbody').innerHTML=`<h2><span class="mcode">${esc(c.code)}</span>${esc(c.name_zh||c.name_en||c.id)}<span class="cf ${c.confidence==='low'?'low':''}">信心:${esc({low:'低',medium:'中',med:'中',high:'高'}[c.confidence]||c.confidence||'?')}</span></h2><div class="kv">${kv}</div>
-    <div class="tags">${tags}</div>${note?`<div class="note">${note}</div>`:''}`;
-  $('#modal').classList.add('on');
-  const ms=$('#mimg').querySelector('.slides');
-  if(ms){ms.scrollLeft=Math.max(0,idx|0)*ms.clientWidth;updSlide(ms);}
-}
-// 滑動後放開不算點擊:位移 >10px 或 slides 有捲動就不開大圖
-let PD=null;
-grid.addEventListener('pointerdown',e=>{const s=e.target.closest('.slides');PD={x:e.clientX,y:e.clientY,s,l:s?s.scrollLeft:0}},true);
-function wasSwipe(e){const p=PD;PD=null;if(!p||!e.isTrusted||e.detail===0)return false;
-  return Math.hypot(e.clientX-p.x,e.clientY-p.y)>10||(p.s&&Math.abs(p.s.scrollLeft-p.l)>2);}
-grid.addEventListener('click',e=>{if(slideNav(e))return;if(wasSwipe(e))return;const t=e.target.closest('.card');if(t){const sl=t.querySelector('.slides');open(t.dataset.id,sl?Math.round(sl.scrollLeft/Math.max(1,sl.clientWidth)):0)}});
-$('#close').onclick=()=>$('#modal').classList.remove('on');
-$('#modal').addEventListener('click',e=>{if(e.target.id==='modal')$('#modal').classList.remove('on')});
-document.addEventListener('keydown',e=>{if(e.key==='Escape')$('#modal').classList.remove('on')});
-$('#mimg').addEventListener('click',e=>{if(slideNav(e))return;const t=e.target.closest('.pth');if(!t)return;
-  const s=$('#mimg').querySelector('.slides');if(s)s.scrollTo({left:(+t.dataset.i)*s.clientWidth,behavior:'smooth'});});
-$('#q').addEventListener('input',render);
-$('#modes').addEventListener('click',e=>{const t=e.target.closest('.mchip');if(!t)return;
-  MODE=t.dataset.m;$('#modes').querySelectorAll('.mchip').forEach(x=>x.classList.toggle('on',x===t));render();});
-
-// ===== 照片模式 / 左右滑動 =====
-const VKEY='viewMode:'+location.pathname;
-let VIEW='thumb';
-try{VIEW=localStorage.getItem(VKEY)==='photo'?'photo':'thumb'}catch(_){}
-const CONF_LABEL={low:'信心低',medium:'信心中',med:'信心中',high:'信心高'};
-function sliderHtml(c,cls,label){
-  const ps=photoList(c);
-  if(!ps.length) return `<div class="thumb none ${cls}">🎁</div>`;
-  const sl=ps.map(p=>{const[l,k]=plabel(p);
-    return `<div class="sl"><img src="${IMG(p)}" loading="lazy" alt="${esc(label)}">${l?`<span class="pl ${k}">${l}</span>`:''}</div>`}).join('');
-  const multi=ps.length>1;
-  return `<div class="slider ${cls}"><div class="slides" role="group" aria-label="${esc(label)} 照片" ${multi?'tabindex="0"':''}>${sl}</div>`+
-    (multi?`<div class="dots" aria-hidden="true">${ps.map((_,i)=>`<i${i?'':' class="on"'}></i>`).join('')}</div>
-    <button type="button" class="sbtn prev" aria-label="上一張">‹</button><button type="button" class="sbtn next" aria-label="下一張">›</button>`:'')+`</div>`;
-}
-function cardPhoto(c){
-  const name=c.name_zh||c.name_en||c.name_ja||c.id;
-  const cf=c.confidence?`<span class="pcf ${esc(c.confidence)}">${esc(CONF_LABEL[c.confidence]||c.confidence)}</span>`:'';
-  const code=c.code||'';
-  const pills=[c.ip,c.maker,c.year].filter(Boolean).map(x=>`<span class="pill">${esc(x)}</span>`).join('');
-  return `<div class="card pcard" data-id="${esc(c.id)}">
-    <div class="cardhead">${sliderHtml(c,'',name)}${code?`<span class="pcode">${esc(code)}</span>`:''}${cf}</div>
-    <div class="meta"><div class="nm">${esc(name)}</div>${c.name_ja&&c.name_ja!==name?`<div class="nja">${esc(c.name_ja)}</div>`:''}
-    ${pills?`<div class="pills">${pills}</div>`:''}${c.notes?`<div class="pnote">${esc(c.notes)}</div>`:''}</div></div>`;
-}
-function card(c){ return VIEW==='photo'?cardPhoto(c):cardThumb(c); }
-// 縮圖卡:多張照片才用滑動條(單張維持原本靜態縮圖)
-function thumbImg(c){
-  return photoList(c).length>1?sliderHtml(c,'tsl',c.name_zh||c.name_en||c.name_ja||c.id):imgHtml(c);
-}
-function slideNav(e){
-  const b=e.target.closest('.sbtn'); if(!b) return false;
-  e.stopPropagation();
-  const s=b.parentNode.querySelector('.slides');
-  // 用絕對位置(Firefox + scroll-snap-stop 下 scrollBy 會卡在原地)
-  const w=Math.max(1,s.clientWidth),i=Math.round(s.scrollLeft/w)+(b.classList.contains('next')?1:-1);
-  s.scrollTo({left:Math.max(0,Math.min(s.children.length-1,i))*w,behavior:'smooth'});
-  return true;
-}
-function updSlide(s){
-  const i=Math.round(s.scrollLeft/Math.max(1,s.clientWidth));
-  const box=s.parentNode;
-  box.querySelectorAll('.dots i').forEach((d,j)=>d.classList.toggle('on',j===i));
-  const m=s.closest('#mimg'); if(m) m.querySelectorAll('.pth').forEach((x,j)=>x.classList.toggle('on',j===i));
-}
-document.addEventListener('scroll',e=>{const t=e.target;if(t&&t.classList&&t.classList.contains('slides'))updSlide(t)},true);
-function syncViews(){document.querySelectorAll('.vchip').forEach(b=>{const on=b.dataset.v===VIEW;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)})}
-document.getElementById('views').addEventListener('click',e=>{const t=e.target.closest('.vchip');if(!t)return;
-  VIEW=t.dataset.v==='photo'?'photo':'thumb';try{localStorage.setItem(VKEY,VIEW)}catch(_){}
-  syncViews();render();});
-syncViews();
-
-fetch('items.json?v='+Date.now()).then(r=>r.json()).then(d=>{
-  ITEMS=d.items||[]; BUILD=d.build||'';
-  const withImg=ITEMS.filter(c=>c.main_image).length, low=ITEMS.filter(c=>c.confidence==='low').length;
-  $('#sub').textContent=`${ITEMS.length} 件 · ${ITEMS.filter(c=>(c.main_image||'').startsWith('box/')).length} 有官方圖${low?` · ${low} 信心低`:''} · 更新 ${d.updated||''}`;
-  const cats={};ITEMS.forEach(c=>(c.category||[]).forEach(k=>cats[k]=(cats[k]||0)+1));
-  $('#chips').innerHTML=Object.entries(cats).sort((a,b)=>b[1]-a[1]).slice(0,14)
-    .map(([k,n])=>`<span class="chip" data-k="${esc(k)}">${esc(k)} ${n}</span>`).join('');
-  $('#chips').addEventListener('click',e=>{const t=e.target.closest('.chip');if(!t)return;
-    FILTER=FILTER===t.dataset.k?null:t.dataset.k;
-    $('#chips').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.k===FILTER));render();});
-  render();
-}).catch(e=>{$('#sub').textContent='items.json 載入失敗:'+e});
-
-// 功能區可收合(所有螢幕);手機或矮螢幕預設收起,點「篩選」展開
+// 共用檢視器:../../assets/catalog-viewer.js(行為改那裡,四頁一起生效)
 (function(){
-  const h=document.querySelector('header'),b=document.getElementById('tgl'),q=document.getElementById('q');
-  const sync=()=>{const open=!h.classList.contains('collapsed');
-    const on=q.value.trim()||document.querySelector('#chips .chip.on');
-    b.textContent=(open?'收起 ▴':'篩選 / 搜尋 ▾');b.classList.toggle('act',!open&&!!on);};
-  if(matchMedia('(max-width:700px), (max-height:900px)').matches)h.classList.add('collapsed');
-  b.addEventListener('click',()=>{h.classList.toggle('collapsed');sync();});
-  q.addEventListener('input',sync);sync();
+const esc=CatalogViewer.esc;
+const TYPE_LABEL={figure:'公仔 / 模型',plush:'玩偶',other:'其他'};
+const CONF_LABEL={low:'信心低',medium:'信心中',med:'信心中',high:'信心高'};
+const nameOf=c=>c.name_zh||c.name_en||c.name_ja||c.id;
+CatalogViewer.init({
+  json:'items.json',
+  parse:d=>({items:d.items||[],build:d.build||''}),
+  emptyIcon:'🎁',
+  photoLabel:p=>p.startsWith('raw/')?['我拍的','mine']:p.startsWith('box/')?['官方圖','']:['',''],
+  thumb:{
+    badges:c=>`<span class="code">${esc(c.code)}</span>`+(c.confidence==='low'?`<span class="lc">信心低</span>`:''),
+    meta:c=>{const sub=[c.maker,c.line].filter(Boolean).join(' · ');
+      return `<div class="nm">${esc(c.code)} ${esc(nameOf(c))}</div>
+    <div class="nsub" title="${esc(sub)}">${esc(sub)}</div>
+    ${c.year?`<div class="yr">${esc(c.year)}</div>`:''}`;}
+  },
+  photo:{
+    code:c=>c.code||'',
+    conf:c=>c.confidence?[c.confidence,CONF_LABEL[c.confidence]||c.confidence]:null,
+    pills:c=>[c.ip,c.maker,c.year]
+  },
+  detail:c=>{
+    const rows=[['中文名',c.name_zh],['英文名',c.name_en],['日文名',c.name_ja],['作品',c.ip],['角色',c.character],
+      ['廠商',c.maker],['系列',c.line],['類型',TYPE_LABEL[c.type]||c.type],['年份',c.year],
+      ['分類',(c.category||[]).join('、')]].filter(r=>r[1]);
+    const kv=rows.map(r=>`<b>${r[0]}</b><div>${esc(r[1])}</div>`).join('');
+    const tags=(c.keywords||[]).map(k=>`<span class="tag">${esc(k)}</span>`).join('');
+    const note=[c.confidence==='low'?'⚠️ 辨識信心低,待確認':'',c.notes?('📝 '+esc(c.notes)):''].filter(Boolean).join('<br>');
+    return `<h2><span class="mcode">${esc(c.code)}</span>${esc(c.name_zh||c.name_en||c.id)}<span class="cf ${c.confidence==='low'?'low':''}">信心:${esc({low:'低',medium:'中',med:'中',high:'高'}[c.confidence]||c.confidence||'?')}</span></h2><div class="kv">${kv}</div>
+    <div class="tags">${tags}</div>${note?`<div class="note">${note}</div>`:''}`;
+  },
+  search:c=>[c.name_zh,c.name_en,c.name_ja,c.ip,c.character,c.maker,c.line,c.id,c.code,c.category,c.keywords],
+  chips:{values:c=>c.category,top:14},
+  modes:[
+    {id:'ip',label:'依作品',key:c=>c.ip||'其他'},
+    {id:'maker',label:'依廠商',key:c=>c.maker||'其他'},
+    {id:'type',label:'依類型',key:c=>TYPE_LABEL[c.type]||'其他'}
+  ],
+  summary:(d,items)=>{const low=items.filter(c=>c.confidence==='low').length;
+    return `${items.length} 件 · ${items.filter(c=>(c.main_image||'').startsWith('box/')).length} 有官方圖${low?` · ${low} 信心低`:''} · 更新 ${d.updated||''}`;},
+  loadError:'items.json 載入失敗:'
+});
 })();
 </script>
 </body>
