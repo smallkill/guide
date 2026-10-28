@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-28",
- "build": "20261028095053",
+ "build": "20261028102449",
  "count": 86,
  "items": [
   {
@@ -1342,30 +1342,37 @@
   },
   {
    "id": "unknown_cream-fluffy_133212",
-   "name_ja": "すみっコぐらし ぬいぐるみ わた(推測)",
-   "name_en": "",
-   "name_zh": "角落生物 わた 玩偶(推測)",
+   "name_ja": "すみっコぐらし ぬいぐるみ(S)(夢みるしっぽず・えびてんのしっぽ)",
+   "name_en": "Sumikko Gurashi Plush (S) Yume Miru Shippozu - Ebiten no Shippo (Tempura Shrimp Tail)",
+   "name_zh": "角落生物 玩偶(S)(夢想尾巴團・炸蝦尾巴)",
    "ip": "角落生物(すみっコぐらし)",
    "character": "わた(推測)",
-   "maker": "San-X(推測)",
-   "line": "ぬいぐるみ",
+   "maker": "San-X",
+   "line": "夢みるしっぽず 主題 ぬいぐるみ(S)",
    "type": "plush",
-   "year": "",
+   "year": "2025",
    "category": [
     "角落生物",
     "絨毛娃娃"
    ],
-   "keywords": [],
+   "keywords": [
+    "えびてんのしっぽ",
+    "夢みるしっぽず",
+    "しっぽず",
+    "ぬいぐるみ(S)",
+    "San-X"
+   ],
    "source_images": [
     "raw/P_20261026_133212_6.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_133212_6.jpg",
+   "main_image": "box/sumikko_yumemiru_shippozu_ebiten_S.jpg",
    "photos": [
+    "box/sumikko_yumemiru_shippozu_ebiten_S.jpg",
     "raw/P_20261026_133212_6.jpg"
    ],
-   "confidence": "low",
-   "notes": "實拍:米白色捲毛絨球,頭頂粉紅色裝飾,黑點眼。依毛球造型推測為「わた」(官方介紹:只在被珍惜的玩偶裡才有的特別棉花);未找到同款官方圖。",
+   "confidence": "high",
+   "notes": "實拍:米白色捲毛絨球,頭頂粉紅色裝飾,黑點眼。依毛球造型推測為「わた」(官方介紹:只在被珍惜的玩偶裡才有的特別棉花);未找到同款官方圖。;Derek 2026-10-28 指認為「すみっコぐらし ぬいぐるみ(S)(夢みるしっぽず・えびてんのしっぽ)」(線索あみあみ GOODS-04617456,該站本環境無法連線)。外觀比對一致:米白捲毛絨球、頭頂粉紅尾巴、咖啡色點眼與小嘴,確認(原先推測「わた」為誤判)。San-X 2025「夢みるしっぽず」主題(えびてんのしっぽ組偶像團體「しっぽず」),價格990日圓(含稅),2025年4月下旬起陸續發售(依報導,確切日期未查到);尺寸未查到。name_zh/name_en 為自譯。來源:https://animeanime.jp/article/2025/04/29/90609.html (官方圖 https://animeanime.jp/imgs/zoom/764726.jpg,版權 (C)2025 SAN-X);查證日 2026-10-28",
    "code": "N34"
   },
   {
