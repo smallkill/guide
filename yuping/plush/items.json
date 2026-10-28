@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-28",
- "build": "20261028115013",
+ "build": "20261028151913",
  "count": 86,
  "items": [
   {
@@ -182,9 +182,9 @@
     "raw/P_20261026_132014_5.jpg"
    ],
    "box_image": "gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
-   "main_image": "box/gintama_3z_ponpon_sadaharu.jpg",
+   "main_image": "box/gintama_3z_ponpon_sadaharu_c.jpg",
    "photos": [
-    "box/gintama_3z_ponpon_sadaharu.jpg",
+    "box/gintama_3z_ponpon_sadaharu_c.jpg",
     "raw/P_20261026_132014_5.jpg"
    ],
    "confidence": "high",
@@ -222,9 +222,9 @@
     "raw/P_20261026_132014_6.jpg"
    ],
    "box_image": "gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
-   "main_image": "box/gintama_3z_ponpon_justaway.jpg",
+   "main_image": "box/gintama_3z_ponpon_justaway_c.jpg",
    "photos": [
-    "box/gintama_3z_ponpon_justaway.jpg",
+    "box/gintama_3z_ponpon_justaway_c.jpg",
     "raw/P_20261026_132014_6.jpg"
    ],
    "confidence": "high",
@@ -260,9 +260,9 @@
     "raw/P_20261026_132014_7.jpg"
    ],
    "box_image": "gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
-   "main_image": "box/gintama_3z_ponpon_elizabeth.jpg",
+   "main_image": "box/gintama_3z_ponpon_elizabeth_c.jpg",
    "photos": [
-    "box/gintama_3z_ponpon_elizabeth.jpg",
+    "box/gintama_3z_ponpon_elizabeth_c.jpg",
     "raw/P_20261026_132014_7.jpg"
    ],
    "confidence": "high",
@@ -1155,9 +1155,9 @@
     "raw/P_20261026_133212_1.jpg"
    ],
    "box_image": "",
-   "main_image": "box/sumikko_ebifurai-shippo_koinu-inugokko_utsubuse-big_133212.jpg",
+   "main_image": "box/sumikko_ebifurai-shippo_koinu-inugokko_utsubuse-big_133212_c.jpg",
    "photos": [
-    "box/sumikko_ebifurai-shippo_koinu-inugokko_utsubuse-big_133212.jpg",
+    "box/sumikko_ebifurai-shippo_koinu-inugokko_utsubuse-big_133212_c.jpg",
     "raw/P_20261026_133212_1.jpg"
    ],
    "confidence": "high",
@@ -1239,9 +1239,9 @@
     "raw/P_20261026_133212_3.jpg"
    ],
    "box_image": "",
-   "main_image": "box/sumikko_yama_koinu-inugokko_s_N31.jpg",
+   "main_image": "box/sumikko_yama_koinu-inugokko_s_N31_c.jpg",
    "photos": [
-    "box/sumikko_yama_koinu-inugokko_s_N31.jpg",
+    "box/sumikko_yama_koinu-inugokko_s_N31_c.jpg",
     "raw/P_20261026_133212_3.jpg"
    ],
    "confidence": "high",
@@ -1286,9 +1286,9 @@
     "raw/P_20261026_133212_4.jpg"
    ],
    "box_image": "",
-   "main_image": "box/N32_tapioka_pink_S.jpg",
+   "main_image": "box/N32_tapioka_pink_S_c.jpg",
    "photos": [
-    "box/N32_tapioka_pink_S.jpg",
+    "box/N32_tapioka_pink_S_c.jpg",
     "raw/P_20261026_133212_4.jpg"
    ],
    "confidence": "high",
@@ -1330,9 +1330,9 @@
     "raw/P_20261026_133212_5.jpg"
    ],
    "box_image": "",
-   "main_image": "box/sumikko_ebifurai-shippo_ichibankuji-E_inugokko_N33.jpg",
+   "main_image": "box/sumikko_ebifurai-shippo_ichibankuji-E_inugokko_N33_c.jpg",
    "photos": [
-    "box/sumikko_ebifurai-shippo_ichibankuji-E_inugokko_N33.jpg",
+    "box/sumikko_ebifurai-shippo_ichibankuji-E_inugokko_N33_c.jpg",
     "raw/P_20261026_133212_5.jpg"
    ],
    "confidence": "high",
@@ -1365,9 +1365,9 @@
     "raw/P_20261026_133212_6.jpg"
    ],
    "box_image": "",
-   "main_image": "box/sumikko_yumemiru_shippozu_ebiten_S.jpg",
+   "main_image": "box/sumikko_yumemiru_shippozu_ebiten_S_c.jpg",
    "photos": [
-    "box/sumikko_yumemiru_shippozu_ebiten_S.jpg",
+    "box/sumikko_yumemiru_shippozu_ebiten_S_c.jpg",
     "raw/P_20261026_133212_6.jpg"
    ],
    "confidence": "high",
@@ -1401,9 +1401,9 @@
     "raw/P_20261026_133212_7.jpg"
    ],
    "box_image": "",
-   "main_image": "box/sumikko_cube_chibi_mascot_tapioca.jpg",
+   "main_image": "box/sumikko_cube_chibi_mascot_tapioca_c.jpg",
    "photos": [
-    "box/sumikko_cube_chibi_mascot_tapioca.jpg",
+    "box/sumikko_cube_chibi_mascot_tapioca_c.jpg",
     "raw/P_20261026_133212_7.jpg"
    ],
    "confidence": "high",
@@ -1437,9 +1437,9 @@
     "raw/P_20261026_133212_8.jpg"
    ],
    "box_image": "",
-   "main_image": "box/sumikko_koinu_inugokko_face_chibi_mascot_shirokuma.jpg",
+   "main_image": "box/sumikko_koinu_inugokko_face_chibi_mascot_shirokuma_c.jpg",
    "photos": [
-    "box/sumikko_koinu_inugokko_face_chibi_mascot_shirokuma.jpg",
+    "box/sumikko_koinu_inugokko_face_chibi_mascot_shirokuma_c.jpg",
     "raw/P_20261026_133212_8.jpg"
    ],
    "confidence": "high",
@@ -1474,9 +1474,9 @@
     "raw/P_20261026_133212_9.jpg"
    ],
    "box_image": "",
-   "main_image": "box/sumikko_collection_2024_oshougatsu_shirokuma_tenori.jpg",
+   "main_image": "box/sumikko_collection_2024_oshougatsu_shirokuma_tenori_c.jpg",
    "photos": [
-    "box/sumikko_collection_2024_oshougatsu_shirokuma_tenori.jpg",
+    "box/sumikko_collection_2024_oshougatsu_shirokuma_tenori_c.jpg",
     "raw/P_20261026_133212_9.jpg"
    ],
    "confidence": "high",
@@ -1510,9 +1510,9 @@
     "raw/P_20261026_133212_10.jpg"
    ],
    "box_image": "",
-   "main_image": "box/N38_tokage_spooky_halloween.jpg",
+   "main_image": "box/N38_tokage_spooky_halloween_c.jpg",
    "photos": [
-    "box/N38_tokage_spooky_halloween.jpg",
+    "box/N38_tokage_spooky_halloween_c.jpg",
     "raw/P_20261026_133212_10.jpg"
    ],
    "confidence": "high",
@@ -1540,9 +1540,9 @@
     "raw/P_20261026_133212_11.jpg"
    ],
    "box_image": "sumikko_tokage_tenori-D.jpg",
-   "main_image": "box/sumikko_tokage_tenori-D.jpg",
+   "main_image": "box/sumikko_tokage_tenori-D_c.jpg",
    "photos": [
-    "box/sumikko_tokage_tenori-D.jpg",
+    "box/sumikko_tokage_tenori-D_c.jpg",
     "raw/P_20261026_133212_11.jpg"
    ],
    "confidence": "medium",
@@ -1579,9 +1579,9 @@
     "raw/P_20261026_133212_12.jpg"
    ],
    "box_image": "sumikko_ebifurai-no-shippo_s-2025.jpg",
-   "main_image": "box/sumikko_ebifurai-no-shippo_s-2025.jpg",
+   "main_image": "box/sumikko_ebifurai-no-shippo_s-2025_c.jpg",
    "photos": [
-    "box/sumikko_ebifurai-no-shippo_s-2025.jpg",
+    "box/sumikko_ebifurai-no-shippo_s-2025_c.jpg",
     "raw/P_20261026_133212_12.jpg"
    ],
    "confidence": "high",
@@ -1617,9 +1617,9 @@
     "raw/P_20261026_133212_13.jpg"
    ],
    "box_image": "",
-   "main_image": "box/sumikko_suzume_super-mochimochi_133212.jpg",
+   "main_image": "box/sumikko_suzume_super-mochimochi_133212_c.jpg",
    "photos": [
-    "box/sumikko_suzume_super-mochimochi_133212.jpg",
+    "box/sumikko_suzume_super-mochimochi_133212_c.jpg",
     "raw/P_20261026_133212_13.jpg"
    ],
    "confidence": "high",
@@ -2041,9 +2041,9 @@
     "P_20261026_133707_9.jpg"
    ],
    "box_image": "",
-   "main_image": "box/sumikko_pan_nekopan_133707_9.jpg",
+   "main_image": "box/sumikko_pan_nekopan_133707_9_c.jpg",
    "photos": [
-    "box/sumikko_pan_nekopan_133707_9.jpg",
+    "box/sumikko_pan_nekopan_133707_9_c.jpg",
     "raw/P_20261026_133707_9.jpg"
    ],
    "confidence": "high",
@@ -2317,9 +2317,9 @@
     "raw/P_20261026_134131_4.jpg"
    ],
    "box_image": "",
-   "main_image": "box/ensky_goldenkamuy_doubutsu_phose_asirpa.jpg",
+   "main_image": "box/ensky_goldenkamuy_doubutsu_phose_asirpa_c.jpg",
    "photos": [
-    "box/ensky_goldenkamuy_doubutsu_phose_asirpa.jpg",
+    "box/ensky_goldenkamuy_doubutsu_phose_asirpa_c.jpg",
     "raw/P_20261026_134131_4.jpg"
    ],
    "confidence": "high",
@@ -2352,9 +2352,9 @@
     "raw/P_20261026_134131_5.jpg"
    ],
    "box_image": "",
-   "main_image": "box/goldenkamuy_dobutsu_ogata_134131_5.jpg",
+   "main_image": "box/goldenkamuy_dobutsu_ogata_134131_5_c.jpg",
    "photos": [
-    "box/goldenkamuy_dobutsu_ogata_134131_5.jpg",
+    "box/goldenkamuy_dobutsu_ogata_134131_5_c.jpg",
     "raw/P_20261026_134131_5.jpg"
    ],
    "confidence": "high",
@@ -2387,9 +2387,9 @@
     "raw/P_20261026_134131_6.jpg"
    ],
    "box_image": "",
-   "main_image": "box/goldenkamuy_dobutsu_sugimoto_134131_6.jpg",
+   "main_image": "box/goldenkamuy_dobutsu_sugimoto_134131_6_c.jpg",
    "photos": [
-    "box/goldenkamuy_dobutsu_sugimoto_134131_6.jpg",
+    "box/goldenkamuy_dobutsu_sugimoto_134131_6_c.jpg",
     "raw/P_20261026_134131_6.jpg"
    ],
    "confidence": "high",
@@ -2504,9 +2504,9 @@
     "P_20261026_134131_9.jpg"
    ],
    "box_image": "",
-   "main_image": "box/pokemon_tandemaus-hotdog_kuji-peace3-f3.jpg",
+   "main_image": "box/pokemon_tandemaus-hotdog_kuji-peace3-f3_c.jpg",
    "photos": [
-    "box/pokemon_tandemaus-hotdog_kuji-peace3-f3.jpg",
+    "box/pokemon_tandemaus-hotdog_kuji-peace3-f3_c.jpg",
     "raw/P_20261026_134131_9.jpg"
    ],
    "confidence": "high",
@@ -2608,9 +2608,9 @@
     "raw/P_20261026_134634_1.jpg"
    ],
    "box_image": "pokemon_polteageist-magic-hour_134634_1.jpg",
-   "main_image": "box/pokemon_polteageist-magic-hour_134634_1.jpg",
+   "main_image": "box/pokemon_polteageist-magic-hour_134634_1_c.jpg",
    "photos": [
-    "box/pokemon_polteageist-magic-hour_134634_1.jpg",
+    "box/pokemon_polteageist-magic-hour_134634_1_c.jpg",
     "raw/P_20261026_134634_1.jpg"
    ],
    "confidence": "high",
@@ -2643,9 +2643,9 @@
     "raw/P_20261026_134634_2.jpg"
    ],
    "box_image": "pokemon_alolan-raichu_magic-hour-mascot.jpg",
-   "main_image": "box/pokemon_alolan-raichu_magic-hour-mascot.jpg",
+   "main_image": "box/pokemon_alolan-raichu_magic-hour-mascot_c.jpg",
    "photos": [
-    "box/pokemon_alolan-raichu_magic-hour-mascot.jpg",
+    "box/pokemon_alolan-raichu_magic-hour-mascot_c.jpg",
     "raw/P_20261026_134634_2.jpg"
    ],
    "confidence": "high",
@@ -2686,9 +2686,9 @@
     "raw/P_20261026_134634_3.jpg"
    ],
    "box_image": "pokemon_ditto-bold-natures-mascot_134634_3.jpg",
-   "main_image": "box/pokemon_ditto-bold-natures-mascot_134634_3.jpg",
+   "main_image": "box/pokemon_ditto-bold-natures-mascot_134634_3_c.jpg",
    "photos": [
-    "box/pokemon_ditto-bold-natures-mascot_134634_3.jpg",
+    "box/pokemon_ditto-bold-natures-mascot_134634_3_c.jpg",
     "raw/P_20261026_134634_3.jpg"
    ],
    "confidence": "high",
@@ -2722,9 +2722,9 @@
     "raw/P_20261026_134634_4.jpg"
    ],
    "box_image": "pokemon_rowlet_plush-large_134634.jpg",
-   "main_image": "box/pokemon_rowlet_plush-large_134634.jpg",
+   "main_image": "box/pokemon_rowlet_plush-large_134634_c.jpg",
    "photos": [
-    "box/pokemon_rowlet_plush-large_134634.jpg",
+    "box/pokemon_rowlet_plush-large_134634_c.jpg",
     "raw/P_20261026_134634_4.jpg"
    ],
    "confidence": "medium",
@@ -2760,9 +2760,9 @@
     "raw/P_20261026_134634_5.jpg"
    ],
    "box_image": "pokemon_rowlet_ballchain-mascot_134634_p5.jpg",
-   "main_image": "box/pokemon_rowlet_ballchain-mascot_134634_p5.jpg",
+   "main_image": "box/pokemon_rowlet_ballchain-mascot_134634_p5_c.jpg",
    "photos": [
-    "box/pokemon_rowlet_ballchain-mascot_134634_p5.jpg",
+    "box/pokemon_rowlet_ballchain-mascot_134634_p5_c.jpg",
     "raw/P_20261026_134634_5.jpg"
    ],
    "confidence": "high",
@@ -2797,9 +2797,9 @@
     "raw/P_20261026_134634_6.jpg"
    ],
    "box_image": "pokemon_rowlet_poke-peaceful-place_134634.jpg",
-   "main_image": "box/pokemon_rowlet_poke-peaceful-place_134634.jpg",
+   "main_image": "box/pokemon_rowlet_poke-peaceful-place_134634_c.jpg",
    "photos": [
-    "box/pokemon_rowlet_poke-peaceful-place_134634.jpg",
+    "box/pokemon_rowlet_poke-peaceful-place_134634_c.jpg",
     "raw/P_20261026_134634_6.jpg"
    ],
    "confidence": "high",
@@ -2834,9 +2834,9 @@
     "raw/P_20261026_134634_7.jpg"
    ],
    "box_image": "pokemon_ditto_fluffy-hairpin49_134634.jpg",
-   "main_image": "box/pokemon_ditto_fluffy-hairpin49_134634.jpg",
+   "main_image": "box/pokemon_ditto_fluffy-hairpin49_134634_c.jpg",
    "photos": [
-    "box/pokemon_ditto_fluffy-hairpin49_134634.jpg",
+    "box/pokemon_ditto_fluffy-hairpin49_134634_c.jpg",
     "raw/P_20261026_134634_7.jpg"
    ],
    "confidence": "medium",
@@ -2868,8 +2868,9 @@
     "raw/P_20261026_134634_8.jpg"
    ],
    "box_image": "pokemon_mimikyu_pokepeace-plush_4904790785863.jpg",
-   "main_image": "box/pokemon_mimikyu_pokepeace-plush_4904790785863.jpg",
+   "main_image": "box/pokemon_mimikyu_pokepeace-plush_4904790785863_c.jpg",
    "photos": [
+    "box/pokemon_mimikyu_pokepeace-plush_4904790785863_c.jpg",
     "raw/P_20261026_134634_8.jpg"
    ],
    "confidence": "high",
@@ -2904,9 +2905,9 @@
     "raw/P_20261026_134634_9.jpg"
    ],
    "box_image": "pokemon_wooper-group_134634_9.jpg",
-   "main_image": "box/pokemon_wooper-group_134634_9.jpg",
+   "main_image": "box/pokemon_wooper-group_134634_9_c.jpg",
    "photos": [
-    "box/pokemon_wooper-group_134634_9.jpg",
+    "box/pokemon_wooper-group_134634_9_c.jpg",
     "raw/P_20261026_134634_9.jpg"
    ],
    "confidence": "high",
@@ -2941,9 +2942,9 @@
     "raw/P_20261026_134634_10.jpg"
    ],
    "box_image": "pokemon_togepi_134634.jpg",
-   "main_image": "box/pokemon_togepi_134634.jpg",
+   "main_image": "box/pokemon_togepi_134634_c.jpg",
    "photos": [
-    "box/pokemon_togepi_134634.jpg",
+    "box/pokemon_togepi_134634_c.jpg",
     "raw/P_20261026_134634_10.jpg"
    ],
    "confidence": "high",
@@ -2980,9 +2981,9 @@
     "raw/P_20261026_134634_11.jpg"
    ],
    "box_image": "pokemon_charmander-charizard-mascot_134634_11.jpg",
-   "main_image": "box/pokemon_charmander-charizard-mascot_134634_11.jpg",
+   "main_image": "box/pokemon_charmander-charizard-mascot_134634_11_c.jpg",
    "photos": [
-    "box/pokemon_charmander-charizard-mascot_134634_11.jpg",
+    "box/pokemon_charmander-charizard-mascot_134634_11_c.jpg",
     "raw/P_20261026_134634_11.jpg"
    ],
    "confidence": "medium",
@@ -3015,9 +3016,9 @@
     "raw/P_20261026_134634_12.jpg"
    ],
    "box_image": "pokemon_ditto-sobble_plush.jpg",
-   "main_image": "box/pokemon_ditto-sobble_plush.jpg",
+   "main_image": "box/pokemon_ditto-sobble_plush_c.jpg",
    "photos": [
-    "box/pokemon_ditto-sobble_plush.jpg",
+    "box/pokemon_ditto-sobble_plush_c.jpg",
     "raw/P_20261026_134634_12.jpg"
    ],
    "confidence": "high",
@@ -3050,9 +3051,9 @@
     "raw/P_20261026_134634_13.jpg"
    ],
    "box_image": "pokemon_slowpoke_plush_134634.jpg",
-   "main_image": "box/pokemon_slowpoke_plush_134634.jpg",
+   "main_image": "box/pokemon_slowpoke_plush_134634_c.jpg",
    "photos": [
-    "box/pokemon_slowpoke_plush_134634.jpg",
+    "box/pokemon_slowpoke_plush_134634_c.jpg",
     "raw/P_20261026_134634_13.jpg"
    ],
    "confidence": "medium",
@@ -3085,9 +3086,9 @@
     "raw/P_20261026_134634_14.jpg"
    ],
    "box_image": "pokemon_psyduck_plush_134634.jpg",
-   "main_image": "box/pokemon_psyduck_plush_134634.jpg",
+   "main_image": "box/pokemon_psyduck_plush_134634_c.jpg",
    "photos": [
-    "box/pokemon_psyduck_plush_134634.jpg",
+    "box/pokemon_psyduck_plush_134634_c.jpg",
     "raw/P_20261026_134634_14.jpg"
    ],
    "confidence": "medium",
@@ -3126,9 +3127,9 @@
     "raw/P_20261026_134634_15.jpg"
    ],
    "box_image": "pokemon_alolan-vulpix_psycho-soda-refresh_134634_15.jpg",
-   "main_image": "box/pokemon_alolan-vulpix_psycho-soda-refresh_134634_15.jpg",
+   "main_image": "box/pokemon_alolan-vulpix_psycho-soda-refresh_134634_15_c.jpg",
    "photos": [
-    "box/pokemon_alolan-vulpix_psycho-soda-refresh_134634_15.jpg",
+    "box/pokemon_alolan-vulpix_psycho-soda-refresh_134634_15_c.jpg",
     "raw/P_20261026_134634_15.jpg"
    ],
    "confidence": "high",
@@ -3162,9 +3163,9 @@
     "raw/P_20261026_134634_16.jpg"
    ],
    "box_image": "pokemon_ditto-hisui-zorua_134634.jpg",
-   "main_image": "box/pokemon_ditto-hisui-zorua_134634.jpg",
+   "main_image": "box/pokemon_ditto-hisui-zorua_134634_c.jpg",
    "photos": [
-    "box/pokemon_ditto-hisui-zorua_134634.jpg",
+    "box/pokemon_ditto-hisui-zorua_134634_c.jpg",
     "raw/P_20261026_134634_16.jpg"
    ],
    "confidence": "high",
@@ -3198,9 +3199,9 @@
     "raw/P_20261026_134634_17.jpg"
    ],
    "box_image": "pokemon_ditto-zorua_134634.jpg",
-   "main_image": "box/pokemon_ditto-zorua_134634.jpg",
+   "main_image": "box/pokemon_ditto-zorua_134634_c.jpg",
    "photos": [
-    "box/pokemon_ditto-zorua_134634.jpg",
+    "box/pokemon_ditto-zorua_134634_c.jpg",
     "raw/P_20261026_134634_17.jpg"
    ],
    "confidence": "high",
