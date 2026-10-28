@@ -4756,8 +4756,8 @@
       "id": "tNA_postal_garbage",
       "number": "",
       "name_en": "Chunghwa Post Original Tomica 2-Car Set",
-      "name_ja": "中華郵政 ごみ収集車型郵便車(台湾限定)",
-      "name_zh": "中華郵政 郵務車 2台組(垃圾車造型郵務車+綠色廂型郵務車)",
+      "name_ja": "中華郵政 オリジナルトミカ 2台セット(台湾限定)",
+      "name_zh": "中華郵政 原創 TOMICA 2台組(郵件處理中心貨車+郵務廂型車)",
       "year": "",
       "series": "台灣限定特注",
       "category": [
@@ -4767,21 +4767,24 @@
       ],
       "keywords": [
         "中華郵政",
-        "垃圾車造型",
         "台灣限定",
         "2台組",
-        "套組"
+        "套組",
+        "郵件處理中心",
+        "郵務車"
       ],
       "source_images": [
+        "https://www.toy-people.com/?p=101067",
         "IMG_3089.jpg"
       ],
       "box_image": "",
-      "loose_image": "",
-      "main_image": "raw/IMG_3089.jpg",
+      "loose_image": "tNA_postal_garbage.jpg",
+      "main_image": "loose/tNA_postal_garbage.jpg",
       "has_image": true,
-      "confidence": "low",
-      "notes": "台灣限定 中華郵政原創トミカ 2台組,同一盒;IMG_3089 一盒兩車。",
+      "confidence": "high",
+      "notes": "台灣限定特注,盒面「中華郵政 オリジナルトミカ 2台セット」,內含綠色郵件處理中心翼式貨車與 Suzuki 郵務廂型車各一。商品照取自玩具人 TOMICA 55 週年專題(媒體實拍,非原廠官方圖),與盒裝實拍比對一致。",
       "photos": [
+        "loose/tNA_postal_garbage.jpg",
         "raw/IMG_3089.jpg"
       ],
       "ip": "",
@@ -5061,5 +5064,5 @@
       "has_official": true
     }
   ],
-  "build": 1793190224
+  "build": 1793190617
 }
