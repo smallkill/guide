@@ -131,6 +131,15 @@
     .slider:hover .sbtn,.slider:focus-within .sbtn{display:block}
   }
   .msl{height:52vh;max-height:480px}
+  /* 縮圖卡也可左右滑 */
+  .tsl{aspect-ratio:1/1}
+  .tsl .sl{scroll-snap-stop:always}
+  .tsl .pl{display:none}
+  .tsl .dots{bottom:5px;gap:4px}
+  .tsl .dots i{width:5px;height:5px}
+  .tsl .sbtn{width:26px;height:26px;font-size:17px}
+  .tsl .sbtn.prev{left:4px}.tsl .sbtn.next{right:4px}
+  .cardhead>span{pointer-events:none}
 </style>
 </head>
 <body>
@@ -176,7 +185,7 @@ function cardThumb(c){
   const name=c.name_zh||c.name_en||c.name_ja||c.id;
   const sub=[c.name_en,c.series].filter(Boolean).join(' · ');
   return `<div class="card" data-id="${esc(c.id)}">
-    <div class="cardhead">${imgHtml(c)}${num}${lc}${c.main_image&&c.main_image.startsWith('raw/')?'<span class="own">📷自拍</span>':''}</div>
+    <div class="cardhead">${thumbImg(c)}${num}${lc}${c.main_image&&c.main_image.startsWith('raw/')?'<span class="own">📷自拍</span>':''}</div>
     <div class="meta"><div class="nm">${esc(name)}</div>
     <div class="nsub">${sub?esc(sub):'&nbsp;'}</div>
     ${c.year?`<div class="yr">${esc(c.year)}</div>`:''}</div></div>`;
@@ -258,7 +267,12 @@ function openCard(id,idx){
   const ms=$('#mimg').querySelector('.slides');
   if(ms){ms.scrollLeft=Math.max(0,idx|0)*ms.clientWidth;updSlide(ms);}
 }
-grid.addEventListener('click',e=>{if(slideNav(e))return;const t=e.target.closest('.card');if(t){const sl=t.querySelector('.slides');openCard(t.dataset.id,sl?Math.round(sl.scrollLeft/Math.max(1,sl.clientWidth)):0)}});
+// 滑動後放開不算點擊:位移 >10px 或 slides 有捲動就不開大圖
+let PD=null;
+grid.addEventListener('pointerdown',e=>{const s=e.target.closest('.slides');PD={x:e.clientX,y:e.clientY,s,l:s?s.scrollLeft:0}},true);
+function wasSwipe(e){const p=PD;PD=null;if(!p||!e.isTrusted||e.detail===0)return false;
+  return Math.hypot(e.clientX-p.x,e.clientY-p.y)>10||(p.s&&Math.abs(p.s.scrollLeft-p.l)>2);}
+grid.addEventListener('click',e=>{if(slideNav(e))return;if(wasSwipe(e))return;const t=e.target.closest('.card');if(t){const sl=t.querySelector('.slides');openCard(t.dataset.id,sl?Math.round(sl.scrollLeft/Math.max(1,sl.clientWidth)):0)}});
 $('#mimg').addEventListener('click',e=>{if(slideNav(e))return;const t=e.target.closest('.pth');if(!t)return;
   const s=$('#mimg').querySelector('.slides');if(s)s.scrollTo({left:(+t.dataset.i)*s.clientWidth,behavior:'smooth'});});
 $('#close').onclick=()=>$('#modal').classList.remove('on');
@@ -293,11 +307,17 @@ function cardPhoto(c){
     ${pills?`<div class="pills">${pills}</div>`:''}${c.notes?`<div class="pnote">${esc(c.notes)}</div>`:''}</div></div>`;
 }
 function card(c){ return VIEW==='photo'?cardPhoto(c):cardThumb(c); }
+// 縮圖卡:多張照片才用滑動條(單張維持原本靜態縮圖)
+function thumbImg(c){
+  return photoList(c).length>1?sliderHtml(c,'tsl',c.name_zh||c.name_en||c.name_ja||c.id):imgHtml(c);
+}
 function slideNav(e){
   const b=e.target.closest('.sbtn'); if(!b) return false;
   e.stopPropagation();
   const s=b.parentNode.querySelector('.slides');
-  s.scrollBy({left:(b.classList.contains('next')?1:-1)*s.clientWidth,behavior:'smooth'});
+  // 用絕對位置(Firefox + scroll-snap-stop 下 scrollBy 會卡在原地)
+  const w=Math.max(1,s.clientWidth),i=Math.round(s.scrollLeft/w)+(b.classList.contains('next')?1:-1);
+  s.scrollTo({left:Math.max(0,Math.min(s.children.length-1,i))*w,behavior:'smooth'});
   return true;
 }
 function updSlide(s){
