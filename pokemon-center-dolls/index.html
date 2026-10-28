@@ -56,6 +56,25 @@
   }
   .nav.prev { left: .4rem; } .nav.next { right: .4rem; }
   @media (hover: hover) { .photo:hover .nav { display: flex; } }
+  .page img { cursor: zoom-in; }
+  /* 點開大圖:一樣可左右滑 */
+  .lb { position: fixed; inset: 0; z-index: 50; background: rgba(0,0,0,.96); display: none; }
+  .lb.on { display: block; }
+  .lb .photo { position: absolute; inset: 0; background: none; }
+  .lb .pages, .lb .page { height: 100%; }
+  .lb .page, .lb .page.box { background: none; display: flex; align-items: center; justify-content: center; }
+  .lb .page img { width: 100%; height: 100%; max-height: 100vh; object-fit: contain; cursor: default; padding: 3.2rem .5rem; }
+  .lb .page.box img { background: #fff; width: auto; max-width: calc(100% - 1rem); height: auto; max-height: calc(100% - 6.4rem); padding: 0; }
+  .lb .nav { display: flex; width: 2.8rem; height: 2.8rem; font-size: 1.6rem; }
+  .lb .plabel { bottom: 1rem; left: 1rem; font-size: .8rem; }
+  .lb .dots { bottom: 1.3rem; left: 50%; right: auto; transform: translateX(-50%); }
+  .lb .dot { width: .65rem; height: .65rem; }
+  .lb-close {
+    position: absolute; top: .7rem; right: .8rem; z-index: 2; width: 2.6rem; height: 2.6rem; border-radius: 50%;
+    border: none; background: rgba(255,255,255,.15); color: #fff; font-size: 1.5rem; cursor: pointer;
+  }
+  .lb-title { position: absolute; top: 1.1rem; left: 1rem; right: 4rem; z-index: 2; color: #fff; font-size: .9rem; font-weight: 700;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .num {
     position: absolute; top: .5rem; left: .5rem;
     background: var(--accent); color: #1a1a1a; font-weight: 800; font-size: .8rem;
@@ -118,6 +137,7 @@
     <p class="panel-intro">不屬於特定系列的特別款、大型款或親子抱抱款。</p>
     <div class="grid" id="grid-special"></div>
   </div>
+  <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="大圖"></div>
   <footer>
     資訊由以圖搜圖+官方資料查證,標較低信心者待實物吊牌確認 ·
     <a href="../">← guides</a>
@@ -191,6 +211,9 @@ function render(gridId, data, isSoda) {
       </div>`;
     grid.appendChild(c);
     bindPages(c);
+    c.querySelector(".pages").addEventListener("click", e => {
+      if (e.target.tagName === "IMG") openLb(it, Math.round(e.currentTarget.scrollLeft / e.currentTarget.clientWidth));
+    });
   });
 }
 // 第一頁官方商品圖、第二頁自己拍的
@@ -215,8 +238,29 @@ function bindPages(card) {
   card.querySelector(".next").addEventListener("click", () => go(Math.min(dots.length - 1, cur() + 1)));
   pages.addEventListener("scroll", () => dots.forEach((d, j) => d.classList.toggle("on", j === cur())), {passive: true});
 }
+const lb = document.getElementById("lb");
+function openLb(it, start) {
+  lb.innerHTML = `<div class="lb-title">${it.name}</div><button class="lb-close" aria-label="關閉">×</button>
+    <div class="photo">${pagesHtml(it)}</div>`;
+  lb.querySelectorAll("img").forEach(im => im.loading = "eager");
+  lb.classList.add("on");
+  document.body.style.overflow = "hidden";
+  bindPages(lb);
+  const pages = lb.querySelector(".pages");
+  pages.scrollLeft = start * pages.clientWidth;
+  lb.querySelector(".lb-close").addEventListener("click", closeLb);
+  // 點圖片以外的黑底就關閉
+  pages.addEventListener("click", e => { if (e.target.tagName !== "IMG") closeLb(); });
+}
+function closeLb() { lb.classList.remove("on"); lb.innerHTML = ""; document.body.style.overflow = ""; }
+document.addEventListener("keydown", e => {
+  if (!lb.classList.contains("on")) return;
+  if (e.key === "Escape") closeLb();
+  if (e.key === "ArrowLeft") lb.querySelector(".prev")?.click();
+  if (e.key === "ArrowRight") lb.querySelector(".next")?.click();
+});
 const special = [
- {img:"x1-dragonite.jpg", name:"快龍＆迷你龍 抱抱娃娃", jp:"だっこぬいぐるみ ミニリュウ＆カイリュー（大器晩成）", loc:"寶可夢中心全店＋線上", year:"2019/10", conf:"高",
+ {box:"x1-dragonite.jpg", img:"x1-dragonite.jpg", name:"快龍＆迷你龍 抱抱娃娃", jp:"だっこぬいぐるみ ミニリュウ＆カイリュー（大器晩成）", loc:"寶可夢中心全店＋線上", year:"2019/10", conf:"高",
   note:"「大器晚成（TAIKI-BANSEI）」系列——主題是越進化越強的寶可夢。大型快龍(約 33cm)懷抱閉眼睡覺的迷你龍。同系列另有由基拉＋班基拉斯、黏黏寶＋黏美龍。定價 ¥3,000。"},
  {box:"x2-ditto-koffing.jpg", img:"x2-ditto-koffing.jpg", name:"百變怪變身瓦斯彈(へんしん!メタモン 吊飾)", jp:"マスコット へんしん！メタモン ドガース", loc:"寶可夢中心(通販/全店)", year:"2026/07", conf:"高",
   note:"「へんしん！メタモン」系列——百變怪變身成其他寶可夢、但變身臉還維持百變怪表情的搞笑吊飾系列。此款變身瓦斯彈(ドガース),紫色圓身印骷髏標記,附紫色寶貝球造型扣環。吊飾版定價 ¥1,870(另有布偶版 ¥2,200)。"},
