@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-28",
- "build": "20261028104108",
+ "build": "20261028104359",
  "count": 86,
  "items": [
   {
@@ -1485,30 +1485,38 @@
   },
   {
    "id": "unknown_green-fishbone-costume_133212",
-   "name_ja": "すみっコぐらし ぬいぐるみ(緑・魚の骨ストール)",
-   "name_en": "",
-   "name_zh": "角落生物 變裝款玩偶(綠色・魚骨圍巾,推測とかげ)",
+   "name_ja": "とかげ てのりぬいぐるみ すみっコぐらしコレクション スプーキーハロウィン",
+   "name_en": "Tokage Tenori Plush, Sumikko Gurashi Collection Spooky Halloween (self-translated)",
+   "name_zh": "蜥蜴 手掌玩偶 角落生物Collection 怪奇萬聖節(自譯)",
    "ip": "角落生物(すみっコぐらし)",
    "character": "とかげ(推測)",
-   "maker": "San-X(推測)",
-   "line": "ぬいぐるみ",
+   "maker": "San-X",
+   "line": "すみっコぐらしコレクション(すみコレ) てのりぬいぐるみ スプーキーハロウィン",
    "type": "plush",
-   "year": "",
+   "year": "2025",
    "category": [
     "角落生物",
     "絨毛娃娃"
    ],
-   "keywords": [],
+   "keywords": [
+    "とかげ",
+    "てのりぬいぐるみ",
+    "すみっコぐらしコレクション",
+    "スプーキーハロウィン",
+    "ハロウィン",
+    "San-X"
+   ],
    "source_images": [
     "raw/P_20261026_133212_10.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_133212_10.jpg",
+   "main_image": "box/N38_tokage_spooky_halloween.jpg",
    "photos": [
+    "box/N38_tokage_spooky_halloween.jpg",
     "raw/P_20261026_133212_10.jpg"
    ],
-   "confidence": "low",
-   "notes": "實拍:綠色身體、粉紅色圓點腮紅、紫色魚骨圖案圍巾/胸帶。可能是角落生物裝扮造型,角色推測為「とかげ」,未確認。",
+   "confidence": "high",
+   "notes": "實拍:綠色身體、粉紅色圓點腮紅、紫色魚骨圖案圍巾/胸帶。可能是角落生物裝扮造型,角色推測為「とかげ」,未確認。;Derek 2026-10-28 指認為「とかげ てのりぬいぐるみ すみっコぐらしコレクション スプーキーハロウィン」。San-X 官方特設頁(リラックマ ようかいハロウィン/すみっコぐらし スプーキーハロウィン)標示:てのりぬいぐるみ 各1,540円(税込)、全6種(しろくま/とんかつ/たぴおか/とかげ/えびふらいのしっぽ/おばけ)。官方圖とかげ造型與實拍一致(淡綠身體、頭頂縫線與螺栓、愛心腮紅、紫色魚骨圖案上衣、粉紫手腳),故 match=true、信心 high。官方圖取自特設頁商品圖 i2.png 並裁出とかげ單隻。年份 2025 依特設頁網址路徑(2025/09)與搜尋摘要(同系列えびふらいのしっぽ 預定發售日 2025-09-20,非とかげ本身確認);名稱中英文為自譯。型號、JAN、尺寸、確切發售日官方頁未載,未查到。來源:https://www.san-x.co.jp/ja/special/goods/2025/09/halloween.html(圖 https://www.san-x.co.jp/uploads/old-assets/blog/goods/img/2025/09/halloween/i2.png);查證日 2026-10-28",
    "code": "N38"
   },
   {
