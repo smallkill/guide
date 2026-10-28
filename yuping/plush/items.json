@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-28",
- "build": "20261028102803",
+ "build": "20261028103212",
  "count": 86,
  "items": [
   {
@@ -1413,30 +1413,38 @@
   },
   {
    "id": "unknown_beige-white-small_133212",
-   "name_ja": "すみっコぐらし ぬいぐるみ ねこ(推測)",
-   "name_en": "",
-   "name_zh": "角落生物 ねこ 玩偶(小型,推測)",
+   "name_ja": "すみっコぐらし こいぬといぬごっこ フェイスちびマスコット(しろくま)",
+   "name_en": "Sumikko Gurashi Puppy and Dog Play Face Chibi Mascot - Shirokuma",
+   "name_zh": "角落生物 小狗與扮狗狗 臉型迷你吊飾玩偶(白熊)",
    "ip": "角落生物(すみっコぐらし)",
    "character": "ねこ(推測)",
-   "maker": "San-X(推測)",
-   "line": "ぬいぐるみ",
+   "maker": "システムサービス(SYSTEM SERVICE)",
+   "line": "フェイスちびマスコット",
    "type": "plush",
-   "year": "",
+   "year": "2023",
    "category": [
     "角落生物",
     "絨毛娃娃"
    ],
-   "keywords": [],
+   "keywords": [
+    "こいぬといぬごっこ",
+    "フェイスちびマスコット",
+    "しろくま",
+    "ちびマスコット",
+    "システムサービス",
+    "プライズ"
+   ],
    "source_images": [
     "raw/P_20261026_133212_8.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_133212_8.jpg",
+   "main_image": "box/sumikko_koinu_inugokko_face_chibi_mascot_shirokuma.jpg",
    "photos": [
+    "box/sumikko_koinu_inugokko_face_chibi_mascot_shirokuma.jpg",
     "raw/P_20261026_133212_8.jpg"
    ],
-   "confidence": "low",
-   "notes": "實拍:小型米黃+白色圓臉、尖耳、褐色點眼,僅露半身。外形符合「ねこ」(官方介紹:害羞、在意體型的貓);款式(手乘/掛飾)無法判斷。",
+   "confidence": "high",
+   "notes": "實拍:小型米黃+白色圓臉、尖耳、褐色點眼,僅露半身。外形符合「ねこ」(官方介紹:害羞、在意體型的貓);款式(手乘/掛飾)無法判斷。;Derek 2026-10-28 指認為「すみっコぐらし こいぬといぬごっこ フェイスちびマスコット」角色しろくま,取代先前「ねこ」的推測。外觀比對:黃色柴犬風帽、白色圓臉、褐色點眼+鼻,與官方圖左上款一致(實拍為袋裝、僅露半身、光線偏灰,故以 Derek 指認為準)。プライズ(夾娃娃機景品),2023年9月第3週登場(依 prize-house.com);官方圖為4款合照(しろくま/とんかつ/とかげ/えびふらいのしっぽ),圖上標示廠商 SYSTEM SERVICE CO.,LTD.、(C)2023 San-X,已裁出しろくま單隻;種類數與尺寸頁面未載明,未查到。name_zh/name_en 為自譯,非官方譯名。來源:https://prize-house.com/prize-list/33092 (官方圖 https://prize-house.com/wp-content/uploads/2023/09/prize_img_61964_1.jpg);查證日 2026-10-28",
    "code": "N36"
   },
   {
