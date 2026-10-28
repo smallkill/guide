@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "count": 133,
   "cars": [
     {
@@ -4688,20 +4688,23 @@
         "1/138"
       ],
       "source_images": [
+        "https://zi-l.ocnk.net/product/4108",
+        "https://zi-l.ocnk.net/data/zi-l/product/20220511_8aeab6.jpg",
         "IMG_3090.jpg"
       ],
-      "box_image": "",
+      "box_image": "tNA_okinawa_bus_pikachu_o.jpg",
       "loose_image": "",
-      "main_image": "raw/IMG_3090.jpg",
+      "main_image": "box/tNA_okinawa_bus_pikachu_o.jpg",
       "has_image": true,
       "confidence": "low",
-      "notes": "確認為沖繩土產店/機場特注トミカ,多種塗裝主題(花與寶可夢/森林/丘陵/海/夕陽飛天皮卡丘等),無公開JAN/番號可核對確切年份;圖片來源(paypayフリマ/ヤフオク/ラクマ等)皆為二手拍賣網站,非官方清楚展示照,故不附圖。",
+      "notes": "確認為沖繩土產店/機場特注トミカ,多種塗裝主題(花與寶可夢/森林/丘陵/海/夕陽飛天皮卡丘等),無公開JAN/番號可核對確切年份;圖片來源(paypayフリマ/ヤフオク/ラクマ等)皆為二手拍賣網站,非官方清楚展示照,故不附圖。 主圖=ミニカーショップ ZEAL 賣場照(裸車+盒,2026-10-29);無官方商品圖,南西產業公告:12/4 發售、¥1,000、不網售。",
       "photos": [
+        "box/tNA_okinawa_bus_pikachu_o.jpg",
         "raw/IMG_3090.jpg"
       ],
       "ip": "寶可夢",
       "size": "標準",
-      "has_official": false,
+      "has_official": true,
       "sub": "皮卡丘"
     },
     {
@@ -5140,5 +5143,5 @@
       "has_official": true
     }
   ],
-  "build": 1793200614
+  "build": 1793203457
 }
