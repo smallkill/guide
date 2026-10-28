@@ -1231,16 +1231,18 @@
         "夢幻トミカ"
       ],
       "source_images": [
+        "https://www.takaratomy.co.jp/products/tomica/lineup/dream/",
         "https://item.fril.jp/d4d359c803e816d8dca3315d182f6d86",
         "IMG_3193.JPG"
       ],
       "box_image": "t166.jpg",
-      "loose_image": "",
-      "main_image": "box/t166.jpg",
+      "loose_image": "t166.jpg",
+      "main_image": "loose/t166.jpg",
       "has_image": true,
       "confidence": "high",
       "notes": "包裝盒照清楚顯示番號166、NATSUME YUJIN-CHO字樣，與visible_text一致",
       "photos": [
+        "loose/t166.jpg",
         "box/t166.jpg",
         "raw/IMG_3193.jpg"
       ],
@@ -2064,6 +2066,7 @@
         "1980年代迷你四驅熱潮"
       ],
       "source_images": [
+        "https://www.takaratomy.co.jp/products/tomica/sp/tamiya/",
         "https://www.hlj.co.jp/product/TKT91567",
         "https://www.tamiya.com/japan/newstopics/2023/11/21tomica.html",
         "IMG_3151.JPG"
@@ -2073,7 +2076,7 @@
       "main_image": "loose/tNA_avante-jr.jpg",
       "has_image": true,
       "confidence": "high",
-      "notes": "2023年底發售,象徵1980年代末迷你四驅熱潮的經典機型,還原滾輪轉動機構。無官方番號,圖為官方商品照(非包裝盒)。",
+      "notes": "2023年底發售,象徵1980年代末迷你四驅熱潮的經典機型,還原滾輪轉動機構。無官方番號,圖為官方商品照(非包裝盒)。 官方圖改用 Takara Tomy 官網「トミカ×タミヤ」頁的藍色 アバンテJr. 宣傳圖(原本誤用黑色款)。",
       "photos": [
         "loose/tNA_avante-jr.jpg",
         "raw/IMG_3151.jpg"
@@ -2724,6 +2727,7 @@
         "1/126"
       ],
       "source_images": [
+        "https://store.disney.co.jp/goods/0401130026579.html",
         "IMG_3110.JPG"
       ],
       "box_image": "",
@@ -2731,7 +2735,7 @@
       "main_image": "loose/tNA_disneycruiser.jpg",
       "has_image": true,
       "confidence": "low",
-      "notes": "既有裸車照為車門開啟處近拍(非全車正面),Read 確認可見紅白車身與開啟車門結構,但構圖不理想、未找到更清楚全車照或官方盒裝照;因冷門東京迪士尼限定品難查證,保留原圖,confidence維持low,未再花WebSearch額度重查。",
+      "notes": "既有裸車照為車門開啟處近拍(非全車正面),Read 確認可見紅白車身與開啟車門結構,但構圖不理想、未找到更清楚全車照或官方盒裝照;因冷門東京迪士尼限定品難查證,保留原圖,confidence維持low,未再花WebSearch額度重查。 整車官方圖取自ディズニーストア.jp「ディズニー・ビークル・コレクション〈トミカ〉 ディズニーリゾートクルーザー」商品頁。",
       "photos": [
         "loose/tNA_disneycruiser.jpg",
         "raw/IMG_3110.jpg"
@@ -3091,8 +3095,8 @@
       "id": "tNA_oshi_no_ko_concert_truck",
       "number": "",
       "name_en": "Oshi no Ko Dream Tomica SP Concert Truck - Komachi ver.",
-      "name_ja": "【推しの子】ドリームトミカSP コンサートトラック（アイ推しver.？）小町ver.",
-      "name_zh": "多美夢幻SP 我推的孩子 演唱會卡車 小町(Komachi)版",
+      "name_ja": "ドリームトミカSP 【推しの子】 コンサートトラック B小町ver.",
+      "name_zh": "多美夢幻SP 我推的孩子 演唱會卡車 B小町版",
       "year": "",
       "series": "Dream Tomica SP",
       "category": [
@@ -3108,16 +3112,18 @@
         "演唱會卡車"
       ],
       "source_images": [
+        "https://car.watch.impress.co.jp/docs/news/1549996.html",
         "https://item.fril.jp/02eded511e823b47286ecbc629b21ef9",
         "IMG_3194.JPG"
       ],
       "box_image": "tNA_oshi_no_ko_concert_truck.jpg",
-      "loose_image": "",
-      "main_image": "box/tNA_oshi_no_ko_concert_truck.jpg",
+      "loose_image": "tNA_oshi_no_ko_concert_truck.jpg",
+      "main_image": "loose/tNA_oshi_no_ko_concert_truck.jpg",
       "has_image": true,
       "confidence": "high",
       "notes": "包裝盒照清楚顯示OSHI NO KO字樣與粉色演唱會卡車插畫，與visible_text一致；具體發售年份未查得",
       "photos": [
+        "loose/tNA_oshi_no_ko_concert_truck.jpg",
         "box/tNA_oshi_no_ko_concert_truck.jpg",
         "raw/IMG_3194.jpg"
       ],
@@ -3148,6 +3154,7 @@
         "ルビー"
       ],
       "source_images": [
+        "https://car.watch.impress.co.jp/docs/news/1549996.html",
         "https://car.watch.impress.co.jp/img/car/docs/1549/996/007_o.jpg",
         "IMG_3196.JPG"
       ],
@@ -5064,5 +5071,5 @@
       "has_official": true
     }
   ],
-  "build": 1793190617
+  "build": 1793192221
 }
