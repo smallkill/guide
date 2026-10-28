@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03",
+  "updated": "2026-10-28",
   "count": 133,
   "cars": [
     {
@@ -4253,22 +4253,22 @@
         "Tomica Premium unlimited"
       ],
       "source_images": [
-        "https://takaratomymall.jp/shop/g/g4904810934318/",
-        "https://hobby.dengeki.com/news/2271015/",
+        "https://www.takaratomy.co.jp/products/tomica/sp/tamiya/",
         "IMG_3149.jpg"
       ],
       "box_image": "",
-      "loose_image": "",
-      "main_image": "raw/IMG_3149.jpg",
+      "loose_image": "tNA_black-saber.jpg",
+      "main_image": "loose/tNA_black-saber.jpg",
       "has_image": true,
       "confidence": "high",
-      "notes": "2024/7下旬發售,黑澤太用機,30周年紀念商品,Tomica Premium unlimited系列,售價1,430日圓。本次再嘗試 WebFetch takaratomymall.jp(逾時)及 hobby.dengeki.com(圖片為 lazy-load,無法取得直連URL),仍未能取得可下載展示圖,依規則未強行配圖。",
+      "notes": "2024/7 發售,TakaraTomyMall 限定,黑澤太用機,Tomica Premium unlimited 系列,售價 1,430 日圓。官方圖取自 Takara Tomy 官網「トミカ×タミヤ」頁的商品宣傳圖。",
       "photos": [
+        "loose/tNA_black-saber.jpg",
         "raw/IMG_3149.jpg"
       ],
       "ip": "爆走兄弟 迷你四驅車",
       "size": "標準",
-      "has_official": false,
+      "has_official": true,
       "seq": 11
     },
     {
@@ -4349,7 +4349,7 @@
       "id": "tNA_disney-resort-cruiser-undercover-mission",
       "number": "",
       "name_en": "Disney Resort Cruiser (Undercover Mission ver.)",
-      "name_ja": "ディズニーリゾートクルーザー アンダーカバーミッション",
+      "name_ja": "ディズニー・ビークル・コレクション〈トミカ〉 ズートピア(ディズニーリゾートクルーザー アンダーカバーミッション)",
       "name_zh": "迪士尼交通工具收藏系列 迪士尼度假區巡遊巴士(秘密行動版)",
       "year": "2001",
       "series": "Disney Motors / Disney Resort Cruiser",
@@ -4364,20 +4364,22 @@
         "Undercover Mission"
       ],
       "source_images": [
+        "https://store.disney.co.jp/goods/0401130026036.html",
         "IMG_3112.jpg"
       ],
       "box_image": "",
-      "loose_image": "",
-      "main_image": "raw/IMG_3112.jpg",
+      "loose_image": "tNA_disney-resort-cruiser-undercover-mission.jpg",
+      "main_image": "loose/tNA_disney-resort-cruiser-undercover-mission.jpg",
       "has_image": true,
-      "confidence": "low",
-      "notes": "本體(Disney Resort Cruiser)於2001年12月首發、東京迪士尼度假區限定、1/126比例,車身隱藏米奇圖案已確認;「Undercover Mission」此特定版本的發售年份/番號/圖源本輪仍查無,未強行配圖,維持先前建議請Derek補充原始包裝照。 【年份待查:網路查無此特定版本確切發售年,推測為近年新品,尚未證實。】",
+      "confidence": "high",
+      "notes": "東京迪士尼度假區「動物方城市 Undercover Mission」主題的度假區巡遊巴士,粉紫車身、車頂與車側有茱蒂與尼克的偵查道具圖案。官方圖取自迪士尼官方商店 ディズニーストア.jp「ディズニー・ビークル・コレクション〈トミカ〉 ズートピア」商品頁,與盒裝實拍比對一致。",
       "photos": [
+        "loose/tNA_disney-resort-cruiser-undercover-mission.jpg",
         "raw/IMG_3112.jpg"
       ],
       "ip": "迪士尼",
       "size": "標準",
-      "has_official": false,
+      "has_official": true,
       "sub": "巡遊巴士"
     },
     {
@@ -4845,20 +4847,22 @@
         "Western River Railroad"
       ],
       "source_images": [
-        "IMG_3104.JPG"
+        "https://store.disney.co.jp/goods/0401130023288.html",
+        "IMG_3104.jpg"
       ],
       "box_image": "",
-      "loose_image": "",
-      "main_image": "raw/IMG_3104.jpg",
+      "loose_image": "tNA_woody_sheriff_car.jpg",
+      "main_image": "loose/tNA_woody_sheriff_car.jpg",
       "has_image": true,
-      "confidence": "low",
-      "notes": "確認商品名為「ディズニー トミカ(ビークルコレクション)ウッディ シェリフカー 東京ディズニーリゾート限定」,車身配色呼應胡迪服裝,設計參考Western River Railroad;僅在Amazon.co.jp找到轉售頁面,連線逾時/受地區限制,未能取得清楚展示照,不附圖。",
+      "confidence": "high",
+      "notes": "ディズニー・ビークル・コレクション〈トミカ〉ウッディ(東京ディズニーリゾート),車身配色呼應胡迪服裝,車頂可拆。官方圖取自迪士尼官方商店 ディズニーストア.jp 商品頁(¥1,500)。",
       "photos": [
+        "loose/tNA_woody_sheriff_car.jpg",
         "raw/IMG_3104.jpg"
       ],
       "ip": "玩具總動員",
       "size": "標準",
-      "has_official": false
+      "has_official": true
     },
     {
       "id": "tNA_zootopia2_nick_face",
@@ -4880,20 +4884,23 @@
         "4904810099710"
       ],
       "source_images": [
-        "IMG_3103.JPG"
+        "https://www.takaratomy.co.jp/products/tomica/new/2511.htm",
+        "IMG_3103.jpg"
       ],
-      "box_image": "",
-      "loose_image": "",
-      "main_image": "raw/IMG_3103.jpg",
+      "box_image": "tNA_zootopia2_nick_face.jpg",
+      "loose_image": "tNA_zootopia2_nick_face.jpg",
+      "main_image": "box/tNA_zootopia2_nick_face.jpg",
       "has_image": true,
       "confidence": "high",
-      "notes": "JAN 4904810099710,確認為紀念電影『動物方城市2』發售之圓潤車身尼克造型車,車身側面繪有尼克的領帶與襯衫圖案。TakaraTomyMall/Rakuten/ganguoroshi等站台皆因地區限制(CloudFront 403)或連線逾時無法取得展示圖,不附圖。",
+      "notes": "JAN 4904810099710,紀念電影『動物方城市2』的圓潤車身尼克造型車,車身側面為尼克的領帶與襯衫圖案。2025/11 發售,¥880。官方盒裝圖與裸車圖取自 Takara Tomy 官網 2025年11月新製品頁。",
       "photos": [
+        "box/tNA_zootopia2_nick_face.jpg",
+        "loose/tNA_zootopia2_nick_face.jpg",
         "raw/IMG_3103.jpg"
       ],
       "ip": "動物方城市",
       "size": "標準",
-      "has_official": false
+      "has_official": true
     },
     {
       "id": "tNA_zootopia_finnick_van",
@@ -4915,20 +4922,22 @@
         "4904810099734"
       ],
       "source_images": [
-        "IMG_3102.JPG"
+        "https://www.takaratomy.co.jp/products/tomica/new/2511.htm",
+        "IMG_3102.jpg"
       ],
       "box_image": "",
-      "loose_image": "",
-      "main_image": "raw/IMG_3102.jpg",
+      "loose_image": "tNA_zootopia_finnick_van.jpg",
+      "main_image": "loose/tNA_zootopia_finnick_van.jpg",
       "has_image": true,
       "confidence": "high",
-      "notes": "JAN 4904810099734,確認為紀念『動物方城市2』發售之芬尼克廂型車,內附尼克與芬尼克公仔。TakaraTomyMall等站台因地區限制/連線逾時無法取得展示圖,不附圖。",
+      "notes": "JAN 4904810099734,紀念『動物方城市2』的芬尼克廂型車,內附尼克與芬尼克公仔。2025/11 發售,¥1,100。官方裸車圖取自 Takara Tomy 官網 2025年11月新製品頁。",
       "photos": [
+        "loose/tNA_zootopia_finnick_van.jpg",
         "raw/IMG_3102.jpg"
       ],
       "ip": "動物方城市",
       "size": "標準",
-      "has_official": false
+      "has_official": true
     },
     {
       "id": "tmmc01",
@@ -5052,5 +5061,5 @@
       "has_official": true
     }
   ],
-  "build": 1791006949
+  "build": 1793190224
 }
