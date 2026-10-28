@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-28",
- "build": "20261028102449",
+ "build": "20261028102803",
  "count": 86,
  "items": [
   {
@@ -1377,30 +1377,38 @@
   },
   {
    "id": "unknown_light-blue_133212",
-   "name_ja": "すみっコぐらし てのりぬいぐるみ とかげ(進化A or B・推測)",
-   "name_en": "",
-   "name_zh": "角落生物 とかげ 手乘玩偶(進化A/B,推測)",
+   "name_ja": "すみっコぐらし キューブちびマスコット(たぴおか(ブルー))",
+   "name_en": "Sumikko Gurashi Cube Chibi Mascot - Tapioca (Blue)",
+   "name_zh": "角落生物 方塊迷你吊飾玩偶(珍珠(藍色))",
    "ip": "角落生物(すみっコぐらし)",
    "character": "とかげ",
-   "maker": "San-X",
-   "line": "てのりぬいぐるみ(もしもすみっコが進化したら?)・推測",
+   "maker": "システムサービス(SYSTEM SERVICE)",
+   "line": "キューブちびマスコット",
    "type": "plush",
-   "year": "2025",
+   "year": "2023",
    "category": [
     "角落生物",
     "絨毛娃娃"
    ],
-   "keywords": [],
+   "keywords": [
+    "キューブちびマスコット",
+    "たぴおか",
+    "タピオカ",
+    "ちびマスコット",
+    "システムサービス",
+    "プライズ"
+   ],
    "source_images": [
     "raw/P_20261026_133212_7.jpg"
    ],
    "box_image": "",
-   "main_image": "raw/P_20261026_133212_7.jpg",
+   "main_image": "box/sumikko_cube_chibi_mascot_tapioca.jpg",
    "photos": [
+    "box/sumikko_cube_chibi_mascot_tapioca.jpg",
     "raw/P_20261026_133212_7.jpg"
    ],
-   "confidence": "low",
-   "notes": "實拍:淺藍色圓丘狀絨毛,底部米色邊,黑點眼,有吊牌。與 San-X「もしもすみっコが進化したら?」てのりぬいぐるみ とかげ(進化A/進化B,¥1,210)外形相近,但臉部細節在照片中無法分辨 A 或 B,故不放官方圖。",
+   "confidence": "high",
+   "notes": "實拍:淺藍色圓丘狀絨毛,底部米色邊,黑點眼,有吊牌。與 San-X「もしもすみっコが進化したら?」てのりぬいぐるみ とかげ(進化A/進化B,¥1,210)外形相近,但臉部細節在照片中無法分辨 A 或 B,故不放官方圖。;Derek 2026-10-28 指認為「すみっコぐらし キューブちびマスコット」角色たぴおか(ブルー),取代先前「とかげ手乘玩偶」的推測。外觀比對:淺藍色方塊、兩點眼+一字小嘴、胸前兩片淡藍布片,與官方圖右下藍色款一致(實拍為袋裝、角度偏斜,故信心 medium)。プライズ(夾娃娃機景品),2023年10月第1週登場(依 prize-house.com);官方圖為4款合照(しろくま/とんかつ/えびふらいのしっぽ/たぴおか),圖上標示廠商 SYSTEM SERVICE CO.,LTD.、(C)2023 San-X,已裁出藍色たぴおか單隻;種類數與尺寸頁面未載明,未查到。name_zh(角色譯名「珍珠」)/name_en 為自譯,非官方譯名。來源:https://prize-house.com/prize-list/34793 (官方圖 https://prize-house.com/wp-content/uploads/2023/10/prize_img_62936_1.jpg);查證日 2026-10-28",
    "code": "N35"
   },
   {
