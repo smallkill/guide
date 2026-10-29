@@ -4587,12 +4587,13 @@
         "IMG_3159.jpg"
       ],
       "box_image": "",
-      "loose_image": "",
-      "main_image": "raw/IMG_3159.jpg",
+      "loose_image": "tNA_minion-banana-blingz_o.jpg",
+      "main_image": "loose/tNA_minion-banana-blingz_o.jpg",
       "has_image": true,
       "confidence": "low",
-      "notes": "USJ限定Minion Car系列,各單品有各自裝飾名稱(如Bites/Fluffy/Blingz)。本輪嘗試搜尋'ミニオン カーニバル ミニカー バナナ ブリングス'未查到對應商品圖源,依規則未強行配圖。",
+      "notes": "USJ限定 ミニオンカー,黃色車身、深藍底盤,車身貼有 BA-NA-NA、BLUMOCK 等貼紙。商品照由 Derek 提供(二手賣場照),去背白底處理;未找到原廠官方圖。",
       "photos": [
+        "loose/tNA_minion-banana-blingz_o.jpg",
         "raw/IMG_3159.jpg"
       ],
       "ip": "小小兵",
@@ -5145,5 +5146,5 @@
       "has_official": true
     }
   ],
-  "build": 1793276762
+  "build": 1793276928
 }
