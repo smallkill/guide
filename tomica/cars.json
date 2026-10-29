@@ -4550,12 +4550,13 @@
         "IMG_3136"
       ],
       "box_image": "tNA_lancer_evo_x_taiwan_police.jpg",
-      "loose_image": "",
-      "main_image": "box/tNA_lancer_evo_x_taiwan_police.jpg",
+      "loose_image": "tNA_lancer_evo_x_taiwan_police_o.jpg",
+      "main_image": "loose/tNA_lancer_evo_x_taiwan_police_o.jpg",
       "has_image": true,
       "confidence": "high",
-      "notes": "台灣限定特注(日本未發售),盒面 MITSUBISHI LANCER EVOLUTION X TAIWAN Police Car。盒裝圖裁自 Mobile01 開箱文封面照(LINE Today 轉載),原圖小、放大後略糊;未找到原廠官方圖。",
+      "notes": "台灣限定特注(日本未發售),盒面 MITSUBISHI LANCER EVOLUTION X TAIWAN Police Car。裸車圖與盒裝圖皆取自 Mobile01 開箱文照片(去背白底處理);未找到原廠官方圖。",
       "photos": [
+        "loose/tNA_lancer_evo_x_taiwan_police_o.jpg",
         "box/tNA_lancer_evo_x_taiwan_police.jpg",
         "raw/IMG_3136.jpg"
       ],
@@ -5147,5 +5148,5 @@
       "has_official": true
     }
   ],
-  "build": 1793277308
+  "build": 1793277586
 }
