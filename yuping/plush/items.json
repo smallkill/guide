@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-28",
- "build": "20261028151913",
+ "build": "20261029021056",
  "count": 85,
  "items": [
   {
@@ -1543,6 +1543,7 @@
    "main_image": "box/sumikko_tokage_tenori-D_c.jpg",
    "photos": [
     "box/sumikko_tokage_tenori-D_c.jpg",
+    "box/sumikko_tokage_tenori-D_back.jpg",
     "raw/P_20261026_133212_11.jpg"
    ],
    "confidence": "medium",
@@ -1582,6 +1583,7 @@
    "main_image": "box/sumikko_ebifurai-no-shippo_s-2025_c.jpg",
    "photos": [
     "box/sumikko_ebifurai-no-shippo_s-2025_c.jpg",
+    "box/sumikko_ebifurai-no-shippo_s-2025_back.jpg",
     "raw/P_20261026_133212_12.jpg"
    ],
    "confidence": "high",
