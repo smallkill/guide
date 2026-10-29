@@ -4546,15 +4546,17 @@
         "限定"
       ],
       "source_images": [
+        "https://www.mobile01.com/topicdetail.php?f=368&t=5511582",
         "IMG_3136"
       ],
-      "box_image": "",
+      "box_image": "tNA_lancer_evo_x_taiwan_police.jpg",
       "loose_image": "",
-      "main_image": "raw/IMG_3136.jpg",
+      "main_image": "box/tNA_lancer_evo_x_taiwan_police.jpg",
       "has_image": true,
       "confidence": "high",
-      "notes": "台灣限定特注(日本未發售),盒面確認 MITSUBISHI LANCER EVOLUTION X TAIWAN Police Car。eBay/Amazon/mobile01 圖源皆擋爬蟲無法下載,顯示暫用你的實照。",
+      "notes": "台灣限定特注(日本未發售),盒面 MITSUBISHI LANCER EVOLUTION X TAIWAN Police Car。盒裝圖裁自 Mobile01 開箱文封面照(LINE Today 轉載),原圖小、放大後略糊;未找到原廠官方圖。",
       "photos": [
+        "box/tNA_lancer_evo_x_taiwan_police.jpg",
         "raw/IMG_3136.jpg"
       ],
       "ip": "",
@@ -4636,9 +4638,9 @@
       "id": "tNA_minion-bee-do",
       "number": "",
       "name_en": "Minion Car \"Bee-Do\" (USJ exclusive, unofficial name)",
-      "name_ja": "ミニオンカー Bee-Do（USJ限定）",
+      "name_ja": "トミカ USJ限定 ミニオンカー MINIONS(BEE-DO)",
       "name_zh": "小小兵造型車「Bee-Do 警笛」（日本環球影城限定,非官方譯名）",
-      "year": "",
+      "year": "2017",
       "series": "USJ Minion Car",
       "category": [
         "主題樂園限定",
@@ -4658,7 +4660,7 @@
       "main_image": "raw/IMG_3162.jpg",
       "has_image": true,
       "confidence": "low",
-      "notes": "同USJ Minion Car系列,可見文字'BEE-DO, MINIONS',本輪未再單獨搜尋以節省額度,維持無圖狀態。",
+      "notes": "USJ限定 ミニオンカー,2017/04/18 發售(與 MINION BITES 同期),於ミニオンズ・ポップ・ショップ販售;收藏資料庫 tomicadas 列名「MINIONS」,車身印 BEE-DO 字樣、灰色底盤,與自拍一致。只找到 180px 收藏者照片與二手拍賣圖,沒有原廠官方圖,維持自拍。",
       "photos": [
         "raw/IMG_3162.jpg"
       ],
@@ -5143,5 +5145,5 @@
       "has_official": true
     }
   ],
-  "build": 1793203457
+  "build": 1793269152
 }
