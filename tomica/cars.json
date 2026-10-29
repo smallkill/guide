@@ -737,7 +737,7 @@
       "main_image": "loose/t145_o.jpg",
       "has_image": true,
       "confidence": "high",
-      "notes": "Dream Tomica No.145 頭文字D AE86 Trueno(藤原豆腐店),清楚官方盒照取自 anytoystore。",
+      "notes": "Dream Tomica No.145 頭文字D AE86 Trueno(藤原豆腐店),清楚官方盒照取自 anytoystore。 主圖為 japan-figure 商品圖左右鏡像(為了與其他車同方向,車身文字因此左右相反)。",
       "photos": [
         "loose/t145_o.jpg",
         "loose/t145_c.jpg",
@@ -4256,15 +4256,17 @@
         "巴士"
       ],
       "source_images": [
+        "https://japan-figure.com/products/tomica-no-72-hino-selega-jr-bus-tohoku-komachi-color-box",
         "IMG_3172.jpg"
       ],
       "box_image": "t72.jpg",
-      "loose_image": "",
-      "main_image": "box/t72_c.jpg",
+      "loose_image": "t72_o.jpg",
+      "main_image": "loose/t72_o.jpg",
       "has_image": true,
       "confidence": "high",
       "notes": "Tomica No.72,2015年12月發售,以秋田新幹線 Komachi(E6系)塗裝為藍本。盒裝正面照取自 hobbyland-pochi.net,文字、紅白塗裝、車型皆吻合。",
       "photos": [
+        "loose/t72_o.jpg",
         "box/t72_c.jpg",
         "raw/IMG_3172.jpg"
       ],
@@ -5155,5 +5157,5 @@
       "has_official": true
     }
   ],
-  "build": 1793277958
+  "build": 1793278792
 }
