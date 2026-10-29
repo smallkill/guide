@@ -226,16 +226,17 @@
         "1/65 scale"
       ],
       "source_images": [
+        "https://www.takaratomy.co.jp/products/tomica/new/2403.htm",
         "IMG_3114.jpg"
       ],
       "box_image": "",
-      "loose_image": "t10.jpg",
-      "main_image": "loose/t10.jpg",
+      "loose_image": "t10_o.jpg",
+      "main_image": "loose/t10_o.jpg",
       "has_image": true,
       "confidence": "high",
       "notes": "官方(takaratomy.co.jp)產品頁提供的是車輛細節照(含前後視角),非包裝盒照片。1/65比例、含避震功能,發售日2024-03-16。中文名為合理直譯,非官方正式譯名。",
       "photos": [
-        "loose/t10.jpg",
+        "loose/t10_o.jpg",
         "raw/IMG_3114.jpg"
       ],
       "ip": "",
@@ -727,16 +728,18 @@
         "Takumi Fujiwara"
       ],
       "source_images": [
+        "https://japan-figure.com/products/takara-tomy-tomica-dream-tomica-initial-d-ae86-trueno-f-s-tomica",
         "https://d2ev13g7cze5ka.cloudfront.net/tkt/thumb_tkt81598_0.jpg",
         "IMG_3132.JPG"
       ],
       "box_image": "",
-      "loose_image": "t145.jpg",
-      "main_image": "loose/t145_c.jpg",
+      "loose_image": "t145_o.jpg",
+      "main_image": "loose/t145_o.jpg",
       "has_image": true,
       "confidence": "high",
       "notes": "Dream Tomica No.145 頭文字D AE86 Trueno(藤原豆腐店),清楚官方盒照取自 anytoystore。",
       "photos": [
+        "loose/t145_o.jpg",
         "loose/t145_c.jpg",
         "raw/IMG_3132.jpg"
       ],
@@ -764,6 +767,7 @@
         "雲梯車"
       ],
       "source_images": [
+        "https://www.takaratomy.co.jp/products/tomica/new/2106.htm",
         "https://www.takaratomy.co.jp/products/tomica/lineup/",
         "IMG_3079.jpg"
       ],
@@ -875,18 +879,19 @@
         "1/62"
       ],
       "source_images": [
+        "https://japan-figure.com/products/takara-tomy-quot-tomica-premium-14-mclaren-senna-quot-mini-car-toy-6-years-old-and-up-boxed-toy-safety-standard-passed-st-mark-certified-tomica-takara-tomy",
         "https://www.hlj.co.jp/product/TKT13186",
         "https://64minicar.blog.jp/archives/24307205.html",
         "IMG_3145.jpg"
       ],
       "box_image": "",
-      "loose_image": "t14_mclaren-senna.jpg",
-      "main_image": "loose/t14_mclaren-senna.jpg",
+      "loose_image": "t14_mclaren-senna_o.jpg",
+      "main_image": "loose/t14_mclaren-senna_o.jpg",
       "has_image": true,
       "confidence": "high",
       "notes": "Tomica Premium系列編號14,2019/7/20發售,1/62比例。使用者實物為深藍灰(gunmetal)標準版,故未採用同編號的橘色「發售記念仕様」商品照,改用另一篇部落格評測中標準版商品照。",
       "photos": [
-        "loose/t14_mclaren-senna.jpg",
+        "loose/t14_mclaren-senna_o.jpg",
         "raw/IMG_3145.jpg"
       ],
       "ip": "",
@@ -4509,15 +4514,17 @@
         "No.82"
       ],
       "source_images": [
+        "https://japan-figure.com/products/tomica-no-82-mazda-cx-5-patrol-car-box",
         "IMG_3166.jpg"
       ],
       "box_image": "tNA_hiroshima-police.jpg",
-      "loose_image": "",
-      "main_image": "box/tNA_hiroshima-police.jpg",
+      "loose_image": "tNA_hiroshima-police_o.jpg",
+      "main_image": "loose/tNA_hiroshima-police_o.jpg",
       "has_image": true,
       "confidence": "high",
       "notes": "Tomica No.82 マツダ CX-5 パトロールカー 広島県警察塗裝。圖取自 Mercari。",
       "photos": [
+        "loose/tNA_hiroshima-police_o.jpg",
         "box/tNA_hiroshima-police.jpg",
         "raw/IMG_3166.jpg"
       ],
@@ -5148,5 +5155,5 @@
       "has_official": true
     }
   ],
-  "build": 1793277586
+  "build": 1793277958
 }
