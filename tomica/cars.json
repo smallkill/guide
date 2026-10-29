@@ -4656,13 +4656,14 @@
       "source_images": [
         "IMG_3162.jpg"
       ],
-      "box_image": "",
+      "box_image": "tNA_minion-bee-do_o.jpg",
       "loose_image": "",
-      "main_image": "raw/IMG_3162.jpg",
+      "main_image": "box/tNA_minion-bee-do_o.jpg",
       "has_image": true,
       "confidence": "low",
-      "notes": "USJ限定 ミニオンカー,2017/04/18 發售(與 MINION BITES 同期),於ミニオンズ・ポップ・ショップ販售;收藏資料庫 tomicadas 列名「MINIONS」,車身印 BEE-DO 字樣、灰色底盤,與自拍一致。只找到 180px 收藏者照片與二手拍賣圖,沒有原廠官方圖,維持自拍。",
+      "notes": "USJ限定 ミニオンカー MINIONS(車身印 BEE-DO),2017/04/18 發售,於ミニオンズ・ポップ・ショップ販售。商品照(車+盒)由 Derek 提供,與自拍一致;未找到原廠官方圖。",
       "photos": [
+        "box/tNA_minion-bee-do_o.jpg",
         "raw/IMG_3162.jpg"
       ],
       "ip": "小小兵",
@@ -5146,5 +5147,5 @@
       "has_official": true
     }
   ],
-  "build": 1793277143
+  "build": 1793277308
 }
