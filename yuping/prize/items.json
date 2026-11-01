@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-26",
- "build": 1792998519,
- "count": 48,
+ "updated": "2026-11-01",
+ "build": 1793534833,
+ "count": 132,
  "items": [
   {
    "id": "vocaloid_sakura-miku_coreful-wafu-kissa",
@@ -1611,6 +1611,3180 @@
    ],
    "confidence": "high",
    "notes": "2023/8/28 初版、2024/2 再販;約20cm;Derek 2026-09-20 Telegram 傳照新增"
+  },
+  {
+   "id": "gintama_justaway_mechamofugutto_132014_1",
+   "name_ja": "銀魂 めちゃもふぐっとぬいぐるみ～ジャスタウェイ～",
+   "name_en": "Gintama Mecha Mofu Gutto Plush ~Justaway~",
+   "name_zh": "銀魂 傑士塔威(ジャスタウェイ) 超蓬鬆抱抱大娃娃(長條抱枕型)",
+   "ip": "銀魂",
+   "character": "ジャスタウェイ(傑士塔威)",
+   "maker": "バンプレスト(BANPRESTO/BANDAI SPIRITS)",
+   "line": "めちゃもふぐっとぬいぐるみ",
+   "type": "plush",
+   "year": "2026",
+   "category": [
+    "銀魂",
+    "絨毛娃娃",
+    "抱枕",
+    "プライズ"
+   ],
+   "keywords": [
+    "銀魂",
+    "ジャスタウェイ",
+    "傑士塔威",
+    "Justaway",
+    "めちゃもふぐっと",
+    "バンプレスト",
+    "抱枕"
+   ],
+   "source_images": [
+    "https://bsp-prize.jp/item/2821959/",
+    "raw/P_20261026_132014_1.jpg"
+   ],
+   "box_image": "gintama_justaway_mechamofugutto_132014_1.jpg",
+   "main_image": "box/gintama_justaway_mechamofugutto_132014_1.jpg",
+   "photos": [
+    "box/gintama_justaway_mechamofugutto_132014_1.jpg",
+    "raw/P_20261026_132014_1.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 指認為ジャスタウェイ。バンプレストナビ官方頁「銀魂 めちゃもふぐっとぬいぐるみ～ジャスタウェイ～」https://bsp-prize.jp/item/2821959/,全1種、約40cm,2026/4/28 起陸續登場(クレーンゲーム プライズ,BANPRESTO);外型(橘粉長條身體、米色頭、斜眼、細棒手)與實拍吻合,吊牌 BANDAI SPIRITS、8歲以上亦符。官方圖僅有 500px。",
+   "code": "N01"
+  },
+  {
+   "id": "gintama_elizabeth_plush-standing_132014",
+   "name_ja": "一番くじ 銀魂～笑顔を護る者たちの日常と非日常～ ラストワン賞 アルザベスぬいぐるみ",
+   "name_en": "",
+   "name_zh": "一番賞 銀魂～守護笑容者們的日常與非日常～ 最後賞 阿爾紮貝斯(アルザベス)絨毛娃娃",
+   "ip": "銀魂",
+   "character": "アルザベス(エリザベス・基地潛入神樂+新八版)",
+   "maker": "BANDAI SPIRITS",
+   "line": "一番くじ 銀魂-笑顔を護る者たちの日常と非日常- ラストワン賞",
+   "type": "plush",
+   "year": "2012",
+   "category": [
+    "銀魂",
+    "絨毛娃娃",
+    "一番賞",
+    "ラストワン賞"
+   ],
+   "keywords": [
+    "銀魂",
+    "一番賞",
+    "ラストワン",
+    "ラストワン賞",
+    "アルザベス",
+    "一番くじ"
+   ],
+   "source_images": [
+    "https://1kuji.com/products/gintama3",
+    "raw/P_20261026_132014_2.jpg"
+   ],
+   "box_image": "gintama_elizabeth_arzabeth_lastone_132014_2.jpg",
+   "main_image": "box/gintama_elizabeth_arzabeth_lastone_132014_2.jpg",
+   "photos": [
+    "box/gintama_elizabeth_arzabeth_lastone_132014_2.jpg",
+    "raw/P_20261026_132014_2.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 提供彈名與賞別:一番くじ 銀魂～笑顔を護る者たちの日常と非日常～ ラストワン賞。1kuji.com 官方:「アルザベスぬいぐるみ」全1種、全高約17cm,2012年6月中旬店頭發售(最後一抽附贈);D賞○○ザベス的搭檔,基地潛入的神樂與新八造型。實拍與官方圖外型相符(耳罩、頭頂新八立牌)。",
+   "code": "N02"
+  },
+  {
+   "id": "gintama_elizabeth_rukappu-poncho_132014",
+   "name_ja": "るかっぷ ポンチョ 銀魂 エリザベス",
+   "name_en": "Rukappu Poncho Gintama Elizabeth",
+   "name_zh": "Rukappu 披風 銀魂 伊莉莎白",
+   "ip": "銀魂",
+   "character": "エリザベス (Elizabeth)",
+   "maker": "MegaHouse",
+   "line": "るかっぷ",
+   "type": "other",
+   "year": "2026",
+   "category": [
+    "周邊",
+    "披風",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "銀魂",
+    "エリザベス",
+    "るかっぷ",
+    "ポンチョ",
+    "MegaHouse"
+   ],
+   "source_images": [
+    "https://www.megahobby.jp/products/item/5701/",
+    "raw/P_20261026_132014_3.jpg"
+   ],
+   "box_image": "gintama_elizabeth_rukappu-poncho_132014.jpg",
+   "main_image": "box/gintama_elizabeth_rukappu-poncho_132014.jpg",
+   "photos": [
+    "box/gintama_elizabeth_rukappu-poncho_132014.jpg",
+    "raw/P_20261026_132014_3.jpg"
+   ],
+   "confidence": "high",
+   "notes": "MegaHouse(メガホビ公式頁 item/5701)確認:るかっぷ ポンチョ 銀魂 エリザベス,2026年。包裝(BANDAI NAMCO/MegaHouse)與實拍一致。",
+   "code": "N03"
+  },
+  {
+   "id": "gintama_sadaharu_rukyappu_132014",
+   "name_ja": "るきゃっぷ 銀魂 定春",
+   "name_en": "",
+   "name_zh": "Rukyappu 銀魂 定春",
+   "ip": "銀魂",
+   "character": "定春 (Sadaharu)",
+   "maker": "MegaHouse",
+   "line": "るかっぷ",
+   "type": "plush",
+   "year": "2026",
+   "category": [
+    "絨毛娃娃",
+    "帽子/頭套"
+   ],
+   "keywords": [
+    "銀魂",
+    "定春",
+    "るきゃっぷ"
+   ],
+   "source_images": [
+    "https://www.megahobby.jp/products/item/5702/",
+    "raw/P_20261026_132014_4.jpg"
+   ],
+   "box_image": "gintama_sadaharu_rukyappu_132014.jpg",
+   "main_image": "box/gintama_sadaharu_rukyappu_132014.jpg",
+   "photos": [
+    "box/gintama_sadaharu_rukyappu_132014.jpg",
+    "raw/P_20261026_132014_4.jpg"
+   ],
+   "confidence": "high",
+   "notes": "MegaHouse(メガホビ公式頁 item/5702)確認:るきゃっぷ 銀魂 定春,2026年。外型與實拍包裝一致。",
+   "code": "N04"
+  },
+  {
+   "id": "gintama_sadaharu_banpresto-a1_132014",
+   "name_ja": "3年Z組銀八先生 ポンポンぬい(定春)",
+   "name_en": "",
+   "name_zh": "3年Z組銀八先生 圓球吊飾絨毛娃娃(定春)",
+   "ip": "銀魂",
+   "character": "定春",
+   "maker": "BANPRESTO(BANDAI SPIRITS)",
+   "line": "3年Z組銀八先生 ポンポンぬい",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "銀魂",
+    "絨毛娃娃",
+    "吊飾",
+    "プライズ"
+   ],
+   "keywords": [
+    "銀魂",
+    "3年Z組銀八先生",
+    "ポンポンぬい",
+    "定春",
+    "號碼布"
+   ],
+   "source_images": [
+    "https://bsp-prize.jp/item/2803882/",
+    "raw/P_20261026_132014_5.jpg"
+   ],
+   "box_image": "gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
+   "main_image": "box/gintama_3z_ponpon_sadaharu_c.jpg",
+   "photos": [
+    "box/gintama_3z_ponpon_sadaharu_c.jpg",
+    "raw/P_20261026_132014_5.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 提供商品名「3年Z組銀八先生 ポンポンぬい」。BANPRESTO 官網:全3種(定春/銀八先生/エリザベス)、約7cm、2025/11/11 起陸續登場,附吊繩;N05 為定春,實拍與官方圖外型相符(胸前A1號碼布為抽選貼紙)。官方頁 https://bsp-prize.jp/item/2803882/",
+   "code": "N05"
+  },
+  {
+   "id": "gintama_unknown-c1-pink_132014",
+   "name_ja": "3年Z組銀八先生 ポンポンぬい(ジャスタウェイ)",
+   "name_en": "",
+   "name_zh": "3年Z組銀八先生 圓球吊飾絨毛娃娃(傑士塔威)",
+   "ip": "銀魂",
+   "character": "銀八先生",
+   "maker": "BANPRESTO(BANDAI SPIRITS)",
+   "line": "3年Z組銀八先生 ポンポンぬい",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "銀魂",
+    "絨毛娃娃",
+    "吊飾",
+    "プライズ"
+   ],
+   "keywords": [
+    "銀魂",
+    "3年Z組銀八先生",
+    "ポンポンぬい",
+    "銀八先生",
+    "號碼布",
+    "傑士塔威",
+    "ジャスタウェイ"
+   ],
+   "source_images": [
+    "https://bsp-prize.jp/item/2803882/",
+    "raw/P_20261026_132014_6.jpg"
+   ],
+   "box_image": "gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
+   "main_image": "box/gintama_3z_ponpon_justaway_c.jpg",
+   "photos": [
+    "box/gintama_3z_ponpon_justaway_c.jpg",
+    "raw/P_20261026_132014_6.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 提供商品名「3年Z組銀八先生 ポンポンぬい」。BANPRESTO 官網:全3種、約7cm、2025/11/11 起陸續登場;N06 為膚色圓頭+粉色身體的銀八先生,實拍與官方圖相符(胸前C1號碼布為抽選貼紙)。官方頁 https://bsp-prize.jp/item/2803882/;NOVA 依官方圖更正:此款為ジャスタウェイ(非銀八先生),官方圖已裁單隻",
+   "code": "N06"
+  },
+  {
+   "id": "gintama_elizabeth_ball-plush_132014",
+   "name_ja": "3年Z組銀八先生 ポンポンぬい(エリザベス)",
+   "name_en": "",
+   "name_zh": "3年Z組銀八先生 圓球吊飾絨毛娃娃(伊莉莎白)",
+   "ip": "銀魂",
+   "character": "エリザベス (Elizabeth)",
+   "maker": "BANPRESTO(BANDAI SPIRITS)",
+   "line": "3年Z組銀八先生 ポンポンぬい",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "銀魂",
+    "絨毛娃娃",
+    "吊飾",
+    "プライズ"
+   ],
+   "keywords": [
+    "銀魂",
+    "3年Z組銀八先生",
+    "ポンポンぬい",
+    "エリザベス",
+    "伊莉莎白"
+   ],
+   "source_images": [
+    "https://bsp-prize.jp/item/2803882/",
+    "raw/P_20261026_132014_7.jpg"
+   ],
+   "box_image": "gintama_3z-ginpachi_ponpon-nui_bsp2803882.jpg",
+   "main_image": "box/gintama_3z_ponpon_elizabeth_c.jpg",
+   "photos": [
+    "box/gintama_3z_ponpon_elizabeth_c.jpg",
+    "raw/P_20261026_132014_7.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 提供商品名「3年Z組銀八先生 ポンポンぬい」。BANPRESTO 官網:全3種、約7cm、2025/11/11 起陸續登場;N07 為エリザベス,實拍與官方圖相符。官方頁 https://bsp-prize.jp/item/2803882/",
+   "code": "N07"
+  },
+  {
+   "id": "gintama_unknown-white-cat-blue-sash_132014",
+   "name_ja": "銀魂 ミニモフぬいぐるみ 銀時",
+   "name_en": "Gintama MINI Mofu Plush Gintoki",
+   "name_zh": "銀魂 迷你毛絨娃娃(MINI モフフサ) 坂田 銀時",
+   "ip": "銀魂",
+   "character": "坂田銀時(坂田銀時)",
+   "maker": "SO-ZO",
+   "line": "銀魂 ミニモフぬいぐるみ(モフフサ コラボ)",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "銀魂",
+    "絨毛娃娃",
+    "吊飾",
+    "モフフサ"
+   ],
+   "keywords": [
+    "銀魂",
+    "ミニモフ",
+    "モフフサ",
+    "MOFUFUSA",
+    "SO-ZO",
+    "銀時",
+    "坂田銀時"
+   ],
+   "source_images": [
+    "https://www.hobbystock.jp/item/view/hby-ccg-00299798",
+    "raw/P_20261026_132014_8.jpg"
+   ],
+   "box_image": "gintama_minimofu_gintoki_sozo.jpg",
+   "main_image": "box/gintama_minimofu_gintoki_sozo.jpg",
+   "photos": [
+    "box/gintama_minimofu_gintoki_sozo.jpg",
+    "raw/P_20261026_132014_8.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 提供商品名「銀魂 ミニモフぬいぐるみ」。SO-ZO 與モフフサ聯名,全8種(銀時/新八/神楽/土方/沖田/高杉/神威/桂),約10cm,附球鏈,2025/5-6 月發售;本件為坂田銀時,實拍與官方圖外型相符(官方圖來源 ホビーストック,site 非原廠頁)。",
+   "code": "N08"
+  },
+  {
+   "id": "gintama_unknown-gray-cat-suit_132014",
+   "name_ja": "銀魂 ミニモフぬいぐるみ 桂",
+   "name_en": "Gintama MINI Mofu Plush Katsura",
+   "name_zh": "銀魂 迷你毛絨娃娃(MINI モフフサ) 桂 小太郎",
+   "ip": "銀魂",
+   "character": "桂小太郎(桂小太郎)",
+   "maker": "SO-ZO",
+   "line": "銀魂 ミニモフぬいぐるみ(モフフサ コラボ)",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "銀魂",
+    "絨毛娃娃",
+    "吊飾",
+    "モフフサ"
+   ],
+   "keywords": [
+    "銀魂",
+    "ミニモフ",
+    "モフフサ",
+    "MOFUFUSA",
+    "SO-ZO",
+    "桂",
+    "桂小太郎"
+   ],
+   "source_images": [
+    "https://www.hobbystock.jp/item/view/hby-ccg-00299805",
+    "raw/P_20261026_132014_9.jpg"
+   ],
+   "box_image": "gintama_minimofu_katsura_sozo.jpg",
+   "main_image": "box/gintama_minimofu_katsura_sozo.jpg",
+   "photos": [
+    "box/gintama_minimofu_katsura_sozo.jpg",
+    "raw/P_20261026_132014_9.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 提供商品名「銀魂 ミニモフぬいぐるみ」。SO-ZO 與モフフサ聯名,全8種(銀時/新八/神楽/土方/沖田/高杉/神威/桂),約10cm,附球鏈,2025/5-6 月發售;本件為桂小太郎,實拍與官方圖外型相符(官方圖來源 ホビーストック,site 非原廠頁)。",
+   "code": "N09"
+  },
+  {
+   "id": "gintama_unknown-orange-rabbit-black-belt_132014",
+   "name_ja": "銀魂 ミニモフぬいぐるみ 神威",
+   "name_en": "Gintama MINI Mofu Plush Kamui",
+   "name_zh": "銀魂 迷你毛絨娃娃(MINI モフフサ) 神威",
+   "ip": "銀魂",
+   "character": "神威(神威)",
+   "maker": "SO-ZO",
+   "line": "銀魂 ミニモフぬいぐるみ(モフフサ コラボ)",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "銀魂",
+    "絨毛娃娃",
+    "吊飾",
+    "モフフサ"
+   ],
+   "keywords": [
+    "銀魂",
+    "ミニモフ",
+    "モフフサ",
+    "MOFUFUSA",
+    "SO-ZO",
+    "神威",
+    "神威"
+   ],
+   "source_images": [
+    "https://www.hobbystock.jp/item/view/hby-ccg-00299804",
+    "raw/P_20261026_132014_10.jpg"
+   ],
+   "box_image": "gintama_minimofu_kamui_sozo.jpg",
+   "main_image": "box/gintama_minimofu_kamui_sozo.jpg",
+   "photos": [
+    "box/gintama_minimofu_kamui_sozo.jpg",
+    "raw/P_20261026_132014_10.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 提供商品名「銀魂 ミニモフぬいぐるみ」。SO-ZO 與モフフサ聯名,全8種(銀時/新八/神楽/土方/沖田/高杉/神威/桂),約10cm,附球鏈,2025/5-6 月發售;本件為神威,實拍與官方圖外型相符(官方圖來源 ホビーストック,site 非原廠頁)。",
+   "code": "N10"
+  },
+  {
+   "id": "gintama_unknown-orange-rabbit-red-outfit_132014",
+   "name_ja": "銀魂 ミニモフぬいぐるみ 神楽",
+   "name_en": "Gintama MINI Mofu Plush Kagura",
+   "name_zh": "銀魂 迷你毛絨娃娃(MINI モフフサ) 神樂",
+   "ip": "銀魂",
+   "character": "神楽(神樂)",
+   "maker": "SO-ZO",
+   "line": "銀魂 ミニモフぬいぐるみ(モフフサ コラボ)",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "銀魂",
+    "絨毛娃娃",
+    "吊飾",
+    "モフフサ"
+   ],
+   "keywords": [
+    "銀魂",
+    "ミニモフ",
+    "モフフサ",
+    "MOFUFUSA",
+    "SO-ZO",
+    "神楽",
+    "神樂"
+   ],
+   "source_images": [
+    "https://www.hobbystock.jp/item/view/hby-ccg-00299800",
+    "raw/P_20261026_132014_11.jpg"
+   ],
+   "box_image": "gintama_minimofu_kagura_sozo.jpg",
+   "main_image": "box/gintama_minimofu_kagura_sozo.jpg",
+   "photos": [
+    "box/gintama_minimofu_kagura_sozo.jpg",
+    "raw/P_20261026_132014_11.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 提供商品名「銀魂 ミニモフぬいぐるみ」。SO-ZO 與モフフサ聯名,全8種(銀時/新八/神楽/土方/沖田/高杉/神威/桂),約10cm,附球鏈,2025/5-6 月發售;本件為神樂,實拍與官方圖外型相符(官方圖來源 ホビーストック,site 非原廠頁)。",
+   "code": "N11"
+  },
+  {
+   "id": "gintama_unknown-brown-mask_132014",
+   "name_ja": "銀魂 ミニモフぬいぐるみ 沖田",
+   "name_en": "Gintama MINI Mofu Plush Okita",
+   "name_zh": "銀魂 迷你毛絨娃娃(MINI モフフサ) 沖田 總悟",
+   "ip": "銀魂",
+   "character": "沖田総悟(沖田總悟)",
+   "maker": "SO-ZO",
+   "line": "銀魂 ミニモフぬいぐるみ(モフフサ コラボ)",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "銀魂",
+    "絨毛娃娃",
+    "吊飾",
+    "モフフサ"
+   ],
+   "keywords": [
+    "銀魂",
+    "ミニモフ",
+    "モフフサ",
+    "MOFUFUSA",
+    "SO-ZO",
+    "沖田",
+    "沖田總悟"
+   ],
+   "source_images": [
+    "https://www.hobbystock.jp/item/view/hby-ccg-00299802",
+    "raw/P_20261026_132014_12.jpg"
+   ],
+   "box_image": "gintama_minimofu_okita_sozo.jpg",
+   "main_image": "box/gintama_minimofu_okita_sozo.jpg",
+   "photos": [
+    "box/gintama_minimofu_okita_sozo.jpg",
+    "raw/P_20261026_132014_12.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 提供商品名「銀魂 ミニモフぬいぐるみ」。SO-ZO 與モフフサ聯名,全8種(銀時/新八/神楽/土方/沖田/高杉/神威/桂),約10cm,附球鏈,2025/5-6 月發售;本件為沖田總悟,實拍與官方圖外型相符(官方圖來源 ホビーストック,site 非原廠頁)。",
+   "code": "N12"
+  },
+  {
+   "id": "gintama_unknown-black-cat-face_132014",
+   "name_ja": "銀魂 桂猫 ぬいぐるみバッジ(上海ポップアップ)",
+   "name_en": "Gintama Katsura Cat Plush Badge (Shanghai pop-up)",
+   "name_zh": "銀魂 桂款 黑貓毛絨徽章(上海快閃店)",
+   "ip": "銀魂",
+   "character": "貓化角色(黑貓,待確認)",
+   "maker": "GoGoGooDs 谷子快跑(羚邦 MediaLink 授權,中國)",
+   "line": "毛絨徽章(選款)全3款",
+   "type": "other",
+   "year": "",
+   "category": [
+    "銀魂",
+    "毛絨徽章",
+    "貓"
+   ],
+   "keywords": [
+    "銀魂",
+    "桂貓",
+    "桂猫",
+    "桂小太郎",
+    "毛絨徽章",
+    "GoGoGooDs",
+    "谷子快跑",
+    "上海快閃",
+    "大悅城"
+   ],
+   "source_images": [
+    "raw/P_20261026_132014_13.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/gintama_katsura-cat_plush-badge_gogogoods_132014_13.jpg",
+   "photos": [
+    "box/gintama_katsura-cat_plush-badge_gogogoods_132014_13.jpg",
+    "raw/P_20261026_132014_13.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 提供:銀魂毛絨徽章(ぬいぐるみバッジ),淘寶購入。黑貓、金色眼、粉耳;疑為官方「ギン猫」系列(ソル・インターナショナル)中國版/周邊同系列的另一角色,但未查到黑貓對應角色與官方圖(神里屋頁被 CAPTCHA 擋,已跳過),淘寶品可能為非原廠,故不放官方圖。;確認:GoGoGooDs 谷子快跑「馬上發財」春節限定快閃(上海靜安大悅城 南座1F S108)海報,Derek 提供;毛絨徽章(選款)全3款:銀時款/桂貓/近藤款。官方圖為海報裁切(解析度低);本件=桂貓(黑貓、金眼、藍領巾);高清官方單品圖由 Derek 提供(谷子快跑×羚邦 MediaLink 商品圖,吊牌 ©S/STDMA Licensed by Medialink)",
+   "code": "N13"
+  },
+  {
+   "id": "gintama_unknown-white-cat-face_132014",
+   "name_ja": "銀魂 銀時 猫 ぬいぐるみバッジ(上海ポップアップ)",
+   "name_en": "Gintama Gintoki Cat Plush Badge (Shanghai pop-up)",
+   "name_zh": "銀魂 銀時款 白貓毛絨徽章(上海快閃店)",
+   "ip": "銀魂",
+   "character": "坂田銀時(貓化「ギン猫」)",
+   "maker": "GoGoGooDs 谷子快跑(羚邦 MediaLink 授權,中國)",
+   "line": "毛絨徽章(選款)全3款",
+   "type": "other",
+   "year": "",
+   "category": [
+    "銀魂",
+    "毛絨徽章",
+    "貓"
+   ],
+   "keywords": [
+    "銀魂",
+    "銀時",
+    "銀貓",
+    "ギン猫",
+    "毛絨徽章",
+    "GoGoGooDs",
+    "谷子快跑",
+    "上海快閃",
+    "大悅城"
+   ],
+   "source_images": [
+    "raw/P_20261026_132014_14.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/gintama_gintoki-cat_plush-badge_gogogoods_132014_14.jpg",
+   "photos": [
+    "box/gintama_gintoki-cat_plush-badge_gogogoods_132014_14.jpg",
+    "raw/P_20261026_132014_14.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 提供:銀魂毛絨徽章(ぬいぐるみバッジ),淘寶購入。白貓、半閉死魚眼、粉耳,符合「銀猫/ギン猫」(銀時貓化,ソル・インターナショナル 官方系列,日本有中國再販ぬいぐるみバッジ);淘寶品可能為非原廠,未取得官方圖,維持實拍為主圖。;確認:GoGoGooDs 谷子快跑「馬上發財」春節限定快閃(上海靜安大悅城 南座1F S108)海報,Derek 提供;毛絨徽章(選款)全3款:銀時款/桂貓/近藤款。官方圖為海報裁切(解析度低);本件=銀時款(白貓死魚眼);高清官方單品圖由 Derek 提供(谷子快跑×羚邦 MediaLink 商品圖,吊牌 ©S/STDMA Licensed by Medialink)",
+   "code": "N14"
+  },
+  {
+   "id": "haikyuu_kuroo-cat_animal-big-plush_132718",
+   "name_ja": "ハイキュー!! クロオネコ ぬいぐるみ 動物款6吋(KHTOY・日文原名未查得)",
+   "name_en": "Haikyu!! Kuroo cat Animal plush 6in (KHTOY)",
+   "name_zh": "排球少年 黑尾貓 動物款絨毛娃娃 6吋(KHTOY)",
+   "ip": "排球少年(ハイキュー!!)",
+   "character": "黒尾鉄朗(クロオネコ)",
+   "maker": "KHTOY(金興玩具,台灣)",
+   "line": "排球少年-動物款(6吋/12吋,六款)",
+   "type": "plush",
+   "year": "2022",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "排球少年",
+    "Haikyu",
+    "動物款",
+    "KHTOY",
+    "金興玩具",
+    "拼出你的絨毛圈",
+    "クロオネコ",
+    "黑尾貓",
+    "黒尾鉄朗",
+    "黑尾鐵朗",
+    "絨毛娃娃",
+    "6吋",
+    "台灣",
+    "ぬいぐるみ"
+   ],
+   "source_images": [
+    "P_20261026_132718_1.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/haikyuu_kuroo-cat_khtoy-animal-6in.jpg",
+   "photos": [
+    "box/haikyuu_kuroo-cat_khtoy-animal-6in.jpg",
+    "raw/P_20261026_132718_1.jpg"
+   ],
+   "confidence": "high",
+   "notes": "角色由外型判斷(黑尾貓);實拍為有身體手腳的立體娃娃。吊牌有 ハイキュー!! 標誌與角色卡片(背號10的球員圖),廠商/系列未確認。〔2026-10-26 第六輪:Derek 確認為娃娃。先前掛的 SK Japan アニマルBIGぬいぐるみ官方圖是扁平臉形靠墊(無身體),與實拍(有身體的坐姿娃娃)不符,已撤下;查過 SK Japan、一番くじ ハイキュー!! 全彈(含 全国への道/烏野の未来/10th 等)、みんなのくじ アニマルピクニック(僅 ヒナガラス/カゲガラス ぬいぐるみ)、Taito でっかいぬいぐるみ(音駒 孤爪&黒尾,2015)皆未能對上,廠商/系列待確認。〕;Derek 提供商品頁 https://www.khtoy.com.tw/product/detail?id=3735。KHTOY 官網:商品名「排球少年-動物款」、商品編號 221019002(約 2022-10 上架)、6吋 10×17cm / 12吋 22×31cm、聚酯纖維、單隻 NT$158(VIP 79)、一包六款(日向/影山/孤爪/黑尾/赤葦/木兔)。實拍吊牌 KH TOY『拼出你的絨毛圈』+ハイキュー!!標誌+日向影山角色卡,與官網圖一致。日文原名/日本廠商:搜尋未查得(台灣廠商自製授權品,非日本景品)。",
+   "code": "N15"
+  },
+  {
+   "id": "haikyuu_kenma-cat_animal-big-plush_132718",
+   "name_ja": "ハイキュー!! ケンマネコ ぬいぐるみ 動物款6吋(KHTOY・日文原名未查得)",
+   "name_en": "Haikyu!! Kenma cat Animal plush 6in (KHTOY)",
+   "name_zh": "排球少年 研磨貓 動物款絨毛娃娃 6吋(KHTOY)",
+   "ip": "排球少年(ハイキュー!!)",
+   "character": "孤爪研磨(ケンマネコ)",
+   "maker": "KHTOY(金興玩具,台灣)",
+   "line": "排球少年-動物款(6吋/12吋,六款)",
+   "type": "plush",
+   "year": "2022",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "排球少年",
+    "Haikyu",
+    "動物款",
+    "KHTOY",
+    "金興玩具",
+    "拼出你的絨毛圈",
+    "ケンマネコ",
+    "研磨貓",
+    "孤爪研磨",
+    "孤爪研磨",
+    "絨毛娃娃",
+    "6吋",
+    "台灣",
+    "ぬいぐるみ"
+   ],
+   "source_images": [
+    "P_20261026_132718_2.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/haikyuu_kenma-cat_khtoy-animal-6in.jpg",
+   "photos": [
+    "box/haikyuu_kenma-cat_khtoy-animal-6in.jpg",
+    "raw/P_20261026_132718_2.jpg"
+   ],
+   "confidence": "high",
+   "notes": "角色由外型判斷(研磨貓);實拍為有身體手腳的立體娃娃。吊牌有 ハイキュー!! 標誌與角色卡片(背號10的球員圖),廠商/系列未確認。〔2026-10-26 第六輪:Derek 確認為娃娃。先前掛的 SK Japan アニマルBIGぬいぐるみ官方圖是扁平臉形靠墊(無身體),與實拍(有身體的坐姿娃娃)不符,已撤下;查過 SK Japan、一番くじ ハイキュー!! 全彈(含 全国への道/烏野の未来/10th 等)、みんなのくじ アニマルピクニック(僅 ヒナガラス/カゲガラス ぬいぐるみ)、Taito でっかいぬいぐるみ(音駒 孤爪&黒尾,2015)皆未能對上,廠商/系列待確認。〕;Derek 提供商品頁 https://www.khtoy.com.tw/product/detail?id=3735。KHTOY 官網:商品名「排球少年-動物款」、商品編號 221019002(約 2022-10 上架)、6吋 10×17cm / 12吋 22×31cm、聚酯纖維、單隻 NT$158(VIP 79)、一包六款(日向/影山/孤爪/黑尾/赤葦/木兔)。實拍吊牌 KH TOY『拼出你的絨毛圈』+ハイキュー!!標誌+日向影山角色卡,與官網圖一致。日文原名/日本廠商:搜尋未查得(台灣廠商自製授權品,非日本景品)。",
+   "code": "N16"
+  },
+  {
+   "id": "haikyuu_hinagarasu_animal-big-plush_132718_p3",
+   "name_ja": "ハイキュー!! ヒナガラス ぬいぐるみ 動物款6吋(KHTOY・日文原名未查得)",
+   "name_en": "Haikyu!! Hinata crow Animal plush 6in (KHTOY)",
+   "name_zh": "排球少年 日向烏鴉 動物款絨毛娃娃 6吋(KHTOY)",
+   "ip": "排球少年(ハイキュー!!)",
+   "character": "日向翔陽(ヒナガラス)",
+   "maker": "KHTOY(金興玩具,台灣)",
+   "line": "排球少年-動物款(6吋/12吋,六款)",
+   "type": "plush",
+   "year": "2022",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "排球少年",
+    "Haikyu",
+    "動物款",
+    "KHTOY",
+    "金興玩具",
+    "拼出你的絨毛圈",
+    "ヒナガラス",
+    "日向烏鴉",
+    "日向翔陽",
+    "日向翔陽",
+    "絨毛娃娃",
+    "6吋",
+    "台灣",
+    "ぬいぐるみ"
+   ],
+   "source_images": [
+    "raw/P_20261026_132718_3.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/haikyuu_hinata-crow_khtoy-animal-6in.jpg",
+   "photos": [
+    "box/haikyuu_hinata-crow_khtoy-animal-6in.jpg",
+    "raw/P_20261026_132718_3.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 指示:此張只算日向烏鴉(深藍身體+橘色毛氈髮+白點眼),照片中其他東西忽略。外型可能是 SK Japan アニマルBIGぬいぐるみ 或 一番くじ ～全国への道～ C賞 ヒナガラスふわふわクッション(同色系),照片僅拍到頭側,無法定論,故不套官方圖。;Derek 提供商品頁 https://www.khtoy.com.tw/product/detail?id=3735。KHTOY 官網:商品名「排球少年-動物款」、商品編號 221019002(約 2022-10 上架)、6吋 10×17cm / 12吋 22×31cm、聚酯纖維、單隻 NT$158(VIP 79)、一包六款(日向/影山/孤爪/黑尾/赤葦/木兔)。實拍吊牌 KH TOY『拼出你的絨毛圈』+ハイキュー!!標誌+日向影山角色卡,與官網圖一致。日文原名/日本廠商:搜尋未查得(台灣廠商自製授權品,非日本景品)。",
+   "code": "N17"
+  },
+  {
+   "id": "haikyuu_bokuto-owl_animal-big-plush_132718",
+   "name_ja": "ハイキュー!! ボクトフクロウ ぬいぐるみ 動物款6吋(KHTOY・日文原名未查得)",
+   "name_en": "Haikyu!! Bokuto owl Animal plush 6in (KHTOY)",
+   "name_zh": "排球少年 木兔貓頭鷹 動物款絨毛娃娃 6吋(KHTOY)",
+   "ip": "排球少年(ハイキュー!!)",
+   "character": "木兎光太郎(ボクトフクロウ)",
+   "maker": "KHTOY(金興玩具,台灣)",
+   "line": "排球少年-動物款(6吋/12吋,六款)",
+   "type": "plush",
+   "year": "2022",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "排球少年",
+    "Haikyu",
+    "動物款",
+    "KHTOY",
+    "金興玩具",
+    "拼出你的絨毛圈",
+    "ボクトフクロウ",
+    "木兔貓頭鷹",
+    "木兎光太郎",
+    "木兔光太郎",
+    "絨毛娃娃",
+    "6吋",
+    "台灣",
+    "ぬいぐるみ"
+   ],
+   "source_images": [
+    "P_20261026_132718_4.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/haikyuu_bokuto-owl_khtoy-animal-6in.jpg",
+   "photos": [
+    "box/haikyuu_bokuto-owl_khtoy-animal-6in.jpg",
+    "raw/P_20261026_132718_4.jpg"
+   ],
+   "confidence": "high",
+   "notes": "角色由外型判斷(木兎貓頭鷹);實拍為有身體手腳的立體娃娃。吊牌有 ハイキュー!! 標誌與角色卡片(背號10的球員圖),廠商/系列未確認。〔2026-10-26 第六輪:Derek 確認為娃娃。先前掛的 SK Japan アニマルBIGぬいぐるみ官方圖是扁平臉形靠墊(無身體),與實拍(有身體的坐姿娃娃)不符,已撤下;查過 SK Japan、一番くじ ハイキュー!! 全彈(含 全国への道/烏野の未来/10th 等)、みんなのくじ アニマルピクニック(僅 ヒナガラス/カゲガラス ぬいぐるみ)、Taito でっかいぬいぐるみ(音駒 孤爪&黒尾,2015)皆未能對上,廠商/系列待確認。〕;Derek 提供商品頁 https://www.khtoy.com.tw/product/detail?id=3735。KHTOY 官網:商品名「排球少年-動物款」、商品編號 221019002(約 2022-10 上架)、6吋 10×17cm / 12吋 22×31cm、聚酯纖維、單隻 NT$158(VIP 79)、一包六款(日向/影山/孤爪/黑尾/赤葦/木兔)。實拍吊牌 KH TOY『拼出你的絨毛圈』+ハイキュー!!標誌+日向影山角色卡,與官網圖一致。日文原名/日本廠商:搜尋未查得(台灣廠商自製授權品,非日本景品)。",
+   "code": "N18"
+  },
+  {
+   "id": "haikyuu_bokuto-4_sitting-plush_132718",
+   "name_ja": "ハイキュー!! もっちび ぬいぐるみ 木兎光太郎",
+   "name_en": "Haikyu!! Mocchibi Plush Bokuto Kotaro",
+   "name_zh": "排球少年 Mocchibi 絨毛娃娃 木兎光太郎",
+   "ip": "排球少年(ハイキュー!!)",
+   "character": "木兎光太郎",
+   "maker": "東宝(TOHO)",
+   "line": "もっちび ぬいぐるみ 第二弾",
+   "type": "plush",
+   "year": "2026",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "排球少年",
+    "もっちび",
+    "ぬいぐるみ",
+    "東宝",
+    "木兎光太郎"
+   ],
+   "source_images": [
+    "P_20261026_132718_5.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/haikyu_mocchibi_bokuto_132718_5.jpg",
+   "photos": [
+    "box/haikyu_mocchibi_bokuto_132718_5.jpg",
+    "raw/P_20261026_132718_5.jpg"
+   ],
+   "confidence": "high",
+   "notes": "照片5:梟谷白黑制服背號4、黑髮笑臉,判斷為木兎光太郎(medium);商品系列/廠商無法確認。已比對 Furyu ぬいもっちマスコット、Bandai Namco Chibiぬいぐるみ、SK みにコレ!ぬいぐるみ、ちょぴぬいぷち 的官方圖,造型皆不符,故無官方圖、年份廠商留空。吊牌在袋內看不到。;Derek 2026-10-27 指認為「ハイキュー!! もっちび ぬいぐるみ 木兎光太郎」。官方:東宝 TOHO animation STORE ONLINE 第二弾專頁 https://tohoentertainmentonline.com/shop/e/eTaS00052/ 列有此品,税込1,320円,尺寸 H80mm×W60mm、聚酯纖維、中國製;Yodobashi 上架資料發售日 2026-03-31,發售元東宝。單品頁 gTASG07298 與官方圖因站方 WAF/429 無法讀取,未取得官方單品圖、未做外觀比對。;官方設計圖由 Derek 提供(座高約8cm,©古舘春一/集英社・「ハイキュー!!」製作委員会;製作中設計圖非實品照);表情、眉間小點、梟谷 4 號球衣與原照一致",
+   "code": "N19"
+  },
+  {
+   "id": "haikyuu_kuroo-red_sitting-plush_132718",
+   "name_ja": "ハイキュー!! もっちび ぬいぐるみ 黒尾鉄朗",
+   "name_en": "Haikyu!! Mocchibi Plush Kuroo Tetsuro",
+   "name_zh": "排球少年 Mocchibi 絨毛娃娃 黑尾鐵朗",
+   "ip": "排球少年(ハイキュー!!)",
+   "character": "黒尾鉄朗",
+   "maker": "東宝(TOHO)",
+   "line": "もっちび ぬいぐるみ 第二弾",
+   "type": "plush",
+   "year": "2026",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "排球少年",
+    "もっちび",
+    "ぬいぐるみ",
+    "東宝",
+    "黒尾鉄朗"
+   ],
+   "source_images": [
+    "P_20261026_132718_6.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/haikyu_mocchibi_kuroo_132718_6.jpg",
+   "photos": [
+    "box/haikyu_mocchibi_kuroo_132718_6.jpg",
+    "raw/P_20261026_132718_6.jpg"
+   ],
+   "confidence": "high",
+   "notes": "照片6:音駒紅色制服、黑色亂翹髮、手抱排球,判斷為黑尾鉄朗(medium;背號看不到,也可能是同校其他角色);商品系列/廠商無法確認(比對過Furyu ぬいもっち、Bandai Namco Chibi、SK みにコレ,皆不符)。;Derek 2026-10-27 指認為「ハイキュー!! もっちび ぬいぐるみ 黒尾鉄朗」。官方:東宝 TOHO animation STORE ONLINE 第二弾專頁 https://tohoentertainmentonline.com/shop/e/eTaS00052/ 列有此品,税込1,320円,尺寸 H80mm×W60mm、聚酯纖維、中國製;TOHO 第二弾頁列為先行販售(2026-01 頃起順次)。單品頁 gTASG07298 與官方圖因站方 WAF/429 無法讀取,未取得官方單品圖、未做外觀比對。;Derek 確認黒尾官方商品頁:https://tohoentertainmentonline.com/shop/g/gTASG07298/;官方設計圖由 Derek 提供(座高約8cm,©古舘春一/集英社・「ハイキュー!!」製作委員会;製作中設計圖非實品照);音駒紅色 1 號球衣、雞冠頭與原照一致,確認為黒尾鉄朗",
+   "code": "N20"
+  },
+  {
+   "id": "haikyuu_hinata-black_sitting-plush_132718",
+   "name_ja": "ハイキュー!! もちぴこマスコットvol.1(日向翔陽)",
+   "name_en": "Haikyu!! Mochipiko Mascot vol.1 (Hinata Shoyo)",
+   "name_zh": "排球少年 麻糬皮可吊飾娃娃 vol.1 日向翔陽(約12cm)",
+   "ip": "排球少年(ハイキュー!!)",
+   "character": "日向翔陽",
+   "maker": "FuRyu(フリュー)",
+   "line": "もちぴこマスコット vol.1",
+   "type": "other",
+   "year": "2026",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "排球少年",
+    "日向翔陽",
+    "もちぴこマスコット",
+    "もちぴこ",
+    "フリュー",
+    "FuRyu",
+    "プライズ",
+    "吊飾",
+    "マスコット"
+   ],
+   "source_images": [
+    "P_20261026_132718_7.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/haikyu_mochipiko_hinata_132718.jpg",
+   "photos": [
+    "box/haikyu_mochipiko_hinata_132718.jpg",
+    "raw/P_20261026_132718_7.jpg"
+   ],
+   "confidence": "high",
+   "notes": "照片7:烏野黑色制服背號10、橘髮、ω嘴,判斷為日向翔陽(high);商品系列/廠商無法確認(比對過Furyu ぬいもっち A賞、Bandai Namco Chibi、SK みにコレ,皆不符)。背面尾巴處有「ハイキュー!!」吊牌。;Derek 指認:日向翔陽 もちぴこマスコットvol.1「ハイキュー!!」(景品)。來源 prize-house.com https://prize-house.com/prize-list/121144 :品名「ハイキュー!! もちぴこマスコットvol.1」、廠商フリュー(FuRyu)、約12cm、2026-01-09 登場預定(共4款:日向10號/影山9號/月島11號/山口12號,附黑色吊繩)。日向款=橘髮、ω嘴、烏野深藍制服背號10,與實拍一致。FuRyu 官方景品頁搜尋未找到 vol.1(僅 vol.2 有 charahiroba.com/prize/item/detail?id=15630),故官方圖取自 prize-house 的 FuRyu 宣傳圖。實拍背面有ハイキュー!!吊牌,吊繩可能已被收起。",
+   "code": "N21"
+  },
+  {
+   "id": "unknown_shiba-tulip-hood_plush_132718",
+   "name_ja": "新劇場版 銀魂 -吉原大炎上- 旅するマメしばエリザベス",
+   "name_en": "Gintama the Movie: Yoshiwara in Flames - Traveling Mameshiba Elizabeth (plush mascot)",
+   "name_zh": "新劇場版 銀魂 -吉原大炎上- 旅行的豆柴伊莉莎白 絨毛吊飾(約W70×H85mm)",
+   "ip": "銀魂",
+   "character": "犬(白、チューリップ帽)",
+   "maker": "未確認(東京電視台商店販售頁未載製造商;「旅するマメしば」系列)",
+   "line": "旅するマメしば",
+   "type": "other",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "銀魂",
+    "吉原大炎上",
+    "旅するマメしば",
+    "マメしば",
+    "豆柴",
+    "エリザベス",
+    "伊莉莎白",
+    "カワイイだろ",
+    "吊飾",
+    "テレ東"
+   ],
+   "source_images": [
+    "P_20261026_132718_8.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/gintama_elizabeth_mameshiba-tabisuru_132718_8.jpg",
+   "photos": [
+    "box/gintama_elizabeth_mameshiba-tabisuru_132718_8.jpg",
+    "raw/P_20261026_132718_8.jpg"
+   ],
+   "confidence": "high",
+   "notes": "照片8:白臉小狗,頭戴黃色花帽,手腳為黃色鬱金香造型,下方米色身體;吊牌為日文片假名,只讀得到「カワイ…」片段,商品與IP無法辨識(查過日文搜尋沒有符合結果),建議使用者補拍吊牌。照片只有一張,畫面右下角露出的麻布是照片9的束口袋。;原筆記「黃色鬱金香帽小狗」為誤認:黃色『花帽』其實是伊莉莎白的黃色鴨嘴,黃色『鬱金香手腳』是伊莉莎白的黃色腳掌。官方頁:1,540円(税込)、約W70×H85mm、含球鏈吊飾;頁面未載發售日與製造商;頁面註明圖為イメージ。來源 https://shop.tv-tokyo.co.jp/shop/g/gDBS014702/;球鏈吊飾(type 比照 N74/N80 歸 other);發售年未確認",
+   "code": "N22"
+  },
+  {
+   "id": "maplestory_mushroom-003_pouch-plush_132718",
+   "name_ja": "메이플프렌즈 인형 - 주황버섯",
+   "name_en": "Maple Friends Plush - Orange Mushroom (self-translated)",
+   "name_zh": "楓之谷好友 玩偶 橘色菇菇(自譯)",
+   "ip": "楓之谷(メイプルストーリー)",
+   "character": "キノコ系モンスター(#003、白黒斑点)",
+   "maker": "NEXON(메이플스토어)",
+   "line": "메이플프렌즈(Maple Friends)",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "遊戲",
+    "周邊"
+   ],
+   "keywords": [
+    "maplestory",
+    "메이플스토리",
+    "maple friends",
+    "메이플프렌즈",
+    "주황버섯",
+    "orange mushroom",
+    "nexon"
+   ],
+   "source_images": [
+    "P_20261026_132718_9.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/maplefriends_orange_mushroom_20869780.jpg",
+   "photos": [
+    "box/maplefriends_orange_mushroom_20869780.jpg",
+    "raw/P_20261026_132718_9.jpg"
+   ],
+   "confidence": "high",
+   "notes": "照片9:橘色吊牌「#003」+黑白斑點蘑菇圖與韓文說明,背面標籤寫製造/發行 Nexon Korea Corporation(中國製、尺寸約160mm×220mm),亞麻束口袋印橘色楓葉星形。判斷為韓國 MapleStory 周邊(袋內大概是娃娃/鑰匙圈),但官方 MapleStore 的「인형 키링 파우치」只找到 주황버섯/슬라임/핑크빈/예티/돌의 정령,沒有 #003 款,無法對上確切商品,故無官方圖。照片左上角露出日向翔陽娃娃(照片7)。;Derek 2026-10-27 指認為 메이플프렌즈 인형 - 주황버섯;官方頁 https://maplestory.essential.nexon.com/kr/maplestore/products/20869780 ;尺寸 9×9.5×9cm;定價 16,000 KRW(頁面顯示已售完);販售 (주)마플코퍼레이션、進口 (주)꾸미룸;官方頁未載發售日,圖片路徑為 2026/9 上傳,推測 2026-09 前後上架(推測);原照只拍到亞麻束口袋與橘色吊牌(#003 蘑菇圖示),玩偶本體未入鏡,故以 Derek 指認為準、外觀未能直接比對,confidence 維持 medium;官方圖 https://common.image.cf.marpple.co/files/u_4431685/2026/9/original/e401d3f19c7c3196e2fb795c1de1973a4809bce11.jpg ;查證日 2026-10-27;原照僅見束口袋與 #003 吊牌,本體未入鏡;依 Derek 實物指認定為 high;製造 Chongqing City Huisen Toys(中國製);Derek 提供含束口袋與 #003 吊牌的官方圖,與原照束口袋/吊牌一致,改用此圖",
+   "code": "N23"
+  },
+  {
+   "id": "haikyuu_hinagarasu_animal-big-plush_132718",
+   "name_ja": "アニメ「ハイキュー!!」×BABYDOLL もふもふ着る毛布 ヒナガラス(7253A)",
+   "name_en": "Haikyu!! x BABYDOLL Mofumofu Wearable Blanket - Hinagarasu (self-translated)",
+   "name_zh": "排球少年×BABYDOLL 毛茸茸穿的毯子 日向烏鴉(自譯)",
+   "ip": "排球少年(ハイキュー!!)",
+   "character": "日向翔陽(ヒナガラス)",
+   "maker": "BABYDOLL(ベビードール)/ 販售:starvations.jp 官方線上商店",
+   "line": "ハイキュー!!×BABYDOLL もふもふ着る毛布(全8款之一)",
+   "type": "other",
+   "year": "2025",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "BABYDOLL",
+    "もふもふ着る毛布",
+    "ヒナガラス",
+    "着る毛布",
+    "シャギーボア"
+   ],
+   "source_images": [
+    "https://collabo-cafe.com/events/collabo/haikyu-minna-no-kuji-furyu2023/",
+    "https://animeanime.jp/article/2023/05/20/77448.html",
+    "P_20261026_132718_10.jpg"
+   ],
+   "box_image": "haikyuu_hinagarasu_animal-big-plush_132718.jpg",
+   "main_image": "box/haikyu_hinagarasu_mofumofu_kiru_moufu_132718.jpg",
+   "photos": [
+    "box/haikyu_hinagarasu_mofumofu_kiru_moufu_132718.jpg",
+    "raw/P_20261026_132718_10.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 指認:抱枕娃娃、くじ賞品。重新比對:みんなのくじ(FuRyu,2023/5/20)アニマルピクニック A賞「BIGぬいぐるみ―ヒナガラス―」約30×30cm(深藍短毛+橘毛氈髮+白點眼,與實拍袋內深藍色/小白點眼吻合)。上一輪的 一番くじ 全国への道 C賞(淺藍毛圈布、大眼+嘴)色與眼型皆不符,已撤下。注意:這是 FuRyu みんなのくじ,不是 BANDAI 一番くじ。實拍為袋內平放,背帶水壺等配件未見,信心 medium。官方圖來源 collabo-cafe。;Derek 2026-10-28 指認:ヒナガラス ハイキュー!! もふもふ着る毛布(非玩偶,為連帽穿式毯,實拍為袋裝帽面朝上),先前くじ BIG 絨毛娃娃(みんなのくじ)的判斷作廢。品名:ハイキュー!!×BABYDOLL もふもふ着る毛布 7253A(F ヒナガラス);商品頁分類為「ワンピース」。販售 BABYDOLL 官方線上商店(starvations.jp)。素材:シャギーボア。尺寸:商品頁僅見 Junior 140-160cm / Ladies・Men's S-XL 之成人款共通規格,F 款確切尺寸未取得。價格:¥5,500(稅込)原價;2026/10/16 起該頁以 50%OFF ¥2,750 特價(販售期間至 2026/11/29)。發售日:2025/09/22 12:00(官方公式 X 與搜尋結果摘要)。外觀:深藍短毛長絨、橘色毛氈瀏海、白點眼,與實拍一致。官方圖為商品頁合照中的ヒナガラス帽面小圖裁切,解析度低。name_zh/name_en 為自譯。來源:https://www.starvations.jp/shop/g/g25372533/ ;https://x.com/goodshaikyu22/status/1968519691581747674 ;https://natalie.mu/comic/news/493240(403,僅搜尋摘要)。查證日 2026-10-28。",
+   "code": "N24"
+  },
+  {
+   "id": "lol_poro_white-poro-plush_132718",
+   "name_ja": "ポロ ぬいぐるみ(ホワイトポロ)",
+   "name_en": "League of Legends White Poro Plush",
+   "name_zh": "英雄聯盟 魄羅 絨毛娃娃(白)",
+   "ip": "英雄聯盟(League of Legends)",
+   "character": "ポロ(Poro)",
+   "maker": "Riot Games",
+   "line": "",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "遊戲",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "league of legends",
+    "lol",
+    "poro",
+    "魄羅",
+    "riot games merch"
+   ],
+   "source_images": [
+    "https://merch.riotgames.com/en-us/product/white-poro-plush/",
+    "P_20261026_132718_11.jpg"
+   ],
+   "box_image": "lol_poro_white-poro-plush_132718.jpg",
+   "main_image": "box/lol_poro_white-poro-plush_132718.jpg",
+   "photos": [
+    "box/lol_poro_white-poro-plush_132718.jpg",
+    "raw/P_20261026_132718_11.jpg"
+   ],
+   "confidence": "high",
+   "notes": "袋上標籤:品名「魄罗毛绒玩偶/포로 인형」、型號 PLUSH、SKU 2193-00-00、製造 2025-02、中國製,進口商 라이엇게임즈코리아(Riot Games Korea),製造商 Shenzhen JT Culture & Creation。屬官方授權(Riot Merch)的韓國版。官方圖取自 Riot Merch「White Poro Plush」頁,與實物外型相符但未能核對 SKU,故 medium。;Riot Merch 官方頁 https://merch.riotgames.com/en-us/product/white-poro-plush/ 品名與外型(伸舌頭、愛心肚、肉球)吻合;與 N27 Teemo Hat 同批 Riot Merch 韓國版(2025-02 製造)",
+   "code": "N25"
+  },
+  {
+   "id": "disney_mickey-burger_plush_132718",
+   "name_ja": "クッション ミッキー(ミッキーバーガー)",
+   "name_en": "Mickey Burger Cushion",
+   "name_zh": "迪士尼商店 米奇漢堡造型靠墊(絨毛)",
+   "ip": "迪士尼 米奇(ミッキーマウス)",
+   "character": "ミッキーマウス(ミッキー型ハンバーガー)",
+   "maker": "ディズニーストア(Disney Store Japan)",
+   "line": "ディズニーストア ミッキーシェイプ ハンバーガー クッション(東京ディズニーリゾート系パークフードモチーフ)",
+   "type": "plush",
+   "year": "2024",
+   "category": [
+    "迪士尼",
+    "絨毛娃娃",
+    "パークフード",
+    "樂園限定"
+   ],
+   "keywords": [
+    "ディズニー",
+    "ディズニーストア",
+    "ミッキー",
+    "ミッキーシェイプ",
+    "ミッキーバーガー",
+    "ハンバーガー",
+    "クッション",
+    "パークフード",
+    "0401220024607"
+   ],
+   "source_images": [
+    "P_20261026_132718_12.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/N26_disney_mickey_burger_cushion.jpg",
+   "photos": [
+    "box/N26_disney_mickey_burger_cushion.jpg",
+    "raw/P_20261026_132718_12.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 指認為迪士尼樂園專賣(推測東京ディズニーリゾート,照片無吊牌)。三個漢堡疊成米奇頭形、芝麻上有隱藏米奇圖案,對應東京ディズニーランド「パークフード」ミッキーバーガー系列;官方有超大尺寸「ミッキーバーガー クッション」(約55×76×28cm、¥6,000),但本件小得多且為三個分開漢堡,外型/尺寸未能與官方品對上,故不放官方圖。;Derek 提供商品頁:https://store.disney.co.jp/goods/0401220024607.html 。官方為ディズニーストア.jp 商品「クッション ミッキー」(ミッキーシェイプのハンバーガー),售價6,000円(税込),尺寸約縦64×横77×厚30cm;頁面顯示2024/07/0x 為到貨預定日,未見明確發售日,year 暫記2024。屬 Disney Store 販售商品,非樂園限定(頁面未標示樂園限定)。外型(三個漢堡拼成米奇頭、芝麻中藏米奇圖案)與實拍一致;但官方尺寸偏大,實拍件大小未核。;NOVA 比對:造型/芝麻米奇一致,但實拍可見黃色起司片、官方圖無,尺寸也未核對,可能為樂園版或小尺寸版",
+   "code": "N26"
+  },
+  {
+   "id": "lol_teemo_teemo-hat_132718",
+   "name_ja": "ティーモ ハット(ぬいぐるみ帽)",
+   "name_en": "League of Legends Teemo Hat",
+   "name_zh": "英雄聯盟 提摩 絨毛帽(Teemo Hat)",
+   "ip": "英雄聯盟(League of Legends)",
+   "character": "ティーモ(Teemo)",
+   "maker": "Riot Games(Riot Merch 官方授權;韓國進口商 라이엇게임즈코리아)",
+   "line": "Riot Merch Teemo Hat",
+   "type": "other",
+   "year": "2025",
+   "category": [
+    "遊戲",
+    "絨毛帽"
+   ],
+   "keywords": [
+    "league of legends",
+    "lol",
+    "teemo",
+    "teemo hat",
+    "提摩",
+    "riot games merch"
+   ],
+   "source_images": [
+    "P_20261026_132718_13.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/P_20261026_132718_13.jpg",
+   "photos": [
+    "box/P_20261026_132718_13.jpg",
+    "raw/P_20261026_132718_13.jpg"
+   ],
+   "confidence": "high",
+   "notes": "袋上英文標示 Name: Teemo Hat、Fabric 100% Polyester、© 2025 Riot Games,SKU 1082-00-00,製造 2025-02,中國製;韓國進口商 라이엇게임즈코리아,標價 ₩29,000(原吊牌)。確定是 Riot 官方授權的提摩絨毛帽(非娃娃)。Riot 官方商店找不到對應商品頁(只有已停售 Firecracker Teemo Hat),故無官方圖。;官方頁 Riot Merch「Teemo Hat」:聚酯纖維,頭圍約62cm、高22.9cm、寬25.4cm(官網目前缺貨)。來源 https://merch.riotgames.com/en-us/product/teemo-hat/ ;官方圖 cdn.sanity.io b216318e...-1000x1000.png。實物袋標 Teemo Hat、SKU 1082-00-00、製造2025-02、標價 ₩29,000。Derek 提示 N27 與 N25(Riot Merch White Poro Plush,SKU 2193-00-00,同為 2025-02 製造、同韓國進口商/製造商 Shenzhen JT)同系列,已核對:兩者吊牌/袋標格式一致,確屬同批 Riot Merch 韓國版。實物袋內帽耳摺入,官方圖貓耳外翻,其餘綠毛+紅護目鏡+藍鏡片一致。",
+   "code": "N27"
+  },
+  {
+   "id": "haikyuu_kagegarasu_animal-big-plush_132718",
+   "name_ja": "ハイキュー!! カゲガラス ぬいぐるみ 動物款6吋(KHTOY・日文原名未查得)",
+   "name_en": "Haikyu!! Kageyama crow Animal plush 6in (KHTOY)",
+   "name_zh": "排球少年 影山烏鴉 動物款絨毛娃娃 6吋(KHTOY)",
+   "ip": "排球少年(ハイキュー!!)",
+   "character": "影山飛雄(カゲガラス)",
+   "maker": "KHTOY(金興玩具,台灣)",
+   "line": "排球少年-動物款(6吋/12吋,六款)",
+   "type": "plush",
+   "year": "2022",
+   "category": [
+    "動畫",
+    "運動",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ハイキュー",
+    "排球少年",
+    "Haikyu",
+    "動物款",
+    "KHTOY",
+    "金興玩具",
+    "拼出你的絨毛圈",
+    "カゲガラス",
+    "影山烏鴉",
+    "影山飛雄",
+    "影山飛雄",
+    "絨毛娃娃",
+    "6吋",
+    "台灣",
+    "ぬいぐるみ"
+   ],
+   "source_images": [
+    "https://collabo-cafe.com/events/collabo/haikyu-minna-no-kuji-furyu2023/",
+    "https://animeanime.jp/article/2023/05/20/77448.html",
+    "P_20261026_132718_14.jpg"
+   ],
+   "box_image": "haikyuu_kagegarasu_animal-big-plush_132718.jpg",
+   "main_image": "box/haikyuu_kageyama-crow_khtoy-animal-6in.jpg",
+   "photos": [
+    "box/haikyuu_kageyama-crow_khtoy-animal-6in.jpg",
+    "raw/P_20261026_132718_14.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 指認:抱枕娃娃、くじ賞品。同一彈(みんなのくじ・FuRyu 2023)B賞「BIGぬいぐるみ―カゲガラス―」約28×30cm(藍色身體+黑髮+三明治);實拍僅見一角藍色身體+淺藍眼白,與 A賞ヒナガラス 同系列同吊牌,推定為此款,但可見面積太小,信心 low。;Derek 提供商品頁 https://www.khtoy.com.tw/product/detail?id=3735。KHTOY 官網:商品名「排球少年-動物款」、商品編號 221019002(約 2022-10 上架)、6吋 10×17cm / 12吋 22×31cm、聚酯纖維、單隻 NT$158(VIP 79)、一包六款(日向/影山/孤爪/黑尾/赤葦/木兔)。實拍吊牌 KH TOY『拼出你的絨毛圈』+ハイキュー!!標誌+日向影山角色卡,與官網圖一致。日文原名/日本廠商:搜尋未查得(台灣廠商自製授權品,非日本景品)。可見面積僅一角藍色身體+淺藍眼白,與日向/影山同系藍色烏鴉身,僅憑色塊判為影山,信心低。",
+   "code": "N28"
+  },
+  {
+   "id": "sumikko_unknown-yellow-red-leaf_133212",
+   "name_ja": "すみっコぐらし こいぬといぬごっこ うつぶせぬいぐるみBIG(Dえびふらいのしっぽ)",
+   "name_en": "Sumikkogurashi Koinu to Inu Gokko Prone Plush BIG (Ebifurai no Shippo)",
+   "name_zh": "角落生物 炸蝦尾 小狗扮狗狗 趴姿大娃娃(全長約25cm)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "不明(黃色、紅葉耳/尾裝飾、粉紅緞帶)",
+   "maker": "System Service(システムサービス,Taito 通路發售)",
+   "line": "こいぬといぬごっこ うつぶせぬいぐるみBIG",
+   "type": "plush",
+   "year": "2022",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "すみっコぐらし",
+    "角落生物",
+    "えびふらいのしっぽ",
+    "炸蝦尾",
+    "こいぬといぬごっこ",
+    "うつぶせぬいぐるみBIG",
+    "システムサービス",
+    "タイトー",
+    "プライズ",
+    "趴姿"
+   ],
+   "source_images": [
+    "raw/P_20261026_133212_1.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/sumikko_ebifurai-shippo_koinu-inugokko_utsubuse-big_133212_c.jpg",
+   "photos": [
+    "box/sumikko_ebifurai-shippo_koinu-inugokko_utsubuse-big_133212_c.jpg",
+    "raw/P_20261026_133212_1.jpg"
+   ],
+   "confidence": "high",
+   "notes": "照片1:黃色毛絨、紅色項圈帶、紅色葉片。(照片5 經 Derek 指出為不同件,已另立一筆。)角色不明,品名未編造。;Derek 提供品名;官方 Taito 頁 https://www.taito.co.jp/prize/0473939910,全長約25cm,2022-05;官方圖為5款合照,已裁炸蝦尾款",
+   "code": "N29"
+  },
+  {
+   "id": "unknown_yellow-chick-gingham_133212",
+   "name_ja": "すみっコぐらし えびふらいのしっぽ(たこ)ぬいぐるみ(商品名未確認)",
+   "name_en": "Sumikko Gurashi Ebifurai no Shippo holding a small octopus plush (model unconfirmed)",
+   "name_zh": "角落生物 炸蝦尾抱小章魚 玩偶(款式待確認)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "不明(黃色小雞狀,紅嘴、橘格紋圍巾;推測為角落生物角色)",
+   "maker": "San-X(推測)",
+   "line": "ぬいぐるみ",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "すみっコぐらし",
+    "角落生物",
+    "えびふらいのしっぽ",
+    "炸蝦尾",
+    "たこ",
+    "章魚",
+    "たこウインナー",
+    "ぬいぐるみ",
+    "玩偶",
+    "San-X",
+    "てのりぬいぐるみ"
+   ],
+   "source_images": [
+    "raw/P_20261026_133212_2.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133212_2.jpg",
+   "photos": [
+    "raw/P_20261026_133212_2.jpg"
+   ],
+   "confidence": "high",
+   "notes": "實拍:黃色長條形絨毛,紅色大嘴,橘白格紋圍巾,袋裝。Derek 指認為角落生物系列;官方角色表(San-X)中找不到完全吻合的角色,維持低信心,未放官方圖。;Derek 指認:炸蝦尾拿小章魚;線索 San-X てのりぬいぐるみ えびふらいのしっぽ(たこウインナー) SMG5337 未驗證",
+   "code": "N30"
+  },
+  {
+   "id": "unknown_mint-white-top_133212",
+   "name_ja": "すみっコぐらし ぬいぐるみ(S) こいぬといぬごっこ・やま",
+   "name_en": "Sumikko Gurashi Plush (S) Koinu to Inugokko Theme - Yama",
+   "name_zh": "角落生物 山(やま) 玩偶(S) 小狗與扮狗狗主題",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "とかげのおかあさん(推測)",
+   "maker": "San-X",
+   "line": "ぬいぐるみ(S) こいぬといぬごっこ",
+   "type": "plush",
+   "year": "2022",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "すみっコぐらし",
+    "角落生物",
+    "やま",
+    "山",
+    "ぬいぐるみ",
+    "S",
+    "こいぬといぬごっこ",
+    "小狗與扮狗狗",
+    "San-X",
+    "MF43401",
+    "2022",
+    "富士山",
+    "Yama",
+    "plush"
+   ],
+   "source_images": [
+    "raw/P_20261026_133212_3.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/sumikko_yama_koinu-inugokko_s_N31_c.jpg",
+   "photos": [
+    "box/sumikko_yama_koinu-inugokko_s_N31_c.jpg",
+    "raw/P_20261026_133212_3.jpg"
+   ],
+   "confidence": "high",
+   "notes": "實拍:薄荷綠身體、白色上半頭部、兩片白色鰭狀手,有吊牌,袋裝。依色系與海邊恐龍造型推測為「とかげのおかあさん」(官方介紹:恐龍的倖存者,住在海的角落);未找到同款官方商品圖。;Derek 提供品名;San-X ぬいぐるみ(S) こいぬといぬごっこ やま,2022/2,¥990;主圖為零售商(tantan)商品照,官方店 SMG4329 憑證錯誤未能取圖",
+   "code": "N31"
+  },
+  {
+   "id": "unknown_pink-plush_133212",
+   "name_ja": "すみっコぐらし ぬいぐるみ(Sサイズ) たぴおか(ピンク)",
+   "name_en": "Sumikko Gurashi Plush (S) Tapioca (Pink)",
+   "name_zh": "角落生物 絨毛娃娃 S 尺寸 薯圓(粉紅色)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "不明(粉紅色短胖、黑點眼與一字嘴)",
+   "maker": "San-X",
+   "line": "ぬいぐるみ(Sサイズ)",
+   "type": "plush",
+   "year": "2020",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "角落生物",
+    "すみっコぐらし",
+    "Sumikko Gurashi",
+    "San-X",
+    "サンエックス",
+    "たぴおか",
+    "Tapioca",
+    "薯圓",
+    "珍珠",
+    "粉紅色",
+    "ピンク",
+    "ぬいぐるみ",
+    "Sサイズ",
+    "S size",
+    "絨毛娃娃",
+    "plush",
+    "2020"
+   ],
+   "source_images": [
+    "raw/P_20261026_133212_4.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/N32_tapioka_pink_S_c.jpg",
+   "photos": [
+    "box/N32_tapioka_pink_S_c.jpg",
+    "raw/P_20261026_133212_4.jpg"
+   ],
+   "confidence": "high",
+   "notes": "實拍:粉紅色短胖絨毛,黑點眼與短線嘴,胸前有小摺邊,袋上有日文吊牌(模糊)。Derek 指認為角落生物系列;官方角色表無明確對應,可能為特別色/限定色款,待看吊牌。;Derek 提供品名:「サンエックス San-X すみっコぐらし ぬいぐるみ Sサイズ たぴおか ピンク」。圖片來源:ヨドバシ.com 商品頁(單品圖 _10204,600x600),販售開始 2020/11/12,約90×80×70mm 軟絨(ソフトボア),¥990(税込)。實拍與商品圖外型(粉紅蛋形、棕點眼、一字嘴、胸前小手)一致。官方 shop.san-x.co.jp 憑證錯誤未存取(搜尋顯示有 SMG3066 頁)。角色確認為たぴおか(ピンク)。",
+   "code": "N32"
+  },
+  {
+   "id": "sumikko_unknown-yellow-red-leaf_133212_p5",
+   "name_ja": "一番くじ すみっコぐらし ～こいぬといぬごっこテーマ～ E賞 えびふらいのしっぽ いぬぬいぐるみ",
+   "name_en": "Ichiban Kuji Sumikko Gurashi Koinu to Inugokko Theme - Prize E Ebifurai no Shippo Dog Plush",
+   "name_zh": "角落生物 一番賞 E賞 炸蝦尾 小狗扮裝玩偶(こいぬといぬごっこ)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "ねこ(推測)",
+   "maker": "BANDAI SPIRITS",
+   "line": "一番くじ すみっコぐらし ～こいぬといぬごっこテーマ～ E賞",
+   "type": "plush",
+   "year": "2023",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "すみっコぐらし",
+    "角落生物",
+    "一番賞",
+    "一番くじ",
+    "E賞",
+    "えびふらいのしっぽ",
+    "炸蝦尾",
+    "いぬぬいぐるみ",
+    "こいぬといぬごっこ",
+    "小狗與扮狗狗",
+    "BANDAI SPIRITS",
+    "San-X",
+    "2023",
+    "plush"
+   ],
+   "source_images": [
+    "raw/P_20261026_133212_5.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/sumikko_ebifurai-shippo_ichibankuji-E_inugokko_N33_c.jpg",
+   "photos": [
+    "box/sumikko_ebifurai-shippo_ichibankuji-E_inugokko_N33_c.jpg",
+    "raw/P_20261026_133212_5.jpg"
+   ],
+   "confidence": "high",
+   "notes": "實拍(照片5):奶黃色毛絨、圓耳,粉紅色腹帶(印小圖案)並貼有兩片紅色毛氈葉片。體色與耳形接近「ねこ」,葉片可能為季節/造型配件;與同組另一件(紅項圈款)為不同件。未找到同款官方圖。;Derek 提供品名;官網 1kuji.com:E賞全1種、約13cm、2023/6/24 起店頭陸續發售(1回680円);紅色毛氈尾巴+粉紅「いぬ/こいぬ」圖案巴恩達娜,與實拍相符;實拍為透明袋包裝背面角度。",
+   "code": "N33"
+  },
+  {
+   "id": "unknown_cream-fluffy_133212",
+   "name_ja": "すみっコぐらし ぬいぐるみ(S)(夢みるしっぽず・えびてんのしっぽ)",
+   "name_en": "Sumikko Gurashi Plush (S) Yume Miru Shippozu - Ebiten no Shippo (Tempura Shrimp Tail)",
+   "name_zh": "角落生物 玩偶(S)(夢想尾巴團・炸蝦尾巴)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "わた(推測)",
+   "maker": "San-X",
+   "line": "夢みるしっぽず 主題 ぬいぐるみ(S)",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "えびてんのしっぽ",
+    "夢みるしっぽず",
+    "しっぽず",
+    "ぬいぐるみ(S)",
+    "San-X"
+   ],
+   "source_images": [
+    "raw/P_20261026_133212_6.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/sumikko_yumemiru_shippozu_ebiten_S_c.jpg",
+   "photos": [
+    "box/sumikko_yumemiru_shippozu_ebiten_S_c.jpg",
+    "raw/P_20261026_133212_6.jpg"
+   ],
+   "confidence": "high",
+   "notes": "實拍:米白色捲毛絨球,頭頂粉紅色裝飾,黑點眼。依毛球造型推測為「わた」(官方介紹:只在被珍惜的玩偶裡才有的特別棉花);未找到同款官方圖。;Derek 2026-10-28 指認為「すみっコぐらし ぬいぐるみ(S)(夢みるしっぽず・えびてんのしっぽ)」(線索あみあみ GOODS-04617456,該站本環境無法連線)。外觀比對一致:米白捲毛絨球、頭頂粉紅尾巴、咖啡色點眼與小嘴,確認(原先推測「わた」為誤判)。San-X 2025「夢みるしっぽず」主題(えびてんのしっぽ組偶像團體「しっぽず」),價格990日圓(含稅),2025年4月下旬起陸續發售(依報導,確切日期未查到);尺寸未查到。name_zh/name_en 為自譯。來源:https://animeanime.jp/article/2025/04/29/90609.html (官方圖 https://animeanime.jp/imgs/zoom/764726.jpg,版權 (C)2025 SAN-X);查證日 2026-10-28",
+   "code": "N34"
+  },
+  {
+   "id": "unknown_light-blue_133212",
+   "name_ja": "すみっコぐらし キューブちびマスコット(たぴおか(ブルー))",
+   "name_en": "Sumikko Gurashi Cube Chibi Mascot - Tapioca (Blue)",
+   "name_zh": "角落生物 方塊迷你吊飾玩偶(珍珠(藍色))",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "とかげ",
+   "maker": "システムサービス(SYSTEM SERVICE)",
+   "line": "キューブちびマスコット",
+   "type": "plush",
+   "year": "2023",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "キューブちびマスコット",
+    "たぴおか",
+    "タピオカ",
+    "ちびマスコット",
+    "システムサービス",
+    "プライズ"
+   ],
+   "source_images": [
+    "raw/P_20261026_133212_7.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/sumikko_cube_chibi_mascot_tapioca_c.jpg",
+   "photos": [
+    "box/sumikko_cube_chibi_mascot_tapioca_c.jpg",
+    "raw/P_20261026_133212_7.jpg"
+   ],
+   "confidence": "high",
+   "notes": "實拍:淺藍色圓丘狀絨毛,底部米色邊,黑點眼,有吊牌。與 San-X「もしもすみっコが進化したら?」てのりぬいぐるみ とかげ(進化A/進化B,¥1,210)外形相近,但臉部細節在照片中無法分辨 A 或 B,故不放官方圖。;Derek 2026-10-28 指認為「すみっコぐらし キューブちびマスコット」角色たぴおか(ブルー),取代先前「とかげ手乘玩偶」的推測。外觀比對:淺藍色方塊、兩點眼+一字小嘴、胸前兩片淡藍布片,與官方圖右下藍色款一致(實拍為袋裝、角度偏斜,故信心 medium)。プライズ(夾娃娃機景品),2023年10月第1週登場(依 prize-house.com);官方圖為4款合照(しろくま/とんかつ/えびふらいのしっぽ/たぴおか),圖上標示廠商 SYSTEM SERVICE CO.,LTD.、(C)2023 San-X,已裁出藍色たぴおか單隻;種類數與尺寸頁面未載明,未查到。name_zh(角色譯名「珍珠」)/name_en 為自譯,非官方譯名。來源:https://prize-house.com/prize-list/34793 (官方圖 https://prize-house.com/wp-content/uploads/2023/10/prize_img_62936_1.jpg);查證日 2026-10-28",
+   "code": "N35"
+  },
+  {
+   "id": "unknown_beige-white-small_133212",
+   "name_ja": "すみっコぐらし こいぬといぬごっこ フェイスちびマスコット(しろくま)",
+   "name_en": "Sumikko Gurashi Puppy and Dog Play Face Chibi Mascot - Shirokuma",
+   "name_zh": "角落生物 小狗與扮狗狗 臉型迷你吊飾玩偶(白熊)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "ねこ(推測)",
+   "maker": "システムサービス(SYSTEM SERVICE)",
+   "line": "フェイスちびマスコット",
+   "type": "plush",
+   "year": "2023",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "こいぬといぬごっこ",
+    "フェイスちびマスコット",
+    "しろくま",
+    "ちびマスコット",
+    "システムサービス",
+    "プライズ"
+   ],
+   "source_images": [
+    "raw/P_20261026_133212_8.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/sumikko_koinu_inugokko_face_chibi_mascot_shirokuma_c.jpg",
+   "photos": [
+    "box/sumikko_koinu_inugokko_face_chibi_mascot_shirokuma_c.jpg",
+    "raw/P_20261026_133212_8.jpg"
+   ],
+   "confidence": "high",
+   "notes": "實拍:小型米黃+白色圓臉、尖耳、褐色點眼,僅露半身。外形符合「ねこ」(官方介紹:害羞、在意體型的貓);款式(手乘/掛飾)無法判斷。;Derek 2026-10-28 指認為「すみっコぐらし こいぬといぬごっこ フェイスちびマスコット」角色しろくま,取代先前「ねこ」的推測。外觀比對:黃色柴犬風帽、白色圓臉、褐色點眼+鼻,與官方圖左上款一致(實拍為袋裝、僅露半身、光線偏灰,故以 Derek 指認為準)。プライズ(夾娃娃機景品),2023年9月第3週登場(依 prize-house.com);官方圖為4款合照(しろくま/とんかつ/とかげ/えびふらいのしっぽ),圖上標示廠商 SYSTEM SERVICE CO.,LTD.、(C)2023 San-X,已裁出しろくま單隻;種類數與尺寸頁面未載明,未查到。name_zh/name_en 為自譯,非官方譯名。來源:https://prize-house.com/prize-list/33092 (官方圖 https://prize-house.com/wp-content/uploads/2023/09/prize_img_61964_1.jpg);查證日 2026-10-28",
+   "code": "N36"
+  },
+  {
+   "id": "unknown_blue-hood-costume_133212",
+   "name_ja": "しろくま てのりぬいぐるみ すみっコぐらしコレクション 2024お正月ver.",
+   "name_en": "Shirokuma Tenori Plush, Sumikko Gurashi Collection 2024 New Year ver. (self-translated)",
+   "name_zh": "白熊 手掌玩偶 角落生物Collection 2024新年版(辰年造型,自譯)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "不明(藍色連帽裝扮、白臉、腰間黃色星星)",
+   "maker": "San-X",
+   "line": "すみっコぐらしコレクション(すみコレ) てのりぬいぐるみ お正月ver.",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "しろくま",
+    "てのりぬいぐるみ",
+    "すみっコぐらしコレクション",
+    "お正月",
+    "2024",
+    "辰年",
+    "San-X"
+   ],
+   "source_images": [
+    "raw/P_20261026_133212_9.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/sumikko_collection_2024_oshougatsu_shirokuma_tenori_c.jpg",
+   "photos": [
+    "box/sumikko_collection_2024_oshougatsu_shirokuma_tenori_c.jpg",
+    "raw/P_20261026_133212_9.jpg"
+   ],
+   "confidence": "high",
+   "notes": "實拍:藍色連帽造型、白色臉褐色點眼、米色肚子、腰間黃色星星。可能為「星空さんぽ」或變裝系列之一,裡面是哪個角色無法確認。;Derek 2026-10-28 指認為「しろくま てのりぬいぐるみ すみっコぐらしコレクション 2024お正月ver.」(線索駿河屋 https://www.suruga-ya.jp/product/detail/646179815,該站回 403 無法讀取;kaitori_detail 同為 403)。因取不到官方商品圖,外觀未能逐項比對(實拍:藍色帶耳連帽、白臉褐點眼、米色肚子、腰間黃星星,疑為辰年(龍)造型),故不更新主圖、保留 match=false,信心中等(依 Derek 指認)。品名依 Derek/駿河屋標題,中英文為自譯。價格、尺寸、JAN、確切發售日均未查到。旁證:San-X 官方網店有「てのりぬいぐるみ(お正月・とかげ)」SMG5217(約 2023 年末辰年款,尺寸約65×50×60mm 為えびふらいのしっぽ款頁面資訊),可知 2023 年末有辰年お正月てのりぬいぐるみ系列;すみコレ お正月ver. 全6種 1,210円(依搜尋摘要,未直接確認)。注意:animeanime 2024/11/10 報導的「鏡餅スタイルのしろくま」是 2025 巳年版(2024 年 12 月上旬發售、1,210円),與本件造型不同。來源:https://animeanime.jp/article/2024/11/10/87593.html、https://shop.san-x.co.jp/sp/product/detail/SMG5217(網店 403,僅見搜尋摘要);查證日 2026-10-28;Derek 提供官方商品圖(駿河屋);藍色辰年龍帽、牙齒、粉紅翅膀、黃星星與原照一致,確認",
+   "code": "N37"
+  },
+  {
+   "id": "unknown_green-fishbone-costume_133212",
+   "name_ja": "とかげ てのりぬいぐるみ すみっコぐらしコレクション スプーキーハロウィン",
+   "name_en": "Tokage Tenori Plush, Sumikko Gurashi Collection Spooky Halloween (self-translated)",
+   "name_zh": "蜥蜴 手掌玩偶 角落生物Collection 怪奇萬聖節(自譯)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "とかげ(推測)",
+   "maker": "San-X",
+   "line": "すみっコぐらしコレクション(すみコレ) てのりぬいぐるみ スプーキーハロウィン",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "とかげ",
+    "てのりぬいぐるみ",
+    "すみっコぐらしコレクション",
+    "スプーキーハロウィン",
+    "ハロウィン",
+    "San-X"
+   ],
+   "source_images": [
+    "raw/P_20261026_133212_10.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/N38_tokage_spooky_halloween_c.jpg",
+   "photos": [
+    "box/N38_tokage_spooky_halloween_c.jpg",
+    "raw/P_20261026_133212_10.jpg"
+   ],
+   "confidence": "high",
+   "notes": "實拍:綠色身體、粉紅色圓點腮紅、紫色魚骨圖案圍巾/胸帶。可能是角落生物裝扮造型,角色推測為「とかげ」,未確認。;Derek 2026-10-28 指認為「とかげ てのりぬいぐるみ すみっコぐらしコレクション スプーキーハロウィン」。San-X 官方特設頁(リラックマ ようかいハロウィン/すみっコぐらし スプーキーハロウィン)標示:てのりぬいぐるみ 各1,540円(税込)、全6種(しろくま/とんかつ/たぴおか/とかげ/えびふらいのしっぽ/おばけ)。官方圖とかげ造型與實拍一致(淡綠身體、頭頂縫線與螺栓、愛心腮紅、紫色魚骨圖案上衣、粉紫手腳),故 match=true、信心 high。官方圖取自特設頁商品圖 i2.png 並裁出とかげ單隻。年份 2025 依特設頁網址路徑(2025/09)與搜尋摘要(同系列えびふらいのしっぽ 預定發售日 2025-09-20,非とかげ本身確認);名稱中英文為自譯。型號、JAN、尺寸、確切發售日官方頁未載,未查到。來源:https://www.san-x.co.jp/ja/special/goods/2025/09/halloween.html(圖 https://www.san-x.co.jp/uploads/old-assets/blog/goods/img/2025/09/halloween/i2.png);查證日 2026-10-28",
+   "code": "N38"
+  },
+  {
+   "id": "unknown_light-blue-spiky_133212_p11",
+   "name_ja": "すみっコぐらし てのりぬいぐるみ とかげ(進化D)",
+   "name_en": "",
+   "name_zh": "角落生物 とかげ 手乘玩偶(進化D)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "とかげ",
+   "maker": "San-X",
+   "line": "てのりぬいぐるみ(もしもすみっコが進化したら?・進化D)",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "https://www.san-x.co.jp/ja/special/goods/2025/03/sg.html",
+    "raw/P_20261026_133212_11.jpg"
+   ],
+   "box_image": "sumikko_tokage_tenori-D.jpg",
+   "main_image": "box/sumikko_tokage_tenori-D_c.jpg",
+   "photos": [
+    "box/sumikko_tokage_tenori-D_c.jpg",
+    "box/sumikko_tokage_tenori-D_back.jpg",
+    "raw/P_20261026_133212_11.jpg"
+   ],
+   "confidence": "high",
+   "notes": "實拍(側面):淺藍色長型身體、背部藍色鋸齒、米色腹部、貼條碼貼紙。對照 San-X 特設頁「もしもすみっコが進化したら?」(2025/03)てのりぬいぐるみ とかげ 進化D(背面鋸齒、長身形)外形一致,¥1,210。官方圖為特設頁裁切。;主圖改用 Derek 截取的特設頁圖(含 BACK 背面與進化D 正面)https://www.san-x.co.jp/ja/special/goods/2025/03/sg.html",
+   "code": "N39"
+  },
+  {
+   "id": "sumikko_ebifurai-no-shippo_s-2025",
+   "name_ja": "すみっコぐらし ぬいぐるみ(S) えびふらいのしっぽ(もしもすみっコが進化したら?・進化B)",
+   "name_en": "Sumikko Gurashi Plush (S) Ebifurai no Shippo (What if Sumikko Evolved? Evolution B)",
+   "name_zh": "角落生物 炸蝦尾巴 絨毛娃娃(S)(如果角落夥伴進化了?・進化B)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "えびふらいのしっぽ",
+   "maker": "San-X",
+   "line": "もしもすみっコが進化したら? ぬいぐるみ(S)",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "すみっコぐらし",
+    "sumikko gurashi",
+    "san-x",
+    "えびふらいのしっぽ",
+    "もしもすみっコが進化したら?",
+    "進化B",
+    "MV04101",
+    "4974413876322"
+   ],
+   "source_images": [
+    "https://www.san-x.co.jp/ja/special/goods/2025/03/sg.html",
+    "raw/P_20261026_133212_12.jpg"
+   ],
+   "box_image": "sumikko_ebifurai-no-shippo_s-2025.jpg",
+   "main_image": "box/sumikko_ebifurai-no-shippo_s-2025_c.jpg",
+   "photos": [
+    "box/sumikko_ebifurai-no-shippo_s-2025_c.jpg",
+    "box/sumikko_ebifurai-no-shippo_s-2025_back.jpg",
+    "raw/P_20261026_133212_12.jpg"
+   ],
+   "confidence": "high",
+   "notes": "San-X 官方特設頁(2025年3月「もしもすみっコが進化したら?」)確認:ぬいぐるみ(S)えびふらいのしっぽ 進化B,¥1,540。官方圖為特設頁裁切。吊牌標語與實拍一致。;Derek 提供條碼 4974413876322;經 Yahoo!検索/Yahoo!ショッピング與 Kawaii Limited 確認為 ぬいぐるみ(S)えびふらいのしっぽ 進化B,型號 MV04101,尺寸約 120×60×90mm,越南製,2025 年 3 月系列。圖源:kawaii-limited.com 商品圖(已裁掉浮水印),僅作比對。;主圖改用 Derek 截取的特設頁圖(含 BACK 背面與進化B 正面)https://www.san-x.co.jp/ja/special/goods/2025/03/sg.html",
+   "code": "N40"
+  },
+  {
+   "id": "unknown_beige-hood-brown-face_133212",
+   "name_ja": "すずめ スーパーもーちもちぬいぐるみ「すみっコぐらし」",
+   "name_en": "Sumikkogurashi Super Mochimochi Plush (Suzume / Sparrow)",
+   "name_zh": "角落生物 麻雀 超Q彈絨毛娃娃(約8×11.5×16cm)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "不明(米色連帽、褐色臉罩)",
+   "maker": "San-X(サンエックス)",
+   "line": "スーパーもーちもちぬいぐるみ",
+   "type": "plush",
+   "year": "2018",
+   "category": [
+    "角落生物",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "すみっコぐらし",
+    "角落生物",
+    "すずめ",
+    "麻雀",
+    "スーパーもーちもち",
+    "ぬいぐるみ",
+    "サンエックス",
+    "MX79201"
+   ],
+   "source_images": [
+    "raw/P_20261026_133212_13.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/sumikko_suzume_super-mochimochi_133212_c.jpg",
+   "photos": [
+    "box/sumikko_suzume_super-mochimochi_133212_c.jpg",
+    "raw/P_20261026_133212_13.jpg"
+   ],
+   "confidence": "high",
+   "notes": "米色連帽、褐色大面部與耳朵,可能為動物裝扮。角色不明,未編造。;Derek 指認:すずめ スーパーもーちもちぬいぐるみ(駿河屋 https://www.suruga-ya.jp/product/detail/646098629 ,該頁 403 無法直接讀)。經查為 San-X 一般商品,品番 MX79201、JAN 4974413721806,發售 2018-10-06,定價 968円(駿河屋買取頁 https://www.suruga-ya.jp/kaitori/kaitori_detail/646098629 搜尋摘要;San-X 官方網路商店 SMG1618 定價1,100円稅込),尺寸約80×115×160mm。非 SEGA 景品(未見景品版資訊);Derek 稱景品,可能為景品流通/店家分類,待確認。官方圖缺(shop.san-x.co.jp 憑證錯誤未讀),圖為 Yahoo!購物 サンドラッグe-shop 商品圖備援 https://store.shopping.yahoo.co.jp/sundrugec/4974413721806.html;Derek 指認:すずめ スーパーもーちもちぬいぐるみ(駿河屋 https://www.suruga-ya.jp/product/detail/646098629 ,該頁 403 無法直接讀)。經查為 San-X 一般商品,品番 MX79201、JAN 4974413721806,發售 2018-10-06,定價 968円(駿河屋買取頁 https://www.suruga-ya.jp/kaitori/kaitori_detail/646098629 搜尋摘要;San-X 官方網路商店 SMG1618 定價1,100円稅込),尺寸約80×115×160mm。非 SEGA 景品(未見景品版資訊);Derek 稱景品,可能為景品流通/店家分類,待確認。官方圖缺(shop.san-x.co.jp 憑證錯誤未讀),圖為 Yahoo!購物 サンドラッグe-shop 商品圖備援 https://store.shopping.yahoo.co.jp/sundrugec/4974413721806.html",
+   "code": "N41"
+  },
+  {
+   "id": "unknown_red-haired-pair_133212",
+   "name_ja": "鬼灯の冷徹 金魚草ぬいぐるみマスコット",
+   "name_en": "Hozuki no Reitetsu Kingyoso Plush Mascot (self-translated)",
+   "name_zh": "鬼燈的冷徹 金魚草玩偶吊飾(自譯)",
+   "ip": "鬼燈的冷徹(鬼灯の冷徹)",
+   "character": "金魚草",
+   "maker": "TAITO",
+   "line": "タイトープライズ ぬいぐるみマスコット",
+   "type": "plush",
+   "year": "2014",
+   "category": [
+    "鬼燈的冷徹",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133212_14.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/kingyoso_taito_12cm_closed.jpg",
+   "photos": [
+    "box/kingyoso_taito_12cm_closed.jpg",
+    "raw/P_20261026_133212_14.jpg"
+   ],
+   "confidence": "high",
+   "notes": "同袋兩隻金魚草臉部玩偶(左:驚嚇閉嘴),紅頭髮、白臉、綠葉領、附珠鍊。Derek 指認為鬼灯の冷徹 金魚草。已比對 Hobby Search エル・プランニング(盆栽側身款)與 TAITO ぬいぐるみマスコット(側身款),造型不同,故不放官方圖;廠商與系列待確認。;Derek 2026-10-27 指認為 TAITO 景品「鬼灯の冷徹 金魚草ぬいぐるみマスコット」;官方頁 https://www.taito.co.jp/taito-prize/0000000031 ;官方圖為2隻並列(噘嘴閉口款+張嘴款,皆附珠鍊、綠葉墊),本件為左款(嘴閉成噘嘴、有立體唇凸,官方圖中下方那隻),與原照表情、紅頭髮、白臉、綠葉領一致;尺寸約12cm;2014年10月上旬登場;官方頁未標示種類數與款式名,僅以官方圖判讀為2款;官方圖 https://www.taito.co.jp/Content/images/zone/2/item/201407/c9127a11-8478-4a84-a02b-529312899e24_p_01_ja.jpg 裁切;name_zh/name_en 為自譯;查證日 2026-10-27",
+   "code": "N42"
+  },
+  {
+   "id": "unknown_red-haired-pair_133212_right",
+   "name_ja": "鬼灯の冷徹 金魚草ぬいぐるみマスコット",
+   "name_en": "Hozuki no Reitetsu Kingyoso Plush Mascot (self-translated)",
+   "name_zh": "鬼燈的冷徹 金魚草玩偶吊飾(自譯)",
+   "ip": "鬼燈的冷徹(鬼灯の冷徹)",
+   "character": "金魚草",
+   "maker": "TAITO",
+   "line": "タイトープライズ ぬいぐるみマスコット",
+   "type": "plush",
+   "year": "2014",
+   "category": [
+    "鬼燈的冷徹",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_133212_14.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/kingyoso_taito_12cm_open.jpg",
+   "photos": [
+    "box/kingyoso_taito_12cm_open.jpg",
+    "raw/P_20261026_133212_14.jpg"
+   ],
+   "confidence": "high",
+   "notes": "同袋兩隻金魚草臉部玩偶(右:張嘴、粉紅舌)。判斷同 N42。;Derek 2026-10-27 指認為 TAITO 景品「鬼灯の冷徹 金魚草ぬいぐるみマスコット」;官方頁 https://www.taito.co.jp/taito-prize/0000000031 ;官方圖為2隻並列(噘嘴閉口款+張嘴款,皆附珠鍊、綠葉墊),本件為右款(張嘴、口內粉紅,官方圖中上方那隻),與原照表情、紅頭髮、白臉、綠葉領一致;尺寸約12cm;2014年10月上旬登場;官方頁未標示種類數與款式名,僅以官方圖判讀為2款;官方圖 https://www.taito.co.jp/Content/images/zone/2/item/201407/c9127a11-8478-4a84-a02b-529312899e24_p_01_ja.jpg 裁切;name_zh/name_en 為自譯;查證日 2026-10-27",
+   "code": "N43"
+  },
+  {
+   "id": "unknown_red-daruma-like_133212",
+   "name_ja": "鬼灯の冷徹 地獄達磨 金魚草(ぬいぐるみ)",
+   "name_en": "",
+   "name_zh": "鬼燈的冷徹 金魚草 地獄達磨 玩偶",
+   "ip": "鬼燈的冷徹(鬼灯の冷徹)",
+   "character": "金魚草",
+   "maker": "ムービック(Movic)/ACOS",
+   "line": "地獄達磨(5種)",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "鬼燈的冷徹",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "http://www.hozukino-reitetsu.com/goods/128.html",
+    "raw/P_20261026_133212_15.jpg"
+   ],
+   "box_image": "hozuki_kingyoso_jigoku-daruma.jpg",
+   "main_image": "box/hozuki_kingyoso_jigoku-daruma.jpg",
+   "photos": [
+    "box/hozuki_kingyoso_jigoku-daruma.jpg",
+    "raw/P_20261026_133212_15.jpg"
+   ],
+   "confidence": "high",
+   "notes": "紅色不倒翁造型,白臉、金色月牙紋、綠葉。對照 TVアニメ「鬼灯の冷徹」官方站グッズ「地獄達磨」(5種之一,發売元 ムービック,¥1,800+税,第弐期その弐 2014年8月)金魚草款外形一致。官方圖為官網合照裁切。",
+   "code": "N44"
+  },
+  {
+   "id": "unknown_jinbe-shark_polka-large_133707",
+   "name_ja": "じんべえさん ぬいぐるみリュック",
+   "name_en": "Jinbesan Plush Backpack",
+   "name_zh": "甚平鯊 絨毛後背包(嘴巴拉鍊,身上粉紅魟魚エイさん,全長約36cm)",
+   "ip": "甚平鯊(じんべえさん)",
+   "character": "じんべえさん(San-X;背上粉紅小角色)",
+   "maker": "San-X 授權之遊樂場 prize(製造商未明)",
+   "line": "ぬいぐるみリュック(2種之一:背包款)",
+   "type": "plush",
+   "year": "2018",
+   "category": [
+    "水族",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "甚平鯊",
+    "鯨鯊",
+    "じんべえさん",
+    "San-X",
+    "サンエックス",
+    "ぬいぐるみリュック",
+    "プライズ",
+    "エイさん",
+    "魟魚",
+    "背包",
+    "リュック",
+    "KHTOY",
+    "鯨鯊桑",
+    "全身後背包"
+   ],
+   "source_images": [
+    "P_20261026_133707_1.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/jinbesan_nuigurumi-ryukku_133707_1.jpg",
+   "photos": [
+    "box/jinbesan_nuigurumi-ryukku_133707_1.jpg",
+    "raw/P_20261026_133707_1.jpg"
+   ],
+   "confidence": "high",
+   "notes": "大型鯨鯊造型玩偶,包裝膜未撕,吊牌/品牌未拍到。背部粉色片狀裝飾(疑似背鰭或另一角色),無法確認 IP。Web 查證未找到對應官方頁。前景有白色毛絨物一角,未建檔。 〔2026-10-26 更正:じんべえさん 是 San-X 獨立角色,非すみっコぐらし。〕;Derek 提供出處:San-X じんべえさん https://www.san-x.co.jp/zh-TW/characters/jinbesan/ ;官方站未能比對到同款,背上粉色エイさん+腹部拉鍊款待查(疑エイさんポケット可取下)。;來源:livedoor news「ぬいぐるみリュックも登場!じんべえさん…8月のプライズ情報」https://news.livedoor.com/article/detail/15106218/ ;2018年8月第1週起於全國遊樂場(クレーンゲーム)順次登場,全長約36cm,共2種(背包款+斜背小包款),嘴部為拉鍊可放物品。官方商品圖取自該報導(box_original.jpg)。價格不詳(prize品非販售);製造商報導未載,Mercari 有疑似「ジンベエザメリュック」中古上架(AMUSE 字樣,未驗證)。已排除:Derek 傳的藍底 JinbeSan 圖(非本品)、2017 超特大120cm、10周年特大、M/S もーちもち(エイさん為腹部口袋,無背上粉魟魚)。;台灣品名(Derek 提供):KHTOY Jinbe San 鯨鯊桑全身後背包 藍色(KHTOY 為台灣代理/通路)",
+   "code": "N45"
+  },
+  {
+   "id": "unknown_mokona-clamp-white_133707",
+   "name_ja": "「CLAMP展」記念ぬいぐるみ／モコナ",
+   "name_en": "CLAMP Exhibition Commemorative Plush / Mokona",
+   "name_zh": "CLAMP展 記念玩偶 摩可拿(原始本尊,無耳環)",
+   "ip": "魔法騎士雷阿斯(魔法騎士レイアース)",
+   "character": "毛茸茸(Mokona)",
+   "maker": "CLAMP展製作委員会(CLAMP展 公式グッズ)",
+   "line": "CLAMP展 記念ぬいぐるみ(全4款)",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "動畫",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "CLAMP展",
+    "記念ぬいぐるみ",
+    "モコナ",
+    "摩可拿",
+    "魔法騎士レイアース",
+    "TSUBASA",
+    "CLAMP"
+   ],
+   "source_images": [
+    "P_20261026_133707_2.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/tsubasa_mokona_clamp-ten_133707_2.jpg",
+   "photos": [
+    "box/tsubasa_mokona_clamp-ten_133707_2.jpg",
+    "raw/P_20261026_133707_2.jpg"
+   ],
+   "confidence": "high",
+   "notes": "白色 Mokona 造型,額頭紅色圓點,粉色耳,腳側有 CLAMP 繡標。角色歸屬依 Derek 指認(庫洛魔法使);但 Mokona 亦見於 CLAMP《魔法騎士 レイアース》等作品,IP 待確認。查證未找到對應商品頁,無官方圖。;Derek 指認為《ツバサ -RESERVoir CHRoNiCLE-》モコナ。原照確認:白モコナ(粉紅耳內、粉紅腮紅、額頭紅色圓寶石、閉眼微笑)、腳側橢圓 CLAMP 繡標、仍在透明包裝袋內,無吊牌可見、無帽;尺寸感為圓胖中型(約20-30cm,目測,未確認)。最近似官方品:ブレイク「ツバサ RESERVoir CHRoNiCLE モコナでっかいぬいぐるみ2」(約30cm,2014年12月下旬,2種=白/黑,戴紅/藍帽,https://clamp-net.com/archives/1696,圖 clamp-net.com/site/wp-content/uploads/2014/12/tsubasa_dekkai_mocona.jpg),但官方款戴帽且臉型細節不同,未能確認同款;其他搜尋(セガトイズ 光る!モコナぬいぐるみ 2007、北米版 Banpresto 8吋エプロン款)亦未對上。僅供參考圖存 dekkai.jpg。查證日 2026-10-26。;Derek 提供官方 SAMPLE 圖,版權標示「©CLAMP・ShigatsuTsuitachi CO.,LTD./CLAMP展製作委員会」→ CLAMP展 周邊;腳底 CLAMP 繡標、額頭紅寶石、閉眼表情與原照一致;候選(未確認哪款):clamp-ex-goods.jp「CLAMP展 -SELECTION-」記念ぬいぐるみ 4款各 ¥3,300(モコナ=ソエル=モドキ/モコナ=ラーグ=モドキ/モコナ/ケロちゃん),頁面無尺寸、無單品圖;Derek 判定:耳朵無紅色耳環=原始モコナ本尊(白モコナ=ソエル有耳環),故為「記念ぬいぐるみ／モコナ」,¥3,300(税込,一人限1個),來源 https://www.clamp-ex-goods.jp/ ;原始モコナ出自《魔法騎士レイアース》,ip 由 TSUBASA 改為レイアース",
+   "code": "N46"
+  },
+  {
+   "id": "unknown_pink-purple-horn_pouch_133707",
+   "name_ja": "メイプルストーリー ピンクビーン ぬいぐるみポーチ",
+   "name_en": "MapleStory Pink Bean Plush Coin Purse (5 inch)",
+   "name_zh": "新楓之谷 粉豆 造型包(絨毛零錢包)",
+   "ip": "楓之谷(メイプルストーリー)",
+   "character": "ピンクビーン(粉豆)",
+   "maker": "NEXON / 台灣遊戲橘子 Gamania 授權周邊(實際廠商待確認)",
+   "line": "MapleMonster 小怪物系列 絨毛零錢包",
+   "type": "other",
+   "year": "",
+   "category": [
+    "楓之谷",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "新楓之谷",
+    "楓之谷",
+    "粉豆",
+    "ピンクビーン",
+    "Pink Bean",
+    "MapleMonster",
+    "零錢包",
+    "5吋"
+   ],
+   "source_images": [
+    "raw/P_20261026_133707_3.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/maplestory_pinkbean_pouch_133707_3.jpg",
+   "photos": [
+    "box/maplestory_pinkbean_pouch_133707_3.jpg",
+    "raw/P_20261026_133707_3.jpg"
+   ],
+   "confidence": "high",
+   "notes": "粉紅圓臉、紫色螺紋角、白色肚皮、拉鍊小袋,符合楓之谷 BOSS「粉豆(Pink Bean/ピンクビーン)」造型。台灣市面有「楓之谷 菇菇寶貝 粉豆 零錢包」授權品,但未找到與實拍完全同款的官方商品頁,故不放官方圖。;原照確認:粉紅圓臉、紫色螺紋雙角、一眼有疤、白肚皮,為粉豆造型零錢包。Derek 提供蝦皮標題『【Maplestory】正版授權 新楓之谷 5吋 粉豆 雪吉拉 零錢包…』(https://shopee.tw/-i.34715705.53304745146)僅作關鍵字線索,未用其圖。查過(皆無同款官方商品頁/官方圖):WebSearch 中/日/韓關鍵字、Gamania/橘子商城、Nexon 韓日周邊、MapleMonster 官方報導;蝦皮頁無法讀取。僅見飛比/iOPEN 等第三方賣場列『台灣現貨正版授權 新楓之谷(5吋)』粉豆零錢包,屬零售商非官網,不採圖。;Derek 指認品名「楓之谷造型包」並提供官方商品圖(粉豆款);刺繡五官、眼睛疤痕、紫角、白肚與原照一致",
+   "code": "N47"
+  },
+  {
+   "id": "unknown_chick-strawberry-apron_keychain_133707",
+   "name_ja": "",
+   "name_en": "Rilakkuma Afternoon Tea - Strawberry Kiiroitori Mascot (7-ELEVEN CITY CAFE)",
+   "name_zh": "拉拉熊的偷閒下午茶 草莓小雞 吊飾玩偶",
+   "ip": "拉拉熊(リラックマ)",
+   "character": "キイロイトリ",
+   "maker": "San-X",
+   "line": "7-ELEVEN CITY CAFE 集點送「拉拉熊的偷閒下午茶」",
+   "type": "plush",
+   "year": "2010",
+   "category": [
+    "吊飾",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "拉拉熊",
+    "小雞",
+    "キイロイトリ",
+    "草莓",
+    "偷閒下午茶",
+    "7-11",
+    "CITY CAFE",
+    "集點"
+   ],
+   "source_images": [
+    "P_20261026_133707_4.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/rilakkuma_cc_afternoon_strawberry_chick.jpg",
+   "photos": [
+    "box/rilakkuma_cc_afternoon_strawberry_chick.jpg",
+    "raw/P_20261026_133707_4.jpg"
+   ],
+   "confidence": "high",
+   "notes": "黃色小雞頭頂草莓蛋糕、穿格紋圍裙,附金屬吊環。角色風格類似 San-X 小雞系列,但未找到確認商品頁,品牌與系列未知。;Derek 2026-10-27 指認為台灣 7-ELEVEN CITY CAFE 集點「拉拉熊的偷閒下午茶」草莓小雞款;巴哈姆特 jenlan0000 部落格(2013-11-09 發文,稱為舊活動)列出該系列款式含咖啡拉拉熊、廚師小白熊、蛋糕小白熊、草莓小雞(全套款數該文未載);集點:購買 City Cafe 中杯以上得1點,集滿8點免費兌換1隻,或3點+NT$49加價購;尺寸該文未載;確切活動年份未查得,僅知晚於或等於2013-11前(發文日)。外觀(奶油蛋糕帽+紅草莓、藍白格紋圍裙、金屬掛環)與原照一致。圖源非官方,為玩家實拍(含浮水印):http://i.imgur.com/GcuPHop.jpg ,出處 https://home.gamer.com.tw/artwork.php?sn=2237080;故 confidence 降為 medium;查證日 2026-10-27;唯一找到的圖為巴哈玩家實拍(浮水印註明請勿盜圖),未轉載,主圖維持原照;Derek 2026-10-27 同意使用巴哈玩家實拍圖(jenlan0000 梵(VAN),浮水印保留)作主圖;年份更正:活動為 2010-10-06~11-02(PTT CVS 2010-10 https://www.ptt.cc/bbs/CVS/M.1288281001.A.FCD.html、痞客邦 swatch70216 99/11/01 文);全套6款:咖啡拉拉熊、甜甜圈拉拉熊、蛋糕小白熊、廚師小白熊、咖啡小雞、草莓小雞;集8點或3點+49元;主圖改用 Derek 以 Google 反搜找到的旭客(Carousell)賣家實拍 813×1080 https://media.karousell.com/media/photos/products/2024/11/21/_711_citycafe____2010_1732198737_69a10ed0.jpg (非官方,無浮水印);款式經官方 DM 圖確認",
+   "code": "N48"
+  },
+  {
+   "id": "rilakkuma_rilakkuma_peanut-apple-mascot_133707",
+   "name_ja": "",
+   "name_en": "Rilakkuma Dreamy Countryside - Fruit-eating Rilakkuma Mascot (7-ELEVEN)",
+   "name_zh": "拉拉熊夢幻田園篇 吃水果拉拉熊 吊飾玩偶(附掛繩式吸盤)",
+   "ip": "拉拉熊(リラックマ)",
+   "character": "拉拉熊(リラックマ)",
+   "maker": "San-X",
+   "line": "7-ELEVEN 拉拉熊「夢幻田園篇」集點送",
+   "type": "plush",
+   "year": "2013前後",
+   "category": [
+    "吊飾",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "拉拉熊",
+    "リラックマ",
+    "夢幻田園篇",
+    "吃水果拉拉熊",
+    "水果籃",
+    "7-11",
+    "集點",
+    "吸盤"
+   ],
+   "source_images": [
+    "P_20261026_133707_5.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/rilakkuma_711_dreamfarm_fruit.jpg",
+   "photos": [
+    "box/rilakkuma_711_dreamfarm_fruit.jpg",
+    "raw/P_20261026_133707_5.jpg"
+   ],
+   "confidence": "high",
+   "notes": "拉拉熊抱著黃色大花生與紅蘋果,附彩色編織掛繩與綠色吊牌。角色確定,但具體商品名與系列未查到,製造商依角色版權推測為 San-X,待確認。;Derek 2026-10-27 指認為 7-ELEVEN「夢幻田園篇」吃水果拉拉熊;官方宣傳圖(7-ELEVEN 活動圖,轉載於巴哈姆特 jenlan0000 部落格 https://home.gamer.com.tw/artwork.php?sn=2237080 ,圖檔 http://i.imgur.com/hgFANDA.jpg)標示:夢幻田園篇共7款隨機出貨(吃蘑菇拉拉熊、披風拉拉熊、松鼠小白熊、吃水果拉拉熊、披風小白熊、蘑菇頭小雞、蘑菇座拉拉熊),附掛繩式吸盤(可吸附玻璃、也可拆下掛包包);集點:集滿10點+NT$50 或集滿30點免費送1隻(文章另載消費滿66元送1點);與浪漫法國篇合計14隻;尺寸未載;年份僅知該文為2013-11-09 發文並稱舊活動,確切年份未查得。外觀(抱水果籃含綠/紅水果、彩色編織掛繩)與官方圖吃水果拉拉熊一致,box_crop 由官方宣傳圖裁切放大(原圖僅600px,解析度低);查證日 2026-10-27",
+   "code": "N49"
+  },
+  {
+   "id": "unknown_white-yellow-ears_keychain_133707",
+   "name_ja": "スシロー だっこずし タコひつじ ぬいぐるみ",
+   "name_en": "",
+   "name_zh": "壽司郎 抱抱壽司 章魚綿羊(タコひつじ)玩偶",
+   "ip": "壽司郎(スシロー)",
+   "character": "タコひつじ",
+   "maker": "あきんどスシロー(壽司郎)",
+   "line": "だっこずし ぬいぐるみマスコット",
+   "type": "other",
+   "year": "",
+   "category": [
+    "壽司郎",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "白色",
+    "黃色耳朵",
+    "紅繩"
+   ],
+   "source_images": [
+    "https://www.akindo-sushiro.co.jp/dakko/",
+    "raw/P_20261026_133707_6.jpg"
+   ],
+   "box_image": "sushiro_dakkozushi_tako-hitsuji.jpg",
+   "main_image": "box/sushiro_dakkozushi_tako-hitsuji.jpg",
+   "photos": [
+    "box/sushiro_dakkozushi_tako-hitsuji.jpg",
+    "raw/P_20261026_133707_6.jpg"
+   ],
+   "confidence": "high",
+   "notes": "白色綿羊、黃色捲角、紅色吸盤腳(紅繩狀)抱著章魚。對照壽司郎官方「だっこずしのなかまたち」角色表的タコひつじ外形一致。商品款式(景品/店頭販售)未確認。官方圖為官網角色插圖裁切。",
+   "code": "N50"
+  },
+  {
+   "id": "unknown_yellow-orange-paws_133707",
+   "name_ja": "スシロー だっこずし たまコッコ ぬいぐるみ",
+   "name_en": "",
+   "name_zh": "壽司郎 抱抱壽司 玉子雞(たまコッコ)玩偶(背面)",
+   "ip": "壽司郎(スシロー)",
+   "character": "たまコッコ",
+   "maker": "あきんどスシロー(壽司郎)",
+   "line": "だっこずし ぬいぐるみマスコット",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "壽司郎",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "黃色",
+    "橘色腳掌"
+   ],
+   "source_images": [
+    "https://www.akindo-sushiro.co.jp/dakko/",
+    "raw/P_20261026_133707_7.jpg"
+   ],
+   "box_image": "sushiro_dakkozushi_tamakokko.jpg",
+   "main_image": "box/sushiro_dakkozushi_tamakokko.jpg",
+   "photos": [
+    "box/sushiro_dakkozushi_tamakokko.jpg",
+    "raw/P_20261026_133707_7.jpg"
+   ],
+   "confidence": "high",
+   "notes": "背面照:黃色玉子燒、橘色腳掌、白身體與紅色雞冠/尾。對照壽司郎官方角色表的たまコッコ(玉子+雞)外形一致。包裝貼紙型號片段 06-6308。官方圖為官網角色插圖裁切。",
+   "code": "N51"
+  },
+  {
+   "id": "frozen_olaf_plush-mascot_133707",
+   "name_ja": "オラフ ぬいぐるみ うるぽちゃちゃん アナと雪の女王",
+   "name_en": "Olaf Plush Urupocha-chan (Frozen)",
+   "name_zh": "冰雪奇緣 雪寶 うるぽちゃちゃん 小型玩偶",
+   "ip": "迪士尼 冰雪奇緣(アナと雪の女王)",
+   "character": "雪寶(Olaf)",
+   "maker": "ディズニーストア",
+   "line": "うるぽちゃちゃん",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "電影",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "オラフ",
+    "雪寶",
+    "アナと雪の女王",
+    "冰雪奇緣",
+    "うるぽちゃちゃん",
+    "ディズニーストア"
+   ],
+   "source_images": [
+    "P_20261026_133707_8.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/disney_olaf_urupochachan_133707_8.jpg",
+   "photos": [
+    "box/disney_olaf_urupochachan_133707_8.jpg",
+    "raw/P_20261026_133707_8.jpg"
+   ],
+   "confidence": "high",
+   "notes": "雪寶造型小型玩偶,包裝膜未撕、吊牌未拍到。Web 查證有多款 Frozen 小型景品(如 Frewie P-PATCH 系列、Sega 吊飾系列),未能確認此款坐姿款的商品名與年份。無官方圖。;Derek 提供 Disney Store 商品頁(JAN 4550586294325)與官方商品圖;樹枝手/雙鈕扣/藍色笑線/橘鼻與原照一致;但原照鈕扣為亮黑色、鼻子較大,官方圖鈕扣為咖啡色毛氈,可能為不同年份版本(另有 JAN 4550586678439 款,約 2024-12、¥1,400),待確認",
+   "code": "N52"
+  },
+  {
+   "id": "unknown_bun-brown_plush_133707",
+   "name_ja": "ねこパン もーちもちパン屋さんぬいぐるみ すみっコパンきょうしつテーマ「すみっコぐらし」",
+   "name_en": "Sumikkogurashi Neko-pan Mochimochi Bakery Plush (Sumikko Bread Class theme)",
+   "name_zh": "角落生物 貓咪麵包 超Q軟麵包屋玩偶(角落麵包教室,約6×7×7cm)",
+   "ip": "角落生物(すみっコぐらし)",
+   "character": "不明(麵包/糰子造型)",
+   "maker": "San-X(サンエックス)",
+   "line": "すみっコパンきょうしつ もーちもちパン屋さんぬいぐるみ(MY14301 15個入りアソート,全5種)",
+   "type": "plush",
+   "year": "2019",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "すみっコぐらし",
+    "角落生物",
+    "ねこパン",
+    "貓咪麵包",
+    "すみっコパンきょうしつ",
+    "もーちもちパン屋さんぬいぐるみ",
+    "サンエックス",
+    "パン",
+    "てのり"
+   ],
+   "source_images": [
+    "P_20261026_133707_9.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/sumikko_pan_nekopan_133707_9_c.jpg",
+   "photos": [
+    "box/sumikko_pan_nekopan_133707_9_c.jpg",
+    "raw/P_20261026_133707_9.jpg"
+   ],
+   "confidence": "high",
+   "notes": "包裝膜內為棕色圓形、帶小耳的造型,底部有小圓點,角色不明。未查證到來源。;Derek 指認 N53=ねこパン もーちもちパン屋さんぬいぐるみ(線索駿河屋 https://www.suruga-ya.com/ja/product/646106142)。駿河屋頁 WebFetch 403(不重試);搜尋摘要:メーカー サンエックス、発売日 2019/08/06、サイズ約6×7×7cm、管理番号646106142。同系列えびふらいのしっぽパン 定価¥1,200(税込) https://omotyanyuuka.blog.jp/archives/6918543.html;アソートBOX MY14301(usachanshop)。注意:原為 San-X 一般販售品(非プライズ);Molly 2024-08 約16cm 全5種為另一款プライズ。未取得ねこパン官方單品圖(San-X 活動頁僅有ぶらさげぬいぐるみ,駿河屋/Molly 擋),compare.jpg 右為同系列えびふらい參考圖,僅比對造型/標籤風格。查證日 2026-10-27。;Derek 提供ねこパン官方商品圖(駿河屋);三花斑、耳朵、橘色鼻與原照一致,確認",
+   "code": "N53"
+  },
+  {
+   "id": "unknown_chick-cp0017_plush_133707",
+   "name_ja": "",
+   "name_en": "Bugcat Capoo Instant Chick Plush Doll",
+   "name_zh": "貓貓蟲咖波 即食小雞 絨毛娃娃(7cm,NT$99)",
+   "ip": "咖波(Bugcat Capoo)",
+   "character": "キイロイトリ",
+   "maker": "卡特島 Carter Island(咖波官方商店)",
+   "line": "即食小雞",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "咖波",
+    "貓貓蟲",
+    "Bugcat Capoo",
+    "小雞",
+    "即食小雞",
+    "CP0017",
+    "卡特島",
+    "絨毛娃娃",
+    "布偶"
+   ],
+   "source_images": [
+    "P_20261026_133707_11.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/capoo_chick_plush_133707_11.jpg",
+   "photos": [
+    "box/capoo_chick_plush_133707_11.jpg",
+    "raw/P_20261026_133707_11.jpg"
+   ],
+   "confidence": "high",
+   "notes": "黃色小雞、橘色嘴、白色底部邊緣,附條碼吊牌,吊牌上有型號 CP0017。角色為小雞類,系列與廠商未查證到。與 #4 草莓小雞為不同款式。;Derek 指認咖波小雞布偶;吊牌 CP0017 與卡特島商品頁 https://www.carterislandtw.com/products/cp0017 型號一致;Derek 指認咖波小雞布偶;吊牌 CP0017 與卡特島商品頁 https://www.carterislandtw.com/products/cp0017 型號一致;官方圖來源:Wayback 快照 https://web.archive.org/web/20251014013227/https://www.carterislandtw.com/products/cp0017 (商品頁已下架),圖檔 https://shoplineimg.com/57e1eb1c6170696d41d71c00/67ece43c849739000c0cc6d2/2000x.jpg (卡特島官方 Shopline CDN,圖 2025-04 上傳);價格 NT$99;尺寸 7×7×7cm(±2cm)、30g、毛絨/聚酯棉、中國製;英文名 [Bugcat Capoo] Instant Chick Plush Doll",
+   "code": "N55"
+  },
+  {
+   "id": "unknown_white-pink-ear_plush_133707",
+   "name_ja": "",
+   "name_en": "",
+   "name_zh": "卡娜赫拉的小動物 P助(ピスケ)抱章魚 玩偶(官方品名未查到)",
+   "ip": "卡娜赫拉的小動物(カナヘイの小動物)",
+   "character": "ピスケ(推測)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "カナヘイの小動物",
+    "ピスケ",
+    "たこ",
+    "卡娜赫拉",
+    "P助",
+    "章魚",
+    "抱章魚",
+    "白色",
+    "粉頰",
+    "深褐腳"
+   ],
+   "source_images": [
+    "P_20261026_133707_12.jpg"
+   ],
+   "box_image": "",
+   "main_image": "raw/P_20261026_133707_12.jpg",
+   "photos": [
+    "raw/P_20261026_133707_12.jpg"
+   ],
+   "confidence": "high",
+   "notes": "白色圓身、粉色耳朵與臉頰、深褐色腳,臉部有褐色與黃色點狀刺繡,肩側附紅色小造型配件。角色與系列無法辨識,未查證到來源。;Derek 提供台灣 Yahoo 拍賣 https://tw.bid.yahoo.com/item/100361550934 為線索來源(標題:卡娜赫拉抱飯糰娃娃 小雞P助 正版 卡娜赫拉的小動物 P助章魚 卡娜赫拉玩偶 卡娜兔兔 章魚燒娃娃 兔兔大娃娃;賣家寫小雞P助約50x40cm、卡娜兔兔約60x40cm,無廠商/系列/日文名)。拍賣為賣場自述,非官方。照片角色=白色 ピスケ(粉頰、深褐腳),肩側紅色章魚小配件,與拍賣『P助章魚』吻合。日文官方查過 Taito(ゆるっとアミューズメント 各系列、ぬいぐるみマスコット かぶりもの、ぬいぐるみ-Summer-、おおきなぬいぐるみ)、カナヘイ公式 kanaheis-small-animals.jp 與 kanahei.shop ぬいぐるみ頁、gamepedia、Kidyland 10th(僅文字提到「マスコット(たこうさぎ/たこピスケ)」「たこ焼き ぬいぐるみバッチセット」,無圖、無尺寸,是否同款未證實);均未找到抱章魚P助的官方圖。",
+   "code": "N56"
+  },
+  {
+   "id": "unknown_yellow-bun_plush_133707",
+   "name_ja": "サンリオキャラクターズ ポムポムプリン マフィン ニコぬいキーホルダー マスコット",
+   "name_en": "Sanrio Pompompurin & Muffin Nikonui Keychain Mascot",
+   "name_zh": "布丁狗&馬芬 ニコぬい 吊飾玩偶組(三麗鷗)",
+   "ip": "布丁狗(ポムポムプリン)",
+   "character": "不明(黃色圓糰、白色小角色並排)",
+   "maker": "サンリオ",
+   "line": "ニコぬいキーホルダー",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ポムポムプリン",
+    "マフィン",
+    "ニコぬい",
+    "サンリオ",
+    "吊飾"
+   ],
+   "source_images": [
+    "P_20261026_133707_13.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/sanrio_pompompurin_muffin_niconui_133707_13.jpg",
+   "photos": [
+    "box/sanrio_pompompurin_muffin_niconui_133707_13.jpg",
+    "raw/P_20261026_133707_13.jpg"
+   ],
+   "confidence": "high",
+   "notes": "包裝膜內黃色圓糰造型玩偶,旁邊露出一隻白色小角色(僅見半張臉與耳朵,無法辨識,依規則未建檔)。黃色玩偶本身角色不明,未查證到來源。;Derek 指認並以樂天(perfectworld-tokyo 5354-133186)比對:黃色圓糰=布丁狗、白色張嘴小角色=好朋友倉鼠馬芬,一組成套(原 N57 併入此項);吊牌「ニコぬいキーホルダー」;樂天頁尺寸約11×14×7cm、聚酯纖維、JAN 4550451331865、頁尾©2025 SANRIO;年份依頁面分類/版權年(2025),價格頁面讀不到未填;官方圖為樂天商品圖",
+   "code": "N58"
+  },
+  {
+   "id": "natsume_nyanko-sensei_keychain-calico_134131",
+   "name_ja": "パン型マスコットぬいぐるみ(ニャンコ先生 白パン)",
+   "name_en": "Nyanko-sensei Bread-shaped Mascot Plush (white bread)",
+   "name_zh": "麵包造型吊飾玩偶(貓咪老師 白麵包款)",
+   "ip": "夏目友人帳",
+   "character": "ニャンコ先生",
+   "maker": "BANDAI SPIRITS",
+   "line": "一番くじ 夏目友人帳～ニャンコ先生と焼きたてパン～ D賞 パン型マスコットぬいぐるみ",
+   "type": "plush",
+   "year": "2022",
+   "category": [
+    "動畫",
+    "吊飾"
+   ],
+   "keywords": [
+    "夏目友人帳",
+    "ニャンコ先生",
+    "吊飾"
+   ],
+   "source_images": [
+    "P_20261026_134131_1.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/natsume_ichiban_d_pan_134131_1.jpg",
+   "photos": [
+    "box/natsume_ichiban_d_pan_134131_1.jpg",
+    "raw/P_20261026_134131_1.jpg"
+   ],
+   "confidence": "high",
+   "notes": "照片1:三花貓造型的小吊飾(頂端有鈴狀掛環),吊牌/系列未見,品名未查證,無官方圖。;Derek 2026-10-27 指認為一番くじ D賞;官方頁 https://1kuji.com/products/natsume38 ;D賞全2種(白パン=ニャンコ先生臉型/吐司款),本件為白パン款,與原照三花斑、閉眼、金色掛環一致;尺寸約10cm;1回650円(稅10%込);店頭2022/05/28起順次發售;官方圖 https://sn.bpnavi.jp/page/natsume/natsume38/0420/1kuji_5_natsume_D2_1080px_0406.jpg 裁切;查證日 2026-10-27",
+   "code": "N59"
+  },
+  {
+   "id": "natsume_nyanko-sensei_maneki-white_134131",
+   "name_ja": "ふわりんニャンコ先生ぬいぐるみ",
+   "name_en": "Natsume's Book of Friends Fuwarin Nyanko-sensei Plush (open eyes)",
+   "name_zh": "夏目友人帳 ふわりん貓咪老師玩偶(睜眼款)",
+   "ip": "夏目友人帳",
+   "character": "ニャンコ先生",
+   "maker": "バンプレスト(BANDAI SPIRITS)",
+   "line": "夏目友人帳 ふわりんニャンコ先生ぬいぐるみ(全4種)",
+   "type": "plush",
+   "year": "2019",
+   "category": [
+    "動畫",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "夏目友人帳",
+    "ニャンコ先生",
+    "ふわりん",
+    "バンプレスト",
+    "鈴"
+   ],
+   "source_images": [
+    "P_20261026_134131_2.jpg",
+    "P_20261026_134131_3.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/natsume_fuwarin_open.jpg",
+   "photos": [
+    "box/natsume_fuwarin_open.jpg",
+    "raw/P_20261026_134131_2.jpg"
+   ],
+   "confidence": "high",
+   "notes": "照片2(睜眼款)。照片3 經 Derek 指出為不同件,已另立一筆。白色貓、紅項圈、黃鈴鐺。疑似候補:バンプレスト「もふぐっとぬいぐるみ~福招きニャンコ先生~」(投入2026-01-15),但未能查到該款鈴/項圈細節與尺寸,未確認。吊牌字太小無法讀。無官方圖。;Derek 2026-10-27 指認為バンプレスト「ふわりんニャンコ先生ぬいぐるみ」;官方頁 https://www.natsume-anime.jp/goods/%E3%83%90%E3%83%B3%E3%83%97%E3%83%AC%E3%82%B9%E3%83%88%E3%82%88%E3%82%8A%E3%80%8C%E3%81%B5%E3%82%8F%E3%82%8A%E3%82%93%E3%83%8B%E3%83%A3%E3%83%B3%E3%82%B3%E5%85%88%E7%94%9F%E3%81%AC%E3%81%84%E3%81%90 ;全4種(睜眼/瞇眼/渦卷眼/灰色黑貓老師款,官方頁未逐款說明),本件為睜眼款(官方圖左上),與原照白色圓球身、紅項圈黃鈴鐺、頭頂三花斑、臉頰紅紋及眼型一致;尺寸約8cm;2019年1月下旬發售(預定);官方圖 http://www.natsume-anime.jp/wp-content/uploads/2019/01/39054_夏目友人帳-ふわりんニャンコ先生ぬいぐるみ.png 裁切;查證日 2026-10-27",
+   "code": "N60"
+  },
+  {
+   "id": "natsume_nyanko-sensei_maneki-white_134131_p3",
+   "name_ja": "ふわりんニャンコ先生ぬいぐるみ",
+   "name_en": "Natsume's Book of Friends Fuwarin Nyanko-sensei Plush (closed eyes)",
+   "name_zh": "夏目友人帳 ふわりん貓咪老師玩偶(瞇眼款)",
+   "ip": "夏目友人帳",
+   "character": "ニャンコ先生",
+   "maker": "バンプレスト(BANDAI SPIRITS)",
+   "line": "夏目友人帳 ふわりんニャンコ先生ぬいぐるみ(全4種)",
+   "type": "plush",
+   "year": "2019",
+   "category": [
+    "動畫",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "夏目友人帳",
+    "ニャンコ先生",
+    "ふわりん",
+    "バンプレスト",
+    "鈴"
+   ],
+   "source_images": [
+    "raw/P_20261026_134131_3.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/natsume_fuwarin_closed.jpg",
+   "photos": [
+    "box/natsume_fuwarin_closed.jpg",
+    "raw/P_20261026_134131_3.jpg"
+   ],
+   "confidence": "high",
+   "notes": "照片3:白色貓咪老師、紅項圈黃鈴鐺、頭頂三花斑、臉頰紅色花紋、瞇眼;Derek 指出與照片2 為不同件。品名未查證。;Derek 2026-10-27 指認為バンプレスト「ふわりんニャンコ先生ぬいぐるみ」;官方頁 https://www.natsume-anime.jp/goods/%E3%83%90%E3%83%B3%E3%83%97%E3%83%AC%E3%82%B9%E3%83%88%E3%82%88%E3%82%8A%E3%80%8C%E3%81%B5%E3%82%8F%E3%82%8A%E3%82%93%E3%83%8B%E3%83%A3%E3%83%B3%E3%82%B3%E5%85%88%E7%94%9F%E3%81%AC%E3%81%84%E3%81%90 ;全4種(睜眼/瞇眼/渦卷眼/灰色黑貓老師款,官方頁未逐款說明),本件為瞇眼款(官方圖右上),與原照白色圓球身、紅項圈黃鈴鐺、頭頂三花斑、臉頰紅紋及眼型一致;尺寸約8cm;2019年1月下旬發售(預定);官方圖 http://www.natsume-anime.jp/wp-content/uploads/2019/01/39054_夏目友人帳-ふわりんニャンコ先生ぬいぐるみ.png 裁切;查證日 2026-10-27",
+   "code": "N61"
+  },
+  {
+   "id": "goldenkamuy_unknown-blue-bandana_134131",
+   "name_ja": "ゴールデンカムイ どうぶつフォーゼマスコット (2)アシリパ",
+   "name_en": "Golden Kamuy Doubutsu Phose Mascot (2) Asirpa (self-translated)",
+   "name_zh": "黃金神威 動物變身造型吊飾玩偶 (2)阿席莉帕(自譯)",
+   "ip": "黃金神威(ゴールデンカムイ)",
+   "character": "未確認(疑似アシㇼパ造型,推測)",
+   "maker": "ensky(エンスカイ)",
+   "line": "ゴールデンカムイ どうぶつフォーゼマスコット(全6種)",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "動畫",
+    "絨毛娃娃"
+   ],
+   "keywords": [],
+   "source_images": [
+    "raw/P_20261026_134131_4.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/ensky_goldenkamuy_doubutsu_phose_asirpa_c.jpg",
+   "photos": [
+    "box/ensky_goldenkamuy_doubutsu_phose_asirpa_c.jpg",
+    "raw/P_20261026_134131_4.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2026-10-26 補回(前次略過)。灰白動物、藍色花紋頭巾與圍巾、藍眼;IP 依造型推測,品名未查證。;Derek 2026-10-27 指認為 ensky「ゴールデンカムイ どうぶつフォーゼマスコット (2)アシリパ」;官方頁 https://www.ensky.co.jp/item/19701.html ;全6種(月島/鯉登/杉元/アシリパ/白石/尾形),本件為アシリパ款,與原照藍色花紋頭巾、藍白圍巾披肩、藍眼、灰白動物造型、肉球一致;尺寸約 H105×W75×D70mm(依種類略異);材質聚酯纖維,附球鏈;JAN 4970381634919;價格 1,800円(税抜)/1,980円(税込);官方頁標示「再販」,再販預定 2026年11月發售(官方宣傳圖),初版發售日官方頁未載;官方圖(enskyshop.com 三視圖)裁切正面;查證日 2026-10-27",
+   "code": "N62"
+  },
+  {
+   "id": "goldenkamuy_unknown-tabby-scar_134131",
+   "name_ja": "ゴールデンカムイ どうぶつフォーゼマスコット (4)尾形百之助",
+   "name_en": "Golden Kamuy Animal-Pose Mascot (4) Ogata Hyakunosuke (self-translated)",
+   "name_zh": "黃金神威 動物變身造型吊飾玩偶 (4)尾形百之助(自譯)",
+   "ip": "黃金神威(ゴールデンカムイ)",
+   "character": "未確認(疑似杉元造型,推測)",
+   "maker": "ensky(エンスカイ)",
+   "line": "ゴールデンカムイ どうぶつフォーゼマスコット(全6種)",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "動畫",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "尾形百之助",
+    "どうぶつフォーゼ",
+    "ensky",
+    "ゴールデンカムイ",
+    "ヤマネコ"
+   ],
+   "source_images": [
+    "raw/P_20261026_134131_5.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/goldenkamuy_dobutsu_ogata_134131_5_c.jpg",
+   "photos": [
+    "box/goldenkamuy_dobutsu_ogata_134131_5_c.jpg",
+    "raw/P_20261026_134131_5.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2026-10-26 補回。虎斑色、鼻上有疤、灰色披布;IP 與角色依造型推測,品名未查證。與照片4、6 同組(邊緣可見相鄰娃娃)。;Derek 2026-10-27 指認為ゴールデンカムイ どうぶつフォーゼマスコット (4)尾形百之助(ensky);官方頁 https://www.ensky.co.jp/item/19703.html ;全6種;尺寸約H105×W75×D70mm(依種類略異);材質ポリエステル等;附ボールチェーン;商品代碼 4970381634933;價格1,800円(稅抜)/1,980円(稅込);官方頁標示「再販」,再販預定2026年11月發售(官方宣傳圖),初版發售日官方頁未載(不填);與原照虎斑橘色動物造型、臉上疤紋、灰色披布、肉球一致;官方圖 https://www.enskyshop.com/html/upload/save_image/1111163957_6731b4cdb9be7.jpg 取中央正面裁切;查證日 2026-10-27",
+   "code": "N63"
+  },
+  {
+   "id": "goldenkamuy_unknown-bear-plaid_134131",
+   "name_ja": "ゴールデンカムイ どうぶつフォーゼマスコット (1)杉元佐一",
+   "name_en": "Golden Kamuy Animal-Pose Mascot (1) Sugimoto Saichi (self-translated)",
+   "name_zh": "黃金神威 動物變身造型吊飾玩偶 (1)杉元佐一(自譯)",
+   "ip": "黃金神威(ゴールデンカムイ)",
+   "character": "未確認(推測)",
+   "maker": "ensky(エンスカイ)",
+   "line": "ゴールデンカムイ どうぶつフォーゼマスコット(全6種)",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "動畫",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "杉元佐一",
+    "どうぶつフォーゼ",
+    "ensky",
+    "ゴールデンカムイ",
+    "ヒグマ"
+   ],
+   "source_images": [
+    "raw/P_20261026_134131_6.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/goldenkamuy_dobutsu_sugimoto_134131_6_c.jpg",
+   "photos": [
+    "box/goldenkamuy_dobutsu_sugimoto_134131_6_c.jpg",
+    "raw/P_20261026_134131_6.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2026-10-26 補回。棕色熊、黃色格紋圍巾、藍色披肩、頭戴帽;IP 依造型推測,品名未查證。;Derek 2026-10-27 指認為ゴールデンカムイ どうぶつフォーゼマスコット (1)杉元佐一(ensky);官方頁 https://www.ensky.co.jp/item/19700.html ;全6種;尺寸約H105×W75×D70mm(依種類略異);材質ポリエステル等;附ボールチェーン;價格1,800円(稅抜)/1,980円(稅込);商品代碼 4970381634902;官方頁標示「再販」;與原照棕色動物造型、黃格紋圍巾、藍披肩、頭戴帽一致;官方圖 https://www.enskyshop.com/html/upload/save_image/1111163453_6731b39d375c6.jpg 取中央正面裁切;發售日官方頁未載(不填);查證日 2026-10-27",
+   "code": "N64"
+  },
+  {
+   "id": "chainsaw-man_makima_cat-hood_134131",
+   "name_ja": "チェンソーマン あにずきん(ぬいぐるみマスコット) パワー",
+   "name_en": "Chainsaw Man Anizukin Plush Mascot - Power (self-translated)",
+   "name_zh": "鏈鋸人 Anizukin 頭套玩偶吊飾 帕瓦(自譯)",
+   "ip": "鏈鋸人(チェンソーマン)",
+   "character": "マキマ",
+   "maker": "ムービック(Movic)",
+   "line": "あにずきん(ぬいぐるみマスコット)",
+   "type": "plush",
+   "year": "2023",
+   "category": [
+    "動畫",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "チェンソーマン",
+    "パワー",
+    "あにずきん",
+    "ムービック",
+    "ずきん",
+    "猫"
+   ],
+   "source_images": [
+    "P_20261026_134131_7.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/chainsawman_anizukin_power_134131.jpg",
+   "photos": [
+    "box/chainsawman_anizukin_power_134131.jpg",
+    "raw/P_20261026_134131_7.jpg"
+   ],
+   "confidence": "high",
+   "notes": "照片7:瑪奇瑪(粉橘髮、金色眼)穿白色貓耳連帽造型,底部有 ©藤本タツキ 字樣。角色依髮色/眼色判斷為瑪奇瑪;廠商/系列未查證。無官方圖。;Derek 2026-10-27 指認為パワー(原判讀瑪奇瑪有誤,改正);ムービック「あにずきん」TVアニメ『チェンソーマン』版,Power=白色貓耳頭巾款,與原照(粉橘髮金眼、白貓耳連帽)一致;全5種(官方試作圖:デンジ/ポチタ/姫野/早川アキ/パワー,BOX販售1BOX5パック入、不保證全種);尺寸約直徑8cm(依角色而異);1個990円(稅込);發售日2023/08/04(アニメイト頁,2023-04-07 存檔版記載,預約階段資訊);素材 聚酯纖維/聚乙烯;官方圖來自アニメイト商品頁 https://www.animate-onlineshop.jp/pn/pd/2243899/ (經 web.archive.org 存檔,圖 https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4549743841403_1_1680775509.jpg),Power 部分裁切;駿河屋頁 403 未取得;movic.jp 自家頁未找到;查證日 2026-10-27",
+   "code": "N65"
+  },
+  {
+   "id": "chainsaw-man_denji_mascot_134131",
+   "name_ja": "チェンソーマン かぷっこふれんず デンジ",
+   "name_en": "Chainsaw Man Kapukko Friends Plush Mascot - Denji (self-translated)",
+   "name_zh": "鏈鋸人 Kapukko Friends 玩偶吊飾 電次(自譯)",
+   "ip": "鏈鋸人(チェンソーマン)",
+   "character": "デンジ",
+   "maker": "フクヤ(株式会社フクヤ / Fancy Fukuya)",
+   "line": "かぷっこふれんず",
+   "type": "plush",
+   "year": "2022",
+   "category": [
+    "動畫",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "チェンソーマン",
+    "デンジ",
+    "かぷっこふれんず",
+    "フクヤ",
+    "カプセルトイ",
+    "ぬいぐるみ"
+   ],
+   "source_images": [
+    "P_20261026_134131_8.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/chainsawman_kapukko_denji_134131.jpg",
+   "photos": [
+    "box/chainsawman_kapukko_denji_134131.jpg",
+    "raw/P_20261026_134131_8.jpg"
+   ],
+   "confidence": "high",
+   "notes": "照片8:電次(金髮、紅眼、白襯衫黑領帶、黑短褲)變形公仔,背面有金色繩。角色依造型判斷;系列/廠商未查證。照片中吊牌字太小。無官方圖。;Derek 2026-10-27 指認為 チェンソーマン かぷっこふれんず デンジ;福屋(フクヤ)官方商品頁:全5種(デンジ/早川アキ/パワー/マキマ/ポチタ),尺寸約8cm,發售月2022年12月,商品類別為カプセルトイ(非プライズ)、ぬいぐるみ,附可掛包包的橡皮繩;與原照(金髮、紅眼尖牙、白襯衫黑領帶黑短褲)外觀一致,原照吊牌文字為「デンジ/かぷっこふれんず」;官方圖為5款合照,裁出デンジ款;官方頁未載價格;官方 URL https://www.fancy-fukuya.co.jp/goods/202212chainsawman02/ ;查證日 2026-10-27;Derek 2026-10-27 指認為 チェンソーマン かぷっこふれんず デンジ;福屋(フクヤ)官方商品頁:全5種(デンジ/早川アキ/パワー/マキマ/ポチタ),尺寸約8cm,發售月2022年12月,商品類別為カプセルトイ(非プライズ)、ぬいぐるみ,附可掛包包的橡皮繩;與原照(金髮、紅眼尖牙、白襯衫黑領帶黑短褲)外觀一致,原照吊牌文字為「デンジ/かぷっこふれんず」;官方圖為5款合照,裁出デンジ款;官方頁未載價格;官方 URL https://www.fancy-fukuya.co.jp/goods/202212chainsawman02/ ;查證日 2026-10-27",
+   "code": "N66"
+  },
+  {
+   "id": "natsume_nyanko-sensei_ebi-fry_134131",
+   "name_ja": "一番くじ ポケピース ～“PEACE”なダイナーへようこそ～ F賞 ぬいぐるみマスコット F-3(ワッカネズミ・ホットドッグ)",
+   "name_en": "Ichiban Kuji Pokepeace F Prize Plush Mascot F-3 (Tandemaus with hot dog)",
+   "name_zh": "寶可夢 一對鼠(ワッカネズミ) 抱熱狗 絨毛吊飾(一番賞 F-3)",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "ワッカネズミ(一對鼠 Tandemaus)",
+   "maker": "BANDAI SPIRITS",
+   "line": "一番くじ ポケピース ～“PEACE”なダイナーへようこそ～ F賞 ぬいぐるみマスコット",
+   "type": "plush",
+   "year": "2026",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ポケモン",
+    "寶可夢",
+    "ワッカネズミ",
+    "一對鼠",
+    "Tandemaus",
+    "ポケピース",
+    "Pokepeace",
+    "ホットドッグ",
+    "熱狗",
+    "一番くじ",
+    "一番賞",
+    "BANDAI SPIRITS",
+    "F賞",
+    "ぬいぐるみマスコット",
+    "PEACEなダイナー"
+   ],
+   "source_images": [
+    "P_20261026_134131_9.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/pokemon_tandemaus-hotdog_kuji-peace3-f3_c.jpg",
+   "photos": [
+    "box/pokemon_tandemaus-hotdog_kuji-peace3-f3_c.jpg",
+    "raw/P_20261026_134131_9.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 指認為寶可夢 一對鼠(ワッカネズミ),原判夏目友人帳貓咪老師為誤。兩隻白色一對鼠共抱熱狗造型;查到二手頁商品名「ポケピース ワッカネズミ ぬいぐるみマスコット ホットドッグ」(說明:抱熱狗的新品)吻合,但未找到官方商品頁與官方圖。最接近的官方品=ポケモンセンター「ポケピース／ぬいぐるみ／ワッカネズミ」(4904790779039,16×22.5×8.5cm)與「Mocchi-Mocchi-Style」(4904790799686)為單純站姿、無熱狗,外型不同,故不放官方圖。;Derek 提供出處:https://1kuji.com/products/pk_peace3 。官方頁 F賞 ぬいぐるみマスコット 全3種(可選),F-1/F-2 約10cm、F-3 縦9.5×横15cm;F-3 為兩隻ワッカネズミ共抱熱狗,與實拍相符。發售:2026/01/10(土)起店頭順次發售,1回700円(含稅)。",
+   "code": "N67"
+  },
+  {
+   "id": "unknown_panda-like-black-white_134131",
+   "name_ja": "呪術廻戦 玉犬・渾 ぬいぐるみキーチェーン",
+   "name_en": "Jujutsu Kaisen Gyokuken Kon Plush Keychain (self-translated)",
+   "name_zh": "咒術迴戰 玉犬・渾 玩偶吊飾(自譯)",
+   "ip": "咒術迴戰(呪術廻戦)",
+   "character": "不明",
+   "maker": "MAPPA(官方通販 mappa-onlineshop.com 販售;實際製造商未查到)",
+   "line": "MAPPA 官方通販 伏黒恵の式神 ぬいぐるみキーチェーン系列(玉犬・白/玉犬・黒/玉犬・渾)",
+   "type": "plush",
+   "year": 2022,
+   "category": [
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "呪術廻戦",
+    "玉犬・渾",
+    "伏黒恵",
+    "式神",
+    "ぬいぐるみキーチェーン",
+    "MAPPA",
+    "黒白合體"
+   ],
+   "source_images": [
+    "raw/P_20261026_134131_10.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/jujutsu_gyokuken_kon_keychain.jpg",
+   "photos": [
+    "box/jujutsu_gyokuken_kon_keychain.jpg",
+    "raw/P_20261026_134131_10.jpg"
+   ],
+   "confidence": "high",
+   "notes": "2026-10-26 補回。黑白相間長毛絨毛娃娃,包裝內,疑似熊貓或黑白貓,無吊牌可讀。;官方圖由 Derek 提供(黑犬、白胸、黃眼、額頭六個紅點圓圈、頂端掛環;圖註「画像は試作品を撮影したもの」),與原照黑白長毛吻合。疑似呪術廻戦 玉犬・黒,但未證實:已查 ムービック玉犬ぬいぐるみキーチェーンセット(2021/3,約15×10×18cm)、FuRyu/GiGO 玉犬(黑)(額頭為紅色三角印,外觀不同)、タイトー フェイスぬいぐるみ,皆無法對上六點圓圈圖,故品名/廠商/年份未填;Derek 2026-10-27 指認為「呪術廻戦 玉犬・渾(ぎょくけん・こん)ぬいぐるみキーチェーン」,MAPPA 官方 X(@MAPPA_Info)2022-09-16 發文【商品情報】確認:「伏黒恵の式神たちが手触りのよいぬいぐるみキーチェーンで登場!玉犬・渾ぬいぐるみキーチェーンは以前に販売していた玉犬・白、黒との相性もぴったり」,預約連結 mappa-onlineshop.com(MAPPA 官方通販)。同貼文附圖(白/黒/渾三隻合照)中右側黑狗白胸、黃眼、額頭六個紅點圓圈者與原照一致。圖註「画像は試作品を撮影したもの」。先前「玉犬・黒」猜測不正確:實為「渾」(黒白合體的玉犬)。價格、尺寸、實際發售日、製造商未查到(官方貼文未載;搜尋到的 3,850 日圓/約15×10×18cm 是2021年ムービック玉犬ぬいぐるみキーチェーンセット,不同商品,勿混用)。來源 https://x.com/MAPPA_Info/status/1570622357626310656 (經 api.fxtwitter.com 讀取)。查證日 2026-10-27",
+   "code": "N68"
+  },
+  {
+   "id": "natsume_nyanko-sensei_cushion-bandai_134131",
+   "name_ja": "たいやきぬいぐるみ(ニャンコ先生)",
+   "name_en": "Nyanko-sensei on Taiyaki Plush (self-translated)",
+   "name_zh": "鯛魚燒造型玩偶(貓咪老師趴睡款,自譯)",
+   "ip": "夏目友人帳",
+   "character": "ニャンコ先生",
+   "maker": "BANDAI SPIRITS",
+   "line": "一番くじ 夏目友人帳～ニャンコ先生とはんなり和すいーつ～ A賞 たいやきぬいぐるみ",
+   "type": "plush",
+   "year": "2019",
+   "category": [
+    "動畫",
+    "靠墊"
+   ],
+   "keywords": [
+    "夏目友人帳",
+    "ニャンコ先生",
+    "クッション",
+    "bandai"
+   ],
+   "source_images": [
+    "P_20261026_134131_11.jpg"
+   ],
+   "box_image": "",
+   "main_image": "box/natsume_ichiban_a_taiyaki_134131_11.jpg",
+   "photos": [
+    "box/natsume_ichiban_a_taiyaki_134131_11.jpg",
+    "raw/P_20261026_134131_11.jpg"
+   ],
+   "confidence": "high",
+   "notes": "照片11:橘色貓形靠墊,上面趴著一隻白橘灰小貓公仔(紅項圈)。吊牌可見 BANDAI 字樣,疑似 2017 年バンダイ PC クッション或其他靠墊款,未確認。無官方圖。;Derek 2026-10-27 指認為一番くじ A賞;官方頁 https://1kuji.com/products/natsume28 ;A賞全1種,尺寸約45cm;與原照鯛魚燒本體(橘色、同花紋)及趴在上面的閉眼ニャンコ先生(原照可見紅項圈,官方圖角度看不到)一致(ラストワン賞為キラ目款,本件為閉眼故判為A賞);1回650円(稅込);店頭2019/06/21起順次發售;官方圖 https://assets.1kuji.com/uploads/product_item/image/16260/151fe410-43f5-4c79-bd6e-175c07c40641.jpg ;原備註「橘色貓形靠墊」誤,實為鯛魚燒造型;查證日 2026-10-27",
+   "code": "N69"
+  },
+  {
+   "id": "pokemon_polteageist-magic-hour_134634_1",
+   "name_ja": "ぬいぐるみ Pokémon Magic Hour Illusion! ポットデス(がんさくフォルム)",
+   "name_en": "Pokémon Magic Hour Illusion! Polteageist (Counterfeit Form) Plush",
+   "name_zh": "Pokémon Magic Hour Illusion! 壺壺 毛絨娃娃(贋作形態)",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "ポットデス(がんさくフォルム)",
+   "maker": "ポケモンセンター(株式会社ポケモン)",
+   "line": "Pokémon Magic Hour Illusion!(2026 ハロウィン)",
+   "type": "plush",
+   "year": "2026",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "polteageist",
+    "ポットデス",
+    "Magic Hour"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329439150.html",
+    "raw/P_20261026_134634_1.jpg"
+   ],
+   "box_image": "pokemon_polteageist-magic-hour_134634_1.jpg",
+   "main_image": "box/pokemon_polteageist-magic-hour_134634_1_c.jpg",
+   "photos": [
+    "box/pokemon_polteageist-magic-hour_134634_1_c.jpg",
+    "raw/P_20261026_134634_1.jpg"
+   ],
+   "confidence": "high",
+   "notes": "寶可夢中心線上商店「ぬいぐるみ Pokémon Magic Hour Illusion! ポットデス(がんさくフォルム)」(JAN 4521329439150)確認:薄荷綠壺身、紫色蝴蝶結、黃握把。(先前標示疑似ヤバチャ) 〔2026-10-26 更新:屬寶可夢中心 2026 萬聖節系列「Pokémon Magic Hour Illusion!」(2026/9/12 起發售,官方公告 pokemon.co.jp/goods/2026/09/260904_to01.html)。〕",
+   "code": "N70"
+  },
+  {
+   "id": "pokemon_raichu-guess_134634",
+   "name_ja": "マスコット Pokémon Magic Hour Illusion! アローラライチュウ",
+   "name_en": "Raichu plush (guess)",
+   "name_zh": "寶可夢 阿羅拉雷丘 掛飾玩偶(Pokémon Magic Hour Illusion! 萬聖節)",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "アローラライチュウ",
+   "maker": "ポケモンセンター(株式会社ポケモン)",
+   "line": "Pokémon Magic Hour Illusion!(2026 ハロウィン)",
+   "type": "plush",
+   "year": "2026",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "raichu",
+    "ライチュウ",
+    "雷丘",
+    "寶可夢"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329439198.html",
+    "raw/P_20261026_134634_2.jpg"
+   ],
+   "box_image": "pokemon_alolan-raichu_magic-hour-mascot.jpg",
+   "main_image": "box/pokemon_alolan-raichu_magic-hour-mascot_c.jpg",
+   "photos": [
+    "box/pokemon_alolan-raichu_magic-hour-mascot_c.jpg",
+    "raw/P_20261026_134634_2.jpg"
+   ],
+   "confidence": "high",
+   "notes": "寶可夢中心線上商店「マスコット Pokémon Magic Hour Illusion! アローラライチュウ」(JAN 4521329439198)外形一致:煎餅/鬆餅小物、蝴蝶結與兔耳南瓜吊飾。屬 2026 萬聖節系列(與 N70 同系列)。更正:原判伊布(推測)為誤。",
+   "code": "N71"
+  },
+  {
+   "id": "pokemon_ditto_keychain-pokemoncard_134634",
+   "name_ja": "マスコット 十ポケ十色 ずぶといメタモン(Pokémon Natures)",
+   "name_en": "Pokémon Natures Ditto (BOLD) mascot keychain",
+   "name_zh": "寶可夢 Pokémon Natures(十色系列)百變怪 大膽 吊飾(ずぶといメタモン マスコット)",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "メタモン",
+   "maker": "ポケモンセンター",
+   "line": "Pokémon Natures(十色系列)/十ポケ十色",
+   "type": "other",
+   "year": "2025",
+   "category": [
+    "寶可夢",
+    "吊飾"
+   ],
+   "keywords": [
+    "DITTO (BOLD)",
+    "Natures",
+    "Pokémon Natures",
+    "ditto",
+    "ずぶとい",
+    "メタモン",
+    "十ポケ十色",
+    "十色",
+    "十色系列",
+    "大膽",
+    "百變怪",
+    "鑰匙圈"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329397719.html",
+    "raw/P_20261026_134634_3.jpg"
+   ],
+   "box_image": "pokemon_ditto-bold-natures-mascot_134634_3.jpg",
+   "main_image": "box/pokemon_ditto-bold-natures-mascot_134634_3_c.jpg",
+   "photos": [
+    "box/pokemon_ditto-bold-natures-mascot_134634_3_c.jpg",
+    "raw/P_20261026_134634_3.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 確認:韓國百變怪快閃店購入。吊牌印 DITTO (BOLD)。寶可夢中心「Pokémon Natures(十色系列)」(日文名「十ポケ十色」,取自「十人十色」)共10款(皮卡丘×5+百變怪×5)之一,抱花束、咖啡色織帶+精靈球扣環。日本寶可夢中心線上 2025/11/06 發售(¥1,650,10×7×8cm,商品碼 4521329397719);寶可夢中心台北 2026/1/3 發售。",
+   "code": "N72"
+  },
+  {
+   "id": "pokemon_rowlet_plush-large_134634",
+   "name_ja": "ぬいぐるみ モクロー",
+   "name_en": "Rowlet Plush",
+   "name_zh": "木木梟 毛絨娃娃(大)",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "モクロー(木木梟)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "rowlet",
+    "モクロー",
+    "木木梟",
+    "寶可夢",
+    "pokemon plush"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329338514.html",
+    "raw/P_20261026_134634_4.jpg"
+   ],
+   "box_image": "pokemon_rowlet_plush-large_134634.jpg",
+   "main_image": "box/pokemon_rowlet_plush-large_134634_c.jpg",
+   "photos": [
+    "box/pokemon_rowlet_plush-large_134634_c.jpg",
+    "raw/P_20261026_134634_4.jpg"
+   ],
+   "confidence": "high",
+   "notes": "寶可夢中心線上商店「ぬいぐるみ モクロー」(JAN 4521329338514)外型相符(橘米色圓身、黑眼橢圓、綠領結、橘腳);尺寸以吊牌未確認,信心 medium。",
+   "code": "N73"
+  },
+  {
+   "id": "pokemon_rowlet_ballchain-mascot_134634_p5",
+   "name_ja": "ポケピース ボールチェーンマスコット モクロー",
+   "name_en": "Pokémon Peaceful Place Ball Chain Mascot Rowlet",
+   "name_zh": "ポケピース 木木梟 球鏈吊飾玩偶",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "モクロー(木木梟)",
+   "maker": "タカラトミーアーツ",
+   "line": "ポケピース",
+   "type": "other",
+   "year": "2022",
+   "category": [
+    "寶可夢",
+    "吊飾",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "rowlet",
+    "モクロー",
+    "ボールチェーンマスコット",
+    "ポケピース",
+    "吊飾",
+    "マスコット"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4904790727726.html",
+    "raw/P_20261026_134634_5.jpg"
+   ],
+   "box_image": "pokemon_rowlet_ballchain-mascot_134634_p5.jpg",
+   "main_image": "box/pokemon_rowlet_ballchain-mascot_134634_p5_c.jpg",
+   "photos": [
+    "box/pokemon_rowlet_ballchain-mascot_134634_p5_c.jpg",
+    "raw/P_20261026_134634_5.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 提供商品頁:https://www.pokemoncenter-online.com/4904790727726.html 。寶可夢中心線上商店「ポケピース／ボールチェーンマスコット／モクロー」,JAN 4904790727726(與實拍吊牌條碼一致),2022/10/22 發售、¥1,870(含稅)、9×9×7.5cm 20g、附球鏈;毛茸米色+綠領結與實拍吻合。原判「ぬいぐるみ(JAN 4904790727658)」為誤配,已更正。",
+   "code": "N74"
+  },
+  {
+   "id": "pokemon_rowlet_poke-peaceful-place_134634",
+   "name_ja": "ポケピース ぬいぐるみバッジ モクロー",
+   "name_en": "Pokémon Peaceful Place Plush Badge Rowlet",
+   "name_zh": "ポケピース 木木梟 毛絨小徽章",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "モクロー(木木梟)",
+   "maker": "株式会社ポケモン",
+   "line": "ポケピース",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃",
+    "徽章"
+   ],
+   "keywords": [
+    "rowlet",
+    "モクロー",
+    "ポケピース",
+    "pokemon peaceful place",
+    "ぬいぐるみバッジ"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4904790758089.html",
+    "raw/P_20261026_134634_6.jpg"
+   ],
+   "box_image": "pokemon_rowlet_poke-peaceful-place_134634.jpg",
+   "main_image": "box/pokemon_rowlet_poke-peaceful-place_134634_c.jpg",
+   "photos": [
+    "box/pokemon_rowlet_poke-peaceful-place_134634_c.jpg",
+    "raw/P_20261026_134634_6.jpg"
+   ],
+   "confidence": "high",
+   "notes": "寶可夢中心線上商店官方頁確認:ポケピース／ぬいぐるみバッジ／モクロー(JAN 4904790758089),包裝(8才以上、¥990)與實拍一致。",
+   "code": "N75"
+  },
+  {
+   "id": "pokemon_ditto_pair-charm_134634",
+   "name_ja": "Pokémon accessory ふわふわヘアピン49 MM(メタモン・2個入)",
+   "name_en": "Pokémon accessory Fluffy Hairpin 49 MM (Ditto, set of 2)",
+   "name_zh": "寶可夢 百變怪 毛絨髮夾(2入)",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "メタモン",
+   "maker": "ポケモンセンター(株式会社ポケモン)",
+   "line": "Pokémon accessory ふわふわヘアピン",
+   "type": "other",
+   "year": "2021",
+   "category": [
+    "寶可夢",
+    "吊飾"
+   ],
+   "keywords": [
+    "ditto",
+    "メタモン",
+    "百變怪",
+    "ヘアピン",
+    "髮夾",
+    "Pokémon accessory"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329340135.html",
+    "raw/P_20261026_134634_7.jpg"
+   ],
+   "box_image": "pokemon_ditto_fluffy-hairpin49_134634.jpg",
+   "main_image": "box/pokemon_ditto_fluffy-hairpin49_134634_c.jpg",
+   "photos": [
+    "box/pokemon_ditto_fluffy-hairpin49_134634_c.jpg",
+    "raw/P_20261026_134634_7.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 確認日本購入。寶可夢中心「Pokémon accessory ふわふわヘアピン49 MM」(2021/9/30 發售,2個入,¥1,320,淺紫絨毛メタモン,每個約5×6×2cm,聚酯纖維+鐵)。顏色、材質、數量與實拍吻合(綠色圓形吊牌上兩隻紫色絨毛百變怪);輪廓細節略有差異,信心 medium。",
+   "code": "N76"
+  },
+  {
+   "id": "pokemon_mimikyu_pokepeace-plush_134634",
+   "name_ja": "ポケピース ぬいぐるみ ミミッキュ",
+   "name_en": "Poképeace Plush: Mimikyu",
+   "name_zh": "寶可夢中心 Poképeace 毛絨娃娃 謎擬Q",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "ミミッキュ",
+   "maker": "ポケモンセンター(ポケモンセンターオリジナル)",
+   "line": "ポケピース(Poképeace)ぬいぐるみ ミミッキュ(24cm、¥3,080、4904790785863)",
+   "type": "plush",
+   "year": "2024",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "寶可夢",
+    "ミミッキュ",
+    "ポケピース",
+    "寶可夢中心"
+   ],
+   "source_images": [
+    "raw/P_20261026_134634_8.jpg"
+   ],
+   "box_image": "pokemon_mimikyu_pokepeace-plush_4904790785863.jpg",
+   "main_image": "box/pokemon_mimikyu_pokepeace-plush_4904790785863_c.jpg",
+   "photos": [
+    "box/pokemon_mimikyu_pokepeace-plush_4904790785863_c.jpg",
+    "raw/P_20261026_134634_8.jpg"
+   ],
+   "confidence": "high",
+   "notes": "吊牌「ポケピース」與外型、奶白捲毛+棕耳棕腳+刺繡臉皆吻合。寶可夢中心線上 2024/10/19 發售,非一番賞(查無一番くじ同款)。官方頁 pokemoncenter-online.com/4904790785863.html",
+   "code": "N77"
+  },
+  {
+   "id": "pokemon_wooper-group_134634_9",
+   "name_ja": "ぬいぐるみ Little Daydream ウパーとヌオーぬいぐるみ",
+   "name_en": "Little Daydream Wooper & Quagsire Plush",
+   "name_zh": "Little Daydream 烏波抱著沼王 毛絨娃娃",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "ウパー(ヌオーのぬいぐるみを抱く)",
+   "maker": "株式会社ポケモン(ポケモンセンター)",
+   "line": "Little Daydream",
+   "type": "plush",
+   "year": "2026",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "wooper",
+    "ウパー",
+    "quagsire",
+    "ヌオー",
+    "Little Daydream"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329412757.html",
+    "Little Daydream: https://www.pokemon.co.jp/goods/2025/12/251226_to01.html",
+    "raw/P_20261026_134634_9.jpg"
+   ],
+   "box_image": "pokemon_wooper-group_134634_9.jpg",
+   "main_image": "box/pokemon_wooper-group_134634_9_c.jpg",
+   "photos": [
+    "box/pokemon_wooper-group_134634_9_c.jpg",
+    "raw/P_20261026_134634_9.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 指認:ウパー抱著ヌオー。寶可夢中心「Little Daydream」系列(2026/1/8 線上先售、1/10 店頭)ぬいぐるみ全5種之一,¥3,300,約23×20×16.5cm。淺藍綠身+粉紅外鰓+抱淺藍ヌオー,與實拍一致。",
+   "code": "N78"
+  },
+  {
+   "id": "pokemon_togepi_134634",
+   "name_ja": "ぬいぐるみ Little Daydream トゲピーとトゲキッスぬいぐるみ",
+   "name_en": "Little Daydream Togepi & Togekiss Plush",
+   "name_zh": "Little Daydream 波克比抱著波克基斯 毛絨娃娃",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "トゲピー(トゲキッスのぬいぐるみを抱く)",
+   "maker": "株式会社ポケモン(ポケモンセンター)",
+   "line": "Little Daydream",
+   "type": "plush",
+   "year": "2026",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "togepi",
+    "トゲピー",
+    "togekiss",
+    "トゲキッス",
+    "Little Daydream"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329412771.html",
+    "Little Daydream: https://www.pokemon.co.jp/goods/2025/12/251226_to01.html",
+    "raw/P_20261026_134634_10.jpg"
+   ],
+   "box_image": "pokemon_togepi_134634.jpg",
+   "main_image": "box/pokemon_togepi_134634_c.jpg",
+   "photos": [
+    "box/pokemon_togepi_134634_c.jpg",
+    "raw/P_20261026_134634_10.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 指認:トゲピー抱著トゲキッス。寶可夢中心「Little Daydream」系列(2026/1)ぬいぐるみ,¥3,300,約18×15×16cm。蛋殼+藍色三角紋+抱白色トゲキッス,與實拍一致。",
+   "code": "N79"
+  },
+  {
+   "id": "pokemon_charmander-charizard-mascot_134634_11",
+   "name_ja": "マスコット Little Daydream ヒトカゲとリザードンぬいぐるみ(カラビナ付きマスコット)",
+   "name_en": "Little Daydream Charmander & Charizard Mascot (carabiner charm)",
+   "name_zh": "Little Daydream 小火龍抱著噴火龍 掛飾/吊飾(附扣環)",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "ヒトカゲ(リザードンのぬいぐるみを抱く)",
+   "maker": "株式会社ポケモン(ポケモンセンター)",
+   "line": "Little Daydream",
+   "type": "other",
+   "year": "2026",
+   "category": [
+    "寶可夢",
+    "吊飾"
+   ],
+   "keywords": [
+    "charmander",
+    "ヒトカゲ",
+    "charizard",
+    "リザードン",
+    "Little Daydream",
+    "マスコット",
+    "吊飾"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329412795.html",
+    "Little Daydream: https://www.pokemon.co.jp/goods/2025/12/251226_to01.html",
+    "raw/P_20261026_134634_11.jpg"
+   ],
+   "box_image": "pokemon_charmander-charizard-mascot_134634_11.jpg",
+   "main_image": "box/pokemon_charmander-charizard-mascot_134634_11_c.jpg",
+   "photos": [
+    "box/pokemon_charmander-charizard-mascot_134634_11_c.jpg",
+    "raw/P_20261026_134634_11.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 更正:這件是吊飾(掛飾),不是娃娃。寶可夢中心「Little Daydream」系列(2026/1/8)有同款「マスコット」:ヒトカゲ抱著リザードン,附藍色精靈球扣環(カラビナ),約9×10×18cm,¥1,760,官方頁 4521329412795。外型一致(粉橘毛絨身體、胸前藍色條紋、懷中小隻棕橘リザードン)。實拍僅見局部且在包裝袋內,信心 medium。〔先前誤配的 ぬいぐるみ版(¥3,300,4521329412740)官方圖已撤下。〕",
+   "code": "N80"
+  },
+  {
+   "id": "pokemon_vaporeon_sleep-plush_134634",
+   "name_ja": "ぬいぐるみ へんしん!メタモン メッソン",
+   "name_en": "Vaporeon plush (guess)",
+   "name_zh": "寶可夢 變身!百變怪 變身成淚眼蜥 玩偶",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "メタモン(メッソンにへんしん)",
+   "maker": "ポケモンセンター(株式会社ポケモン)",
+   "line": "へんしん!メタモン(2026/7/9 発売)",
+   "type": "plush",
+   "year": "2026",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "vaporeon",
+    "シャワーズ",
+    "水伊布",
+    "寶可夢"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329420295.html",
+    "raw/P_20261026_134634_12.jpg"
+   ],
+   "box_image": "pokemon_ditto-sobble_plush.jpg",
+   "main_image": "box/pokemon_ditto-sobble_plush_c.jpg",
+   "photos": [
+    "box/pokemon_ditto-sobble_plush_c.jpg",
+    "raw/P_20261026_134634_12.jpg"
+   ],
+   "confidence": "high",
+   "notes": "寶可夢中心線上商店「ぬいぐるみ へんしん!メタモン メッソン」(JAN 4521329420295,¥2,200,2026-07-09 発売)外形一致:藍色淚眼蜥身體但臉保留百變怪。更正:原判水伊布(推測)為誤。",
+   "code": "N81"
+  },
+  {
+   "id": "pokemon_slowpoke_plush_134634",
+   "name_ja": "カラビナ付きマスコット ヤドン",
+   "name_en": "Slowpoke Mascot with Carabiner",
+   "name_zh": "呆呆獸 附扣環吊飾毛絨",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "ヤドン(呆呆獸)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "slowpoke",
+    "ヤドン",
+    "呆呆獸",
+    "寶可夢"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329413129.html",
+    "raw/P_20261026_134634_13.jpg"
+   ],
+   "box_image": "pokemon_slowpoke_plush_134634.jpg",
+   "main_image": "box/pokemon_slowpoke_plush_134634_c.jpg",
+   "photos": [
+    "box/pokemon_slowpoke_plush_134634_c.jpg",
+    "raw/P_20261026_134634_13.jpg"
+   ],
+   "confidence": "high",
+   "notes": "寶可夢中心線上商店「カラビナ付きマスコット ヤドン」(JAN 4521329413129)同系列(與可達鴨同款式);實拍粉紅身+奶黃嘴相符,扣環顏色未完全確認。",
+   "code": "N82"
+  },
+  {
+   "id": "pokemon_psyduck_plush_134634",
+   "name_ja": "カラビナ付きマスコット コダック",
+   "name_en": "Psyduck Mascot with Carabiner",
+   "name_zh": "可達鴨 附扣環吊飾毛絨",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "コダック(可達鴨)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "psyduck",
+    "コダック",
+    "可達鴨",
+    "寶可夢"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329413099.html",
+    "raw/P_20261026_134634_14.jpg"
+   ],
+   "box_image": "pokemon_psyduck_plush_134634.jpg",
+   "main_image": "box/pokemon_psyduck_plush_134634_c.jpg",
+   "photos": [
+    "box/pokemon_psyduck_plush_134634_c.jpg",
+    "raw/P_20261026_134634_14.jpg"
+   ],
+   "confidence": "high",
+   "notes": "寶可夢中心線上商店「カラビナ付きマスコット コダック」(JAN 4521329413099)外型相符(橘色扣環、頭頂黑毛、黃身);未見吊牌確認。",
+   "code": "N83"
+  },
+  {
+   "id": "pokemon_alolan-vulpix_psycho-soda-refresh_134634_15",
+   "name_ja": "ぬいぐるみ サイコソーダ・リフレッシュ アローラロコン",
+   "name_en": "Plush Psycho Soda Refresh Alolan Vulpix",
+   "name_zh": "冰六尾(阿羅拉六尾) 汽水系列 毛絨娃娃",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "アローラキュウコン(阿羅拉六尾)",
+   "maker": "ポケモンセンター",
+   "line": "Psycho Soda Refresh(サイコソーダ・リフレッシュ/汽水系列)",
+   "type": "plush",
+   "year": "2025",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃",
+    "汽水系列"
+   ],
+   "keywords": [
+    "alolan vulpix",
+    "アローラロコン",
+    "アローラキュウコン",
+    "阿羅拉六尾",
+    "冰六尾",
+    "寶可夢",
+    "汽水",
+    "Psycho Soda",
+    "サイコソーダ"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329414492.html",
+    "raw/P_20261026_134634_15.jpg"
+   ],
+   "box_image": "pokemon_alolan-vulpix_psycho-soda-refresh_134634_15.jpg",
+   "main_image": "box/pokemon_alolan-vulpix_psycho-soda-refresh_134634_15_c.jpg",
+   "photos": [
+    "box/pokemon_alolan-vulpix_psycho-soda-refresh_134634_15_c.jpg",
+    "raw/P_20261026_134634_15.jpg"
+   ],
+   "confidence": "high",
+   "notes": "Derek 指認為汽水系列(PChome 截圖「冰六尾 Psycho Soda Refresh 勁爽汽水 絨毛玩具」)。寶可夢中心線上「ぬいぐるみ サイコソーダ・リフレッシュ アローラロコン」,https://www.pokemoncenter-online.com/4521329414492.html,商品碼 4521329414492,2025/3/25 發售、¥1,980(含稅)、15×16×18cm 96g;坐姿、薄荷腳、藍耳與刺繡眼睛與實拍吻合。原判「ぬいぐるみ(S) 4905330033710」為誤配,已更正。",
+   "code": "N84"
+  },
+  {
+   "id": "pokemon_ditto-hisui-zorua_134634",
+   "name_ja": "ぬいぐるみ へんしん！メタモン ヒスイゾロア",
+   "name_en": "Transform! Ditto - Hisuian Zorua Plush",
+   "name_zh": "百變怪變身 洗翠索羅亞 毛絨娃娃",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "メタモン(ヒスイゾロアへんしん)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ditto",
+    "メタモン",
+    "hisuian zorua",
+    "ヒスイゾロア",
+    "へんしん"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329420301.html",
+    "raw/P_20261026_134634_16.jpg"
+   ],
+   "box_image": "pokemon_ditto-hisui-zorua_134634.jpg",
+   "main_image": "box/pokemon_ditto-hisui-zorua_134634_c.jpg",
+   "photos": [
+    "box/pokemon_ditto-hisui-zorua_134634_c.jpg",
+    "raw/P_20261026_134634_16.jpg"
+   ],
+   "confidence": "high",
+   "notes": "先前誤認為ベロバー等。寶可夢中心線上商店「ぬいぐるみ へんしん！メタモン ヒスイゾロア」(JAN 4521329420301)確認:白身粉紅尾毛、百變怪臉。",
+   "code": "N85"
+  },
+  {
+   "id": "pokemon_ditto-zorua_134634",
+   "name_ja": "ぬいぐるみ へんしん！メタモン ゾロア",
+   "name_en": "Transform! Ditto - Zorua Plush",
+   "name_zh": "百變怪變身 索羅亞 毛絨娃娃",
+   "ip": "寶可夢(ポケットモンスター)",
+   "character": "メタモン(ゾロアへんしん)",
+   "maker": "",
+   "line": "",
+   "type": "plush",
+   "year": "",
+   "category": [
+    "寶可夢",
+    "絨毛娃娃"
+   ],
+   "keywords": [
+    "ditto",
+    "メタモン",
+    "zorua",
+    "ゾロア",
+    "へんしん"
+   ],
+   "source_images": [
+    "https://www.pokemoncenter-online.com/4521329420318.html",
+    "raw/P_20261026_134634_17.jpg"
+   ],
+   "box_image": "pokemon_ditto-zorua_134634.jpg",
+   "main_image": "box/pokemon_ditto-zorua_134634_c.jpg",
+   "photos": [
+    "box/pokemon_ditto-zorua_134634_c.jpg",
+    "raw/P_20261026_134634_17.jpg"
+   ],
+   "confidence": "high",
+   "notes": "先前誤認為ヤミラミ。寶可夢中心線上商店「ぬいぐるみ へんしん！メタモン ゾロア」(JAN 4521329420318)確認:深灰藍身、紅色頭毛/爪、百變怪臉。",
+   "code": "N86"
   }
  ]
 }

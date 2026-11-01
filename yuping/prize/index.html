@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Yuping 景品收藏圖鑑</title>
+<title>Yuping 周邊收藏圖鑑</title>
 <link rel="stylesheet" href="../../assets/catalog-viewer.css?v=20261028b">
 <script src="../../assets/catalog-viewer.js?v=20261028b"></script>
 <style>
@@ -13,20 +13,22 @@
     --txt:#e8eaed; --dim:#9aa3b2; --accent:#ff4f8b; --accent2:#7cf2ff;
     --ok:#3ecf8e; --warn:#e0a53a;
   }
+  .code{position:absolute;top:6px;left:6px;background:var(--accent);color:#fff;font-weight:700;font-size:13px;padding:2px 7px;border-radius:6px;z-index:2}
+  .mcode{display:inline-block;background:var(--accent);color:#fff;padding:1px 9px;border-radius:6px;margin-right:8px;font-size:.8em}
 </style>
 </head>
 <body>
 <header><div class="wrap">
-  <nav class="crumbs"><a class="back" href="../../">← 回 Guide 首頁</a><a class="back" href="../">Yuping 的收藏</a><a class="back" href="../plush/">娃娃收藏(待確認)</a></nav>
+  <nav class="crumbs"><a class="back" href="../../">← 回 Guide 首頁</a><a class="back" href="../">Yuping 的收藏</a></nav>
   <div class="hrow">
-  <h1>Yuping <span class="r">景品</span> 收藏<span class="y">圖鑑</span></h1>
+  <h1>Yuping <span class="r">周邊</span> 收藏<span class="y">圖鑑</span></h1>
   <button class="tgl" id="tgl" type="button">篩選 / 搜尋 ▾</button>
   </div>
   <div class="views" id="views"><span class="vl">檢視</span><button type="button" class="vchip on" data-v="thumb" aria-pressed="true">縮圖</button><button type="button" class="vchip" data-v="photo" aria-pressed="false">照片</button></div>
   <div class="panel">
   <div class="sub" id="sub">載入中…</div>
   <div class="search">
-    <input id="q" placeholder="搜尋:角色 / 作品 / 廠商 / 系列(如 初音、ぼっち、SEGA、一番くじ)" autocomplete="off">
+    <input id="q" placeholder="搜尋(可輸入代號如 N12):角色 / 作品 / 廠商 / 系列(如 初音、ぼっち、SEGA、一番くじ)" autocomplete="off">
   </div>
   <div class="modes" id="modes"></div>
   <div class="chips" id="chips"></div>
@@ -56,7 +58,7 @@ CatalogViewer.init({
   emptyIcon:'🎁',
   photoLabel:p=>p.startsWith('raw/')?['我拍的','mine']:p.startsWith('box/')?['官方圖','']:['',''],
   thumb:{
-    badges:c=>c.confidence==='low'?`<span class="lc">待確認</span>`:'',
+    badges:c=>(c.code?`<span class="code">${esc(c.code)}</span>`:'')+(c.confidence==='low'?`<span class="lc">待確認</span>`:''),
     meta:c=>{const sub=[c.maker,c.line].filter(Boolean).join(' · ');
       return `<div class="nm">${esc(nameOf(c))}</div>
     <div class="nsub" title="${esc(sub)}">${esc(sub)}</div>
@@ -74,10 +76,10 @@ CatalogViewer.init({
     const kv=rows.map(r=>`<b>${r[0]}</b><div>${esc(r[1])}</div>`).join('');
     const tags=(c.keywords||[]).map(k=>`<span class="tag">${esc(k)}</span>`).join('');
     const note=[c.confidence==='low'?'⚠️ 辨識信心低,待確認':'',c.notes?('📝 '+esc(c.notes)):''].filter(Boolean).join('<br>');
-    return `<h2>${esc(c.name_zh||c.name_en||c.id)}</h2><div class="kv">${kv}</div>
+    return `<h2>${c.code?`<span class="mcode">${esc(c.code)}</span>`:''}${esc(c.name_zh||c.name_en||c.id)}</h2><div class="kv">${kv}</div>
     <div class="tags">${tags}</div>${note?`<div class="note">${note}</div>`:''}`;
   },
-  search:c=>[c.name_zh,c.name_en,c.name_ja,c.ip,c.character,c.maker,c.line,c.id,c.category,c.keywords],
+  search:c=>[c.name_zh,c.name_en,c.name_ja,c.ip,c.character,c.maker,c.line,c.id,c.code,c.category,c.keywords],
   chips:{values:c=>c.category,top:14},
   modes:[
     {id:'ip',label:'依作品',key:c=>c.ip||'其他'},

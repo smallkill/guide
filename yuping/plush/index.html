@@ -2,100 +2,13 @@
 <html lang="zh-Hant">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>娃娃收藏(待確認)</title>
-<link rel="stylesheet" href="../../assets/catalog-viewer.css?v=20261028b">
-<script src="../../assets/catalog-viewer.js?v=20261028b"></script>
-<style>
-  :root{
-    --bg:#0f1115; --panel:#171a21; --panel2:#1e222b; --line:#2a2f3a;
-    --txt:#e8eaed; --dim:#9aa3b2; --accent:#ff4f8b; --accent2:#7cf2ff;
-    --ok:#3ecf8e; --warn:#e0a53a;
-  }
-  .intro{margin:8px 0;padding:8px 12px;background:var(--panel2);border:1px solid var(--line);border-radius:8px;font-size:13px;color:var(--dim);line-height:1.6}
-  .intro b{color:var(--accent2)}
-  .code{position:absolute;top:6px;left:6px;background:var(--accent);color:#fff;font-weight:700;font-size:13px;padding:2px 7px;border-radius:6px;z-index:2}
-  .cf{display:inline-block;font-size:11px;padding:1px 7px;border-radius:5px;margin-left:6px;background:var(--panel2);border:1px solid var(--line);vertical-align:middle}
-  .cf.low{background:var(--warn);color:#000}
-  .mcode{display:inline-block;background:var(--accent);color:#fff;padding:1px 9px;border-radius:6px;margin-right:8px;font-size:.8em}
-</style>
+<meta http-equiv="refresh" content="0; url=../prize/">
+<title>已搬到 Yuping 周邊收藏圖鑑</title>
+<link rel="canonical" href="../prize/">
+<style>body{background:#0f1115;color:#e8eaed;font-family:system-ui,sans-serif;padding:2rem 1rem}a{color:#7cf2ff}</style>
 </head>
 <body>
-<header><div class="wrap">
-  <nav class="crumbs"><a class="back" href="../../">← 回 Guide 首頁</a><a class="back" href="../">Yuping 的收藏</a><a class="back" href="../prize/">景品公仔圖鑑</a></nav>
-  <div class="hrow">
-  <h1>娃娃 <span class="r">收藏</span><span class="y">(待確認)</span></h1>
-  <button class="tgl" id="tgl" type="button">篩選 / 搜尋 ▾</button>
-  </div>
-  <div class="views" id="views"><span class="vl">檢視</span><button type="button" class="vchip on" data-v="thumb" aria-pressed="true">縮圖</button><button type="button" class="vchip" data-v="photo" aria-pressed="false">照片</button></div>
-  <div class="panel">
-  <div class="intro">本頁多數為推測,看到錯的請用代號回報,例如:<b>N12 = 銀魂 長谷川泰三 / BANPRESTO</b>。每張卡片左上角是代號,點開可看大圖。　<a class="back" href="../prize/">→ 景品公仔圖鑑(已確認)</a></div>
-  <div class="sub" id="sub">載入中…</div>
-  <div class="search">
-    <input id="q" placeholder="搜尋(可輸入代號如 N12):角色 / 作品 / 廠商 / 系列(如 初音、ぼっち、SEGA、一番くじ)" autocomplete="off">
-  </div>
-  <div class="modes" id="modes"></div>
-  <div class="chips" id="chips"></div>
-  </div>
-</div></header>
-<div class="count" id="count"></div>
-<div id="grid"></div>
-
-<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="詳細資料">
-  <div class="box">
-    <button class="close" id="close" type="button" aria-label="關閉">×</button>
-    <div id="mimg"></div>
-    <div class="body" id="mbody"></div>
-  </div>
-</div>
-
-<script>
-// 共用檢視器:../../assets/catalog-viewer.js(行為改那裡,四頁一起生效)
-(function(){
-const esc=CatalogViewer.esc;
-const TYPE_LABEL={figure:'公仔 / 模型',plush:'玩偶',other:'其他'};
-const CONF_LABEL={low:'信心低',medium:'信心中',med:'信心中',high:'信心高'};
-const nameOf=c=>c.name_zh||c.name_en||c.name_ja||c.id;
-CatalogViewer.init({
-  json:'items.json',
-  parse:d=>({items:d.items||[],build:d.build||''}),
-  emptyIcon:'🎁',
-  photoLabel:p=>p.startsWith('raw/')?['我拍的','mine']:p.startsWith('box/')?['官方圖','']:['',''],
-  thumb:{
-    badges:c=>`<span class="code">${esc(c.code)}</span>`+(c.confidence==='low'?`<span class="lc">信心低</span>`:''),
-    meta:c=>{const sub=[c.maker,c.line].filter(Boolean).join(' · ');
-      return `<div class="nm">${esc(c.code)} ${esc(nameOf(c))}</div>
-    <div class="nsub" title="${esc(sub)}">${esc(sub)}</div>
-    ${c.year?`<div class="yr">${esc(c.year)}</div>`:''}`;}
-  },
-  photo:{
-    code:c=>c.code||'',
-    conf:c=>c.confidence?[c.confidence,CONF_LABEL[c.confidence]||c.confidence]:null,
-    pills:c=>[c.ip,c.maker,c.year]
-  },
-  detail:c=>{
-    const rows=[['中文名',c.name_zh],['英文名',c.name_en],['日文名',c.name_ja],['作品',c.ip],['角色',c.character],
-      ['廠商',c.maker],['系列',c.line],['類型',TYPE_LABEL[c.type]||c.type],['年份',c.year],
-      ['分類',(c.category||[]).join('、')]].filter(r=>r[1]);
-    const kv=rows.map(r=>`<b>${r[0]}</b><div>${esc(r[1])}</div>`).join('');
-    const tags=(c.keywords||[]).map(k=>`<span class="tag">${esc(k)}</span>`).join('');
-    const note=[c.confidence==='low'?'⚠️ 辨識信心低,待確認':'',c.notes?('📝 '+esc(c.notes)):''].filter(Boolean).join('<br>');
-    return `<h2><span class="mcode">${esc(c.code)}</span>${esc(c.name_zh||c.name_en||c.id)}<span class="cf ${c.confidence==='low'?'low':''}">信心:${esc({low:'低',medium:'中',med:'中',high:'高'}[c.confidence]||c.confidence||'?')}</span></h2><div class="kv">${kv}</div>
-    <div class="tags">${tags}</div>${note?`<div class="note">${note}</div>`:''}`;
-  },
-  search:c=>[c.name_zh,c.name_en,c.name_ja,c.ip,c.character,c.maker,c.line,c.id,c.code,c.category,c.keywords],
-  chips:{values:c=>c.category,top:14},
-  modes:[
-    {id:'ip',label:'依作品',key:c=>c.ip||'其他'},
-    {id:'maker',label:'依廠商',key:c=>c.maker||'其他'},
-    {id:'type',label:'依類型',key:c=>TYPE_LABEL[c.type]||'其他'}
-  ],
-  summary:(d,items)=>{const low=items.filter(c=>c.confidence==='low').length;
-    return `${items.length} 件 · ${items.filter(c=>(c.main_image||'').startsWith('box/')).length} 有官方圖${low?` · ${low} 信心低`:''} · 更新 ${d.updated||''}`;},
-  loadError:'items.json 載入失敗:'
-});
-})();
-</script>
+<p>娃娃收藏已併入 <a href="../prize/">Yuping 周邊收藏圖鑑</a>,正在跳轉…</p>
 </body>
 </html>
