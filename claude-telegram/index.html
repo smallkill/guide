@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>用 Claude Code 跟 Telegram 對接:實戰筆記</title>
+<meta name="description" content="用 Claude Code 官方 Telegram plugin 從手機遙控自己的 Claude:安裝配對、--channels 啟動、常駐、出站通知、語音、踩過的坑與安全守則。">
+<meta property="og:title" content="用 Claude Code 跟 Telegram 對接:實戰筆記">
+<meta property="og:description" content="Derek 自己用了半年的 Claude Code × Telegram 設定,含踩坑與安全守則。">
+<meta property="og:type" content="article">
+<style>
+  :root {
+    --bg: #0b0f14;
+    --bg-elev: #121822;
+    --bg-code: #0e141d;
+    --border: #1f2937;
+    --border-soft: #18212c;
+    --text: #e6edf3;
+    --text-muted: #93a1b0;
+    --text-dim: #8693a1;
+    --accent: #4cc2ff;
+    --accent-soft: rgba(76, 194, 255, 0.12);
+    --accent-border: rgba(76, 194, 255, 0.35);
+    --warn: #ffb454;
+    --warn-soft: rgba(255, 180, 84, 0.10);
+    --warn-border: rgba(255, 180, 84, 0.32);
+    --radius: 14px;
+    --radius-sm: 9px;
+    --maxw: 860px;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", Roboto, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    line-height: 1.75;
+    font-size: 17px;
+    letter-spacing: 0.01em;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; }
+
+  /* ---------- top progress + nav ---------- */
+  .topbar {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(11, 15, 20, 0.82);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .topbar-inner {
+    max-width: var(--maxw); margin: 0 auto; padding: 14px 22px;
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  }
+  .brandmark { display: flex; align-items: center; gap: 10px; font-weight: 650; font-size: 15px; letter-spacing: 0; }
+  .brandmark .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 12px var(--accent); flex: none; }
+  .topbar a.gh { font-size: 13.5px; color: var(--text-muted); font-family: var(--font-mono); }
+  /* pure CSS scroll-driven progress (no scroll listener); degrades to hidden if unsupported */
+  .progress { position: absolute; left: 0; bottom: -1px; height: 2px; width: 100%; background: var(--accent); transform: scaleX(0); transform-origin: left; }
+  @supports (animation-timeline: scroll()) {
+    .progress { animation: progressGrow linear both; animation-timeline: scroll(root block); }
+  }
+  @keyframes progressGrow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+  /* ---------- hero ---------- */
+  .hero { padding: 86px 0 46px; }
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 9px;
+    font-family: var(--font-mono); font-size: 12.5px; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--accent);
+    background: var(--accent-soft); border: 1px solid var(--accent-border);
+    padding: 6px 13px; border-radius: 999px; margin-bottom: 26px;
+  }
+  h1 {
+    font-size: clamp(2.1rem, 6vw, 3.3rem);
+    line-height: 1.12; letter-spacing: -0.02em; font-weight: 750;
+    margin-bottom: 20px;
+  }
+  h1 .hl { color: var(--accent); }
+  .lede { font-size: 1.16rem; color: var(--text-muted); max-width: 60ch; }
+  .meta-row {
+    margin-top: 30px; display: flex; flex-wrap: wrap; gap: 10px 18px;
+    font-family: var(--font-mono); font-size: 13px; color: var(--text-dim);
+  }
+  .meta-row span { display: inline-flex; align-items: center; gap: 7px; }
+
+  /* ---------- TL;DR card ---------- */
+  .tldr {
+    margin-top: 44px; background: var(--bg-elev);
+    border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 26px 28px;
+  }
+  .tldr h2 { font-size: 1.05rem; letter-spacing: 0; margin: 0 0 14px; color: var(--text); display: flex; align-items: center; gap: 10px; }
+  .tldr ul { list-style: none; display: grid; gap: 13px; }
+  .tldr li { position: relative; padding-left: 28px; color: var(--text-muted); font-size: 15.5px; line-height: 1.6; }
+  .tldr li::before {
+    content: ""; position: absolute; left: 4px; top: 9px;
+    width: 7px; height: 7px; border-radius: 2px; background: var(--accent);
+  }
+  .tldr li b { color: var(--text); font-weight: 650; }
+
+  /* ---------- sections ---------- */
+  section { padding: 52px 0; border-top: 1px solid var(--border-soft); }
+  .sec-num { font-family: var(--font-mono); font-size: 13px; color: var(--accent); letter-spacing: 0.08em; }
+  h2.sec { font-size: clamp(1.5rem, 3.6vw, 2.05rem); line-height: 1.2; letter-spacing: -0.015em; margin: 10px 0 8px; font-weight: 720; }
+  .sec-sub { color: var(--text-muted); font-size: 1.02rem; max-width: 64ch; margin-bottom: 26px; }
+  h3 { font-size: 1.2rem; margin: 34px 0 12px; letter-spacing: -0.01em; font-weight: 680; }
+  p { color: var(--text-muted); margin: 14px 0; }
+  p strong, li strong { color: var(--text); font-weight: 650; }
+  .body-list { margin: 14px 0 14px; padding-left: 4px; list-style: none; display: grid; gap: 11px; }
+  .body-list li { position: relative; padding-left: 24px; color: var(--text-muted); }
+  .body-list li::before { content: ""; position: absolute; left: 3px; top: 11px; width: 6px; height: 6px; border-radius: 50%; background: var(--text-dim); }
+
+  code.inl {
+    font-family: var(--font-mono); font-size: 0.875em;
+    background: var(--bg-code); border: 1px solid var(--border);
+    padding: 2px 7px; border-radius: 6px; color: #b9e6ff; white-space: nowrap;
+  }
+
+  /* ---------- code blocks ---------- */
+  .code {
+    position: relative; margin: 18px 0;
+    background: var(--bg-code); border: 1px solid var(--border);
+    border-radius: var(--radius-sm); overflow: hidden;
+  }
+  .code-head {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 9px 14px; border-bottom: 1px solid var(--border-soft);
+    font-family: var(--font-mono); font-size: 12px; color: var(--text-dim);
+    background: rgba(255,255,255,0.015);
+  }
+  .code-head .fname { color: var(--text-muted); }
+  .code pre { margin: 0; padding: 16px 16px; overflow-x: auto; }
+  .code code {
+    font-family: var(--font-mono); font-size: 13.5px; line-height: 1.7;
+    color: #d7e3ee; white-space: pre;
+  }
+  .code .cmt { color: #7c8b98; }
+  .code .tok { color: #8be9c0; }
+  .code .var { color: #ffd479; }
+
+  /* ---------- architecture diagram ---------- */
+  .flow {
+    margin: 26px 0; padding: 30px 22px;
+    background: var(--bg-elev); border: 1px solid var(--border); border-radius: var(--radius);
+    display: flex; align-items: stretch; justify-content: center; gap: 0; flex-wrap: wrap;
+  }
+  .node {
+    flex: 1 1 150px; min-width: 130px; text-align: center;
+    background: var(--bg-code); border: 1px solid var(--border);
+    border-radius: var(--radius-sm); padding: 16px 12px;
+  }
+  .node .nlabel { font-weight: 650; font-size: 15px; color: var(--text); }
+  .node .ndesc { font-size: 12.5px; color: var(--text-dim); font-family: var(--font-mono); margin-top: 5px; }
+  .node.accent { border-color: var(--accent-border); background: var(--accent-soft); }
+  .arrow {
+    flex: 0 0 auto; align-self: center; padding: 0 12px;
+    color: var(--accent); font-size: 22px; line-height: 1; font-family: var(--font-mono);
+  }
+  @media (max-width: 620px) {
+    .flow { flex-direction: column; gap: 0; }
+    .node { width: 100%; }
+    .arrow { padding: 8px 0; transform: rotate(90deg); }
+  }
+
+  /* ---------- bridge cards ---------- */
+  .cards { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 8px; }
+  @media (min-width: 720px) { .cards { grid-template-columns: 1fr 1fr; } .cards .feat { grid-column: 1 / -1; } }
+  .card {
+    background: var(--bg-elev); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 22px 22px;
+  }
+  .card.feat { border-color: var(--accent-border); }
+  .card .ctop { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+  .card h3 { margin: 0; font-size: 1.18rem; }
+  .tag {
+    font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
+    padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); color: var(--text-dim);
+  }
+  .tag.rec { color: var(--accent); border-color: var(--accent-border); background: var(--accent-soft); }
+  .card p { margin: 8px 0; font-size: 15px; }
+  .card .clink { font-family: var(--font-mono); font-size: 13px; }
+
+  /* ---------- callout ---------- */
+  .callout {
+    margin: 22px 0; border-radius: var(--radius);
+    border: 1px solid var(--warn-border); background: var(--warn-soft);
+    padding: 20px 22px;
+  }
+  .callout.info { border-color: var(--accent-border); background: var(--accent-soft); }
+  .callout h3 { margin: 0 0 8px; font-size: 1.05rem; color: var(--text); display: flex; align-items: center; gap: 9px; }
+  .callout .ico { color: var(--warn); font-family: var(--font-mono); font-weight: 700; }
+  .callout.info .ico { color: var(--accent); }
+  .callout p { margin: 8px 0; color: var(--text-muted); font-size: 15px; }
+  .callout b { color: var(--text); }
+
+  /* ---------- steps ---------- */
+  .steps { counter-reset: step; display: grid; gap: 4px; margin-top: 10px; }
+  .step { position: relative; padding: 6px 0 22px 50px; border-left: 1px solid var(--border); margin-left: 14px; }
+  .step:last-child { border-left-color: transparent; }
+  .step::before {
+    counter-increment: step; content: counter(step);
+    position: absolute; left: -15px; top: 0;
+    width: 30px; height: 30px; border-radius: 50%;
+    background: var(--bg-elev); border: 1px solid var(--accent-border); color: var(--accent);
+    font-family: var(--font-mono); font-size: 14px; font-weight: 600;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .step h4 { font-size: 1.06rem; margin: 2px 0 6px; color: var(--text); font-weight: 650; }
+  .step p { margin: 6px 0; font-size: 15px; }
+
+  /* ---------- os tabs ---------- */
+  .tabs { margin: 4px 0 22px; }
+  .tablist {
+    display: inline-flex; gap: 5px; padding: 5px;
+    background: var(--bg-elev); border: 1px solid var(--border); border-radius: 999px;
+  }
+  .tab-btn {
+    font-family: var(--font-mono); font-size: 13.5px; font-weight: 550;
+    padding: 8px 20px; border: none; border-radius: 999px; cursor: pointer;
+    background: transparent; color: var(--text-muted); transition: background 0.18s, color 0.18s;
+  }
+  .tab-btn:hover { color: var(--text); }
+  .tab-btn[aria-selected="true"] { background: var(--accent); color: #06121c; font-weight: 700; }
+  .tab-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+  .tab-panel:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: var(--radius-sm); }
+  .os-note { font-size: 14px; color: var(--text-muted); margin-top: 12px; }
+  .os-note b { color: var(--text); }
+  .howto { margin: 6px 0 16px; padding-left: 22px; display: grid; gap: 9px; }
+  .howto li { color: var(--text-muted); font-size: 14.5px; line-height: 1.65; padding-left: 4px; }
+  .howto li b { color: var(--text); }
+  .howto li::marker { color: var(--accent); font-family: var(--font-mono); font-weight: 600; }
+  .panel-lead { font-size: 14.5px; color: var(--text); font-weight: 600; margin: 4px 0 4px; }
+  @media (prefers-reduced-motion: reduce) { .tab-btn { transition: none; } }
+
+  /* ---------- footer ---------- */
+  footer { border-top: 1px solid var(--border-soft); padding: 44px 0 70px; }
+  footer .sources { font-size: 14px; color: var(--text-muted); }
+  footer .sources h3 { font-size: 1rem; margin-bottom: 12px; color: var(--text); }
+  footer .sources ul { list-style: none; display: grid; gap: 8px; }
+  footer .sources li { font-family: var(--font-mono); font-size: 13px; }
+  footer .disclaim {
+    margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--border-soft);
+    font-size: 13px; color: var(--text-dim); line-height: 1.7;
+  }
+  footer .sig { margin-top: 16px; font-family: var(--font-mono); font-size: 13px; color: var(--text-dim); }
+
+  /* ---------- reveal motion ---------- */
+  .reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.6s cubic-bezier(0.16,1,0.3,1), transform 0.6s cubic-bezier(0.16,1,0.3,1); }
+  .reveal.in { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .reveal { opacity: 1; transform: none; transition: none; }
+    .progress { transition: none; }
+  }
+
+  .backlink { font-size: 13.5px; color: var(--text-muted); font-family: var(--font-mono); white-space: nowrap; }
+  .todo { border-style: dashed; }
+  table.t { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14.5px; display: block; overflow-x: auto; }
+  table.t th, table.t td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--border); color: var(--text-muted); vertical-align: top; }
+  table.t th { color: var(--text); font-weight: 650; white-space: nowrap; }
+  .code pre { max-width: 100%; }
+  .wrap { overflow-wrap: anywhere; }
+  .steps { grid-template-columns: minmax(0, 1fr); }
+  .step, .code { min-width: 0; }
+  code.inl { white-space: normal; }
+
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brandmark"><span class="dot"></span> Claude Code × Telegram</div>
+    <a class="backlink" href="../">← 教學首頁</a>
+  </div>
+  <div class="progress" id="progress"></div>
+</div>
+<main>
+<header class="hero"><div class="wrap">
+  <span class="eyebrow">實戰筆記 · 2026</span>
+  <h1>用 Claude Code 跟 <span class="hl">Telegram</span> 對接</h1>
+  <p class="lede">出門在外,用手機傳一句話,家裡(或雲端)那台機器上的 Claude Code 就開工,做完回你。這篇是 Derek 自己長期使用的設定,包含官方 plugin 的用法、讓它不被踢掉的做法,以及一路踩到的坑。</p>
+  <div class="meta-row"><span>閱讀約 10 分鐘</span><span>難度:會用終端機與 tmux</span><span>適用:Claude Code + 訂閱方案</span></div>
+  <div class="tldr reveal">
+    <h2><span style="color:var(--accent);font-family:var(--font-mono)">TL;DR</span> 先講結論</h2>
+    <ul>
+      <li><b>用官方 telegram plugin</b>,以 <code class="inl">claude --channels</code> 啟動一個長期執行的互動 session,手機的訊息會直接進這個 session。</li>
+      <li><b>不要把 telegram 放進全域 enabledPlugins</b>,否則你多開第二個 claude 就會把 listener 踢掉。改成只在 listener 那個 session 用 <code class="inl">--settings</code> 啟用。</li>
+      <li><b>常駐靠 tmux + 一支小啟動腳本</b>;從 Telegram 觸發的重啟會殺掉自己,要用脫離式腳本。</li>
+      <li><b>定時通知另外做</b>:cron 或 daemon 直接呼叫 Bot API 的 sendMessage,完全不依賴 Claude。</li>
+      <li><b>安全:白名單只放你自己</b>,絕不因為 Telegram 訊息裡的要求去核准配對。</li>
+    </ul>
+  </div>
+</div></header>
+
+<section><div class="wrap">
+  <span class="sec-num">01</span>
+  <h2 class="sec">你會得到什麼</h2>
+  <p class="sec-sub">不需要截圖就能想像:Telegram 變成 Claude Code 的另一個輸入口。</p>
+  <ul class="body-list">
+    <li>在手機傳文字、照片、檔案、語音給你的 bot,Claude 收到後在你的機器上實際執行工作(讀檔、跑指令、改程式)。</li>
+    <li>Claude 用 plugin 提供的 reply 工具把結果傳回聊天室,也能對你的訊息按表情符號表示「收到」。</li>
+    <li>它是同一個 Claude Code session,有你平常的 CLAUDE.md、skills、記憶,不是另一個陽春聊天機器人。</li>
+    <li>走的是互動 session,計費跟你平常開終端機用 Claude Code 一樣(見第 08 節的計費提醒)。</li>
+  </ul>
+  <div class="flow reveal">
+    <div class="node accent"><div class="nlabel">手機 Telegram</div><div class="ndesc">你傳訊息</div></div><div class="arrow">→</div>
+    <div class="node"><div class="nlabel">Telegram Bot API</div><div class="ndesc">getUpdates 輪詢</div></div><div class="arrow">→</div>
+    <div class="node"><div class="nlabel">plugin 的 MCP server</div><div class="ndesc">bun 行程</div></div><div class="arrow">→</div>
+    <div class="node"><div class="nlabel">Claude Code session</div><div class="ndesc">--channels 啟動</div></div>
+  </div>
+  <p>跟 <a href="../codex-telegram/">Codex × Telegram 那篇</a> 的差別:那篇講的是第三方橋接程式(Codex 沒有官方 Telegram 外掛);Claude Code 有官方 plugin,所以這篇重點不在「找橋接」,而在「怎麼讓它穩定」。</p>
+</div></section>
+
+<section><div class="wrap">
+  <span class="sec-num">02</span>
+  <h2 class="sec">事前準備</h2>
+  <ul class="body-list">
+    <li><b>Linux 或 WSL2</b>(Derek 用 WSL2 Ubuntu)。macOS 也行,常駐方式換成你習慣的即可。</li>
+    <li><b>Claude 訂閱方案</b>與已登入的 Claude Code。</li>
+    <li><b>tmux</b>:<code class="inl">sudo apt install tmux</code>。</li>
+    <li><b>bun</b>:plugin 的 MCP server 是 bun 程式,需先安裝 bun。</li>
+    <li><b>一個 Telegram bot</b>:在 Telegram 找 <code class="inl">@BotFather</code>,送 <code class="inl">/newbot</code>,記下它給你的 <code class="inl">&lt;BOT_TOKEN&gt;</code>。token 等同密碼,別貼到任何公開地方。</li>
+  </ul>
+</div></section>
+
+<section><div class="wrap">
+  <span class="sec-num">03</span>
+  <h2 class="sec">安裝並配對官方 plugin</h2>
+  <p class="sec-sub">以下指令名稱以 plugin 目前版本為準;若有出入,請看 <code class="inl">/plugin</code> 裡該 plugin 的說明。</p>
+  <div class="steps">
+    <div class="step reveal"><h4>安裝 plugin</h4>
+      <p>在 Claude Code 裡用 <code class="inl">/plugin</code> 從官方 marketplace 安裝 <code class="inl">telegram</code>。</p></div>
+    <div class="step reveal"><h4>存入 bot token</h4>
+      <div class="code"><div class="code-head"><span class="fname">Claude Code 內</span><span>slash command</span></div>
+<pre><code>/telegram:configure <span class="var">&lt;BOT_TOKEN&gt;</span></code></pre></div>
+      <p>它會把 token 存到 plugin 的設定資料夾(一個權限 600 的 <code class="inl">.env</code> 檔)。不帶參數執行可以查看目前狀態與存取政策。</p></div>
+    <div class="step reveal"><h4>用 --channels 啟動</h4>
+      <div class="code"><div class="code-head"><span class="fname">終端機</span><span>bash</span></div>
+<pre><code>claude --channels plugin:telegram@claude-plugins-official</code></pre></div></div>
+    <div class="step reveal"><h4>配對你自己的帳號</h4>
+      <p>在 Telegram 對你的 bot 傳任何訊息,它會回一組配對碼。回到<b>終端機(不是 Telegram)</b>執行:</p>
+      <div class="code"><div class="code-head"><span class="fname">Claude Code 內</span><span>slash command</span></div>
+<pre><code>/telegram:access pair <span class="var">&lt;配對碼&gt;</span>
+/telegram:access policy allowlist</code></pre></div>
+      <p>第二行把政策改成「只有白名單內的人能用」,配對完成後務必做。再從手機傳一句話測試,Claude 應該會回覆。</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <span class="sec-num">04</span>
+  <h2 class="sec">為什麼不要把 telegram 放進全域 enabledPlugins</h2>
+  <p class="sec-sub">這是 Derek 踩過最有教育意義的一個坑。</p>
+  <div class="callout"><h3><span class="ico">!</span> 症狀</h3>
+    <p>listener 跑得好好的,你只是在別的資料夾多開了第二個 <code class="inl">claude</code>(什麼指令都沒下),Telegram 就斷了,而且第二個 claude 開場明顯卡一下。</p></div>
+  <p><b>原因</b>:plugin 一旦在全域 <code class="inl">enabledPlugins</code> 是 true,<b>每一個</b> claude 啟動時都會跟著起一支 bun MCP server,而這支 server 啟動就無條件對 Telegram 做 getUpdates 輪詢,還會主動把前一個輪詢者殺掉搶位(Telegram 一個 token 同時只准一條 getUpdates)。<code class="inl">--channels</code> 只決定「訊息送到哪個 session」,不影響「誰在輪詢」。</p>
+  <p><b>解法</b>:全域設定裡不要啟用 telegram,改成只在 listener 那一個 session 用 <code class="inl">--settings</code> 傳入 inline JSON 單獨啟用:</p>
+  <div class="code"><div class="code-head"><span class="fname">啟動 listener 的那一行</span><span>bash</span></div>
+<pre><code>claude --channels plugin:telegram@claude-plugins-official \
+  --settings '{"enabledPlugins":{"telegram@claude-plugins-official":true}}'</code></pre></div>
+  <p>--settings 會蓋過全域設定,所以只有這個 session 會起輪詢。其他普通 claude 全域是關的,不會再來搶。Derek 實測開第二個 claude,連線不斷。兩個小提醒:JSON 裡別出現單引號(會被 shell 解析兩次);改 settings.json 不會熱更新已在跑的 session,要重啟 listener 才生效。</p>
+</div></section>
+
+<section><div class="wrap">
+  <span class="sec-num">05</span>
+  <h2 class="sec">讓它常駐:tmux + 啟動腳本</h2>
+  <p class="sec-sub">listener 就是一個一直開著的互動 Claude session,放進 detached tmux 最單純。</p>
+  <p>Derek 寫了一支約 200 行的小腳本(下面是它的設計,不是完整原始碼),子指令有 <code class="inl">start / attach / status / stop / restart</code>。重點是這幾個防呆:</p>
+  <table class="t">
+    <tr><th>設計</th><th>為什麼</th></tr>
+    <tr><td>預先寫入資料夾信任旗標</td><td>detached tmux 沒有 TTY 可以回答「信任這個資料夾嗎」,缺了這步 claude 會永遠卡在提示。用暫存檔加 rename 的方式原子寫入。</td></tr>
+    <tr><td>啟動前與停止時掃孤兒 bun</td><td>claude 異常結束後,bun 輪詢行程可能殘留並霸佔 Telegram 的名額,新 listener 會一直 409 衝突。比對條件是「行程名為 bun 且工作目錄在 telegram plugin 內」,不會誤殺別人。</td></tr>
+    <tr><td>tmux session 單例檢查</td><td>重複執行只會印出 attach 指令,不會再生一個 listener。</td></tr>
+    <tr><td>pipe-pane 把畫面存成 log</td><td>當掉之後可以回頭查發生什麼事。</td></tr>
+    <tr><td>status 檢查 bun 行程真的活著</td><td>session 在不代表輪詢在。plugin 會寫一個 pid 檔,腳本確認該 pid 還是 bun。聾掉的 listener 要能一眼看出來。</td></tr>
+    <tr><td>不加 <code class="inl">set -e</code></td><td>pgrep 找不到、kill -0 失敗本來就會回非零,加了會誤殺腳本。</td></tr>
+  </table>
+  <p>Derek 特意<b>沒有</b>做自動看門狗、自我修復這類東西:他曾經做過一整套自動啟動加看門狗,結果反而一再出事(七次事件),最後退役,改回「要用的時候手動跑一次」。簡單、可預期比全自動重要。</p>
+  <div class="callout info"><h3><span class="ico">i</span> 從 Telegram 重啟 listener 會殺掉自己</h3>
+    <p>如果你在 Telegram 叫 Claude「重啟 listener」,它執行 stop 的瞬間就把自己所在的 session 殺了,你收不到「好了」的回覆。做法有二:從真正的終端機執行 restart;或寫一支用 <code class="inl">setsid</code> 脫離的重啟腳本,讓它在 session 死掉之後繼續執行 restart、等輪詢上線,再用 Bot API 傳一則「回來了」給你。</p></div>
+  <p>WSL 使用者另外要留意:關掉終端機視窗後,WSL 的 VM 可能閒置關閉,需要在 Windows 端的 <code class="inl">.wslconfig</code> 調整閒置逾時,listener 才能撐著。</p>
+</div></section>
+
+<section><div class="wrap">
+  <span class="sec-num">06</span>
+  <h2 class="sec">定時通知:另外做一條出站的路</h2>
+  <p class="sec-sub">提醒、價格警報、排程結果,不要靠 Claude 傳。</p>
+  <p>plugin 只負責「你傳給 Claude」。要從 cron 或常駐 daemon 主動通知你,直接呼叫 Bot API 的 sendMessage 就好,用一支很小的 bash 或 Python 腳本,<b>完全不依賴 Claude 或 plugin</b>。好處是即使 listener 當掉,通知照樣會發。</p>
+  <div class="code"><div class="code-head"><span class="fname">send_telegram.sh(示意)</span><span>bash</span></div>
+<pre><code><span class="cmt">#!/bin/bash</span>
+<span class="cmt"># 從權限 600 的檔案讀 token 與 chat_id,不要寫死在腳本裡</span>
+source ~/.config/mybot/env      <span class="cmt"># 內含 TELEGRAM_BOT_TOKEN 與 CHAT_ID</span>
+curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+  --data-urlencode "chat_id=${CHAT_ID}" \
+  --data-urlencode "text=$1" &gt; /dev/null</code></pre></div>
+  <p>你的 <code class="inl">&lt;你的 chat_id&gt;</code> 可以在配對後從 plugin 的存取設定看到,或對 bot 傳訊息後用 getUpdates 查。提醒:同一個 bot 同時做「plugin 輪詢」與「sendMessage」不會衝突,只有 getUpdates 同時只能一個人。</p>
+</div></section>
+
+<section><div class="wrap">
+  <span class="sec-num">07</span>
+  <h2 class="sec">語音訊息</h2>
+  <p>Telegram 的語音是 Ogg Opus 格式。Claude 收到時會附一個 attachment 標記,用 plugin 的 download_attachment 工具抓下來,再丟給<b>本機</b>的 faster-whisper 轉成文字,語音不會離開你的電腦。</p>
+  <div class="code"><div class="code-head"><span class="fname">轉錄(Python)</span><span>faster-whisper</span></div>
+<pre><code>from faster_whisper import WhisperModel
+m = WhisperModel("small", device="cpu", compute_type="int8")
+segs, info = m.transcribe(path, language="zh", beam_size=5, vad_filter=True)
+text = "".join(s.text for s in segs).strip()</code></pre></div>
+  <ul class="body-list">
+    <li>faster-whisper 內建的 PyAV 就能解 Opus,<b>直接餵 .oga 即可</b>。別用 Playwright 附帶的精簡版 ffmpeg,它不支援 Opus,會報 Invalid data。</li>
+    <li>"small" 模型第一次會下載約 460MB,之後快取;CPU int8 轉幾秒的語音只要幾秒。</li>
+    <li>語音裡若有金額、代號、日期等關鍵資訊,<b>先把轉錄結果回給你確認再動手</b>,避免聽錯做錯。</li>
+  </ul>
+</div></section>
+
+<section><div class="wrap">
+  <span class="sec-num">08</span>
+  <h2 class="sec">踩過的坑</h2>
+  <div class="callout"><h3><span class="ico">!</span> 坑 1:bun 輪詢起不來,多半是 .env 不見了</h3>
+    <p>如果 listener 的 bun 輪詢一直不活、pid 檔寫不出來,先檢查 plugin 設定資料夾裡的 <code class="inl">.env</code>(內含 bot token 與 chat_id)。它被刪掉時,手動跑 server 會立刻報 <code class="inl">TELEGRAM_BOT_TOKEN required</code>。補回檔案後,<b>要重啟整個 listener session</b>,因為 Claude 不會自動重試已經掛掉的 MCP server。</p>
+    <p>注意:若你的出站腳本也共用這個檔,刪了會進站出站一起壞,而出站要等排程觸發才發現。建議把 token 備份在密碼管理器,別只留一份。</p></div>
+  <div class="callout"><h3><span class="ico">!</span> 坑 2:plugin 本身仍有已知 bug</h3>
+    <p>Derek 用的 v0.0.6 有幾個公開 issue 尚未修:孤兒 bun 行程吃滿 CPU 且忽略 SIGTERM(強關終端機、筆電睡眠、斷網時容易發生)、MCP transport 被誤判斷線、在另一個 session 跑 <code class="inl">claude mcp list</code> 可能讓輪詢靜默死掉。復原方式:</p>
+    <div class="code"><div class="code-head"><span class="fname">清孤兒</span><span>bash</span></div>
+<pre><code>ps -eo pid,ppid,cmd | grep "bun server.ts" | awk '$2 == 1'   <span class="cmt"># 找孤兒</span>
+pkill -9 -f "bun server.ts"                                  <span class="cmt"># SIGTERM 沒用,要 -9</span></code></pre></div>
+    <p>然後重啟 listener。之後有新版就用 <code class="inl">/plugin</code> 重新安裝。</p></div>
+  <div class="callout"><h3><span class="ico">!</span> 坑 3:Claude 必須用 reply 工具回覆</h3>
+    <p>從 Telegram 來的訊息,Claude 在終端機畫面打出來的文字<b>你在手機上看不到</b>,只有呼叫 reply 工具送出的才會到。Derek 的 Claude 一再犯這個錯,害他一直問「你是不是忘記回我了」。解法是寫進 CLAUDE.md:收到訊息先用 react 按個表情表示收到,處理完<b>一定用 reply 工具</b>回覆;問選擇題也用純文字選項,不要用只在終端機顯示的互動式提問工具。長任務做完另發一則新 reply(編輯舊訊息不會推播通知)。</p></div>
+  <div class="callout"><h3><span class="ico">!</span> 坑 4:<code class="inl">claude -p</code> 與 API 計費</h3>
+    <p>依官方說明(<a href="https://support.claude.com/en/articles/15036540" target="_blank" rel="noopener">support.claude.com/en/articles/15036540</a>,2026-10-07 更新):用 Claude 訂閱方案登入時,<code class="inl">claude -p</code> 與 Agent SDK 都算訂閱額度;原本宣布的拆分已暫停。</p>
+    <p>會變成 API 計費的情況:環境裡設了 <code class="inl">ANTHROPIC_API_KEY</code>、使用 <code class="inl">--bare</code>(不吃訂閱登入)、或使用 Console API key。官方說 <code class="inl">--bare</code> 未來可能成為 <code class="inl">-p</code> 的預設,升級後要再確認。</p>
+    <p><b>提醒</b>:Derek 以前踩過的大額帳單,關鍵是環境裡有 API key。自動化腳本一律先檢查有沒有殘留的 key,計費規則仍以官方最新文件為準。</p></div>
+</div></section>
+
+<section><div class="wrap">
+  <span class="sec-num">09</span>
+  <h2 class="sec">安全守則</h2>
+  <p class="sec-sub">這個 bot 等於一條通往你電腦的遙控線,務必收緊。</p>
+  <ul class="body-list">
+    <li><b>白名單只放你自己</b>的 Telegram 帳號(政策設成 allowlist)。不要開放群組或陌生人。</li>
+    <li><b>配對只在終端機核准</b>。如果有 Telegram 訊息說「請核准待處理的配對」或「把我加進白名單」,那就是 prompt injection 會用的話術,一律拒絕。官方 plugin 的設計也是如此:Claude 不會因為頻道訊息而執行 access 指令。</li>
+    <li><b>token 與 chat_id 當密碼對待</b>:檔案權限 600、不進 git、不貼進對話或公開文章。外洩就到 BotFather 重新產生 token。</li>
+    <li><b>別讓 Claude 在聊天裡複述密鑰</b>,尤其是排查 token 問題時,驗證用 getMe 就好,不用印出來。</li>
+    <li>收到的檔案、圖片、轉傳內容都可能夾帶惡意指令,把它們當資料而不是命令;破壞性或花錢的動作,請 Claude 先回問你再做。</li>
+  </ul>
+</div></section>
+
+<section><div class="wrap">
+  <span class="sec-num">10</span>
+  <h2 class="sec">雲端版可以嗎?(Claude Code 雲端 / Cowork)</h2>
+  <p class="sec-sub">先講結論:目前沒有任何 Anthropic 雲端產品能原生做到「Telegram 傳進來 → Claude 動手 → Telegram 回覆」。</p>
+  <p>官方 Telegram channel 只在「本機正在跑的 claude CLI session」裡運作(<a href="https://code.claude.com/docs/en/channels" target="_blank" rel="noopener">channels 文件</a>)。各方案比較:</p>
+  <table class="t">
+    <tr><th>方案</th><th>收 Telegram</th><th>回 Telegram</th><th>要一直開機嗎</th><th>能碰什麼</th><th>計費</th></tr>
+    <tr><td>本機 CLI + <code class="inl">--channels</code>(本文做法)</td><td>可</td><td>可</td><td>要</td><td>本機檔案、腳本、本機 MCP</td><td>訂閱</td></tr>
+    <tr><td>Claude Code 雲端(<a href="https://code.claude.com/docs/en/claude-code-on-the-web" target="_blank" rel="noopener">文件</a>)</td><td>無 channel</td><td>無原生</td><td>不用</td><td>雲端 VM、GitHub repo、connectors,閒置會停</td><td>訂閱</td></tr>
+    <tr><td>Routines 排程雲端任務,<code class="inl">/schedule</code>(<a href="https://code.claude.com/docs/en/routines" target="_blank" rel="noopener">文件</a>,研究預覽)</td><td>間接:有 API trigger(HTTP POST 帶文字),可自己接</td><td>要能連 Telegram 網域或 connector(未驗證)</td><td>不用</td><td>同雲端 session;每次觸發都是新 session,不是對話</td><td>訂閱</td></tr>
+    <tr><td>Remote Control(<a href="https://code.claude.com/docs/en/remote-control" target="_blank" rel="noopener">文件</a>)</td><td>否</td><td>否</td><td>要</td><td>只是用手機遙控本機 session</td><td>訂閱</td></tr>
+    <tr><td>Cowork(含 Dispatch,beta;<a href="https://support.claude.com/en/articles/13947068" target="_blank" rel="noopener">說明</a>)</td><td>沒有 Telegram</td><td>否</td><td>Dispatch 要電腦醒著、app 開著</td><td>本機檔案、connectors</td><td>訂閱</td></tr>
+    <tr><td>claude.ai 對話 + connectors</td><td>無已知 Telegram connector</td><td>否</td><td>不用</td><td>connectors 與上傳檔</td><td>訂閱</td></tr>
+    <tr><td>Managed Agents</td><td>要自己寫 bot</td><td>自己寫</td><td>不用(Anthropic 代管)</td><td>雲端沙盒</td><td><b>API 計費</b></td></tr>
+  </table>
+  <h3>建議</h3>
+  <ul class="body-list">
+    <li><b>要碰本機檔案、排程提醒、本機腳本</b>:維持本機 <code class="inl">--channels</code> 做法。不想用家裡電腦,就搬到 VPS 或雲端 VM,用 tmux 跑 <code class="inl">claude --channels</code>,仍是訂閱計費。</li>
+    <li><b>只想跑 repo 類、不碰本機的任務</b>:可自己寫一個 Cloudflare Worker 收 Telegram webhook,轉呼叫 routine 的 API trigger(進階,回覆要自己處理)。</li>
+    <li><b>Cowork</b>:目前不行。</li>
+  </ul>
+  <p>Routines 與 Cowork 都是研究預覽或 beta,功能變動快,請以官方最新文件為準。</p>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="sources"><h3>延伸閱讀</h3><ul>
+    <li><a href="../codex-telegram/">Codex × Telegram 新手教學(第三方橋接程式作法)</a></li>
+    <li><a href="../claude-skills/">Claude Code 好用 Skills 與 Agents</a></li>
+    <li><a href="../">← 回教學首頁</a></li>
+  </ul></div>
+  <p class="disclaim">本文是個人使用經驗整理,非官方文件。plugin 版本、指令名稱與計費規則可能隨時變動,實際操作請以 Anthropic 與 plugin 最新說明為準。文中的 token、chat_id 一律以佔位符表示,請換成你自己的並妥善保管。</p>
+  <p class="sig">寫給想自己動手的人 · Derek</p>
+</div></footer>
+</main>
+<script>
+  var items = document.querySelectorAll('.reveal');
+  var prefersReduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (prefersReduce || !('IntersectionObserver' in window)) {
+    items.forEach(function (el) { el.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    items.forEach(function (el) { io.observe(el); });
+  }
+</script>
+</body>
+</html>
