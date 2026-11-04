@@ -329,7 +329,8 @@
   <span class="sec-num">02</span>
   <h2 class="sec">事前準備</h2>
   <ul class="body-list">
-    <li><b>Linux 或 WSL2</b>(Derek 用 WSL2 Ubuntu)。macOS 也行,常駐方式換成你習慣的即可。</li>
+    <li><b>作業系統:推薦 WSL2</b>(Derek 用 WSL2 Ubuntu;Windows 一行 <code class="inl">wsl --install</code> 就裝好)。Linux、macOS 也行。</li>
+    <li><b>Windows PowerShell 也可以</b>:Claude Code 有原生 Windows 版,plugin 需要的 bun 也有 Windows 版。但本文的 tmux 與 bash 啟動腳本在 Windows 不能用,常駐要改成一直開著 Windows Terminal 視窗(或自己寫 PowerShell 腳本),定時通知改用「工作排程器」。本文的坑都是在 WSL 上踩的,Windows 未實測,想照著做最省事還是用 WSL。</li>
     <li><b>Claude 訂閱方案</b>與已登入的 Claude Code。</li>
     <li><b>tmux</b>:<code class="inl">sudo apt install tmux</code>。</li>
     <li><b>bun</b>:plugin 的 MCP server 是 bun 程式,需先安裝 bun。</li>
