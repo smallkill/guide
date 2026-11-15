@@ -83,15 +83,15 @@
 <script>
 // 資料:原本三個陣列,欄位 box(img/box/ 官方圖)、img(img/ 自己拍的;有 imgLabel 時為商品圖)
 const items = [
- {img:"18-xmas-sleigh-clodsire.jpg", tag:"18-xmas-sleigh-clodsire-tag.jpg", name:"聖誕送禮雪橇 皮卡丘＆土王(ドオー)", jp:"プレゼントお届けチュウ ぬいぐるみ ピカチュウ ドオー", loc:"寶可夢中心(通販/全店)", year:"2026/10", conf:"高",
+ {box:"18-xmas-sleigh-clodsire.jpg", img:"18-xmas-sleigh-clodsire-mine.jpg", name:"聖誕送禮雪橇 皮卡丘＆土王(ドオー)", jp:"プレゼントお届けチュウ ぬいぐるみ ピカチュウ ドオー", loc:"寶可夢中心(通販/全店)", year:"2026/10", conf:"高",
   note:"「クリスマス じゅんびチュウ！」系列——土王(ドオー,帕底亞)戴聖誕帽、綠緞帶,拉著載著皮卡丘與禮物袋的紅色雪橇。吊牌「プレゼントお届けチュウ ぬいぐるみ」。2026/10/22 通販、10/24 全店,¥5,500。"},
- {img:"19-xmas-tree-mochifuwa.jpg", name:"聖誕樹裝皮卡丘(もちふわ)", jp:"もちふわぬいぐるみ ツリーごっこピカチュウ", loc:"寶可夢中心(通販/全店)", year:"2026/10", conf:"中高",
+ {box:"19-xmas-tree-mochifuwa.jpg", img:"19-xmas-tree-mochifuwa-mine.jpg", name:"聖誕樹裝皮卡丘(もちふわ)", jp:"もちふわぬいぐるみ ツリーごっこピカチュウ", loc:"寶可夢中心(通販/全店)", year:"2026/10", conf:"中高",
   note:"大型聖誕樹裝皮卡丘:綠色樹形毛絨裝、頭頂金星、紅色大蝴蝶結與橘色小球。照片是店內塑膠袋包裝、無吊牌;依外觀對應「クリスマス じゅんびチュウ！」2026 系列的「もちふわぬいぐるみ ツリーごっこピカチュウ」(¥4,400),待吊牌確認。"},
- {img:"20-xmas-porygon2.jpg", tag:"20-xmas-porygon2-tag.jpg", name:"皮卡丘與多邊獸Ⅱ的玩具(聖誕吊飾)", jp:"マスコット クリスマス じゅんびチュウ！ ピカチュウとポリゴン2のおもちゃ", loc:"寶可夢中心(通販/全店)", year:"2026/10", conf:"高",
+ {box:"20-xmas-porygon2.jpg", img:"20-xmas-porygon2-mine.jpg", name:"皮卡丘與多邊獸Ⅱ的玩具(聖誕吊飾)", jp:"マスコット クリスマス じゅんびチュウ！ ピカチュウとポリゴン2のおもちゃ", loc:"寶可夢中心(通販/全店)", year:"2026/10", conf:"高",
   note:"「クリスマス じゅんびチュウ！」マスコット(附扣環),戴聖誕帽的皮卡丘騎在多邊獸Ⅱ玩具車上。2026/10/22 通販、10/24 全店,¥2,200。吊牌 JAN 4521329454252。"},
- {img:"21-xmas-tsumamigui.jpg", tag:"21-xmas-tsumamigui-tag.jpg", name:"偷吃點心皮卡丘(聖誕吊飾)", jp:"マスコット クリスマス じゅんびチュウ！ ピカチュウ つまみぐい", loc:"寶可夢中心(通販/全店)", year:"2026/10", conf:"高",
+ {box:"21-xmas-tsumamigui.jpg", img:"21-xmas-tsumamigui-mine.jpg", name:"偷吃點心皮卡丘(聖誕吊飾)", jp:"マスコット クリスマス じゅんびチュウ！ ピカチュウ つまみぐい", loc:"寶可夢中心(通販/全店)", year:"2026/10", conf:"高",
   note:"「クリスマス じゅんびチュウ！」マスコット,瞇眼抱著派/麵包偷吃的皮卡丘。2026/10/22 通販、10/24 全店,¥2,200。吊牌 JAN 4521329454238。"},
- {img:"22-xmas-yukimamire.jpg", tag:"22-xmas-yukimamire-tag.jpg", name:"滿身是雪皮卡丘(聖誕吊飾)", jp:"マスコット クリスマス じゅんびチュウ！ ピカチュウ ゆきまみれ", loc:"寶可夢中心(通販/全店)", year:"2026/10", conf:"高",
+ {box:"22-xmas-yukimamire.jpg", img:"22-xmas-yukimamire-mine.jpg", name:"滿身是雪皮卡丘(聖誕吊飾)", jp:"マスコット クリスマス じゅんびチュウ！ ピカチュウ ゆきまみれ", loc:"寶可夢中心(通販/全店)", year:"2026/10", conf:"高",
   note:"「クリスマス じゅんびチュウ！」マスコット,戴聖誕帽、全身沾滿白雪的皮卡丘。2026/10/22 通販、10/24 全店,¥2,200。吊牌 JAN 4521329454245。"},
  {box:"15-magic-hour.jpg", img:"15-magic-hour-mine.jpg", name:"Magic Hour Illusion! 萬聖節鬆餅皮卡丘", jp:"ぬいぐるみ Pokémon Magic Hour Illusion! ピカチュウ", loc:"寶可夢中心(通販/全店;台灣有販售)", year:"2026/09", conf:"高",
   note:"「Pokémon Magic Hour Illusion!」萬聖節系列——被幻象變成點心森林、在萬聖節點心派對上玩的皮卡丘。戴鬆餅造型小帽、棕色斗篷＋橘黑條紋蝴蝶結(與阿羅拉雷丘款同款緞帶)。2026/09/10 通販先行、09/12 全店。¥3,960,16.5×12×21.5cm。吊牌 JAN 4521329439129 核對官方頁相符。"},
@@ -161,7 +161,7 @@ const TABS=[
 // 每個分頁內各自編號(同原本 1..n)
 const ALL=[];
 TABS.forEach(t=>t.data.forEach((it,i)=>ALL.push(Object.assign({},it,{id:t.id+'-'+(i+1),tab:t.id,n:i+1}))));
-const photosOf=c=>[c.box&&'img/box/'+c.box,c.img&&'img/'+c.img,c.tag&&'img/'+c.tag].filter(Boolean);
+const photosOf=c=>[c.box&&'img/box/'+c.box,c.img&&'img/'+c.img].filter(Boolean);
 CatalogViewer.init({
   load:()=>({items:ALL}),
   imgBase:'',
@@ -169,7 +169,7 @@ CatalogViewer.init({
   photos:photosOf,
   mainImage:c=>photosOf(c)[0],
   // 第一張官方商品圖(白底)、第二張自己拍的(或 imgLabel 指定的商品圖)
-  photoLabel:(p,c)=>c.tag&&p==='img/'+c.tag?['吊牌','','']:p.startsWith('img/box/')?['官方圖','','wbg']:c.imgLabel?[c.imgLabel,'','wbg']:['我拍的','mine',''],
+  photoLabel:(p,c)=>p.startsWith('img/box/')?['官方圖','','wbg']:c.imgLabel?[c.imgLabel,'','wbg']:['我拍的','mine',''],
   thumb:{
     badges:c=>`<span class="num">${c.n}</span>`,
     meta:c=>`<div class="nm">${esc(c.name)}</div>
