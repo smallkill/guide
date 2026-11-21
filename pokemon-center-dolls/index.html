@@ -126,7 +126,7 @@ const items = [
  {box:"08-cts-pilot.jpg", img:"08-cts-pilot.jpg", name:"新千歲機場 機長皮卡丘(ver.2)", jp:"ぬいぐるみ パイロットピカチュウ 新千歳空港ver.2", loc:"ポケモンストア 新千歲空港店限定", year:"2020/06(ver.2)", conf:"高",
   note:"黑色機長帽＋白襯衫、深藍領帶,胸前「CTS」徽章(新千歲機場代碼)。新千歲機場官網推薦商品頁「ぬいぐるみ パイロットピカチュウ 新千歳空港ver.2」,官方圖與實物一致;現價 ¥2,750(2023 年存檔頁為 ¥1,870)。初代(2014 開店款)是深藍雙排釦外套版。與空服款成對購入。"},
  {box:"08b-cts-ca.jpg", img:"08b-cts-ca.jpg", name:"新千歲機場 空服皮卡丘(ver.2)", jp:"CAピカチュウ ポケモンストア新千歳空港店 ver.2 ぬいぐるみ", loc:"ポケモンストア 新千歲空港店限定", year:"2020/06(ver.2)", conf:"高",
-  note:"藍色制服＋紅色寶貝球圖案領巾、紅腰帶,胸前「CTS」徽章。與機長款成對購入。JAN 4521329296562(駿河屋登錄品名);2020/06/13 與機長 ver.2 一起上市(夏服設計,依粉絲部落格)。白底商品圖由 Derek 提供(官方攝影風格,胸章被領巾遮住,CTS 版或成田 NRT 版無法從圖確認),官方價格未查到(成田空港 ver.2 同款設計但徽章為 NRT)。初代 CA(2015/05/28 加入)是粉紅條紋大蝴蝶結版,¥1,600(未稅)。"},
+  note:"藍色制服＋紅色寶貝球圖案領巾、紅腰帶,胸前「CTS」徽章。與機長款成對購入。JAN 4521329296562(駿河屋登錄品名);2020/06/13 與機長 ver.2 一起上市(夏服設計,依粉絲部落格)。白底商品圖由 Derek 提供(官方攝影,Derek 確認為 CTS 版;胸章被領巾遮住),官方價格未查到(成田空港 ver.2 同款設計但徽章為 NRT)。初代 CA(2015/05/28 加入)是粉紅條紋大蝴蝶結版,¥1,600(未稅)。"},
  {box:"13-white-pikachu.jpg", img:"13-white-pikachu.jpg", name:"淺淺丘（Pokémon Pokopia）", jp:"ぬいぐるみ ぽこ あ ポケモン ピカチュウ（うすいろ）", loc:"寶可夢中心(通販/全店)", year:"2026/03", conf:"高",
   note:"《Pokémon Pokopia》遊戲初登場的淺色皮卡丘「淺淺丘」——因幫朋友過度放電而虛弱,毛色轉為象牙白、耳朵下垂。刺繡眼、粉紅腮紅。定價 ¥2,750。"},
  {box:"14-sleepy-pikachu.jpg", img:"14-sleepy-pikachu.jpg", name:"趴睡皮卡丘(卡納赫拉聯名)", jp:"ぬいぐるみ Pokémon Yurutto 寝そべりピカチュウ", loc:"寶可夢中心(通販/全店)", year:"2020/12", conf:"高",
@@ -165,7 +165,7 @@ const TABS=[
 // 每個分頁內各自編號(同原本 1..n)
 const ALL=[];
 TABS.forEach(t=>t.data.forEach((it,i)=>ALL.push(Object.assign({},it,{id:t.id+'-'+(i+1),tab:t.id,n:i+1}))));
-const IMGV='?v=20261121d';
+const IMGV='?v=20261122a';
 const photosOf=c=>[c.box&&'img/box/'+c.box+IMGV,c.img&&'img/'+c.img+IMGV].filter(Boolean);
 CatalogViewer.init({
   load:()=>({items:ALL}),
