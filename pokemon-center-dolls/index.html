@@ -165,7 +165,7 @@ const TABS=[
 // 每個分頁內各自編號(同原本 1..n)
 const ALL=[];
 TABS.forEach(t=>t.data.forEach((it,i)=>ALL.push(Object.assign({},it,{id:t.id+'-'+(i+1),tab:t.id,n:i+1}))));
-const IMGV='?v=20261121';
+const IMGV='?v=20261121b';
 const photosOf=c=>[c.box&&'img/box/'+c.box+IMGV,c.img&&'img/'+c.img+IMGV].filter(Boolean);
 CatalogViewer.init({
   load:()=>({items:ALL}),
